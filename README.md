@@ -1,11 +1,11 @@
-# v0.9.0 五系叠层 · 好友联机
+# v0.10.0 酒馆法术 · 六族核心 · 好友联机
 
-[Android APK 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.9.0/ClassicTavern-v0.9.0.apk)
+[Android APK 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.10.0/ClassicTavern-v0.10.0.apk)
 
-[Windows EXE 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.9.0/ClassicTavern-v0.9.0.exe)
+[Windows EXE 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.10.0/ClassicTavern-v0.10.0.exe)
 
 单机：进入酒馆，选择英雄后和七名机器人对战。
-联机：双方使用 v0.9.0，在同一 Wi-Fi / 局域网中，一人点击「好友联机 → 创建房间」，其他人输入房间显示的房主 IPv4 地址和端口（默认 4271）加入。Windows 首次询问网络访问时允许当前私人网络。房主添加机器人、选择 BOT 难度后开始。手机也能创建房间。
+联机：双方使用 v0.10.0，在同一 Wi-Fi / 局域网中，一人点击「好友联机 → 创建房间」，其他人输入房间显示的房主 IPv4 地址和端口（默认 4271）加入。Windows 首次询问网络访问时允许当前私人网络。房主添加机器人、选择 BOT 难度后开始。手机也能创建房间。
 
 EXE 内嵌游戏资源，下载后直接运行；APK 使用原包名和签名，可覆盖旧版。系统更新由用户确认，不自动安装。
 这是客户端主动建房的局域网版本，没有持续运行的公网服务器。远程不同网络需要双方已有的虚拟局域网，或自行提供可达 WebSocket 地址；本版未部署公网中继。
@@ -13,7 +13,9 @@ EXE 内嵌游戏资源，下载后直接运行；APK 使用原包名和签名，
 
 ## 当前内容
 
-- 六族全开：野兽 14、鱼人 10、龙 9、机械 13、恶魔 9、海盗 10，另有中立 12；共 77 张可购买随从、13 张衍生物、8 位英雄。
+免费叠盾/叠毒强化已彻底移除。酒馆独立法术位随刷新更换、冻结保留；按价格购买进手牌再施放。定向法术拖至友方战场或酒馆随从，无效拖动不消耗。
+
+- 六族全开：野兽 15、鱼人 11、龙 10、机械 14、恶魔 10、海盗 11，另有中立 12；共 83 张可购买随从、13 张衍生物、13 张酒馆法术、8 位英雄。
 - 圣盾 N 抵挡 N 次；复生 N 消耗一层、1 血返回；风怒 N 连续 N＋1 次；烈毒有效伤害消耗一层，撞盾不消耗；狂战 N 额外命中最近的 N 个相邻随从。
 - 重复赋予、磁力累加；三连保留额外层数；金色扎普与破浪巨人为风怒 3。战斗彩色显示层数，详情可滚动查看含义。
 - 四档机器人：休闲、标准、困难、酒馆霸主。霸主仅 BOT 起始 4 币、上限 12 币、10 护甲。
@@ -33,7 +35,7 @@ EXE 内嵌游戏资源，下载后直接运行；APK 使用原包名和签名，
 
 Windows 扩展放 EXE 同级 `mods/*.json`；房主验证后的卡池同步给客户端。五种层数使用 `charges` / `gold_charges`。详见本地 EXTENDING.md。
 
-本版通过 306 项回归、两个独立 Windows EXE 进程互联，以及 Windows EXE 房主和 Android 13 模拟器 APK 的触摸入房、购买、上阵、战斗、下一回合及房主断开流程。实体手机与两台实体机器的 Wi-Fi、高延迟公网环境尚未实测。
+本版通过 350 项回归、两个独立 Windows EXE 进程互联，以及 Windows EXE 房主和 Android 13 模拟器 APK 的触摸入房、购买、上阵、战斗、下一回合及房主断开流程。实体手机与两台实体机器的 Wi-Fi、高延迟公网环境尚未实测。
 
 [版本公告](更新记录.md) · [卡池与适配](六族卡池与适配.md) · [联机体验说明](联机体验说明.md) · [验证记录](VERIFICATION.md)
 
