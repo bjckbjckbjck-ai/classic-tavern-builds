@@ -5,6 +5,7 @@
 - Windows EXE 作为房主进程，Android 13 模拟器运行最终 APK，通过 10.0.2.2:14281 连接。实际触摸操作填地址、加入、添加七个 BOT、调整霸主难度、开局、购买、上阵、结束回合。成功收到战斗和第二回合状态（58 生命、4/4 铸币），截图 v9-android-lobby / recruit / combat / next-round。
 - 关闭 Windows 房主后，Android 返回主菜单并提示房主断开。测试房主已关闭，没有留下游戏服务器。
 - Android APK 覆盖原安装成功，包名 org.classictavern.game、versionCode 9；APK ZIP 完整、资源与公告正确，未打包测试和旧浏览器参考目录；v2/v3 签名验证通过，证书与 v0.8.0 相同。
+- 公开发布后，以无登录下载方式重新下载 EXE / APK，两者 SHA256 均与本地最终包一致；Android 实际点击检查更新返回 v0.9.0 已为最新。
 - 原生 Windows 渲染检查菜单、联机页、房间、五色层数与金色扎普详情。两行短徽标保留随从原画空间。
 - 未实测：两台实体设备同一 Wi-Fi、安卓机型差异与公网高延迟；不把模拟器互通视为实体手机验收。没有公网中继部署、断线重接管、主机迁移。部分 headless UI 退出仍有 ObjectDB 存活警告；Android 启动有缓存 shader 重编译提示，无此次 GDScript 错误或 AndroidRuntime 崩溃。
 
