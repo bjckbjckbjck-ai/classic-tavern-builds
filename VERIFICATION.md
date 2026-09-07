@@ -1,3 +1,18 @@
+# v0.10.0 验证（2026-09-07）
+
+- 16 个回归套件共 350 项断言通过，包含新增法术与核心随从 36 项、法术交互 8 项；最终显示与同步调整后重跑这 44 项通过。
+- 两个最终 Windows EXE 进程完成联机，验证购买随从、上阵、购买法术、施放、战斗同步、私人状态隔离及退出后 BOT 接管。日志 `.runtime/v10-network-host.log` / `v10-network-client.log`。
+- 最终 APK 覆盖安装成功；Android 13 模拟器连接最终 Windows EXE 房主，实际触摸加入房间、添加三个 BOT、开局、购买附魔链索、拖动施放获得雄斑虎、上阵并进入战斗。截图 `screenshots/v10-android-spell-buy.png`、`v10-android-spell-cast.png`、`v10-android-combat.png`。
+- Windows 原生截图检查五色关键词、金色透明圣盾膜、法术独立商店位置与 13 张法术图鉴。输入回归覆盖目标法术拖给商店随从、无效松手保留手牌、己方满场仍可施法。
+- APK ZIP 完整，含 13 张法术、6 张新增核心、公告和原画；未打包 tests、references、.runtime。v2/v3 签名验证通过并沿用原证书，versionCode 10。
+- 发布后匿名完整下载 APK 与 EXE，大小及 SHA256 均与最终本地包一致。Android 实际点击检查更新，返回“当前已是最新版本：v0.10.0”。
+- 测试房主与模拟器中的游戏已关闭。本轮未实测实体手机、两台实体设备 Wi-Fi 和公网延迟；模拟器互通不等同于实体机验收。350 项检查也不代表长期种族平衡已验证。部分 headless UI 退出仍有 ObjectDB 警告，Android 有缓存 shader 重编译提示；本次 Android 日志未发现 GDScript 错误或 AndroidRuntime 致命崩溃。
+
+- ClassicTavern-v0.10.0.exe: 154994736 bytes; SHA256 `6a445ed5f768ec4452a012625041b02fd7b0995dfc13b1ec99f8b6a604bb800f`
+- ClassicTavern-v0.10.0.apk: 134450659 bytes; SHA256 `b4246add9044268dd17a89d33232a5610f094f25dbe73847dd4727f142da98cb`
+
+---
+
 # v0.9.0 验证（2026-09-07）
 
 - 14 个回归套件，306 项断言通过：五种关键词 71 项、联机/UI 新增 10 项，既有 225 项全部通过。
