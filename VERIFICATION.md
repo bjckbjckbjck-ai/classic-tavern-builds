@@ -1,3 +1,20 @@
+# v0.12.0 验证（2026-09-08）
+
+- 21 组回归检查、428 项断言通过。20 组主回归 424 项，新增三英雄全局模拟 4 项。日志 `.runtime/v12-*-test.log`（实际套件名使用下划线，如 v12-playstyles_v12_test.log）。
+- 覆盖手牌成长、低音提琴战斗副本与单次限制、合唱回放不泄露手牌、提克迪奥斯与回溯、娜拉分族增益、生火专家法术等级、7 张法术、第三次购买免费、蛇眼冷却、荷利戴与自负结算。
+- 新英雄在标准和霸主难度、两个种子下各完成八人 BOT 全局，检查铸币、手牌、战场与唯一冠军边界。既有 AI 回归含多难度完整模拟；这不等同于长期平衡数据。
+- 原生 Windows 实际渲染检查 `screenshots/v12-minion-grey.png`、`v12-hero-grey.png`：致命伤灰化、0 血、灰色英雄头像和淘汰名次；测试另外检查灰色离场残影及清理。`v12-playstyles.png` 检查新核心原画与免费法术价格。
+- 最终 Windows EXE 双进程加入、购买/施放法术、上阵、战斗、私有快照与断线 BOT 托管通过。日志 `.runtime/v12-network-host.log` / `v12-network-client.log`。
+- Android 13 模拟器覆盖安装最终 APK 成功，实际触摸第三页新英雄选择、蛇眼开局与技能。投出 1 点后，3 币先扣 1 再加 1，仍为 3/3，旁边显示冷却 1 回合并禁用技能。截图 `v12-android-menu.png`、`v12-android-snake-roll.png`。
+- Android versionCode 12、versionName 0.12.0；arm64-v8a / armeabi-v7a / x86_64。v2/v3 签名检查通过，证书与旧版一致；ZIP 完整，包内有 20 张法术、最新公告、卡池和 24 音效映射，不含 tests/references/.runtime。
+- GitHub 正式发布后，匿名完整下载 APK 和 EXE，大小与 SHA256 均匹配。Android 内实际点击检查更新，显示“当前已是最新版本：v0.12.0”。
+- 尚未实测实体安卓手机、两台实体设备 Wi-Fi、不同机型性能与长期胜率。既有 headless 退出资源警告不等同于游戏中故障；本次 Android 日志未发现 GDScript 错误或 AndroidRuntime 致命崩溃。没有常驻公网服务器。
+
+- ClassicTavern-v0.12.0.exe: 162316720 bytes; SHA256 `303df27def8aa4224787fab59061a67ad0229948855de6bde77f1fd5be9f3a89`
+- ClassicTavern-v0.12.0.apk: 141675022 bytes; SHA256 `036b0e377dbdd9a3457bb34cc3b442c8590453c9658870b0e75a91c50ee4777d`
+
+---
+
 # v0.11.0 验证（2026-09-08）
 
 - 18 个回归套件共 383 项断言通过。新增 25 项规则与事件检查、8 项 UI/音频资源检查；旧计数断言更新为包含五张退池兼容定义，实际商店仍为 83 种。
