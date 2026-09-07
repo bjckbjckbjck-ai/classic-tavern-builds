@@ -112,3 +112,8 @@ passive.type 新增 macaw、deathrattle_multiplier、summon_multiply；deathratt
 ## v0.13 国王老汉
 
 英雄 power=king_laohan，cost=5。使用 `draw_card(roll,true)` 从精确星级共享池抽取。`dice_serial` 递增标识成功处理的掷骰事件，`last_roll` 为结果；客户端不生成规则随机数。本地操作记录不通过玩家公开快照分享。AI 有至少三名随从时考虑技能。
+
+
+## v0.14 扩展
+
+最终内置覆盖包为 `data/armor-expansion.json`，之后加载外部 mods。新增 passive：end_tribe、start_dragon_shield、shield_loss、play_consume、spend_attack；战吼 consume 以及 target 的 per_pirate_buy/per_gold_spent。英雄 power：nozdormu、alexstrasza、patches。实际费用统一调用 Rules.power_cost。spent 三连取最高值。
