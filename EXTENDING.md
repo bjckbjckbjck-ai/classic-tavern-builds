@@ -107,3 +107,8 @@ passive.type 新增 macaw、deathrattle_multiplier、summon_multiply；deathratt
 最终内置覆盖层为 `data/playstyles-expansion.json`，外部 mods 随后加载。新增 passive：hand_murloc、hand_stats、damage_demons、spell_menagerie、end_spells；deathrattle：summon_hand、lowest_damage。酒馆法术增加 free_refresh、roar、battlecry、shield、confidence、shop_aura、armor。
 
 `Combat.fight` 第四参数为双方私有手牌，仅内部使用。不得把完整手牌加入战斗事件；只序列化真正入场的副本或可见属性结果。`roars` 是永久附魔层数，磁力和三连相加；`SPELLS.buy_price` 为购买价格唯一入口，base_cost 保留原费用。
+
+
+## v0.13 国王老汉
+
+英雄 power=king_laohan，cost=5。使用 `draw_card(roll,true)` 从精确星级共享池抽取。`dice_serial` 递增标识成功处理的掷骰事件，`last_roll` 为结果；客户端不生成规则随机数。本地操作记录不通过玩家公开快照分享。AI 有至少三名随从时考虑技能。
