@@ -7,7 +7,7 @@
 - 最终 Windows EXE 两个独立进程通过建房加入、购买、法术同步、战斗、私有快照和断线 BOT 接管，日志 `.runtime/v18-network-summary.log`。没有部署公网服务器。
 - Android 13 模拟器覆盖安装成功，versionName 0.18.0 / versionCode 18。实际触摸打开图鉴、切换分类和检查更新；主菜单显示当前已是最新 v0.18.0。该轮日志无 SCRIPT ERROR 或 FATAL EXCEPTION。
 - APK 签名通过，沿用 Android Debug 证书 SHA256 `5d15dbad38e4504fa3b1e7ad1aab3c91d0e65bc57f29e8d775866893a659b2cc`。APK ZIP 校验通过，含新增经济卡 JSON，原始照片附件不入包。Godot 导入与两个导出日志无 ERROR。
-- 发布地址：https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.18.0 。上传完成，应用更新接口可识别；本机完整匿名下载复核另记结果。
+- 发布地址：https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.18.0 。GitHub 返回的两个附件大小和 SHA256 digest 与本地产物一致，应用更新接口可识别。匿名链接已开始返回文件内容，但当前网络较慢，未完成整包匿名回下载复核。
 - 未验证：实体安卓触摸与扬声器、两台实体设备跨平台 LAN、真人运营平衡。本版没有新增双打界面，仅预留显式队伍字段；普通对抗不会给对手增加上限。
 
 | 文件 | 字节 | SHA256 |
