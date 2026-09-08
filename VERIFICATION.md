@@ -1,3 +1,23 @@
+# v0.20.0 验证（2026-09-09）
+
+- 39 个功能套件、688 项断言通过，汇总 `.runtime/v20-final-result.txt`。按用户要求未运行平衡模拟。
+- 新增规则测试16项、UI测试8项，覆盖随机四选一、备选隐私、三位新英雄、固定配对、幽灵对手、阵亡观战权限、目标淘汰切换和独立音乐设置。
+- 实际主程序双进程观战检查通过：死亡客户端切换视角、目标死亡自动切换，房主拒绝死亡玩家购买。日志 `.runtime/v20-spectator-summary.log`。
+- 最终 EXE 双独立进程通过建房、加入、购买、法术同步、战斗、私有快照及断线BOT接管，日志 `.runtime/v20-network-summary.log`。没有部署公网服务器。
+- 原生截图检查英雄选择、卡牌光影、下一对手、观战与音乐设置。Android 13 模拟器覆盖安装成功，实际触摸选择塔隆并进入招募，截图 `screenshots/v20-android-recruit.png`。安装版本 versionCode 20 / versionName 0.20.0。
+- Godot 导入、Windows和Android导出无 ERROR；APK ZIP校验及签名验证通过，沿用旧版证书。包内两首MP3对应的导入音频资源完整；41类音效资源检查通过。
+- 安卓实际点击检查更新，返回当前已是最新 v0.20.0，截图 `screenshots/v20-android-update.png`；本轮Android日志无 SCRIPT ERROR / FATAL EXCEPTION。
+- 使用原版炉石公开原声 Pull up a Chair 与 Tabletop Battles，非战棋专属配乐。音乐独立音量与场景切换通过功能检查。
+- GitHub发布附件大小和SHA256与本地一致，未完成整包匿名回下载复核。
+- 未验证：实体安卓触控与扬声器、两台实体设备LAN、真人平衡、复杂亡语极端性能。部分headless退出保留历史资源清理警告。
+
+| 文件 | 字节 | SHA256 |
+|---|---:|---|
+| ClassicTavern-v0.20.0.apk | 173822787 | 0512b113d3bb479a5039ccdeb289e37985a9252a40eb41655f1982137f4550eb |
+| ClassicTavern-v0.20.0.exe | 196081608 | b8dcd8b71661832a50046208dc5d86950677ce0677bc7b56f2451cf8acc21101 |
+
+---
+
 # v0.19.0 验证（2026-09-08）
 
 - 37 个功能套件、664 项断言通过；按用户要求未运行平衡模拟。日志为 `.runtime/v19-套件名.log`，最终汇总 `.runtime/v19-final-result.txt`。
