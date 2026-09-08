@@ -1,3 +1,23 @@
+# v0.15.0 验证（2026-09-08）
+
+- 28 个套件、505 项断言通过，日志 `.runtime/v15-*_test.log`。最后的原创画作取景与金色按钮样式调整后重跑原创 UI 和公告体验测试。
+- 新测试覆盖六张原创来源、施法计数、跨回合重置、观星者金色与达卡莱、满手产币、手牌鱼人增益、晶簇金色/空目标/跨回合/非出售不触发、分赃手最左目标、鸽子实际伤害与圣盾阻挡。固定种子含原创单位的八 BOT 对局完整结束。
+- UI 测试验证产币条件标签、原创来源文字、金色基础卡属性、预览不修改真实场面，以及旧 PNG 原画实际载入。
+- Windows 原生截图检查：`screenshots/v15-originals-recruit.png`、`v15-originals-detail.png`、`v15-gold-preview.png`、`v15-dragon-gallery.png`。调整原创画作使用完整画幅，避免过度裁掉高贵鸽子的头冠；金色预览按钮使用统一酒馆金棕样式。
+- 最终 EXE 双进程测试通过：建房、加入、购买/使用、法术同步、战斗、私有快照和断线 BOT 接管。日志 `.runtime/v15-network-host.log` / `client.log`。
+- Android 13 模拟器成功覆盖 v0.14，versionCode 15、versionName 0.15.0；实际触摸图鉴种族筛选、滚动至原创龙、打开晶簇详情并切换金色基础卡。在线更新返回当前最新 v0.15.0。截图 `screenshots/v15-android-*.png`，该轮 Android 日志未发现 SCRIPT ERROR/FATAL EXCEPTION。
+- APK 沿用原签名，apksigner 验证通过，证书 SHA256 为 5d15dbad38e4504fa3b1e7ad1aab3c91d0e65bc57f29e8d775866893a659b2cc。依旧是 Android Debug 签名体验包。
+- 包检查：ZIP 完整、126 个定义、106 在池、15 衍生物、15 英雄、20 法术、32 音效、六张原创 PNG 与公告资源齐全；不含 tests/.runtime/原始照片附件。首次包统计脚本漏算四张未显式写 pool 的中立卡，已按 Catalog 默认 12 副本修正统计和文档，游戏规则无需修改。
+- APK 和 EXE 公开链接均完整匿名下载，SHA256 与本地最终产物一致。
+- 未验证：实体安卓触摸/扬声器、两台实体设备跨平台 LAN、大样本胜率平衡和极端连锁实机帧率。部分历史 headless 测试仍有退出资源清理警告；没有 SCRIPT ERROR。AI 本轮增加新效果价值及流派识别，完整手牌规划仍在下一步建议中。
+
+| 文件 | 字节 | SHA256 |
+|---|---:|---|
+| ClassicTavern-v0.15.0.exe | 170801136 | 9850e180fd149477e984dfe7593d84326d8dd651fc1aba6c38eb28c88acc6116 |
+| ClassicTavern-v0.15.0.apk | 150049881 | c6040b047afaaecce909f64322e2878d9a56baf64baeea77cc2e49d94aa1fd44 |
+
+---
+
 # v0.14.0 验证（2026-09-08）
 
 - 26 个套件、481 项断言通过，日志 `.runtime/v14-*_test.log`。初次全回归的龙图鉴数量断言仍是旧值，修改为当前 14 后通过；未跳过测试。结算文案调整后重跑 UI、公告和体验检查。
