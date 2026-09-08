@@ -117,3 +117,8 @@ passive.type 新增 macaw、deathrattle_multiplier、summon_multiply；deathratt
 ## v0.14 扩展
 
 最终内置覆盖包为 `data/armor-expansion.json`，之后加载外部 mods。新增 passive：end_tribe、start_dragon_shield、shield_loss、play_consume、spend_attack；战吼 consume 以及 target 的 per_pirate_buy/per_gold_spent。英雄 power：nozdormu、alexstrasza、patches。实际费用统一调用 Rules.power_cost。spent 三连取最高值。
+
+
+## v0.15 原创迁移
+
+最终内置覆盖包 `data/originals-expansion.json`，外部 mods 在其后。custom/origin/legacy_id 标记原创来源；画作支持 PNG。新增 passive：spell_self、end_spell_coin、end_hand_tribe、sell_tribe、sell_tribe_scaling。spells_cast_turn 每轮清零，crystal_sales 仅玩家真实出售时递增。详情切换通过 Catalog.unit 创建新基础卡，不改动原对象。
