@@ -1,17 +1,19 @@
-# v0.15.0 原创回归 · 卡面预览
+# v0.16.0 招募轨迹 · AI 留牌
 
-[Android APK 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.15.0/ClassicTavern-v0.15.0.apk)
+[Android APK 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.16.0/ClassicTavern-v0.16.0.apk)
 
-[Windows EXE 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.15.0/ClassicTavern-v0.15.0.exe)
+[Windows EXE 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.16.0/ClassicTavern-v0.16.0.exe)
 
 单机：进入酒馆，选择英雄后和七名机器人对战。
-联机：双方使用 v0.15.0，在同一 Wi-Fi / 局域网中，一人点击「好友联机 → 创建房间」，其他人输入房间显示的房主 IPv4 地址和端口（默认 4271）加入。Windows 首次询问网络访问时允许当前私人网络。房主添加机器人、选择 BOT 难度后开始。手机也能创建房间。
+联机：双方使用 v0.16.0，在同一 Wi-Fi / 局域网中，一人点击「好友联机 → 创建房间」，其他人输入房间显示的房主 IPv4 地址和端口（默认 4271）加入。Windows 首次询问网络访问时允许当前私人网络。房主添加机器人、选择 BOT 难度后开始。手机也能创建房间。
 
 EXE 内嵌游戏资源，下载后直接运行；APK 使用原包名和签名，可覆盖旧版。系统更新由用户确认，不自动安装。
 这是客户端主动建房的局域网版本，没有持续运行的公网服务器。远程不同网络需要双方已有的虚拟局域网，或自行提供可达 WebSocket 地址；本版未部署公网中继。
 
 
 ## 当前内容
+
+本版新增带来源的招募效果轨迹、AI 手牌保留与经济判断、音量滑杆、可复制的体验诊断。完成 200 局固定种子对局验证，详见 [v0.16.0 对局验证](v0.16.0对局验证.md)。
 
 本版新增六张旧框架原创卡及普通／金色基础卡预览，补充法术龙、晶簇出售、手牌养鱼和鸽子召唤。迁移对照及后续优先级见 [原创卡迁移与下一步建议](原创卡迁移与下一步建议.md)。
 
