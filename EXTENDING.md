@@ -127,3 +127,12 @@ passive.type 新增 macaw、deathrattle_multiplier、summon_multiply；deathratt
 ## v0.16 招募事件
 
 RecruitTrace.emit/buff 记录来源、目标、位置、增益及单调序号。事件只随所属玩家 me 发送，每人环形缓存 32 条；严禁加入公开 players 或共享 combat events。RecruitFeedback 与棋盘分层，单批最多八组、最多三批，去重使用 recruit_serial。generated_coins 与 triples 是验证用累计计数，不参与奖励。
+
+
+## v0.17 亡灵与永久收益
+
+`undead.gd` 管理玩家级全局攻击/骑士计数与每单位已应用值；不可把光环当作普通附魔三次相加。`undead_combat.gd` 记录显式永久收益、复生来源关联、宰割奖励和待召回复制；通过弱引用连接 combat，避免保留整份回放。
+
+招募消灭进入同一个死亡结算器。`pool_copies` 表示持有的真实共享副本数：生成单位为 0；复生继承，三连求和，出售按实际归属回收。新增生成/复制效果必须测满场、普通/金色、再三连与出售后的共享池守恒。英雄标记只在战斗结束到期，不在普通宰割结算时清掉其他目标标记。
+
+来源日志不是完整属性账本，不能据此重新构造单位。对手公开列表不要加入手牌信息。`ai_trade_enabled` 只供固定场景对照，正常游戏默认开启；并非新的用户难度设置。
