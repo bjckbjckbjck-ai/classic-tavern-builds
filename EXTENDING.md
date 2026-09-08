@@ -122,3 +122,8 @@ passive.type 新增 macaw、deathrattle_multiplier、summon_multiply；deathratt
 ## v0.15 原创迁移
 
 最终内置覆盖包 `data/originals-expansion.json`，外部 mods 在其后。custom/origin/legacy_id 标记原创来源；画作支持 PNG。新增 passive：spell_self、end_spell_coin、end_hand_tribe、sell_tribe、sell_tribe_scaling。spells_cast_turn 每轮清零，crystal_sales 仅玩家真实出售时递增。详情切换通过 Catalog.unit 创建新基础卡，不改动原对象。
+
+
+## v0.16 招募事件
+
+RecruitTrace.emit/buff 记录来源、目标、位置、增益及单调序号。事件只随所属玩家 me 发送，每人环形缓存 32 条；严禁加入公开 players 或共享 combat events。RecruitFeedback 与棋盘分层，单批最多八组、最多三批，去重使用 recruit_serial。generated_coins 与 triples 是验证用累计计数，不参与奖励。
