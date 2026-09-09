@@ -12,6 +12,7 @@
 - Android本次日志无SCRIPT ERROR/FATAL EXCEPTION；Windows/Android导出与最终导入无ERROR。APK ZIP 980条目完整，无原始附件；签名有效，沿用Android Debug证书SHA256 `5d15dbad38e4504fa3b1e7ad1aab3c91d0e65bc57f29e8d775866893a659b2cc`。
 - 固定场景30次headless界面构建：旧版中位7.791ms/P95 8.142ms；最终版本中位2.505ms/P95 2.982ms。仅为UI重建开销，不是GPU耗时或跨设备FPS保证。最终测试仍在同机模拟器开启时执行，负载会影响绝对值。原始日志 `.runtime/v24-perf-before.log` / `v24-perf-final.log`。
 - 临时房主和安卓模拟器已关闭。未验证实体ARM触摸/扬声器、两台实体设备跨Wi-Fi、复杂亡语链极端性能；没有常驻公网服务。
+- GitHub v0.24.0已公开并设为latest；APK/EXE/指南三附件大小与SHA256 digest逐项匹配本地，两个安装包下载链接HTTP 200。未做整包匿名回下载复核。
 
 | 文件 | 字节 | SHA256 |
 |---|---:|---|
