@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "apiUrl": "https://api.github.com/repos/bjckbjckbjck-ai/classic-tavern-builds/releases/assets/553547116",
+      "contentType": "application/octet-stream",
+      "createdAt": "2026-09-09T20:47:38Z",
+      "digest": "sha256:a64d35e4326a1516a6a7f9f8b4ad5dccb13d619d7bb6cf64b1c7d445126238ad",
+      "downloadCount": 0,
+      "id": "RA_kwDOUQ5hb84g_nVs",
+      "label": "",
+      "name": "ClassicTavern-v0.25.0-guide.md",
+      "size": 5050,
+      "state": "uploaded",
+      "updatedAt": "2026-09-09T20:47:39Z",
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/untagged-db697c419480a5a9e9cd/ClassicTavern-v0.25.0-guide.md"
+    },
+    {
+      "apiUrl": "https://api.github.com/repos/bjckbjckbjck-ai/classic-tavern-builds/releases/assets/553547117",
+      "contentType": "application/vnd.android.package-archive",
+      "createdAt": "2026-09-09T20:47:38Z",
+      "digest": "sha256:f9f6913417c8b4ee66a34d7fc48aad96e4c0379dcc40213d351bd14ff8757202",
+      "downloadCount": 0,
+      "id": "RA_kwDOUQ5hb84g_nVt",
+      "label": "",
+      "name": "ClassicTavern-v0.25.0.apk",
+      "size": 189455108,
+      "state": "uploaded",
+      "updatedAt": "2026-09-09T20:48:17Z",
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/untagged-db697c419480a5a9e9cd/ClassicTavern-v0.25.0.apk"
+    },
+    {
+      "apiUrl": "https://api.github.com/repos/bjckbjckbjck-ai/classic-tavern-builds/releases/assets/553547114",
+      "contentType": "application/x-msdownload",
+      "createdAt": "2026-09-09T20:47:38Z",
+      "digest": "sha256:dc21302b4b5f9c8c61e45d350d3326d740bd1ad25c65fc1b15bd0d11845a7ff2",
+      "downloadCount": 0,
+      "id": "RA_kwDOUQ5hb84g_nVq",
+      "label": "",
+      "name": "ClassicTavern-v0.25.0.exe",
+      "size": 210704856,
+      "state": "uploaded",
+      "updatedAt": "2026-09-09T20:48:19Z",
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/untagged-db697c419480a5a9e9cd/ClassicTavern-v0.25.0.exe"
+    }
+  ],
+  "isDraft": true
+}
