@@ -1,0 +1,29 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS new content validates
+PASS playing murloc grows held Bream
+PASS Bassgill summons buffed hand copy
+PASS hand minion cannot be summoned twice this combat
+PASS combat summon leaves original hand intact
+PASS Choral absorbs minion stats only
+PASS private hand not serialized into Choral replay
+PASS Tich buffs other demons while Rewinder restores hero
+PASS Nalaa buffs one per non-neutral tribe
+PASS Ignition generates bounded tier spells
+PASS free refresh consumes charge without gold
+PASS free refresh consumes charge without gold
+PASS free refresh consumes charge without gold
+PASS fourth refresh needs gold
+PASS Sacred Gift stacks existing shield
+PASS repeated Roar enchantments stack end turn gains
+PASS Embrace rejects no battlecry without consuming
+PASS Embrace triggers battlecry
+PASS Armor Stash sets rather than adds
+PASS Enrichment applies to future shops
+PASS third spell price visible as zero
+PASS third spell free and advances counter
+PASS Snake die gain and payment
+PASS Snake cooldown blocks without spending
+PASS Snake cooldown decreases once per round
+PASS Hollidae buys random spell via power
+PASS Overconfidence pays once for victory

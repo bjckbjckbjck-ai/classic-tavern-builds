@@ -1,0 +1,66 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS v23 content counts validate
+PASS four overlapping low-tier cards retired
+PASS summon refresh and leap engines deliberately retained
+PASS resource adaptations do not enable extra tribes
+PASS collector generates spendable coin card
+PASS golden refresh resource grants two credits
+PASS Tad sells into generated non-pool murloc
+PASS Brann spell adds one trigger alongside Brann minion
+PASS temporary battlecry bonus expires next round
+PASS Titus spell repeats deathrattle in combat
+PASS deathrattle spell expires at next recruit
+PASS corrupted pastry consumes three separate minions
+PASS pastry rejects non-demon without consuming card
+PASS golden conversion adds base stats and preserves instance
+PASS golden conversion retains extra layers without minting pooled copies or triple reward
+PASS Raise Stakes returns golden unit retaining stacks
+PASS parts expire after three end turns
+PASS cloning conch gives two independent copies
+PASS telescope discovers actual majority tribe
+PASS prize pet adapts keywords into extra layers
+PASS prize shop bonus persists through refresh
+PASS open bar gives immediate and recurring refreshes
+PASS unused free rolls and new recurring rolls accumulate
+PASS bananas fill hand exactly to ten
+PASS Darkmoon goggles transfers tavern then refreshes
+PASS prize generation respects full hand
+PASS Darkmoon tiers follow rounds and stop at four
+PASS wheel data defines five 19-percent sectors and rare 5-percent rod
+PASS wheel outcome resolves: flesh
+PASS wheel outcome resolves: hunger
+PASS wheel outcome resolves: hand
+PASS wheel outcome resolves: goggles
+PASS wheel outcome resolves: box
+PASS wheel outcome resolves: rod
+PASS random casts do not consume another pending discover
+PASS Yogg trinket spins immediately and at turn start
+PASS clients cannot choose wheel outcome or inspect opponent reward history
+PASS Tickatus offers distinct tier-three prizes
+PASS Tickatus does not repeat early
+PASS Tickatus repeats after three turn starts
+PASS magnet trinket buffs actual host once and is not recursively copied
+PASS adapted Nomi shop growth triggers for demon play
+PASS Nomi play reward happens after Picky battlecry consumes
+PASS pajamas add hand stats to leftmost only in combat
+PASS recommendation recognizes engines and explains fit
+PASS weighted offers retain neutral, unique choices and best magnetic fit
+PASS offers remain fixed after changing current board
+PASS each prize is usable: prize_coins
+PASS each prize is usable: prize_recruit
+PASS each prize is usable: prize_wine
+PASS each prize is usable: prize_refresh
+PASS each prize is usable: prize_on_house
+PASS each prize is usable: prize_rat
+PASS each prize is usable: prize_bouncer
+PASS each prize is usable: prize_brann
+PASS each prize is usable: prize_light
+PASS each prize is usable: prize_bananas
+PASS each prize is usable: prize_gold
+PASS each prize is usable: prize_goggles
+PASS each prize is usable: prize_raise
+PASS each prize is usable: prize_drinks
+PASS each prize is usable: prize_round
+PASS each prize is usable: prize_pet
+v23 checks 63 / failed 0

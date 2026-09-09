@@ -1,0 +1,19 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS twenty heroes, four distinct random offers
+PASS server rejects hero outside own offers
+PASS offered hero selectable
+PASS other players' draft offers stay private
+PASS view never rerolls round pairing
+PASS alive player cannot spectate private hand
+PASS dead viewer receives chosen perspective
+PASS spectator cannot mutate watched player
+PASS spectator follows a survivor if target is eliminated
+PASS announced opponent matches combat
+PASS Rat King buffs matching purchased tribe
+PASS Rat King rotates within active seven tribes
+PASS Wagtoggle buffs one per tribe and excludes neutral
+PASS Kragg grants round-based coins once
+PASS Kragg remains exhausted across rounds
+PASS odd player count schedules a visible ghost
+V20 RESULT 16 / 0

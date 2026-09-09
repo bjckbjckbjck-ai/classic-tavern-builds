@@ -1,0 +1,14 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS hero draft precedes match
+UI PASS hero selection button
+UI PASS practice uses offline peer with seven bots
+UI PASS removed enhancement button does not grant shield
+UI PASS second enhancement cannot be applied
+UI PASS next round still has no free venom button
+UI PASS legacy false setting cannot disable stacking in offline practice
+OFFLINE UI RESULT 7/7 passed
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2641)
+ERROR: 2 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:810)

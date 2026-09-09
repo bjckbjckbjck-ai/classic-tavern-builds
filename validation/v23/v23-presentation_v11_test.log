@@ -1,0 +1,27 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS spotlight catalog validates
+PASS 83 active minions after five replacements
+PASS retired unavailable: micro
+PASS retired unavailable: cobalt
+PASS retired unavailable: tortollan
+PASS retired unavailable: navigator
+PASS retired unavailable: goldgrubber
+PASS Kael counter uses authoritative purchases
+PASS third minion gets buff and counter resets
+PASS spell purchase excluded from hero counter
+PASS used hero power status
+PASS rewind prevents lethal recruit damage and preserves damage triggers
+PASS rewind restores absorbed armor
+PASS rewinder does not prevent combat damage
+PASS Drakkari doubles end turn buffs
+PASS multiple Drakkari add extra triggers
+PASS Murk Eye triggers adjacent battlecry
+PASS Tethys tracks seven actual coins
+PASS Tethys takes other pirate from shared pool
+PASS Tethys counter wraps
+PASS full hand cannot drain pool on reward
+PASS frog records real source target and side
+PASS blocked venom produces only shield-break sound event
+PASS effective venom records bottle effect
+PASS settlement includes server damage winner and hero

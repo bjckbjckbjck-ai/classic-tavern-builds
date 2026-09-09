@@ -1,0 +1,10 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS dragging golden minion awards held spell
+UI PASS dragging reward opens discovery
+UI PASS original treasury portrait uses intended atlas cell
+UI PASS 41 sound cues load
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2641)
+ERROR: 2 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:810)
