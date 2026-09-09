@@ -1,19 +1,19 @@
-# v0.21.0 法术陈列 · 战斗战吼
+# v0.22.0 饰品珍藏 · 七族核心
 
-[Android APK 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.21.0/ClassicTavern-v0.21.0.apk)
+[Android APK 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.22.0/ClassicTavern-v0.22.0.apk)
 
-[Windows EXE 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.21.0/ClassicTavern-v0.21.0.exe)
+[Windows EXE 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.22.0/ClassicTavern-v0.22.0.exe)
 
-单机：进入酒馆，选择英雄后和七名机器人对战。
-联机：双方使用 v0.21.0，在同一 Wi-Fi / 局域网中，一人点击「好友联机 → 创建房间」，其他人输入房间显示的房主 IPv4 地址和端口（默认 4271）加入。Windows 首次询问网络访问时允许当前私人网络。房主添加机器人、选择 BOT 难度后开始。手机也能创建房间。
+单机：主菜单可开关饰品，进入酒馆选择英雄后和七名机器人对战。饰品开启时第6／9回合选购小／大饰品。
+联机：双方使用 v0.22.0，在同一 Wi-Fi / 局域网中，一人点击「好友联机 → 创建房间」，其他人输入房间显示的房主 IPv4 地址和端口（默认 4271）加入。Windows 首次询问网络访问时允许当前私人网络。房主添加机器人、选择 BOT 难度和饰品开关后开始。手机也能创建房间。
 
 EXE 内嵌游戏资源，下载后直接运行；APK 使用原包名和签名，可覆盖旧版。系统更新由用户确认，不自动安装。
 这是客户端主动建房的局域网版本，没有持续运行的公网服务器。远程不同网络需要双方已有的虚拟局域网，或自行提供可达 WebSocket 地址；本版未部署公网中继。
 
 
-## v0.21.0 当前内容
+## v0.22.0 当前内容
 
-121 在池 / 22 退役 / 17 衍生物 / 20 英雄 / 26 法术。详见 [全局卡池](全局卡池.md) 和 [issue 实现](v0.21.0-issue实现.md)。本版不测试平衡。
+131 在池 / 21 退役 / 17 衍生物 / 20 英雄 / 26 法术 / 22 饰品。详见 [全局卡池](全局卡池.md) 和 [本版说明](v0.22.0-饰品与七族流派.md)。本版不测试平衡。
 
 ## 既有内容记录
 
