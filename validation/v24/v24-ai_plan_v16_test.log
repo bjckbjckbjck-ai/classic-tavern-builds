@@ -1,0 +1,17 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS hard AI selects one payload for Pearl
+PASS hard AI can nurture ordinary murloc without Bream
+PASS standard uses simpler Bream-only reservation
+PASS casual focuses on playing cards
+PASS dangerously low hero health releases reserved card
+PASS underdeveloped board is prioritized
+PASS triple reward card is played for discovery
+PASS crowded hand releases reservations
+PASS coin at currency cap is banked
+PASS coin is usable below cap
+PASS free hero or spell refresh works with zero gold
+PASS paid refresh cannot sacrifice missing purchase budget
+PASS empty shared pool stops pointless rolls
+PASS hard AI actual turn ends with payload held
+PASS same scenario on low life plays payload instead

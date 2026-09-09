@@ -1,0 +1,10 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS sale retains removed source and exact old slot
+PASS hand buff has correct source and private destination
+PASS generated coin records actual delivered card
+PASS repeated snapshot cannot replay handled effects
+PASS private recruit targets never appear in opponent public view
+PASS trace cap does not cap underlying gameplay buffs
+PASS bounded ring retains latest monotonic events
+PASS end-turn effects remain available across transition into combat

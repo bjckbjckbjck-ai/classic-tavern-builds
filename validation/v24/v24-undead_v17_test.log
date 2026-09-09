@@ -1,0 +1,35 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS 16 active Undead validate with 124-copy supply
+PASS global attack covers board hand shop exactly once
+PASS future acquisition inherits global attack
+PASS triple applies global attack once and doubles knight scaling once
+PASS triple retains extra reborn layers
+PASS reborn consumes exactly one layer and resets ordinary buffs
+PASS three layers allow three returns
+PASS exhausted reborn does not refresh printed layer
+PASS Anubarak deathrattle repeats through Titus
+PASS knight death grows surviving knight
+PASS avenge threshold and remainder
+PASS butcher produces one Butchering at four deaths
+PASS abomination records explicit permanent growth
+PASS sister buff tracks reborn lineage and applies after one-health return
+PASS Soulsplitter can add to already-reborn target
+PASS Butchering cannot target tavern
+PASS Butchering triggers Anubarak then global +3
+PASS destroy returns physical card without sell gold
+PASS recruitment sacrifice consumes one reborn layer
+PASS recruitment deathrattle buff persists and revived card retains pool custody
+PASS selling recruitment reborn returns exactly one physical copy
+PASS generated recruit knight cannot create shared copies when sold
+PASS invalid targeted hero use is atomic
+PASS Lich King mark does not permanently add layer
+PASS Lich King mark adds one in combat
+PASS hero mark expires after combat
+PASS Teron destroys once then restores exact copy plus new aura
+PASS golden Mummifier grants two additional layers
+PASS multiple golden Butcher triggers cannot exceed ten held cards
+PASS Teron waits when deathrattle fills the vacant slot
+PASS Teron exact copy returns when later death creates space
+PASS illegal sacrifice target preserves hand and RNG
+PASS full-board summon prevents reborn and releases its physical copy

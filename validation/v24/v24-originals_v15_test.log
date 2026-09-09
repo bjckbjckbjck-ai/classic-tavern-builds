@@ -1,0 +1,20 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS original pack validates
+PASS eight original cards preserve provenance
+PASS successful spell grows apprentice once and counts this turn
+PASS stargazer generates a held coin instead of immediate gold
+PASS previous turn spell does not trigger new round income
+PASS gold stargazer and Drakkari produce four coins
+PASS generated coins respect hand cap
+PASS pearl grows held murloc, never spell
+PASS first crystal sale grants one and increments global counter
+PASS gold crystal doubles current bonus but increments once
+PASS empty target still advances crystal counter as legacy source
+PASS crystal scaling persists across rounds
+PASS cargo sale buffs leftmost remaining pirate only
+PASS consumption does not count as sale
+PASS triple does not count as sale
+PASS damaged pigeon summons taunt token
+PASS blocked damage cannot summon pigeon
+PASS seeded originals eight-bot match completes within limits

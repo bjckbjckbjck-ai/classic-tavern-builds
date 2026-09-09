@@ -1,0 +1,74 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS v9 catalog validates 90 units
+PASS v23 physical pool: 野兽
+PASS v23 physical pool: 鱼人
+PASS v23 physical pool: 龙
+PASS v23 physical pool: 机械
+PASS v23 physical pool: 恶魔
+PASS v23 physical pool: 海盗
+PASS Zapp normal two / golden four attacks
+PASS gold Goliath mega-windfury
+PASS windfury sequence N+1 for N=0
+PASS windfury is not consumed N=0
+PASS windfury sequence N+1 for N=1
+PASS windfury is not consumed N=1
+PASS windfury sequence N+1 for N=3
+PASS windfury is not consumed N=3
+PASS windfury sequence N+1 for N=6
+PASS windfury is not consumed N=6
+PASS cleave contiguous unique footprint center=0 N=0
+PASS cleave contiguous unique footprint center=0 N=1
+PASS cleave contiguous unique footprint center=0 N=2
+PASS cleave contiguous unique footprint center=0 N=3
+PASS cleave contiguous unique footprint center=0 N=9
+PASS cleave contiguous unique footprint center=1 N=0
+PASS cleave contiguous unique footprint center=1 N=1
+PASS cleave contiguous unique footprint center=1 N=2
+PASS cleave contiguous unique footprint center=1 N=3
+PASS cleave contiguous unique footprint center=1 N=9
+PASS cleave contiguous unique footprint center=2 N=0
+PASS cleave contiguous unique footprint center=2 N=1
+PASS cleave contiguous unique footprint center=2 N=2
+PASS cleave contiguous unique footprint center=2 N=3
+PASS cleave contiguous unique footprint center=2 N=9
+PASS cleave contiguous unique footprint center=3 N=0
+PASS cleave contiguous unique footprint center=3 N=1
+PASS cleave contiguous unique footprint center=3 N=2
+PASS cleave contiguous unique footprint center=3 N=3
+PASS cleave contiguous unique footprint center=3 N=9
+PASS cleave contiguous unique footprint center=4 N=0
+PASS cleave contiguous unique footprint center=4 N=1
+PASS cleave contiguous unique footprint center=4 N=2
+PASS cleave contiguous unique footprint center=4 N=3
+PASS cleave contiguous unique footprint center=4 N=9
+PASS center c cleave3 produces abcd or bcde
+PASS Zapp ignores taunt and chooses lowest effective attack
+PASS magnetic stacks shield
+PASS triple preserves all extra shield
+PASS repeated battlecry grants shield
+PASS magnetic stacks reborn
+PASS triple preserves all extra reborn
+PASS repeated battlecry grants reborn
+PASS magnetic stacks windfury
+PASS triple preserves all extra windfury
+PASS repeated battlecry grants windfury
+PASS magnetic stacks venom
+PASS triple preserves all extra venom
+PASS repeated battlecry grants venom
+PASS magnetic stacks cleave
+PASS triple preserves all extra cleave
+PASS repeated battlecry grants cleave
+PASS reborn exactly one layer per death 3
+PASS reborn exactly one layer per death 2
+PASS reborn exactly one layer per death 1
+PASS reborn exhausted stays dead
+PASS Steward sale buffs actual shop
+PASS Jaraxxus invalid board does not spend
+PASS Jaraxxus one coin tribe buff
+PASS Glyph grows each attack
+PASS Ripsnarl buffs only other attacking pirate
+PASS gold Imp Mama summons two ordinary taunt demons
+PASS updater selects platform .exe
+PASS updater selects platform .apk
+V9 RESULT 71/71

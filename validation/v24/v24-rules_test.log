@@ -1,0 +1,35 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS catalog validation
+PASS 83 minions + 13 tokens
+PASS all 32 names and base stats match build 35747
+PASS launch tiers before November 19 balance patch
+PASS JSON card and hero extension
+PASS Patchwerk original 60 HP and first round 3 gold
+PASS invalid buy is atomic
+PASS buy 3 gold
+PASS cannot spend absent gold
+PASS original cat battlecry
+PASS targeted battlecry requires target
+PASS Houndmaster +2/+2 and taunt
+PASS triple merges hand and board
+PASS golden battlecry and triple discover
+PASS discover resolves one choice
+PASS freeze preserves shop one round
+PASS finite venom and permanent board isolation
+PASS divine shield absorbs hit
+PASS deathrattle events
+PASS cleave resolves adjacent hits
+PASS zero attack terminates as tie
+PASS Siegebreaker aura adds attack to other demons
+PASS 8-bot complete match seed 0
+PASS 8-bot complete match seed 1
+PASS 8-bot complete match seed 2
+PASS 8-bot complete match seed 3
+PASS 8-bot complete match seed 4
+PASS 8-bot complete match seed 5
+PASS 8-bot complete match seed 6
+PASS 8-bot complete match seed 7
+PASS 8-bot complete match seed 8
+PASS 8-bot complete match seed 9
+RESULT 32/32 passed

@@ -1,0 +1,12 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS five spell cards simultaneously visible beside two minions
+UI PASS all spell hitboxes stay inside tavern
+UI PASS spell paging arrows removed
+UI PASS dragging fourth visible spell purchases exact index
+UI PASS counter change creates a flash and floating progress
+UI PASS redrawing same state does not replay progress
+UI PASS large integer labels remain bounded
+UI PASS Macaw explicitly flashes the triggered target
+UI PASS no unrelated music playback
+UI PASS unavailable scene music is clearly disabled

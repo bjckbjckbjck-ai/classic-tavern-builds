@@ -112,7 +112,7 @@ passive.type 新增 macaw、deathrattle_multiplier、summon_multiply；deathratt
 
 最终内置覆盖层为 `data/playstyles-expansion.json`，外部 mods 随后加载。新增 passive：hand_murloc、hand_stats、damage_demons、spell_menagerie、end_spells；deathrattle：summon_hand、lowest_damage。酒馆法术增加 free_refresh、roar、battlecry、shield、confidence、shop_aura、armor。
 
-`Combat.fight` 第四参数为双方私有手牌，仅内部使用。不得把完整手牌加入战斗事件；只序列化真正入场的副本或可见属性结果。`roars` 是永久附魔层数，磁力和三连相加；`SPELLS.buy_price` 为购买价格唯一入口，base_cost 保留原费用。
+`Combat.fight` 第四参数为双方私有手牌。v0.24内部事件可保存双侧手牌，但发送前必须经过 `RULES.private_replay`：删除 `hands/summoned_hand`，只保留观看席位的 `hand_states` 与对手数量。UI用 `RULES.replay_hand` 读取索引，严禁直接发送原始replays。招募快照不发送上一场回放。`roars` 是永久附魔层数，磁力和三连相加；`SPELLS.buy_price` 为购买价格唯一入口，base_cost 保留原费用。
 
 
 ## v0.13 国王老汉
