@@ -1,0 +1,10 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS history opens directly on resolved result
+UI PASS history shows full retained record count
+UI PASS previous record displays its own result
+UI PASS history clamps at earliest retained record
+UI PASS browsing does not generate rewards or new rolls
+UI PASS effect summary explains expiry and separate delayed rewards
+UI PASS Macaw detail remains available with trigger explanation
+v25 UI failures 0

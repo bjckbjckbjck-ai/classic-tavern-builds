@@ -1,19 +1,19 @@
-# v0.24.0 饰品体验与交互修复
+# v0.25.0 跳蛙连锁与珍藏扩展
 
-[Android APK 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.24.0/ClassicTavern-v0.24.0.apk)
+[Android APK 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.25.0/ClassicTavern-v0.25.0.apk)
 
-[Windows EXE 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.24.0/ClassicTavern-v0.24.0.exe)
+[Windows EXE 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.25.0/ClassicTavern-v0.25.0.exe)
 
 单机：主菜单可开关饰品，进入酒馆选择英雄后和七名机器人对战。饰品开启时第6／9回合选购小／大饰品。
-联机：双方使用 v0.24.0，在同一 Wi-Fi / 局域网中，一人点击「好友联机 → 创建房间」，其他人输入房间显示的房主 IPv4 地址和端口（默认 4271）加入。Windows 首次询问网络访问时允许当前私人网络。房主添加机器人、选择 BOT 难度和饰品开关后开始。手机也能创建房间。
+联机：双方使用 v0.25.0，在同一 Wi-Fi / 局域网中，一人点击「好友联机 → 创建房间」，其他人输入房间显示的房主 IPv4 地址和端口（默认 4271）加入。Windows 首次询问网络访问时允许当前私人网络。房主添加机器人、选择 BOT 难度和饰品开关后开始。手机也能创建房间。
 
 EXE 内嵌游戏资源，下载后直接运行；APK 使用原包名和签名，可覆盖旧版。系统更新由用户确认，不自动安装。
 这是客户端主动建房的局域网版本，没有持续运行的公网服务器。远程不同网络需要双方已有的虚拟局域网，或自行提供可达 WebSocket 地址；本版未部署公网中继。
 
 
-## v0.24.0 当前内容
+## v0.25.0 当前内容
 
-130 在池 / 25 退役 / 17 随从衍生物 / 20 英雄 / 34 酒馆法术 / 16 暗月奖品 / 32 饰品。详见 [全局卡池](全局卡池.md) 和 [本版说明](v0.24.0-饰品体验与交互修复.md)。本版围绕 issue #5 修复买卖拖动、金色随从奖励，增加转盘自动返回与逐项特效、双方战斗英雄/饰品/手牌展示，减少界面重建开销。没有新增卡池或进行平衡胜率模拟。
+130 在池 / 25 退役 / 17 随从衍生物 / 20 英雄 / 37 酒馆法术 / 16 暗月奖品 / 38 饰品。详见 [全局卡池](全局卡池.md) 和 [本版说明](v0.25.0-跳蛙连锁与珍藏扩展.md)。本版修复存活跳蛙载体的传递目标，新增6件饰品和3张法术，支持转盘历史翻阅、临时增益摘要和跳蛙层数提示。未进行平衡胜率模拟。
 
 ## 既有内容记录
 

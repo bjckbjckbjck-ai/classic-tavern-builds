@@ -1,0 +1,27 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS v25 content loads
+PASS living inherited carrier can receive its own passed frogs; trigger snapshot prevents recursion
+PASS Titus repeats the original inherited layers, not newly acquired layers
+PASS Macaw triggers inherited-only deathrattle: golden=false
+PASS golden Macaw reselects and triggers twice
+PASS frog passes have visible counts
+PASS Macaw triggers inherited-only deathrattle: golden=true
+PASS golden Macaw reselects and triggers twice
+PASS frog passes have visible counts
+PASS Macaw cannot trigger its own inherited deathrattle
+PASS single minion gains exactly one additional edge shield
+PASS combat trinket does not alter recruitment shield
+PASS mallet chooses both edges, leaves centre untouched
+PASS dreamcatcher reads whole warband but changes only combat dragons
+PASS sword adds attack before each hit including repeated attacks
+PASS targeted shop spell triggers scroll after spell resolves
+PASS Sanctify buffs shield carriers once, not per layer
+PASS Earthmother preserves stats layers and identity with no immediate triple reward
+PASS Earthmother rejects already golden without consuming spell
+PASS Earthmother rejects tier five
+PASS Earthmother rejects shop targets
+PASS Essence grants first spell on acquisition
+PASS Essence grants again next turn
+PASS full hand respects trinket generation cap
+v25 assertions 24 failed 0
