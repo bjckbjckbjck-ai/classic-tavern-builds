@@ -1,0 +1,11 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+NETWORK PASS host round=1 players=2 replay=4
+NETWORK PASS private snapshots
+NETWORK PASS disconnect bot takeover=true
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+NETWORK PASS client round=1 players=2 replay=4
+NETWORK PASS private snapshots
+NETWORK PASS spell buy/cast synced
+TWO PROCESS NETWORK PASS

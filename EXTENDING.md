@@ -1,3 +1,11 @@
+## v0.26 扩展说明
+
+`Rules.begin_settling()` 从recruit进入settling并执行一次回合末结算；`Rules.battle()` 从settling进入combat。桌面/安卓主流程按房主deadline等待4–6秒，规则工具直接battle仍兼容。不要让客户端在settling接受交易或重新触发回合末；新阶段不能泄漏战斗回放。
+
+新扩展 `data/cadence-expansion.json` 最后加载。战吼 `shop_health` 与亡语 `shop_attack` 分别增加玩家永久酒馆字段；战斗结果只按字段差量应用一次到冻结酒馆。被战斗战吼调用时同样适用。被动 `pirate_income` 按当前海盗数量计算回合收入，最后仍由统一上限裁剪。
+
+鹦鹉仍使用 `passive.type=macaw`，触发时点改为伤害交换前；每次金色重复重新挑选合法亡语。请勿另增攻击后钩子，否则会双触发。
+
 ## v0.25 扩展说明
 
 饰品效果新增 `edge_shield`、`attack_sword`、`dreamcatcher`、`target_scroll`、`turn_spell`。最后一种使用 `spell` 指定现有酒馆法术ID，在购买/回合开始生成；其余分别由战斗开始、攻击前、定向施法后处理。推荐继续使用既有 `synergies`。法术新增 `shield_attack`（amount）及 `golden_low`（friendly，4星上限）。
