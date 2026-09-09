@@ -1,3 +1,22 @@
+# v0.21.0 验证（2026-09-09）
+
+- 42个功能套件、743项断言通过。首次回归的旧数量/层数/翻页断言已按issue改动更新，失败套件重新运行通过；按最新每套日志汇总至 `.runtime/v21-final-result.txt`。未运行平衡模拟。
+- 本版新增规则26项、UI10项、战斗审计14项：购买计数、金色与铜须发现、满手、七格法术陈列、相邻与同时死亡、战斗收益跨阶段、临时属性隔离、盾毒与连续复生、受伤召唤时序。
+- 原生触摸模拟测试实际拖动第四张展开法术购买；截图 `screenshots/v21-spell-row-large-stats.png`、`v21-counter-pulse.png`、`v21-exact-stats.png`、`v21-rylak-detail.png` 检查五张法术、十亿级攻血与大量圣盾、计数浮字、卡牌详情。
+- 最终Windows EXE两独立进程通过建房、加入、购买、法术同步、战斗、私有快照和断线BOT接管：`.runtime/v21-network-summary.log`。没有部署公网服务器。
+- Android 13模拟器覆盖安装成功，versionCode 21 / versionName 0.21.0；实际触摸进入英雄选择、开局、右侧法术拖入手牌、音乐停用设置及检查更新，更新页确认当前最新v0.21.0。截图 `screenshots/v21-android-*.png`，日志 `.runtime/v21-android.log` 无SCRIPT ERROR/FATAL EXCEPTION。
+- Godot导入、Windows与Android导出无ERROR。APK ZIP完整校验通过，含新增8张原图、3随从、26法术与v0.21公告，不含原始附件，也不含上一版两首通用音乐的导入音频。41类音效加载通过。
+- APK签名有效，沿用Android Debug证书 SHA256 `5d15dbad38e4504fa3b1e7ad1aab3c91d0e65bc57f29e8d775866893a659b2cc`。
+- GitHub发布附件大小与SHA256 digest逐项匹配本地；未做整包匿名回下载复核。
+- 未验证：实体安卓触摸与扬声器、两台实体设备跨平台LAN、真人平衡、极端亡语链性能。用户未指明的旧卡漏触发仍需具体阵容和复现步骤。初次安卓启动有缓存着色器重编译提示；部分headless退出仍有历史资源清理警告。
+
+| 文件 | 字节 | SHA256 |
+|---|---:|---|
+| ClassicTavern-v0.21.0.apk | 163563575 | 356e62ea8e738be77124a865b8f6f8173f8d9eeb5580b821ed7db76d8bbbe9af |
+| ClassicTavern-v0.21.0.exe | 184834944 | 7d91c761bfef9541f16c064cff9a64900b1241b3f2e4dfa5e226d104c11b5c94 |
+
+---
+
 # v0.20.0 验证（2026-09-09）
 
 - 39 个功能套件、688 项断言通过，汇总 `.runtime/v20-final-result.txt`。按用户要求未运行平衡模拟。
