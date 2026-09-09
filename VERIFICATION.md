@@ -6,6 +6,8 @@
 - 桌面回合末反馈截图确认同目标成长合并，来源轨迹保留。Android日志无SCRIPT ERROR/FATAL EXCEPTION。既有headless退出仍可能有ObjectDB/资源清理警告，不代表这些历史警告已修复。
 - APK签名验证有效，与旧版Debug证书一致；ZIP共1005条目完整，未包含上传附件原图。测试模拟器和临时Android房主已关闭。
 
+- GitHub v0.26.0已公开并设为latest，三个附件大小及服务端SHA256均匹配本地；APK/EXE下载链接HTTP200。没有进行整包匿名回下载。
+
 | 文件 | 字节 | SHA256 |
 |---|---:|---|
 | ClassicTavern-v0.26.0.apk | 190197191 | `716c873a20a622e8d570ee45f4e89412766d1c08244132b743b6539cafd95741` |
