@@ -1,0 +1,11 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS targeted battlecry drags onto board first
+UI PASS actual drag displays floating minion then legal target
+UI PASS preview has no rule or RNG side effects
+UI PASS non-target click cancels and restores hand
+UI PASS confirmation commits intended slot and target once
+UI PASS phase change cancels preview without consuming card
+UI PASS on-attack frame has distinct readable pause
+UI PASS permanent demon points visible in status
+v27 UI failures 0

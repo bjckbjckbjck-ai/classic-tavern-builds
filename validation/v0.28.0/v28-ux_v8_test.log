@@ -1,0 +1,17 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS classic mode selection is gone
+UI PASS main menu opens six-tribe rules guide
+UI PASS invalid George drag cancels without spending gold
+UI PASS George drag adds one shield to already shielded dragon
+UI PASS used hero power cannot be dragged twice
+UI PASS full-board magnetic drag merges into chosen mech
+UI PASS drag ordinary minion before first unit inserts at intended slot
+UI PASS board drag moves first minion to final slot
+UI PASS dragon filter displays 18 playable dragons
+UI PASS pirate filter displays 21 playable pirates
+UI PASS long adaptation descriptions have scrollable detail
+UI PASS hero health stays precombat while actual death is already resolved
+UI PASS actual death still forbids skipping
+UI PASS hero impact animation completes before revealing damage
+UX V8 RESULT 14/14

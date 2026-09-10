@@ -1,0 +1,10 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS precise sale overlay created
+UI PASS repeated snapshot does not duplicate overlay
+UI PASS board redraw cannot destroy in-flight recruit feedback
+UI PASS overlay cannot intercept dragging
+UI PASS overlay and delayed labels clean themselves up
+UI PASS volume slider available
+UI PASS diagnostics include measured frame samples
+UI PASS zero volume cannot start a voice

@@ -1,3 +1,13 @@
+# v0.28.0扩展入口
+
+- `data/issue-v28.json`：4张新卡，在旧包后覆盖加载。`pirate_flag`、`skyblazer`为被动；`pirate_summon_attack`为亡语；`attack_all_damage.friendly_only`区分友方伤害与全场伤害。
+- `scripts/issue_combat.gd`：战斗专用海盗加攻、受伤事件队列、按origin_uid保存永久加成。位置光环用`left_bonus`计算，回放只存`trinket_aura_attack`显示字段；不能将其当成原始攻击累加。
+- `data/trinkets.json`：大小、费用、效果、synergies；受伤`hurt`与跳操`pirate_tokens`会参与推荐。出现规则统一由`trinkets.gd`定义，图鉴`condition`和卡池生成器需同步。
+- `scripts/boss_plan.gd`：可读流派/核心/饰品列表。只给difficulty=3的BOT启用，保持星级、实体库存和原始关键词；改策略需要同步规则回归和公开难度说明。
+- 修改数据后运行`python scripts/generate_global_pool.py`及`python scripts/sync_release_notes.py`，避免公告与卡池文档漂移。
+
+---
+
 # v0.27 扩展接口
 
 新增末尾数据包 `data/issue-v27.json`。玩家 `demon_points` 为永久值；战斗上下文归并时不得重复加算。新增亡语 `demon_points`、被动 `attack_all_damage` 和 `damaged_beast_health`；饰品 `avenge_demon` / `avenge_demon_points` 每场重置progress。战吼展示在 `battlecry_preview.gd`，确认时play目标编码1000+slot*10+target；房主验证旧目标索引后插入，并调整插入影响的索引。新增进击类型须同步维护 `main.replay_step`，不能只延长客户端动画。

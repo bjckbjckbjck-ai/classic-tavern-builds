@@ -1,0 +1,44 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS native expansion and current trinkets validate
+PASS pure demon and intentional retirements
+PASS round clocks include choice allowance and late cap
+PASS disabled mode does not offer
+PASS turn six offers five lesser trinkets
+PASS unique tailored options plus neutral fallback
+PASS pending choice blocks spending and early ready
+PASS opponents do not receive private options
+PASS cannot buy unaffordable trinket
+PASS explicit pass retains gold
+PASS same round never reoffers after pass
+PASS timeout or bot chooses affordable greater once
+PASS duplicate choice rejected
+PASS gauntlet applies once on fresh shop units
+PASS Felemental copper multiplier permanently grows current and future shop
+PASS magnetic copied once or twice without recursion
+PASS copies count for growth but do not duplicate shared materials
+PASS drone scales by attachment count
+PASS absorbed Lullabot growth and drone both trigger
+PASS triple preserves acquired magnetic counters
+PASS minion play drives dragon and leftmost payload trinkets
+PASS brew triggers once per transaction not per coin
+PASS coffin applies permanent global undead attack on spell
+PASS wallet increments cap without resetting it
+PASS Scourfin writes permanent gain to original hand payload
+PASS Belcher grants stacking venom on deathrattle
+PASS Tarecgosa retains opening gain despite damage or death
+PASS Poet keeps only gained layers, damage and consumed layers never become rewards
+PASS Slamma trinket doubles actual beast summons
+PASS sunglasses adds a visible shield layer
+PASS magnet trinket creates non-pool reward
+PASS full hand discards reward without exceeding ten
+PASS Rylak Felemental persists shop ledger despite empty combat shop
+PASS Scrap Scraper avenge grants actual magnetic material
+PASS lucky cat six deaths yields beast
+PASS portrait grants non-pool core minion
+PASS eternal portrait adds reborn and taunt at combat start
+PASS greater portrait grants core now and next turn
+PASS greater staff grows shielded units once per trinket end turn
+PASS medallion is combat-only without preservation
+PASS zero-cost tip jar grants gold and capacity
+v22 checks 41 / failed 0

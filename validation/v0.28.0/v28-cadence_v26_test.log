@@ -1,0 +1,35 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS v26 catalog validates four new cards
+PASS settling is a bounded four-to-six second phase
+PASS Scalebane and roar end effects receive Drakkari repeats
+PASS repeated settling cannot duplicate end effects
+PASS settling rejects action buy
+PASS settling rejects action sell
+PASS settling rejects action play
+PASS settling rejects action cast
+PASS settling rejects action refresh
+PASS settling rejects action freeze
+PASS settling rejects action power
+PASS settling rejects action move
+PASS settling rejects action ready
+PASS settling has no charges or prematurely resolved combat
+PASS combat consumes prepared board without repeating end effects
+PASS duplicate battle call cannot reroll
+PASS fatal attack includes On Attack buff before impact, gold=false
+PASS fatal normal/golden Macaw triggers exact count
+PASS replay orders On Attack before collision
+PASS fatal attack includes On Attack buff before impact, gold=true
+PASS fatal normal/golden Macaw triggers exact count
+PASS replay orders On Attack before collision
+PASS Slimy Felblood health-only battlecry repeats with Brann
+PASS refresh uses asymmetric permanent tavern stats
+PASS golden Fiery plus Titus persists attack-only growth into frozen tavern
+PASS applying combat tavern growth twice is idempotent
+PASS future shop minions inherit deathrattle growth
+PASS On Attack Macaw can drive permanent tavern attack before dying
+PASS Smuggler grants base two coins
+PASS three pirates including source unlock four coins
+PASS golden Smuggler doubles both parts
+PASS Smuggler income respects coin cap
+v26 rules 32 passed / 0 failed

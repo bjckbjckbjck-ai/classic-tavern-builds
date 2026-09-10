@@ -1,0 +1,19 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS main menu opens repository release notes
+UI PASS main menu opens manual updater
+UI PASS offline update failure leaves a retry message
+UI PASS draft selects offered George
+UI PASS release targeted card over empty space is atomic cancellation
+UI PASS board drop opens preview before battlecry
+UI PASS click valid target after staging resolves battlecry
+UI PASS hero pool available during match
+UI PASS filtered golden gallery renders
+UI PASS combat playback slowed
+UI PASS dead player cannot skip combat
+UI PASS living offline player skips resolved playback
+UX V7 RESULT 12/12
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2641)
+ERROR: 4 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:810)
