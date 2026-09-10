@@ -1,3 +1,7 @@
+# v0.27 扩展接口
+
+新增末尾数据包 `data/issue-v27.json`。玩家 `demon_points` 为永久值；战斗上下文归并时不得重复加算。新增亡语 `demon_points`、被动 `attack_all_damage` 和 `damaged_beast_health`；饰品 `avenge_demon` / `avenge_demon_points` 每场重置progress。战吼展示在 `battlecry_preview.gd`，确认时play目标编码1000+slot*10+target；房主验证旧目标索引后插入，并调整插入影响的索引。新增进击类型须同步维护 `main.replay_step`，不能只延长客户端动画。
+
 ## v0.26 扩展说明
 
 `Rules.begin_settling()` 从recruit进入settling并执行一次回合末结算；`Rules.battle()` 从settling进入combat。桌面/安卓主流程按房主deadline等待4–6秒，规则工具直接battle仍兼容。不要让客户端在settling接受交易或重新触发回合末；新阶段不能泄漏战斗回放。

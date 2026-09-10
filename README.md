@@ -1,19 +1,19 @@
-# v0.26.0 回合结算与进击鹦鹉
+# v0.27.0 进击交互与恶魔点数
 
-[Android APK 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.26.0/ClassicTavern-v0.26.0.apk)
+[Android APK 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.27.0/ClassicTavern-v0.27.0.apk)
 
-[Windows EXE 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.26.0/ClassicTavern-v0.26.0.exe)
+[Windows EXE 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.27.0/ClassicTavern-v0.27.0.exe)
 
 单机：主菜单可开关饰品，进入酒馆选择英雄后和七名机器人对战。饰品开启时第6／9回合选购小／大饰品。
-联机：双方使用 v0.26.0，在同一 Wi-Fi / 局域网中，一人点击「好友联机 → 创建房间」，其他人输入房间显示的房主 IPv4 地址和端口（默认 4271）加入。Windows 首次询问网络访问时允许当前私人网络。房主添加机器人、选择 BOT 难度和饰品开关后开始。手机也能创建房间。
+联机：双方使用 v0.27.0，在同一 Wi-Fi / 局域网中，一人点击「好友联机 → 创建房间」，其他人输入房间显示的房主 IPv4 地址和端口（默认 4271）加入。Windows 首次询问网络访问时允许当前私人网络。房主添加机器人、选择 BOT 难度和饰品开关后开始。手机也能创建房间。
 
 EXE 内嵌游戏资源，下载后直接运行；APK 使用原包名和签名，可覆盖旧版。系统更新由用户确认，不自动安装。
 这是客户端主动建房的局域网版本，没有持续运行的公网服务器。远程不同网络需要双方已有的虚拟局域网，或自行提供可达 WebSocket 地址；本版未部署公网中继。
 
 
-## v0.26.0 当前内容
+## v0.27.0 当前内容
 
-134 在池 / 25 退役 / 17 随从衍生物 / 20 英雄 / 37 酒馆法术 / 16 暗月奖品 / 38 饰品。详见 [全局卡池](全局卡池.md) 和 [本版说明](v0.26.0-回合结算与进击鹦鹉.md)。本版增加4–6秒回合末结算展示，将鹦鹉改为伤害交换前进击触发，并加入魔血黏浆、魔血岩浆、深蓝刃鳞龙兽、唱片走私犯。未进行平衡胜率模拟。
+136 在池 / 26 退役 / 17 随从衍生物 / 20 英雄 / 37 酒馆法术 / 16 暗月奖品 / 40 饰品。详见 [全局卡池](全局卡池.md) 和 [本版说明](v0.27.0-进击交互与恶魔点数.md)。本版按issue #6/#7优化战吼上场后选目标、进击停顿与磁力间距，调整卡池并加入受伤野兽、恶魔点数和两件原创饰品。未进行平衡胜率模拟。
 
 ## 既有内容记录
 

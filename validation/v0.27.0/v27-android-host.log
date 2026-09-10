@@ -1,0 +1,6 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+ANDROID V27 READY
+ANDROID V27 TARGET board=["toxfin", "bream", "cat"] venom=1
+ANDROID V27 SETTLING duration=4.0
+ANDROID V27 COMBAT demon_points=8
