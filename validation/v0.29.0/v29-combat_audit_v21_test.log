@@ -1,0 +1,17 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS full combat resolves Rylak reward without pausing
+PASS combat-generated spell survives into recruitment hand
+PASS combat damage does not leak to recruitment board
+PASS combat economic battlecry preserves next-turn income
+PASS ordinary Rylak combat buffs stay temporary
+PASS ordinary battlecry actually buffs combat copy
+PASS shield consumes no poison
+PASS unshielded damage consumes one poison and destroys
+PASS lethal damage triggers damaged summon when a slot exists
+PASS lethal source then leaves the summoned minion
+PASS full board cannot pre-use a slot freed later in death resolution
+PASS stacked reborn consumes one layer
+PASS second reborn still triggers
+PASS retired card cannot re-enter pool via stale stock
+AUDIT V21 14 / 0

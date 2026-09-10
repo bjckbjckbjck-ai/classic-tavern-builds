@@ -1,0 +1,16 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS LAN menu has name address port
+UI PASS create room preserves selected bot difficulty
+UI PASS LAN add bot
+UI PASS host changes room bot difficulty
+UI PASS lobby hero page chooses George actual index
+UI PASS unregistered client cannot start room
+UI PASS LAN manager starts match
+UI PASS detail explains windfury and cleave layer semantics
+UI PASS LAN skip advances only local animation
+UI PASS leave cleans network state
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2641)
+ERROR: 3 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:810)

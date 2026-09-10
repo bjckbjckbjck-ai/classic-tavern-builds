@@ -1,0 +1,9 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS free third spell offered with zero price and green affordance
+UI PASS spell hero has progress instead of inactive button
+UI PASS free refresh button works at zero gold
+UI PASS removed minion remains as fading departure ghost
+UI PASS death ghost cleans up after fading
+UI PASS eliminated hero portrait uses grayscale shader
+UI PASS elimination rank visibly marked

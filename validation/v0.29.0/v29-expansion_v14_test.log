@@ -1,0 +1,28 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS 119 definitions and 15 heroes validate
+PASS Nozdormu refresh costs zero
+PASS second refresh requires payment
+PASS unused hero charge expires while three spell charges survive
+PASS pirate purchase reduces displayed Patches cost
+PASS Patches discount survives round transition
+PASS Patches draws legal pirate and resets discount after success
+PASS Patches once per turn
+PASS full hand retains coins and discount
+PASS empty pirate pool refunds and retains discount
+PASS Alex upgrade opens dragon discover
+PASS Alex has second discover
+PASS Alex grants exactly two dragons
+PASS tier six does not repeat Alex reward
+PASS courier waits for fifth paid coin
+PASS courier loops thresholds and buffs only pirates
+PASS Strongarm uses pirate purchases this turn
+PASS gold Balladist gives twice actual paid gold as health
+PASS Nether Drake buffs own dragons including itself
+PASS Picky consumes shop stats
+PASS Urzul cannot trigger on own play
+PASS other demon triggers Urzul consumption
+PASS gold Amber selects two distinct dragons and stacks shield
+PASS combat shield gain leaves recruitment original unchanged
+PASS each friendly shield layer triggers own Enforcer only
+PASS seven damage splits into five armor and two life

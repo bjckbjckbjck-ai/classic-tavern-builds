@@ -1,3 +1,17 @@
+# v0.29 扩展入口
+
+- `data/issue-v29.json` 在v28包后、外部mods前加载。保留旧ID，退役用`retired=true,pool=0`。`avenge_toxfin`在`undead_combat.gd`处理，按`attack_value`比较当前有效攻击；金色翻倍授予层数，招募死亡不能触发。
+- 铸币字段：`base_coin_limit`是初始10/12；`coin_cap`是永久成熟额度；`income`为本轮基础补满额度。统一通过`ECON.refill`计算，收益不得用coin_cap截断。`next_gold`与`gallywix_bank`只在新回合补满后支付一次，旧余额清空。
+- `sold_turn`记录本轮实际出售数；`pie_bonus`标记每张酒馆随从临时馅饼增益，跨回合仅撤销此部分，购买时保留已获得身材。`candle_used`仅成功购买法术后增长，免费技能重叠也只能算一次购买。
+- 英雄`gallywix`/`omu`为被动，不可手动发动；分别接在实际出售/成功升本后。添加英雄需同步被动判定、肖像、计数器、图鉴与全局卡表。
+- `attack_motion.gd`集中定义蓄势、接触、落地和攻击总时长；`combat.gd`保存`lifted_uid`。`main.replay_step`同时用于房主计时与客户端播放，修改时必须一致。嵌套进击恢复外层抬起标记；后续回放不可泄漏对手手牌。
+- `tavern_action_button.gd`绘制按钮，原生Button保留可访问文本与点击行为；`main.tavern_button`负责接线，勿将图标变成独立遮挡点击的控件。
+- 更新后运行卡表/公告生成器与`verify.py`；双进程联机用`tests/issue_network_v29.gd`及`.runtime/network_v29.py`，测试仅在本机端口14337进行。
+
+下方v26历史说明中的产币上限裁剪已经取消。
+
+---
+
 # v0.28.0扩展入口
 
 - `data/issue-v28.json`：4张新卡，在旧包后覆盖加载。`pirate_flag`、`skyblazer`为被动；`pirate_summon_attack`为亡语；`attack_all_damage.friendly_only`区分友方伤害与全场伤害。

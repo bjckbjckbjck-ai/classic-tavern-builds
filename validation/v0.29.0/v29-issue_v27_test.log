@@ -1,0 +1,26 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS issue 7 catalog and trinkets load
+PASS requested tiers and retirement
+PASS pigeon and token reduced stats
+PASS tier one Pearl grows non-murloc hand with Drakkari
+PASS Sightseer golden Brann grants four cap and held coins
+PASS encoded placement keeps battlecry target identity
+PASS invalid placement rejects atomically
+PASS Macaw triggers permanent demon points before attack
+PASS senior death grants point and reborns at one health
+PASS reborn senior grants second permanent point
+PASS demon points reconcile without duplication
+PASS golden juggler fires two shots of three plus points
+PASS lesser trinket price and acquisition
+PASS avenge waits for fifth death
+PASS fifth death summons legal taunt demon
+PASS greater avenge repeats and carries remainder
+PASS new combat resets avenge progress but retains permanent points
+PASS full-board avenge consumes trigger without exceeding seven
+PASS roundhead damage invokes huff once before collision
+PASS roundhead deals friendly-fire splash plus actual attack
+PASS huff bonus persists on original recruitment beast
+PASS shielded huff does not trigger
+PASS fatal huff triggers for surviving beasts without reviving itself
+v27 rules 23 passed / 0 failed

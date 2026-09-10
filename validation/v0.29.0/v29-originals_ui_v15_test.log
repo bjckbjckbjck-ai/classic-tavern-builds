@@ -1,0 +1,8 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS conditional engine shows unmet requirement
+UI PASS successful spell shows ready indicator
+UI PASS custom provenance clearly separated from historical cards
+UI PASS gold preview shows printed gold stats
+UI PASS preview cannot mutate live board
+UI PASS copied legacy PNG artwork loads

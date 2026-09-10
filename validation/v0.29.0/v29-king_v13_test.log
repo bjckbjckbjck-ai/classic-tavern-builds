@@ -1,0 +1,10 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS original hero loads at stable appended index
+PASS insufficient coins do not consume skill or RNG
+PASS full hand does not charge
+PASS uniform six-face draw path produces exact tiers including above tavern and consumes shared copies
+PASS second use same round blocked
+PASS new round resets one-use flag
+PASS empty exact tier refunds without substituting another tier
+PASS hero prize participates in normal triple
