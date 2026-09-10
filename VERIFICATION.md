@@ -8,6 +8,8 @@
 - 原始Android实操暴露了饰品画作目录不匹配及圆形角标裁切x/N，修复后重新导出、安装、实操验证。最终Android日志无SCRIPT ERROR或FATAL EXCEPTION。未验证ARM实体手机、扬声器或两台真实设备Wi-Fi。
 - APK签名有效并沿用原Debug证书；ZIP1012条目完整，没有上传附件原图。测试房主与模拟器已关闭。部分既有headless用例退出仍有ObjectDB/资源清理警告，不声称已解决这些历史警告。
 
+- GitHub v0.27.0已公开并设为latest，三个附件大小和服务端SHA256均匹配本地；APK/EXE完整下载链接HTTP200。未进行整包匿名回下载。
+
 | 文件 | 字节 | SHA256 |
 |---|---:|---|
 | ClassicTavern-v0.27.0.apk | 190677102 | `364a21d81ad5cd1c8b39cd44a08fd00cabf5cf1d6051cf6175aec2c3ed1abbb2` |
