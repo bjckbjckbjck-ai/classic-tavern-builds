@@ -1,5 +1,7 @@
 # v0.30.1 验证记录（2026-09-11）
 
+- 发布已完成：GitHub latest=v0.30.1，非草稿；三个附件大小及SHA256与本地一致，APK/EXE下载链接均返回HTTP200。模拟器点击检查更新返回“当前已是最新版本：v0.30.1”。
+
 - 交付APK安装到Android13/API33 x86_64模拟器，versionCode31/versionName0.30.1；2280×1080横屏，GLES3.1/NVIDIA硬件图形转译。`v301-android.log`记录`PRESENTATION VERIFIED Android msaa=0`及后台恢复后重新通过。未见SCRIPT ERROR或运行异常，启动有一次旧shader缓存重新编译警告。
 - 同一旧v0.30.0 APK在硬件模式也能显示；未完全复现用户实体机空白。SwiftShader软件模式有引擎uniform上限报错，已明确记录，不以硬件模式通过覆盖此限制。
 - 实际APK截图和触控覆盖招募/买牌/手牌/出牌/长按详情/战斗灰化/后台恢复、随从与英雄与法术与暗月图鉴、滚动、流派、设置、公告、更新页、房间/BOT、大小饰品选择与返回战场。
