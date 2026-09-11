@@ -1,0 +1,49 @@
+{
+  "assets": [
+    {
+      "apiUrl": "https://api.github.com/repos/bjckbjckbjck-ai/classic-tavern-builds/releases/assets/556277357",
+      "contentType": "application/octet-stream",
+      "createdAt": "2026-09-11T02:13:45Z",
+      "digest": "sha256:d5d2b8c74497298a9890dc319b0449b12dc2f0ee49ab8d3899edea222d662fba",
+      "downloadCount": 0,
+      "id": "RA_kwDOUQ5hb84hKB5t",
+      "label": "",
+      "name": "ClassicTavern-v0.30.0-guide.md",
+      "size": 3536,
+      "state": "uploaded",
+      "updatedAt": "2026-09-11T02:13:45Z",
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.30.0/ClassicTavern-v0.30.0-guide.md"
+    },
+    {
+      "apiUrl": "https://api.github.com/repos/bjckbjckbjck-ai/classic-tavern-builds/releases/assets/556277358",
+      "contentType": "application/vnd.android.package-archive",
+      "createdAt": "2026-09-11T02:13:45Z",
+      "digest": "sha256:be6c567a1ae981be45c6e489bd5835c835835cc6440095226d08382b20d9faec",
+      "downloadCount": 0,
+      "id": "RA_kwDOUQ5hb84hKB5u",
+      "label": "",
+      "name": "ClassicTavern-v0.30.0.apk",
+      "size": 194598035,
+      "state": "uploaded",
+      "updatedAt": "2026-09-11T02:14:27Z",
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.30.0/ClassicTavern-v0.30.0.apk"
+    },
+    {
+      "apiUrl": "https://api.github.com/repos/bjckbjckbjck-ai/classic-tavern-builds/releases/assets/556277360",
+      "contentType": "application/x-msdownload",
+      "createdAt": "2026-09-11T02:13:45Z",
+      "digest": "sha256:4bb5f37f20c764a27e37ad19982393c33e8cc787eb3f9cb68ff82f30743cf337",
+      "downloadCount": 0,
+      "id": "RA_kwDOUQ5hb84hKB5w",
+      "label": "",
+      "name": "ClassicTavern-v0.30.0.exe",
+      "size": 215861784,
+      "state": "uploaded",
+      "updatedAt": "2026-09-11T02:14:31Z",
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.30.0/ClassicTavern-v0.30.0.exe"
+    }
+  ],
+  "isDraft": false,
+  "tagName": "v0.30.0",
+  "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.30.0"
+}
