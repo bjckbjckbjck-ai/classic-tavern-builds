@@ -1,14 +1,28 @@
-# v0.30.1 · 安卓显示修复
+# v0.31.0 · 立体交互升级
 
-[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.30.1/ClassicTavern-v0.30.1.apk)
+本版完成24项计划中的第一批主要交互，并提前加入复生常驻膜。规则、卡池、回合时长及联机协议不变。
 
-[Windows EXE完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.30.1/ClassicTavern-v0.30.1.exe)
+| 改进 | 本版行为 |
+|---|---|
+| 拿牌姿态 | 抬高卡牌，纵向移动带动前后倾斜，横向移动带动侧倾，停下平滑回正 |
+| 实体边缘 | 加厚侧边、增加金属边层；阴影随离桌高度扩散变淡 |
+| 插牌与换位 | 有效插入位置两边让位，拿走牌后其余牌收拢；取消恢复，服务器仍按原站位规则结算 |
+| 落桌 | 释放后短促回弹，再贴回桌面 |
+| 攻击 | 蓄力后仰、出击前倾、撞击后回撤；敌我朝向相反，保留原攻击时长 |
+| 圣盾 | 金色完整球壳、流光与裂纹，减层飞出弧面碎片；还有层数保留膜，耗尽后膜和金边一起淡出 |
+| 复生 | 青白色独立包覆膜，和圣盾可同时显示；层数仍用盾3／复3标签 |
+| 按钮 | 厚底座、表面下压与回弹，属于2D绘制的立体按压效果 |
+| 体验设置 | 新增减少动态倾斜选项并保存；调整诊断文字区域，避免底部被截断 |
 
-3d已设为发行仓库默认分支。首阶段3D重构接入实际招募、手牌与战斗：实体卡牌、抬起投影、圣盾薄膜、灰化退场和复生。主菜单体验设置可切换3D桌面/2D兼容；安卓关闭离屏MSAA，并增加像素检测与自动2D回退；详细范围见 [本版说明](v0.30.1-安卓显示修复.md)。
+每种膜只建一个，不按层数复制透明球壳。继续保留安卓关闭离屏MSAA、像素检查、失败自动2D回退，以及手动2D兼容模式。
 
-APK沿用原签名覆盖安装；EXE内嵌资源直接运行。单机无需服务器，选择英雄与七名BOT对战。建议联机双方使用v0.30.1（协议沿用v0.30.0），在同一局域网中一人建房，其余输入房主IPv4及端口（默认4271）；两种画面模式可以互联。没有部署常驻公网服务。
+## 下载与体验
 
-当前139在池 / 28退役 / 17随从衍生物 / 22英雄 / 37酒馆法术 / 16暗月奖品 / 50饰品。规则与卡池沿用v0.29，本轮不调整强度、不进行平衡模拟。见 [全局卡池](全局卡池.md)、[验证记录](VERIFICATION.md)、[下一步计划](下一阶段开发计划.md)。已在Android13模拟器安装本版APK并检查主要界面、拖放与电脑房主连接；实体手机兼容性与发热仍需体验。
+[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.31.0/ClassicTavern-v0.31.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.31.0/ClassicTavern-v0.31.0.exe) · [30秒操作录像](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.31.0/ClassicTavern-v0.31.0-demo.mp4)
+
+APK沿用原包名与签名，versionCode32，可覆盖安装；单机选择BOT即可玩。体验设置中选择3D桌面。录像来自最终交付APK在Android13模拟器上的实际触控；为演示叠层膜与插牌使用预置30铸币、六星酒馆及测试阵容，不是正常开局或AI额外强化。
+
+详细范围与校验见 [本版说明](v0.31.0-立体交互升级.md)，验证边界见 [验证记录](VERIFICATION.md)。
 
 ## 既有内容记录
 
