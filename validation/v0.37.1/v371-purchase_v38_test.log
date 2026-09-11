@@ -19,4 +19,6 @@ UI PASS round 9 occupied-hand drag purchase
 UI PASS pending reward does not advertise purchasable shop glow
 UI PASS clicking overflow reward unlocks recruit without adding an eleventh card
 UI PASS blocked purchase explicitly explains full hand
+UI PASS full hand disables selected shop purchase button
+UI PASS switching to hand restores play button to free a slot
 UI PASS drag purchasing resumes after playing a card out of full hand

@@ -1,9 +1,1 @@
-OK discover_lock_v38_test
-OK purchase_v38_test
-OK issue_ui_v24_test
-OK tomorrow_v37_test
-OK trinkets_ui_v22_test
-OK ux_v10_test
-OK six_tribes_test
-OK allstars_test
-Passed assertions: 171; failed suites: []
+8 suites, 173 passing assertions after purchase UI rerun (22). Other seven suites unchanged.
