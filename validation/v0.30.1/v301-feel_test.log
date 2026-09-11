@@ -1,0 +1,9 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS drag shop to hand purchases exactly once
+UI PASS drag hand to board plays
+UI PASS long press opens full card detail
+UI PASS tap outside closes detail
+UI PASS drag to tavern sells once
+UI PASS invalid drop does not highlight sell zone
+FEEL RESULT 6/6 passed

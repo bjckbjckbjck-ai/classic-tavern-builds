@@ -1,0 +1,8 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+ANDROID FIXTURE READY
+ANDROID COMMAND lesser
+ANDROID COMMAND greater
+ANDROID STATE board=["bronze", "toxfin", "tidecaller"] hand=["micro"] trinkets=["staff_lesser", "tip_jar"]
+ANDROID COMMAND report
+ANDROID COMMAND combat

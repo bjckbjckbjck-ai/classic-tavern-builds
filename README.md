@@ -1,14 +1,14 @@
-# v0.30.0 · 3D桌面与卡牌
+# v0.30.1 · 安卓显示修复
 
-[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.30.0/ClassicTavern-v0.30.0.apk)
+[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.30.1/ClassicTavern-v0.30.1.apk)
 
-[Windows EXE完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.30.0/ClassicTavern-v0.30.0.exe)
+[Windows EXE完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.30.1/ClassicTavern-v0.30.1.exe)
 
-3d已设为发行仓库默认分支。首阶段3D重构接入实际招募、手牌与战斗：实体卡牌、抬起投影、圣盾薄膜、灰化退场和复生。主菜单体验设置可切换3D桌面/2D兼容；详细范围见 [本版说明](v0.30.0-3D桌面重构.md)。
+3d已设为发行仓库默认分支。首阶段3D重构接入实际招募、手牌与战斗：实体卡牌、抬起投影、圣盾薄膜、灰化退场和复生。主菜单体验设置可切换3D桌面/2D兼容；安卓关闭离屏MSAA，并增加像素检测与自动2D回退；详细范围见 [本版说明](v0.30.1-安卓显示修复.md)。
 
-APK沿用原签名覆盖安装；EXE内嵌资源直接运行。单机无需服务器，选择英雄与七名BOT对战。联机双方使用v0.30.0，在同一局域网中一人建房，其余输入房主IPv4及端口（默认4271）；两种画面模式可以互联。没有部署常驻公网服务。
+APK沿用原签名覆盖安装；EXE内嵌资源直接运行。单机无需服务器，选择英雄与七名BOT对战。建议联机双方使用v0.30.1（协议沿用v0.30.0），在同一局域网中一人建房，其余输入房主IPv4及端口（默认4271）；两种画面模式可以互联。没有部署常驻公网服务。
 
-当前139在池 / 28退役 / 17随从衍生物 / 22英雄 / 37酒馆法术 / 16暗月奖品 / 50饰品。规则与卡池沿用v0.29，本轮不调整强度、不进行平衡模拟。见 [全局卡池](全局卡池.md)、[验证记录](VERIFICATION.md)、[下一步计划](下一阶段开发计划.md)。安卓运行与发热仍需手机体验。
+当前139在池 / 28退役 / 17随从衍生物 / 22英雄 / 37酒馆法术 / 16暗月奖品 / 50饰品。规则与卡池沿用v0.29，本轮不调整强度、不进行平衡模拟。见 [全局卡池](全局卡池.md)、[验证记录](VERIFICATION.md)、[下一步计划](下一阶段开发计划.md)。已在Android13模拟器安装本版APK并检查主要界面、拖放与电脑房主连接；实体手机兼容性与发热仍需体验。
 
 ## 既有内容记录
 

@@ -1,0 +1,13 @@
+{
+  "apk": {
+    "file": "ClassicTavern-v0.30.1.apk",
+    "size": 194602131,
+    "sha256": "22ca61507065056ad2a47f3b809ef522c9c672bc508e2178094b0b06ba92dc97",
+    "entries": 1062
+  },
+  "exe": {
+    "file": "ClassicTavern-v0.30.1.exe",
+    "size": 215865000,
+    "sha256": "ccb9a0900b7669e8d37eaca8806f65bd05d7441b7c72eced546bda94905a5331"
+  }
+}

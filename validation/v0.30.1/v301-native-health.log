@@ -1,0 +1,14 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+UI PASS transparent framebuffer fails visibility check
+UI PASS opaque black framebuffer fails visibility check
+UI PASS painted framebuffer passes visibility check
+UI PASS cards remain visible before rendered output is verified
+PRESENTATION VERIFIED Windows msaa=1 cards=6
+UI PASS normal rendered table passes readiness check
+PRESENTATION FALLBACK 离屏桌面或卡面未绘出
+UI PASS real transparent 3D output triggers automatic fallback
+UI PASS fallback restores all interactive card artwork
+UI PASS fallback preserves coins and board state
+UI PASS card can still be played after rendering failure
