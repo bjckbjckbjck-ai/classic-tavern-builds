@@ -1,0 +1,29 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS expanded catalog has 169 definitions and 26 spells
+PASS issue retirement and Ripsnarl adjustments
+PASS hydra gold cleave two
+PASS reaper gold cleave two
+PASS blade_collector gold cleave two
+PASS triple retains bonus layers above golden base
+PASS mixed purchases yield a random spell every third purchase
+PASS golden Seafarer yields two spells
+PASS purchase keeps last hand slot ahead of triggered rewards
+PASS purchase progress persists across turns
+PASS Rodeo offers three distinct tier-legal spells
+PASS spell discover deduplicates
+PASS discovered spell delivered to hand
+PASS gold Rodeo and Brann queue four distinct choices
+PASS five visible spells share seven shop slots with two minions
+PASS extra spell offers cap at seven without hidden overflow
+PASS Strike Oil raises persistent cap
+PASS Tricky Trousers grants buff and taunt
+PASS Tricky Trousers toggles existing taunt off
+PASS Natural Blessing affects matching tribe in board and tavern
+PASS Azerite Empowerment buffs board
+PASS Chef Choice produces a different same-tribe minion
+PASS dead Rylak triggers adjacent spell discovery automatically in combat
+PASS combat battlecry has target feedback event
+PASS gold Rylak triggers both adjacent battlecries with Brann
+PASS simultaneous deaths do not substitute a distant battlecry neighbor
+V21 RESULT 26 / 0

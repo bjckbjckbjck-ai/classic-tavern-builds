@@ -1,0 +1,14 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS four prominent recruit actions keep large touch targets
+UI PASS new freeze button performs real action
+UI PASS frozen action keeps active appearance
+UI PASS Gallywix bank visible beside hero
+UI PASS replay includes preparation before attack
+UI PASS phase banner does not cover attack effects
+UI PASS attacker visibly lifts, brightens and enlarges
+UI PASS lift leaves separate ground shadow
+UI PASS attacker lands at original position and size
+UI PASS host timing budgets cover lift and completed return
+UI PASS combat exposes prominent skip action
+v29 UI failures 0

@@ -1,19 +1,14 @@
-# v0.29.0 铸币经济与攻击手感
+# v0.30.0 · 3D桌面与卡牌
 
-[Android APK 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.29.0/ClassicTavern-v0.29.0.apk)
+[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.30.0/ClassicTavern-v0.30.0.apk)
 
-[Windows EXE 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.29.0/ClassicTavern-v0.29.0.exe)
+[Windows EXE完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.30.0/ClassicTavern-v0.30.0.exe)
 
-单机：主菜单可开关饰品，进入酒馆选择英雄后和七名机器人对战。饰品开启时第6／9回合选购小／大饰品。
-联机：双方使用 v0.29.0，在同一 Wi-Fi / 局域网中，一人点击「好友联机 → 创建房间」，其他人输入房间显示的房主 IPv4 地址和端口（默认 4271）加入。Windows 首次询问网络访问时允许当前私人网络。房主添加机器人、选择 BOT 难度和饰品开关后开始。手机也能创建房间。
+3d已设为发行仓库默认分支。首阶段3D重构接入实际招募、手牌与战斗：实体卡牌、抬起投影、圣盾薄膜、灰化退场和复生。主菜单体验设置可切换3D桌面/2D兼容；详细范围见 [本版说明](v0.30.0-3D桌面重构.md)。
 
-EXE 内嵌游戏资源，下载后直接运行；APK 使用原包名和签名，可覆盖旧版。系统更新由用户确认，不自动安装。
-这是客户端主动建房的局域网版本，没有持续运行的公网服务器。远程不同网络需要双方已有的虚拟局域网，或自行提供可达 WebSocket 地址；本版未部署公网中继。
+APK沿用原签名覆盖安装；EXE内嵌资源直接运行。单机无需服务器，选择英雄与七名BOT对战。联机双方使用v0.30.0，在同一局域网中一人建房，其余输入房主IPv4及端口（默认4271）；两种画面模式可以互联。没有部署常驻公网服务。
 
-
-## v0.29.0 当前内容
-
-139 在池 / 28 退役 / 17 随从衍生物 / 22 英雄 / 37 酒馆法术 / 16 暗月奖品 / 50 饰品。详见 [全局卡池](全局卡池.md) 和 [本版说明](v0.29.0-铸币经济与攻击手感.md)。本版按issue #9/#10重做关键图标按钮和抬起进击动作，修复超额铸币与永久上限，调整海盗/亡灵，新增复仇下毒鱼人、加里维克斯、欧穆和3件经济饰品。未进行平衡胜率模拟。
+当前139在池 / 28退役 / 17随从衍生物 / 22英雄 / 37酒馆法术 / 16暗月奖品 / 50饰品。规则与卡池沿用v0.29，本轮不调整强度、不进行平衡模拟。见 [全局卡池](全局卡池.md)、[验证记录](VERIFICATION.md)、[下一步计划](下一阶段开发计划.md)。安卓运行与发热仍需手机体验。
 
 ## 既有内容记录
 

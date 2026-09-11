@@ -1,0 +1,40 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS v28 catalog validates four minions and seven trinkets
+PASS hard is default
+PASS legacy easy is normalized to standard
+PASS five unique lesser choices
+PASS fifth choice is purchasable
+PASS boss guarantees matching affordable lesser
+PASS boss buys designated trinket
+PASS boss greater portrait awards flagbearer
+PASS boss build IDs valid: hurt
+PASS boss build IDs valid: frog
+PASS boss build IDs valid: pirates
+PASS boss build IDs valid: trade
+PASS boss build IDs valid: murlocs
+PASS boss build IDs valid: dragons
+PASS boss build IDs valid: mechs
+PASS boss build IDs valid: demons
+PASS boss build IDs valid: undead
+PASS boss shop respects tier and adds no keywords
+PASS weighted shop cannot create exhausted inventory
+PASS shield absorbs damage without skyblazer trigger
+PASS skyblazer buffs another beast on real damage
+PASS skyblazer growth persists to recruit original
+PASS golden skyblazer fatal damage buffs survivor without reviving victim
+PASS Rampager damages friends only before collision
+PASS tiger may buff damaged survivor
+PASS Scourge adds reborn to already reborn non-undead
+PASS Scourge reborn consumes one layer and returns at one health
+PASS Rose grants stats before dealing damage
+PASS Rose damage is combat-only and full growth persists
+PASS necklace applies only to leftmost
+PASS necklace transfers immediately when leftmost dies
+PASS replay display aura does not mutate base attack
+PASS flagbearer grants other pirates only
+PASS cruise deathrattle buffs portrait sky pirate before immediate attack
+PASS cruise does not retroactively buff existing pirates
+PASS golden flag summons two normal pirates with golden cruise bonus
+PASS pirate attack bonuses cannot leak to a new combat
+v28 rules 37 passed / 0 failed

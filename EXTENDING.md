@@ -1,3 +1,17 @@
+# v0.30 · 3D表现扩展
+
+`TavernStage`将商店、法术、战场、手牌、战斗区的Control输入代理映射为UID键控的`CardActor`；不要在3D节点写铸币、死亡或随机目标逻辑。
+
+实体对象位于独立World3D。常规卡牌层1，拖起卡牌层2；拖拽视图必须共享`viewport.find_world_3d()`，不能取`viewport.world_3d`，后者在own_world_3d开启时不是实际隔离世界。主视图只画层1，前景视图只画层2，避免桌面挡住HUD。
+
+卡面SubViewport采用2倍像素绘制，只在数据/选中态变化时UPDATE_ONCE。追加状态字段时确保卡面签名变化；文字与关键词来自现有Painter。战吼预览按UID覆盖原手牌代理，不能每帧在hand/board两套尺寸间反复分配纹理。
+
+新增效果应保留`main.replay_step`统一时长，且只消费本机获准查看的回放。切换观战对象或离开对局时清理UID缓存，勿让上一位玩家的3D对象残留。
+
+验证入口：`tests/presentation_3d_test.gd`（包括真实鼠标拖动、缓存、预览、死亡复生、2D回退），`tests/capture_3d.gd`（原生截图及短时帧间隔），`tests/presentation_network_3d.gd`（2D房主与3D客户端）。
+
+---
+
 # v0.29 扩展入口
 
 - `data/issue-v29.json` 在v28包后、外部mods前加载。保留旧ID，退役用`retired=true,pool=0`。`avenge_toxfin`在`undead_combat.gd`处理，按`attack_value`比较当前有效攻击；金色翻倍授予层数，招募死亡不能触发。

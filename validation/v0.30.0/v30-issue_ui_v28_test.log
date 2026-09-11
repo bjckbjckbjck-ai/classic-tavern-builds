@@ -1,0 +1,16 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS menu defaults to hard
+UI PASS exactly three difficulty buttons
+UI PASS boss difficulty touch selects
+UI PASS five purchase buttons displayed
+UI PASS pending phase banner cannot cover trinket options
+UI PASS all five choices fit panel and maintain touch height
+UI PASS real fifth button buys correct offer
+UI PASS trinket catalog displays appearance and recommendation conditions
+UI PASS every trinket has an available image
+v28 UI failures 0
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2641)
+ERROR: 3 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:810)

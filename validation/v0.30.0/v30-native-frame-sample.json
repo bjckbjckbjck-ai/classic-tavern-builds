@@ -1,0 +1,11 @@
+{
+	"actors": 24,
+	"draw_calls": 316.0,
+	"frames": 122,
+	"median_ms": 16.665,
+	"note": "Two-second native Windows steady-state fixture, not Android or long-chain performance validation.",
+	"p95_ms": 16.681,
+	"platform": "Windows",
+	"renderer": "Compatibility",
+	"resolution": "(1280, 800)"
+}

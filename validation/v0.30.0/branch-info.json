@@ -1,0 +1,7 @@
+{
+  "source_branch": "3d",
+  "source_commit": "666e4a2acb4c400526e63fe431ec814fcdb407b5",
+  "source_baseline": "247c385",
+  "public_distribution_branch": "3d",
+  "note": "Source repository is local; public GitHub repository contains release documents, verification and binaries only."
+}

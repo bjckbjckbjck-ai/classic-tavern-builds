@@ -1,0 +1,10 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS 41 sound assets load
+UI PASS mute suppresses new audio voices
+UI PASS chain sounds rate limited
+UI PASS hero progress visible beside portrait
+UI PASS passive counter replaces disabled hero power button
+UI PASS hero animation starts with precombat health
+UI PASS gallery cannot stall hero settlement
+UI PASS redraw does not replay resolved event
