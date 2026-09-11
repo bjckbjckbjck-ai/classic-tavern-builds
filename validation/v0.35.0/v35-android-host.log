@@ -1,0 +1,5 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+CHANCE FIXTURE READY
+CHANCE WHEEL { "serial": 1, "round": 1, "id": "box", "name": "神秘魔盒", "text": "随机使酒馆中的一个非金色随从变为金色。", "source": "3D validation", "notes": ["甲板杂兵变为金色（保留原有增益）"], "steps": [{ "kind": "golden", "card": {  }, "caption": "甲板杂兵变为金色（保留原有增益）", "gains": [], "changes": [{ "uid": "5544167-1723335891", "name": "甲板杂兵", "attack": 2, "health": 2, "to": ["shop", 0, 3], "gold": true }] }], "color": "9471c2" }
+CHANCE STATE 转盘 · 神秘魔盒 hand=1 serial=1
