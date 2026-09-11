@@ -1,23 +1,23 @@
-# v0.32.0 · 空间特效与原创美术
+# v0.33.0 · 灵体重塑与手牌展开
 
-本轮继续3d分支，增加战斗空间轨迹与受击反馈，并接入两张原创素材。规则、卡池、AI强度和回合计时不变。
+本版继续3D表现升级，沿用v0.32原创酒馆背景和框体，规则、回合时长、卡池及联机协议保持不变。
 
-| 内容 | 已实现 | 边界 |
+| 改进 | 本版实现 | 验收边界 |
 |---|---|---|
-| 战斗效果 | 原回放目标映射到3D桌面，彩色球形拖尾走抛物弧线，目标处展开环 | 不同关键词暂共用几何，以颜色区分；不是完整独立魔法动画 |
-| 受击 | 目标短促后退和后仰后恢复 | 不改变规则站位；邻牌受击响应后续做 |
-| 兼容 | 图形验证通过才启用空间效果；否则走原2D轨迹 | 不改变既有音效播放与回放时序 |
-| 资源管理 | 同时最多12组，到期释放，退出3D清理 | 大量连锁时省略超额纯视觉效果，规则结果保留 |
-| 减弱晃动 | 降低轨迹高度并保留原卡牌倾斜限制 | 仍保留目标和结果提示 |
-| 原创美术 | 暖木黄铜酒馆背景、木雕宝石大型UI框 | 两张平面贴图，非新增3D场景模型；小按钮沿用上一版 |
+| 复生重塑 | 依据reborn_from识别真正返回的新随从，青色卡面残影上升再回卷，实体从小到大恢复 | 保留规则给出的1血与剩余层数；普通赋予复生不播放死亡返回 |
+| 跳蛙 | 绿色蛙形灵体沿原事件弧线传递，带眼睛、腿部轮廓和受光材质 | 是程序网格灵体，非高精度随从模型 |
+| 烈毒 | 长液滴抵达目标后向四周飞溅 | 沿用原事件；授予和生效共用液滴表现，未新增规则消耗 |
+| 手牌 | 选中后抬起，邻牌左右让开；实际点击区域同步移动 | 按住/拖动期间固定布局，2D恢复原位；不是完整扇形重排 |
+| 买牌手感 | 在卡牌创建时保存最终手牌位置，避免误把飞行动画途中的坐标当作原位 | 购买、上阵、长按、出售均回归 |
+| 瞬态管理 | 空间特效按代数清理计数，防止上局退出回调误减新局计数 | 仍最多12组，并保留2D回退与减弱晃动 |
 
-背景与框体保留原PNG，提示词与接入说明在 `assets/generated/v32/README.md`。使用内置image_gen生成，没有调用额外图像API。设置文字、图标和点击区域仍由游戏绘制。
+工具选择：使用本机Godot引擎生成轻量网格、材质和动画，不增加外部模型服务依赖。没有修改关机、网络、代理或电源配置。
 
-[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.32.0/ClassicTavern-v0.32.0.apk) · [Windows EXE完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.32.0/ClassicTavern-v0.32.0.exe)
+[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.33.0/ClassicTavern-v0.33.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.33.0/ClassicTavern-v0.33.0.exe) · [实际APK战斗录像](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.33.0/ClassicTavern-v0.33.0-demo.mp4)
 
-APK沿用org.classictavern.game及既有签名，versionCode33/versionName0.32.0，可覆盖安装。单机可直接选择BOT，无需开服。
+包名org.classictavern.game，versionCode34/versionName0.33.0，沿用原签名，可覆盖安装。单机直接选择BOT，不需要服务器。录像中的铸币、酒馆等级与叠层随从为固定测试场景，不代表正常开局或AI额外强化。
 
-详细范围见 [本版说明](v0.32.0-空间特效与原创美术.md)。
+细节见 [本版说明](v0.33.0-灵体重塑与手牌展开.md)。
 
 ## 既有内容记录
 
