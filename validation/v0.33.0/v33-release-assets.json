@@ -1,0 +1,61 @@
+{
+  "assets": [
+    {
+      "apiUrl": "https://api.github.com/repos/bjckbjckbjck-ai/classic-tavern-builds/releases/assets/556650152",
+      "contentType": "video/mp4",
+      "createdAt": "2026-09-11T06:30:58Z",
+      "digest": "sha256:0572a1fc09d5bee57ca9c58699f165f9b76ac7c67ed5d0b0ab829606402d2ea8",
+      "downloadCount": 0,
+      "id": "RA_kwDOUQ5hb84hLc6o",
+      "label": "",
+      "name": "ClassicTavern-v0.33.0-demo.mp4",
+      "size": 10365562,
+      "state": "uploaded",
+      "updatedAt": "2026-09-11T06:31:02Z",
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/untagged-ed7dbe178890c271aeb8/ClassicTavern-v0.33.0-demo.mp4"
+    },
+    {
+      "apiUrl": "https://api.github.com/repos/bjckbjckbjck-ai/classic-tavern-builds/releases/assets/556650158",
+      "contentType": "application/octet-stream",
+      "createdAt": "2026-09-11T06:30:58Z",
+      "digest": "sha256:cae754392175ccf369dc58154942e9ce987d257c11697d05d78f1ac1c84a5cc4",
+      "downloadCount": 0,
+      "id": "RA_kwDOUQ5hb84hLc6u",
+      "label": "",
+      "name": "ClassicTavern-v0.33.0-guide.md",
+      "size": 3813,
+      "state": "uploaded",
+      "updatedAt": "2026-09-11T06:30:58Z",
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/untagged-ed7dbe178890c271aeb8/ClassicTavern-v0.33.0-guide.md"
+    },
+    {
+      "apiUrl": "https://api.github.com/repos/bjckbjckbjck-ai/classic-tavern-builds/releases/assets/556650157",
+      "contentType": "application/vnd.android.package-archive",
+      "createdAt": "2026-09-11T06:30:58Z",
+      "digest": "sha256:3559c68eb21c93dce0cf2d8e145028048d2a628f83b58791e5fa2240484be1a8",
+      "downloadCount": 0,
+      "id": "RA_kwDOUQ5hb84hLc6t",
+      "label": "",
+      "name": "ClassicTavern-v0.33.0.apk",
+      "size": 198392055,
+      "state": "uploaded",
+      "updatedAt": "2026-09-11T06:31:42Z",
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/untagged-ed7dbe178890c271aeb8/ClassicTavern-v0.33.0.apk"
+    },
+    {
+      "apiUrl": "https://api.github.com/repos/bjckbjckbjck-ai/classic-tavern-builds/releases/assets/556650151",
+      "contentType": "application/x-msdownload",
+      "createdAt": "2026-09-11T06:30:58Z",
+      "digest": "sha256:174bd69a5adae2b57657d89c9cacb79763b005c2ed7959c821d5677f1d7dea0a",
+      "downloadCount": 0,
+      "id": "RA_kwDOUQ5hb84hLc6n",
+      "label": "",
+      "name": "ClassicTavern-v0.33.0.exe",
+      "size": 219654432,
+      "state": "uploaded",
+      "updatedAt": "2026-09-11T06:31:45Z",
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/untagged-ed7dbe178890c271aeb8/ClassicTavern-v0.33.0.exe"
+    }
+  ],
+  "isDraft": true
+}
