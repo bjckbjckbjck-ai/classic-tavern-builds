@@ -1,0 +1,19 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+NETWORK PASS host round=1 players=2 replay=9
+NETWORK PRESENTATION host 3D=false
+NETWORK PASS private snapshots
+NETWORK PASS disconnect bot takeover=true
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2641)
+ERROR: 1 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:810)
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PRESENTATION VERIFIED Windows msaa=1 cards=3
+NETWORK PASS client round=1 players=2 replay=9
+NETWORK PRESENTATION client 3D=true
+NETWORK PASS private snapshots
+NETWORK PASS spell buy/cast synced
+TWO PROCESS NETWORK PASS

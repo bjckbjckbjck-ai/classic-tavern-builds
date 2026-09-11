@@ -1,23 +1,23 @@
-# v0.33.0 · 灵体重塑与手牌展开
+# v0.34.0 · 战斗风带与合成演出
 
-本版继续3D表现升级，沿用v0.32原创酒馆背景和框体，规则、回合时长、卡池及联机协议保持不变。
+本版继续3d分支，加入风怒/狂战空间轨迹及磁力/三连卡面合成。沿用原创酒馆背景，保留回合计时、叠层数值、AI、卡池和现有联网协议。
 
-| 改进 | 本版实现 | 验收边界 |
+| 改进 | 本版行为 | 边界 |
 |---|---|---|
-| 复生重塑 | 依据reborn_from识别真正返回的新随从，青色卡面残影上升再回卷，实体从小到大恢复 | 保留规则给出的1血与剩余层数；普通赋予复生不播放死亡返回 |
-| 跳蛙 | 绿色蛙形灵体沿原事件弧线传递，带眼睛、腿部轮廓和受光材质 | 是程序网格灵体，非高精度随从模型 |
-| 烈毒 | 长液滴抵达目标后向四周飞溅 | 沿用原事件；授予和生效共用液滴表现，未新增规则消耗 |
-| 手牌 | 选中后抬起，邻牌左右让开；实际点击区域同步移动 | 按住/拖动期间固定布局，2D恢复原位；不是完整扇形重排 |
-| 买牌手感 | 在卡牌创建时保存最终手牌位置，避免误把飞行动画途中的坐标当作原位 | 购买、上阵、长按、出售均回归 |
-| 瞬态管理 | 空间特效按代数清理计数，防止上局退出回调误减新局计数 | 仍最多12组，并保留2D回退与减弱晃动 |
+| 风怒 | 有风怒的随从每次实际出击带三道青白风带，位于卡面上方，沿实际攻击方向延伸 | 三条是装饰，不代表层数；风怒N仍是N+1次攻击，不消耗层数 |
+| 狂战 | 从主目标扫向规则实际选择的邻位，显示橙色弧形斩击 | 不重新随机目标，不改变反击或伤害结算 |
+| 磁力 | 实际消耗的卡面缩小吸入目标，蓝色闭合环及目标闪光 | 使用招募事件保存的来源卡、目标UID和位置 |
+| 三连 | 三张实际材料卡汇到金卡处，金环与闪光表现成形 | 不以同名卡猜测材料，保留额外层数；规则结果立即生效 |
+| 连续操作 | 临时卡面没有点击区域，玩家可继续操作；到期/退出3D释放 | 在既有特效上限内省略超额演出，不阻塞规则 |
+| 兼容 | 3D未验证、关闭或材料信息缺失时走原2D反馈 | 同版本房主和客户端可以获得完整新演出 |
 
-工具选择：使用本机Godot引擎生成轻量网格、材质和动画，不增加外部模型服务依赖。没有修改关机、网络、代理或电源配置。
+三连的最终金卡仍在汇聚过程中可见并可操作；本轮实现的是卡面汇聚演出，不新增等待确认或暂停。摄像机仍是正交，英雄与按钮实体槽留在下一批。
 
-[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.33.0/ClassicTavern-v0.33.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.33.0/ClassicTavern-v0.33.0.exe) · [实际APK战斗录像](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.33.0/ClassicTavern-v0.33.0-demo.mp4)
+[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.34.0/ClassicTavern-v0.34.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.34.0/ClassicTavern-v0.34.0.exe) · [实际APK录像](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.34.0/ClassicTavern-v0.34.0-demo.mp4)
 
-包名org.classictavern.game，versionCode34/versionName0.33.0，沿用原签名，可覆盖安装。单机直接选择BOT，不需要服务器。录像中的铸币、酒馆等级与叠层随从为固定测试场景，不代表正常开局或AI额外强化。
+包名org.classictavern.game，versionCode35/versionName0.34.0，保留既有签名，可覆盖安装。单机选择BOT即可，不需要开服。联机建议双方使用v0.34.0；新增的是可选表现信息。
 
-细节见 [本版说明](v0.33.0-灵体重塑与手牌展开.md)。
+详见 [本版说明](v0.34.0-战斗风带与合成演出.md)。
 
 ## 既有内容记录
 
