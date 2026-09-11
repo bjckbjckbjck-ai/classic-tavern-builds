@@ -1,0 +1,105 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+SCRIPT ERROR: Invalid call. Nonexistent function 'set_axis_stretch_horizontal' in base 'StyleBoxTexture'.
+   at: panel (res://scripts/main.gd:208)
+   GDScript backtrace (most recent call first):
+       [0] panel (res://scripts/main.gd:208)
+       [1] menu (res://scripts/main.gd:311)
+       [2] _ready (res://scripts/main.gd:149)
+       [3] run_test (res://tests/spatial_3d_test.gd:3)
+SCRIPT ERROR: Invalid call. Nonexistent function 'set_axis_stretch_horizontal' in base 'StyleBoxTexture'.
+   at: panel (res://scripts/main.gd:208)
+   GDScript backtrace (most recent call first):
+       [0] panel (res://scripts/main.gd:208)
+       [1] menu (res://scripts/main.gd:312)
+       [2] _ready (res://scripts/main.gd:149)
+       [3] run_test (res://tests/spatial_3d_test.gd:3)
+SCRIPT ERROR: Invalid call. Nonexistent function 'set_axis_stretch_horizontal' in base 'StyleBoxTexture'.
+   at: panel (res://scripts/main.gd:208)
+   GDScript backtrace (most recent call first):
+       [0] panel (res://scripts/main.gd:208)
+       [1] lobby (res://scripts/main.gd:704)
+       [2] render (res://scripts/main.gd:699)
+       [3] receive_state (res://scripts/main.gd:656)
+       [4] broadcast (res://scripts/main.gd:624)
+       [5] add_bot (res://scripts/main.gd:552)
+       [6] practice_room (res://scripts/main.gd:395)
+       [7] run_test (res://tests/spatial_3d_test.gd:4)
+SCRIPT ERROR: Invalid call. Nonexistent function 'set_axis_stretch_horizontal' in base 'StyleBoxTexture'.
+   at: panel (res://scripts/main.gd:208)
+   GDScript backtrace (most recent call first):
+       [0] panel (res://scripts/main.gd:208)
+       [1] lobby (res://scripts/main.gd:704)
+       [2] render (res://scripts/main.gd:699)
+       [3] receive_state (res://scripts/main.gd:656)
+       [4] broadcast (res://scripts/main.gd:624)
+       [5] add_bot (res://scripts/main.gd:552)
+       [6] practice_room (res://scripts/main.gd:395)
+       [7] run_test (res://tests/spatial_3d_test.gd:4)
+SCRIPT ERROR: Invalid call. Nonexistent function 'set_axis_stretch_horizontal' in base 'StyleBoxTexture'.
+   at: panel (res://scripts/main.gd:208)
+   GDScript backtrace (most recent call first):
+       [0] panel (res://scripts/main.gd:208)
+       [1] lobby (res://scripts/main.gd:704)
+       [2] render (res://scripts/main.gd:699)
+       [3] receive_state (res://scripts/main.gd:656)
+       [4] broadcast (res://scripts/main.gd:624)
+       [5] add_bot (res://scripts/main.gd:552)
+       [6] practice_room (res://scripts/main.gd:395)
+       [7] run_test (res://tests/spatial_3d_test.gd:4)
+SCRIPT ERROR: Invalid call. Nonexistent function 'set_axis_stretch_horizontal' in base 'StyleBoxTexture'.
+   at: panel (res://scripts/main.gd:208)
+   GDScript backtrace (most recent call first):
+       [0] panel (res://scripts/main.gd:208)
+       [1] lobby (res://scripts/main.gd:704)
+       [2] render (res://scripts/main.gd:699)
+       [3] receive_state (res://scripts/main.gd:656)
+       [4] broadcast (res://scripts/main.gd:624)
+       [5] add_bot (res://scripts/main.gd:552)
+       [6] practice_room (res://scripts/main.gd:395)
+       [7] run_test (res://tests/spatial_3d_test.gd:4)
+SCRIPT ERROR: Invalid call. Nonexistent function 'set_axis_stretch_horizontal' in base 'StyleBoxTexture'.
+   at: panel (res://scripts/main.gd:208)
+   GDScript backtrace (most recent call first):
+       [0] panel (res://scripts/main.gd:208)
+       [1] lobby (res://scripts/main.gd:704)
+       [2] render (res://scripts/main.gd:699)
+       [3] receive_state (res://scripts/main.gd:656)
+       [4] broadcast (res://scripts/main.gd:624)
+       [5] add_bot (res://scripts/main.gd:552)
+       [6] practice_room (res://scripts/main.gd:395)
+       [7] run_test (res://tests/spatial_3d_test.gd:4)
+SCRIPT ERROR: Invalid call. Nonexistent function 'set_axis_stretch_horizontal' in base 'StyleBoxTexture'.
+   at: panel (res://scripts/main.gd:208)
+   GDScript backtrace (most recent call first):
+       [0] panel (res://scripts/main.gd:208)
+       [1] lobby (res://scripts/main.gd:704)
+       [2] render (res://scripts/main.gd:699)
+       [3] receive_state (res://scripts/main.gd:656)
+       [4] broadcast (res://scripts/main.gd:624)
+       [5] add_bot (res://scripts/main.gd:552)
+       [6] practice_room (res://scripts/main.gd:395)
+       [7] run_test (res://tests/spatial_3d_test.gd:4)
+SCRIPT ERROR: Invalid call. Nonexistent function 'set_axis_stretch_horizontal' in base 'StyleBoxTexture'.
+   at: panel (res://scripts/main.gd:208)
+   GDScript backtrace (most recent call first):
+       [0] panel (res://scripts/main.gd:208)
+       [1] lobby (res://scripts/main.gd:704)
+       [2] render (res://scripts/main.gd:699)
+       [3] receive_state (res://scripts/main.gd:656)
+       [4] broadcast (res://scripts/main.gd:624)
+       [5] add_bot (res://scripts/main.gd:552)
+       [6] practice_room (res://scripts/main.gd:395)
+       [7] run_test (res://tests/spatial_3d_test.gd:4)
+UI PASS verified 3D accepts spatial effects
+UI PASS arc starts and ends at replay coordinates
+UI PASS arc rises above tabletop
+UI PASS reduced motion lowers trajectory
+UI PASS impact starts target-only recoil
+UI PASS spatial effects do not mutate game state
+UI PASS transients and recoil expire
+UI PASS 2D compatibility retains original effect path
+WARNING: 9 RIDs of type "CanvasItem" were leaked.
+   at: _free_rids (servers/rendering/renderer_canvas_cull.cpp:2692)
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2641)

@@ -1,28 +1,23 @@
-# v0.31.0 · 立体交互升级
+# v0.32.0 · 空间特效与原创美术
 
-本版完成24项计划中的第一批主要交互，并提前加入复生常驻膜。规则、卡池、回合时长及联机协议不变。
+本轮继续3d分支，增加战斗空间轨迹与受击反馈，并接入两张原创素材。规则、卡池、AI强度和回合计时不变。
 
-| 改进 | 本版行为 |
-|---|---|
-| 拿牌姿态 | 抬高卡牌，纵向移动带动前后倾斜，横向移动带动侧倾，停下平滑回正 |
-| 实体边缘 | 加厚侧边、增加金属边层；阴影随离桌高度扩散变淡 |
-| 插牌与换位 | 有效插入位置两边让位，拿走牌后其余牌收拢；取消恢复，服务器仍按原站位规则结算 |
-| 落桌 | 释放后短促回弹，再贴回桌面 |
-| 攻击 | 蓄力后仰、出击前倾、撞击后回撤；敌我朝向相反，保留原攻击时长 |
-| 圣盾 | 金色完整球壳、流光与裂纹，减层飞出弧面碎片；还有层数保留膜，耗尽后膜和金边一起淡出 |
-| 复生 | 青白色独立包覆膜，和圣盾可同时显示；层数仍用盾3／复3标签 |
-| 按钮 | 厚底座、表面下压与回弹，属于2D绘制的立体按压效果 |
-| 体验设置 | 新增减少动态倾斜选项并保存；调整诊断文字区域，避免底部被截断 |
+| 内容 | 已实现 | 边界 |
+|---|---|---|
+| 战斗效果 | 原回放目标映射到3D桌面，彩色球形拖尾走抛物弧线，目标处展开环 | 不同关键词暂共用几何，以颜色区分；不是完整独立魔法动画 |
+| 受击 | 目标短促后退和后仰后恢复 | 不改变规则站位；邻牌受击响应后续做 |
+| 兼容 | 图形验证通过才启用空间效果；否则走原2D轨迹 | 不改变既有音效播放与回放时序 |
+| 资源管理 | 同时最多12组，到期释放，退出3D清理 | 大量连锁时省略超额纯视觉效果，规则结果保留 |
+| 减弱晃动 | 降低轨迹高度并保留原卡牌倾斜限制 | 仍保留目标和结果提示 |
+| 原创美术 | 暖木黄铜酒馆背景、木雕宝石大型UI框 | 两张平面贴图，非新增3D场景模型；小按钮沿用上一版 |
 
-每种膜只建一个，不按层数复制透明球壳。继续保留安卓关闭离屏MSAA、像素检查、失败自动2D回退，以及手动2D兼容模式。
+背景与框体保留原PNG，提示词与接入说明在 `assets/generated/v32/README.md`。使用内置image_gen生成，没有调用额外图像API。设置文字、图标和点击区域仍由游戏绘制。
 
-## 下载与体验
+[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.32.0/ClassicTavern-v0.32.0.apk) · [Windows EXE完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.32.0/ClassicTavern-v0.32.0.exe)
 
-[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.31.0/ClassicTavern-v0.31.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.31.0/ClassicTavern-v0.31.0.exe) · [30秒操作录像](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.31.0/ClassicTavern-v0.31.0-demo.mp4)
+APK沿用org.classictavern.game及既有签名，versionCode33/versionName0.32.0，可覆盖安装。单机可直接选择BOT，无需开服。
 
-APK沿用原包名与签名，versionCode32，可覆盖安装；单机选择BOT即可玩。体验设置中选择3D桌面。录像来自最终交付APK在Android13模拟器上的实际触控；为演示叠层膜与插牌使用预置30铸币、六星酒馆及测试阵容，不是正常开局或AI额外强化。
-
-详细范围与校验见 [本版说明](v0.31.0-立体交互升级.md)，验证边界见 [验证记录](VERIFICATION.md)。
+详细范围见 [本版说明](v0.32.0-空间特效与原创美术.md)。
 
 ## 既有内容记录
 
