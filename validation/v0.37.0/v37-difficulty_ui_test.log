@@ -1,0 +1,23 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+UI PASS select boss difficulty
+
+UI PASS chosen difficulty enters offline eight-player match
+
+UI PASS all seven boss bots receive exact bonuses
+
+UI PASS human starts with ordinary resources
+
+UI PASS rematch retains difficulty
+
+DIFFICULTY UI RESULT 5/5
+
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+
+   at: cleanup (core/object/object.cpp:2641)
+
+ERROR: 2 resources still in use at exit (run with --verbose for details).
+
+   at: clear (core/io/resource.cpp:810)

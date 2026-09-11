@@ -1,0 +1,29 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+UI PASS transparent framebuffer fails visibility check
+
+UI PASS opaque black framebuffer fails visibility check
+
+UI PASS painted framebuffer passes visibility check
+
+UI PASS cards remain visible before rendered output is verified
+
+UI PASS normal rendered table passes readiness check
+
+PRESENTATION FALLBACK injected empty framebuffer
+
+UI PASS fallback restores all interactive card artwork
+
+UI PASS fallback preserves coins and board state
+
+UI PASS card can still be played after rendering failure
+
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+
+   at: cleanup (core/object/object.cpp:2641)
+
+ERROR: 1 resources still in use at exit (run with --verbose for details).
+
+   at: clear (core/io/resource.cpp:810)

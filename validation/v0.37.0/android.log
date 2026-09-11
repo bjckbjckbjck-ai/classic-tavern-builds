@@ -1,0 +1,17 @@
+--------- beginning of main
+09-11 10:20:33.281  4513  4557 I godot   : Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+09-11 10:20:33.486  4513  4557 E godot   : WARNING: Failed to load cached shader, recompiling.
+09-11 10:20:33.486  4513  4557 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:612)
+09-11 10:20:34.008  4513  4557 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 595.97) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2)
+09-11 10:20:34.078  4513  4557 I godot   :
+09-11 10:21:20.517  4513  4557 I godot   : PRESENTATION VERIFIED Android msaa=0 cards=8
+09-11 10:21:56.638  4513  4557 I godot   : CHANCE 3D VERIFIED wheel Android
+09-11 10:21:56.639  4513  4557 I godot   : CHANCE 3D VERIFIED dice Android
+09-11 10:27:13.163  7652  7677 I godot   : Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+09-11 10:27:13.350  7652  7677 E godot   : WARNING: Failed to load cached shader, recompiling.
+09-11 10:27:13.350  7652  7677 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:612)
+09-11 10:27:13.668  7652  7677 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 595.97) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2)
+09-11 10:27:13.731  7652  7677 I godot   :
+09-11 10:27:18.744  7652  7677 I godot   : PRESENTATION VERIFIED Android msaa=0 cards=8
+09-11 10:28:00.357  7652  7677 I godot   : CHANCE 3D VERIFIED wheel Android
+09-11 10:28:00.359  7652  7677 I godot   : CHANCE 3D VERIFIED dice Android

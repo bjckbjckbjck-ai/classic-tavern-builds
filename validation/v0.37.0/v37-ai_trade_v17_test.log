@@ -1,0 +1,25 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+PASS hard AI recognizes bounded crystal buy-play-sell cycle
+
+PASS cycle spends net two coins and restores occupied slots
+
+PASS cycle positions the intended dragon and realizes growth
+
+PASS standard AI retains simpler operating policy
+
+PASS low health prevents speculative trading
+
+PASS low coins preserve acquisition budget
+
+PASS cycle preserves planned upgrade budget
+
+PASS held minions and possible triples are resolved first
+
+PASS full board does not sell a core merely to cycle
+
+PASS fixed identical scenario realizes more dragon growth than disabled policy
+
+TRADE COMPARISON [{"cycles":0,"dragon_attack":4},{"cycles":1,"dragon_attack":5}]

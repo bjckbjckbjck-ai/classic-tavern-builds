@@ -1,0 +1,21 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+UI PASS host enters real settling countdown after ready
+
+UI PASS settling keeps recruitment board and shop visible
+
+UI PASS all cards lose playable glow during settling
+
+UI PASS settling rejects drag targets
+
+UI PASS settling has explicit status and disabled actions
+
+UI PASS end effect trails play during settling
+
+UI PASS unexpired phase cannot start combat early
+
+UI PASS countdown expiration starts combat at first replay frame
+
+v26 UI failures 0

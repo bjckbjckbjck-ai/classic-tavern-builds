@@ -1,0 +1,55 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+PASS printed shield plus two grants equals three
+
+PASS three shields absorb exactly three hits
+
+PASS exhausted shield does not regenerate
+
+PASS shield blocks venom without spending charge
+
+PASS effective hit consumes one venom and kills
+
+PASS lethal raw damage still spends venom
+
+PASS zero damage does not spend venom
+
+PASS combat does not mutate permanent layers
+
+PASS stacking is the only default rule
+
+PASS free shield grant removed
+
+PASS only one enhancement per turn
+
+PASS free grant stays removed next round
+
+PASS invalid target does not spend enhancement
+
+PASS triple retains base once and all acquired layers
+
+PASS bot does not use removed free enhancement
+
+PASS stacked eight-bot complete game seed 0
+
+PASS stacked eight-bot complete game seed 1
+
+PASS stacked eight-bot complete game seed 2
+
+PASS stacked eight-bot complete game seed 3
+
+PASS stacked eight-bot complete game seed 4
+
+PASS stacked eight-bot complete game seed 5
+
+PASS stacked eight-bot complete game seed 6
+
+PASS stacked eight-bot complete game seed 7
+
+PASS stacked eight-bot complete game seed 8
+
+PASS stacked eight-bot complete game seed 9
+
+STACK RESULT 25/25

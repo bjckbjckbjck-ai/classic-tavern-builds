@@ -1,0 +1,31 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+UI PASS king button unavailable below five coins
+
+UI PASS shop shows triple availability using hand and board
+
+UI PASS triple hint counts normal copies
+
+UI PASS triple hint excludes gold cards
+
+UI PASS nonblocking end-turn resource summary
+
+UI PASS king button available at five coins
+
+UI PASS confirmed roll enters local history once
+
+UI PASS confirmed roll creates nonblocking reveal
+
+UI PASS unrelated state refresh does not duplicate history
+
+UI PASS history is scrollable and available during game
+
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+
+   at: cleanup (core/object/object.cpp:2641)
+
+ERROR: 5 resources still in use at exit (run with --verbose for details).
+
+   at: clear (core/io/resource.cpp:810)

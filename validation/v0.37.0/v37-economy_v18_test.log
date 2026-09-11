@@ -1,0 +1,111 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+PASS 154 definitions load without errors
+
+PASS 130 active minions in v23
+
+PASS retired excludes pool: creeper
+
+PASS retired excludes pool: maex
+
+PASS retired excludes pool: tidecaller
+
+PASS retired excludes pool: dragonspawn
+
+PASS retired excludes pool: glyph
+
+PASS retired excludes pool: steward
+
+PASS retired excludes pool: scalebane
+
+PASS retired excludes pool: sensei
+
+PASS retired excludes pool: egg
+
+PASS retired excludes pool: junkbot
+
+PASS retired excludes pool: siege
+
+PASS retired excludes pool: bigfernal
+
+PASS retired excludes pool: strongarm
+
+PASS retired excludes pool: soulsplitter
+
+PASS retired excludes pool: rot_hide
+
+PASS Primalfin moved to tier five
+
+PASS normal cleave one, golden two: hydra
+
+PASS normal cleave one, golden two: reaper
+
+PASS normal cleave one, golden two: blade_collector
+
+PASS cleave base stats compensated +1/+1
+
+PASS two ordinary Branns give three battlecries
+
+PASS gold and normal Brann add two plus one extra
+
+PASS two Drakkari cause three end effects
+
+PASS gold and normal Drakkari add four total triggers
+
+PASS land lubber offers additive spell slots
+
+PASS freeze preserves every spell offer
+
+PASS indexed spell buy removes only selected offer
+
+PASS invalid spell index atomic
+
+PASS start gold adds after base income
+
+PASS gold magnetic effect retained on existing Accord-o-Tron
+
+PASS triple keeps acquired magnetic income and gold printed income
+
+PASS free refresh before health charges
+
+PASS two health refreshes cost no gold
+
+PASS exhausted health refresh requires gold
+
+PASS refresh allowances reset each round
+
+PASS Soul Rewinder restores health refresh damage
+
+PASS blue shell normal sale without previous loss
+
+PASS blue shell five or ten after loss
+
+PASS blue shell pays full five coins above refill cap
+
+PASS new Scout starts at one
+
+PASS Scout gains one tier at next turn start
+
+PASS Scout discovery stops at six
+
+PASS Scout sells into exact tier discovery
+
+PASS Scout triple retains best discovery tier
+
+PASS gold Murozond generates two plain original copies
+
+PASS generated copy sale does not increase shared pool
+
+PASS generated magnetic copy does not add pool copies
+
+PASS Murozond before first opponent yields nothing
+
+PASS coin cap battlecry raises own cap without minting coins
+
+PASS future explicit team IDs share coin cap growth
+
+PASS battle records opponent originals and loss outcome
+
+ECONOMY RESULT 53 passed 0 failed

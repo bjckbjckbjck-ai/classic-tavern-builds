@@ -1,0 +1,27 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+UI PASS redrawing draft preserves four choices
+
+UI PASS no draft reroll button
+
+UI PASS next opponent information visible
+
+UI PASS spectator switches perspective
+
+UI PASS spectator cannot act; passive icon only opens information
+
+UI PASS spectator dragging rejected
+
+UI PASS unrelated soundtrack disabled by issue 4
+
+UI PASS independent music volume slider exists
+
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+
+   at: cleanup (core/object/object.cpp:2641)
+
+ERROR: 5 resources still in use at exit (run with --verbose for details).
+
+   at: clear (core/io/resource.cpp:810)

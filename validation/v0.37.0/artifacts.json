@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ClassicTavern-v0.37.0.apk",
+    "bytes": 202231658,
+    "sha256": "be09b97be873c25270564d1f71c511b7d983ca26bfba1618c9aca6351cc40333"
+  },
+  {
+    "name": "ClassicTavern-v0.37.0.exe",
+    "bytes": 223498672,
+    "sha256": "64495687a2d510d1dfc151412108d0cf6c8ff4b0124621299cd9e7bec2dba160"
+  },
+  {
+    "name": "v0.37.0-安卓明日惩戒.mp4",
+    "bytes": 10907484,
+    "sha256": "56ab31acd145fc0577371cfb96233aae93298c8f0a0c1aba2c25497ea3b7e2a6"
+  },
+  {
+    "name": "v0.37.0-体验说明.md",
+    "bytes": 5395,
+    "sha256": "e11298340f4c8857890f1bb3781bcffc8b0fe2373971c1824965b0abbcd2879d"
+  }
+]
