@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ClassicTavern-v0.36.0.apk",
+    "size": 202210622,
+    "sha256": "a834dea614cd923d7d445fce1fc8ffed98d7cc37633f2329ef4a6b584590c5e0"
+  },
+  {
+    "name": "ClassicTavern-v0.36.0.exe",
+    "size": 223472504,
+    "sha256": "35062264282562f0da2d555b3fb9847872a71fc643565a79556265625b632ac2"
+  },
+  {
+    "name": "ClassicTavern-v0.36.0-guide.md",
+    "size": 2514,
+    "sha256": "e230a05930ca5daad5f350ca845ddf4f74ed032dca122d132a3848c6b0b188d0"
+  },
+  {
+    "name": "ClassicTavern-v0.36.0-demo.mp4",
+    "size": 17390730,
+    "sha256": "34a868cdcc146cb827068aa8ba08645332ceda4186f7f2e008a18df4bf262466"
+  }
+]
