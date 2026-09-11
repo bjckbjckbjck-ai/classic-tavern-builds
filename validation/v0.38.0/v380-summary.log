@@ -1,0 +1,13 @@
+OK purchase_v38_test
+OK experience_v39_test
+OK presentation_3d_test
+OK tactile_3d_test
+OK spirit_3d_test
+OK spatial_3d_test
+OK fusion_3d_test
+OK chance_3d_test
+OK hero_armor_v36_test
+OK discover_lock_v38_test
+OK trinkets_ui_v22_test
+OK ux_v10_test
+Passed assertions: 194; failed suites: []

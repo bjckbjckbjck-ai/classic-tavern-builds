@@ -1,3 +1,7 @@
+# v0.38.0 · 触控与英雄立体演出
+
+宽容购买区、移动画质档位、英雄立体徽座与饰品展示台、权威结算3D攻击。见 [本版说明](v0.38.0-触控与英雄立体演出.md)。
+
 # v0.37.1 · 购买修复
 
 修复满手发现锁死招募和超时奖励循环，统一购买高亮与限制提示。详情见 [修复说明](v0.37.1-购买修复.md)。
@@ -13,7 +17,7 @@
 
 [完整规则与下一步](v0.37.0-明日惩戒.md) · [全局卡池](全局卡池.md)
 
-[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.37.1/ClassicTavern-v0.37.1.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.37.1/ClassicTavern-v0.37.1.exe)
+[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.38.0/ClassicTavern-v0.38.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.38.0/ClassicTavern-v0.38.0.exe)
 
 包名 org.classictavern.game，versionCode39；沿用原签名。
 

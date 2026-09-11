@@ -1,0 +1,14 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS no free layer controls
+UI PASS drag spell purchase uses printed cost
+UI PASS invalid spell drag retracts without spending
+UI PASS drag cast to board adds stats without second payment
+UI PASS drag cast to shop minion
+UI PASS full-board spell drag
+UI PASS untargeted spell click casts
+UI PASS spell gallery displays every current spell
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2641)
+ERROR: 1 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:810)

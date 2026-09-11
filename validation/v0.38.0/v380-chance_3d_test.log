@@ -1,0 +1,23 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS wheel preview creates a separate 3D scene
+UI PASS wheel has metal body, face and 24 rim studs
+UI PASS authoritative wheel sector flesh
+UI PASS authoritative wheel sector hunger
+UI PASS authoritative wheel sector hand
+UI PASS authoritative wheel sector goggles
+UI PASS authoritative wheel sector box
+UI PASS authoritative wheel sector rod
+UI PASS die lands on authority face 1
+UI PASS die lands on authority face 2
+UI PASS die lands on authority face 3
+UI PASS die lands on authority face 4
+UI PASS die lands on authority face 5
+UI PASS die lands on authority face 6
+UI PASS preview and all six die landings do not mutate player state
+UI PASS 2D wheel fallback stays available
+UI PASS automatic result remains visible during one-second hold
+UI PASS automatic wheel returns to tavern after hold
+UI PASS phase change clears result effects
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2641)

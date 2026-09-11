@@ -1,0 +1,13 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS offline menu exposes optional trinkets
+PASS offline game honors selected mode
+PASS non-manager cannot change trinkets
+PASS manager can disable before match
+PASS room mode locks after start
+PASS five readable trinket purchase cards
+PASS player can pass rather than being forced to pay
+PASS selection closes and owned trinket appears
+PASS catalog exposes all trinkets and equipped filter
+PASS rematch keeps mode and clears purchased trinkets
+UI v22 10 / 0

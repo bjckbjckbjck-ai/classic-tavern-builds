@@ -1,0 +1,5 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PRESENTATION VERIFIED Windows msaa=0 cards=24
+RENDER PERF {"cards":24,"draw_calls":408.0,"mean_ms":16.6650805555556,"objects":1374.0,"p95_ms":16.729,"renderer":"NVIDIA GeForce RTX 5060 Laptop GPU"}
