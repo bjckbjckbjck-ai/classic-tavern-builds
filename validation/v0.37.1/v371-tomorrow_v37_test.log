@@ -1,0 +1,46 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS catalog accepts all Tomorrow definitions
+UI PASS ten cards in isolated Tomorrow pool
+UI PASS exact Tomorrow discover level 1
+UI PASS exact Tomorrow discover level 2
+UI PASS exact Tomorrow discover level 3
+UI PASS dreamer generator supplies correct isolated pool
+UI PASS star starts three-round countdown after acquisition
+UI PASS first star award raises next level
+UI PASS second star award uses level two
+UI PASS juggler returns a fresh copy of used spell
+UI PASS used-spell memory resets every round
+UI PASS swap transfers real hands without cloning
+UI PASS steal transfers lowest-health minion
+UI PASS full hand does not delete enemy minion
+UI PASS dock queued once for next round
+UI PASS next-round penalties are consumed once
+UI PASS authority enforces individual deadline
+UI PASS expired player cannot act
+UI PASS bee executes before retaliation
+UI PASS temporary clean replacement tomorrow_tree
+UI PASS temporary clean replacement tomorrow_piercer
+UI PASS death journal applies penalties and armor
+UI PASS bribe transfers cap and awards both sides once
+UI PASS bribe darkmoon reward does not draw Tomorrow cards
+UI PASS wheel handles spells
+UI PASS wheel casts ten legal tavern spells
+UI PASS wheel handles armor
+UI PASS wheel armor award
+UI PASS wheel handles reset
+UI PASS reset permanently removes both high tiers and raises both caps
+UI PASS wheel handles equal
+UI PASS equality overrides winner and damage
+UI PASS wheel handles small
+UI PASS small chooses exactly three distinct targets
+UI PASS wheel handles golden
+UI PASS wheel makes exactly two eligible minions golden
+UI PASS wheel handles dice
+UI PASS network replay strips opponent raw hands after swap
+UI PASS post-swap replay exposes only current own hand
+UI PASS ghost cannot exchange living player's hand
+UI PASS ghost removals cannot mint permanent coin capacity
+UI PASS ghost attack cannot generate permanent prizes
+UI PASS stacked time penalties retain twenty seconds
+UI PASS time penalty expires after one recruit

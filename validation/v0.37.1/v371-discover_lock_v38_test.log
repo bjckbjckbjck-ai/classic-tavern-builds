@@ -1,0 +1,7 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS reproduce reward opened at nine cards then another effect fills hand
+PASS full-hand discover resolves instead of locking recruit and timeout loop
+PASS authority clears overflow while ready and returns physical copy
+PASS real expiry returns instead of looping with full hand
+PASS ordinary available-slot reward is still granted

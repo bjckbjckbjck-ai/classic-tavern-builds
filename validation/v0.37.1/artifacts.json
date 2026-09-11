@@ -1,0 +1,17 @@
+[
+  {
+    "name": "ClassicTavern-v0.37.1.apk",
+    "bytes": 213866386,
+    "sha256": "1dfea16bf86170bc52c430835c2aa59b5768595225bf8acd8a9c3a03d29334a0"
+  },
+  {
+    "name": "ClassicTavern-v0.37.1.exe",
+    "bytes": 235126944,
+    "sha256": "5e78049b93fa445d308c5b31f839adea2800b8fe1ceff9c1aae2519aa7427b85"
+  },
+  {
+    "name": "ClassicTavern-v0.37.1-guide.md",
+    "bytes": 2149,
+    "sha256": "de330994bcfd5d614cbaf44478033dc7abfee91dc7e02e64e226380f35f7482d"
+  }
+]

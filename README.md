@@ -1,3 +1,7 @@
+# v0.37.1 · 购买修复
+
+修复满手发现锁死招募和超时奖励循环，统一购买高亮与限制提示。详情见 [修复说明](v0.37.1-购买修复.md)。
+
 # v0.37.0 · 明日惩戒
 
 - 按 issue #11 添加独立10张明日惩戒奖励：7随从、3法术；不混入普通暗月奖品或商店。
@@ -9,9 +13,9 @@
 
 [完整规则与下一步](v0.37.0-明日惩戒.md) · [全局卡池](全局卡池.md)
 
-[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.37.0/ClassicTavern-v0.37.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.37.0/ClassicTavern-v0.37.0.exe)
+[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.37.1/ClassicTavern-v0.37.1.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.37.1/ClassicTavern-v0.37.1.exe)
 
-包名 org.classictavern.game，versionCode38；沿用原签名。
+包名 org.classictavern.game，versionCode39；沿用原签名。
 
 ## 既有内容记录
 
