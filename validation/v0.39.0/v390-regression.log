@@ -1,0 +1,12 @@
+OK experience_v39_test
+OK purchase_v38_test
+OK discover_lock_v38_test
+OK tomorrow_v37_test
+OK tomorrow_ui_v37_test
+OK presentation_3d_test
+OK tactile_3d_test
+OK spatial_3d_test
+OK darkmoon_ui_v23_test
+OK trinkets_ui_v22_test
+OK ux_v10_test
+Passed assertions: 170; failed suites: []

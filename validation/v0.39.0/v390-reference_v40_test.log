@@ -1,0 +1,46 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS exclusive illustration exists tomorrow_bee
+UI PASS bounded imported texture tomorrow_bee
+UI PASS exclusive illustration exists tomorrow_q
+UI PASS bounded imported texture tomorrow_q
+UI PASS exclusive illustration exists tomorrow_tree
+UI PASS bounded imported texture tomorrow_tree
+UI PASS exclusive illustration exists tomorrow_mosquito
+UI PASS bounded imported texture tomorrow_mosquito
+UI PASS exclusive illustration exists tomorrow_piercer
+UI PASS bounded imported texture tomorrow_piercer
+UI PASS exclusive illustration exists tomorrow_briber
+UI PASS bounded imported texture tomorrow_briber
+UI PASS exclusive illustration exists tomorrow_armor
+UI PASS bounded imported texture tomorrow_armor
+UI PASS exclusive illustration exists tomorrow_dreamer
+UI PASS bounded imported texture tomorrow_dreamer
+UI PASS exclusive illustration exists tomorrow_juggler
+UI PASS bounded imported texture tomorrow_juggler
+UI PASS exclusive illustration exists tomorrow_dock
+UI PASS bounded imported texture tomorrow_dock
+UI PASS exclusive illustration exists tomorrow_mine
+UI PASS bounded imported texture tomorrow_mine
+UI PASS exclusive illustration exists tomorrow_flywheel
+UI PASS bounded imported texture tomorrow_flywheel
+UI PASS exclusive illustration exists tomorrow_star
+UI PASS bounded imported texture tomorrow_star
+UI PASS exclusive illustration exists yogg_wheel
+UI PASS bounded imported texture yogg_wheel
+UI PASS exclusive illustration exists spell_yogg
+UI PASS bounded imported texture spell_yogg
+UI PASS all fifteen illustrations use distinct assets
+UI PASS ordinary catalog artwork retains its source
+UI PASS custom art uses full image rather than legacy frame crop
+UI PASS buff comparison metadata stays out of authoritative units
+UI PASS refresh belongs to top tavern controls
+UI PASS purchased persistent card rises along entry arc
+UI PASS purchase animation never duplicates payment or auto-plays
+UI PASS purchase returns to interactive hand position
+UI PASS gallery navigation preserves gameplay and finishes cosmetic motion
+UI PASS combat clears top tavern controls for opponent power and hand
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2641)
+ERROR: 1 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:810)

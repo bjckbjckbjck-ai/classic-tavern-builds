@@ -1,0 +1,217 @@
+{
+  "generator": "built-in imagegen",
+  "date": "2026-09-13",
+  "note": "Each image generated independently. First four prompts are reconstructed briefs; original generation files retained locally. Sized and WebP encoded using Godot Image, no rule changes.",
+  "assets": [
+    {
+      "id": "tomorrow_bee",
+      "prompt": "Original hand-painted clockwork wasp with brass body, propeller wings and a glowing blue needle in a tavern workshop; portrait full bleed, no frame or text.",
+      "prompt_reconstructed": true,
+      "generator": "built-in imagegen",
+      "output": "res://assets/generated/v39/tomorrow_bee.webp",
+      "generation_file": "exec-0d0d5742-c92c-435b-8bb9-61ef065d1dc7.png",
+      "sha256": "9f4a69df5cb8b1b2ce172d19da060df61c9ed4c9cacd039d73d45784bb5a56c7",
+      "bytes": 131680,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "id": "tomorrow_q",
+      "prompt": "One original premium hand-painted fantasy game card illustration. Portrait 3:4, full bleed, NO frame, NO text, NO numbers or logos. Subject: a masked raven pirate thief swapping violet and teal magical cards. Warm gold rim light, teal and violet magic, rich textured brushwork, charming dramatic design. Clear large silhouette centered inside central 75% suitable for oval card crop. Completely new art, no existing card reproduction.",
+      "prompt_reconstructed": true,
+      "generator": "built-in imagegen",
+      "output": "res://assets/generated/v39/tomorrow_q.webp",
+      "generation_file": "exec-2b3b4eff-f83a-4120-8905-4c65ef05f7c4.png",
+      "sha256": "5a070acc2783ebc7c31263f468571501c2e6546f8dec64ccfb3b10d14b342101",
+      "bytes": 164870,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "id": "tomorrow_tree",
+      "prompt": "One original premium hand-painted fantasy game card illustration. Portrait 3:4, full bleed, NO frame, NO text, NO numbers or logos. Subject: an enchanted walnut tree transforming a knight into a tiny sapling. Warm gold rim light, teal and violet magic, rich textured brushwork, charming dramatic design. Clear large silhouette centered inside central 75% suitable for oval card crop. Completely new art, no existing card reproduction.",
+      "prompt_reconstructed": true,
+      "generator": "built-in imagegen",
+      "output": "res://assets/generated/v39/tomorrow_tree.webp",
+      "generation_file": "exec-745b77a6-1ed5-4fd1-b085-76c7f20bf199.png",
+      "sha256": "69875ce9d46f1282061ed9b258ece70705016e7e7c6cb9316533067738c39bf6",
+      "bytes": 201310,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "id": "tomorrow_mosquito",
+      "prompt": "One original premium hand-painted fantasy game card illustration. Portrait 3:4, full bleed, NO frame, NO text, NO numbers or logos. Subject: a crimson mosquito with a glass abdomen full of coins siphoning a golden coin. Warm gold rim light, teal and violet magic, rich textured brushwork, charming dramatic design. Clear large silhouette centered inside central 75% suitable for oval card crop. Completely new art, no existing card reproduction.",
+      "prompt_reconstructed": true,
+      "generator": "built-in imagegen",
+      "output": "res://assets/generated/v39/tomorrow_mosquito.webp",
+      "generation_file": "exec-3c18fc32-64b2-412e-bd81-cf267ef0a4a8.png",
+      "sha256": "63d9816a94dc45effdbb5c154a26a00d496bf1db35d87148a61cb39f64e0196c",
+      "bytes": 141236,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "id": "tomorrow_piercer",
+      "prompt": "Original premium whimsical hand-painted fantasy game card illustration, portrait 3:4 full bleed, NO letters, numbers, borders or logos. an imposing undead lancer wrapped in parchment seals, black armor and a long crystal spear piercing a turquoise silence bubble, ancient ruined cathedral. Large unmistakable subject in the central 75 percent, detailed brushwork, warm amber key light, teal-violet magic, strong readable silhouette, expressive personality. Not a reproduction of any existing card.",
+      "prompt_reconstructed": false,
+      "generator": "built-in imagegen",
+      "output": "res://assets/generated/v39/tomorrow_piercer.webp",
+      "generation_file": "exec-c69e00a5-b234-4a90-8cb5-40eb189b6be8.png",
+      "sha256": "f5e36b470ffda4f2b333f0250fde35a3e33979fb291a93be08625c0ed427d486",
+      "bytes": 174090,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "id": "tomorrow_briber",
+      "prompt": "Original premium whimsical hand-painted fantasy game card illustration, portrait 3:4 full bleed, NO letters, numbers, borders or logos. a sly crimson imp diplomat in a brocade waistcoat offering a gleaming gift chest with one hand while pocketing a golden coin with the other, warm carnival tent. Large unmistakable subject in the central 75 percent, detailed brushwork, warm amber key light, teal-violet magic, strong readable silhouette, expressive personality. Not a reproduction of any existing card.",
+      "prompt_reconstructed": false,
+      "generator": "built-in imagegen",
+      "output": "res://assets/generated/v39/tomorrow_briber.webp",
+      "generation_file": "exec-d105a14d-bf94-4334-a54a-3ed9b7bf64aa.png",
+      "sha256": "5c4e5a6f35aef54870256ba65704b11b7be1caa74e51229eb86a21f805057e09",
+      "bytes": 133040,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "id": "tomorrow_armor",
+      "prompt": "Original premium whimsical hand-painted fantasy game card illustration, portrait 3:4 full bleed, NO letters, numbers, borders or logos. a stout dwarf armorsmith whose enormous segmented shield unfolds into protective golden wings, steel and amber sparks in a forge. Large unmistakable subject in the central 75 percent, detailed brushwork, warm amber key light, teal-violet magic, strong readable silhouette, expressive personality. Not a reproduction of any existing card.",
+      "prompt_reconstructed": false,
+      "generator": "built-in imagegen",
+      "output": "res://assets/generated/v39/tomorrow_armor.webp",
+      "generation_file": "exec-fdd78fcc-839b-43aa-8194-bb166737b512.png",
+      "sha256": "38e6ddc0686d9a5d8c172ecf6b803b21c39eca3f3be2905cdf891bc25330c162",
+      "bytes": 182030,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "id": "tomorrow_dreamer",
+      "prompt": "Original premium whimsical hand-painted fantasy game card illustration, portrait 3:4 full bleed, NO letters, numbers, borders or logos. a friendly blue-robed elderly astronomer asleep above a miniature floating kingdom, tomorrow's sunrise held in a glass globe. Large unmistakable subject in central 75 percent, detailed brushwork, warm amber light, teal-violet magic, readable silhouette. Completely original art.",
+      "prompt_reconstructed": false,
+      "generator": "built-in imagegen",
+      "output": "res://assets/generated/v39/tomorrow_dreamer.webp",
+      "generation_file": "exec-51633ba0-5b88-4ebd-a38b-e9a7bb364c53.png",
+      "sha256": "48d4541547071b70f8f2cc87b4ce46b70ce155a5b3a5cbc9356a16ca76cefaf1",
+      "bytes": 159716,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "id": "tomorrow_juggler",
+      "prompt": "Original premium whimsical hand-painted fantasy game card illustration, portrait 3:4 full bleed, NO letters, numbers, borders or logos. a theatrical goblin spell juggler juggling distinct glowing scrolls and magical orbs in a violet circus. Large unmistakable subject in central 75 percent, detailed brushwork, warm amber light, teal-violet magic, readable silhouette. Completely original art.",
+      "prompt_reconstructed": false,
+      "generator": "built-in imagegen",
+      "output": "res://assets/generated/v39/tomorrow_juggler.webp",
+      "generation_file": "exec-9f0b5b34-c3c5-48ee-be67-f449e8ed7d88.png",
+      "sha256": "b7efaa18ca1002272b47d0b9dee11d907e781e58a1532229156e94f4f7df9aeb",
+      "bytes": 136718,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "id": "tomorrow_dock",
+      "prompt": "Original premium whimsical hand-painted fantasy game card illustration, portrait 3:4 full bleed, NO letters, numbers, borders or logos. a bustling enchanted fishfolk dock with a giant hourglass tangled in fishing nets, dawn over turquoise water. Large unmistakable subject in central 75 percent, detailed brushwork, warm amber light, teal-violet magic, readable silhouette. Completely original art.",
+      "prompt_reconstructed": false,
+      "generator": "built-in imagegen",
+      "output": "res://assets/generated/v39/tomorrow_dock.webp",
+      "generation_file": "exec-c652247a-39a1-4a1b-82fe-3626f5966b3d.png",
+      "sha256": "5c1bdbabadf3f2f9da7e9e84d50ed4a9cbf40bec8966a0877fd1efc8611d2db3",
+      "bytes": 205290,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "id": "tomorrow_mine",
+      "prompt": "Original premium whimsical hand-painted fantasy game card illustration, portrait 3:4 full bleed, NO letters, numbers, borders or logos. a huge spectral teal hand stealing a glowing miniature knight from a violet chessboard, a mischievous shadow grinning behind it. Large unmistakable subject in central 75 percent, detailed brushwork, warm amber light, teal-violet magic, readable silhouette. Completely original art.",
+      "prompt_reconstructed": false,
+      "generator": "built-in imagegen",
+      "output": "res://assets/generated/v39/tomorrow_mine.webp",
+      "generation_file": "exec-61485115-4105-4102-b9fe-544e305842af.png",
+      "sha256": "28c1e977c3184a39b9bed92dbd2a94ed53c162da328609c937203265b3a2a5e2",
+      "bytes": 123310,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "id": "tomorrow_flywheel",
+      "prompt": "Original premium whimsical hand-painted fantasy game card illustration, portrait 3:4 full bleed, NO letters, numbers, borders or logos. a flying brass gyroscope wheel with violet crystal spokes and one glowing crimson eye, spinning above a dark enchanted carnival table. Large unmistakable subject in central 75 percent, detailed brushwork, warm amber light, teal-violet magic, readable silhouette. Completely original art.",
+      "prompt_reconstructed": false,
+      "generator": "built-in imagegen",
+      "output": "res://assets/generated/v39/tomorrow_flywheel.webp",
+      "generation_file": "exec-d97a40b5-510f-4902-9cf6-0eeea0c94149.png",
+      "sha256": "460b121d03b5f9c1256f822b4e7f13b1d43c097c61760f095e552051a09deb2c",
+      "bytes": 134818,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "id": "tomorrow_star",
+      "prompt": "Original premium whimsical hand-painted fantasy game card illustration, portrait 3:4 full bleed, NO letters, numbers, borders or logos. a beautiful golden eight-pointed tomorrow star pendant, a tiny rising sun inside violet glass at its heart, lying among blue silk and antique clockwork. Large unmistakable subject in central 75 percent, detailed brushwork, warm amber light, teal-violet magic, readable silhouette. Completely original art.",
+      "prompt_reconstructed": false,
+      "generator": "built-in imagegen",
+      "output": "res://assets/generated/v39/tomorrow_star.webp",
+      "generation_file": "exec-167fc6dc-4d33-4f68-885c-4a69155ba638.png",
+      "sha256": "883864c18a46accbb61e04c6a259a85c36bed86fc1ca89a07c00d66b68bc4a57",
+      "bytes": 150974,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "id": "yogg_wheel",
+      "prompt": "Original premium whimsical hand-painted fantasy game card illustration, portrait 3:4 full bleed, NO letters, numbers, borders or logos. an ornate heavy carnival prize wheel held upright by purple tentacles, six distinct jewel colored sectors surrounding one large golden eye, polished brass rim and pointer, dramatic dark velvet backdrop. The eye and wheel dominate the image. Large unmistakable subject in central 75 percent, detailed brushwork, warm amber light, teal-violet magic, readable silhouette. Completely original art.",
+      "prompt_reconstructed": false,
+      "generator": "built-in imagegen",
+      "output": "res://assets/generated/v39/yogg_wheel.webp",
+      "generation_file": "exec-a4cb9767-752c-431c-b0ee-fa893de47476.png",
+      "sha256": "73e9af9dfab2cec2f3a105afb1298eb2153f0f27e7aefb94391730c532e7fbfc",
+      "bytes": 176636,
+      "size": [
+        600,
+        800
+      ]
+    },
+    {
+      "id": "spell_yogg",
+      "prompt": "Original premium whimsical hand-painted fantasy game card illustration, portrait 3:4 full bleed, NO letters, numbers, borders or logos. a robed tentacled oracle casting a magical vortex of six jeweled fate symbols over a glowing violet summoning circle, a huge amber eye gazing from the swirling portal. This is a spell, not a mechanical wheel. Large unmistakable subject in central 75 percent, detailed brushwork, warm amber light, teal-violet magic, readable silhouette. Completely original art.",
+      "prompt_reconstructed": false,
+      "generator": "built-in imagegen",
+      "output": "res://assets/generated/v39/spell_yogg.webp",
+      "generation_file": "exec-8f146320-caef-4543-b1ad-a0d685fe1cbc.png",
+      "sha256": "995c6057be9a23df3fa61303f531b8fb1d855789d43b71082ca9210cc379b224",
+      "bytes": 189748,
+      "size": [
+        600,
+        800
+      ]
+    }
+  ]
+}

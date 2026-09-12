@@ -1,0 +1,20 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS card has raised face and thick physical edge
+UI PASS contact shadow and full-height shield shell exist
+UI PASS reborn has an independent translucent membrane
+UI PASS losing one of several shields preserves the membrane
+UI PASS last shield loss removes membrane and rim after shattering
+UI PASS insertion opens a gap by moving both neighbours
+UI PASS insertion preview leaves authoritative board unchanged
+UI PASS invalid insertion removes preview offsets
+UI PASS held card visibly leans forward and rises
+UI PASS release starts bounded landing response
+UI PASS attack preparation leans backwards
+UI PASS attack strike leans forwards
+UI PASS reduced motion limits tilt
+UI PASS real drag commits the previewed middle slot exactly once
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2641)
+ERROR: 1 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:810)
