@@ -1,0 +1,25 @@
+{
+  "release_id": 387701609,
+  "assets": [
+    {
+      "name": "ClassicTavern-v0.39.0-demo.mp4",
+      "size": 22742618,
+      "digest": "sha256:ec1a065286563b89c36cdadeaa402174317f74a52a07a5917f371258c388c2f6"
+    },
+    {
+      "name": "ClassicTavern-v0.39.0-guide.md",
+      "size": 5226,
+      "digest": "sha256:f376ab02f225e88c9823b60a5c5cd53ca06427c492fd4cda98a431d162cda558"
+    },
+    {
+      "name": "ClassicTavern-v0.39.0.apk",
+      "size": 213155877,
+      "digest": "sha256:7e56c1dcd9683ae9a9d713a01bfd6d3250d98b42985f219dda2498234d26f73e"
+    },
+    {
+      "name": "ClassicTavern-v0.39.0.exe",
+      "size": 233924128,
+      "digest": "sha256:fca59ab1b13be27fa38d5fc999e7503de361838b5df8bdd6bb878a362b13f452"
+    }
+  ]
+}
