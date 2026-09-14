@@ -1,0 +1,11 @@
+{
+  "release": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.45.0",
+  "latest": true,
+  "issue_comment": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/18#issuecomment-5661739165",
+  "issue_state": "OPEN",
+  "source_commit": "46744b920d24cc40cfd8e77c4217339f7a0a18f1",
+  "public_release_commit": "93fd3586f2c89982c5fc5ac840c32f3dce571118",
+  "source_remote_configured": false,
+  "qa_host_and_emulator_stopped": true,
+  "android_solo_first_round_checked": true
+}

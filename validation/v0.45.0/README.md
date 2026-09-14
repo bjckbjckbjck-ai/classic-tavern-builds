@@ -18,3 +18,9 @@
 ![本版公告](v45-android-release-notes.png)
 
 [40秒安卓触控录像](v45-hand-preview.mp4)。预置QA局面，无音轨。模拟器不能代替实体手机长局体验。
+
+## 自然单机首回合
+
+![单机购买](v45-android-solo-buy.png)
+![单张点击展开](v45-android-solo-open.png)
+![拖到战场上阵](v45-android-solo-play.png)
