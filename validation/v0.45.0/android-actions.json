@@ -1,0 +1,267 @@
+[
+  {
+    "board": [
+      "micro",
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 8,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "brann",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "micro",
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 5,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "brann",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 6,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "brann",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 6,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 6,
+    "discover": 3,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 6,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler",
+      "spell_confidence"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 12,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler",
+      "spell_confidence"
+    ],
+    "offers": 5,
+    "phase": "recruit",
+    "trinkets": []
+  },
+  {
+    "board": [
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 8,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler",
+      "spell_confidence"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "medivh_lesser"
+    ]
+  },
+  {
+    "board": [
+      "reaper",
+      "bronze"
+    ],
+    "coins": 2,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler",
+      "spell_confidence"
+    ],
+    "offers": 0,
+    "phase": "combat",
+    "trinkets": [
+      "medivh_lesser"
+    ]
+  }
+]

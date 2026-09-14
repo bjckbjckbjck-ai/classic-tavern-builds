@@ -1,0 +1,13 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS valid magnetic application succeeds
+UI PASS magnetic trace retains exact consumed source and target
+UI PASS magnetic trace creates 3D card absorption
+UI PASS triple carries all three actual material UIDs
+UI PASS triple preserves golden result and extra shield layers
+UI PASS golden fusion accepts authoritative trace
+UI PASS three textured card meshes converge
+UI PASS windfury uses three ribbons and cleave uses a sweep
+UI PASS fusion and sweep resources expire
+UI PASS 2D compatibility rejects 3D fusion cleanly
+UI PASS cleave ribbons use exactly the rule-selected neighbours

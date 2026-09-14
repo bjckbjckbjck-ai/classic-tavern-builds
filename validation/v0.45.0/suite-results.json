@@ -1,0 +1,52 @@
+[
+  {
+    "suite": "hand_platform_v47_test",
+    "passes": 63,
+    "failed": false
+  },
+  {
+    "suite": "layout_v46_test",
+    "passes": 68,
+    "failed": false
+  },
+  {
+    "suite": "audit_v45_test",
+    "passes": 21,
+    "failed": false
+  },
+  {
+    "suite": "settings_v44_test",
+    "passes": 9,
+    "failed": false
+  },
+  {
+    "suite": "spirit_3d_test",
+    "passes": 10,
+    "failed": false
+  },
+  {
+    "suite": "feel_test",
+    "passes": 6,
+    "failed": false
+  },
+  {
+    "suite": "purchase_v38_test",
+    "passes": 22,
+    "failed": false
+  },
+  {
+    "suite": "discover_lock_v38_test",
+    "passes": 5,
+    "failed": false
+  },
+  {
+    "suite": "ux_v12_test",
+    "passes": 7,
+    "failed": false
+  },
+  {
+    "suite": "fusion_3d_test",
+    "passes": 11,
+    "failed": false
+  }
+]

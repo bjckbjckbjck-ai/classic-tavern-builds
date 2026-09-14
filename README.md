@@ -1,3 +1,7 @@
+# v0.45.0 · 双端手牌布局
+
+电脑手牌常驻底部中央；安卓默认右下收纳，点击后整排放大为微扇形，点空处收起。支持长按详情、中间牌拖拽及2D回退。修正v0.44错误共用的右下布局。[说明与下一步](v0.45.0-双端手牌布局.md) · [Android APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.45.0/ClassicTavern-v0.45.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.45.0/ClassicTavern-v0.45.0.exe)
+
 # v0.44.0 · 宽屏桌面与扇形手牌
 
 横屏按实际比例展开场地，右下扇形手牌、较宽随从、统一对手拱形头像；购买/站位/战吼/3D特效共用布局。新增刷新展开、升级提示及金色局部扫光，修复手牌聚焦挡住邻牌和窗口变化后头像错位。[本版说明与下一步](v0.44.0-宽屏布局与手牌交互.md) · [Android / Windows下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.44.0)

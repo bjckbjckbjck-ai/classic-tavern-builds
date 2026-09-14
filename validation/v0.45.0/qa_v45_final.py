@@ -1,0 +1,15 @@
+from android_v45 import *
+run('shell','am','force-stop','org.classictavern.game')
+run('shell','am','start','-n','org.classictavern.game/com.godot.game.GodotAppLauncher')
+time.sleep(5);shot('menu')
+tap(950,800);shot('release-notes');tap(1444,115)
+tap(1120,512);shot('room');tap(1150,575);time.sleep(2)
+import record_v45
+tap(1520,816);mode('discover');shot('discover')
+tap(1520,816);shot('discover-blocked');tap(738,433);shot('discover-chosen')
+tap(1520,816);mode('lesser');shot('lesser')
+tap(454,677);shot('trinket-chosen');tap(1520,816)
+mode('combat');shot('combat');tap(1520,816);shot('combat-hand')
+time.sleep(8);shot('combat-end')
+Path('.runtime/v45-android.log').write_bytes(run('logcat','-d','-s','godot:V','AndroidRuntime:E').stdout)
+print('Final micro-fan APK touch, modal and combat QA complete')
