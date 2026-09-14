@@ -1,0 +1,392 @@
+[
+  {
+    "suite": "layout_v46_test",
+    "passes": 68,
+    "failed": false
+  },
+  {
+    "suite": "audit_v45_test",
+    "passes": 21,
+    "failed": false
+  },
+  {
+    "suite": "settings_v44_test",
+    "passes": 9,
+    "failed": false
+  },
+  {
+    "suite": "ambience_v43_test",
+    "passes": 7,
+    "failed": false
+  },
+  {
+    "suite": "art_rail_v42_test",
+    "passes": 19,
+    "failed": false
+  },
+  {
+    "suite": "toolbar_v41_test",
+    "passes": 4,
+    "failed": false
+  },
+  {
+    "suite": "reference_v40_test",
+    "passes": 40,
+    "failed": false
+  },
+  {
+    "suite": "experience_v39_test",
+    "passes": 22,
+    "failed": false
+  },
+  {
+    "suite": "discover_lock_v38_test",
+    "passes": 5,
+    "failed": false
+  },
+  {
+    "suite": "purchase_v38_test",
+    "passes": 22,
+    "failed": false
+  },
+  {
+    "suite": "tomorrow_v37_test",
+    "passes": 44,
+    "failed": false
+  },
+  {
+    "suite": "tomorrow_ui_v37_test",
+    "passes": 5,
+    "failed": false
+  },
+  {
+    "suite": "hero_armor_v36_test",
+    "passes": 44,
+    "failed": false
+  },
+  {
+    "suite": "chance_3d_test",
+    "passes": 19,
+    "failed": false
+  },
+  {
+    "suite": "fusion_3d_test",
+    "passes": 11,
+    "failed": false
+  },
+  {
+    "suite": "spirit_3d_test",
+    "passes": 10,
+    "failed": false
+  },
+  {
+    "suite": "spatial_3d_test",
+    "passes": 8,
+    "failed": false
+  },
+  {
+    "suite": "tactile_3d_test",
+    "passes": 14,
+    "failed": false
+  },
+  {
+    "suite": "render_health_test",
+    "passes": 8,
+    "failed": false
+  },
+  {
+    "suite": "presentation_3d_test",
+    "passes": 22,
+    "failed": false
+  },
+  {
+    "suite": "issue_v29_test",
+    "passes": 30,
+    "failed": false
+  },
+  {
+    "suite": "issue_ui_v29_test",
+    "passes": 11,
+    "failed": false
+  },
+  {
+    "suite": "issue_v28_test",
+    "passes": 37,
+    "failed": false
+  },
+  {
+    "suite": "issue_ui_v28_test",
+    "passes": 9,
+    "failed": false
+  },
+  {
+    "suite": "issue_v27_test",
+    "passes": 23,
+    "failed": false
+  },
+  {
+    "suite": "issue_ui_v27_test",
+    "passes": 8,
+    "failed": false
+  },
+  {
+    "suite": "cadence_v26_test",
+    "passes": 32,
+    "failed": false
+  },
+  {
+    "suite": "cadence_ui_v26_test",
+    "passes": 8,
+    "failed": false
+  },
+  {
+    "suite": "experience_v25_test",
+    "passes": 24,
+    "failed": false
+  },
+  {
+    "suite": "experience_ui_v25_test",
+    "passes": 7,
+    "failed": false
+  },
+  {
+    "suite": "issue_v24_test",
+    "passes": 26,
+    "failed": false
+  },
+  {
+    "suite": "issue_ui_v24_test",
+    "passes": 16,
+    "failed": false
+  },
+  {
+    "suite": "darkmoon_v23_test",
+    "passes": 66,
+    "failed": false
+  },
+  {
+    "suite": "darkmoon_ui_v23_test",
+    "passes": 10,
+    "failed": false
+  },
+  {
+    "suite": "trinkets_v22_test",
+    "passes": 41,
+    "failed": false
+  },
+  {
+    "suite": "trinkets_ui_v22_test",
+    "passes": 10,
+    "failed": false
+  },
+  {
+    "suite": "combat_audit_v21_test",
+    "passes": 14,
+    "failed": false
+  },
+  {
+    "suite": "issue_v21_test",
+    "passes": 26,
+    "failed": false
+  },
+  {
+    "suite": "issue_ui_v21_test",
+    "passes": 10,
+    "failed": false
+  },
+  {
+    "suite": "issue_v20_test",
+    "passes": 16,
+    "failed": false
+  },
+  {
+    "suite": "issue_ui_v20_test",
+    "passes": 8,
+    "failed": false
+  },
+  {
+    "suite": "issue_v19_test",
+    "passes": 21,
+    "failed": false
+  },
+  {
+    "suite": "issue_ui_v19_test",
+    "passes": 4,
+    "failed": false
+  },
+  {
+    "suite": "economy_v18_test",
+    "passes": 53,
+    "failed": false
+  },
+  {
+    "suite": "economy_ui_v18_test",
+    "passes": 9,
+    "failed": false
+  },
+  {
+    "suite": "undead_v17_test",
+    "passes": 33,
+    "failed": false
+  },
+  {
+    "suite": "ai_trade_v17_test",
+    "passes": 10,
+    "failed": false
+  },
+  {
+    "suite": "undead_ui_v17_test",
+    "passes": 8,
+    "failed": false
+  },
+  {
+    "suite": "recruit_v16_test",
+    "passes": 8,
+    "failed": false
+  },
+  {
+    "suite": "ai_plan_v16_test",
+    "passes": 15,
+    "failed": false
+  },
+  {
+    "suite": "feedback_ui_v16_test",
+    "passes": 8,
+    "failed": false
+  },
+  {
+    "suite": "originals_v15_test",
+    "passes": 18,
+    "failed": false
+  },
+  {
+    "suite": "originals_ui_v15_test",
+    "passes": 6,
+    "failed": false
+  },
+  {
+    "suite": "expansion_v14_test",
+    "passes": 26,
+    "failed": false
+  },
+  {
+    "suite": "heroes_v14_test",
+    "passes": 4,
+    "failed": false
+  },
+  {
+    "suite": "armor_ui_v14_test",
+    "passes": 5,
+    "failed": false
+  },
+  {
+    "suite": "king_v13_test",
+    "passes": 8,
+    "failed": false
+  },
+  {
+    "suite": "experience_v13_test",
+    "passes": 10,
+    "failed": false
+  },
+  {
+    "suite": "heroes_v12_test",
+    "passes": 4,
+    "failed": false
+  },
+  {
+    "suite": "playstyles_v12_test",
+    "passes": 27,
+    "failed": false
+  },
+  {
+    "suite": "ux_v12_test",
+    "passes": 7,
+    "failed": false
+  },
+  {
+    "suite": "presentation_v11_test",
+    "passes": 25,
+    "failed": false
+  },
+  {
+    "suite": "ux_v11_test",
+    "passes": 8,
+    "failed": false
+  },
+  {
+    "suite": "spells_v10_test",
+    "passes": 60,
+    "failed": false
+  },
+  {
+    "suite": "ux_v10_test",
+    "passes": 8,
+    "failed": false
+  },
+  {
+    "suite": "stacked_v9_test",
+    "passes": 71,
+    "failed": false
+  },
+  {
+    "suite": "ux_v9_test",
+    "passes": 10,
+    "failed": false
+  },
+  {
+    "suite": "rules_test",
+    "passes": 32,
+    "failed": false
+  },
+  {
+    "suite": "migration_test",
+    "passes": 12,
+    "failed": false
+  },
+  {
+    "suite": "stacking_test",
+    "passes": 25,
+    "failed": false
+  },
+  {
+    "suite": "offline_ui_test",
+    "passes": 7,
+    "failed": false
+  },
+  {
+    "suite": "feel_test",
+    "passes": 6,
+    "failed": false
+  },
+  {
+    "suite": "ai_content_test",
+    "passes": 27,
+    "failed": false
+  },
+  {
+    "suite": "difficulty_ui_test",
+    "passes": 5,
+    "failed": false
+  },
+  {
+    "suite": "allstars_test",
+    "passes": 20,
+    "failed": false
+  },
+  {
+    "suite": "ux_v7_test",
+    "passes": 12,
+    "failed": false
+  },
+  {
+    "suite": "six_tribes_test",
+    "passes": 48,
+    "failed": false
+  },
+  {
+    "suite": "ux_v8_test",
+    "passes": 14,
+    "failed": false
+  }
+]

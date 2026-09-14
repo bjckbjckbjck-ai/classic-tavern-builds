@@ -1,3 +1,7 @@
+# v0.44.0 · 宽屏桌面与扇形手牌
+
+横屏按实际比例展开场地，右下扇形手牌、较宽随从、统一对手拱形头像；购买/站位/战吼/3D特效共用布局。新增刷新展开、升级提示及金色局部扫光，修复手牌聚焦挡住邻牌和窗口变化后头像错位。[本版说明与下一步](v0.44.0-宽屏布局与手牌交互.md) · [Android / Windows下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.44.0)
+
 # v0.43.0 · 鲍勃入座与界面体验审查
 
 [完整审查与下一步](v0.43.0-UI体验审查.md)：26项差距、16项操作检查、13维度评分。新增鲍勃出售目标、数值宝石、等级挂旗、饰品展示及桌面邻位预览，修复长文越界与无效阶段按钮。Android/Windows安装包见[发布页](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.43.0)。

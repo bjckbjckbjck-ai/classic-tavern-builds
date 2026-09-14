@@ -1,0 +1,63 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS 83 minions 13 tokens 13 spells validate
+PASS opening shop has separate tier one spell
+PASS spell costs printed coins and enters hand exactly once
+PASS empty spell slot cannot be purchased again
+PASS invalid spell target retains hand card
+PASS target spell applies and is consumed
+PASS spell targets shop minion
+PASS spell works on full board without occupying minion slot
+PASS spells never triple
+PASS frozen spell retained next round
+PASS empty frozen spell slot replenishes
+PASS investment applies once next round with cap
+PASS removed free enhancement rejected: enhance_shield
+PASS removed free enhancement rejected: enhance_venom
+PASS AI no longer receives source-free keywords
+PASS normal and golden Rattler each add one reborn
+PASS Swolefin scales by other friendly murlocs
+PASS Deflect does not trigger in recruitment
+PASS Deflect stacks shield and attack per combat summon
+PASS Peggy triggers on spell entering hand and excludes herself
+PASS Felbat consumes existing shop and returns actual card to shared pool
+PASS Felbat distributes eaten stats to demons
+PASS Promo buffs only two neighbours based on dragon count
+PASS spell resolves: spell_coin
+PASS spell resolves: spell_banana
+PASS spell resolves: spell_fortify
+PASS spell resolves: spell_apples
+PASS spell resolves: spell_recruit
+PASS spell resolves: spell_lasso
+PASS spell resolves: spell_lantern
+PASS spell resolves: spell_investment
+PASS spell resolves: spell_ring
+PASS spell resolves: spell_rites
+PASS spell resolves: spell_tea
+PASS spell resolves: spell_bean
+PASS spell resolves: spell_vision
+PASS spell resolves: spell_pages
+PASS spell resolves: spell_roar
+PASS spell resolves: spell_embrace
+PASS spell resolves: spell_gift
+PASS spell resolves: spell_confidence
+PASS spell resolves: spell_enrichment
+PASS spell resolves: spell_armor
+PASS spell resolves: butchering
+PASS spell resolves: spell_oil
+PASS spell resolves: spell_trousers
+PASS spell resolves: spell_nature
+PASS spell resolves: spell_azerite
+PASS spell resolves: spell_chef
+PASS spell resolves: spell_yogg
+PASS spell resolves: spell_golden
+PASS spell resolves: spell_brann
+PASS spell resolves: spell_titus
+PASS spell resolves: spell_telescope
+PASS spell resolves: spell_slime
+PASS spell resolves: spell_parts
+PASS spell resolves: spell_cloning
+PASS spell resolves: spell_arrow
+PASS spell resolves: spell_sanctify
+PASS spell resolves: spell_earthmother
+V10 RESULT 60/60

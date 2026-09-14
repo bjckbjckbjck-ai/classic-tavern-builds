@@ -1,0 +1,264 @@
+[
+  {
+    "board": [
+      "micro",
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 8,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "brann",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "micro",
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 5,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "brann",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 6,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "brann",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 6,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 12,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler"
+    ],
+    "offers": 5,
+    "phase": "recruit",
+    "trinkets": []
+  },
+  {
+    "board": [
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 10,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "medallion_lesser"
+    ]
+  },
+  {
+    "board": [
+      "reaper",
+      "bronze"
+    ],
+    "coins": 2,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler"
+    ],
+    "offers": 0,
+    "phase": "combat",
+    "trinkets": [
+      "medallion_lesser"
+    ]
+  },
+  {
+    "board": [
+      "reaper",
+      "bronze"
+    ],
+    "coins": 12,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler"
+    ],
+    "offers": 5,
+    "phase": "recruit",
+    "trinkets": [
+      "medallion_lesser"
+    ]
+  },
+  {
+    "board": [
+      "reaper",
+      "bronze"
+    ],
+    "coins": 10,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "medallion_lesser",
+      "peacebloom_candle"
+    ]
+  },
+  {
+    "board": [
+      "reaper",
+      "reaper",
+      "bronze",
+      "choral",
+      "vengeful_toxfin",
+      "zapp",
+      "kalecgos"
+    ],
+    "coins": 2,
+    "hand": [
+      "reaper"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "medallion_lesser",
+      "peacebloom_candle"
+    ]
+  }
+]

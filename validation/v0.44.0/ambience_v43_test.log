@@ -1,0 +1,9 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS ambient layer never intercepts input
+UI PASS ambient animation has no rule mutations
+UI PASS button ornament does not intercept taps
+UI PASS animated refresh charges once without moving hit area
+UI PASS reduced motion freezes decorative animation
+UI PASS reduced motion keeps freeze functional
+UI PASS ambience resumes when motion enabled
