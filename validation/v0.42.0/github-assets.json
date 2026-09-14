@@ -1,0 +1,15 @@
+{
+  "release_id": 388138300,
+  "assets": [
+    {
+      "name": "ClassicTavern-v0.42.0.apk",
+      "size": 214398362,
+      "digest": "sha256:6eb9fc87f4b296d118aad1b9f6796ce0609bb5a676e7d2090523ba8f7fc47aab"
+    },
+    {
+      "name": "ClassicTavern-v0.42.0.exe",
+      "size": 235163440,
+      "digest": "sha256:8e07527848b811aeb02cade76697b887ed0e34df182051586b7920bebc6a39ef"
+    }
+  ]
+}
