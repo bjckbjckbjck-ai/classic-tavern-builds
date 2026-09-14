@@ -1,0 +1,21 @@
+import subprocess,time
+from pathlib import Path
+adb='C:/Users/16073/AppData/Local/Android/Sdk/platform-tools/adb.exe'
+def run(*args):return subprocess.run([adb,'-s','emulator-5554',*map(str,args)],check=True,capture_output=True)
+def point(x,y):return str(round(276+x*1.2)),str(round(y*1.2))
+def tap(x,y):run('shell','input','tap',*point(x,y));time.sleep(.8)
+def swipe(a,b):run('shell','input','swipe',*point(*a),*point(*b),'650');time.sleep(1)
+def shot(name):Path('screenshots/v34-v43-final-'+name+'.png').write_bytes(run('exec-out','screencap','-p').stdout)
+def mode(value):Path('.runtime/v43-device-command.txt').write_text(value,encoding='utf-8');time.sleep(1)
+p=subprocess.Popen([adb,'-s','emulator-5554','shell','screenrecord','--time-limit','28','--bit-rate','4000000','/sdcard/v43-preview.mp4'])
+time.sleep(1)
+swipe((523,517),(730,80));shot('sale')
+swipe((475,245),(720,805));shot('buy')
+mode('lesser');shot('lesser')
+tap(224,677);shot('choice')
+mode('combat');time.sleep(1);shot('combat')
+time.sleep(3);shot('impact')
+p.wait(timeout=35)
+run('pull','/sdcard/v43-preview.mp4','screenshots/v43-preview.mp4')
+Path('.runtime/v43-android.log').write_bytes(run('logcat','-d','-s','godot:V','AndroidRuntime:E').stdout)
+print('28 second final APK interaction/replay capture complete')

@@ -1,0 +1,10 @@
+{
+  "device": "Android API33 emulator-5554; not a physical phone",
+  "package": "org.classictavern.game",
+  "metadata": [
+    "versionCode=46 minSdk=24 targetSdk=35",
+    "versionName=0.43.0"
+  ],
+  "installed_sha256": "01fd112b3fbc89e130fe7b084706cfbb902859f95d895c516091eacb1575b243",
+  "matches_final_apk": true
+}

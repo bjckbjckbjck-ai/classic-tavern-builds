@@ -1,0 +1,11 @@
+{
+  "bob": {
+    "path": "assets/original/TB_BaconShopBob.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/TB_BaconShopBob.webp",
+    "sha256": "57ad2a57783647792ab12c77f94b5e604472fef3f783055b81b5d0ad62036562"
+  },
+  "references": [
+    "https://hearthstone.blizzard.com/en-us/news/23156373/introducing-hearthstone-battlegrounds",
+    "https://news.blizzard.com/en-us/article/24119592/announcing-battlegrounds-season-8"
+  ]
+}
