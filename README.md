@@ -1,3 +1,7 @@
+# v0.42.0 · 独立设置与英雄中心
+
+画面、声音、诊断分栏；帧率、画质和特效独立选择，中央拱形英雄底座。音乐资源仍待补充。
+
 # v0.41.0 · 烛火与按钮动态
 
 场地边缘烛光与余烬、按钮悬停高光和点击反馈；遵守减弱动态与画质档位。
@@ -29,7 +33,7 @@
 
 [完整规则与下一步](v0.37.0-明日惩戒.md) · [全局卡池](全局卡池.md)
 
-[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.41.0/ClassicTavern-v0.41.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.41.0/ClassicTavern-v0.41.0.exe)
+[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.42.0/ClassicTavern-v0.42.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.42.0/ClassicTavern-v0.42.0.exe)
 
 包名 org.classictavern.game，versionCode39；沿用原签名。
 

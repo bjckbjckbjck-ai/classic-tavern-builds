@@ -1,0 +1,24 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS generous purchase release (248.0, 625.0) buys once, never auto-plays
+UI PASS generous purchase release (1210.0, 809.0) buys once, never auto-plays
+UI PASS generous purchase release (600.0, 875.0) buys once, never auto-plays
+UI PASS generous purchase release (725.0, 390.0) buys once, never auto-plays
+UI PASS generous purchase release (900.0, 641.0) buys once, never auto-plays
+UI PASS generous purchase release (1200.0, 892.0) buys once, never auto-plays
+UI PASS release in shop separator cancels without payment
+UI PASS release over ready button neither buys nor ends round
+UI PASS expanded area still rejects stale shop UID
+UI PASS purchase catcher does not capture hand cancellation
+UI PASS smooth mode lowers only 3D resolution and disables realtime shadows
+UI PASS smooth mode uses single-resolution card face cache
+UI PASS idle frame never repaints card textures
+UI PASS dirty repaint updates changed combat stats exactly once
+UI PASS quality change keeps gameplay and persistent actor identity
+UI PASS hero and two trinkets have persistent physical plinths
+UI PASS authoritative settlement selects 3D hero attack
+UI PASS duplicate settle request cannot duplicate impact
+UI PASS impact synchronizes armor absorption, health damage and lethal grayscale
+UI PASS 3D settlement never reapplies authoritative damage
+UI PASS 3D settlement completes within existing clock budget
+UI PASS 2D fallback restores hero portraits
