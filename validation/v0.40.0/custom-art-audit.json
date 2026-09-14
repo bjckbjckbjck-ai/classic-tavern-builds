@@ -1,0 +1,93 @@
+[
+  {
+    "id": "young-scale-apprentice",
+    "name": "幼鳞学徒",
+    "path": "assets/original/v19-original-atlas.png",
+    "cell": 0,
+    "sha256": "7b03aff3e41920df456b8718342fd2a22b9df43319f34787cf21bee88589ba76"
+  },
+  {
+    "id": "secret-scale-stargazer",
+    "name": "秘鳞观星者",
+    "path": "assets/original/v19-original-atlas.png",
+    "cell": 1,
+    "sha256": "7b03aff3e41920df456b8718342fd2a22b9df43319f34787cf21bee88589ba76"
+  },
+  {
+    "id": "crystal-cluster-whelp",
+    "name": "晶簇幼龙",
+    "path": "assets/original/v19-original-atlas.png",
+    "cell": 2,
+    "sha256": "7b03aff3e41920df456b8718342fd2a22b9df43319f34787cf21bee88589ba76"
+  },
+  {
+    "id": "pearl-channeler",
+    "name": "珍珠保育员",
+    "path": "assets/original/v19-original-atlas.png",
+    "cell": 3,
+    "sha256": "7b03aff3e41920df456b8718342fd2a22b9df43319f34787cf21bee88589ba76"
+  },
+  {
+    "id": "cargo-accountant",
+    "name": "火药分赃手",
+    "path": "assets/original/v19-original-atlas.png",
+    "cell": 4,
+    "sha256": "7b03aff3e41920df456b8718342fd2a22b9df43319f34787cf21bee88589ba76"
+  },
+  {
+    "id": "noble-pigeon",
+    "name": "高贵鸽子",
+    "path": "assets/generated/v40/noble-pigeon.webp",
+    "cell": null,
+    "sha256": "4679badd650a3172720ebf4e8095a72bcc332f2a0d699214ac7ac284d7ca9692"
+  },
+  {
+    "id": "little-pigeon",
+    "name": "小鸽子",
+    "path": "assets/generated/v40/little-pigeon.webp",
+    "cell": null,
+    "sha256": "4454f53cd00c011b07921774ce133da9063206610846422fc30ad85abac7c554"
+  },
+  {
+    "id": "royal_treasurer",
+    "name": "王室司库",
+    "path": "assets/original/v19-original-atlas.png",
+    "cell": 6,
+    "sha256": "7b03aff3e41920df456b8718342fd2a22b9df43319f34787cf21bee88589ba76"
+  },
+  {
+    "id": "clockwork_vault",
+    "name": "发条金库",
+    "path": "assets/original/v19-original-atlas.png",
+    "cell": 7,
+    "sha256": "7b03aff3e41920df456b8718342fd2a22b9df43319f34787cf21bee88589ba76"
+  },
+  {
+    "id": "roundhead-elder",
+    "name": "圆头耄耋",
+    "path": "assets/original/roundhead-elder.png",
+    "cell": null,
+    "sha256": "7640657a0df55c94665a1302107be1aa07aef5b506d5d7ef07660d4cb78d94e2"
+  },
+  {
+    "id": "huffing-elder",
+    "name": "哈气耄耋",
+    "path": "assets/original/huffing-elder.png",
+    "cell": null,
+    "sha256": "b6216c93d6b34588493a4a2584e4ea95d165b05356c609076b3e3ed84eac523b"
+  },
+  {
+    "id": "greater_soul_juggler",
+    "name": "高级灵魂杂耍师",
+    "path": "assets/generated/v40/greater_soul_juggler.webp",
+    "cell": null,
+    "sha256": "881d35c47fe40d866803fba3830d2691cb565887f6bcfc5e520976d7c36bec41"
+  },
+  {
+    "id": "vengeful_toxfin",
+    "name": "复仇下毒鱼人",
+    "path": "assets/generated/v40/vengeful_toxfin.webp",
+    "cell": null,
+    "sha256": "29d03111a017b0acd8e049a21ab02948630a63ff8f0ba64e39a2aa2c95379190"
+  }
+]
