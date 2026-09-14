@@ -1,0 +1,74 @@
+{
+  "generator": "built-in imagegen",
+  "atlas_size": [
+    1254,
+    1254
+  ],
+  "processing": "Exact 2x2 grid crop, proportional thumbnail <=600px, WebP quality88, no stretching",
+  "assets": [
+    {
+      "id": "greater_soul_juggler",
+      "cell": 0,
+      "box": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "path": "res://assets/generated/v40/greater_soul_juggler.webp",
+      "size": [
+        600,
+        600
+      ],
+      "sha256": "881d35c47fe40d866803fba3830d2691cb565887f6bcfc5e520976d7c36bec41"
+    },
+    {
+      "id": "vengeful_toxfin",
+      "cell": 1,
+      "box": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "path": "res://assets/generated/v40/vengeful_toxfin.webp",
+      "size": [
+        600,
+        600
+      ],
+      "sha256": "29d03111a017b0acd8e049a21ab02948630a63ff8f0ba64e39a2aa2c95379190"
+    },
+    {
+      "id": "noble-pigeon",
+      "cell": 2,
+      "box": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "path": "res://assets/generated/v40/noble-pigeon.webp",
+      "size": [
+        600,
+        600
+      ],
+      "sha256": "4679badd650a3172720ebf4e8095a72bcc332f2a0d699214ac7ac284d7ca9692"
+    },
+    {
+      "id": "little-pigeon",
+      "cell": 3,
+      "box": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "path": "res://assets/generated/v40/little-pigeon.webp",
+      "size": [
+        600,
+        600
+      ],
+      "sha256": "4454f53cd00c011b07921774ce133da9063206610846422fc30ad85abac7c554"
+    }
+  ]
+}

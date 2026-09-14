@@ -1,6 +1,6 @@
-# v0.39.1 · 顶部按钮触控修复
+# v0.40.0 · 手绘原创卡与头像轨道
 
-刷新、冻结不再被透明卖牌区域挡住。
+四张独立手绘插画修复原创卡共图，椭圆卡面保持比例，左侧改为窄头像排名轨道。点头像查看公开情报；淘汰后点存活头像观战。
 
 # v0.39.0 · 连贯桌面与明日专属插画
 
@@ -25,7 +25,7 @@
 
 [完整规则与下一步](v0.37.0-明日惩戒.md) · [全局卡池](全局卡池.md)
 
-[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.39.1/ClassicTavern-v0.39.1.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.39.1/ClassicTavern-v0.39.1.exe)
+[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.40.0/ClassicTavern-v0.40.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.40.0/ClassicTavern-v0.40.0.exe)
 
 包名 org.classictavern.game，versionCode39；沿用原签名。
 
