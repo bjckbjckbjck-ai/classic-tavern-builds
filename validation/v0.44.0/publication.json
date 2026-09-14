@@ -1,0 +1,11 @@
+{
+  "release_url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.44.0",
+  "latest": true,
+  "draft": false,
+  "issue_url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/18",
+  "issue_state": "open",
+  "comment_url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/18#issuecomment-5661009978",
+  "source_commit": "bfd8fcdddd7b98b291a8fecdee98b447e2040997",
+  "public_release_commit": "0aee3e9e1f0108b2b1b253ff39b4c16aee425682",
+  "public_tag_commit": "0aee3e9e1f0108b2b1b253ff39b4c16aee425682"
+}
