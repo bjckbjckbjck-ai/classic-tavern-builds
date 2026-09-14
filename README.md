@@ -1,3 +1,7 @@
+# v0.41.0 · 烛火与按钮动态
+
+场地边缘烛光与余烬、按钮悬停高光和点击反馈；遵守减弱动态与画质档位。
+
 # v0.40.0 · 手绘原创卡与头像轨道
 
 四张独立手绘插画修复原创卡共图，椭圆卡面保持比例，左侧改为窄头像排名轨道。点头像查看公开情报；淘汰后点存活头像观战。
@@ -25,7 +29,7 @@
 
 [完整规则与下一步](v0.37.0-明日惩戒.md) · [全局卡池](全局卡池.md)
 
-[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.40.0/ClassicTavern-v0.40.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.40.0/ClassicTavern-v0.40.0.exe)
+[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.41.0/ClassicTavern-v0.41.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.41.0/ClassicTavern-v0.41.0.exe)
 
 包名 org.classictavern.game，versionCode39；沿用原签名。
 
