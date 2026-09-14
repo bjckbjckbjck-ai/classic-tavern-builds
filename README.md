@@ -1,3 +1,7 @@
+# v0.39.1 · 顶部按钮触控修复
+
+刷新、冻结不再被透明卖牌区域挡住。
+
 # v0.39.0 · 连贯桌面与明日专属插画
 
 [本版差距表与计划](v0.39.0-参考界面与专属插画.md)。15张专属插画、连续台面、上沿刷新冻结、强化属性颜色和购买入手轨迹。
@@ -21,7 +25,7 @@
 
 [完整规则与下一步](v0.37.0-明日惩戒.md) · [全局卡池](全局卡池.md)
 
-[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.39.0/ClassicTavern-v0.39.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.39.0/ClassicTavern-v0.39.0.exe)
+[安卓APK完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.39.1/ClassicTavern-v0.39.1.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.39.1/ClassicTavern-v0.39.1.exe)
 
 包名 org.classictavern.game，versionCode39；沿用原签名。
 
