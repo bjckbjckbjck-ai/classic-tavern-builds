@@ -1,5 +1,7 @@
 # v0.49.0 · 历史珍藏与四选一饰品商店
 
+下一版已提交[七族卡池设计草案](v0.50.0-七族卡池设计.md)：12 张历史随从、4 张法术、多种族与叠层适配，以及本轮实际截图差距。对应 #25 的“先设计”，尚未实装，下载版本仍为 v0.49.0。
+
 新增六件历史饰品、转型报价、兑换与复制，饰品收藏分页；双端保持微扇形手牌。[设计与来源](v0.49.0-饰品选购设计.md) · [完整饰品表](饰品出现与报价表.md) · [Android APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.49.0/ClassicTavern-v0.49.0.apk?download=1) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.49.0/ClassicTavern-v0.49.0.exe?download=1)
 
 # v0.48.0 · 连锁顺序与触控详情

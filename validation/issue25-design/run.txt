@@ -1,0 +1,6 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PRESENTATION VERIFIED Windows msaa=0 cards=23
+UI PASS first tap opens shallow fan without playing a card
+AUDIT ACTIVE=141 COUNTS={ "野兽": 18, "鱼人": 16, "中立": 21, "机械": 16, "恶魔": 17, "龙": 18, "海盗": 19, "亡灵": 16 } ERRORS=[]

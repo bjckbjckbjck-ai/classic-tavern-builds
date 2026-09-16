@@ -1,0 +1,58 @@
+{
+  "checked_version": "0.49.0",
+  "source_baseline": "b452e66",
+  "proposed_version": "0.50.0",
+  "status": "design_only_not_implemented",
+  "files": [
+    {
+      "path": "audit.gd",
+      "bytes": 2433,
+      "sha256": "90409bad78f87e351691d5c0bcb825a5246ec4453e03ddbe4756b049c39d37bd"
+    },
+    {
+      "path": "current-pool.csv",
+      "bytes": 7002,
+      "sha256": "9c7141d35ef6141299c3f03f915e569bfbc39ea735f608abe3a8cad0bd85f81d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2781,
+      "sha256": "4f7a2e98dabf7c9acd076a11fedbb591b1db0c29802d1168b4402df69fc81fa4"
+    },
+    {
+      "path": "run.txt",
+      "bytes": 431,
+      "sha256": "ef46ddb09de9a48b246e08a45fb69a282421b42e0ef22d5cca4a86955c80421f"
+    },
+    {
+      "path": "runtime-catalog.json",
+      "bytes": 90532,
+      "sha256": "b8cf41ba604874201208f87391575953d43223ba8f29ecd5facf0160e216b36c"
+    },
+    {
+      "path": "screenshots/issue25-desktop-fan.png",
+      "bytes": 1662635,
+      "sha256": "39eb63d005db721c4fc647cdc2d3da41519a78ae3c4b2743695bbed9f31eeb09"
+    },
+    {
+      "path": "screenshots/issue25-mobile-fan.png",
+      "bytes": 1634457,
+      "sha256": "8c3d863f2130e1ba6d0103c61ba0946063576432795199522fb7904b4a3a286b"
+    },
+    {
+      "path": "screenshots/issue25-mobile-folded.png",
+      "bytes": 1651594,
+      "sha256": "6af0784aa48e806876921500fb1e3bad69c28f3a2210e4b6c756fd6b94160851"
+    },
+    {
+      "path": "screenshots/issue25-mobile-four-fan.png",
+      "bytes": 1632290,
+      "sha256": "8130eaf05204d3c8001ed77188814b8ffd98c6d4b18b87d18d81dc1974d1feeb"
+    },
+    {
+      "path": "screenshots/issue25-undead-collection.png",
+      "bytes": 1459224,
+      "sha256": "c4fcf18c61bb8835341cb845f44227b57ff74f886508caa089bac3eb17475444"
+    }
+  ]
+}
