@@ -1,0 +1,8 @@
+{
+  "network_changed": false,
+  "host_stopped": true,
+  "emulator_stopped": true,
+  "computer_shutdown": false,
+  "host_pid": 25740,
+  "emulator": "pvz_api33_play_x86_64"
+}

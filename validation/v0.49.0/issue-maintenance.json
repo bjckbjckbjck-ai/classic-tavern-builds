@@ -1,0 +1,18 @@
+{
+  "completed": [
+    24
+  ],
+  "open": [
+    18,
+    25
+  ],
+  "comment_ids": {
+    "24": 5692305984,
+    "18": 5692308870,
+    "25": 5692309061
+  },
+  "source_game_commit": "dd5e2c7",
+  "source_remote": null,
+  "public_repository": "bjckbjckbjck-ai/classic-tavern-builds",
+  "scope": "Public repository contains documentation, release binaries and evidence; source is committed locally on 3d."
+}
