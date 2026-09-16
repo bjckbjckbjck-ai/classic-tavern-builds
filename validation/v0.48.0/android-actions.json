@@ -1,0 +1,151 @@
+{
+  "scope": "Final APK touch actions; preset 8-player QA fixture; no balance simulation",
+  "states": [
+    {
+      "board": [
+        "micro",
+        "bronze",
+        "macaw",
+        "reaper",
+        "brann",
+        "mama",
+        "hoggarr"
+      ],
+      "coins": 19,
+      "hand": [
+        "cat",
+        "bronze",
+        "reaper",
+        "frog",
+        "brann",
+        "mama",
+        "hoggarr",
+        "tad",
+        "choral"
+      ],
+      "phase": "recruit",
+      "power_used": false,
+      "trinkets": [
+        "tomorrow_star",
+        "slamma_sticker"
+      ]
+    },
+    {
+      "board": [
+        "micro",
+        "bronze",
+        "macaw",
+        "reaper",
+        "brann",
+        "mama",
+        "hoggarr"
+      ],
+      "coins": 18,
+      "hand": [
+        "cat",
+        "bronze",
+        "reaper",
+        "frog",
+        "brann",
+        "mama",
+        "hoggarr",
+        "tad",
+        "choral"
+      ],
+      "phase": "recruit",
+      "power_used": true,
+      "trinkets": [
+        "tomorrow_star",
+        "slamma_sticker"
+      ]
+    },
+    {
+      "board": [
+        "micro",
+        "bronze",
+        "macaw",
+        "reaper",
+        "brann",
+        "mama",
+        "hoggarr"
+      ],
+      "coins": 15,
+      "hand": [
+        "cat",
+        "bronze",
+        "reaper",
+        "frog",
+        "brann",
+        "mama",
+        "hoggarr",
+        "tad",
+        "choral",
+        "greater_soul_juggler"
+      ],
+      "phase": "recruit",
+      "power_used": true,
+      "trinkets": [
+        "tomorrow_star",
+        "slamma_sticker"
+      ]
+    },
+    {
+      "board": [
+        "bronze",
+        "macaw",
+        "reaper",
+        "brann",
+        "mama",
+        "hoggarr"
+      ],
+      "coins": 16,
+      "hand": [
+        "cat",
+        "bronze",
+        "reaper",
+        "frog",
+        "brann",
+        "mama",
+        "hoggarr",
+        "tad",
+        "choral",
+        "greater_soul_juggler"
+      ],
+      "phase": "recruit",
+      "power_used": true,
+      "trinkets": [
+        "tomorrow_star",
+        "slamma_sticker"
+      ]
+    },
+    {
+      "board": [
+        "bronze",
+        "macaw",
+        "reaper",
+        "brann",
+        "brann",
+        "mama",
+        "hoggarr"
+      ],
+      "coins": 16,
+      "hand": [
+        "cat",
+        "bronze",
+        "reaper",
+        "frog",
+        "mama",
+        "hoggarr",
+        "tad",
+        "choral",
+        "greater_soul_juggler"
+      ],
+      "phase": "recruit",
+      "power_used": true,
+      "trinkets": [
+        "tomorrow_star",
+        "slamma_sticker"
+      ]
+    }
+  ]
+}

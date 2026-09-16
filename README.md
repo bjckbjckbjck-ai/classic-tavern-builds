@@ -1,3 +1,7 @@
+# v0.48.0 · 连锁顺序与触控详情
+
+海盗逐个召唤并立即攻击、塔隆等待连锁稳定；手机HUD放大，悬停/长按就地查看大卡。[改动与对照](v0.48.0-连锁与触控详情.md) · [Android APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.48.0/ClassicTavern-v0.48.0.apk?download=1) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.48.0/ClassicTavern-v0.48.0.exe?download=1)
+
 # v0.47.0 · 木质酒馆入口与分页收藏册
 
 手绘木质菜单、八人英雄座位、可搜索的分页收藏册，保留双端微扇形手牌。[改动与对照](v0.47.0-入口与收藏册.md) · [Android APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.47.0/ClassicTavern-v0.47.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.47.0/ClassicTavern-v0.47.0.exe)

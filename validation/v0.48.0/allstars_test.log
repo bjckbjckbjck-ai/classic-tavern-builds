@@ -1,0 +1,45 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+PASS all-star pool and eight heroes load
+
+PASS frog transfers stats and a deathrattle layer
+
+PASS inherited frog jumps again after carrier dies
+
+PASS golden frog plus normal/golden Titus makes four +2 layers
+
+PASS four inherited effects each repeat four times
+
+PASS triggered living wolf buffs other beasts, not itself
+
+PASS flat Mama buff then normal/golden Slamma multipliers 2x3
+
+PASS Slamma never multiplies recruitment summons
+
+PASS Macaw triggers a friendly deathrattle on attack
+
+PASS leap budget limits work without silent overflow
+
+PASS George invalid target spends nothing
+
+PASS George targeted shield works
+
+PASS Millificent buffs bought Mech +1/+1
+
+PASS Kael third purchase gets +2/+2
+
+PASS Deryl two hats reach remaining shop minion
+
+PASS numeric version comparison rejects malformed tags
+
+PASS new stable release exposes exact APK URL
+
+PASS foreign download destinations are rejected
+
+PASS draft release not offered
+
+PASS in-game notes match package version
+
+ALLSTARS RESULT 20/20

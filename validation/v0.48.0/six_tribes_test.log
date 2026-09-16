@@ -1,0 +1,101 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+PASS 83 purchasable minions and 13 tokens load
+
+PASS at least seven purchasable cards for 野兽
+
+PASS at least seven purchasable cards for 鱼人
+
+PASS at least seven purchasable cards for 龙
+
+PASS at least seven purchasable cards for 机械
+
+PASS at least seven purchasable cards for 恶魔
+
+PASS at least seven purchasable cards for 海盗
+
+PASS no printed permanent poison remains
+
+PASS all printed shield cards show explicit base charge
+
+PASS classic rules cannot be reenabled through legacy setting
+
+PASS normal Toxfin adds one venom each time
+
+PASS gold Toxfin with Brann adds four venom
+
+PASS converted Maexxna keeps venom when shield blocks
+
+PASS converted Maexxna consumes its finite venom
+
+PASS each Brann battlecry triggers Kalecgos and upgrade discount
+
+PASS end-turn dragon counting and random attack buff
+
+PASS gold Goldgrubber includes itself and scales by golden count
+
+PASS Tidecaller sees played murloc and battlecry token
+
+PASS gold Primalfin with Brann queues four separate discoveries
+
+PASS chained discoveries resolve legal cards and finish
+
+PASS Primalfin without another murloc produces no discovery
+
+PASS full hand cannot deadlock pending discovery
+
+PASS magnetic transfers gold stats, all shield layers and taunt
+
+PASS magnetic preserves material deathrattle strength
+
+PASS attached golden Menace summons three 2/2 tokens
+
+PASS triple retains acquired magnetic effects and charges once
+
+PASS selling host returns actual magnetic materials to shared pool
+
+PASS invalid magnetic target is atomic
+
+PASS magnetic is legal on a full board
+
+PASS reborn resets extras, keeps remaining reborn, and is not multiplied by Titus
+
+PASS second reborn exhausts inherited charge
+
+PASS exhausted reborn never falls back to printed charge
+
+PASS gold Nadina gives two layers to three dragons only
+
+PASS Wrath play and Homunculus battlecry each trigger Watcher after health damage
+
+PASS armor absorption does not count as missing health or Watcher damage
+
+PASS gold Battlemaster uses Patchwerk max HP and doubles missing health
+
+PASS gold Soul Juggler fires two separate three-damage shots
+
+PASS fatal damage can summon Imp before dead boss is removed
+
+PASS multiple Hoggarr refunds stack after pirate purchase
+
+PASS gold Gambler sells for six coins
+
+PASS Salty Looter grows on playing another pirate
+
+PASS Scallywag token attacks through immediate queue
+
+PASS Eliza buffs before pirate attacks without mutating permanent board
+
+PASS Red Whelp resolves start-of-combat dragon-count damage
+
+PASS AI distinguishes actual summon sources from unrelated beasts
+
+PASS AI spreads finite venom instead of wasting layers on saturated target
+
+PASS AI identifies dragon combo core
+
+PASS combat carries pre-damage presentation state while resolving actual death
+
+SIX TRIBES RESULT 48/48

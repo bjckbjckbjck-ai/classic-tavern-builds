@@ -1,0 +1,8 @@
+{
+  "host_pid": 2908,
+  "emulator_stopped": true,
+  "qa_host_stopped": true,
+  "only_owned_qa_processes": true,
+  "emulator_pid": 8492,
+  "shutdown_or_network_changes": false
+}

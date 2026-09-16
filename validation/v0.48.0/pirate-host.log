@@ -1,0 +1,8 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+ANDROID READY batch art, four cards each zone, two trinkets
+V48 ANDROID READY: eight players, seven board, nine hand, two trinkets
+V48 ANDROID STATE {"board":["micro","bronze","macaw","reaper","brann","mama","hoggarr"],"coins":19,"hand":["cat","bronze","reaper","frog","brann","mama","hoggarr","tad","choral"],"phase":"recruit","power_used":false,"trinkets":["tomorrow_star","slamma_sticker"]}
+V48 PIRATE OPENING SIZES [7,1]
+V48 PIRATE REPLAY ["战斗开始","亡灵 · 复生庇佑","塔隆 · 飞速复活","海盗无赖 · 召唤 空中海盗","空中海盗 · 抬起蓄势","空中海盗 攻击 雄斑虎","空中海盗 阵亡","海盗无赖 · 召唤 空中海盗","空中海盗 · 抬起蓄势","空中海盗 攻击 雄斑虎","空中海盗 阵亡","海盗无赖 · 召唤 空中海盗","空中海盗 · 抬起蓄势","空中海盗 攻击 雄斑虎","空中海盗 阵亡","海盗无赖 · 亡语触发 ×3","海盗无赖 阵亡","塔隆 · 完整复制归来","海盗无赖 · 抬起蓄势","海盗无赖 攻击 雄斑虎","海盗无赖 · 召唤 空中海盗","空中海盗 · 抬起蓄势","空中海盗 攻击 雄斑虎","空中海盗 阵亡","海盗无赖 · 召唤 空中海盗","空中海盗 · 抬起蓄势","空中海盗 攻击 雄斑虎","空中海盗 阵亡","海盗无赖 · 召唤 空中海盗","空中海盗 · 抬起蓄势","空中海盗 攻击 雄斑虎","空中海盗 阵亡","海盗无赖 · 亡语触发 ×3","海盗无赖 阵亡","雄斑虎 · 抬起蓄势","雄斑虎 攻击 提图斯·瑞文戴尔","提图斯·瑞文戴尔 阵亡","雄斑虎 · 抬起蓄势","雄斑虎 攻击 布莱恩·铜须","布莱恩·铜须 阵亡","雄斑虎 · 抬起蓄势","雄斑虎 攻击 熊妈妈","熊妈妈 阵亡","雄斑虎 · 抬起蓄势","雄斑虎 攻击 雄斑虎","雄斑虎 阵亡","雄斑虎 · 抬起蓄势","雄斑虎 攻击 霍格船长","霍格船长 阵亡","雄斑虎 · 抬起蓄势","雄斑虎 攻击 微型战斗机甲","微型战斗机甲 阵亡","战斗结束"]
+V48 ANDROID STATE {"board":["scallywag","titus","cat","micro","brann","mama","hoggarr"],"coins":19,"hand":[],"phase":"combat","power_used":false,"trinkets":["tomorrow_star","slamma_sticker"]}

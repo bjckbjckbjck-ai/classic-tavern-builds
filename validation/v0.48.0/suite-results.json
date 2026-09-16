@@ -1,0 +1,106 @@
+[
+  {
+    "suite": "chain_v50_test",
+    "passed": 16
+  },
+  {
+    "suite": "issue_v28_test",
+    "passed": 37
+  },
+  {
+    "suite": "undead_v17_test",
+    "passed": 33
+  },
+  {
+    "suite": "stacked_v9_test",
+    "passed": 71
+  },
+  {
+    "suite": "stacking_test",
+    "passed": 25
+  },
+  {
+    "suite": "allstars_test",
+    "passed": 20
+  },
+  {
+    "suite": "six_tribes_test",
+    "passed": 48
+  },
+  {
+    "suite": "combat_audit_v21_test",
+    "passed": 14
+  },
+  {
+    "suite": "cadence_v26_test",
+    "passed": 32
+  },
+  {
+    "suite": "experience_v25_test",
+    "passed": 24
+  },
+  {
+    "suite": "issue_v27_test",
+    "passed": 23
+  },
+  {
+    "suite": "tomorrow_v37_test",
+    "passed": 44
+  },
+  {
+    "suite": "trinkets_v22_test",
+    "passed": 41
+  },
+  {
+    "suite": "darkmoon_v23_test",
+    "passed": 66
+  },
+  {
+    "suite": "playstyles_v12_test",
+    "passed": 27
+  },
+  {
+    "suite": "inspection_v50_test",
+    "passed": 40
+  },
+  {
+    "suite": "hand_platform_v47_test",
+    "passed": 63
+  },
+  {
+    "suite": "layout_v46_test",
+    "passed": 68
+  },
+  {
+    "suite": "readability_v48_test",
+    "passed": 45
+  },
+  {
+    "suite": "originals_ui_v15_test",
+    "passed": 6
+  },
+  {
+    "suite": "economy_ui_v18_test",
+    "passed": 9
+  },
+  {
+    "suite": "feel_test",
+    "passed": 6
+  },
+  {
+    "suite": "settings_v44_test",
+    "passed": 9
+  },
+  {
+    "suite": "undead_ui_v17_test",
+    "passed": 8
+  },
+  {
+    "suite": "darkmoon_ui_v23_test",
+    "passed": 10
+  },
+  {
+    "suite": "foyer_v49_test",
+    "passed": 41
+  }
+]
