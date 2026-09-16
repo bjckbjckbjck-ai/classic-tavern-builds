@@ -1,0 +1,212 @@
+[
+  {
+    "path": "catalog.json",
+    "bytes": 236,
+    "sha256": "e6b6227653550c97cfb86a75cd1999a738181f866557b3782dd26861868b8bf2"
+  },
+  {
+    "path": "logs/ai_plan_v16_test.log",
+    "bytes": 834,
+    "sha256": "e2c2ac15260bf4777aa92057bd3306b0ea927519c9bc32df4c634d3daa54af46"
+  },
+  {
+    "path": "logs/ai_trade_v17_test.log",
+    "bytes": 719,
+    "sha256": "eec05acb324bec90387e0bd8d7c05e592eb4d7ed69e208cde41c4942c1afaf0a"
+  },
+  {
+    "path": "logs/chain_v50_test.log",
+    "bytes": 1206,
+    "sha256": "3a2be99cfcf04c22c335f78df1083e66e2a14de234e1c56dd10cebba17d9a31d"
+  },
+  {
+    "path": "logs/darkmoon_ui_v23_test.log",
+    "bytes": 616,
+    "sha256": "00e2805554046fb20a8baa6d1d116936d8a819ed0889db7014b2b59b1d453775"
+  },
+  {
+    "path": "logs/darkmoon_v23_test.log",
+    "bytes": 3376,
+    "sha256": "7045f3dc9203e365d8fe1f17cba50027e8ccef73c391a1300dcbc1e7dbb04657"
+  },
+  {
+    "path": "logs/economy_v18_test.log",
+    "bytes": 2460,
+    "sha256": "83fb6376c1ccc044b993443a4c2b7e87581884e1b3ecd2f9c7c145729d3186c2"
+  },
+  {
+    "path": "logs/hand_platform_v47_test.log",
+    "bytes": 3518,
+    "sha256": "41cb24875b8092574121d112d762f787c73f8c6637aa09660c54f3ede643bbf8"
+  },
+  {
+    "path": "logs/heroes_v12_test.log",
+    "bytes": 326,
+    "sha256": "bebee55a2b10e90fb7b0fc4143194b0390e41ef56265a6cd702b11efb66d8992"
+  },
+  {
+    "path": "logs/heroes_v14_test.log",
+    "bytes": 326,
+    "sha256": "bebee55a2b10e90fb7b0fc4143194b0390e41ef56265a6cd702b11efb66d8992"
+  },
+  {
+    "path": "logs/inspection_v50_test.log",
+    "bytes": 2326,
+    "sha256": "7d44a9a56514783a1a7b92f166ab8517df3030e0b24b97c89337fd9ebc579e7f"
+  },
+  {
+    "path": "logs/issue_v27_test.log",
+    "bytes": 1300,
+    "sha256": "67ac06d840b4d0671f74caec410a4934ed0803bfdb36613acf4a80019e86f854"
+  },
+  {
+    "path": "logs/issue_v28_test.log",
+    "bytes": 1914,
+    "sha256": "48798f49247d53b564daef716412a1dcdb72a28601780ff3a1a9a3c808b9b571"
+  },
+  {
+    "path": "logs/issue_v29_test.log",
+    "bytes": 1534,
+    "sha256": "1c135e9410bc107263e6656da64094a3455325456851973a577ef186df6bf823"
+  },
+  {
+    "path": "logs/layout_v46_test.log",
+    "bytes": 3942,
+    "sha256": "b4c279d32e0be2021fceaa7acbfa28835b24c5c8ee1171089048f815365ed85a"
+  },
+  {
+    "path": "logs/originals_v15_test.log",
+    "bytes": 992,
+    "sha256": "a03906af629dfff9d8398d43dc8c36ed5b543c3bbc67256a79de029c2132ec6f"
+  },
+  {
+    "path": "logs/pool_integrity_test.log",
+    "bytes": 1079,
+    "sha256": "5bd9bfb98fb3edfcd1b4493389fb215b58c81486a40caa60cdac79cc0cb61757"
+  },
+  {
+    "path": "logs/readability_v48_test.log",
+    "bytes": 3219,
+    "sha256": "203be9b1ce6f6d510c9bd9079e605d1b76e1f29751d4d9e565996e0ca7469f92"
+  },
+  {
+    "path": "logs/recruit_v16_test.log",
+    "bytes": 534,
+    "sha256": "2dfbefc00662b6469ad161e5b590bb1a5b8861031aaf0c8f4cb7f4bbaa870b00"
+  },
+  {
+    "path": "logs/spells_v10_test.log",
+    "bytes": 2538,
+    "sha256": "a05e06c920a96b9c18377689f0fb6c27871fe8e49509df5614022ad7b6c594ef"
+  },
+  {
+    "path": "logs/stacked_v9_test.log",
+    "bytes": 3160,
+    "sha256": "5ad75adf317ea75693a3d3a3a4fdcea3c5331648821d55b495636ce3f94183b7"
+  },
+  {
+    "path": "logs/tribes_combat_v50_test.log",
+    "bytes": 1365,
+    "sha256": "059e94ce948ebad9b70e48208be9e13cf80628f33bd04b9ec47c1311bfe8458e"
+  },
+  {
+    "path": "logs/tribes_recruit_v50_test.log",
+    "bytes": 2218,
+    "sha256": "1345a33b8eac990c40e38e63de11446ba74476915975a97b6da99a8befde6272"
+  },
+  {
+    "path": "logs/tribes_ui_v50_test.log",
+    "bytes": 1913,
+    "sha256": "dd2c6eb27b18c6a6185651b1905ff4aee45bf4d250e8bedb4e0853a96f21b30b"
+  },
+  {
+    "path": "logs/tribes_v50_test.log",
+    "bytes": 1659,
+    "sha256": "21bdce8dba0bacbb7809edcef440807122b1cea0b0f3e0f05a7ea35c7be1d202"
+  },
+  {
+    "path": "logs/trinket_history_v51_test.log",
+    "bytes": 1838,
+    "sha256": "d6b5528d6df63c752b1ae9390a2e61dd77f8f84213b731d23bcc75c852cfad97"
+  },
+  {
+    "path": "logs/trinket_policy_v51_test.log",
+    "bytes": 1198,
+    "sha256": "2a7b1b5e73a3797673c4827e2d23bda6bb774e6fc11d9143bb49245c108318c4"
+  },
+  {
+    "path": "logs/trinket_ui_v51_test.log",
+    "bytes": 3725,
+    "sha256": "615975eac6335b1bddb58eeab55ed718a95007ce33b11cedf199f0d04b2d69eb"
+  },
+  {
+    "path": "logs/undead_v17_test.log",
+    "bytes": 1878,
+    "sha256": "fbfe1192eb3b4bdfbc412b59de1ec6c3628b497615457cd4aac2743fca170113"
+  },
+  {
+    "path": "native.log",
+    "bytes": 2067,
+    "sha256": "e464cb5630f271a9ce34d8a8c6de664053ade614a5665c41382b4ff9e9e1bf73"
+  },
+  {
+    "path": "README.md",
+    "bytes": 6133,
+    "sha256": "559513238d62ec98f015d11960139dcf75e5058114f9c21db2967ee781e82f5a"
+  },
+  {
+    "path": "results.json",
+    "bytes": 2198,
+    "sha256": "5233e716bdb5ef90b8701ff96b60ab0e09c2d5f7b374733896b45b955129e7ff"
+  },
+  {
+    "path": "screenshots/v50-foundation-all-detail-qa.png",
+    "bytes": 1332071,
+    "sha256": "d25ae5249b3252b28ad420b9549deb2a5df07fa7b052ad06aa034bdaea01cd10"
+  },
+  {
+    "path": "screenshots/v50-foundation-desktop-fan.png",
+    "bytes": 1669407,
+    "sha256": "0c4b1a90ea073d4271c4727ed2cab6e31abe48f4492a9b7bf2b2eb0fb4d09557"
+  },
+  {
+    "path": "screenshots/v50-foundation-mobile-fan.png",
+    "bytes": 1638380,
+    "sha256": "cc10c8fe82e95f7a1483087e03a06d294b32476273a320a35e143e178b75a77a"
+  },
+  {
+    "path": "screenshots/v50-foundation-mobile-folded.png",
+    "bytes": 1649250,
+    "sha256": "1d06993683005a0c681fa05046d93762f1a77b6447e6b01be085851f19cf238d"
+  },
+  {
+    "path": "screenshots/v50-foundation-mobile-four-2d.png",
+    "bytes": 1643757,
+    "sha256": "8774c940682b9239276d25dfacd80e882d25ca551e48871dc8d01fdccbd81223"
+  },
+  {
+    "path": "screenshots/v50-foundation-mobile-four-fan.png",
+    "bytes": 1633262,
+    "sha256": "dfab6ae5989f4c76d0014318cb61cf4bbb1708a704f0197dbf319faa46e1e57c"
+  },
+  {
+    "path": "screenshots/v50-foundation-target-preview-qa.png",
+    "bytes": 1566580,
+    "sha256": "441cb2970266ecfdfa96aa90c6f75a83faf87538c0d3d22442532b9027b2218b"
+  },
+  {
+    "path": "screenshots/v50-foundation-types-qa.png",
+    "bytes": 1395498,
+    "sha256": "48765b8da81a701c4d551a23e5f335e199fc0c2b60b56d0cb8a3bd04ee750cde"
+  },
+  {
+    "path": "screenshots/v50-foundation-undead-collection.png",
+    "bytes": 1457308,
+    "sha256": "721c9b92ab594f3d96842711567431139efda9ab67a7e78b2704e7dfa18d5c4e"
+  },
+  {
+    "path": "source-files.json",
+    "bytes": 3124,
+    "sha256": "67c07d6daccd117752a761c97d26e1448d3e5ed232be3fd906a25531c7db3d41"
+  }
+]

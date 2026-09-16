@@ -1,0 +1,65 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+PASS v29 catalog validates
+
+PASS pirate retirement and tier change
+
+PASS undead tier changes
+
+PASS turn two refills four plus two permanent capacity then four bonus, discarding old coins
+
+PASS sale may exceed mature refill cap
+
+PASS coin spell may exceed cap
+
+PASS minion start gold is awarded after refill
+
+PASS Gallywix records each sold minion and immediate sale proceeds
+
+PASS Gallywix next-turn bank pays once then clears
+
+PASS Gallywix previous bank does not repeat
+
+PASS Omu pays upgrade then refunds two
+
+PASS invalid upgrade awards no Omu gold
+
+PASS passive hero cannot be manually activated
+
+PASS pie buffs existing shop after sale
+
+PASS purchased pie stats are retained
+
+PASS new refresh receives current turn pie aura
+
+PASS frozen pie resets without erasing permanent shop buffs
+
+PASS candle first two purchases free, third paid
+
+PASS candle refreshes each turn
+
+PASS full hand cannot consume a free spell purchase
+
+PASS invalid spell selection cannot consume a free purchase
+
+PASS overlapping free purchase advances both counters once
+
+PASS fish waits for two friendly deaths
+
+PASS fish grants both layers to weaker murloc
+
+PASS fish grants stack repeatedly
+
+PASS equal attack excluded; empty trigger consumed
+
+PASS golden fish adds two of each layer
+
+PASS recruit deaths cannot trigger combat-only fish
+
+PASS replay order is lift, on-attack, collision
+
+PASS attacker remains lifted through on-attack, then clears
+
+v29 rules 30 passed / 0 failed

@@ -1,0 +1,121 @@
+{
+  "headless_suites": 28,
+  "headless_passed": 919,
+  "native_passed": 32,
+  "native_screenshots": 9,
+  "suites": [
+    {
+      "suite": "tribes_v50_test",
+      "passed": 26
+    },
+    {
+      "suite": "tribes_recruit_v50_test",
+      "passed": 34
+    },
+    {
+      "suite": "tribes_combat_v50_test",
+      "passed": 20
+    },
+    {
+      "suite": "tribes_ui_v50_test",
+      "passed": 32
+    },
+    {
+      "suite": "trinket_policy_v51_test",
+      "passed": 21
+    },
+    {
+      "suite": "trinket_history_v51_test",
+      "passed": 30
+    },
+    {
+      "suite": "undead_v17_test",
+      "passed": 33
+    },
+    {
+      "suite": "issue_v27_test",
+      "passed": 23
+    },
+    {
+      "suite": "issue_v28_test",
+      "passed": 37
+    },
+    {
+      "suite": "issue_v29_test",
+      "passed": 30
+    },
+    {
+      "suite": "darkmoon_v23_test",
+      "passed": 66
+    },
+    {
+      "suite": "ai_trade_v17_test",
+      "passed": 10
+    },
+    {
+      "suite": "ai_plan_v16_test",
+      "passed": 15
+    },
+    {
+      "suite": "chain_v50_test",
+      "passed": 16
+    },
+    {
+      "suite": "inspection_v50_test",
+      "passed": 40
+    },
+    {
+      "suite": "hand_platform_v47_test",
+      "passed": 63
+    },
+    {
+      "suite": "readability_v48_test",
+      "passed": 45
+    },
+    {
+      "suite": "layout_v46_test",
+      "passed": 68
+    },
+    {
+      "suite": "trinket_ui_v51_test",
+      "passed": 70
+    },
+    {
+      "suite": "darkmoon_ui_v23_test",
+      "passed": 10
+    },
+    {
+      "suite": "stacked_v9_test",
+      "passed": 71
+    },
+    {
+      "suite": "originals_v15_test",
+      "passed": 18
+    },
+    {
+      "suite": "recruit_v16_test",
+      "passed": 8
+    },
+    {
+      "suite": "economy_v18_test",
+      "passed": 53
+    },
+    {
+      "suite": "spells_v10_test",
+      "passed": 60
+    },
+    {
+      "suite": "heroes_v14_test",
+      "passed": 4
+    },
+    {
+      "suite": "heroes_v12_test",
+      "passed": 4
+    },
+    {
+      "suite": "pool_integrity_test",
+      "passed": 12
+    }
+  ],
+  "scope": "Windows native OpenGL UI and headless functional regressions; mobile layout override, not Android APK/device, not performance or balance evidence."
+}
