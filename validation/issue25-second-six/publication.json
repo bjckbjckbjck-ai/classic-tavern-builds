@@ -1,0 +1,30 @@
+{
+  "source": "df14bdd90dd6f8542988ccc41e99a43e281a94b6",
+  "public": "8fa45e6a98d9785f97b3769a852622c8c84d5327",
+  "released": false,
+  "open_issues": [
+    18,
+    25
+  ],
+  "issue_replies": {
+    "25": {
+      "id": 5694156821,
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/25#issuecomment-5694156821",
+      "read_back_verified": true
+    },
+    "18": {
+      "id": 5694157133,
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/18#issuecomment-5694157133",
+      "read_back_verified": true
+    }
+  },
+  "validation": {
+    "suites": 42,
+    "assertions": 1424,
+    "native_assertions": 32,
+    "screenshots": 18,
+    "android": false,
+    "multiplayer": false,
+    "balance_simulation": false
+  }
+}

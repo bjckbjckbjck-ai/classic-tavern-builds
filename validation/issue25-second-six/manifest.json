@@ -225,9 +225,14 @@
     "sha256": "49807ab1584925b3ab84945c52b035b4fa6c8e3a733726b5986defa3324e92d5"
   },
   {
+    "path": "publication.json",
+    "bytes": 763,
+    "sha256": "6b04a14bd2e3082dea6096c968309736d93fa3963516dd71f9d1443d18fea0a0"
+  },
+  {
     "path": "README.md",
-    "bytes": 6915,
-    "sha256": "d523b02b75293b5e8bae4abbc02a509c4c5c712bfed09a030e4f420d37913412"
+    "bytes": 7078,
+    "sha256": "213222faab83c94636eed4bd20eeb1bbec13b8bc8ced32a9be78d0f5e06bdc98"
   },
   {
     "path": "results.json",
