@@ -310,9 +310,14 @@
     "bytes": 924
   },
   {
+    "path": "publication.json",
+    "sha256": "dabb17e7ad458282481c82b46b0c82b981cfc75982e9334076f792ed86d46bd5",
+    "bytes": 587
+  },
+  {
     "path": "README.md",
-    "sha256": "ba8104c89d7392d7b94c2d197ffcb0f05dad7aa5960a934cbe4a566b54c1b172",
-    "bytes": 5251
+    "sha256": "726ef882600a3cb9482ec72fee81583ec93eca757df6919b2d9251944b1172cb",
+    "bytes": 5388
   },
   {
     "path": "results.json",

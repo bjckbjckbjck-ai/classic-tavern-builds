@@ -48,3 +48,6 @@
 官方历史依据：[28.2](https://hearthstone.blizzard.com/en-us/news/24008697)、[28.6](https://hearthstone.blizzard.com/en-us/news/24056184)、[28.6.2](https://hearthstone.blizzard.com/en-us/news/24056185/28-6-2-patch-notes)。中文名按卡 ID 核对，修正设计稿的“预定遗体/流变”为“预订遗体/流转”。
 
 完整发行仍需卡框/桌面改进、全局卡池文档更新、Android及发行包验证。见[下一阶段计划](../../下一阶段开发计划.md)。
+
+
+源码本地提交 `2e51e7b`，公开证据提交 `df6c635`；#25/#18进度回复已读回确认。[同步记录](publication.json)。
