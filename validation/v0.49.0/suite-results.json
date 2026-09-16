@@ -1,0 +1,114 @@
+[
+  {
+    "suite": "trinket_policy_v51_test",
+    "passed": 21
+  },
+  {
+    "suite": "trinket_history_v51_test",
+    "passed": 30
+  },
+  {
+    "suite": "trinket_ui_v51_test",
+    "passed": 70
+  },
+  {
+    "suite": "trinkets_v22_test",
+    "passed": 41
+  },
+  {
+    "suite": "trinkets_ui_v22_test",
+    "passed": 10
+  },
+  {
+    "suite": "darkmoon_v23_test",
+    "passed": 66
+  },
+  {
+    "suite": "darkmoon_ui_v23_test",
+    "passed": 10
+  },
+  {
+    "suite": "issue_v24_test",
+    "passed": 26
+  },
+  {
+    "suite": "issue_v27_test",
+    "passed": 23
+  },
+  {
+    "suite": "issue_v28_test",
+    "passed": 37
+  },
+  {
+    "suite": "issue_ui_v28_test",
+    "passed": 9
+  },
+  {
+    "suite": "issue_v29_test",
+    "passed": 30
+  },
+  {
+    "suite": "economy_v18_test",
+    "passed": 53
+  },
+  {
+    "suite": "originals_v15_test",
+    "passed": 18
+  },
+  {
+    "suite": "stacked_v9_test",
+    "passed": 71
+  },
+  {
+    "suite": "chain_v50_test",
+    "passed": 16
+  },
+  {
+    "suite": "inspection_v50_test",
+    "passed": 40
+  },
+  {
+    "suite": "hand_platform_v47_test",
+    "passed": 63
+  },
+  {
+    "suite": "readability_v48_test",
+    "passed": 45
+  },
+  {
+    "suite": "layout_v46_test",
+    "passed": 68
+  },
+  {
+    "suite": "settings_v44_test",
+    "passed": 9
+  },
+  {
+    "suite": "foyer_v49_test",
+    "passed": 41
+  },
+  {
+    "suite": "tomorrow_v37_test",
+    "passed": 44
+  },
+  {
+    "suite": "ai_trade_v17_test",
+    "passed": 10
+  },
+  {
+    "suite": "ai_plan_v16_test",
+    "passed": 15
+  },
+  {
+    "suite": "combat_audit_v21_test",
+    "passed": 14
+  },
+  {
+    "suite": "rules_test",
+    "passed": 32
+  },
+  {
+    "suite": "stacking_test",
+    "passed": 25
+  }
+]

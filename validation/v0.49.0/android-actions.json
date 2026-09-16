@@ -1,0 +1,236 @@
+{
+  "scope": "Final APK; 8-player deterministic QA fixture; natural voucher timing followed by explicit visual offers; not a balance simulation",
+  "states": [
+    {
+      "board": [
+        "scallywag",
+        "salty"
+      ],
+      "coins": 10,
+      "hand": [],
+      "offers": [
+        "grifter_portrait",
+        "trip_vouchers",
+        "colorful_compass",
+        "souvenir_stand"
+      ],
+      "round": 6,
+      "trinkets": []
+    },
+    {
+      "board": [
+        "scallywag",
+        "salty"
+      ],
+      "coins": 8,
+      "hand": [],
+      "offers": [],
+      "round": 6,
+      "trinkets": [
+        [
+          "trip_vouchers",
+          "lesser"
+        ]
+      ]
+    },
+    {
+      "board": [
+        "scallywag",
+        "salty"
+      ],
+      "coins": 10,
+      "hand": [],
+      "offers": [
+        "rivendare_portrait",
+        "belcher_portrait",
+        "flagbearer_portrait",
+        "tip_jar"
+      ],
+      "round": 8,
+      "trinkets": [
+        [
+          "trip_vouchers",
+          "lesser"
+        ]
+      ]
+    },
+    {
+      "board": [
+        "scallywag",
+        "salty"
+      ],
+      "coins": 9,
+      "hand": [
+        "titus"
+      ],
+      "offers": [],
+      "round": 8,
+      "trinkets": [
+        [
+          "rivendare_portrait",
+          "lesser"
+        ]
+      ]
+    },
+    {
+      "board": [
+        "scallywag",
+        "salty"
+      ],
+      "coins": 10,
+      "hand": [
+        "titus"
+      ],
+      "offers": [
+        "belcher_portrait",
+        "flagbearer_portrait",
+        "tip_jar",
+        "balladist_portrait"
+      ],
+      "round": 9,
+      "trinkets": [
+        [
+          "rivendare_portrait",
+          "lesser"
+        ]
+      ]
+    },
+    {
+      "board": [
+        "scallywag",
+        "salty"
+      ],
+      "coins": 7,
+      "hand": [
+        "titus",
+        "belcher"
+      ],
+      "offers": [],
+      "round": 9,
+      "trinkets": [
+        [
+          "rivendare_portrait",
+          "lesser"
+        ],
+        [
+          "belcher_portrait",
+          "greater"
+        ]
+      ]
+    },
+    {
+      "board": [
+        "scallywag",
+        "salty"
+      ],
+      "coins": 0,
+      "hand": [],
+      "offers": [],
+      "round": 9,
+      "trinkets": [
+        [
+          "grifter_portrait",
+          "lesser"
+        ]
+      ]
+    },
+    {
+      "board": [
+        "scallywag",
+        "salty"
+      ],
+      "coins": 0,
+      "hand": [
+        "scallywag"
+      ],
+      "offers": [],
+      "round": 9,
+      "trinkets": [
+        [
+          "grifter_portrait",
+          "lesser"
+        ]
+      ]
+    },
+    {
+      "board": [
+        "scallywag",
+        "salty"
+      ],
+      "coins": 0,
+      "hand": [
+        "cat",
+        "bronze",
+        "reaper",
+        "frog",
+        "brann",
+        "mama",
+        "hoggarr",
+        "tad",
+        "choral",
+        "micro"
+      ],
+      "offers": [],
+      "round": 9,
+      "trinkets": [
+        [
+          "grifter_portrait",
+          "lesser"
+        ]
+      ]
+    },
+    {
+      "board": [
+        "scallywag",
+        "salty"
+      ],
+      "coins": 0,
+      "hand": [
+        "cat",
+        "bronze",
+        "reaper",
+        "frog",
+        "brann",
+        "mama",
+        "hoggarr",
+        "tad",
+        "choral"
+      ],
+      "offers": [],
+      "round": 9,
+      "trinkets": [
+        [
+          "grifter_portrait",
+          "lesser"
+        ]
+      ]
+    },
+    {
+      "board": [
+        "scallywag",
+        "salty"
+      ],
+      "coins": 0,
+      "hand": [
+        "cat",
+        "bronze",
+        "reaper",
+        "frog",
+        "brann",
+        "mama",
+        "hoggarr",
+        "tad",
+        "choral",
+        "spell_fortify"
+      ],
+      "offers": [],
+      "round": 9,
+      "trinkets": [
+        [
+          "grifter_portrait",
+          "lesser"
+        ]
+      ]
+    }
+  ]
+}

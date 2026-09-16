@@ -1,0 +1,31 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+PASS expanded catalog validates
+PASS grifter portrait gives its actual core card
+PASS non-pirate purchase does not consume free pirate
+PASS first pirate can be bought with zero gold
+PASS free pirate is not spending and next pirate costs three
+PASS free pirate resets at round start
+PASS full-hand rejection never consumes free purchase
+PASS portrait does not retrospectively refund or reset a pirate already bought
+PASS voucher schedules exactly two rounds after acquisition
+PASS voucher does not offer after one round
+PASS voucher offers greater choices on turn eight with extra time
+PASS voucher replaces its own slot with paid greater
+PASS duplicate confirmation cannot buy again
+PASS regular turn-nine offer survives early greater acquisition
+PASS two greater trinkets occupy distinct visible slots
+PASS passing voucher leaves no repeat popup
+PASS passing voucher never suppresses regular greater offer
+PASS same-round voucher and regular offer queue without overwriting
+PASS timeout resolves both queued purchases without blocking combat
+PASS souvenir copies acquisition effect without a second purchase charge
+PASS souvenir copies retain separate equipment slots
+PASS portrait copy grants two cores and pays once
+PASS four granted copies combine into one golden and one normal minion
+PASS compass creates an actual non-pool minion of bound tribe
+PASS compass keeps its original type after warband changes
+PASS rivendare portrait doubles normal and golden health only in combat
+PASS blocked venom grants no permanent portrait stats
+PASS one effective venom layer grants exactly twelve stats
+PASS lethal simultaneous retaliation earns permanent gain without resurrection
+PASS consumed layers write back to original recruit minion
