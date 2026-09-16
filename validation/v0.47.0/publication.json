@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-09-16T03:34:36.629591+00:00",
+  "release": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.47.0",
+  "latest": true,
+  "issue18": {
+    "state": "open",
+    "comment": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/18#issuecomment-5691642079"
+  },
+  "issue17_state": "closed",
+  "source_commit": "96172702addd7bd6a3c1f858cadb92fa020d950b",
+  "public_release_commit": "caeeca255427b8be653409e468aaf1d00561b0cd",
+  "source_remote_configured": false,
+  "qa_emulator_stopped": true,
+  "emulator_process_id": 3500,
+  "qa_host_created": false,
+  "emulator_child_process_id": 17404
+}
