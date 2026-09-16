@@ -1,0 +1,271 @@
+{
+  "exit_code": 0,
+  "suites": [
+    {
+      "suite": "first_six_v50_test",
+      "passed": 94,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "first_six_ui_v50_test",
+      "passed": 17,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "tribes_v50_test",
+      "passed": 26,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "tribes_recruit_v50_test",
+      "passed": 34,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "tribes_combat_v50_test",
+      "passed": 20,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "tribes_ui_v50_test",
+      "passed": 32,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "six_tribes_test",
+      "passed": 48,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "stacked_v9_test",
+      "passed": 72,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "stacking_test",
+      "passed": 25,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "undead_v17_test",
+      "passed": 33,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "issue_v27_test",
+      "passed": 23,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "issue_v28_test",
+      "passed": 37,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "issue_v29_test",
+      "passed": 30,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "chain_v50_test",
+      "passed": 16,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "cadence_v26_test",
+      "passed": 32,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "cadence_ui_v26_test",
+      "passed": 8,
+      "errors": [],
+      "engine_warnings": [
+        "WARNING: ObjectDB instances leaked at exit (run with --verbose for details).",
+        "ERROR: 3 resources still in use at exit (run with --verbose for details)."
+      ]
+    },
+    {
+      "suite": "economy_v18_test",
+      "passed": 53,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "spells_v10_test",
+      "passed": 60,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "recruit_v16_test",
+      "passed": 8,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "originals_v15_test",
+      "passed": 18,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "expansion_v14_test",
+      "passed": 26,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "ai_plan_v16_test",
+      "passed": 15,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "ai_trade_v17_test",
+      "passed": 10,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "ai_content_test",
+      "passed": 27,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "rules_test",
+      "passed": 32,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "pool_integrity_test",
+      "passed": 12,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "trinket_policy_v51_test",
+      "passed": 21,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "trinket_history_v51_test",
+      "passed": 30,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "trinkets_v22_test",
+      "passed": 41,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "darkmoon_v23_test",
+      "passed": 66,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "inspection_v50_test",
+      "passed": 40,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "readability_v48_test",
+      "passed": 45,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "hand_platform_v47_test",
+      "passed": 63,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "layout_v46_test",
+      "passed": 68,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "feedback_ui_v16_test",
+      "passed": 8,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "allstars_test",
+      "passed": 20,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "issue_v19_test",
+      "passed": 21,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "issue_v21_test",
+      "passed": 26,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "playstyles_v12_test",
+      "passed": 27,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "presentation_v11_test",
+      "passed": 25,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "undead_ui_v17_test",
+      "passed": 8,
+      "errors": [],
+      "engine_warnings": []
+    },
+    {
+      "suite": "ux_v8_test",
+      "passed": 14,
+      "errors": [],
+      "engine_warnings": []
+    }
+  ],
+  "suite_count": 42,
+  "headless_assertions": 1331,
+  "balance_simulation": false,
+  "android_tested": false,
+  "multiplayer_tested": false,
+  "native_assertions": 20,
+  "native_exit_code": 0,
+  "screenshots": 17,
+  "native_renderer": "Godot 4.6.1 Windows OpenGL",
+  "mobile_mode": "Windows platform-layout override, not Android",
+  "released": false
+}

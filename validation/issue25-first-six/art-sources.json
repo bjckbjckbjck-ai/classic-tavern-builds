@@ -1,0 +1,68 @@
+[
+  {
+    "id": "nightmare_amalgam",
+    "source": "BG_GIL_681",
+    "path": "assets/original/BG_GIL_681.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG_GIL_681.webp",
+    "sha256": "a52fc0fc02ec3b7a49ffd33bca30c10b2f4c65de9358b28bd48cb597a857f8ee",
+    "name_zhCN": "梦魇融合怪",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Original artwork identity only; gameplay uses historical version and seven-tribe adaptation in v0.50 design."
+  },
+  {
+    "id": "corpse_refiner",
+    "source": "BG25_033",
+    "path": "assets/original/BG25_033.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG25_033.webp",
+    "sha256": "b61b3d1f5c73a0b4b61c99a4732f3c42e7b3a70c349b997b3866bfd42b61004f",
+    "name_zhCN": "尸体提炼师",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Original artwork identity only; gameplay uses historical version and seven-tribe adaptation in v0.50 design."
+  },
+  {
+    "id": "gilded_gargoyle",
+    "source": "BG26_LOOT_534",
+    "path": "assets/original/BG26_LOOT_534.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG26_LOOT_534.webp",
+    "sha256": "cbe84fe35290de9fe660bf54ae5333986501d1fb7b3c53afccfc9bd58837ae29",
+    "name_zhCN": "镀金的石像鬼",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Original artwork identity only; gameplay uses historical version and seven-tribe adaptation in v0.50 design."
+  },
+  {
+    "id": "dreadbeard",
+    "source": "BG27_011",
+    "path": "assets/original/BG27_011.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG27_011.webp",
+    "sha256": "1038af78351da1df7d75f07fd69b6e3ac4886daa6c22b9fe0743462c3be89374",
+    "name_zhCN": "恐惧胡子王",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Original artwork identity only; gameplay uses historical version and seven-tribe adaptation in v0.50 design."
+  },
+  {
+    "id": "magmaloc",
+    "source": "BG25_046",
+    "path": "assets/original/BG25_046.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG25_046.webp",
+    "sha256": "aab71e14614b625b0481fce1a1cd50c37dbe7ecc827e410098bf50dfb033572b",
+    "name_zhCN": "熔岩鱼人",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Original artwork identity only; gameplay uses historical version and seven-tribe adaptation in v0.50 design."
+  },
+  {
+    "id": "murky",
+    "source": "BG24_012",
+    "path": "assets/original/BG24_012.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG24_012.webp",
+    "sha256": "0d9f74100fdece6bcf57a2eee01f221dbf6884cb341819d11fb67337676e2242",
+    "name_zhCN": "奔波尔霸",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Original artwork identity only; gameplay uses historical version and seven-tribe adaptation in v0.50 design."
+  }
+]

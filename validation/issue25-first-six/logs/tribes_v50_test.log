@@ -1,0 +1,57 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+PASS all includes exactly the supported seven tribes
+
+PASS dual membership includes both supported types
+
+PASS runtime normalization never leaks duplicate or unopened types
+
+PASS neutral is absence of a tribe
+
+PASS spells never count as typed or neutral minions
+
+PASS optional effect condition uses membership
+
+PASS shared tribe intersection excludes neutral
+
+PASS card and detail labels distinguish all and dual tribes
+
+PASS one all-type entity receives one menagerie buff
+
+PASS flexible entity yields the single-type slot
+
+PASS repeated UID never gets two target slots
+
+PASS fusion plus six single types fills seven slots
+
+PASS target selector returns live dictionaries instead of copies
+
+PASS membership counts deduplicate UID but retain different minions
+
+PASS valid legacy dual and all definitions accepted
+
+PASS invalid type declaration rejected: { "tribes": [] }
+
+PASS invalid type declaration rejected: { "tribes": ["鱼人", "鱼人"] }
+
+PASS invalid type declaration rejected: { "tribes": ["元素"] }
+
+PASS invalid type declaration rejected: { "all_tribes": 1 }
+
+PASS invalid type declaration rejected: { "tribe": "鱼人", "tribes": ["龙", "机械"] }
+
+PASS invalid type declaration rejected: { "tribes": "鱼人" }
+
+PASS 128 random membership graphs match independent exhaustive optimum
+
+PASS authority seeds reproduce selections with unique physical entities
+
+PASS existing catalog remains valid
+
+PASS catalog rejects malformed multi-type pack before it enters pool
+
+PASS loaded multi-type definition retains valid primary tribe after defaults
+
+TRIBES V50 RESULT 26/26

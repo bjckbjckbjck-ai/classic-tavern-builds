@@ -1,0 +1,147 @@
+{
+  "active_minions": 147,
+  "definitions": 199,
+  "errors": [],
+  "heroes": 22,
+  "new_cards": [
+    {
+      "all_tribes": true,
+      "art": 0,
+      "attack": 3.0,
+      "battlecry": {},
+      "deathrattle": {},
+      "gold_text": "拥有全部种族（当前七种族）。",
+      "health": 4.0,
+      "id": "nightmare_amalgam",
+      "keywords": [],
+      "name": "梦魇融合怪",
+      "pool": 13.0,
+      "source": "BG_GIL_681",
+      "text": "拥有全部种族（当前七种族）。",
+      "tier": 3.0,
+      "tribe": "野兽"
+    },
+    {
+      "art": 0,
+      "attack": 2.0,
+      "battlecry": {},
+      "deathrattle": {},
+      "gold_text": "复仇（4）：本随从的出售价格永久提高2枚铸币。",
+      "health": 3.0,
+      "id": "corpse_refiner",
+      "keywords": [],
+      "name": "尸体提炼师",
+      "passive": {
+        "avenge": 4.0,
+        "type": "avenge_sell"
+      },
+      "pool": 15.0,
+      "source": "BG25_033",
+      "text": "复仇（4）：本随从的出售价格永久提高1枚铸币。",
+      "tier": 2.0,
+      "tribe": "海盗",
+      "tribes": [
+        "亡灵",
+        "海盗"
+      ]
+    },
+    {
+      "art": 0,
+      "attack": 2.0,
+      "battlecry": {},
+      "deathrattle": {
+        "card": "spell_coin",
+        "count": 1.0,
+        "type": "give_spell"
+      },
+      "gold_text": "亡语：将两张0费酒馆币置入你的手牌。",
+      "health": 2.0,
+      "id": "gilded_gargoyle",
+      "keywords": [],
+      "name": "镀金的石像鬼",
+      "pool": 13.0,
+      "source": "BG26_LOOT_534",
+      "text": "亡语：将一张0费酒馆币置入你的手牌。",
+      "tier": 3.0,
+      "tribe": "亡灵"
+    },
+    {
+      "art": 0,
+      "attack": 4.0,
+      "battlecry": {},
+      "deathrattle": {},
+      "gold_text": "在你的回合结束时，对你的英雄造成1点伤害，并将两张0费酒馆币置入你的手牌。",
+      "health": 4.0,
+      "id": "dreadbeard",
+      "keywords": [],
+      "name": "恐惧胡子王",
+      "passive": {
+        "type": "end_hurt_coin"
+      },
+      "pool": 13.0,
+      "source": "BG27_011",
+      "text": "在你的回合结束时，对你的英雄造成1点伤害，并将一张0费酒馆币置入你的手牌。",
+      "tier": 3.0,
+      "tribe": "恶魔",
+      "tribes": [
+        "恶魔",
+        "海盗"
+      ]
+    },
+    {
+      "adaptation": "七种族适配：保留鱼人种族，不引入元素；统计使用随从，包括磁力合体，不含召唤和战吼重触发。",
+      "art": 0,
+      "attack": 1.0,
+      "battlecry": {},
+      "deathrattle": {},
+      "gold_text": "在你的回合结束时，获得+2/+2。本回合你每使用过一个随从，重复一次。",
+      "health": 1.0,
+      "id": "magmaloc",
+      "keywords": [],
+      "name": "熔岩鱼人",
+      "passive": {
+        "attack": 1.0,
+        "health": 1.0,
+        "type": "end_per_play"
+      },
+      "pool": 11.0,
+      "source": "BG25_046",
+      "text": "在你的回合结束时，获得+1/+1。本回合你每使用过一个随从，重复一次。",
+      "tier": 4.0,
+      "tribe": "鱼人"
+    },
+    {
+      "adaptation": "采用历史战吼随从使用数版本；本次使用先计数，重复触发战吼不增加使用数。",
+      "art": 0,
+      "attack": 6.0,
+      "battlecry": {
+        "attack": 1.0,
+        "health": 1.0,
+        "per_battlecry_play": true,
+        "tribe": "鱼人",
+        "type": "target"
+      },
+      "deathrattle": {},
+      "gold_text": "战吼：使一个友方鱼人获得+2/+2。本局对战你每使用过一个战吼随从，提升+2/+2（包含本次使用）。",
+      "health": 5.0,
+      "id": "murky",
+      "keywords": [],
+      "name": "奔波尔霸",
+      "pool": 7.0,
+      "source": "BG24_012",
+      "text": "战吼：使一个友方鱼人获得+1/+1。本局对战你每使用过一个战吼随从，提升+1/+1（包含本次使用）。",
+      "tier": 6.0,
+      "tribe": "鱼人"
+    }
+  ],
+  "spells": 37,
+  "tribe_membership": {
+    "亡灵": 19,
+    "恶魔": 19,
+    "机械": 17,
+    "海盗": 22,
+    "野兽": 19,
+    "鱼人": 19,
+    "龙": 19
+  }
+}
