@@ -1,0 +1,17 @@
+{
+  "latest": "v0.48.0",
+  "checks": [
+    {
+      "name": "ClassicTavern-v0.48.0.apk",
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.48.0/ClassicTavern-v0.48.0.apk?download=1",
+      "status": 200,
+      "content_length": 215397474
+    },
+    {
+      "name": "ClassicTavern-v0.48.0.exe",
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.48.0/ClassicTavern-v0.48.0.exe?download=1",
+      "status": 200,
+      "content_length": 236157488
+    }
+  ]
+}

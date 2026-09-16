@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-09-16T04:23:07.835663+00:00",
+  "release": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.48.0",
+  "latest": true,
+  "issues": {
+    "18": {
+      "state": "open",
+      "comment": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/18#issuecomment-5691999735"
+    },
+    "21": {
+      "state": "closed",
+      "comment": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/21#issuecomment-5691996994"
+    },
+    "22": {
+      "state": "closed",
+      "comment": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/22#issuecomment-5691997256"
+    },
+    "23": {
+      "state": "closed",
+      "comment": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/23#issuecomment-5691997570"
+    },
+    "24": {
+      "state": "open",
+      "comment": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/24#issuecomment-5691999861"
+    }
+  },
+  "issue17_state": "closed",
+  "source_commit": "ee71eacb1f8d5f55a14a34b662269bced7d76679",
+  "public_release_commit": "c6121a9b57435801796bbff1bf1cd4104bd0b5a3",
+  "source_remote_configured": false,
+  "host_pid": 2908,
+  "emulator_stopped": true,
+  "qa_host_stopped": true,
+  "only_owned_qa_processes": true,
+  "emulator_pid": 8492,
+  "shutdown_or_network_changes": false
+}
