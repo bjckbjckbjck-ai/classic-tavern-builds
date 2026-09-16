@@ -1,0 +1,9 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS client client receives typed staff shop
+PASS client replayed RPC rejects shifted next spell
+PASS client client receives seven-spell replacement
+PASS client normal paid refresh restores mixed shop
+PASS client client receives same-UID Fluidity exchange
+PASS client spectator can select host
+PASS client spectator can select bot with another player serial

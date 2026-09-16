@@ -1,0 +1,73 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+PASS all-tribe fusion accepts magnetic attachment
+
+PASS magnetic attachment counts one physical material
+
+PASS all-tribe fusion is a valid Murloc poison battlecry target
+
+PASS wrong tribe target rejects atomically when a dual-tribe target exists
+
+PASS dual-tribe target validates and receives poison once
+
+PASS undead callback applies once to dual/all members and excludes unrelated tribe
+
+PASS Jaraxxus buffs dual/all Demon members once
+
+PASS play callbacks recognize a dual member once each
+
+PASS buy callback grants income once for an all-tribe physical card
+
+PASS after-battlecry buff recognizes dual tribe once
+
+PASS end-tribe buff recognizes the second tribe
+
+PASS tribe-count growth counts a dual minion once
+
+PASS hand tribe buff accepts all-tribe minion
+
+PASS sell tribe buff recognizes dual member once
+
+PASS tribe battlecry count counts each physical member once
+
+PASS repeated targeted battlecry finds dual membership
+
+PASS end menagerie maximizes unique recipients without buffing flexible members twice
+
+PASS menagerie trace records each actual target UID exactly once
+
+PASS Wagtoggle maximizes distinct recipients
+
+PASS Wagtoggle emits three different target UIDs
+
+PASS menagerie spell gives one buff per maximum distinct recipient
+
+PASS spell-menagerie callback maximizes targets and excludes neutral
+
+PASS shared-tribe spell accepts dual target
+
+PASS shared tribe union buffs board and shop once even when two types overlap
+
+PASS shared tribe union excludes unrelated minions
+
+PASS shared tribe spells reject neutral targets without consumption
+
+PASS Butchering accepts undead as second tribe
+
+PASS Demon consume spell accepts demon as second tribe
+
+PASS tribe discovery includes dual/all cards and never an unrelated card
+
+PASS tribe-card spell draws from the shared-type union
+
+PASS shared-type draw consumes one pool copy and leaves unrelated pool unchanged
+
+PASS pirate income counts dual/all members as three physical Pirates
+
+PASS all-tribe acquisition advances pirate resource progress once
+
+PASS buy records one purchase and one Pirate event while applying Mech hero buff
+
+TRIBES RECRUIT V50 RESULT 34 passed 0 failed

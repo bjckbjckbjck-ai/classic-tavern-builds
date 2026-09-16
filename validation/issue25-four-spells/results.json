@@ -1,0 +1,312 @@
+{
+  "suites": 55,
+  "assertions": 1670,
+  "native": {
+    "four-spells-ui-native": 33,
+    "four-spells-owned-native": 5,
+    "four-spells-network-host": 2,
+    "four-spells-network-client": 7
+  },
+  "screenshots": 19,
+  "suites_detail": [
+    {
+      "suite": "four_spells_v50_test",
+      "assertions": 73,
+      "errors": []
+    },
+    {
+      "suite": "second_six_v50_test",
+      "assertions": 85,
+      "errors": []
+    },
+    {
+      "suite": "first_six_v50_test",
+      "assertions": 94,
+      "errors": []
+    },
+    {
+      "suite": "tribes_v50_test",
+      "assertions": 26,
+      "errors": []
+    },
+    {
+      "suite": "tribes_recruit_v50_test",
+      "assertions": 34,
+      "errors": []
+    },
+    {
+      "suite": "tribes_combat_v50_test",
+      "assertions": 20,
+      "errors": []
+    },
+    {
+      "suite": "trinket_policy_v51_test",
+      "assertions": 21,
+      "errors": []
+    },
+    {
+      "suite": "trinket_history_v51_test",
+      "assertions": 30,
+      "errors": []
+    },
+    {
+      "suite": "chain_v50_test",
+      "assertions": 16,
+      "errors": []
+    },
+    {
+      "suite": "inspection_v50_test",
+      "assertions": 40,
+      "errors": []
+    },
+    {
+      "suite": "tomorrow_v37_test",
+      "assertions": 44,
+      "errors": []
+    },
+    {
+      "suite": "hero_armor_v36_test",
+      "assertions": 44,
+      "errors": []
+    },
+    {
+      "suite": "issue_v29_test",
+      "assertions": 30,
+      "errors": []
+    },
+    {
+      "suite": "issue_v28_test",
+      "assertions": 37,
+      "errors": []
+    },
+    {
+      "suite": "issue_v27_test",
+      "assertions": 23,
+      "errors": []
+    },
+    {
+      "suite": "cadence_v26_test",
+      "assertions": 32,
+      "errors": []
+    },
+    {
+      "suite": "experience_v25_test",
+      "assertions": 24,
+      "errors": []
+    },
+    {
+      "suite": "issue_v24_test",
+      "assertions": 26,
+      "errors": []
+    },
+    {
+      "suite": "darkmoon_v23_test",
+      "assertions": 66,
+      "errors": []
+    },
+    {
+      "suite": "trinkets_v22_test",
+      "assertions": 41,
+      "errors": []
+    },
+    {
+      "suite": "combat_audit_v21_test",
+      "assertions": 14,
+      "errors": []
+    },
+    {
+      "suite": "issue_v21_test",
+      "assertions": 26,
+      "errors": []
+    },
+    {
+      "suite": "issue_v20_test",
+      "assertions": 16,
+      "errors": []
+    },
+    {
+      "suite": "issue_v19_test",
+      "assertions": 21,
+      "errors": []
+    },
+    {
+      "suite": "economy_v18_test",
+      "assertions": 53,
+      "errors": []
+    },
+    {
+      "suite": "undead_v17_test",
+      "assertions": 33,
+      "errors": []
+    },
+    {
+      "suite": "ai_trade_v17_test",
+      "assertions": 10,
+      "errors": []
+    },
+    {
+      "suite": "recruit_v16_test",
+      "assertions": 8,
+      "errors": []
+    },
+    {
+      "suite": "ai_plan_v16_test",
+      "assertions": 15,
+      "errors": []
+    },
+    {
+      "suite": "originals_v15_test",
+      "assertions": 18,
+      "errors": []
+    },
+    {
+      "suite": "expansion_v14_test",
+      "assertions": 26,
+      "errors": []
+    },
+    {
+      "suite": "heroes_v14_test",
+      "assertions": 4,
+      "errors": []
+    },
+    {
+      "suite": "king_v13_test",
+      "assertions": 8,
+      "errors": []
+    },
+    {
+      "suite": "heroes_v12_test",
+      "assertions": 4,
+      "errors": []
+    },
+    {
+      "suite": "playstyles_v12_test",
+      "assertions": 27,
+      "errors": []
+    },
+    {
+      "suite": "spells_v10_test",
+      "assertions": 64,
+      "errors": []
+    },
+    {
+      "suite": "stacked_v9_test",
+      "assertions": 72,
+      "errors": []
+    },
+    {
+      "suite": "rules_test",
+      "assertions": 32,
+      "errors": []
+    },
+    {
+      "suite": "migration_test",
+      "assertions": 12,
+      "errors": []
+    },
+    {
+      "suite": "stacking_test",
+      "assertions": 25,
+      "errors": []
+    },
+    {
+      "suite": "ai_content_test",
+      "assertions": 27,
+      "errors": []
+    },
+    {
+      "suite": "allstars_test",
+      "assertions": 20,
+      "errors": []
+    },
+    {
+      "suite": "six_tribes_test",
+      "assertions": 48,
+      "errors": []
+    },
+    {
+      "suite": "four_spells_ui_v50_test",
+      "assertions": 32,
+      "errors": []
+    },
+    {
+      "suite": "ux_v10_test",
+      "assertions": 8,
+      "errors": []
+    },
+    {
+      "suite": "hand_platform_v47_test",
+      "assertions": 63,
+      "errors": []
+    },
+    {
+      "suite": "purchase_v38_test",
+      "assertions": 22,
+      "errors": []
+    },
+    {
+      "suite": "trinkets_ui_v22_test",
+      "assertions": 10,
+      "errors": []
+    },
+    {
+      "suite": "ux_v9_test",
+      "assertions": 14,
+      "errors": []
+    },
+    {
+      "suite": "issue_ui_v20_test",
+      "assertions": 8,
+      "errors": []
+    },
+    {
+      "suite": "tomorrow_ui_v37_test",
+      "assertions": 5,
+      "errors": []
+    },
+    {
+      "suite": "darkmoon_ui_v23_test",
+      "assertions": 10,
+      "errors": []
+    },
+    {
+      "suite": "economy_ui_v18_test",
+      "assertions": 9,
+      "errors": []
+    },
+    {
+      "suite": "second_six_ui_v50_test",
+      "assertions": 30,
+      "errors": []
+    },
+    {
+      "suite": "trinket_ui_v51_test",
+      "assertions": 70,
+      "errors": []
+    }
+  ],
+  "released": false,
+  "engine": "Godot 4.6.1 Windows OpenGL",
+  "mobile": "Windows platform override only, not Android",
+  "network": "two Godot processes on 127.0.0.1:14350, not two external devices",
+  "reviews": {
+    "spec": "approved after fixing Nadina/Bassgill AI protection",
+    "quality": "approved after fixing swap feedback and protocol version"
+  },
+  "notes": [
+    "Latest unique-suite logs, no repeated-run accumulation.",
+    "Initial UI batch failed stale ux_v9 selectors and missing owned Tomorrow countdown; fixed and affected suites rerun.",
+    "Final caption placement and countdown ordering validated again by native suites; no balance simulation.",
+    "Existing resource cleanup warnings retained in logs."
+  ],
+  "commands": {
+    "rules": "python scripts/verify.py four_spells_v50_test second_six_v50_test first_six_v50_test tribes_v50_test tribes_recruit_v50_test tribes_combat_v50_test trinket_policy_v51_test trinket_history_v51_test chain_v50_test inspection_v50_test tomorrow_v37_test hero_armor_v36_test issue_v29_test issue_v28_test issue_v27_test cadence_v26_test experience_v25_test issue_v24_test darkmoon_v23_test trinkets_v22_test combat_audit_v21_test issue_v21_test issue_v20_test issue_v19_test economy_v18_test undead_v17_test ai_trade_v17_test recruit_v16_test ai_plan_v16_test originals_v15_test expansion_v14_test heroes_v14_test king_v13_test heroes_v12_test playstyles_v12_test spells_v10_test stacked_v9_test rules_test migration_test stacking_test ai_content_test allstars_test six_tribes_test",
+    "rules_followup": "python scripts/verify.py four_spells_v50_test ai_plan_v16_test ai_trade_v17_test",
+    "ui": "python scripts/verify.py four_spells_ui_v50_test ux_v10_test hand_platform_v47_test purchase_v38_test trinkets_ui_v22_test ux_v9_test issue_ui_v20_test tomorrow_ui_v37_test darkmoon_ui_v23_test economy_ui_v18_test second_six_ui_v50_test inspection_v50_test trinket_ui_v51_test",
+    "network": "python -X utf8 tests/run_four_spells_network.py",
+    "native": [
+      "Godot --path . --script tests/four_spells_ui_v50_test.gd",
+      "Godot --path . --script tests/tomorrow_ui_v37_test.gd"
+    ]
+  }
+}

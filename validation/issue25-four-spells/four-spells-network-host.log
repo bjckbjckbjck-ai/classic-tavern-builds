@@ -1,0 +1,4 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS host server has exactly three casts and one paid refresh
+PASS host server accepts repeated spectator switches after guarded actions

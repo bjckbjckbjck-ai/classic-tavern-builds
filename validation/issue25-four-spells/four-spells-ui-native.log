@@ -1,0 +1,37 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PRESENTATION VERIFIED Windows msaa=0 cards=9
+UI PASS seven-spell shop uses seven separate visible slots
+UI PASS all spell slots fit the playable width
+UI PASS four spells use their matching original artwork
+UI PASS native seven-spell shop passes the 3D visibility probe
+UI PASS selected spell purchase button shows its actual price
+UI PASS shop drag purchases the chosen spell exactly once
+UI PASS spell detail distinguishes purchase price from free casting
+UI PASS staff drag to neutral target retracts without changing gameplay state
+UI PASS held staff target previews the real dual-type union
+UI PASS target preview suppresses the overlapping hover description
+UI PASS finishing target selection restores the normal hover description
+UI PASS staff cast rebuilds full minion shop without a second payment
+UI PASS visible staff shop contains only matching types
+UI PASS spell refresh uses the same staggered reveal as normal refresh
+UI PASS untargeted Finest click casts through the guarded UI request
+UI PASS full-spell shop also receives one refresh reveal
+UI PASS frozen all-spell shop survives the next round without minion mixing
+UI PASS ordinary refresh restores the mixed shop through the UI
+UI PASS discounted spell face and purchase glow agree with authority
+UI PASS discounted purchase button shows zero
+UI PASS discounted spell drag does not charge printed price
+UI PASS Fluidity drag exchanges actual entities with their enchantments
+UI PASS Fluidity feedback describes exchange rather than a zero-stat buff
+UI PASS main authority handler rejects replay without consuming the next hand spell
+UI PASS unguarded non-room request cannot mutate the match
+UI PASS Corpse opens three real discover choices
+UI PASS discover choice enters hand and clears the blocking chooser
+UI PASS desktop ten-spell hand stays a shallow centered fan
+UI PASS first mobile tap only opens the shallow ten-card fan
+UI PASS expanded spell hand remains visible in 2D fallback
+UI PASS wide phone fan stays within the display
+UI PASS empty-area tap retracts the mobile fan
+UI PASS spell collection includes all four additions among 41 spells

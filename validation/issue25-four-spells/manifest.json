@@ -1,0 +1,422 @@
+[
+  {
+    "path": "art-sources.json",
+    "sha256": "ff593ad492048a85e47da8e1451747ba5d6549ee86dcf450b3d0ea8f843ae812",
+    "bytes": 2141
+  },
+  {
+    "path": "four-spells-network-client.log",
+    "sha256": "ec11b6b34baab9dbf980ea9e42cef17c95be75ba3155448ca5f20f3c5b8fd291",
+    "bytes": 431
+  },
+  {
+    "path": "four-spells-network-host.log",
+    "sha256": "5679837b1e89df8d0f7154079cef4fc28ef7ad37a06ac171dfb30c96431aa258",
+    "bytes": 210
+  },
+  {
+    "path": "four-spells-owned-native.log",
+    "sha256": "94e37c1d7f8d6f4510ae5850b7c842c4ef51063f542c15bc30d1febdb00d2bd6",
+    "bytes": 582
+  },
+  {
+    "path": "four-spells-ui-followup.log",
+    "sha256": "bfb70901a711cf7787d42b4227f4203ad24195a9824c0051848d092f64b15dc7",
+    "bytes": 130
+  },
+  {
+    "path": "four-spells-ui-native.log",
+    "sha256": "5d1b29c69093ef3e1d544074e390769b3c6bba35058527761e6d74ab2837e547",
+    "bytes": 2305
+  },
+  {
+    "path": "four-spells-ui-regression.log",
+    "sha256": "3a30254f0f5b6550dec78066267b22029b9beb029e1fd9d4bf6dfa341f583104",
+    "bytes": 689
+  },
+  {
+    "path": "logs/ai_content_test.log",
+    "sha256": "075877b4123995bffbef9377ec9da9aeb5a6b105862e00deabdfb0b9528fddc1",
+    "bytes": 1431
+  },
+  {
+    "path": "logs/ai_plan_v16_test.log",
+    "sha256": "e2c2ac15260bf4777aa92057bd3306b0ea927519c9bc32df4c634d3daa54af46",
+    "bytes": 834
+  },
+  {
+    "path": "logs/ai_trade_v17_test.log",
+    "sha256": "eec05acb324bec90387e0bd8d7c05e592eb4d7ed69e208cde41c4942c1afaf0a",
+    "bytes": 719
+  },
+  {
+    "path": "logs/allstars_test.log",
+    "sha256": "24c9a0b5cf470ddde507191879421b652de4c24148536f78f61b292872e5321d",
+    "bytes": 1075
+  },
+  {
+    "path": "logs/cadence_v26_test.log",
+    "sha256": "ea325a3da8e5acacd2f4109a4d74dcf5401e744975f044fd9170518d08cb66bb",
+    "bytes": 1710
+  },
+  {
+    "path": "logs/chain_v50_test.log",
+    "sha256": "3a2be99cfcf04c22c335f78df1083e66e2a14de234e1c56dd10cebba17d9a31d",
+    "bytes": 1206
+  },
+  {
+    "path": "logs/combat_audit_v21_test.log",
+    "sha256": "db4bc5d898df451e4bd79fcacd8dd3afbac00968d648e6e7c03608fb0662cfe7",
+    "bytes": 829
+  },
+  {
+    "path": "logs/darkmoon_ui_v23_test.log",
+    "sha256": "00e2805554046fb20a8baa6d1d116936d8a819ed0889db7014b2b59b1d453775",
+    "bytes": 616
+  },
+  {
+    "path": "logs/darkmoon_v23_test.log",
+    "sha256": "7045f3dc9203e365d8fe1f17cba50027e8ccef73c391a1300dcbc1e7dbb04657",
+    "bytes": 3376
+  },
+  {
+    "path": "logs/economy_ui_v18_test.log",
+    "sha256": "61b929a886b5a00b8a353926231f2660403acfef6ae77ba4b393f84d70438f45",
+    "bytes": 601
+  },
+  {
+    "path": "logs/economy_v18_test.log",
+    "sha256": "74861263ea3dd4a98b0c52ddcb2750b90a28e41f5bb3e3d07055ab531e41123c",
+    "bytes": 2481
+  },
+  {
+    "path": "logs/expansion_v14_test.log",
+    "sha256": "9f690db7e6c221073d31badb36baf8f8b152cb5b7dea86200b135ef1a5c8c6c3",
+    "bytes": 1318
+  },
+  {
+    "path": "logs/experience_v25_test.log",
+    "sha256": "1001dba9c3aa933ad34e5931621690347dfb4a99f9d134109c2d938c590cf2c6",
+    "bytes": 1446
+  },
+  {
+    "path": "logs/first_six_v50_test.log",
+    "sha256": "807b29722166c08ba66d10f694fab0c040b1b471bee4f923a4f806f5673d4069",
+    "bytes": 5812
+  },
+  {
+    "path": "logs/four_spells_ui_v50_test.log",
+    "sha256": "94b7b3224d7d7bdf3d49ca8d98eb5e68232cde66b44d2b76a80607d24e9b700f",
+    "bytes": 2123
+  },
+  {
+    "path": "logs/four_spells_v50_test.log",
+    "sha256": "911a2f62311a1a088764cb130e813bbcabd2bdeab11bcbcd5e41491d0f3899e2",
+    "bytes": 5071
+  },
+  {
+    "path": "logs/hand_platform_v47_test.log",
+    "sha256": "41cb24875b8092574121d112d762f787c73f8c6637aa09660c54f3ede643bbf8",
+    "bytes": 3518
+  },
+  {
+    "path": "logs/hero_armor_v36_test.log",
+    "sha256": "d774ffc10d9867d02d48ebf4b040be49570c5370704c86d600f131b1aada297e",
+    "bytes": 2238
+  },
+  {
+    "path": "logs/heroes_v12_test.log",
+    "sha256": "bebee55a2b10e90fb7b0fc4143194b0390e41ef56265a6cd702b11efb66d8992",
+    "bytes": 326
+  },
+  {
+    "path": "logs/heroes_v14_test.log",
+    "sha256": "bebee55a2b10e90fb7b0fc4143194b0390e41ef56265a6cd702b11efb66d8992",
+    "bytes": 326
+  },
+  {
+    "path": "logs/inspection_v50_test.log",
+    "sha256": "7d44a9a56514783a1a7b92f166ab8517df3030e0b24b97c89337fd9ebc579e7f",
+    "bytes": 2326
+  },
+  {
+    "path": "logs/issue_ui_v20_test.log",
+    "sha256": "bab24f648b4770475dbae3fd4ff33bfa9c016993d9eeb33997f2f52c9957abba",
+    "bytes": 679
+  },
+  {
+    "path": "logs/issue_v19_test.log",
+    "sha256": "bbd12dcbc5e77de823fdea1af021a265dc8cb1b4084e4658c58f53f1c54667e2",
+    "bytes": 1179
+  },
+  {
+    "path": "logs/issue_v20_test.log",
+    "sha256": "b0554d6d264fa19e37fea7d868d6c6570bf91b032056a32e014629cf4d880906",
+    "bytes": 829
+  },
+  {
+    "path": "logs/issue_v21_test.log",
+    "sha256": "f8f7865ee19b20b2ca2f8ecd7b9c0a29ebad15a105d1c88ee1648eea9d18d1d9",
+    "bytes": 1421
+  },
+  {
+    "path": "logs/issue_v24_test.log",
+    "sha256": "a49107087a5774b381ca7d93b64f1ff69071c1b490612cef974cf561f4803640",
+    "bytes": 1641
+  },
+  {
+    "path": "logs/issue_v27_test.log",
+    "sha256": "67ac06d840b4d0671f74caec410a4934ed0803bfdb36613acf4a80019e86f854",
+    "bytes": 1300
+  },
+  {
+    "path": "logs/issue_v28_test.log",
+    "sha256": "48798f49247d53b564daef716412a1dcdb72a28601780ff3a1a9a3c808b9b571",
+    "bytes": 1914
+  },
+  {
+    "path": "logs/issue_v29_test.log",
+    "sha256": "1c135e9410bc107263e6656da64094a3455325456851973a577ef186df6bf823",
+    "bytes": 1534
+  },
+  {
+    "path": "logs/king_v13_test.log",
+    "sha256": "b83d9b6122856b5ba996b02b9aa5d568c7f9ed84aed15237d88da50f8e1265cd",
+    "bytes": 498
+  },
+  {
+    "path": "logs/migration_test.log",
+    "sha256": "a4f23174264a5d8125106b2fa4b834bf2a7f61241a9789f1409cfa9092bab943",
+    "bytes": 733
+  },
+  {
+    "path": "logs/originals_v15_test.log",
+    "sha256": "a03906af629dfff9d8398d43dc8c36ed5b543c3bbc67256a79de029c2132ec6f",
+    "bytes": 992
+  },
+  {
+    "path": "logs/playstyles_v12_test.log",
+    "sha256": "034200a6932a227c44d9bcf6c956f27415d82a2b8e5e81172daa1bec38b1d54d",
+    "bytes": 1270
+  },
+  {
+    "path": "logs/purchase_v38_test.log",
+    "sha256": "6e9f4c55df05aa1c76992201c43bba2a545108ebe056168966c917ec666d674e",
+    "bytes": 1405
+  },
+  {
+    "path": "logs/recruit_v16_test.log",
+    "sha256": "2dfbefc00662b6469ad161e5b590bb1a5b8861031aaf0c8f4cb7f4bbaa870b00",
+    "bytes": 534
+  },
+  {
+    "path": "logs/rules_test.log",
+    "sha256": "75be5cceb7d2c54dd99a937e846608b12dd53db1b44d598552d1650e0a843231",
+    "bytes": 1249
+  },
+  {
+    "path": "logs/second_six_ui_v50_test.log",
+    "sha256": "34408cdef1d87cf0d490d77356d0ea966f7818f82a255577e31811c1fe5d581e",
+    "bytes": 2081
+  },
+  {
+    "path": "logs/second_six_v50_test.log",
+    "sha256": "923932d51ccce63b9779c27a5edd6d1285fc82b524f62580f96843989a429d9b",
+    "bytes": 5388
+  },
+  {
+    "path": "logs/six_tribes_test.log",
+    "sha256": "3d7acd1dea86b3ce19702f674b8e254d0d2e564f3b13b7bca869a08712bbae0d",
+    "bytes": 2850
+  },
+  {
+    "path": "logs/spells_v10_test.log",
+    "sha256": "dcf8e81663636e35d4496c081886443fac766e200bf4ea59a3fa4722c6a03b67",
+    "bytes": 2695
+  },
+  {
+    "path": "logs/stacked_v9_test.log",
+    "sha256": "d48224da91d197f3e4f98a3915dc67ae79f285d042f92efe2ff594dee896c23a",
+    "bytes": 3526
+  },
+  {
+    "path": "logs/stacking_test.log",
+    "sha256": "dd09d302dad8a4d7334ed795828ea32f1fa3a52c3bfdb33a5b3b3de5d5f11067",
+    "bytes": 1211
+  },
+  {
+    "path": "logs/tomorrow_ui_v37_test.log",
+    "sha256": "2bb3d39eda025bc2c5ef64035b198a01655e900aef7ea0d62d33cbf496df5af1",
+    "bytes": 377
+  },
+  {
+    "path": "logs/tomorrow_v37_test.log",
+    "sha256": "83229c2aee5f634736798c06d0c4b62fad43808238280a3dd4101c5b66023215",
+    "bytes": 2116
+  },
+  {
+    "path": "logs/tribes_combat_v50_test.log",
+    "sha256": "059e94ce948ebad9b70e48208be9e13cf80628f33bd04b9ec47c1311bfe8458e",
+    "bytes": 1365
+  },
+  {
+    "path": "logs/tribes_recruit_v50_test.log",
+    "sha256": "1345a33b8eac990c40e38e63de11446ba74476915975a97b6da99a8befde6272",
+    "bytes": 2218
+  },
+  {
+    "path": "logs/tribes_v50_test.log",
+    "sha256": "21bdce8dba0bacbb7809edcef440807122b1cea0b0f3e0f05a7ea35c7be1d202",
+    "bytes": 1659
+  },
+  {
+    "path": "logs/trinket_history_v51_test.log",
+    "sha256": "d6b5528d6df63c752b1ae9390a2e61dd77f8f84213b731d23bcc75c852cfad97",
+    "bytes": 1838
+  },
+  {
+    "path": "logs/trinket_policy_v51_test.log",
+    "sha256": "2a7b1b5e73a3797673c4827e2d23bda6bb774e6fc11d9143bb49245c108318c4",
+    "bytes": 1198
+  },
+  {
+    "path": "logs/trinket_ui_v51_test.log",
+    "sha256": "615975eac6335b1bddb58eeab55ed718a95007ce33b11cedf199f0d04b2d69eb",
+    "bytes": 3725
+  },
+  {
+    "path": "logs/trinkets_ui_v22_test.log",
+    "sha256": "9639c096ad1ad163afcb1a539104964313f7c05aa54be5cfcf09ddebb22e6c78",
+    "bytes": 786
+  },
+  {
+    "path": "logs/trinkets_v22_test.log",
+    "sha256": "84a8b4c196d7a85e05a6dd34325acfea3218befb6c45795ee236ed03542b70a3",
+    "bytes": 2247
+  },
+  {
+    "path": "logs/undead_v17_test.log",
+    "sha256": "84f376222bdcbf8d29f477346627b7c5178c42ebdb1deafe5c88c714adcdf759",
+    "bytes": 1904
+  },
+  {
+    "path": "logs/ux_v10_test.log",
+    "sha256": "8415f0ae732c370515301d86347faa227d4ae96083d304c6bc3d649466fcf96d",
+    "bytes": 680
+  },
+  {
+    "path": "logs/ux_v9_test.log",
+    "sha256": "09e6407a44a86efb7d857b8c0fdbe834e2a40655a5ec86009a068d30cc7c1c2d",
+    "bytes": 924
+  },
+  {
+    "path": "README.md",
+    "sha256": "ba8104c89d7392d7b94c2d197ffcb0f05dad7aa5960a934cbe4a566b54c1b172",
+    "bytes": 5251
+  },
+  {
+    "path": "results.json",
+    "sha256": "520f75c60addeee30aea20139697992f2ae4302d9bed515dcd51c6e6d7f98085",
+    "bytes": 7456
+  },
+  {
+    "path": "screenshots/v37-star.png",
+    "sha256": "9b2d859b55ff8bacd21d42f1b7caba9c67fc090cef447dfb44ac990d9561657b",
+    "bytes": 1461761
+  },
+  {
+    "path": "screenshots/v50-spells-collection-fluidity.png",
+    "sha256": "13a95a17ccac2a3ef6ffd252de3ac4679f4bd0095f48e41b4a89d5dd3af7c041",
+    "bytes": 1633889
+  },
+  {
+    "path": "screenshots/v50-spells-collection.png",
+    "sha256": "1711e2fc97a902f3e75a21c3881acf9e3e0b01cc7fe36c75672673b4e6d72b0b",
+    "bytes": 1706249
+  },
+  {
+    "path": "screenshots/v50-spells-corpse-discover.png",
+    "sha256": "f93f4b0cbeee679e0b113885adb9330b7f11f2638cd56a4725d942b1c17dc2fe",
+    "bytes": 1573575
+  },
+  {
+    "path": "screenshots/v50-spells-desktop-ten.png",
+    "sha256": "f7291fa7d72f8157e28317fc04b46c5a8d418379481b09131de8bb34d7a099b6",
+    "bytes": 1584899
+  },
+  {
+    "path": "screenshots/v50-spells-detail-spell_contracted_corpse.png",
+    "sha256": "2e7434dafb5d5fc8e11698ffbd7fa9a106c5b0331815f65163e7d6cf7d0a3ee2",
+    "bytes": 1450170
+  },
+  {
+    "path": "screenshots/v50-spells-detail-spell_finest.png",
+    "sha256": "dfa0b048bf416a10e38a3e6781f3fbed964209add1eb01086b908e456896405e",
+    "bytes": 1449962
+  },
+  {
+    "path": "screenshots/v50-spells-detail-spell_fluidity.png",
+    "sha256": "0c4c548902d90275fd7ced48d25a10b4e9232ee4ade51f1365ae3650a5a46ae4",
+    "bytes": 1466829
+  },
+  {
+    "path": "screenshots/v50-spells-detail-spell_hamuul.png",
+    "sha256": "c71093cb1c7279bb82486eb4e70f34ea7c5cb1d0d27f3666ae981c117540d0da",
+    "bytes": 1467209
+  },
+  {
+    "path": "screenshots/v50-spells-fluidity-swap.png",
+    "sha256": "31a9fb7896875ae4dee69d7d0128f92b7dace39af69e76de4407785ac59cbe60",
+    "bytes": 1568776
+  },
+  {
+    "path": "screenshots/v50-spells-frozen-shop.png",
+    "sha256": "2a79db05e73ca168cc3055f56bbf98024e81755876ebfc98d0549fee74ba5c94",
+    "bytes": 1550005
+  },
+  {
+    "path": "screenshots/v50-spells-mobile-folded.png",
+    "sha256": "7048632dd9bcee84d3abca101f328ae7c7d1dd58d337a83136acf84e04891345",
+    "bytes": 1577432
+  },
+  {
+    "path": "screenshots/v50-spells-mobile-four-2d.png",
+    "sha256": "3d6b71fc7c0edb3c983f7b1bf9d8a1b1f05a9a6080b50f732eea9014002bb6ed",
+    "bytes": 1591931
+  },
+  {
+    "path": "screenshots/v50-spells-mobile-four.png",
+    "sha256": "58e2530b77cccd9ea89859af521d3e9822b6d6ab42f750bce3dc11e3cdd7d942",
+    "bytes": 1581010
+  },
+  {
+    "path": "screenshots/v50-spells-mobile-ten.png",
+    "sha256": "576f7f8eea8469948a081ce0b60aa23de9d3eed66f0fd55404764c932d1443fd",
+    "bytes": 1592145
+  },
+  {
+    "path": "screenshots/v50-spells-mobile-wide.png",
+    "sha256": "886399ca58484cc3bdcbb269d3304e895cfad798cb45adc34e32b8226ea180c0",
+    "bytes": 1871623
+  },
+  {
+    "path": "screenshots/v50-spells-seven-shop.png",
+    "sha256": "ce837b4cffbdc714bd3cb5412ed0904e538297210c05c66c8596729c7ea6e3ec",
+    "bytes": 1559005
+  },
+  {
+    "path": "screenshots/v50-spells-staff-shop.png",
+    "sha256": "1e0211e3d0798ba9b1fc03cd4fef7d4aeba7c346947a134e5ed8b68f10d28c69",
+    "bytes": 1613950
+  },
+  {
+    "path": "screenshots/v50-spells-staff-target.png",
+    "sha256": "8f3cdb2a30aa14e86c548985a1bffaab0cd79cc12a99ef9811b16d973a0edadf",
+    "bytes": 1513545
+  },
+  {
+    "path": "source-files.json",
+    "sha256": "4620287f875e16183525251d7ee3bc95c9881fbe3c703001d9355df23af9dcef",
+    "bytes": 5426
+  }
+]

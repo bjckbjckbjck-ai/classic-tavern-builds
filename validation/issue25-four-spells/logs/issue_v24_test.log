@@ -1,0 +1,57 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+PASS bought Golden Touch minion carries a pending reward
+
+PASS playing bought golden awards next-tier discovery card
+
+PASS reward preserves physical pool accounting and records claimed state
+
+PASS bouncing an already rewarded golden cannot farm rewards
+
+PASS Raise Stakes golden return grants its first play reward
+
+PASS golden magnetic consumes one reward; Beatboxer does not duplicate it
+
+PASS stealing a shop golden also preserves first-play reward
+
+PASS full hand rejects golden purchase without charges or removal
+
+PASS golden reward is capped at tier six
+
+PASS structured presentation steps: flesh
+
+PASS structured presentation steps: hunger
+
+PASS structured presentation steps: hand
+
+PASS prize animation has exact granted card identities
+
+PASS structured presentation steps: goggles
+
+PASS random spell history records all four actual casts in order
+
+PASS structured presentation steps: box
+
+PASS structured presentation steps: rod
+
+PASS opponent public hero and trinkets included in combat
+
+PASS own hand visible and enemy hand has count only
+
+PASS all combat event frames strip opponent hand contents and internal IDs
+
+PASS each seat receives its own sanitized hand projection
+
+PASS Bassgill hand summon status advances with replay frames
+
+PASS unchanged hands share a single transmitted state instead of repeating per frame
+
+PASS serializing one seat does not mutate authoritative combat history
+
+PASS public player table continues to hide hand and wheel reward history
+
+PASS recruit snapshots no longer resend the previous combat replay
+
+v24 rules 26 / 0

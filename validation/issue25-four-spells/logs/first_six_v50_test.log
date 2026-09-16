@@ -1,0 +1,193 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+PASS nightmare_amalgam is a shipped card
+
+PASS corpse_refiner is a shipped card
+
+PASS gilded_gargoyle is a shipped card
+
+PASS dreadbeard is a shipped card
+
+PASS magmaloc is a shipped card
+
+PASS murky is a shipped card
+
+PASS first six validate without catalog errors
+
+PASS nightmare_amalgam matches bounded data and pool
+
+PASS nightmare_amalgam gold doubles base stats
+
+PASS corpse_refiner matches bounded data and pool
+
+PASS corpse_refiner gold doubles base stats
+
+PASS gilded_gargoyle matches bounded data and pool
+
+PASS gilded_gargoyle gold doubles base stats
+
+PASS dreadbeard matches bounded data and pool
+
+PASS dreadbeard gold doubles base stats
+
+PASS magmaloc matches bounded data and pool
+
+PASS magmaloc gold doubles base stats
+
+PASS murky matches bounded data and pool
+
+PASS murky gold doubles base stats
+
+PASS Nightmare Amalgam has exactly seven tribes and no invented keywords
+
+PASS dual tribe cards retain one entity with two memberships
+
+PASS Magmaloc is pure Murloc adaptation
+
+PASS all tribes draws one physical pool copy
+
+PASS all tribes releases one physical pool copy
+
+PASS played battlecry minion counts once despite summoned token
+
+PASS magnetic attachment counts one minion play
+
+PASS repeated battlecry and summon never increment play counters
+
+PASS invalid targeted play does not increment counters
+
+PASS authority snapshot retains both play counters
+
+PASS new turn resets turn plays and preserves game battlecry plays
+
+PASS first Murky includes own play and gives +2/+2
+
+PASS Murky retrigger uses fixed game count without another play
+
+PASS gold Murky plus Brann repeats scaled +6/+6 twice
+
+PASS AI understands Murky dynamic battlecry value
+
+PASS target preview includes upcoming Murky play
+
+PASS repeated target effect omits hypothetical play
+
+PASS Murky still records play when no legal Murloc target exists
+
+PASS zero-play Magmaloc still receives base +1/+1
+
+PASS Magmaloc adds one plus each minion played
+
+PASS gold Magmaloc and Drakkari repeat the full +8/+8
+
+PASS gold Dreadbeard gives two coins per repeat but takes one damage
+
+PASS Dreadbeard grants real zero-cost spell coins
+
+PASS Dreadbeard uses existing rewind and self-damage pipeline
+
+PASS Dreadbeard damage respects armor
+
+PASS full hand Dreadbeard still hurts hero and logs lost coin
+
+PASS Dreadbeard acquisition participates in Pirate acquisition hooks
+
+PASS Dreadbeard triggers hero-damage growth and hand-added Pirate buff once
+
+PASS Corpse Refiner requires four friendly deaths
+
+PASS refiner gain survives later source death and adds to sale price
+
+PASS reapplying combat result never duplicates extra sell value
+
+PASS new battle resets refiner avenge count
+
+PASS gold refiner earns two extra per trigger with one base sale
+
+PASS triple sums only accumulated extras and does not multiply them again
+
+PASS recruit sacrifices accumulate avenge across individual sacrifices immediately
+
+PASS actual sell receives the accumulated sale amount
+
+PASS refiner summoned from hand writes extra value to its original held entity
+
+PASS refiner AI values death-generating teammates of any tribe
+
+PASS original and reborn refiner accumulate under one original entity
+
+PASS serialized player receipts prevent sell-value duplication on reconnect
+
+PASS recruit reborn creates current entity with previous event lineage
+
+PASS Golden Return preserves current reborn entity UID in hand
+
+PASS Bassgill golden refiner gain writes to current hand UID after recruit reborn and Golden Return
+
+PASS Gargoyle death inserts actual coin into battle hand and replay frame
+
+PASS coin reward emits one hand-directed visual without embedding hidden card data
+
+PASS dead Gargoyle coin writes back to recruit hand
+
+PASS consumed reward UID cannot be recreated by repeated settlement
+
+PASS gold Gargoyle with Titus generates four coins
+
+PASS reborn Gargoyle can trigger another legitimate reward
+
+PASS all reward UIDs remain distinct
+
+PASS Macaw triggers Gargoyle reward while Gargoyle remains alive
+
+PASS Gargoyle respects battle hand cap and logs overflow
+
+PASS overflow never silently converts to gold
+
+PASS overflow never emits a successful reward visual
+
+PASS recruit sacrifice grants Gargoyle coin immediately
+
+PASS generated zero-cost coin is playable for one gold
+
+PASS combat hand reward acquisition hooks run after shadow authority fields settle
+
+PASS real battle authority settles dead Gargoyle reward exactly once
+
+PASS repeated battle transition cannot settle coin twice
+
+PASS opponent replay exposes only hand count and hides generated coin contents
+
+PASS next recruit round retains reward identity without another grant
+
+PASS Murozond creates actual Refiner reward before Bassgill
+
+PASS original and combat-generated Refiners both retain one earned sale bonus; reverse=false
+
+PASS result plus UID receipts prevent both original and generated sale gains repeating
+
+PASS Murozond creates actual Refiner reward before Bassgill
+
+PASS original and combat-generated Refiners both retain one earned sale bonus; reverse=true
+
+PASS result plus UID receipts prevent both original and generated sale gains repeating
+
+PASS earlier Butchering occupies the last actual battle hand slot
+
+PASS reserved Butchering blocks Gargoyle coin before any successful coin visual
+
+PASS replay reward identity and final reward identity agree
+
+PASS consumed materialized Butchering cannot be regenerated by repeated settlement
+
+PASS mixed rewards preserve real trigger order when both fit
+
+PASS battlecry and random reward producers observe the same occupied hand limit
+
+PASS recruit sacrifice shares one hand insertion and one Peggy callback for earlier Butchering
+
+PASS legacy queued Butchering also reserves capacity against random and Tethys rewards
+
+FIRST SIX V50 RESULT 94 passed 0 failed

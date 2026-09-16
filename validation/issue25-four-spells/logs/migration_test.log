@@ -1,0 +1,29 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+PASS start-turn normal and golden permanent growth
+
+PASS two normal Branns trigger three times
+
+PASS golden Brann repeats golden battlecry three times
+
+PASS menagerie one target per tribe, excludes neutral
+
+PASS golden menagerie +4/+4
+
+PASS friendly beast death grows both surviving hyenas
+
+PASS gold Selfless grants two layers to distinct targets including shielded ones
+
+PASS experimental Selfless stacks existing shield
+
+PASS legacy false setting still stacks Selfless shield
+
+PASS combat growth does not leak to tavern
+
+PASS replay records shield absorption separately from health damage
+
+PASS replay records damage amount
+
+MIGRATION RESULT 12/12 passed

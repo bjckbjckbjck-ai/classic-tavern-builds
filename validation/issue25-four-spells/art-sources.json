@@ -1,0 +1,46 @@
+[
+  {
+    "id": "spell_hamuul",
+    "source": "EBG_Spell_038",
+    "name_zhCN": "哈缪尔遗失的法杖",
+    "path": "assets/original/EBG_Spell_038.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/EBG_Spell_038.webp",
+    "sha256": "f024bf034a6e80164ee651e7f873835c45231407be421c19b7cee87b1b84daa9",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Identity and original artwork only; spell tier and effect use the selected historical seven-tribe design."
+  },
+  {
+    "id": "spell_finest",
+    "source": "BG28_849",
+    "name_zhCN": "顶尖好酒",
+    "path": "assets/original/BG28_849.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG28_849.webp",
+    "sha256": "458ae9292f7438862418c5f3721a7511976fbefa54c61f9c354131445ebeb703",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Identity and original artwork only; spell tier and effect use the selected historical seven-tribe design."
+  },
+  {
+    "id": "spell_contracted_corpse",
+    "source": "BG28_882",
+    "name_zhCN": "预订遗体",
+    "path": "assets/original/BG28_882.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG28_882.webp",
+    "sha256": "033cc4c2f16eb346af613c2301894b648168fe17170aa8b93a0250644fbd28f3",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Identity and original artwork only; spell tier and effect use the selected historical seven-tribe design."
+  },
+  {
+    "id": "spell_fluidity",
+    "source": "BG28_612",
+    "name_zhCN": "流转",
+    "path": "assets/original/BG28_612.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG28_612.webp",
+    "sha256": "e34f1d00e669a760a1b451093e41c109182c547af7262f3f50172b3418b87c7a",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Identity and original artwork only; spell tier and effect use the selected historical seven-tribe design."
+  }
+]

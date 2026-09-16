@@ -1,0 +1,175 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+
+
+PASS cyborg_drake is a shipped definition
+
+PASS peckish_feldrake is a shipped definition
+
+PASS mechanized_gift_horse is a shipped definition
+
+PASS relentless_murghoul is a shipped definition
+
+PASS mannoroth is a shipped definition
+
+PASS ghoul_of_the_feast is a shipped definition
+
+PASS mechorse is a shipped definition
+
+PASS mechapony is a shipped definition
+
+PASS second six catalog validates
+
+PASS 207 definitions, 152 active entities and 41 spells
+
+PASS seven tribe member counts match physical entities
+
+PASS crystal retains identity as retired definition
+
+PASS cyborg_drake historical data and pool
+
+PASS cyborg_drake gold stats double without multiplying printed layers
+
+PASS peckish_feldrake historical data and pool
+
+PASS peckish_feldrake gold stats double without multiplying printed layers
+
+PASS mechanized_gift_horse historical data and pool
+
+PASS mechanized_gift_horse gold stats double without multiplying printed layers
+
+PASS relentless_murghoul historical data and pool
+
+PASS relentless_murghoul gold stats double without multiplying printed layers
+
+PASS mannoroth historical data and pool
+
+PASS mannoroth gold stats double without multiplying printed layers
+
+PASS ghoul_of_the_feast historical data and pool
+
+PASS ghoul_of_the_feast gold stats double without multiplying printed layers
+
+PASS mechorse historical data and pool
+
+PASS mechorse gold stats double without multiplying printed layers
+
+PASS mechapony historical data and pool
+
+PASS mechapony gold stats double without multiplying printed layers
+
+PASS both nested horse tokens carry both types
+
+PASS Cyborg gives self and shielded ally exactly ten attack
+
+PASS two to one shield retains entire aura
+
+PASS one to zero shield removes aura
+
+PASS restored shield receives each normal/gold aura once
+
+PASS dead aura source disappears without mutating original attack
+
+PASS recruit view exposes aura separately from authoritative attack
+
+PASS combat replay carries same aura contribution
+
+PASS AI combat value recognizes live conditional attack aura
+
+PASS legacy tribe aura still excludes source and recognizes all-tribe receiver
+
+PASS conditional aura contributes to actual dealt combat damage
+
+PASS Brann repeats consume-three against distinct remaining minions, excluding spells
+
+PASS gold doubles consumed current stats without copying keywords
+
+PASS consumed entities and magnetic materials return to shared pool
+
+PASS one tracked consume event per actual swallowed entity
+
+PASS empty tavern battlecry remains legally playable
+
+PASS AI values random current shop consume-three stats
+
+PASS one base battlecry eats at most three distinct units
+
+PASS consume-three never selects the same physical entity twice
+
+PASS consume selection uses reproducible authority RNG
+
+PASS horse yields exactly two matching gold-state Mechorses
+
+PASS one Mechorse becomes exactly one correctly sized Mechapony
+
+PASS horse yields exactly two matching gold-state Mechorses
+
+PASS one Mechorse becomes exactly one correctly sized Mechapony
+
+PASS horse never exceeds seven slots
+
+PASS each horse token gets Mama then Banana multiplier once
+
+PASS each dual-type token triggers Deflect independently
+
+PASS recruit sacrifice uses nested gold token chain without shared-pool creation
+
+PASS Baron repeats horse and attached deathrattle in order, filling slots before reborn
+
+PASS Macaw triggers the live horse without consuming it
+
+PASS gold Murghoul repeatedly accumulates two reborn layers per four deaths
+
+PASS Murghoul returns at one health, consumes one layer and resets avenge
+
+PASS Murghoul reborn never restores spent shields or printed venom
+
+PASS reborn Murghoul can earn more layers again
+
+PASS unrelated existing printed shield reborn behavior stays unchanged
+
+PASS Murghoul triple retains acquired layers plus only one printed venom
+
+PASS Feast uses maximum distinct matching and buffs each live entity once
+
+PASS Feast can trigger once for each friendly death
+
+PASS gold Feast adds six attack without multiplying fusion memberships
+
+PASS Feast combat-only buff never becomes a permanent recruit sacrifice gain
+
+PASS Mannoroth gains current attack and buffed maximum health after retaliation, not injured health
+
+PASS Mannoroth can consume only once per battle
+
+PASS gold Mannoroth doubles stolen stats only
+
+PASS mutual lethal exchange never lets Mannoroth heal back alive
+
+PASS shield blocks kill, consumes no venom and gives no stats
+
+PASS Mannoroth never steals another source's kill
+
+PASS cleave triple kill chooses main target once
+
+PASS when main survives, cleave chooses left before right
+
+PASS Mannoroth consumes effective victim attack including live temporary tribe aura
+
+PASS reborn retains Mannoroth once-per-battle consumption marker
+
+PASS next battle resets Mannoroth consumption marker
+
+PASS venom portrait growth resolves before one-time absorption without making absorbed stats permanent
+
+PASS venom portrait callback cannot save mutually lethal Mannoroth by premature absorption
+
+PASS Mannoroth retaliation is a real kill source and may consume after surviving
+
+PASS one-time absorption resolves before subsequent deathrattle damage and never retriggers on same batch
+
+PASS zero damage is not a Mannoroth kill
+
+PASS Mannoroth uses reborn victim maximum health rather than its one remaining health
+
+SECOND SIX V50 RESULT 85 passed 0 failed

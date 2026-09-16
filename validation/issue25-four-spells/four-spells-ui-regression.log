@@ -1,0 +1,20 @@
+OK four_spells_ui_v50_test
+OK ux_v10_test
+OK hand_platform_v47_test
+OK purchase_v38_test
+OK trinkets_ui_v22_test
+FAILED ux_v9_test
+UI FAIL LAN menu has name address port
+SCRIPT ERROR: Invalid access to property or key 'phase' on a base object of type 'Dictionary'.
+   at: run_test (res://tests/ux_v9_test.gd:8)
+TIMEOUT
+OK issue_ui_v20_test
+FAILED tomorrow_ui_v37_test
+SCRIPT ERROR: Invalid access of index '0' on a base object of type: 'Array[Node]'.
+   at: run_test (res://tests/tomorrow_ui_v37_test.gd:7)
+TIMEOUT
+OK darkmoon_ui_v23_test
+OK economy_ui_v18_test
+OK second_six_ui_v50_test
+OK inspection_v50_test
+Passed assertions: 231; failed suites: ['ux_v9_test', 'tomorrow_ui_v37_test']
