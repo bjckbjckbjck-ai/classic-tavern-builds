@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cyborg_drake",
+    "source": "BG25_043",
+    "name_zhCN": "赛博格幼龙",
+    "path": "assets/original/BG25_043.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG25_043.webp",
+    "sha256": "aca309e1a3a462c44aebee42b1b9a5987e80837e7bee0f8abc2372069ef637b3",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Original art identity only; gameplay follows the selected historical seven-tribe design."
+  },
+  {
+    "id": "peckish_feldrake",
+    "source": "BG27_009",
+    "name_zhCN": "凶饿的邪能幼龙",
+    "path": "assets/original/BG27_009.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG27_009.webp",
+    "sha256": "8b3aaa1607398449e2be749f4cd95790cc34f28cfe4d2360c3edefc0606b8200",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Original art identity only; gameplay follows the selected historical seven-tribe design."
+  },
+  {
+    "id": "mechanized_gift_horse",
+    "source": "BG27_008",
+    "name_zhCN": "机械木马",
+    "path": "assets/original/BG27_008.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG27_008.webp",
+    "sha256": "3a7d197398ac3b1edd48e509b3eac0bf2099eedd6163aa38a2c422f22a62ba7b",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Original art identity only; gameplay follows the selected historical seven-tribe design."
+  },
+  {
+    "id": "mechorse",
+    "source": "BG27_008t",
+    "name_zhCN": "机械小马",
+    "path": "assets/original/BG27_008t.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG27_008t.webp",
+    "sha256": "4c48977aaab3b225660bcea9abcac7c8c90d2f32c0c10562d9ef6f5981a3f3e6",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Original art identity only; gameplay follows the selected historical seven-tribe design."
+  },
+  {
+    "id": "mechapony",
+    "source": "BG27_008t2",
+    "name_zhCN": "机械马驹",
+    "path": "assets/original/BG27_008t2.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG27_008t2.webp",
+    "sha256": "9832e8a3f9923c71176b12b88540e0b8173563dc7f591ffc48a9d387dc9deec7",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Original art identity only; gameplay follows the selected historical seven-tribe design."
+  },
+  {
+    "id": "relentless_murghoul",
+    "source": "BG27_010",
+    "name_zhCN": "难缠的食尸鱼人",
+    "path": "assets/original/BG27_010.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG27_010.webp",
+    "sha256": "2e5d9da48ddc182d5d81a36301c5fe02b138a930d908e5cdd15253c825baad48",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Original art identity only; gameplay follows the selected historical seven-tribe design."
+  },
+  {
+    "id": "mannoroth",
+    "source": "BG27_507",
+    "name_zhCN": "玛诺洛斯",
+    "path": "assets/original/BG27_507.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG27_507.webp",
+    "sha256": "0ee5a448dd548d73e0b4a77badfba1aca4241c5b62df31880bc83964ca21b91d",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Original art identity only; gameplay follows the selected historical seven-tribe design."
+  },
+  {
+    "id": "ghoul_of_the_feast",
+    "source": "BG25_002",
+    "name_zhCN": "宴会食尸鬼",
+    "path": "assets/original/BG25_002.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG25_002.webp",
+    "sha256": "e7c5c3000445fe7b6caa6177a2ada3f507492c18d1f3a5ce46009b0af1b80748",
+    "identity_source": "https://api.hearthstonejson.com/v1/latest/zhCN/cards.json",
+    "checked_on": "2026-09-16",
+    "usage": "Original art identity only; gameplay follows the selected historical seven-tribe design."
+  }
+]

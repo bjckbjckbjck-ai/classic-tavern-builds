@@ -1,0 +1,231 @@
+{
+  "active_minions": 152,
+  "definitions": 207,
+  "errors": [],
+  "heroes": 22,
+  "new_cards": [
+    {
+      "art": 0,
+      "attack": 2.0,
+      "aura": {
+        "attack": 10.0,
+        "type": "shield_attack"
+      },
+      "battlecry": {},
+      "deathrattle": {},
+      "gold_text": "圣盾（1）。你的具有圣盾的随从获得+20攻击力（包括本随从，每个来源仅生效一次）。",
+      "health": 8.0,
+      "id": "cyborg_drake",
+      "keywords": [
+        "shield"
+      ],
+      "name": "赛博格幼龙",
+      "pool": 9.0,
+      "source": "BG25_043",
+      "text": "圣盾（1）。你的具有圣盾的随从获得+10攻击力（包括本随从，每个来源仅生效一次）。",
+      "tier": 5.0,
+      "tribe": "龙",
+      "tribes": [
+        "机械",
+        "龙"
+      ]
+    },
+    {
+      "art": 0,
+      "attack": 0.0,
+      "battlecry": {
+        "count": 3.0,
+        "type": "consume"
+      },
+      "deathrattle": {},
+      "gold_text": "战吼：随机吞食酒馆中最多三个不同的随从，获得其双倍属性值（不获得关键词）。",
+      "health": 1.0,
+      "id": "peckish_feldrake",
+      "keywords": [],
+      "name": "凶饿的邪能幼龙",
+      "pool": 11.0,
+      "source": "BG27_009",
+      "text": "战吼：随机吞食酒馆中最多三个不同的随从，获得其属性值（不获得关键词）。",
+      "tier": 4.0,
+      "tribe": "龙",
+      "tribes": [
+        "恶魔",
+        "龙"
+      ]
+    },
+    {
+      "art": 0,
+      "attack": 4.0,
+      "battlecry": {},
+      "deathrattle": {
+        "count": 2.0,
+        "id": "mechorse",
+        "type": "summon"
+      },
+      "gold_text": "亡语：召唤两只4/4的金色机械小马，其亡语会召唤一只2/2的金色机械马驹。",
+      "health": 4.0,
+      "id": "mechanized_gift_horse",
+      "keywords": [],
+      "name": "机械木马",
+      "pool": 9.0,
+      "source": "BG27_008",
+      "text": "亡语：召唤两只2/2的机械小马，其亡语会召唤一只1/1的机械马驹。",
+      "tier": 5.0,
+      "tribe": "野兽",
+      "tribes": [
+        "机械",
+        "野兽"
+      ]
+    },
+    {
+      "art": 0,
+      "attack": 5.0,
+      "battlecry": {},
+      "deathrattle": {},
+      "gold_text": "烈毒（1）。复仇（4）：获得2层复生，可重复叠加。复生不恢复已消耗的圣盾或烈毒。",
+      "health": 4.0,
+      "id": "relentless_murghoul",
+      "keywords": [
+        "venom"
+      ],
+      "name": "难缠的食尸鱼人",
+      "passive": {
+        "avenge": 4.0,
+        "type": "avenge_reborn"
+      },
+      "pool": 7.0,
+      "source": "BG27_010",
+      "text": "烈毒（1）。复仇（4）：获得1层复生，可重复叠加。复生不恢复已消耗的圣盾或烈毒。",
+      "tier": 6.0,
+      "tribe": "鱼人",
+      "tribes": [
+        "亡灵",
+        "鱼人"
+      ]
+    },
+    {
+      "art": 0,
+      "attack": 1.0,
+      "battlecry": {},
+      "deathrattle": {},
+      "gold_text": "烈毒（1）。每场战斗一次：自身击杀随从并在伤害与反击结算后存活，获得其双倍攻击力和最大生命值。",
+      "health": 10.0,
+      "id": "mannoroth",
+      "keywords": [
+        "venom"
+      ],
+      "name": "玛诺洛斯",
+      "passive": {
+        "type": "surviving_kill_stats"
+      },
+      "pool": 9.0,
+      "source": "BG27_507",
+      "text": "烈毒（1）。每场战斗一次：自身击杀随从并在伤害与反击结算后存活，获得其攻击力和最大生命值。",
+      "tier": 5.0,
+      "tribe": "恶魔",
+      "tribes": [
+        "亡灵",
+        "恶魔"
+      ]
+    },
+    {
+      "art": 0,
+      "attack": 2.0,
+      "battlecry": {},
+      "deathrattle": {},
+      "gold_text": "复仇（1）：使每个种族的一个友方随从获得+6攻击力，仅在本场战斗中有效。每个随从至多获得一次。",
+      "health": 4.0,
+      "id": "ghoul_of_the_feast",
+      "keywords": [],
+      "name": "宴会食尸鬼",
+      "passive": {
+        "attack": 3.0,
+        "avenge": 1.0,
+        "type": "avenge_menagerie"
+      },
+      "pool": 13.0,
+      "source": "BG25_002",
+      "text": "复仇（1）：使每个种族的一个友方随从获得+3攻击力，仅在本场战斗中有效。每个随从至多获得一次。",
+      "tier": 3.0,
+      "tribe": "亡灵"
+    },
+    {
+      "art": 0,
+      "attack": 2.0,
+      "battlecry": {},
+      "deathrattle": {
+        "count": 1.0,
+        "id": "mechapony",
+        "type": "summon"
+      },
+      "gold_text": "亡语：召唤一只2/2的金色机械马驹。",
+      "health": 2.0,
+      "id": "mechorse",
+      "keywords": [],
+      "name": "机械小马",
+      "pool": 0.0,
+      "source": "BG27_008t",
+      "text": "亡语：召唤一只1/1的机械马驹。",
+      "tier": 1.0,
+      "token": true,
+      "tribe": "野兽",
+      "tribes": [
+        "机械",
+        "野兽"
+      ]
+    },
+    {
+      "art": 0,
+      "attack": 1.0,
+      "battlecry": {},
+      "deathrattle": {},
+      "gold_text": "机械／野兽衍生随从。",
+      "health": 1.0,
+      "id": "mechapony",
+      "keywords": [],
+      "name": "机械马驹",
+      "pool": 0.0,
+      "source": "BG27_008t2",
+      "text": "机械／野兽衍生随从。",
+      "tier": 1.0,
+      "token": true,
+      "tribe": "野兽",
+      "tribes": [
+        "机械",
+        "野兽"
+      ]
+    }
+  ],
+  "retired": {
+    "art": 4.0,
+    "attack": 5.0,
+    "battlecry": {
+      "attack": 1.0,
+      "health": 1.0,
+      "tribe": "恶魔",
+      "type": "buff_tribe"
+    },
+    "deathrattle": {},
+    "gold_text": "战吼：使你的所有恶魔获得+2/+2。",
+    "health": 4.0,
+    "id": "crystal",
+    "keywords": [],
+    "name": "魔瘾结晶者",
+    "pool": 0.0,
+    "retired": true,
+    "source": "CFM_610",
+    "text": "战吼：使你的所有恶魔获得+1/+1。",
+    "tier": 3.0,
+    "tribe": "中立"
+  },
+  "spells": 37,
+  "tribe_membership": {
+    "亡灵": 22,
+    "恶魔": 21,
+    "机械": 19,
+    "海盗": 22,
+    "野兽": 20,
+    "鱼人": 20,
+    "龙": 21
+  }
+}
