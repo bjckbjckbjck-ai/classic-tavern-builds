@@ -1,0 +1,14 @@
+[
+  {
+    "seconds_after_single_return": 1.42,
+    "target": 0.3
+  },
+  {
+    "seconds_after_single_return": 2.732,
+    "target": 1.5
+  },
+  {
+    "seconds_after_single_return": 4.359,
+    "target": 3.0
+  }
+]

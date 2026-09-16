@@ -1,0 +1,43 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS 16-9 menu texture minimum sizes never overlap adjacent buttons
+UI PASS 16-9 primary entry has a large stable input area
+UI PASS 16-9 network form remains reachable
+UI PASS 16-9 invalid form cannot host
+UI PASS 16-9 collection creates a bounded visible page
+UI PASS 16-9 book tabs filters and navigation have separate input rectangles
+UI PASS 16-9 first page prevents negative navigation
+UI PASS 16-9 page navigation reaches every active card exactly once
+UI PASS 16-9 search retains input focus and resets page
+UI PASS 16-9 search filters actual names or effects
+UI PASS 16-9 no results is explicit with disabled navigation
+UI PASS 16-9 hero portraits use a six-entry page
+UI PASS 16-9 hero portrait opens full power and armor
+UI PASS 16-9 spell opens full description
+UI PASS 16-9 collection opened from menu returns to menu
+UI PASS 20-9 menu texture minimum sizes never overlap adjacent buttons
+UI PASS 20-9 primary entry has a large stable input area
+UI PASS 20-9 network form remains reachable
+UI PASS 20-9 invalid form cannot host
+UI PASS 20-9 collection creates a bounded visible page
+UI PASS 20-9 book tabs filters and navigation have separate input rectangles
+UI PASS 20-9 first page prevents negative navigation
+UI PASS 20-9 page navigation reaches every active card exactly once
+UI PASS 20-9 search retains input focus and resets page
+UI PASS 20-9 search filters actual names or effects
+UI PASS 20-9 no results is explicit with disabled navigation
+UI PASS 20-9 hero portraits use a six-entry page
+UI PASS 20-9 hero portrait opens full power and armor
+UI PASS 20-9 spell opens full description
+UI PASS 20-9 collection opened from menu returns to menu
+UI PASS trinket library returns to collection without an invalid category
+UI PASS one-player room cannot start
+UI PASS add bot button issues an authoritative room command
+UI PASS eight portraits and no extra seat at capacity
+UI PASS lobby actions do not overlap hero choices
+UI PASS remove bot frees a real seat
+UI PASS guest has no host-only controls
+UI PASS redesigned lobby starts the authoritative match
+UI PASS own-changing multiplayer snapshot preserves search focus and page
+UI PASS in-match collection shows ongoing timer
+UI PASS closing book returns to current match without applying game actions

@@ -1,0 +1,10 @@
+from qa_v47 import *
+for _ in range(7):tap(565,797)
+shot('room-full')
+tap(1134,416);shot('room-hero')
+tap(535,707);shot('room-trinkets')
+tap(506,239);shot('room-remove')
+tap(275,797);shot('room-left')
+tap(291,811);shot('settings')
+run('pull','/sdcard/v47-book.mp4','screenshots/v47-book-preview.mp4')
+print('ROOM ACTIONS COMPLETE',flush=True)

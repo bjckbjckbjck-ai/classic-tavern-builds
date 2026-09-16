@@ -1,0 +1,11 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS video settings expose five independent controls
+UI PASS frame cap applies immediately
+UI PASS decorative effects can be disabled independently
+UI PASS quality changes preserve independent effects choice
+UI PASS match snapshots preserve settings controls without pausing rules
+UI PASS sound and music volume controls are visible
+UI PASS independent audio volume preferences persist
+UI PASS return restores hero skill outside the hand without modifying match
+UI PASS centered hero power drags to its target successfully

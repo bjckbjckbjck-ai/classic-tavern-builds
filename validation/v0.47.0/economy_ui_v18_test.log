@@ -1,0 +1,12 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS multiple spell offers are simultaneously visible
+UI PASS visible spell carries actual offer index
+UI PASS drag buys chosen extra spell
+UI PASS health refresh label visible
+UI PASS coin details expose base and next-round income without a duplicate balance
+UI PASS Scout current discovery tier in details
+UI PASS retired collection excludes tokens and active cards
+UI PASS token collection lists generated cards separately
+UI PASS active collection follows actual pool availability
+ECONOMY UI RESULT failures=0

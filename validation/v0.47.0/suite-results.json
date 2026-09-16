@@ -1,0 +1,62 @@
+[
+  {
+    "suite": "foyer_v49_test",
+    "passed": 41
+  },
+  {
+    "suite": "ux_v7_test",
+    "passed": 12
+  },
+  {
+    "suite": "ux_v8_test",
+    "passed": 14
+  },
+  {
+    "suite": "ux_v10_test",
+    "passed": 8
+  },
+  {
+    "suite": "ux_v11_test",
+    "passed": 8
+  },
+  {
+    "suite": "undead_ui_v17_test",
+    "passed": 8
+  },
+  {
+    "suite": "economy_ui_v18_test",
+    "passed": 9
+  },
+  {
+    "suite": "settings_v44_test",
+    "passed": 9
+  },
+  {
+    "suite": "presentation_3d_test",
+    "passed": 22
+  },
+  {
+    "suite": "hand_platform_v47_test",
+    "passed": 63
+  },
+  {
+    "suite": "readability_v48_test",
+    "passed": 45
+  },
+  {
+    "suite": "offline_ui_test",
+    "passed": 7
+  },
+  {
+    "suite": "difficulty_ui_test",
+    "passed": 5
+  },
+  {
+    "suite": "darkmoon_ui_v23_test",
+    "passed": 10
+  },
+  {
+    "suite": "tomorrow_ui_v37_test",
+    "passed": 5
+  }
+]
