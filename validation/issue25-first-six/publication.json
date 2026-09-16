@@ -1,0 +1,19 @@
+{
+  "source": "8629a2baea061934bf603f681acc4aa3e6f3812e",
+  "public": "8926d7c9c6c130cb6d6de395ed6b97e3410309c3",
+  "released": false,
+  "open_issues": [
+    18,
+    25
+  ],
+  "comments": {
+    "18": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/18#issuecomment-5692917741",
+    "25": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/25#issuecomment-5692917549"
+  },
+  "headless_suites": 42,
+  "headless_assertions": 1331,
+  "native_assertions": 20,
+  "screenshots": 17,
+  "new_apk": false,
+  "new_exe": false
+}

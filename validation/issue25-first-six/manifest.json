@@ -225,6 +225,11 @@
     "sha256": "a50608a845cb6d574a61a61017e493c43383fe76f63694f7ce87b73d57f6bbb6"
   },
   {
+    "path": "publication.json",
+    "bytes": 547,
+    "sha256": "f4c311b0102fe268e8eeb25b34adc1a55446d2de5930f2887e0a3b82540d84aa"
+  },
+  {
     "path": "README.md",
     "bytes": 6569,
     "sha256": "d2d90fd10ab819613df41bc95939538296eefbf6960137435b29682d67557343"
