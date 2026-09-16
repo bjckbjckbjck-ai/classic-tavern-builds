@@ -1,3 +1,7 @@
+# v0.46.0 · 深色台面与信息层级
+
+恢复深色一体酒馆台面，放大酒馆等级，铸币集中显示，左侧生命/护甲独立标识。双端微扇形规则保持不变。[改动与对照](v0.46.0-台面与信息层级.md) · [Android APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.46.0/ClassicTavern-v0.46.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.46.0/ClassicTavern-v0.46.0.exe)
+
 # v0.45.0 · 双端手牌布局
 
 电脑手牌常驻底部中央；安卓默认右下收纳，点击后整排放大为微扇形，点空处收起。支持长按详情、中间牌拖拽及2D回退。修正v0.44错误共用的右下布局。[说明与下一步](v0.45.0-双端手牌布局.md) · [Android APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.45.0/ClassicTavern-v0.45.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.45.0/ClassicTavern-v0.45.0.exe)

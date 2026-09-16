@@ -1,0 +1,297 @@
+[
+  {
+    "board": [
+      "micro",
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 19,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "brann",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "micro",
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 14,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "brann",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "micro",
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 11,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "brann",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 12,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "brann",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 12,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 12,
+    "discover": 3,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 12,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler",
+      "spell_banana"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "tomorrow_star",
+      "slamma_sticker"
+    ]
+  },
+  {
+    "board": [
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 12,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler",
+      "spell_banana"
+    ],
+    "offers": 5,
+    "phase": "recruit",
+    "trinkets": []
+  },
+  {
+    "board": [
+      "bronze",
+      "macaw",
+      "reaper",
+      "brann",
+      "brann",
+      "mama",
+      "hoggarr"
+    ],
+    "coins": 9,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler",
+      "spell_banana"
+    ],
+    "offers": 0,
+    "phase": "recruit",
+    "trinkets": [
+      "holy_mallet"
+    ]
+  },
+  {
+    "board": [
+      "reaper",
+      "bronze"
+    ],
+    "coins": 2,
+    "discover": 0,
+    "hand": [
+      "cat",
+      "bronze",
+      "reaper",
+      "frog",
+      "mama",
+      "hoggarr",
+      "tad",
+      "choral",
+      "greater_soul_juggler",
+      "spell_banana"
+    ],
+    "offers": 0,
+    "phase": "combat",
+    "trinkets": [
+      "holy_mallet"
+    ]
+  }
+]

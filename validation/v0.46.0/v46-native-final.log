@@ -1,0 +1,49 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PRESENTATION VERIFIED Windows msaa=0 cards=4
+UI PASS 16-9-desktop reminder leaves balance in its resource socket
+UI PASS 16-9-desktop one balance preserves income-overflow coins
+UI PASS 16-9-desktop tavern level has its own large badge
+UI PASS 16-9-desktop rail shows actual low and eliminated health separately
+UI PASS 16-9-desktop rail exposes actual armor independently
+UI PASS 16-9-desktop tavern badge right edge opens detail without Bob intercepting
+UI PASS 16-9-desktop coin info opens without spending
+UI PASS 16-9-desktop long public text stays within its scroll area above close button
+UI PASS 16-9-desktop full health badge including protruding right edge opens rival info
+UI PASS 16-9-desktop 2D fallback preserves HUD and platform layout
+UI PASS 16-9-mobile reminder leaves balance in its resource socket
+UI PASS 16-9-mobile one balance preserves income-overflow coins
+UI PASS 16-9-mobile tavern level has its own large badge
+UI PASS 16-9-mobile rail shows actual low and eliminated health separately
+UI PASS 16-9-mobile rail exposes actual armor independently
+UI PASS 16-9-mobile tavern badge right edge opens detail without Bob intercepting
+UI PASS 16-9-mobile coin info opens without spending
+UI PASS 16-9-mobile long public text stays within its scroll area above close button
+UI PASS 16-9-mobile full health badge including protruding right edge opens rival info
+UI PASS 16-9-mobile 2D fallback preserves HUD and platform layout
+UI PASS 20-9-desktop reminder leaves balance in its resource socket
+UI PASS 20-9-desktop one balance preserves income-overflow coins
+UI PASS 20-9-desktop tavern level has its own large badge
+UI PASS 20-9-desktop rail shows actual low and eliminated health separately
+UI PASS 20-9-desktop rail exposes actual armor independently
+UI PASS 20-9-desktop tavern badge right edge opens detail without Bob intercepting
+UI PASS 20-9-desktop coin info opens without spending
+UI PASS 20-9-desktop long public text stays within its scroll area above close button
+UI PASS 20-9-desktop full health badge including protruding right edge opens rival info
+UI PASS 20-9-desktop 2D fallback preserves HUD and platform layout
+UI PASS 20-9-mobile reminder leaves balance in its resource socket
+UI PASS 20-9-mobile one balance preserves income-overflow coins
+UI PASS 20-9-mobile tavern level has its own large badge
+UI PASS 20-9-mobile rail shows actual low and eliminated health separately
+UI PASS 20-9-mobile rail exposes actual armor independently
+UI PASS 20-9-mobile tavern badge right edge opens detail without Bob intercepting
+UI PASS 20-9-mobile coin info opens without spending
+UI PASS 20-9-mobile long public text stays within its scroll area above close button
+UI PASS 20-9-mobile full health badge including protruding right edge opens rival info
+UI PASS 20-9-mobile 2D fallback preserves HUD and platform layout
+UI PASS upgrade updates level and balance after one authoritative charge
+UI PASS buy updates the only balance
+UI PASS Bob sale remains reachable and updates balance
+UI PASS combat rail keeps pre-settlement health and armor
+UI PASS settled elimination replaces health with skull and removes armor

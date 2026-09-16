@@ -1,0 +1,21 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS batch art resolves greater_soul_juggler
+UI PASS batch art resolves vengeful_toxfin
+UI PASS batch art resolves noble-pigeon
+UI PASS batch art resolves little-pigeon
+UI PASS parent, token and two custom cards have distinct paintings
+UI PASS standalone art never reuses legacy atlas crop shop greater_soul_juggler
+UI PASS standalone art never reuses legacy atlas crop shop vengeful_toxfin
+UI PASS standalone art never reuses legacy atlas crop shop noble-pigeon
+UI PASS standalone art never reuses legacy atlas crop shop little-pigeon
+UI PASS standalone art never reuses legacy atlas crop board greater_soul_juggler
+UI PASS standalone art never reuses legacy atlas crop board vengeful_toxfin
+UI PASS standalone art never reuses legacy atlas crop board noble-pigeon
+UI PASS standalone art never reuses legacy atlas crop board little-pigeon
+UI PASS standalone art never reuses legacy atlas crop hand greater_soul_juggler
+UI PASS standalone art never reuses legacy atlas crop hand vengeful_toxfin
+UI PASS standalone art never reuses legacy atlas crop hand noble-pigeon
+UI PASS standalone art never reuses legacy atlas crop hand little-pigeon
+UI PASS rail retains every player
+UI PASS portrait tap opens public info without mutating game

@@ -1,0 +1,19 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS nine-card hand base rectangles fit purchase area
+UI PASS purchase succeeds directly over a hand card in dense hand
+UI PASS full hand purchase does not advertise valid landing
+UI PASS selling succeeds over a tavern minion instead of being intercepted
+UI PASS selling succeeds over a tavern spell
+UI PASS stale drag identity rejects changed cards
+UI PASS duplicate snapshots preserve live card nodes and ongoing drag
+UI PASS wheel result remains visible during first half of one-second hold
+UI PASS wheel auto closes after hold and starts board feedback
+UI PASS cosmetic reward replay finishes without duplicating rewards
+UI PASS manual history stays open for reading
+UI PASS combat shows opponent hero skill icon
+UI PASS combat retains own visible hand cards
+UI PASS combat frame updates preserve static timer and hero controls
+UI PASS combat hand remains read-only
+UI PASS opponent icon details use independent overlay
+v24 UI failures 0
