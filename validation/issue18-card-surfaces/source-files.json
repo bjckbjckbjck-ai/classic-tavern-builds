@@ -1,0 +1,27 @@
+{
+  "baseline_commit": "b09d0054af9bf347ac052acbee5aabe0ff0b5353",
+  "normalization": "UTF-8 text, LF line endings",
+  "sha256": {
+    "scripts/card.gd": "fd48f5fbb7e0aaa345bcdb1764e8e956a5657b18ffd9d24e9ce3c17818a8e1ef",
+    "scripts/card_surface.gd": "f78ed32b0bdc8c9820e131a8b61bc41d4af1e76417a76d39898e074352d90174",
+    "scripts/card_surface.gd.uid": "8ebb6ad7eea16233ae30b0fbc4e4c93892e55e617e71aec0e5cadfaa4653387e",
+    "scripts/main.gd": "696b12177041c8d29ed2011770617243c73fe59bded067a3d6e156327b4afedc",
+    "scripts/tavern_backdrop.gdshader": "70caec60bd2b0611399e5f9bff0ff1f6de18a07687d76b38fbee53a0ff39652d",
+    "scripts/tavern_backdrop.gdshader.uid": "8ed9bc16f61be438d666c5976df457897d73a6bfce2b7926b2d8bf28b511279a",
+    "scripts/tavern_surface.gdshaderinc": "4863e340f03fdcfce6ffb6ec5bb2deb46615064935098feda23260f0b56a121d",
+    "scripts/tavern_surface.gdshaderinc.uid": "be24c317f9f81236c5a067ab6d622e24bff8604931a5b3872482d13c486583b1",
+    "scripts/presentation3d/card_actor.gd": "fbe42c160d90f42e0177897d3de6165c405314ce0ce51b58668440223ac9f0ab",
+    "scripts/presentation3d/gold_glint.gdshader": "e717ebc3c6dc2e1f040851a146ad68f0cda2170703e228f168eff8ea16db6961",
+    "scripts/presentation3d/contact_shadow.gdshader": "614ce2dca8e9148c5a9180055851a95fc37dbdd62e96d4d1952ba9d74249be85",
+    "scripts/presentation3d/table_backdrop.gdshader": "bd84e6276848f1588e5eadb9d700c88329d86cc4f774d4319a114b87a8063699",
+    "scripts/presentation3d/tavern_stage.gd": "fc5100ed3caca3fbbdf8d82d4d78b0101b891fbb3a626c62e5d72df8a307e49c",
+    "tests/card_surface_geometry_v50_test.gd": "89af73bd5a0f1295b8801b27a35b2462844e62eb92fb75134d0eb5436d0eb94d",
+    "tests/card_surface_perf_v50.gd": "eacbb86d21970c77484a6a1b2e0f7c3404fda995667fe4199fbd37862ce40b8d",
+    "tests/card_surface_v50_test.gd": "1b8e166f75ede8f983c4d401724983665e5d87b5f87557bb1502cca0cb13b6e7",
+    "tests/run_card_surface_v50.py": "87e2f0c8dce48aae43cd49bb81d351aa4b4cb8e6628a45119c7134abc892cf6a",
+    "tests/tribes_ui_v50_test.gd": "04d6845acc34c7852a2690fe7113b594d73c37c32dd5c93df9b81b9c1a7e7438",
+    "tests/card_surface_geometry_v50_test.gd.uid": "49e7091345604a21d7f29968876abf1762b98882b8affcfc9a1bb9746579be80",
+    "tests/card_surface_perf_v50.gd.uid": "1a636a33af8e4ef995ea1285cb38db862dac9917b67aa6b3a4258af0e8fd725e",
+    "data/releases.json": "3ef00ef4494cce0c4c55f7747acdb479e25d1d680af2613b61e2635d00a236b3"
+  }
+}

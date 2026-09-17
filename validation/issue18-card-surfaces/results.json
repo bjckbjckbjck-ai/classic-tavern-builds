@@ -1,0 +1,65 @@
+[
+  {
+    "test": "card_surface_geometry_v50_test",
+    "exit_code": 0,
+    "ui_passes": 0,
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "test": "card_surface_v50_test",
+    "exit_code": 0,
+    "ui_passes": 28,
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "test": "hand_platform_v47_test",
+    "exit_code": 0,
+    "ui_passes": 63,
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "test": "layout_v46_test",
+    "exit_code": 0,
+    "ui_passes": 68,
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "test": "presentation_3d_test",
+    "exit_code": 0,
+    "ui_passes": 22,
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "test": "tactile_3d_test",
+    "exit_code": 0,
+    "ui_passes": 14,
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "test": "fusion_3d_test",
+    "exit_code": 0,
+    "ui_passes": 11,
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "test": "tribes_ui_v50_test",
+    "exit_code": 0,
+    "ui_passes": 32,
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "test": "four_spells_ui_v50_test",
+    "exit_code": 0,
+    "ui_passes": 33,
+    "errors": [],
+    "warnings": []
+  }
+]

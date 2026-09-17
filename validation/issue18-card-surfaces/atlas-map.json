@@ -1,0 +1,72 @@
+{
+  "mode": "built-in image_gen",
+  "atlas": "source/materials-atlas.png",
+  "atlas_size": [
+    1254,
+    1254
+  ],
+  "atlas_sha256": "06eaf948086f3055366a9a5cf71ce4116bebb82b2d6bac3af061aa49ae81c64b",
+  "prompt": "prompt.txt",
+  "cells": [
+    {
+      "id": "parchment",
+      "crop_xyxy": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "file": "parchment.webp",
+      "sha256": "6c79c9678911990eb77fbb60381baaf42eca7e62c13f5fd40fa9f126c227ff5d"
+    },
+    {
+      "id": "leather",
+      "crop_xyxy": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "file": "leather.webp",
+      "sha256": "7d5e50c4e5093b977368a72bafca18bb3101105b87e613916bf2d5467338fda7"
+    },
+    {
+      "id": "muted-metal",
+      "crop_xyxy": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "file": "muted-metal.webp",
+      "sha256": "c701f8a26dc3a012ec37b82468a60a4f0aa61bdf485f1380f727262f19d53c06"
+    },
+    {
+      "id": "table-wood",
+      "crop_xyxy": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "size": [
+        627,
+        627
+      ],
+      "file": "table-wood.webp",
+      "sha256": "aa8301a1219d27ee4b292011bec7c34defe3b72a7339b299b3a463984b7965e0"
+    }
+  ]
+}

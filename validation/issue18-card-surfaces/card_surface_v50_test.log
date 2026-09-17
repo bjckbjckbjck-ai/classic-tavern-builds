@@ -1,0 +1,32 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PRESENTATION VERIFIED Windows msaa=0 cards=15
+UI PASS native card surfaces pass the 3D visibility probe
+UI PASS all shared material swatches resolve to imported textures
+UI PASS desktop four uses opposite small tilts, never a straight row
+UI PASS desktop four has a shallow raised center
+UI PASS non-oval cards have matching solid arched meshes
+UI PASS painted arch has transparent upper corner rather than a rectangular plate
+UI PASS 2D fallback uses visible shared faces
+UI PASS 2D and 3D tabletop colors agree at three uncovered sample points
+UI PASS board drag reorders the same entities after the surface upgrade
+UI PASS desktop ten uses opposite small tilts, never a straight row
+UI PASS desktop ten has a shallow raised center
+UI PASS phone starts with a folded corner hand
+UI PASS first phone tap expands without playing or spending
+UI PASS mobile ten uses opposite small tilts, never a straight row
+UI PASS mobile ten has a shallow raised center
+UI PASS mobile four uses opposite small tilts, never a straight row
+UI PASS mobile four has a shallow raised center
+UI PASS arched mobile hand card can be dragged onto the board
+UI PASS empty-area tap folds the phone hand
+UI PASS shop drag into folded phone hand still purchases
+UI PASS invalid spell target retracts without spending the arched card
+UI PASS 2D mobile four uses opposite small tilts, never a straight row
+UI PASS 2D mobile four has a shallow raised center
+UI PASS 20:9 shallow fan stays inside the viewport
+UI PASS discovery displays three shared faces and folds phone hand
+UI PASS trinket offers display without an expanded hand obstructing them
+UI PASS collection suspends tabletop 3D rendering
+UI PASS returning from collection restores the 3D tabletop

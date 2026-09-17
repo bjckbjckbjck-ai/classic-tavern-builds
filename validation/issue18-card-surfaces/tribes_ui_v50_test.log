@@ -1,0 +1,36 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+UI PASS entering collection hides the previous phase announcement
+UI PASS live phase announcement does not cover collection reading
+UI PASS all-type minion appears in 野兽 filter
+UI PASS dual-type membership is exact in 野兽 filter
+UI PASS all-type minion appears in 鱼人 filter
+UI PASS dual-type membership is exact in 鱼人 filter
+UI PASS all-type minion appears in 龙 filter
+UI PASS dual-type membership is exact in 龙 filter
+UI PASS all-type minion appears in 机械 filter
+UI PASS dual-type membership is exact in 机械 filter
+UI PASS all-type minion appears in 恶魔 filter
+UI PASS dual-type membership is exact in 恶魔 filter
+UI PASS all-type minion appears in 海盗 filter
+UI PASS dual-type membership is exact in 海盗 filter
+UI PASS all-type minion appears in 亡灵 filter
+UI PASS dual-type membership is exact in 亡灵 filter
+UI PASS all-type minions filter differs from all cards
+UI PASS collection count uses unique card IDs
+UI PASS tier filter combines with all-type filter
+UI PASS neutral filter excludes typed QA cards
+UI PASS search indexes all supported memberships
+UI PASS heroes search does not invent a neutral tribe label
+UI PASS spells search does not invent a neutral tribe label
+UI PASS full detail explains all seven types
+PRESENTATION VERIFIED Windows msaa=0 cards=6
+UI PASS client drag preview accepts fusion as magnetic receiver
+UI PASS native magnetic drag applies once to all-type minion
+UI PASS poison battlecry requires selection when fusion is a valid recipient
+UI PASS battlecry drag highlights fusion without prematurely playing
+UI PASS clicking highlighted fusion commits one poison battlecry
+UI PASS compact desktop golden hand keeps tier flag separate from golden label
+UI PASS first mobile tap only opens hand without game action
+UI PASS 2D fallback keeps the same shallow fan and active inputs

@@ -1,0 +1,232 @@
+[
+  {
+    "file": "v50-surface-collection.webp",
+    "pixels": [
+      1600,
+      720
+    ],
+    "source_png_sha256": "ef956594450df7518bdf4aab11033bc4859d7823865066588a14e5339064ee66",
+    "webp_sha256": "373598c2fde3f820d50fb03f322f62346034ea4eecea914a7949969d9568c645",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-desktop-four-2d.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "ab84072acd6007646a6d9cd963b2a9339ff66f7359727521083ab28491213a98",
+    "webp_sha256": "3e4f22476a401e5231025a61d69c694a2a06ed690badf132c86f8eab68eaa255",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-desktop-four.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "b32c94ef7ec4538c08a5d990529c4b8149a42580a8475a643d62f80488bc9158",
+    "webp_sha256": "ce43f9be90d1a6d39fe75dc63b966fd4b8e7f2284a5afd3eb6c2f929869200ad",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-desktop-ten.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "14b7e8299937cbb131ce366143d541883bca26933c6a4ae9a2ec2fa63b85e0e4",
+    "webp_sha256": "6259d4fff367f101f12251ae5a80993ffc558ed12284c9b616ab3890e229305d",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-detail-cyborg_drake.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "a4403cdf31de4373e14ef7f233dc5517795303b838c54ce315f0d0109e4f0327",
+    "webp_sha256": "683d43f6c3b4a1749c5328ea3eafc369151c328dce44fc7d91b451ce854da72c",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-detail-long-text.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "6faa77aa0c0b4137662742cd67a1b3c1524d68000b4e4046f81db21244f4a5db",
+    "webp_sha256": "7afe8fbd5dbc3e29a85c52d710afcbbf9871848237aa62a97163a3ecbeb43325",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-detail-macaw.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "04ded1acaf36169ab0d8aa732ce8afc3fb6e5a9451171d91a09ce8d6c0a5b92f",
+    "webp_sha256": "1aa1f19e77bf34b785e24219d0c2c208ee2913fa4bfcee7208ae628c99b6600a",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-detail-mechanized_gift_horse.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "9779a68c6aa88179a0f597c39df3a298956aa44af5da750ff60b608cb78cdbee",
+    "webp_sha256": "db555bcbfd3aa00943245d96153dd53e346ea68265169184455067e8e7f877c1",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-detail-noble-pigeon.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "8e4793b6870f9bfdba69632d6e7a133ca7f19dfd46af0a915debe5a169206e09",
+    "webp_sha256": "0b405f0047bc04a0e66678668511162c8b19783caa106a7a2a7bebb2604c5773",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-detail-relentless_murghoul.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "2a9a422674325734808aa42731d5066225c0f3289e02aa805c9d84a491f73abc",
+    "webp_sha256": "e4a91c4053760036ee41989e61083a58e491318d7db6c2613b3159cd0d89ca17",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-detail-spell_finest.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "25ea8111d96016a5da5fd6f9413087dda44a9d79bbe2b9fd7674eaecafc5566e",
+    "webp_sha256": "68c155b825ef409a08878196c065bb048bdf93389b58fff2993d1cb981c87cd8",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-discover.webp",
+    "pixels": [
+      1600,
+      720
+    ],
+    "source_png_sha256": "3b2ca06edf1a2f268a7ea54121976f5ce8c2a9cc65db4a3e89202f93cf4d33e2",
+    "webp_sha256": "6faab492de201fbc33b1fdae0f6ba8c6617115050c3d21d2a594b252c5a867df",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-mobile-folded.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "967bc02c089f41356d259f50df755d8bd568e699031592d74e77bc2ed7b1041b",
+    "webp_sha256": "1652656c4821126b25cac124e3cfa175c69156a9acf9249c4a4eb33e05f35def",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-mobile-four-2d.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "4148e7eebb2bff9cc2763ea30604ae61112b48847091dd8ef2aafb1c4fdc1b98",
+    "webp_sha256": "85fcc5e25c7fa0c5a5658c5efdd8a751d8f40b7fdc3b8da271600cfc3192806f",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-mobile-four.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "2a86d8bc8a04afaa1c76d19eb8234fd0190b54e8cfd6612cc1239c897ebbef9b",
+    "webp_sha256": "1b052ae778e775ef20312bc66270954db09571d6267213fefd3d235d98b6a6c2",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-mobile-ten.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "b670435a3d14c69b3f5396e09190d1f3a9abe4dd312ca403b8e74acc7147c642",
+    "webp_sha256": "df64f8ac54cb42ff64c2515e7a23f63d91050c7b06155d40eab204fda7ebb289",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-mobile-wide-2d.webp",
+    "pixels": [
+      1600,
+      720
+    ],
+    "source_png_sha256": "dbc74a937f63e655c40cc95c15c13deadb9b49b088ba83957083080ea2449d3a",
+    "webp_sha256": "1173b43474b90b576da9ece0b6e4b210c8a4af29ca3e3a52e32f6631fb25b3f3",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-mobile-wide-3d.webp",
+    "pixels": [
+      1600,
+      720
+    ],
+    "source_png_sha256": "abab7276a960f8b1489b30f8b7e27d5aecbd2138c3676ae301ea3ecd1a966752",
+    "webp_sha256": "f770717c5baacbe47a1e7cd6cd8d89cae48da9d14cb8077c9b92ed6d56c2197a",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "v50-surface-trinkets.webp",
+    "pixels": [
+      1600,
+      720
+    ],
+    "source_png_sha256": "a1278c28db4c4ad20eb16d47f8ed3cec6d2977d298b8707e2173d7223a8aa7f4",
+    "webp_sha256": "4c9c755b61a30d9a738a96973d2bf6c0c69bed89a306799e72e3b7bca19da7c6",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "card-surface-baseline-desktop.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "b488d9ce0e94ce3658d06c845013fe4a30eaf4b8ee252b2abc6254646d95cc1d",
+    "webp_sha256": "6b8fe6eab670d0210fc910fd581631c74722c4abfa8973dfa3fd8eafef162e9a",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "card-surface-baseline-mobile.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "810830a246996e8a0246d4195681e8c7a3a5332ff4732fdc10777cfadc47ef7a",
+    "webp_sha256": "4bf5fd5aba07a3edc95f259183e37e7c03280d0eb2f723842ee06d9282d57981",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "card-surface-after-desktop.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "1132730dd8df57e3e0f92bc66411c2a0f24e073d04b29b460d4261093790d2d5",
+    "webp_sha256": "c53acadc379ccc154184296179743c560fc17ca2b448319a0e8b3b22714ac934",
+    "processing": "format conversion only; original dimensions retained"
+  },
+  {
+    "file": "card-surface-after-mobile.webp",
+    "pixels": [
+      1280,
+      720
+    ],
+    "source_png_sha256": "91e5ee620a923539b99e64ab359ba6b66b3761d5e4d9965c1aaa52d02b8d4f88",
+    "webp_sha256": "28e6e1138f4f2a45a4a3a33fb5fe61b8cb82d1a9839c857165f0a8ad52e11c93",
+    "processing": "format conversion only; original dimensions retained"
+  }
+]

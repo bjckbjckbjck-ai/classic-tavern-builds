@@ -2,6 +2,7 @@
 
 下一版[七族卡池设计](v0.50.0-七族卡池设计.md)已完成十二张历史随从、四法术和多族叠层适配的开发实现；[验证、截图与未完成范围](validation/issue25-four-spells/README.md)。**尚未发布新安装包，下载版本仍为v0.49.0。**
 
+卡面与桌面已继续升级为拱顶、微弧名条、手绘纸页和宽木板；双端仍是微扇形平铺。[最新开发截图及271条原生回归](validation/issue18-card-surfaces/README.md)，不是新的安装包发布。
 新增六件历史饰品、转型报价、兑换与复制，饰品收藏分页；双端保持微扇形手牌。[设计与来源](v0.49.0-饰品选购设计.md) · [完整饰品表](饰品出现与报价表.md) · [Android APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.49.0/ClassicTavern-v0.49.0.apk?download=1) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.49.0/ClassicTavern-v0.49.0.exe?download=1)
 
 # v0.48.0 · 连锁顺序与触控详情

@@ -1,0 +1,49 @@
+{
+	"collection": {
+		"actors_retained": true,
+		"face_updates": 0,
+		"node_count": 516,
+		"rounds": [
+			{
+				"render_call_ms": 12.841,
+				"return_first_draw_ms": 36.108
+			},
+			{
+				"render_call_ms": 13.864,
+				"return_first_draw_ms": 37.869
+			},
+			{
+				"render_call_ms": 12.926,
+				"return_first_draw_ms": 37.974
+			},
+			{
+				"render_call_ms": 15.08,
+				"return_first_draw_ms": 40.341
+			},
+			{
+				"render_call_ms": 12.817,
+				"return_first_draw_ms": 39.521
+			}
+		]
+	},
+	"desktop": {
+		"actor_count": 24,
+		"idle_face_updates": 0,
+		"mean_frame_ms": 16.3897,
+		"node_count": 516,
+		"p95_frame_ms": 16.474
+	},
+	"mobile_expanded": {
+		"actor_count": 24,
+		"idle_face_updates": 0,
+		"mean_frame_ms": 16.3895416666667,
+		"node_count": 513,
+		"p95_frame_ms": 16.478
+	},
+	"native": "Windows",
+	"quality": 2,
+	"size": [
+		1280,
+		720
+	]
+}
