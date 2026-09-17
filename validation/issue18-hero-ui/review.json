@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-17",
+  "branch": "3d",
+  "formal_release": "0.50.0",
+  "development_target": "0.51.0",
+  "source_commits": {
+    "plan": "9091fc6",
+    "hero_draft": "119996d",
+    "mixed_input_fix": "2b38b0c",
+    "mobile_medallion": "d7db822"
+  },
+  "hero_draft_independent_spec": "passed after mixed-input fix",
+  "independent_quality": "not completed: reviewer tool hit usage limit",
+  "parent_review": "completed: input arming, stable nodes, original-art crop, read-only mobile vitals, replay timing, modal visibility, no input interception",
+  "native_unique_suites": 8,
+  "native_successful_assertions": 327,
+  "screenshots": 26,
+  "new_apk_or_exe": false,
+  "physical_android": false,
+  "audio_listening": false,
+  "external_two_device_network": false,
+  "balance_simulation": false
+}

@@ -1,0 +1,7 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+MIXED before key release selected=0 target_pressed=true target_focus=true
+MIXED after unarmed Space release selected=0 target_pressed=true
+MIXED after outside pointer release selected=0
+FOCUS after armed Space loses card focus selected=0
+

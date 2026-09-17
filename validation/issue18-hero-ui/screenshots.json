@@ -1,0 +1,184 @@
+[
+  {
+    "file": "before-hero-draft.webp",
+    "source": ".runtime/hero-v51-before/hero-draft.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "541aa61012a0db93aae99b4f660cf5e424bff4d51c51592846035590077114d0"
+  },
+  {
+    "file": "before-mobile-ten.webp",
+    "source": ".runtime/hero-v51-before/mobile-ten.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "e5322aeec24831ad7d6df218a94bb89d67a51f7578d8a68d0cac0ec8a82e7e3f"
+  },
+  {
+    "file": "hero-ordinary.webp",
+    "source": "screenshots/v51-hero-ordinary-1280.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "236891283d7357d2976b1867418a9a31db6cc30e6fb7dc3439d18e779fe4a35f"
+  },
+  {
+    "file": "hero-special.webp",
+    "source": "screenshots/v51-hero-special-1280.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "76ad51826eddaa9edd881f436faeedb74199851eafa454d8cdaabb29611597f2"
+  },
+  {
+    "file": "hero-wide.webp",
+    "source": "screenshots/v51-hero-special-1600.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "b65745310239703109cdca0f6b9c10dc93c22056b76518626354719b86f99433"
+  },
+  {
+    "file": "hero-long-text.webp",
+    "source": "screenshots/v51-hero-long-text-end-1280.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "b929a5edcf6912717e7fdd7b094de79317056eb71604d07ad311c268427f355e"
+  },
+  {
+    "file": "desktop-ten.webp",
+    "source": "screenshots/v50-second-desktop-ten.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "9037a337d9e686b08dc26a0585e9ecd6084d60192dfbe8c2fd01e944a2c68e7e"
+  },
+  {
+    "file": "mobile-folded.webp",
+    "source": "screenshots/v50-second-mobile-folded.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "86efce2d512b43629e4cc66744f478b7b6787ac9c632aefc2d64d09a77ef0f1c"
+  },
+  {
+    "file": "mobile-ten.webp",
+    "source": "screenshots/v50-second-mobile-ten.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "53e3b8907559f40fe9da3810aa6f65483c7b581e68aa0b8e428c6933679f4b30"
+  },
+  {
+    "file": "mobile-four.webp",
+    "source": "screenshots/v50-second-mobile-four.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "3bc742ac46cb06ad03df9027598f9f334b88b6f172ab10f39a1894b9890c1013"
+  },
+  {
+    "file": "mobile-detail.webp",
+    "source": "screenshots/v50-second-mobile-detail.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "676010546727c48c5392133474c0b05418d5eeb9548fe701e60c24e5b1376ebf"
+  },
+  {
+    "file": "mobile-2d.webp",
+    "source": "screenshots/v50-second-mobile-four-2d.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "f9c3ed125d02030d3e57833d083aa4263f4243a3ce23ea9751f8bdf1c3e5f4f2"
+  },
+  {
+    "file": "mobile-wide.webp",
+    "source": "screenshots/v50-second-mobile-wide.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "62f64adefa7ffb879db7505626a53e6f6977f2423bdd3c1066b0cdfea4679e20"
+  },
+  {
+    "file": "mobile-hero-defeated.webp",
+    "source": "screenshots/v51-mobile-hero-defeated.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "6b9d6da31b4d2e425644d84e1cbd1bc4f8738b91c5f6e59871d239667ea6c63e"
+  },
+  {
+    "file": "mobile-hero-spectator.webp",
+    "source": "screenshots/v51-mobile-hero-spectator.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "0323924f38dc139c9aba19eab582e1f4d74641a734414c18f35709f535afaf71"
+  },
+  {
+    "file": "desktop-wide-ten.webp",
+    "source": "screenshots/v45-desktop-20-9.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "e85a4ad5f5e83298168ef3c060f2c24152a163d1bbcd3a291f2f1bbd7411a65f"
+  },
+  {
+    "file": "mobile-wide-ten.webp",
+    "source": "screenshots/v45-mobile-20-9-open.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "301b00b2b91eb8c612d5f68c052fbb6886d9830f12dae065538f01baa7aa7da9"
+  },
+  {
+    "file": "mobile-discover.webp",
+    "source": "screenshots/v45-mobile-20-9-discover.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "0e4e1562c2308ae385cc040cc66335d61e15cdaa90c62448b7f1816ada489f35"
+  },
+  {
+    "file": "wide-trinkets.webp",
+    "source": "screenshots/v44-wide-trinkets.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "5cb57efda7a5cbcbe7f259d9dfcf96d2367205ea2551c52acc5a8292e53b8618"
+  },
+  {
+    "file": "journal.webp",
+    "source": "screenshots/v43-after-journal.png",
+    "width": 1280,
+    "height": 800,
+    "sha256": "cc463c886275b0dd301528ecd7dcfbba74f2dff77e5dbba7b506ef287e029465"
+  },
+  {
+    "file": "hero-catalog-00.webp",
+    "source": "screenshots/v51-hero-catalog-00-1280.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "48d28a844ce1baa0449aed7a21d27ef2afb3988067948a4a32c6498bdf11807d"
+  },
+  {
+    "file": "hero-catalog-04.webp",
+    "source": "screenshots/v51-hero-catalog-04-1280.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "ee7e0cbc4bf54d208efb8074267e01858c3c75c7632d9c3db7c8c92b567f8714"
+  },
+  {
+    "file": "hero-catalog-08.webp",
+    "source": "screenshots/v51-hero-catalog-08-1280.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "a18276ac27f60517590e19c447ef77c0e56b1ba2acfad54cfc8a7f4af7dcb8a7"
+  },
+  {
+    "file": "hero-catalog-12.webp",
+    "source": "screenshots/v51-hero-catalog-12-1280.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "9137e4bcf21926fc3940ea63c44e55fb1098b23a1c9858c4567c803cbcea9aca"
+  },
+  {
+    "file": "hero-catalog-16.webp",
+    "source": "screenshots/v51-hero-catalog-16-1280.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "fc43cebdc4b27a934a3906af0160751f324415c7bf862daa69562f6eaa282202"
+  },
+  {
+    "file": "hero-catalog-20.webp",
+    "source": "screenshots/v51-hero-catalog-20-1280.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "7a35239fca5260821e9ea028263a8e5603fdf2868b573ce323a51866b28adece"
+  }
+]

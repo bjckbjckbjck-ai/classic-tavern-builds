@@ -1,0 +1,58 @@
+[
+  {
+    "suite": "hero_draft_v51_test",
+    "exit": 0,
+    "passes": 114,
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "suite": "offline_ui_test",
+    "exit": 0,
+    "passes": 7,
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "suite": "ux_v7_test",
+    "exit": 0,
+    "passes": 12,
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "suite": "issue_ui_v20_test",
+    "exit": 0,
+    "passes": 8,
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "suite": "hand_platform_v47_test",
+    "exit": 0,
+    "passes": 63,
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "suite": "layout_v46_test",
+    "exit": 0,
+    "passes": 68,
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "suite": "audit_v45_test",
+    "exit": 0,
+    "passes": 23,
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "suite": "second_six_ui_v50_test",
+    "exit": 0,
+    "passes": 32,
+    "errors": [],
+    "warnings": []
+  }
+]

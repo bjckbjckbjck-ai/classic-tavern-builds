@@ -1,0 +1,12 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+UI PASS hero draft precedes match
+UI PASS hero selection button
+UI PASS practice uses offline peer with seven bots
+PRESENTATION VERIFIED Windows msaa=1 cards=4
+UI PASS removed enhancement button does not grant shield
+UI PASS second enhancement cannot be applied
+UI PASS next round still has no free venom button
+UI PASS legacy false setting cannot disable stacking in offline practice
+OFFLINE UI RESULT 7/7 passed
