@@ -1,0 +1,70 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS 16-10 uses available logical canvas width
+UI PASS 16-10 seven actual hit areas match camera projection and fit board
+UI PASS 16-10 physical hero and Bob track their actual portraits after resize
+UI PASS 16-10 balanced rendering keeps its original pixel budget
+UI PASS 16-10 exposed card 0 selects its actual UID
+UI PASS 16-10 exposed card 1 selects its actual UID
+UI PASS 16-10 exposed card 2 selects its actual UID
+UI PASS 16-10 exposed card 3 selects its actual UID
+UI PASS 16-10 exposed card 4 selects its actual UID
+UI PASS 16-10 exposed card 5 selects its actual UID
+UI PASS 16-10 exposed card 6 selects its actual UID
+UI PASS 16-10 exposed card 7 selects its actual UID
+UI PASS 16-10 exposed card 8 selects its actual UID
+UI PASS 16-10 exposed card 9 selects its actual UID
+UI PASS 16-10 fan drag plays intended middle card
+UI PASS 16-10 expanded right release buys once into tenth slot
+UI PASS 16-10 Bob sale remains reachable
+UI PASS 16-10 settings remain centered within screen
+UI PASS 16-9 uses available logical canvas width
+UI PASS 16-9 seven actual hit areas match camera projection and fit board
+UI PASS 16-9 physical hero and Bob track their actual portraits after resize
+UI PASS 16-9 balanced rendering keeps its original pixel budget
+UI PASS 16-9 exposed card 0 selects its actual UID
+UI PASS 16-9 exposed card 1 selects its actual UID
+UI PASS 16-9 exposed card 2 selects its actual UID
+UI PASS 16-9 exposed card 3 selects its actual UID
+UI PASS 16-9 exposed card 4 selects its actual UID
+UI PASS 16-9 exposed card 5 selects its actual UID
+UI PASS 16-9 exposed card 6 selects its actual UID
+UI PASS 16-9 exposed card 7 selects its actual UID
+UI PASS 16-9 exposed card 8 selects its actual UID
+UI PASS 16-9 exposed card 9 selects its actual UID
+UI PASS 16-9 fan drag plays intended middle card
+UI PASS 16-9 expanded right release buys once into tenth slot
+UI PASS 16-9 Bob sale remains reachable
+UI PASS 16-9 settings remain centered within screen
+UI PASS 20-9 uses available logical canvas width
+UI PASS 20-9 seven actual hit areas match camera projection and fit board
+UI PASS 20-9 physical hero and Bob track their actual portraits after resize
+UI PASS 20-9 balanced rendering keeps its original pixel budget
+UI PASS 20-9 exposed card 0 selects its actual UID
+UI PASS 20-9 exposed card 1 selects its actual UID
+UI PASS 20-9 exposed card 2 selects its actual UID
+UI PASS 20-9 exposed card 3 selects its actual UID
+UI PASS 20-9 exposed card 4 selects its actual UID
+UI PASS 20-9 exposed card 5 selects its actual UID
+UI PASS 20-9 exposed card 6 selects its actual UID
+UI PASS 20-9 exposed card 7 selects its actual UID
+UI PASS 20-9 exposed card 8 selects its actual UID
+UI PASS 20-9 exposed card 9 selects its actual UID
+UI PASS 20-9 fan drag plays intended middle card
+UI PASS 20-9 expanded right release buys once into tenth slot
+UI PASS 20-9 Bob sale remains reachable
+UI PASS 20-9 settings remain centered within screen
+UI PASS refresh charges once and staggers shop reveal
+UI PASS upgrade acknowledgement preserves exact upgrade cost
+UI PASS wide wheel blocks the exposed right-side end-turn button
+UI PASS wide wheel also covers the left expansion
+UI PASS golden arrival has a localized material glint
+UI PASS gold glint does not repaint the card texture each frame
+UI PASS reduced motion suppresses golden sweep
+UI PASS wide hero skill arrow targets actual third board card
+UI PASS wide discover resolves without shop interception
+UI PASS wide trinket selection and confirmation use centered modal hit areas
+UI PASS wide fallback restores every visible 2D minion
+UI PASS wide opponent uses the centered full-height arch
+UI PASS wide hero settlement finishes without changing authoritative phase
+UI PASS resizing an open settings page preserves its controls and values

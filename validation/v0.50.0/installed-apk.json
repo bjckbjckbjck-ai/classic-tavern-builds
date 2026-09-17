@@ -1,0 +1,10 @@
+{
+  "version": "0.50.0",
+  "versionCode": 53,
+  "sha256": "14433ff03ef7048702b0ce19fd6abd429c8bdfbc43df33b1928a28b9cdb5e4e6",
+  "installed_sha256": "14433ff03ef7048702b0ce19fd6abd429c8bdfbc43df33b1928a28b9cdb5e4e6",
+  "apk_entries": 1257,
+  "excluded_private_paths_ok": true,
+  "crc_ok": true,
+  "device": "API33 emulator, host GPU GLES3"
+}

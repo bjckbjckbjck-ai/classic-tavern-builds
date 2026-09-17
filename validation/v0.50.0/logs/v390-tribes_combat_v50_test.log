@@ -1,0 +1,23 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS fusion receives a murloc aura despite legacy beast field
+PASS dead aura source stops contributing to fusion
+PASS murloc attack counts both sides once per fusion
+PASS one summoned fusion receives one beast summon buff
+PASS same summon also triggers the separate mech listener once
+PASS fusion receives inherited leap deathrattle as a beast
+PASS dragon shield deathrattle targets all-type minion
+PASS repeated undead sync applies permanent global attack exactly once
+PASS undead growth applies only the new delta
+PASS poet preserves adjacent fusion combat gains through dragon membership
+PASS permanent beast health recognizes fusion and source UID
+PASS summoned fusion receives pirate deathrattle attack bonus
+PASS separate beast and mech trinkets trigger once each on one fusion summon
+PASS one fusion does not satisfy a two-minion typed trinket threshold
+PASS held dual-type card completes matching trinket commitment
+PASS trinket recommendation weights both tribe memberships
+PASS AI board counts use fusion memberships without counting held cards
+PASS AI recognizes fusion as a magnetic receiver
+PASS AI values one fusion as one menagerie target, not seven
+PASS AI sees two available distinct targets after adding single-type fish
+TRIBES COMBAT V50 RESULT 20/20

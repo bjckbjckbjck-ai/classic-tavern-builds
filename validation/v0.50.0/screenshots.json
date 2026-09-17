@@ -1,0 +1,354 @@
+[
+  {
+    "png": "01-menu.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "4cd78de5de373cd996919a56ac7ef4b37511659e32112776db122c6af9d08df6",
+    "webp": "android-final/01-menu.webp",
+    "webp_sha256": "5b5b9a835e8c99ce6da5a8798f8daea629dcfef3b2e9b55b88315e517b88712e",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "02-connected-board.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "9b9a1e2ef96b34ae509903f7987f1c9a0875e3c53f7a38e90dea2f2c377a09c9",
+    "webp": "android-final/02-connected-board.webp",
+    "webp_sha256": "465dff98c065fcd502a8a0cd545a196041af644acaca2ed7b9c6854dc4ed293b",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "03-four-open.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "f2901624d15daa0d20185f135a1519c090c1ccba4aa71efcb8b5f1325d643e41",
+    "webp": "android-final/03-four-open.webp",
+    "webp_sha256": "de629cc2a1766f363b0a1d5afef8bae0f680a8e64a1203bb29b40342195a43e4",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "04-spell-detail.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "be02c44a0e263202e737e2ecf8aa5e04be50c39f972cf49dbcc1ef215712bbf5",
+    "webp": "android-final/04-spell-detail.webp",
+    "webp_sha256": "be77caa27f64baf0f0c600d33dcce7fbf953d085aa437ff8662148bb41e6ad92",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "05-hamuul.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "7c428a413663b7cbfaa40e10e5cf5b85bb53777a3d9decfb24fb8e88ce7f8637",
+    "webp": "android-final/05-hamuul.webp",
+    "webp_sha256": "5cdf91d407fb593d3ee8791eb2bec72b097dd471864739720f9ef368863f49a1",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "06-corpse-discover.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "45ca15ff77bf89fe5df15c694f707d118fb55ed9e9066008f6ce4d1fe095c312",
+    "webp": "android-final/06-corpse-discover.webp",
+    "webp_sha256": "851cf107f8a674bf244503de42088104acc442b80d4e39a5d637d3d9f4ef6db8",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "07-finest-spell-shop.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "492ae2ad705e2739d8705355556f091dd9d2eaf747e2ccf79a20a37ea208545d",
+    "webp": "android-final/07-finest-spell-shop.webp",
+    "webp_sha256": "bf546338600a514080f7052fad264c564785836e14f517ad249ea82cd4f752fc",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "08-ten-open.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "6d9d875e8e182f9343c7ef39ebf267223d777a1bc05e635fecd8d793f9a705ae",
+    "webp": "android-final/08-ten-open.webp",
+    "webp_sha256": "5e5f6e3d1c3420aea360d93f6517fc2bd66fbe9f574d5d214c428f29ec8e003c",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "09-played-amalgam.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "ebe272383362d84ae55cf8bbc49ba08caf0ba5e67b46d324e8e6b568e0e93c2e",
+    "webp": "android-final/09-played-amalgam.webp",
+    "webp_sha256": "02325c6b92eff1178098fffa8dde7bcc0c7a4b2dad18b1ff57fdffd7cf1e532e",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "10-purchased-gargoyle.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "a0e7cf4edf1ed12facd025c3c2faf8335a23d129287d7900d7aea74f557ffa55",
+    "webp": "android-final/10-purchased-gargoyle.webp",
+    "webp_sha256": "577721338e402f8d0b0a86fcb9defb4eb6234a24a5daeab9ba2b134ea0b85edf",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "11-four-trinkets.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "23464146ad8f5691f616f304453abdbc68a522c3f0cd3829282de2e4aa0520cc",
+    "webp": "android-final/11-four-trinkets.webp",
+    "webp_sha256": "ccc02896b082c648277165253cfece44fb7aef72bcedacfc5133177803014a31",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "12-neutral-staff.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "05c0d1d22099ef394a2d461623b15f64b4d0ab2dbbe1e84d998bc6c61adaf357",
+    "webp": "android-final/12-neutral-staff.webp",
+    "webp_sha256": "aa2a5949410cb2fdd5f8e05ac29ab36803263d320d6ec2e3af300d31ec425b50",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "13-trinket-selected.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "e252e85d53be54ed0cccd7195f3d69a4856b6002a712bea353dd699a79c1095f",
+    "webp": "android-final/13-trinket-selected.webp",
+    "webp_sha256": "25fe65d24f38f7880a2574e20c5ad53b5c910b0c9ef5b62e58e0bfdc601dda1d",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "14-staff-equipped.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "ca1e7cd0bc90c2950547f3856479d9c1846be74d9f73f584bf8b8a9b809a028e",
+    "webp": "android-final/14-staff-equipped.webp",
+    "webp_sha256": "eef143611a04d08b55ed7038053a09496b88a4e681c8b73595e0cd590681a227",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "15-collection.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "68cedb41c260cfb365ef805a47c577f840d133d716e6c7e8ad80c7adda43bcca",
+    "webp": "android-final/15-collection.webp",
+    "webp_sha256": "331d7e889aa95d668725c428a6e538c010653a857aba099ad4323901a686bc61",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "16-all-tribes-collection.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "85539b245bcb2841800b33844de0322a823729f46a8478d09951a70deb8b6fa7",
+    "webp": "android-final/16-all-tribes-collection.webp",
+    "webp_sha256": "4f94b422fddf0f35dd54447e6303e9e88844ec6e32db5c53e23aa42596816a5b",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "17-all-tribes-detail.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "714443b021ad9e575b778a06a434dbdadd4184b58f79ac473e6c2fbbf16f1c49",
+    "webp": "android-final/17-all-tribes-detail.webp",
+    "webp_sha256": "27eedcc035175d4e2a750a5ad4d584562726ad91b0cf7abd30699c60bcdd8bbe",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "18-new-spells-collection.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "2cca8d8d48480edf82f6fc814996e394d578ecdfd27ec778ab2da7e4d57f2ad9",
+    "webp": "android-final/18-new-spells-collection.webp",
+    "webp_sha256": "008e5dabcdc048b3d6d1a7261eb666b074b82ba2f8b6cc9ebfd9d65679c15ddf",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "19-last-spell.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "ed4cf203f1ad518a73ba0f7216b0ca1de57ae2b565baf234828661866183f09a",
+    "webp": "android-final/19-last-spell.webp",
+    "webp_sha256": "de62b861603e3d912d90dca6ce0608007c47c6974188a83cc9594dffbf382204",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "20-render-setting.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "127303c7af750aca36e38a2639694bd383ce1b134a065378faa55509b6461d52",
+    "webp": "android-final/20-render-setting.webp",
+    "webp_sha256": "eead8d7e8a2ba435c51f3c7a4156dd79496f70609d52f8fe062ac7fab6ddea65",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "21-ten-2d.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "f7aa970114d1d0bd22a290a56dcf1b64d3e7a42897a5561f1cb8c4937442e7f6",
+    "webp": "android-final/21-ten-2d.webp",
+    "webp_sha256": "f393b9d8daebaed7450a340ea5c69e848dc2cf3c2a22364a4e10e70616ffd828",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "22-diagnostics-3d.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "0d2b66ad2bafe0c75b9c34b8fcf933993fbe8637af72554df0dddfacd8f69a57",
+    "webp": "android-final/22-diagnostics-3d.webp",
+    "webp_sha256": "cd3d2dfcb52dd9670185409725ce2cbbf50032d22947883524388ffbca76b535",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "23-leave.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "f66ddaf3f60478c681cca598833c769ccb440986bd2f2a46ab03e472a7bcbb11",
+    "webp": "android-final/23-leave.webp",
+    "webp_sha256": "6dc5ab226ef87a759ae989f2fabc2ed253a2cf440f068590b7f7778c88fb47b3",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "24-changelog.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "f5606970a0bc72e421523771978c8d2ace267b117ac4bb71cfc8ed259a08e73a",
+    "webp": "android-final/24-changelog.webp",
+    "webp_sha256": "dc1933abb2e6db67d20647c77dfe05536b56924ac209449040f938d08014e220",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "25-hero-draft.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "d98e31dab54bdf050d0fa65886bd9e40ec44d9a7b6a9cc716cf7a132d67a0ed0",
+    "webp": "android-final/25-hero-draft.webp",
+    "webp_sha256": "0d639c0fe6610f08fa0d2c2b711e1c8724eaaadd217a3c7fc49b228026ba42c8",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "26-offline-recruit.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "0ee9c1b80a116f2c75502f78ef053e8cb963357e54657e57eaccf0d7f9849cf7",
+    "webp": "android-final/26-offline-recruit.webp",
+    "webp_sha256": "f2bb29bc489f8dab5ccbe266c06b2bb24101775c4a350e2124a866296966963f",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "27-offline-played.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "93972c4b2c4bd86ec8a0eeb658c732b393aad845f6d88b4c54f805f203b9f1f2",
+    "webp": "android-final/27-offline-played.webp",
+    "webp_sha256": "bc01b7ca584c57aab15c9c3c9cc00c5b336ff4385e6070ac72bfd2f61479d512",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "28-offline-combat.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "d970cbcafb0ed07cd17399fa92988b0dda5e4acef3d68d97731b2c8e8fdcdb06",
+    "webp": "android-final/28-offline-combat.webp",
+    "webp_sha256": "0b450b2a9ac6a1d6545ac9a24c497417f263e672a6d2be7c1e44624c371f1bed",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "29-offline-next-round.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "707c26f6f9c34c2e53cd42ce06b544102b18a8718ec02613138acfb4d45321ff",
+    "webp": "android-final/29-offline-next-round.webp",
+    "webp_sha256": "5da5bb803814df285e32861497c800a5db978a0e0c096d7eb7c92214e694626a",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "30-offline-exit.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "64185c1c7a153958b26aa5049d8d7b42fa7f3ca219d0824c2f661a8ccdc35743",
+    "webp": "android-final/30-offline-exit.webp",
+    "webp_sha256": "835ecf09cb01b7df83f36e868fb38613e8e0857eaab28158f09fce6dc349a2d4",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "31-ten-2d-expanded.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "21058521d01252b1df89454b29c8bd7df03b601f67c14c0ce254c3df296578ba",
+    "webp": "android-final/31-ten-2d-expanded.webp",
+    "webp_sha256": "41511fa176563229a46c6fcf8520ea6b0a478b045810ed05c11dff32ee544a99",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  },
+  {
+    "png": "32-ten-3d-restored.png",
+    "size": [
+      2280,
+      1080
+    ],
+    "png_sha256": "c9a46b3b324ac61be81c847a41479aef71e20b8661b9533a3ff406eb395f601d",
+    "webp": "android-final/32-ten-3d-restored.webp",
+    "webp_sha256": "99a84caa198ae7b745169725e0ee98872cdc87c4cd296f6ca97bacbd3278772a",
+    "scope": "final installed APK, API33 emulator with host GPU"
+  }
+]

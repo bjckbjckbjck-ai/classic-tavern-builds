@@ -1,0 +1,17 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS hero power has a visible compact icon
+PASS power icon has real art and compact geometry
+PASS two trinket icons avoid hero and coin controls
+PASS equipped library survives unrelated state updates
+PASS authority result opens animated wheel
+PASS duplicate snapshot does not re-spin or grant rewards
+PASS skip animation reveals exact authoritative outcome
+PASS closed wheel stays closed across synchronization
+PASS sixteen generated prizes have separate in-game catalog
+PASS combat phase cannot retain wheel overlay
+UI v23 10 / 0
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2641)
+ERROR: 4 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:810)

@@ -1,0 +1,33 @@
+validation\v0.50.0\android-final\01-menu.png
+validation\v0.50.0\android-final\02-connected-board.png
+PASS first tap only opens four-card shallow fan
+validation\v0.50.0\android-final\03-four-open.png
+validation\v0.50.0\android-final\04-spell-detail.png
+PASS hamuul refresh resolves from two-tribe target
+validation\v0.50.0\android-final\05-hamuul.png
+PASS fluidity exchanges actual board UID into tavern
+PASS contracted corpse opens three deathrattle choices
+validation\v0.50.0\android-final\06-corpse-discover.png
+PASS discovery click grants selected minion
+PASS finest refreshes seven spell shop offers
+validation\v0.50.0\android-final\07-finest-spell-shop.png
+PASS ten-card first tap preserves all UIDs
+validation\v0.50.0\android-final\08-ten-open.png
+PASS ten-card first minion drag plays correct UID
+validation\v0.50.0\android-final\09-played-amalgam.png
+PASS shop drag into broad hand region buys gargoyle
+validation\v0.50.0\android-final\10-purchased-gargoyle.png
+PASS normal lesser trinket offers four choices
+validation\v0.50.0\android-final\11-four-trinkets.png
+validation\v0.50.0\android-final\12-neutral-staff.png
+PASS trinket selection does not pay
+validation\v0.50.0\android-final\13-trinket-selected.png
+FAIL neutral staff confirms for full cost three
+Traceback (most recent call last):
+  File "D:\ai\codex\新联机炉石战棋\.runtime\android_v50_final_flow.py", line 22, in <module>
+    mode('neutral_staff');before=state();shot('12-neutral-staff');tap(720,450);check(state()==before,'trinket selection does not pay',before);shot('13-trinket-selected');tap(720,780);after=state();check(after['coins']==17 and after['trinkets']==['scourge_staff'] and not after['offers'],'neutral staff confirms for full cost three',before);shot('14-staff-equipped')
+                                                                                                                                                                                                     ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai\codex\新联机炉石战棋\.runtime\android_v50_final_flow.py", line 8, in check
+    assert ok,name
+           ^^
+AssertionError: neutral staff confirms for full cost three

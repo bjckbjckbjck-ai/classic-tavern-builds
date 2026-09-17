@@ -1,0 +1,1898 @@
+[
+  {
+    "check": "first tap only opens four-card shallow fan",
+    "passed": true,
+    "before": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "47076782-3027513485"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mechanized_gift_horse",
+          "uid": "47076802-513629732"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "47076815-1736346700"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "47076831-3521830933"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [
+        {
+          "id": "spell_hamuul",
+          "uid": "470769624139372565"
+        },
+        {
+          "id": "spell_fluidity",
+          "uid": "470769762864328166"
+        },
+        {
+          "id": "spell_contracted_corpse",
+          "uid": "470769861544573402"
+        },
+        {
+          "id": "spell_finest",
+          "uid": "470769964207321524"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "gilded_gargoyle",
+          "uid": "47076847-1035481484"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "47076862-1874972942"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "47076878-3399288379"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "47076893-2804292170"
+        },
+        {
+          "id": "murky",
+          "uid": "47076907-762011071"
+        },
+        {
+          "id": "ghoul_of_the_feast",
+          "uid": "47076923-207688828"
+        }
+      ],
+      "spells": [
+        "spell_fluidity"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    },
+    "after": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "47076782-3027513485"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mechanized_gift_horse",
+          "uid": "47076802-513629732"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "47076815-1736346700"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "47076831-3521830933"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [
+        {
+          "id": "spell_hamuul",
+          "uid": "470769624139372565"
+        },
+        {
+          "id": "spell_fluidity",
+          "uid": "470769762864328166"
+        },
+        {
+          "id": "spell_contracted_corpse",
+          "uid": "470769861544573402"
+        },
+        {
+          "id": "spell_finest",
+          "uid": "470769964207321524"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "gilded_gargoyle",
+          "uid": "47076847-1035481484"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "47076862-1874972942"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "47076878-3399288379"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "47076893-2804292170"
+        },
+        {
+          "id": "murky",
+          "uid": "47076907-762011071"
+        },
+        {
+          "id": "ghoul_of_the_feast",
+          "uid": "47076923-207688828"
+        }
+      ],
+      "spells": [
+        "spell_fluidity"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "check": "hamuul refresh resolves from two-tribe target",
+    "passed": true,
+    "before": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "47076782-3027513485"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mechanized_gift_horse",
+          "uid": "47076802-513629732"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "47076815-1736346700"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "47076831-3521830933"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [
+        {
+          "id": "spell_hamuul",
+          "uid": "470769624139372565"
+        },
+        {
+          "id": "spell_fluidity",
+          "uid": "470769762864328166"
+        },
+        {
+          "id": "spell_contracted_corpse",
+          "uid": "470769861544573402"
+        },
+        {
+          "id": "spell_finest",
+          "uid": "470769964207321524"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "gilded_gargoyle",
+          "uid": "47076847-1035481484"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "47076862-1874972942"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "47076878-3399288379"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "47076893-2804292170"
+        },
+        {
+          "id": "murky",
+          "uid": "47076907-762011071"
+        },
+        {
+          "id": "ghoul_of_the_feast",
+          "uid": "47076923-207688828"
+        }
+      ],
+      "spells": [
+        "spell_fluidity"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    },
+    "after": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "47076782-3027513485"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mechanized_gift_horse",
+          "uid": "47076802-513629732"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "47076815-1736346700"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "47076831-3521830933"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [
+        {
+          "id": "spell_fluidity",
+          "uid": "470769762864328166"
+        },
+        {
+          "id": "spell_contracted_corpse",
+          "uid": "470769861544573402"
+        },
+        {
+          "id": "spell_finest",
+          "uid": "470769964207321524"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "module",
+          "uid": "60066378-4272243663"
+        },
+        {
+          "id": "deflect",
+          "uid": "60066663-129809047"
+        },
+        {
+          "id": "twilight",
+          "uid": "60066903-3735675361"
+        },
+        {
+          "id": "module",
+          "uid": "60067094-510354158"
+        },
+        {
+          "id": "amber",
+          "uid": "60067261-3536575193"
+        },
+        {
+          "id": "murozond",
+          "uid": "60067526-1964084721"
+        },
+        {
+          "id": "bomb",
+          "uid": "60067730-2246114928"
+        }
+      ],
+      "spells": [],
+      "spells_cast": 1,
+      "trinkets": []
+    }
+  },
+  {
+    "check": "fluidity exchanges actual board UID into tavern",
+    "passed": true,
+    "before": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "47076782-3027513485"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mechanized_gift_horse",
+          "uid": "47076802-513629732"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "47076815-1736346700"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "47076831-3521830933"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [
+        {
+          "id": "spell_fluidity",
+          "uid": "470769762864328166"
+        },
+        {
+          "id": "spell_contracted_corpse",
+          "uid": "470769861544573402"
+        },
+        {
+          "id": "spell_finest",
+          "uid": "470769964207321524"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "module",
+          "uid": "60066378-4272243663"
+        },
+        {
+          "id": "deflect",
+          "uid": "60066663-129809047"
+        },
+        {
+          "id": "twilight",
+          "uid": "60066903-3735675361"
+        },
+        {
+          "id": "module",
+          "uid": "60067094-510354158"
+        },
+        {
+          "id": "amber",
+          "uid": "60067261-3536575193"
+        },
+        {
+          "id": "murozond",
+          "uid": "60067526-1964084721"
+        },
+        {
+          "id": "bomb",
+          "uid": "60067730-2246114928"
+        }
+      ],
+      "spells": [],
+      "spells_cast": 1,
+      "trinkets": []
+    },
+    "after": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "47076782-3027513485"
+        },
+        {
+          "attack": 3,
+          "health": 2,
+          "id": "deflect",
+          "uid": "60066663-129809047"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "47076815-1736346700"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "47076831-3521830933"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [
+        {
+          "id": "spell_contracted_corpse",
+          "uid": "470769861544573402"
+        },
+        {
+          "id": "spell_finest",
+          "uid": "470769964207321524"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "module",
+          "uid": "60066378-4272243663"
+        },
+        {
+          "id": "mechanized_gift_horse",
+          "uid": "47076802-513629732"
+        },
+        {
+          "id": "twilight",
+          "uid": "60066903-3735675361"
+        },
+        {
+          "id": "module",
+          "uid": "60067094-510354158"
+        },
+        {
+          "id": "amber",
+          "uid": "60067261-3536575193"
+        },
+        {
+          "id": "murozond",
+          "uid": "60067526-1964084721"
+        },
+        {
+          "id": "bomb",
+          "uid": "60067730-2246114928"
+        }
+      ],
+      "spells": [],
+      "spells_cast": 2,
+      "trinkets": []
+    }
+  },
+  {
+    "check": "contracted corpse opens three deathrattle choices",
+    "passed": true,
+    "before": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "47076782-3027513485"
+        },
+        {
+          "attack": 3,
+          "health": 2,
+          "id": "deflect",
+          "uid": "60066663-129809047"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "47076815-1736346700"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "47076831-3521830933"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [
+        {
+          "id": "spell_contracted_corpse",
+          "uid": "470769861544573402"
+        },
+        {
+          "id": "spell_finest",
+          "uid": "470769964207321524"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "module",
+          "uid": "60066378-4272243663"
+        },
+        {
+          "id": "mechanized_gift_horse",
+          "uid": "47076802-513629732"
+        },
+        {
+          "id": "twilight",
+          "uid": "60066903-3735675361"
+        },
+        {
+          "id": "module",
+          "uid": "60067094-510354158"
+        },
+        {
+          "id": "amber",
+          "uid": "60067261-3536575193"
+        },
+        {
+          "id": "murozond",
+          "uid": "60067526-1964084721"
+        },
+        {
+          "id": "bomb",
+          "uid": "60067730-2246114928"
+        }
+      ],
+      "spells": [],
+      "spells_cast": 2,
+      "trinkets": []
+    },
+    "after": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "47076782-3027513485"
+        },
+        {
+          "attack": 3,
+          "health": 2,
+          "id": "deflect",
+          "uid": "60066663-129809047"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "47076815-1736346700"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "47076831-3521830933"
+        }
+      ],
+      "coins": 20,
+      "discover": [
+        "void",
+        "fiery_felblood",
+        "golem"
+      ],
+      "hand": [
+        {
+          "id": "spell_finest",
+          "uid": "470769964207321524"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "module",
+          "uid": "60066378-4272243663"
+        },
+        {
+          "id": "mechanized_gift_horse",
+          "uid": "47076802-513629732"
+        },
+        {
+          "id": "twilight",
+          "uid": "60066903-3735675361"
+        },
+        {
+          "id": "module",
+          "uid": "60067094-510354158"
+        },
+        {
+          "id": "amber",
+          "uid": "60067261-3536575193"
+        },
+        {
+          "id": "murozond",
+          "uid": "60067526-1964084721"
+        },
+        {
+          "id": "bomb",
+          "uid": "60067730-2246114928"
+        }
+      ],
+      "spells": [],
+      "spells_cast": 3,
+      "trinkets": []
+    }
+  },
+  {
+    "check": "discovery click grants selected minion",
+    "passed": true,
+    "before": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "47076782-3027513485"
+        },
+        {
+          "attack": 3,
+          "health": 2,
+          "id": "deflect",
+          "uid": "60066663-129809047"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "47076815-1736346700"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "47076831-3521830933"
+        }
+      ],
+      "coins": 20,
+      "discover": [
+        "void",
+        "fiery_felblood",
+        "golem"
+      ],
+      "hand": [
+        {
+          "id": "spell_finest",
+          "uid": "470769964207321524"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "module",
+          "uid": "60066378-4272243663"
+        },
+        {
+          "id": "mechanized_gift_horse",
+          "uid": "47076802-513629732"
+        },
+        {
+          "id": "twilight",
+          "uid": "60066903-3735675361"
+        },
+        {
+          "id": "module",
+          "uid": "60067094-510354158"
+        },
+        {
+          "id": "amber",
+          "uid": "60067261-3536575193"
+        },
+        {
+          "id": "murozond",
+          "uid": "60067526-1964084721"
+        },
+        {
+          "id": "bomb",
+          "uid": "60067730-2246114928"
+        }
+      ],
+      "spells": [],
+      "spells_cast": 3,
+      "trinkets": []
+    },
+    "after": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "47076782-3027513485"
+        },
+        {
+          "attack": 3,
+          "health": 2,
+          "id": "deflect",
+          "uid": "60066663-129809047"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "47076815-1736346700"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "47076831-3521830933"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [
+        {
+          "id": "spell_finest",
+          "uid": "470769964207321524"
+        },
+        {
+          "id": "fiery_felblood",
+          "uid": "68781097-4254157452"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "module",
+          "uid": "60066378-4272243663"
+        },
+        {
+          "id": "mechanized_gift_horse",
+          "uid": "47076802-513629732"
+        },
+        {
+          "id": "twilight",
+          "uid": "60066903-3735675361"
+        },
+        {
+          "id": "module",
+          "uid": "60067094-510354158"
+        },
+        {
+          "id": "amber",
+          "uid": "60067261-3536575193"
+        },
+        {
+          "id": "murozond",
+          "uid": "60067526-1964084721"
+        },
+        {
+          "id": "bomb",
+          "uid": "60067730-2246114928"
+        }
+      ],
+      "spells": [],
+      "spells_cast": 3,
+      "trinkets": []
+    }
+  },
+  {
+    "check": "finest refreshes seven spell shop offers",
+    "passed": true,
+    "before": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "47076782-3027513485"
+        },
+        {
+          "attack": 3,
+          "health": 2,
+          "id": "deflect",
+          "uid": "60066663-129809047"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "47076815-1736346700"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "47076831-3521830933"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [
+        {
+          "id": "spell_finest",
+          "uid": "470769964207321524"
+        },
+        {
+          "id": "fiery_felblood",
+          "uid": "68781097-4254157452"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "module",
+          "uid": "60066378-4272243663"
+        },
+        {
+          "id": "mechanized_gift_horse",
+          "uid": "47076802-513629732"
+        },
+        {
+          "id": "twilight",
+          "uid": "60066903-3735675361"
+        },
+        {
+          "id": "module",
+          "uid": "60067094-510354158"
+        },
+        {
+          "id": "amber",
+          "uid": "60067261-3536575193"
+        },
+        {
+          "id": "murozond",
+          "uid": "60067526-1964084721"
+        },
+        {
+          "id": "bomb",
+          "uid": "60067730-2246114928"
+        }
+      ],
+      "spells": [],
+      "spells_cast": 3,
+      "trinkets": []
+    },
+    "after": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "47076782-3027513485"
+        },
+        {
+          "attack": 3,
+          "health": 2,
+          "id": "deflect",
+          "uid": "60066663-129809047"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "47076815-1736346700"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "47076831-3521830933"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [
+        {
+          "id": "fiery_felblood",
+          "uid": "68781097-4254157452"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [],
+      "spells": [
+        "spell_chef",
+        "spell_golden",
+        "spell_armor",
+        "spell_bean",
+        "spell_parts",
+        "spell_pages",
+        "spell_confidence"
+      ],
+      "spells_cast": 4,
+      "trinkets": []
+    }
+  },
+  {
+    "check": "ten-card first tap preserves all UIDs",
+    "passed": true,
+    "before": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "76888461-1503525256"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mechanized_gift_horse",
+          "uid": "76888476-2204827581"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "76888489-3003749445"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "76888504-1319309298"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [
+        {
+          "id": "nightmare_amalgam",
+          "uid": "76888746-3941216085"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "76888760-573160849"
+        },
+        {
+          "id": "gilded_gargoyle",
+          "uid": "76888775-3850972308"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "76888789-4086186329"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "76888804-3218363037"
+        },
+        {
+          "id": "murky",
+          "uid": "76888822-1776501335"
+        },
+        {
+          "id": "cyborg_drake",
+          "uid": "76888838-523951004"
+        },
+        {
+          "id": "peckish_feldrake",
+          "uid": "76888856-1707368175"
+        },
+        {
+          "id": "mechanized_gift_horse",
+          "uid": "76888874-4034390525"
+        },
+        {
+          "id": "relentless_murghoul",
+          "uid": "76888890-190543846"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "gilded_gargoyle",
+          "uid": "76888518-3603666140"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "76888531-3937584669"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "76888543-3344738398"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "76888555-1294632765"
+        },
+        {
+          "id": "murky",
+          "uid": "76888565-2076125715"
+        },
+        {
+          "id": "ghoul_of_the_feast",
+          "uid": "76888578-2019728838"
+        }
+      ],
+      "spells": [
+        "spell_fluidity"
+      ],
+      "spells_cast": 4,
+      "trinkets": []
+    },
+    "after": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "76888461-1503525256"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mechanized_gift_horse",
+          "uid": "76888476-2204827581"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "76888489-3003749445"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "76888504-1319309298"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [
+        {
+          "id": "nightmare_amalgam",
+          "uid": "76888746-3941216085"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "76888760-573160849"
+        },
+        {
+          "id": "gilded_gargoyle",
+          "uid": "76888775-3850972308"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "76888789-4086186329"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "76888804-3218363037"
+        },
+        {
+          "id": "murky",
+          "uid": "76888822-1776501335"
+        },
+        {
+          "id": "cyborg_drake",
+          "uid": "76888838-523951004"
+        },
+        {
+          "id": "peckish_feldrake",
+          "uid": "76888856-1707368175"
+        },
+        {
+          "id": "mechanized_gift_horse",
+          "uid": "76888874-4034390525"
+        },
+        {
+          "id": "relentless_murghoul",
+          "uid": "76888890-190543846"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "gilded_gargoyle",
+          "uid": "76888518-3603666140"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "76888531-3937584669"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "76888543-3344738398"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "76888555-1294632765"
+        },
+        {
+          "id": "murky",
+          "uid": "76888565-2076125715"
+        },
+        {
+          "id": "ghoul_of_the_feast",
+          "uid": "76888578-2019728838"
+        }
+      ],
+      "spells": [
+        "spell_fluidity"
+      ],
+      "spells_cast": 4,
+      "trinkets": []
+    }
+  },
+  {
+    "check": "ten-card first minion drag plays correct UID",
+    "passed": true,
+    "before": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "76888461-1503525256"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mechanized_gift_horse",
+          "uid": "76888476-2204827581"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "76888489-3003749445"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "76888504-1319309298"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [
+        {
+          "id": "nightmare_amalgam",
+          "uid": "76888746-3941216085"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "76888760-573160849"
+        },
+        {
+          "id": "gilded_gargoyle",
+          "uid": "76888775-3850972308"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "76888789-4086186329"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "76888804-3218363037"
+        },
+        {
+          "id": "murky",
+          "uid": "76888822-1776501335"
+        },
+        {
+          "id": "cyborg_drake",
+          "uid": "76888838-523951004"
+        },
+        {
+          "id": "peckish_feldrake",
+          "uid": "76888856-1707368175"
+        },
+        {
+          "id": "mechanized_gift_horse",
+          "uid": "76888874-4034390525"
+        },
+        {
+          "id": "relentless_murghoul",
+          "uid": "76888890-190543846"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "gilded_gargoyle",
+          "uid": "76888518-3603666140"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "76888531-3937584669"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "76888543-3344738398"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "76888555-1294632765"
+        },
+        {
+          "id": "murky",
+          "uid": "76888565-2076125715"
+        },
+        {
+          "id": "ghoul_of_the_feast",
+          "uid": "76888578-2019728838"
+        }
+      ],
+      "spells": [
+        "spell_fluidity"
+      ],
+      "spells_cast": 4,
+      "trinkets": []
+    },
+    "after": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "76888461-1503525256"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mechanized_gift_horse",
+          "uid": "76888476-2204827581"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "76888746-3941216085"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "76888489-3003749445"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "76888504-1319309298"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [
+        {
+          "id": "corpse_refiner",
+          "uid": "76888760-573160849"
+        },
+        {
+          "id": "gilded_gargoyle",
+          "uid": "76888775-3850972308"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "76888789-4086186329"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "76888804-3218363037"
+        },
+        {
+          "id": "murky",
+          "uid": "76888822-1776501335"
+        },
+        {
+          "id": "cyborg_drake",
+          "uid": "76888838-523951004"
+        },
+        {
+          "id": "peckish_feldrake",
+          "uid": "76888856-1707368175"
+        },
+        {
+          "id": "mechanized_gift_horse",
+          "uid": "76888874-4034390525"
+        },
+        {
+          "id": "relentless_murghoul",
+          "uid": "76888890-190543846"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "gilded_gargoyle",
+          "uid": "76888518-3603666140"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "76888531-3937584669"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "76888543-3344738398"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "76888555-1294632765"
+        },
+        {
+          "id": "murky",
+          "uid": "76888565-2076125715"
+        },
+        {
+          "id": "ghoul_of_the_feast",
+          "uid": "76888578-2019728838"
+        }
+      ],
+      "spells": [
+        "spell_fluidity"
+      ],
+      "spells_cast": 4,
+      "trinkets": []
+    }
+  },
+  {
+    "check": "shop drag into broad hand region buys gargoyle",
+    "passed": true,
+    "before": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "83380406-4242354380"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mechanized_gift_horse",
+          "uid": "83380436-3992694372"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "83380453-599488473"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "83380473-1755999135"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [
+        {
+          "id": "spell_hamuul",
+          "uid": "833806511115099102"
+        },
+        {
+          "id": "spell_fluidity",
+          "uid": "833806723937595019"
+        },
+        {
+          "id": "spell_contracted_corpse",
+          "uid": "833806901945824934"
+        },
+        {
+          "id": "spell_finest",
+          "uid": "833807053363728596"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "gilded_gargoyle",
+          "uid": "83380491-3799082137"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "83380507-2159846982"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "83380524-4015329556"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "83380540-962426220"
+        },
+        {
+          "id": "murky",
+          "uid": "83380555-2278149323"
+        },
+        {
+          "id": "ghoul_of_the_feast",
+          "uid": "83380576-1906575343"
+        }
+      ],
+      "spells": [
+        "spell_fluidity"
+      ],
+      "spells_cast": 4,
+      "trinkets": []
+    },
+    "after": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "83380406-4242354380"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mechanized_gift_horse",
+          "uid": "83380436-3992694372"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "83380453-599488473"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "83380473-1755999135"
+        }
+      ],
+      "coins": 17,
+      "discover": [],
+      "hand": [
+        {
+          "id": "spell_hamuul",
+          "uid": "833806511115099102"
+        },
+        {
+          "id": "spell_fluidity",
+          "uid": "833806723937595019"
+        },
+        {
+          "id": "spell_contracted_corpse",
+          "uid": "833806901945824934"
+        },
+        {
+          "id": "spell_finest",
+          "uid": "833807053363728596"
+        },
+        {
+          "id": "gilded_gargoyle",
+          "uid": "83380491-3799082137"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "corpse_refiner",
+          "uid": "83380507-2159846982"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "83380524-4015329556"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "83380540-962426220"
+        },
+        {
+          "id": "murky",
+          "uid": "83380555-2278149323"
+        },
+        {
+          "id": "ghoul_of_the_feast",
+          "uid": "83380576-1906575343"
+        }
+      ],
+      "spells": [
+        "spell_fluidity"
+      ],
+      "spells_cast": 4,
+      "trinkets": []
+    }
+  },
+  {
+    "check": "normal lesser trinket offers four choices",
+    "passed": true,
+    "before": null,
+    "after": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 8,
+          "id": "cyborg_drake",
+          "uid": "89277935-3891043718"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mechanized_gift_horse",
+          "uid": "89277955-2178410951"
+        },
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "nightmare_amalgam",
+          "uid": "89277972-2516822730"
+        },
+        {
+          "attack": 5,
+          "health": 4,
+          "id": "relentless_murghoul",
+          "uid": "89277987-1162033783"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [
+        {
+          "id": "spell_hamuul",
+          "uid": "892781141080442690"
+        },
+        {
+          "id": "spell_fluidity",
+          "uid": "892781312563996211"
+        },
+        {
+          "id": "spell_contracted_corpse",
+          "uid": "892781421227123452"
+        },
+        {
+          "id": "spell_finest",
+          "uid": "892781533009246316"
+        }
+      ],
+      "offers": [
+        "electromagnet_lesser",
+        "glider_lesser",
+        "soul_stripper",
+        "colorful_compass"
+      ],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "gilded_gargoyle",
+          "uid": "89277999-2632668371"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "89278010-3869882092"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "89278023-1710162324"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "89278034-1477166305"
+        },
+        {
+          "id": "murky",
+          "uid": "89278046-3722071120"
+        },
+        {
+          "id": "ghoul_of_the_feast",
+          "uid": "89278058-1476187995"
+        }
+      ],
+      "spells": [
+        "spell_fluidity"
+      ],
+      "spells_cast": 4,
+      "trinkets": []
+    }
+  },
+  {
+    "check": "trinket selection does not pay",
+    "passed": true,
+    "before": {
+      "board": [],
+      "coins": 20,
+      "discover": [],
+      "hand": [],
+      "offers": [
+        "scourge_staff"
+      ],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "gilded_gargoyle",
+          "uid": "90565738-1851683692"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "90565756-1650611198"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "90565773-1623531215"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "90565790-2127397934"
+        },
+        {
+          "id": "murky",
+          "uid": "90565806-568963250"
+        },
+        {
+          "id": "ghoul_of_the_feast",
+          "uid": "90565826-2079305681"
+        }
+      ],
+      "spells": [
+        "spell_fluidity"
+      ],
+      "spells_cast": 4,
+      "trinkets": []
+    },
+    "after": {
+      "board": [],
+      "coins": 20,
+      "discover": [],
+      "hand": [],
+      "offers": [
+        "scourge_staff"
+      ],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "gilded_gargoyle",
+          "uid": "90565738-1851683692"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "90565756-1650611198"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "90565773-1623531215"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "90565790-2127397934"
+        },
+        {
+          "id": "murky",
+          "uid": "90565806-568963250"
+        },
+        {
+          "id": "ghoul_of_the_feast",
+          "uid": "90565826-2079305681"
+        }
+      ],
+      "spells": [
+        "spell_fluidity"
+      ],
+      "spells_cast": 4,
+      "trinkets": []
+    }
+  },
+  {
+    "check": "neutral staff confirms for full cost three",
+    "passed": false,
+    "before": {
+      "board": [],
+      "coins": 20,
+      "discover": [],
+      "hand": [],
+      "offers": [
+        "scourge_staff"
+      ],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "gilded_gargoyle",
+          "uid": "90565738-1851683692"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "90565756-1650611198"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "90565773-1623531215"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "90565790-2127397934"
+        },
+        {
+          "id": "murky",
+          "uid": "90565806-568963250"
+        },
+        {
+          "id": "ghoul_of_the_feast",
+          "uid": "90565826-2079305681"
+        }
+      ],
+      "spells": [
+        "spell_fluidity"
+      ],
+      "spells_cast": 4,
+      "trinkets": []
+    },
+    "after": {
+      "board": [],
+      "coins": 20,
+      "discover": [],
+      "hand": [],
+      "offers": [
+        "scourge_staff"
+      ],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "gilded_gargoyle",
+          "uid": "90565738-1851683692"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "90565756-1650611198"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "90565773-1623531215"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "90565790-2127397934"
+        },
+        {
+          "id": "murky",
+          "uid": "90565806-568963250"
+        },
+        {
+          "id": "ghoul_of_the_feast",
+          "uid": "90565826-2079305681"
+        }
+      ],
+      "spells": [
+        "spell_fluidity"
+      ],
+      "spells_cast": 4,
+      "trinkets": []
+    },
+    "harness_error": "Clicked empty middle slot; one supplied QA offer is at first column x=280, fixed tap for targeted rerun."
+  },
+  {
+    "check": "neutral staff confirms for full cost three (corrected tap)",
+    "passed": true,
+    "before": {
+      "board": [],
+      "coins": 20,
+      "discover": [],
+      "hand": [],
+      "offers": [
+        "scourge_staff"
+      ],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "gilded_gargoyle",
+          "uid": "90565738-1851683692"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "90565756-1650611198"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "90565773-1623531215"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "90565790-2127397934"
+        },
+        {
+          "id": "murky",
+          "uid": "90565806-568963250"
+        },
+        {
+          "id": "ghoul_of_the_feast",
+          "uid": "90565826-2079305681"
+        }
+      ],
+      "spells": [
+        "spell_fluidity"
+      ],
+      "spells_cast": 4,
+      "trinkets": []
+    },
+    "after": {
+      "board": [],
+      "coins": 17,
+      "discover": [],
+      "hand": [],
+      "offers": [],
+      "protocol": "allstars-0.50.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "gilded_gargoyle",
+          "uid": "90565738-1851683692"
+        },
+        {
+          "id": "corpse_refiner",
+          "uid": "90565756-1650611198"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "90565773-1623531215"
+        },
+        {
+          "id": "dreadbeard",
+          "uid": "90565790-2127397934"
+        },
+        {
+          "id": "murky",
+          "uid": "90565806-568963250"
+        },
+        {
+          "id": "ghoul_of_the_feast",
+          "uid": "90565826-2079305681"
+        }
+      ],
+      "spells": [
+        "spell_fluidity"
+      ],
+      "spells_cast": 4,
+      "trinkets": [
+        "scourge_staff"
+      ]
+    }
+  }
+]

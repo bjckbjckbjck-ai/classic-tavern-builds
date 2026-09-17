@@ -1,0 +1,814 @@
+[
+  {
+    "suite": "four_spells_v50_test",
+    "original_result": "OK",
+    "final_log": "v390-four_spells_v50_test.log",
+    "pass": 73,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "four_spells_ui_v50_test",
+    "original_result": "OK",
+    "final_log": "v390-four_spells_ui_v50_test.log",
+    "pass": 32,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "second_six_v50_test",
+    "original_result": "OK",
+    "final_log": "v390-second_six_v50_test.log",
+    "pass": 85,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "second_six_ui_v50_test",
+    "original_result": "OK",
+    "final_log": "v390-second_six_ui_v50_test.log",
+    "pass": 30,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "first_six_v50_test",
+    "original_result": "OK",
+    "final_log": "v390-first_six_v50_test.log",
+    "pass": 94,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "first_six_ui_v50_test",
+    "original_result": "OK",
+    "final_log": "v390-first_six_ui_v50_test.log",
+    "pass": 17,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "tribes_v50_test",
+    "original_result": "OK",
+    "final_log": "v390-tribes_v50_test.log",
+    "pass": 26,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "tribes_recruit_v50_test",
+    "original_result": "OK",
+    "final_log": "v390-tribes_recruit_v50_test.log",
+    "pass": 34,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "tribes_combat_v50_test",
+    "original_result": "OK",
+    "final_log": "v390-tribes_combat_v50_test.log",
+    "pass": 20,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "tribes_ui_v50_test",
+    "original_result": "OK",
+    "final_log": "v390-tribes_ui_v50_test.log",
+    "pass": 32,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "trinket_policy_v51_test",
+    "original_result": "OK",
+    "final_log": "v390-trinket_policy_v51_test.log",
+    "pass": 24,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "trinket_history_v51_test",
+    "original_result": "OK",
+    "final_log": "v390-trinket_history_v51_test.log",
+    "pass": 30,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "trinket_ui_v51_test",
+    "original_result": "OK",
+    "final_log": "v390-trinket_ui_v51_test.log",
+    "pass": 70,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "chain_v50_test",
+    "original_result": "OK",
+    "final_log": "v390-chain_v50_test.log",
+    "pass": 16,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "inspection_v50_test",
+    "original_result": "OK",
+    "final_log": "v390-inspection_v50_test.log",
+    "pass": 40,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "foyer_v49_test",
+    "original_result": "OK",
+    "final_log": "v390-foyer_v49_test.log",
+    "pass": 41,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "readability_v48_test",
+    "original_result": "OK",
+    "final_log": "v390-readability_v48_test.log",
+    "pass": 45,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "hand_platform_v47_test",
+    "original_result": "OK",
+    "final_log": "v390-hand_platform_v47_test.log",
+    "pass": 63,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "layout_v46_test",
+    "original_result": "OK",
+    "final_log": "v390-layout_v46_test.log",
+    "pass": 68,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "audit_v45_test",
+    "original_result": "FAILED",
+    "final_log": "v50-triage-audit_v45_test.log",
+    "pass": 23,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "settings_v44_test",
+    "original_result": "OK",
+    "final_log": "v390-settings_v44_test.log",
+    "pass": 9,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "ambience_v43_test",
+    "original_result": "OK",
+    "final_log": "v390-ambience_v43_test.log",
+    "pass": 7,
+    "failed": false,
+    "warnings_or_errors": [
+      "WARNING: ObjectDB instances leaked at exit (run with --verbose for details).",
+      "ERROR: 2 resources still in use at exit (run with --verbose for details)."
+    ]
+  },
+  {
+    "suite": "art_rail_v42_test",
+    "original_result": "OK",
+    "final_log": "v390-art_rail_v42_test.log",
+    "pass": 19,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "toolbar_v41_test",
+    "original_result": "OK",
+    "final_log": "v390-toolbar_v41_test.log",
+    "pass": 4,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "reference_v40_test",
+    "original_result": "OK",
+    "final_log": "v390-reference_v40_test.log",
+    "pass": 40,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "experience_v39_test",
+    "original_result": "OK",
+    "final_log": "v390-experience_v39_test.log",
+    "pass": 22,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "discover_lock_v38_test",
+    "original_result": "OK",
+    "final_log": "v390-discover_lock_v38_test.log",
+    "pass": 5,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "purchase_v38_test",
+    "original_result": "OK",
+    "final_log": "v390-purchase_v38_test.log",
+    "pass": 22,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "tomorrow_v37_test",
+    "original_result": "OK",
+    "final_log": "v390-tomorrow_v37_test.log",
+    "pass": 44,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "tomorrow_ui_v37_test",
+    "original_result": "OK",
+    "final_log": "v390-tomorrow_ui_v37_test.log",
+    "pass": 5,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "hero_armor_v36_test",
+    "original_result": "OK",
+    "final_log": "v390-hero_armor_v36_test.log",
+    "pass": 44,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "chance_3d_test",
+    "original_result": "OK",
+    "final_log": "v390-chance_3d_test.log",
+    "pass": 19,
+    "failed": false,
+    "warnings_or_errors": [
+      "WARNING: ObjectDB instances leaked at exit (run with --verbose for details)."
+    ]
+  },
+  {
+    "suite": "fusion_3d_test",
+    "original_result": "OK",
+    "final_log": "v390-fusion_3d_test.log",
+    "pass": 11,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "spirit_3d_test",
+    "original_result": "OK",
+    "final_log": "v390-spirit_3d_test.log",
+    "pass": 10,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "spatial_3d_test",
+    "original_result": "OK",
+    "final_log": "v390-spatial_3d_test.log",
+    "pass": 8,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "tactile_3d_test",
+    "original_result": "OK",
+    "final_log": "v390-tactile_3d_test.log",
+    "pass": 14,
+    "failed": false,
+    "warnings_or_errors": [
+      "WARNING: ObjectDB instances leaked at exit (run with --verbose for details).",
+      "ERROR: 1 resources still in use at exit (run with --verbose for details)."
+    ]
+  },
+  {
+    "suite": "render_health_test",
+    "original_result": "OK",
+    "final_log": "v390-render_health_test.log",
+    "pass": 8,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "presentation_3d_test",
+    "original_result": "OK",
+    "final_log": "v390-presentation_3d_test.log",
+    "pass": 22,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "issue_v29_test",
+    "original_result": "OK",
+    "final_log": "v390-issue_v29_test.log",
+    "pass": 30,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "issue_ui_v29_test",
+    "original_result": "OK",
+    "final_log": "v390-issue_ui_v29_test.log",
+    "pass": 11,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "issue_v28_test",
+    "original_result": "OK",
+    "final_log": "v390-issue_v28_test.log",
+    "pass": 37,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "issue_ui_v28_test",
+    "original_result": "OK",
+    "final_log": "v390-issue_ui_v28_test.log",
+    "pass": 9,
+    "failed": false,
+    "warnings_or_errors": [
+      "WARNING: ObjectDB instances leaked at exit (run with --verbose for details).",
+      "ERROR: 3 resources still in use at exit (run with --verbose for details)."
+    ]
+  },
+  {
+    "suite": "issue_v27_test",
+    "original_result": "OK",
+    "final_log": "v390-issue_v27_test.log",
+    "pass": 23,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "issue_ui_v27_test",
+    "original_result": "OK",
+    "final_log": "v390-issue_ui_v27_test.log",
+    "pass": 8,
+    "failed": false,
+    "warnings_or_errors": [
+      "WARNING: ObjectDB instances leaked at exit (run with --verbose for details).",
+      "ERROR: 4 resources still in use at exit (run with --verbose for details)."
+    ]
+  },
+  {
+    "suite": "cadence_v26_test",
+    "original_result": "OK",
+    "final_log": "v390-cadence_v26_test.log",
+    "pass": 32,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "cadence_ui_v26_test",
+    "original_result": "OK",
+    "final_log": "v390-cadence_ui_v26_test.log",
+    "pass": 8,
+    "failed": false,
+    "warnings_or_errors": [
+      "WARNING: ObjectDB instances leaked at exit (run with --verbose for details).",
+      "ERROR: 3 resources still in use at exit (run with --verbose for details)."
+    ]
+  },
+  {
+    "suite": "experience_v25_test",
+    "original_result": "OK",
+    "final_log": "v390-experience_v25_test.log",
+    "pass": 24,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "experience_ui_v25_test",
+    "original_result": "OK",
+    "final_log": "v390-experience_ui_v25_test.log",
+    "pass": 7,
+    "failed": false,
+    "warnings_or_errors": [
+      "WARNING: ObjectDB instances leaked at exit (run with --verbose for details).",
+      "ERROR: 2 resources still in use at exit (run with --verbose for details)."
+    ]
+  },
+  {
+    "suite": "issue_v24_test",
+    "original_result": "OK",
+    "final_log": "v390-issue_v24_test.log",
+    "pass": 26,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "issue_ui_v24_test",
+    "original_result": "OK",
+    "final_log": "v390-issue_ui_v24_test.log",
+    "pass": 16,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "darkmoon_v23_test",
+    "original_result": "OK",
+    "final_log": "v390-darkmoon_v23_test.log",
+    "pass": 66,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "darkmoon_ui_v23_test",
+    "original_result": "OK",
+    "final_log": "v390-darkmoon_ui_v23_test.log",
+    "pass": 10,
+    "failed": false,
+    "warnings_or_errors": [
+      "WARNING: ObjectDB instances leaked at exit (run with --verbose for details).",
+      "ERROR: 4 resources still in use at exit (run with --verbose for details)."
+    ]
+  },
+  {
+    "suite": "trinkets_v22_test",
+    "original_result": "OK",
+    "final_log": "v390-trinkets_v22_test.log",
+    "pass": 41,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "trinkets_ui_v22_test",
+    "original_result": "OK",
+    "final_log": "v390-trinkets_ui_v22_test.log",
+    "pass": 10,
+    "failed": false,
+    "warnings_or_errors": [
+      "WARNING: ObjectDB instances leaked at exit (run with --verbose for details).",
+      "ERROR: 2 resources still in use at exit (run with --verbose for details)."
+    ]
+  },
+  {
+    "suite": "combat_audit_v21_test",
+    "original_result": "OK",
+    "final_log": "v390-combat_audit_v21_test.log",
+    "pass": 14,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "issue_v21_test",
+    "original_result": "OK",
+    "final_log": "v390-issue_v21_test.log",
+    "pass": 26,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "issue_ui_v21_test",
+    "original_result": "OK",
+    "final_log": "v390-issue_ui_v21_test.log",
+    "pass": 10,
+    "failed": false,
+    "warnings_or_errors": [
+      "WARNING: ObjectDB instances leaked at exit (run with --verbose for details).",
+      "ERROR: 2 resources still in use at exit (run with --verbose for details)."
+    ]
+  },
+  {
+    "suite": "issue_v20_test",
+    "original_result": "OK",
+    "final_log": "v390-issue_v20_test.log",
+    "pass": 16,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "issue_ui_v20_test",
+    "original_result": "OK",
+    "final_log": "v390-issue_ui_v20_test.log",
+    "pass": 8,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "issue_v19_test",
+    "original_result": "OK",
+    "final_log": "v390-issue_v19_test.log",
+    "pass": 21,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "issue_ui_v19_test",
+    "original_result": "OK",
+    "final_log": "v390-issue_ui_v19_test.log",
+    "pass": 4,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "economy_v18_test",
+    "original_result": "OK",
+    "final_log": "v390-economy_v18_test.log",
+    "pass": 53,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "economy_ui_v18_test",
+    "original_result": "OK",
+    "final_log": "v390-economy_ui_v18_test.log",
+    "pass": 9,
+    "failed": false,
+    "warnings_or_errors": [
+      "WARNING: ObjectDB instances leaked at exit (run with --verbose for details).",
+      "ERROR: 1 resources still in use at exit (run with --verbose for details)."
+    ]
+  },
+  {
+    "suite": "undead_v17_test",
+    "original_result": "OK",
+    "final_log": "v390-undead_v17_test.log",
+    "pass": 33,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "ai_trade_v17_test",
+    "original_result": "OK",
+    "final_log": "v390-ai_trade_v17_test.log",
+    "pass": 10,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "undead_ui_v17_test",
+    "original_result": "OK",
+    "final_log": "v390-undead_ui_v17_test.log",
+    "pass": 8,
+    "failed": false,
+    "warnings_or_errors": [
+      "WARNING: ObjectDB instances leaked at exit (run with --verbose for details).",
+      "ERROR: 4 resources still in use at exit (run with --verbose for details)."
+    ]
+  },
+  {
+    "suite": "recruit_v16_test",
+    "original_result": "OK",
+    "final_log": "v390-recruit_v16_test.log",
+    "pass": 8,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "ai_plan_v16_test",
+    "original_result": "OK",
+    "final_log": "v390-ai_plan_v16_test.log",
+    "pass": 15,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "feedback_ui_v16_test",
+    "original_result": "OK",
+    "final_log": "v390-feedback_ui_v16_test.log",
+    "pass": 8,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "originals_v15_test",
+    "original_result": "OK",
+    "final_log": "v390-originals_v15_test.log",
+    "pass": 18,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "originals_ui_v15_test",
+    "original_result": "OK",
+    "final_log": "v390-originals_ui_v15_test.log",
+    "pass": 6,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "expansion_v14_test",
+    "original_result": "OK",
+    "final_log": "v390-expansion_v14_test.log",
+    "pass": 26,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "heroes_v14_test",
+    "original_result": "OK",
+    "final_log": "v390-heroes_v14_test.log",
+    "pass": 4,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "armor_ui_v14_test",
+    "original_result": "OK",
+    "final_log": "v390-armor_ui_v14_test.log",
+    "pass": 5,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "king_v13_test",
+    "original_result": "OK",
+    "final_log": "v390-king_v13_test.log",
+    "pass": 8,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "experience_v13_test",
+    "original_result": "OK",
+    "final_log": "v390-experience_v13_test.log",
+    "pass": 10,
+    "failed": false,
+    "warnings_or_errors": [
+      "WARNING: ObjectDB instances leaked at exit (run with --verbose for details).",
+      "ERROR: 5 resources still in use at exit (run with --verbose for details)."
+    ]
+  },
+  {
+    "suite": "heroes_v12_test",
+    "original_result": "OK",
+    "final_log": "v390-heroes_v12_test.log",
+    "pass": 4,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "playstyles_v12_test",
+    "original_result": "OK",
+    "final_log": "v390-playstyles_v12_test.log",
+    "pass": 27,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "ux_v12_test",
+    "original_result": "OK",
+    "final_log": "v390-ux_v12_test.log",
+    "pass": 7,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "presentation_v11_test",
+    "original_result": "OK",
+    "final_log": "v390-presentation_v11_test.log",
+    "pass": 25,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "ux_v11_test",
+    "original_result": "OK",
+    "final_log": "v390-ux_v11_test.log",
+    "pass": 8,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "spells_v10_test",
+    "original_result": "OK",
+    "final_log": "v390-spells_v10_test.log",
+    "pass": 64,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "ux_v10_test",
+    "original_result": "OK",
+    "final_log": "v390-ux_v10_test.log",
+    "pass": 8,
+    "failed": false,
+    "warnings_or_errors": [
+      "WARNING: ObjectDB instances leaked at exit (run with --verbose for details).",
+      "ERROR: 1 resources still in use at exit (run with --verbose for details)."
+    ]
+  },
+  {
+    "suite": "stacked_v9_test",
+    "original_result": "OK",
+    "final_log": "v390-stacked_v9_test.log",
+    "pass": 72,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "ux_v9_test",
+    "original_result": "OK",
+    "final_log": "v390-ux_v9_test.log",
+    "pass": 14,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "rules_test",
+    "original_result": "OK",
+    "final_log": "v390-rules_test.log",
+    "pass": 32,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "migration_test",
+    "original_result": "OK",
+    "final_log": "v390-migration_test.log",
+    "pass": 12,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "stacking_test",
+    "original_result": "OK",
+    "final_log": "v390-stacking_test.log",
+    "pass": 25,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "offline_ui_test",
+    "original_result": "OK",
+    "final_log": "v390-offline_ui_test.log",
+    "pass": 7,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "feel_test",
+    "original_result": "OK",
+    "final_log": "v390-feel_test.log",
+    "pass": 6,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "ai_content_test",
+    "original_result": "OK",
+    "final_log": "v390-ai_content_test.log",
+    "pass": 27,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "difficulty_ui_test",
+    "original_result": "OK",
+    "final_log": "v390-difficulty_ui_test.log",
+    "pass": 5,
+    "failed": false,
+    "warnings_or_errors": [
+      "WARNING: ObjectDB instances leaked at exit (run with --verbose for details).",
+      "ERROR: 2 resources still in use at exit (run with --verbose for details)."
+    ]
+  },
+  {
+    "suite": "allstars_test",
+    "original_result": "OK",
+    "final_log": "v390-allstars_test.log",
+    "pass": 20,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "ux_v7_test",
+    "original_result": "OK",
+    "final_log": "v390-ux_v7_test.log",
+    "pass": 12,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "six_tribes_test",
+    "original_result": "OK",
+    "final_log": "v390-six_tribes_test.log",
+    "pass": 48,
+    "failed": false,
+    "warnings_or_errors": []
+  },
+  {
+    "suite": "ux_v8_test",
+    "original_result": "OK",
+    "final_log": "v390-ux_v8_test.log",
+    "pass": 14,
+    "failed": false,
+    "warnings_or_errors": []
+  }
+]

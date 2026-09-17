@@ -1,0 +1,17 @@
+[
+  {
+    "name": "ClassicTavern-v0.50.0.apk",
+    "bytes": 221769825,
+    "sha256": "14433ff03ef7048702b0ce19fd6abd429c8bdfbc43df33b1928a28b9cdb5e4e6"
+  },
+  {
+    "name": "ClassicTavern-v0.50.0.exe",
+    "bytes": 242530208,
+    "sha256": "6af1d0f687dbc3761c0a6c771a6c3e20b6c2860b4fd259ab8e9351b104add177"
+  },
+  {
+    "name": "ClassicTavern-v0.50.0-Windows.zip",
+    "bytes": 174465436,
+    "sha256": "21c44b6b6b9371c5ba686dedc4bdb15231dbbe2f9b29f26feadfa9810be7d744"
+  }
+]

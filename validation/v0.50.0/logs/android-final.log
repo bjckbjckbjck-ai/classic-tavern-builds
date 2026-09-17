@@ -1,0 +1,22 @@
+--------- beginning of main
+09-17 04:48:15.871  2516  2516 V Godot   : InitEngine with params: [--xr_mode_regular, --xr-mode, off, --fullscreen, --background_color, #000000]
+09-17 04:48:15.871  2516  2516 V Godot   : Initializing Godot plugin registry
+09-17 04:48:15.966  2516  2516 V Godot   : Godot native layer initialization completed: true
+09-17 04:48:15.985  2516  2516 V Godot   : Godot native layer setup completed
+09-17 04:48:15.985  2516  2516 V Godot   : OnInitRenderView: GodotFragment{d708729} (3c77dce8-1158-49b7-97a0-1c22e3f9f55c id=0x7f070033)
+09-17 04:48:15.996  2516  2516 D Godot   : Render view should be transparent: false
+09-17 04:48:15.996  2516  2516 D Godot   : usesVulkan(): false
+09-17 04:48:15.996  2516  2516 D Godot   : 			renderingDevice: opengl3 (ProjectSettings)
+09-17 04:48:15.996  2516  2516 D Godot   : 			renderer: gl_compatibility (ProjectSettings)
+09-17 04:48:16.040  2516  2516 V Godot   : OnStart: GodotFragment{d708729} (3c77dce8-1158-49b7-97a0-1c22e3f9f55c id=0x7f070033)
+09-17 04:48:16.042  2516  2516 V Godot   : OnResume: GodotFragment{d708729} (3c77dce8-1158-49b7-97a0-1c22e3f9f55c id=0x7f070033)
+09-17 04:48:16.179  2516  2543 I godot   : Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+09-17 04:48:16.241  2516  2543 E godot   : WARNING: Failed to load cached shader, recompiling.
+09-17 04:48:16.241  2516  2543 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:612)
+09-17 04:48:16.527  2516  2543 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 595.97) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2)
+09-17 04:48:16.548  2516  2543 I godot   : 
+09-17 04:48:17.578  2516  2543 V Godot   : OnGodotSetupCompleted
+09-17 04:48:18.284  2516  2543 V Godot   : OnGodotMainLoopStarted
+09-17 04:49:05.470  2516  2543 I godot   : PRESENTATION VERIFIED Android msaa=0 cards=15
+09-17 04:52:31.510  2516  2543 I godot   : PRESENTATION VERIFIED Android msaa=0 cards=21
+09-17 04:58:36.837  2516  2543 I godot   : PRESENTATION VERIFIED Android msaa=0 cards=21

@@ -1,0 +1,65 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS 16-9 desktop hand forms a shallow fan
+UI PASS 16-9 desktop fan corners stay inside the display
+UI PASS 16-9 desktop hand centers below hero
+UI PASS 16-9 desktop hero sits above the hand
+UI PASS 16-9 skill and trinkets leave hand input clear
+UI PASS 16-9 desktop focused card appears above the hero HUD
+UI PASS 16-9 mobile hand starts in the lower-right pocket
+UI PASS 16-9 one pocket tap expands without selecting or playing
+UI PASS 16-9 mobile cards enlarge into a shallow fan
+UI PASS 16-9 expanded mobile fan corners stay inside the display
+UI PASS 16-9 expanded 3D hand overlays hero while staying below dialogs
+UI PASS 16-9 ordinary room snapshots keep the hand expanded
+UI PASS 16-9 cancelled hand drag stays expanded without losing a card
+UI PASS 16-9 expanded touch selects card 0
+UI PASS 16-9 expanded touch selects card 1
+UI PASS 16-9 expanded touch selects card 2
+UI PASS 16-9 expanded touch selects card 3
+UI PASS 16-9 expanded touch selects card 4
+UI PASS 16-9 expanded touch selects card 5
+UI PASS 16-9 expanded touch selects card 6
+UI PASS 16-9 expanded touch selects card 7
+UI PASS 16-9 expanded touch selects card 8
+UI PASS 16-9 expanded touch selects card 9
+UI PASS 16-9 successful middle-card play folds mobile hand
+UI PASS 16-9 buying tenth card into folded pocket charges once
+UI PASS 16-9 tapping empty board folds without a game action
+UI PASS 16-9 full detail remains above expanded hand
+UI PASS 16-9 discover folds the hand and disables its toggle
+UI PASS 16-9 discover choice is not intercepted by folded hand
+UI PASS 16-9 2D fallback supports the same expanded touch hand
+UI PASS 20-9 desktop hand forms a shallow fan
+UI PASS 20-9 desktop fan corners stay inside the display
+UI PASS 20-9 desktop hand centers below hero
+UI PASS 20-9 desktop hero sits above the hand
+UI PASS 20-9 skill and trinkets leave hand input clear
+UI PASS 20-9 desktop focused card appears above the hero HUD
+UI PASS 20-9 mobile hand starts in the lower-right pocket
+UI PASS 20-9 one pocket tap expands without selecting or playing
+UI PASS 20-9 mobile cards enlarge into a shallow fan
+UI PASS 20-9 expanded mobile fan corners stay inside the display
+UI PASS 20-9 expanded 3D hand overlays hero while staying below dialogs
+UI PASS 20-9 ordinary room snapshots keep the hand expanded
+UI PASS 20-9 cancelled hand drag stays expanded without losing a card
+UI PASS 20-9 expanded touch selects card 0
+UI PASS 20-9 expanded touch selects card 1
+UI PASS 20-9 expanded touch selects card 2
+UI PASS 20-9 expanded touch selects card 3
+UI PASS 20-9 expanded touch selects card 4
+UI PASS 20-9 expanded touch selects card 5
+UI PASS 20-9 expanded touch selects card 6
+UI PASS 20-9 expanded touch selects card 7
+UI PASS 20-9 expanded touch selects card 8
+UI PASS 20-9 expanded touch selects card 9
+UI PASS 20-9 successful middle-card play folds mobile hand
+UI PASS 20-9 buying tenth card into folded pocket charges once
+UI PASS 20-9 tapping empty board folds without a game action
+UI PASS 20-9 full detail remains above expanded hand
+UI PASS 20-9 discover folds the hand and disables its toggle
+UI PASS 20-9 discover choice is not intercepted by folded hand
+UI PASS 20-9 2D fallback supports the same expanded touch hand
+UI PASS combat starts with folded mobile read-only hand
+UI PASS combat frame refresh preserves the expanded shallow fan
+UI PASS combat hand cannot be played by dragging

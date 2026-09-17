@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-09-17T05:02:25.397661+00:00",
+  "android_app": "force-stopped on owned QA emulator",
+  "qa_godot_host": "owned host stopped after command-line validation; fresh process scan found no android_pool_v50_host.gd Godot process",
+  "emulator": "owned emulator stopped with adb emu kill; fresh adb devices list is empty",
+  "scope": "No system power, driver, proxy, network, or unrelated process changes"
+}

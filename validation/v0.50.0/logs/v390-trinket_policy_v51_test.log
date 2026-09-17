@@ -1,0 +1,26 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS official-style offer contains four choices
+PASS lesser offer has neutral typed and affordable choices
+PASS requested historical trinkets exist
+PASS quotes explain base price weight and discount
+PASS eligible off-type pivot reduces cost by two
+PASS quote never mutates catalog base cost
+PASS core pirate portrait requires actual pirate commitment
+PASS held minion completes lesser threshold
+PASS greater commitment requires three not two
+PASS third pirate unlocks greater core
+PASS most-common weight is explicit and independent of fit score
+PASS owned identical ID excluded but other size allowed
+PASS neutral trinket never receives tribal discount
+PASS neutral Scourge Staff remains eligible with an empty board despite legacy in-type metadata
+PASS neutral Staff keeps its full price and never receives a tribal discount
+PASS neutral eligibility still excludes an already owned identical trinket
+PASS pivot price floors at zero
+PASS unavailable tribe never offered even as pivot
+PASS delayed transformation trinkets mutually exclusive
+PASS 300 seeded offer checks preserve four-choice guarantees and exclusions
+PASS lesser recommendations are diverse and do not force the highest tribe
+PASS authority seed fully reproduces offers
+PASS sparse custom pool returns available unique options without hanging
+PASS empty custom pool terminates cleanly

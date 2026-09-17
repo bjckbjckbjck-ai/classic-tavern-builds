@@ -1,0 +1,42 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS desktop hover enlarges an actual card
+UI PASS hover is read-only and non-modal
+UI PASS desktop annotations stay open while scrolling
+UI PASS leaving the card dismisses hover
+UI PASS mobile power has a larger visible touch target
+UI PASS mobile trinkets have larger visible touch targets
+UI PASS all eight mobile ranking touch targets are widened
+UI PASS power stays clear of folded mobile hand
+UI PASS mobile pointer emulation never opens desktop hover
+UI PASS mobile long press opens a contextual enlarged card
+UI PASS inspection never buys a minion
+UI PASS inspection leaves the board undimmed
+UI PASS outside tap dismisses without clicking through
+UI PASS holding hero power shows its effect without activating it
+UI PASS large source artwork stays inside its inspection frame
+UI PASS normal tap after inspection activates the hero power once
+UI PASS unavailable power still supports read-only long press
+UI PASS holding a trinket explains it without leaving the board
+UI PASS expanded hand takes long press above the covered hero power
+UI PASS room snapshot preserves expanded hand input order
+UI PASS desktop hover enlarges an actual card
+UI PASS hover is read-only and non-modal
+UI PASS desktop annotations stay open while scrolling
+UI PASS leaving the card dismisses hover
+UI PASS mobile power has a larger visible touch target
+UI PASS mobile trinkets have larger visible touch targets
+UI PASS all eight mobile ranking touch targets are widened
+UI PASS power stays clear of folded mobile hand
+UI PASS mobile pointer emulation never opens desktop hover
+UI PASS mobile long press opens a contextual enlarged card
+UI PASS inspection never buys a minion
+UI PASS inspection leaves the board undimmed
+UI PASS outside tap dismisses without clicking through
+UI PASS holding hero power shows its effect without activating it
+UI PASS large source artwork stays inside its inspection frame
+UI PASS normal tap after inspection activates the hero power once
+UI PASS unavailable power still supports read-only long press
+UI PASS holding a trinket explains it without leaving the board
+UI PASS expanded hand takes long press above the covered hero power
+UI PASS room snapshot preserves expanded hand input order

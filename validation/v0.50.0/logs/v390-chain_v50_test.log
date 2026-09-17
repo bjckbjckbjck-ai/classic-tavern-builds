@@ -1,0 +1,18 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS each Titus repeat summons then attacks before next summon; golden=false
+PASS immediate chain never exceeds seven slots
+PASS each Titus repeat summons then attacks before next summon; golden=true
+PASS immediate chain never exceeds seven slots
+PASS printed plus two attached pirates repeat individually even with one vacant slot
+PASS surviving immediate pirate really occupies the slot and blocks later summons
+PASS waiting copy cannot steal the second simultaneous deathrattle slot
+PASS reserved exact copy returns once only after a later stable vacancy
+PASS waiting copy does not interrupt immediate attack repeats
+PASS replay places deferred return after all immediate attacks
+PASS deathrattle then stacked reborn resolve before reserved-space summon
+PASS Teron start completes all three pirate attacks then restores exact original
+PASS nested effect scopes unwind to a stable boundary
+PASS opponent deathrattle nested during immediate strike resolves without hanging
+PASS both sides respect capacity throughout nested combat
+PASS self-replicating custom chain hits explicit recursion guard and unwinds safely

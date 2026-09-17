@@ -1,0 +1,62 @@
+[
+  {
+    "path": "project.godot",
+    "sha256": "1132f71ca3c28d2130ca2ff2558909bee100426f62afba515ce253b4f759ee9b"
+  },
+  {
+    "path": "export_presets.cfg",
+    "sha256": "113d0f18d89d514f66a5b40a987fd05a542ba890644a6d8af7044c94855fdfc4"
+  },
+  {
+    "path": "scripts/update_checker.gd",
+    "sha256": "acb5a4ac042af65634104d392b9643ece5b11b351805232b0ff4a2d196860803"
+  },
+  {
+    "path": "构建.ps1",
+    "sha256": "cd5aa9aeadbc655d7e34c66fc0a80da98e926187bf1c4a906e28d93838cd5a32"
+  },
+  {
+    "path": "data/releases.json",
+    "sha256": "1b17eeaeca6f2c027750efd9aa9b11f47d4f03c0561f615655002d2bda6314e2"
+  },
+  {
+    "path": "data/spells.json",
+    "sha256": "1f662b3366d7e7be33f378fb6c6f82bb5837ff7eafe5ec73b210263dc2b6a9cd"
+  },
+  {
+    "path": "data/darkmoon-prizes.json",
+    "sha256": "891eaee49a87c64ad02020b8c675efe0729219a69d9d75aacf25a8987a612639"
+  },
+  {
+    "path": "scripts/trinket_policy.gd",
+    "sha256": "0d41f619ceed4b2b859040cf1eb683fb5015a56247efac0c58c566ac7a2cae42"
+  },
+  {
+    "path": "tests/trinket_policy_v51_test.gd",
+    "sha256": "3fc71d4900e6d6a5d8405e1e01457968d0b00670ce4e9b9d3f6546da66710aa3"
+  },
+  {
+    "path": "scripts/generate_global_pool.py",
+    "sha256": "3f0c4b3a7fc327d3aab1a750c8c37dc2256585ed9327397edd957d6a6bfa4fe3"
+  },
+  {
+    "path": "tests/test_global_pool_v50.py",
+    "sha256": "7568aa7e829f0cd0b85ab2bffffb524717f265e75e33c158aeb224e7f1d5d8ea"
+  },
+  {
+    "path": "scripts/main.gd",
+    "sha256": "0d90e97e59aab7de0bfb2cd5526f01b263a7ffacb8d5e162e15d41384762d806"
+  },
+  {
+    "path": "tests/audit_v45_test.gd",
+    "sha256": "2d6a35523a840a2ab4fcc582cc95dd29f2b92237521b9d728b2bce274ec9d881"
+  },
+  {
+    "path": "tests/android_pool_v50_host.gd",
+    "sha256": "d74bb2300b3e29aeb9f4f03c4b1b5ab73cd13db04a043564bfb4d6eb1b7cc0f8"
+  },
+  {
+    "path": "tests/android_pool_v50_host.gd.uid",
+    "sha256": "eabbdc8adfc3401202ec1d7deb1336c85f82fa0c8b72ff1bfb92dfe2425a70b8"
+  }
+]

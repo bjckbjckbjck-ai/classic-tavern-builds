@@ -1,0 +1,32 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS six new shop minions render their matching original artwork
+UI PASS visible recruit attacks include one live Cyborg aura
+UI PASS raw state and already-displayed details show the same effective attack exactly once
+UI PASS detail explains the temporary aura contribution
+UI PASS losing one of two shields retains displayed attack
+UI PASS losing the final shield removes displayed aura
+UI PASS shield restoration refreshes display without permanent stat mutation
+UI PASS combat replay presentation uses its captured conditional aura
+UI PASS dead aura source is absent from replay display
+UI PASS actual 3D shop drag buys one Cyborg into the hand
+UI PASS desktop keeps ten cards in a shallow central fan
+UI PASS desktop does not duplicate the visible central hero
+UI PASS first mobile tap only unfolds the shallow fan
+UI PASS expanded mobile hand retains readable hero health and armor
+UI PASS read-only hero vitals do not intercept card or board input
+UI PASS hero vitals sit outside the fan and ready button
+UI PASS full card detail hides the auxiliary hero display
+UI PASS closing detail restores the expanded-hand hero information
+UI PASS combat animation does not reveal future lethal health or armor
+UI PASS completed lethal result greys the hero and shows final vitals
+UI PASS spectator display follows the watched hero rather than the local identity
+UI PASS pending discovery closes the fan and hides redundant hero vitals
+UI PASS trinket selection closes the fan and hides hero vitals
+UI PASS 2D fallback preserves expanded hand and readable hero information
+UI PASS 20:9 layout keeps hero information visible outside the shallow fan
+UI PASS expanded mobile hand still accepts a real play drag
+UI PASS empty board tap folds hand and removes auxiliary vitals
+UI PASS second-level horse token is searchable in token collection
+UI PASS both dual-type horse tokens are listed as mechanical tokens
+UI PASS retired crystal remains inspectable in its separate collection

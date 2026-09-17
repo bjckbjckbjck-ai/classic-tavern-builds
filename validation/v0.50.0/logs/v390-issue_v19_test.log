@@ -1,0 +1,24 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS 157 card definitions validate
+PASS triple itself awards only a gold minion
+PASS playing gold gives reward spell, no immediate discovery
+PASS reward is zero cost and fixed tier four
+PASS later tavern upgrade does not change held reward tier
+PASS triple reward is not a tavern spell trigger
+PASS gold magnetic play gives reward once
+PASS battlecry replay does not repeat triple reward
+PASS full hand cannot overflow on reward
+PASS three gained pirates track without early payout
+PASS spells and beasts do not count
+PASS normal plus gold pay additive cap, no immediate gold
+PASS gain progress persists across rounds
+PASS gold triple preserves highest progress without duplicate payout
+PASS original battlecry cap responds to Brann
+PASS original end-turn cap responds to Drakkari
+PASS macaw selects leftmost eligible deathrattle, gold repeats: false
+PASS macaw emits target-specific event
+PASS macaw selects leftmost eligible deathrattle, gold repeats: true
+PASS macaw emits target-specific event
+PASS attached deathrattle qualifies for skull marker
+V19 RESULT 21 passed / 0 failed
