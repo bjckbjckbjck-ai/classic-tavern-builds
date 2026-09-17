@@ -1,0 +1,15 @@
+{
+  "source_commit": "4dc5a7adcff398dd0122bf8340c0520ab477b58f",
+  "public_evidence_commit": "d50306ace33f2499cdace6cfcd802f91ab9c3a41",
+  "native_ui_checks": 271,
+  "related_suites": 9,
+  "public_repository": "bjckbjckbjck-ai/classic-tavern-builds",
+  "branch": "3d",
+  "released": false,
+  "issue": 18,
+  "issue_state": "open",
+  "comment_id": 5708559316,
+  "comment_url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/18#issuecomment-5708559316",
+  "comment_readback_verified": true,
+  "latest_release_checked": "v0.49.0"
+}
