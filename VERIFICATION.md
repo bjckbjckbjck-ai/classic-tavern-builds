@@ -41,7 +41,7 @@
 - `android-actions.json`：操作前后房主权威状态；`screenshots.json`：最终 APK 原始 PNG 与同尺寸 WebP 哈希。
 - `android-final/`：最终安装包截图；开发候选截图没有混作最终包证据。
 
-发布后的下载验证、issue 状态与清理结果另记 download-check.json、issue-maintenance.json、cleanup.json。
+已于2026-09-17发布[v0.50.0](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.50.0)。APK、EXE、Windows ZIP与校验文本均完整下载，HTTP 200，大小和SHA-256一致；下载记录见download-check.json，GitHub资产见github-assets.json。#25已回复关闭、#18保持开放，见issue-maintenance.json；专用房主、应用与模拟器清理见cleanup.json。Windows ZIP内文档为打包时快照，公开仓库保留最终发布状态。
 
 ## 历史阶段记录
 

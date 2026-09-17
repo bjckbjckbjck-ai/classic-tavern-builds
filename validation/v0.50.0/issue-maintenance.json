@@ -1,0 +1,16 @@
+{
+  "release": "v0.50.0",
+  "issue25": {
+    "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/25",
+    "state": "closed",
+    "state_reason": "completed",
+    "closed_at": "2026-09-17T05:07:09Z",
+    "comment": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/25#issuecomment-5709014385"
+  },
+  "issue18": {
+    "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/18",
+    "state": "open",
+    "comment": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/18#issuecomment-5709018861",
+    "remaining": ["hero draft arches", "expanded hand and hero information", "wood repetition and frame materials", "reward audio and music", "physical Android long sessions", "external two-device networking"]
+  }
+}
