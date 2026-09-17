@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-17",
+  "source_implementation": "c790b8c393ae420964bb05443a0c6d02a2394351",
+  "source_evidence": "124d1ae",
+  "public_evidence": "5340dbfb2b2687daefa86dddb14ae972ae8de6f6",
+  "remote_head_verified": true,
+  "issue": 18,
+  "issue_comment_id": 5711311454,
+  "issue_comment_readback": true,
+  "issue_url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/18#issuecomment-5711311454",
+  "issue_kept_open": true,
+  "formal_download_version": "0.50.0",
+  "new_package_published": false,
+  "independent_spec_review": "PASS",
+  "independent_quality_review": "PASS",
+  "native_unique_suites": 5,
+  "native_checks": 213,
+  "screenshots_including_before": 30
+}
