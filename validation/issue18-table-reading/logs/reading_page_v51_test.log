@@ -1,0 +1,36 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+UI PASS main menu journal click opens reader
+UI PASS all journal entries preserved as plain text
+UI PASS journal wraps without horizontal overflow
+UI PASS wheel reaches final journal line
+UI PASS Home returns to first line
+UI PASS PageDown advances
+UI PASS PageUp returns
+UI PASS End reaches last line
+UI PASS touch swipes reach final journal line
+UI PASS canceled touch stays in reader and releases gesture
+UI PASS ordinary render retains journal and scroll
+UI PASS back returns to main menu
+PRESENTATION VERIFIED Windows msaa=1 cards=4
+UI PASS recruit snapshot retains journal
+UI PASS recruit snapshot retains rules
+UI PASS active game snapshot retains skill page while recruit clock advances
+UI PASS updated counters preserve reader instance and reading position
+UI PASS reader centered at (1600, 900)
+UI PASS resize preserves text and scroll at (1600, 900)
+UI PASS reader centered at (2000, 900)
+UI PASS resize preserves text and scroll at (2000, 900)
+UI PASS mobile uses larger body font
+UI PASS back restores active recruitment
+UI PASS hero settlement armed before reading in false
+UI PASS armed settlement completes without replacing reader in false
+UI PASS reader does not defer authoritative hero damage in false
+UI PASS return restores resolved combat in false
+UI PASS hero settlement armed before reading in true
+UI PASS armed settlement completes without replacing reader in true
+UI PASS reader does not defer authoritative hero damage in true
+UI PASS return restores resolved combat in true
+UI PASS deferred 3D settlement respects a newly opened reading page
+READING V51 failures: 0

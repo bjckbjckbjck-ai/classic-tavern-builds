@@ -2,6 +2,8 @@
 
 2026-09-17，Godot 4.6.1 / Windows 原生窗口。正式公开版本仍为 v0.50.0；本目录是后续开发证据，不是新版 APK 或实体手机验收。
 
+**续检更新：** 用户确认额度恢复后，重新完成独立质量审查，结论PASS；独立复跑英雄选择和手机血甲两套headless测试通过。原生画面仍引用本目录已保存证据。下文额度限制为上轮历史记录，已不再是当前未完成项。
+
 ## 真实参考与实际差距
 
 实际查看暴雪[第9赛季英雄选择 GIF](https://news.blizzard.com/en-gb/article/24159389/announcing-battlegrounds-season-9)及[2019年英雄选择介绍](https://hearthstone.blizzard.com/en-us/news/23156373)。官方画面用于研究四个独立拱形肖像、护甲位置、姓名条和统一确认；媒体地址及哈希见 references.json。参考图没有加入游戏资源，也没有移植付费重抽。

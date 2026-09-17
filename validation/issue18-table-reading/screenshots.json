@@ -1,0 +1,212 @@
+[
+  {
+    "path": "screenshots/table-before-16x9-3d.png",
+    "source": ".runtime\\v51-table-before\\16x9-3d.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "2972a72eae6baab1b1ed0a89cf425889795550b7928c7fece92510ca37d4a7f3"
+  },
+  {
+    "path": "screenshots/table-after-16x9-2d.png",
+    "source": ".runtime\\v51-table-after\\16x9-2d.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "a2b73c0910d943daed6447a4e3489e7a16a113b32dba994b8809cb02010ba838"
+  },
+  {
+    "path": "screenshots/table-after-16x9-3d.png",
+    "source": ".runtime\\v51-table-after\\16x9-3d.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "e3530bdf02fd2ddddce889afdc69c5e4aec55a77fe0869d4045f2efa7b2f66f9"
+  },
+  {
+    "path": "screenshots/table-before-20x9-3d.png",
+    "source": ".runtime\\v51-table-before\\20x9-3d.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "166e319507ca0cde27311df7d9a9290683d2999d696db07e710374b238e00b53"
+  },
+  {
+    "path": "screenshots/table-after-20x9-2d.png",
+    "source": ".runtime\\v51-table-after\\20x9-2d.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "d3482025ac44e325fddc4703e9943bae8fe4f9419a58d1866e31860e8cedaae1"
+  },
+  {
+    "path": "screenshots/table-after-20x9-3d.png",
+    "source": ".runtime\\v51-table-after\\20x9-3d.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "6903e943f73957c80329b1c2d542bf47ad24d770f03f5fc44a5d4a6a470bf03e"
+  },
+  {
+    "path": "screenshots/reader-before-journal.png",
+    "source": "screenshots\\v51-reading-before-journal.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "0fb1988b6d498e8568faf13be901ed2c5065c8e551dd6e4b0c03b3e2aff62594"
+  },
+  {
+    "path": "screenshots/reader-before-rules.png",
+    "source": "screenshots\\v51-reading-before-rules.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "e6635cf8971b3fb5529aa9032d5dcf60613103b54702d1cd9d3b17ccfbb775a9"
+  },
+  {
+    "path": "screenshots/reader-before-wide.png",
+    "source": "screenshots\\v51-reading-before-wide.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "ec7e87024af661d5e09c0e2fe561e3c4d08fe21654c6e742b78efaf274f11906"
+  },
+  {
+    "path": "screenshots/reader-journal-first.png",
+    "source": "screenshots\\v51-reading-journal-first.png",
+    "width": 1280,
+    "height": 800,
+    "sha256": "e77b174b83bbefd9b27f28e5c2da8f05423a1cc2491b09aee29e754f18b29fbd"
+  },
+  {
+    "path": "screenshots/reader-journal-last.png",
+    "source": "screenshots\\v51-reading-journal-last.png",
+    "width": 1280,
+    "height": 800,
+    "sha256": "6c1c5a09da2b6e5dcb702ee9bac1333e6aea60d333a65dec1f5bdc0d56ff5a3b"
+  },
+  {
+    "path": "screenshots/reader-rules-first.png",
+    "source": "screenshots\\v51-reading-rules-first.png",
+    "width": 1280,
+    "height": 800,
+    "sha256": "1232d0e8c5265d7460c4cbf568841137b3616ea8ca4b33af778f232b2ac0d3e2"
+  },
+  {
+    "path": "screenshots/reader-rules-last.png",
+    "source": "screenshots\\v51-reading-rules-last.png",
+    "width": 1280,
+    "height": 800,
+    "sha256": "9fbbac776e8b8ff230bb5c4a8904702ef0e0d7e505d407eade110fee12142b54"
+  },
+  {
+    "path": "screenshots/reader-skill-first.png",
+    "source": "screenshots\\v51-reading-skill-first.png",
+    "width": 1280,
+    "height": 800,
+    "sha256": "e6435dd0bc49acf0412e4c14abb52b7a15691ebf82846a9abd052de55dbf4122"
+  },
+  {
+    "path": "screenshots/reader-skill-last.png",
+    "source": "screenshots\\v51-reading-skill-last.png",
+    "width": 1280,
+    "height": 800,
+    "sha256": "0a16c8803167f97d49bef392cb643577004394f4a794fe0945c3e870342b7330"
+  },
+  {
+    "path": "screenshots/reader-mobile-wide.png",
+    "source": "screenshots\\v51-reading-mobile-wide.png",
+    "width": 2000,
+    "height": 900,
+    "sha256": "4193949a096b0489798f3a6ad86196bc2f674b19eee557a956c0bfc2e068ff28"
+  },
+  {
+    "path": "screenshots/hand-desktop-16-9.png",
+    "source": "screenshots\\v45-desktop-16-9.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "6cddd5a53eef576716ddafae9b1398c8354f523cc77537394df2baed01e2bfb8"
+  },
+  {
+    "path": "screenshots/hand-desktop-20-9.png",
+    "source": "screenshots\\v45-desktop-20-9.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "7bd8ade9a4c577b87fa685dfd4d4657d96aad28953dadbaed08b81573f24e62c"
+  },
+  {
+    "path": "screenshots/hand-mobile-16-9-closed.png",
+    "source": "screenshots\\v45-mobile-16-9-closed.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "dd1ff7ef9c7676fe860517510d2849af8fc25ff50d499ebe7241e997f4619796"
+  },
+  {
+    "path": "screenshots/hand-mobile-16-9-open.png",
+    "source": "screenshots\\v45-mobile-16-9-open.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "e1adf37bb150b38bcc22b41d6ebea8b40d3559bd828d06e783844e2009d0bb89"
+  },
+  {
+    "path": "screenshots/hand-mobile-20-9-closed.png",
+    "source": "screenshots\\v45-mobile-20-9-closed.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "635835e1a26d22e90397b6274b82e8220706f21287b8806f892ef14b7d6104ef"
+  },
+  {
+    "path": "screenshots/hand-mobile-20-9-open.png",
+    "source": "screenshots\\v45-mobile-20-9-open.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "5efc6047f5bd34db39926bd66877cbb8ad2cf82e678ea8e890c2eccef683f23a"
+  },
+  {
+    "path": "screenshots/hand-mobile-20-9-2d.png",
+    "source": "screenshots\\v45-mobile-20-9-2d.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "9154a16ecc23eb04ed46b0d75be447618d25056ed2b0e104c31b5928e338cdea"
+  },
+  {
+    "path": "screenshots/hand-mobile-20-9-detail.png",
+    "source": "screenshots\\v45-mobile-20-9-detail.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "2d8b7b8ea86e3f42c1daab6714c422d1eb102ca93ee2398470a797d3e8761f05"
+  },
+  {
+    "path": "screenshots/hand-mobile-20-9-discover.png",
+    "source": "screenshots\\v45-mobile-20-9-discover.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "3d1fa84c3168729a50c019704a9291ddf835b0860a79095710bae9871cdccd0e"
+  },
+  {
+    "path": "screenshots/tour-heroes.png",
+    "source": "screenshots\\v43-after-heroes.png",
+    "width": 1280,
+    "height": 800,
+    "sha256": "0f6075387f91cfd96e4fbd20ac5cd43700013bc517f405e911d12c4256c84ab3"
+  },
+  {
+    "path": "screenshots/tour-journal.png",
+    "source": "screenshots\\v43-after-journal.png",
+    "width": 1280,
+    "height": 800,
+    "sha256": "d2c9e145a0a9e037c64c5e1e8b51b0ec58ae5556b363b2e378e506c62c8ddc65"
+  },
+  {
+    "path": "screenshots/tour-detail.png",
+    "source": "screenshots\\v43-after-detail.png",
+    "width": 1280,
+    "height": 800,
+    "sha256": "481da3c5e1fdcc361d47675a8f6985e09e18c347c9e1bd536760aca9cf0ce2ce"
+  },
+  {
+    "path": "screenshots/tour-trinket-library.png",
+    "source": "screenshots\\v43-after-trinket-library.png",
+    "width": 1280,
+    "height": 800,
+    "sha256": "315fd5437b769c413797f0062e25294da30a9f55825340f0aa2594e140c607b0"
+  },
+  {
+    "path": "screenshots/tour-settings-video.png",
+    "source": "screenshots\\v43-after-settings-video.png",
+    "width": 1280,
+    "height": 800,
+    "sha256": "7f770a7a8a5034a406c18adb9a7e1fca3b399099caf216eb6f2c5e4f03c7fd69"
+  }
+]

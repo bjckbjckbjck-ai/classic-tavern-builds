@@ -1,0 +1,82 @@
+{
+  "unique_native_suites": 5,
+  "successful_assertions": 213,
+  "results": [
+    {
+      "suite": "reading_page_v51_test",
+      "command": [
+        "D:\\godot\\Godot_v4.6.1-stable_win64.exe\\Godot_v4.6.1-stable_win64_console.exe",
+        "--path",
+        "D:\\ai\\codex\\新联机炉石战棋",
+        "--script",
+        "tests/reading_page_v51_test.gd"
+      ],
+      "exit": 0,
+      "passes": 31,
+      "errors": [],
+      "warnings": [],
+      "source_log": "test-reading-v51-settlement-native.log"
+    },
+    {
+      "suite": "hand_platform_v47_test",
+      "command": [
+        "D:\\godot\\Godot_v4.6.1-stable_win64.exe\\Godot_v4.6.1-stable_win64_console.exe",
+        "--path",
+        "D:\\ai\\codex\\新联机炉石战棋",
+        "--script",
+        "tests/hand_platform_v47_test.gd"
+      ],
+      "exit": 0,
+      "passes": 63,
+      "errors": [],
+      "warnings": [],
+      "source_log": ".runtime\\v51-table-reading-checks\\hand_platform_v47_test.log"
+    },
+    {
+      "suite": "layout_v46_test",
+      "command": [
+        "D:\\godot\\Godot_v4.6.1-stable_win64.exe\\Godot_v4.6.1-stable_win64_console.exe",
+        "--path",
+        "D:\\ai\\codex\\新联机炉石战棋",
+        "--script",
+        "tests/layout_v46_test.gd"
+      ],
+      "exit": 0,
+      "passes": 68,
+      "errors": [],
+      "warnings": [],
+      "source_log": "test-layout-v46-reading-settlement-native.log"
+    },
+    {
+      "suite": "audit_v45_test",
+      "command": [
+        "D:\\godot\\Godot_v4.6.1-stable_win64.exe\\Godot_v4.6.1-stable_win64_console.exe",
+        "--path",
+        "D:\\ai\\codex\\新联机炉石战棋",
+        "--script",
+        "tests/audit_v45_test.gd"
+      ],
+      "exit": 0,
+      "passes": 23,
+      "errors": [],
+      "warnings": [],
+      "source_log": ".runtime\\v51-table-reading-checks\\audit_v45_test.log"
+    },
+    {
+      "suite": "card_surface_v50_test",
+      "exit": 0,
+      "passes": 28,
+      "errors": [],
+      "warnings": [],
+      "source_log": ".runtime\\v51-table-normalize-regression.log",
+      "command": [
+        "Godot 4.6.1",
+        "--path",
+        ".",
+        "--script",
+        "tests/card_surface_v50_test.gd"
+      ]
+    }
+  ],
+  "duplicate_runs_counted": false
+}

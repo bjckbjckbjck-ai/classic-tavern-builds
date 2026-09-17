@@ -10,7 +10,7 @@
     "mobile_medallion": "d7db822"
   },
   "hero_draft_independent_spec": "passed after mixed-input fix",
-  "independent_quality": "not completed: reviewer tool hit usage limit",
+  "independent_quality": "passed on resumed independent review after quota restored",
   "parent_review": "completed: input arming, stable nodes, original-art crop, read-only mobile vitals, replay timing, modal visibility, no input interception",
   "native_unique_suites": 8,
   "native_successful_assertions": 327,
@@ -19,5 +19,20 @@
   "physical_android": false,
   "audio_listening": false,
   "external_two_device_network": false,
-  "balance_simulation": false
+  "balance_simulation": false,
+  "previous_independent_quality": "not completed: reviewer tool hit usage limit",
+  "resumed_quality_evidence": {
+    "hero_draft_headless": {
+      "chunk": "c8ec19",
+      "exit": 0,
+      "result": "failures=0"
+    },
+    "second_six_ui_headless": {
+      "start_chunk": "f5951e",
+      "completion_chunk": "6469b5",
+      "session": 32190,
+      "exit": 0
+    },
+    "new_disk_logs": false
+  }
 }

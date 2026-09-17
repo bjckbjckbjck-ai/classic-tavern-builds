@@ -1,0 +1,113 @@
+{
+  "generator": "built-in image_gen",
+  "source": "material-atlas.png",
+  "source_size": [
+    1254,
+    1254
+  ],
+  "source_sha256": "22bb5d8221c2500bc3683eee852aa2b8f794130136a141fc4f413ce03532fadf",
+  "prompt": "prompt.txt",
+  "transform": "grid crop; 1px safety inset; no stretch or color edit; WebP quality94",
+  "assets": [
+    {
+      "id": "table-center",
+      "cell": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "crop_box": [
+        1,
+        1,
+        626,
+        626
+      ],
+      "size": [
+        625,
+        625
+      ],
+      "file": "assets/generated/v51-ui/table-center.webp",
+      "sha256": "ce093a2472514296db74dac8b311123fe660bd297c16d1d33b552ec7da44a234"
+    },
+    {
+      "id": "table-edge",
+      "cell": [
+        1,
+        0
+      ],
+      "source_box": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "crop_box": [
+        628,
+        1,
+        1253,
+        626
+      ],
+      "size": [
+        625,
+        625
+      ],
+      "file": "assets/generated/v51-ui/table-edge.webp",
+      "sha256": "24735f148942346ec1b4e1b0278230efed54f0b3dacd2865ed4e1eb728282850"
+    },
+    {
+      "id": "reading-paper",
+      "cell": [
+        0,
+        1
+      ],
+      "source_box": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "crop_box": [
+        1,
+        628,
+        626,
+        1253
+      ],
+      "size": [
+        625,
+        625
+      ],
+      "file": "assets/generated/v51-ui/reading-paper.webp",
+      "sha256": "1633845e0459cb870737412f12a1c8002639e3f0d2395cabc0a683106be7b333"
+    },
+    {
+      "id": "reading-leather",
+      "cell": [
+        1,
+        1
+      ],
+      "source_box": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "crop_box": [
+        628,
+        628,
+        1253,
+        1253
+      ],
+      "size": [
+        625,
+        625
+      ],
+      "file": "assets/generated/v51-ui/reading-leather.webp",
+      "sha256": "4cfa5e0b1555b415282b85ef2ea073ee81b4704ac39067cea23b2e7eb5267343"
+    }
+  ]
+}

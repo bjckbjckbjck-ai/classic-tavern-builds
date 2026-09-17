@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-17",
+  "formal_release": "0.50.0",
+  "development_target": "0.51.0",
+  "table_spec": "PASS",
+  "table_quality": "PASS after finite bevel direction fix",
+  "reader_spec": "PASS including settlement routing delta",
+  "reader_quality": "PASS after settlement routing fix",
+  "source_head": "c790b8c393ae420964bb05443a0c6d02a2394351",
+  "regression_red": {
+    "failures": 3,
+    "exit": 1,
+    "log": "logs/test-reading-v51-settlement-red.log"
+  },
+  "regression_headless_green": {
+    "passes": 31,
+    "failures": 0,
+    "exit": 0,
+    "log": "logs/test-reading-v51-settlement-green.log"
+  },
+  "native_suites": 5,
+  "native_assertions": 213,
+  "new_package": false,
+  "physical_android": false,
+  "audio_listening": false,
+  "external_two_device_network": false,
+  "balance_simulation": false
+}
