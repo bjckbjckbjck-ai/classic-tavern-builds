@@ -1,0 +1,84 @@
+{
+  "headless_checks": 167,
+  "native_checks": 179,
+  "total": 346,
+  "suites": [
+    {
+      "suite": "poet_v51_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 15,
+      "errors": []
+    },
+    {
+      "suite": "tribes_combat_v50_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 20,
+      "errors": []
+    },
+    {
+      "suite": "trinkets_v22_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 41,
+      "errors": []
+    },
+    {
+      "suite": "issue_v28_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 37,
+      "errors": []
+    },
+    {
+      "suite": "experience_v25_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 24,
+      "errors": []
+    },
+    {
+      "suite": "stacking_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 25,
+      "errors": []
+    },
+    {
+      "suite": "discover_lock_v38_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 5,
+      "errors": []
+    },
+    {
+      "suite": "reward_ux_v51_test",
+      "mode": "native",
+      "exit": 0,
+      "passes": 18,
+      "errors": []
+    },
+    {
+      "suite": "trinket_ui_v51_test",
+      "mode": "native",
+      "exit": 0,
+      "passes": 70,
+      "errors": []
+    },
+    {
+      "suite": "hand_platform_v47_test",
+      "mode": "native",
+      "exit": 0,
+      "passes": 63,
+      "errors": []
+    },
+    {
+      "suite": "card_surface_v50_test",
+      "mode": "native",
+      "exit": 0,
+      "passes": 28,
+      "errors": []
+    }
+  ]
+}

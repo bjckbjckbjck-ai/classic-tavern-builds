@@ -1,0 +1,17 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PRESENTATION VERIFIED Windows msaa=1 cards=4
+UI FAIL drag out and back inside description never selects
+UI FAIL canceled touch does not select an offer
+UI FAIL touch scrolls long description without choosing
+UI PASS description tap only selects without paying
+UI FAIL selected offer name is explicit above confirmation
+UI PASS unarmed release cannot reuse an earlier tap
+UI FAIL drag out and back inside description never selects
+UI FAIL canceled touch does not select an offer
+UI FAIL touch scrolls long description without choosing
+UI PASS description tap only selects without paying
+UI FAIL selected offer name is explicit above confirmation
+UI PASS unarmed release cannot reuse an earlier tap
+REWARD UX V51 failures: 8

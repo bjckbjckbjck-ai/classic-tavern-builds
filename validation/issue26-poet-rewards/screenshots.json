@@ -1,0 +1,56 @@
+[
+  {
+    "path": "screenshots/v51-reward-1280.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "1eba0aa5dc4b006f39dc7e897209326f2c33f5e4d03171139e50882a701282b3"
+  },
+  {
+    "path": "screenshots/v51-reward-1600.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "0c1d3417ee9c471f427ff740c568c450fa3883eb3fb53ee3da9796e6f1dc3f7e"
+  },
+  {
+    "path": "screenshots/v51-reward-discover.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "6c90974d9a580eb8ee77518b4a836dde289130d4c3ffd047330ca8d3f09e0956"
+  },
+  {
+    "path": "screenshots/v51-poet-remembered-detail.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "d71e8c3375485d95b3269b7709e9e9392041c17f9086fb23ffcc943c684b0ef2"
+  },
+  {
+    "path": "screenshots/v49-1280-1-offers.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "21ae20ba51760c6e25c22c6df433d4fc6300f5b8f746c673a26ee82ac586f3f0"
+  },
+  {
+    "path": "screenshots/v49-1600-0-offers.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "03ae28e17297f95764d82c4f796f774fa2cdf4282c69d5e752a957982c539a9c"
+  },
+  {
+    "path": "screenshots/v45-desktop-16-9.png",
+    "width": 1280,
+    "height": 720,
+    "sha256": "20796bb11d84269dc330d4c0564fe002801fb06b6e6ce86d9b63cf0f9037ba39"
+  },
+  {
+    "path": "screenshots/v45-mobile-20-9-open.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "d53a292bf1a7215abbb7b47f562fffb4375f4ba27cf58610a2c24ccbbda1f619"
+  },
+  {
+    "path": "screenshots/v45-mobile-20-9-2d.png",
+    "width": 1600,
+    "height": 720,
+    "sha256": "a9e319ee737e2f80021005c2bc81fd1651964750d90925ccb1666c421c4c3561"
+  }
+]

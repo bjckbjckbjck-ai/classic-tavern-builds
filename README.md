@@ -1,4 +1,5 @@
-> v0.51 开发进展：英雄选择、手机血甲徽座、低对比木质桌面与纸页阅读界面。[本轮桌面/阅读截图与检查](validation/issue18-table-reading/README.md) · [此前英雄界面检查](validation/issue18-hero-ui/README.md) · [下一步](下一阶段开发计划.md)。正式下载仍为下方 v0.50.0。
+> v0.51 开发进展：诗心龙记忆修复与奖励交互。[本轮说明、346项检查与截图](validation/issue26-poet-rewards/README.md) · [下一步候选包](下一阶段开发计划.md)。正式下载仍为下方v0.50.0。
+
 
 # v0.50.0 · 七族全明星与拱顶卡面
 
