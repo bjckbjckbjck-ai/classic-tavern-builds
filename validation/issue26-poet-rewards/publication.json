@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-20",
+  "source_commit": "402e6f7",
+  "public_evidence_commit": "a4b2ba1b44c58c8d99d2ded29b0c4fce44fdda80",
+  "issue26_state": "closed",
+  "issue26_comment": 5746033501,
+  "issue18_state": "open",
+  "issue18_comment": 5746033679,
+  "formal_release": "0.50.0",
+  "new_package": false,
+  "headless_checks": 167,
+  "native_checks": 179,
+  "total_checks": 346
+}
