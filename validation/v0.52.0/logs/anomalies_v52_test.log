@@ -1,0 +1,28 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS tier seven catalog validates
+PASS disabled lobby cannot draw tier seven
+PASS off keeps standard limits
+PASS random authority selects one supported anomaly
+PASS both player snapshots share outcome
+PASS two genuinely free refreshes
+PASS third refresh needs payment
+PASS refresh reset removes old anomaly layer while preserving other sources
+PASS eight minions plus separate spell at tier six
+PASS eighth minion plays
+PASS ninth minion rejected without losing hand
+PASS deathrattle respects expanded cap
+PASS AI fills eighth slot instead of selling seventh
+PASS all players start with three free coin cards
+PASS bots receive same opening coins
+PASS tier seven upgrade charges twelve
+PASS tier eight rejected
+PASS tier seven shared pool draws
+PASS triple reward capped at seven
+PASS scout scales to seven
+PASS third end-of-turn reward available next recruitment
+PASS pending reward never rerolls
+PASS repeated round hook cannot duplicate reward
+PASS timeout can resolve seven reward
+PASS reward anomaly does not allow seventh shop tier
+ANOMALIES V52 RESULT 25/25

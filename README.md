@@ -1,3 +1,13 @@
+# v0.52.0 · 畸变与七星珍藏
+
+新增四种畸变与八张七本；默认随机畸变+饰品，单机/房主可关闭或指定。八随从战场适配AI与叠层，发现奖励支持查看战场后返回。明日系列继续退役。
+
+[Android APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.52.0/ClassicTavern-v0.52.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.52.0/ClassicTavern-v0.52.0.exe) · [Windows ZIP](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.52.0/ClassicTavern-v0.52.0-Windows.zip) · [校验与发行页](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.52.0)
+
+Android沿用已有签名，支持覆盖安装；联机双方须同版。[设计与差异](v0.52.0-畸变与七星珍藏.md) · [验收](validation/v0.52.0/README.md) · [卡池](全局卡池.md) · [下一步](下一阶段开发计划.md)。未做平衡模拟，实体手机与外部双设备待验。
+
+## 历史记录
+
 # v0.51.0 · 奖励交互与明日系列暂退
 
 暂时停用明日惩戒9张随从、3张奖品与明日之星；保留历史资料，关闭所有获取入口。当前150张在池随从、41法术、22英雄、56件可选饰品。修复诗心龙永久亡语，完善发现长按、饰品阅读、英雄选择与纸页。

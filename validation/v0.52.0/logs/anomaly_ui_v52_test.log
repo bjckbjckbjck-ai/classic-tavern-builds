@@ -1,0 +1,39 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+UI PASS new rooms default random anomaly and trinkets
+UI PASS settings survive render
+PRESENTATION VERIFIED Windows msaa=1 cards=17
+UI PASS eight board cards visible
+UI PASS eight shop cards visible
+UI PASS persistent anomaly detail control
+UI PASS peek exposes board and return control
+UI PASS peek keeps reward action lock
+UI PASS snapshot preserves peek and candidates
+UI PASS return restores discovery
+UI PASS visible reward claims normally
+UI PASS eight board cards visible
+UI PASS eight shop cards visible
+UI PASS persistent anomaly detail control
+UI PASS peek exposes board and return control
+UI PASS peek keeps reward action lock
+UI PASS snapshot preserves peek and candidates
+UI PASS return restores discovery
+UI PASS visible reward claims normally
+UI PASS eight board cards visible
+UI PASS eight shop cards visible
+UI PASS persistent anomaly detail control
+UI PASS peek exposes board and return control
+UI PASS peek keeps reward action lock
+UI PASS snapshot preserves peek and candidates
+UI PASS return restores discovery
+UI PASS visible reward claims normally
+UI PASS eight board cards visible
+UI PASS eight shop cards visible
+UI PASS persistent anomaly detail control
+UI PASS peek exposes board and return control
+UI PASS peek keeps reward action lock
+UI PASS snapshot preserves peek and candidates
+UI PASS return restores discovery
+UI PASS visible reward claims normally
+ANOMALY UI V52 failures: 0

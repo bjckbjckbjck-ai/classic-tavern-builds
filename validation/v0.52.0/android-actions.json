@@ -1,0 +1,735 @@
+[
+  {
+    "name": "eighth minion actual touch drag",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 1,
+          "health": 2,
+          "id": "micro",
+          "uid": "64439211-3533220282"
+        },
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "64439231-1514186736"
+        },
+        {
+          "attack": 2,
+          "health": 4,
+          "id": "brann",
+          "uid": "64439244-4292812946"
+        },
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "64439327-1059349084"
+        },
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "hoggarr",
+          "uid": "64439261-4101411898"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mama",
+          "uid": "64439278-3208408956"
+        },
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "64439298-2798289872"
+        },
+        {
+          "attack": 7,
+          "health": 10,
+          "id": "reaper",
+          "uid": "64439313-2747437699"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "hand": [],
+      "offers": [],
+      "protocol": "allstars-0.52.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "royal_treasurer",
+          "uid": "64439886-2250897216"
+        },
+        {
+          "id": "ring_matron",
+          "uid": "64440185-1752411282"
+        },
+        {
+          "id": "red_whelp",
+          "uid": "64440495-1942924095"
+        },
+        {
+          "id": "scarlet_skull",
+          "uid": "64440709-1961394404"
+        },
+        {
+          "id": "cannoneer",
+          "uid": "64440924-645179083"
+        },
+        {
+          "id": "seafarer",
+          "uid": "64441147-3056516962"
+        },
+        {
+          "id": "tad",
+          "uid": "64441465-1421982596"
+        },
+        {
+          "id": "accord_o_tron",
+          "uid": "64441721-4065927623"
+        }
+      ],
+      "spells": [
+        "spell_cloning"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "eight-slot shop purchase",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 1,
+          "health": 2,
+          "id": "micro",
+          "uid": "64439211-3533220282"
+        },
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "64439231-1514186736"
+        },
+        {
+          "attack": 2,
+          "health": 4,
+          "id": "brann",
+          "uid": "64439244-4292812946"
+        },
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "64439327-1059349084"
+        },
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "hoggarr",
+          "uid": "64439261-4101411898"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mama",
+          "uid": "64439278-3208408956"
+        },
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "64439298-2798289872"
+        },
+        {
+          "attack": 7,
+          "health": 10,
+          "id": "reaper",
+          "uid": "64439313-2747437699"
+        }
+      ],
+      "coins": 17,
+      "discover": [],
+      "hand": [
+        {
+          "id": "ring_matron",
+          "uid": "64440185-1752411282"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.52.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "royal_treasurer",
+          "uid": "64439886-2250897216"
+        },
+        {
+          "id": "red_whelp",
+          "uid": "64440495-1942924095"
+        },
+        {
+          "id": "scarlet_skull",
+          "uid": "64440709-1961394404"
+        },
+        {
+          "id": "cannoneer",
+          "uid": "64440924-645179083"
+        },
+        {
+          "id": "seafarer",
+          "uid": "64441147-3056516962"
+        },
+        {
+          "id": "tad",
+          "uid": "64441465-1421982596"
+        },
+        {
+          "id": "accord_o_tron",
+          "uid": "64441721-4065927623"
+        }
+      ],
+      "spells": [
+        "spell_cloning"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "peek preserves authority state",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 1,
+          "health": 2,
+          "id": "micro",
+          "uid": "64439211-3533220282"
+        },
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "64439231-1514186736"
+        },
+        {
+          "attack": 2,
+          "health": 4,
+          "id": "brann",
+          "uid": "64439244-4292812946"
+        },
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "64439327-1059349084"
+        },
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "hoggarr",
+          "uid": "64439261-4101411898"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mama",
+          "uid": "64439278-3208408956"
+        },
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "64439298-2798289872"
+        },
+        {
+          "attack": 7,
+          "health": 10,
+          "id": "reaper",
+          "uid": "64439313-2747437699"
+        }
+      ],
+      "coins": 17,
+      "discover": [
+        "king_varian",
+        "boommobile",
+        "tide_oracle"
+      ],
+      "hand": [
+        {
+          "id": "ring_matron",
+          "uid": "64440185-1752411282"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.52.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "royal_treasurer",
+          "uid": "64439886-2250897216"
+        },
+        {
+          "id": "red_whelp",
+          "uid": "64440495-1942924095"
+        },
+        {
+          "id": "scarlet_skull",
+          "uid": "64440709-1961394404"
+        },
+        {
+          "id": "cannoneer",
+          "uid": "64440924-645179083"
+        },
+        {
+          "id": "seafarer",
+          "uid": "64441147-3056516962"
+        },
+        {
+          "id": "tad",
+          "uid": "64441465-1421982596"
+        },
+        {
+          "id": "accord_o_tron",
+          "uid": "64441721-4065927623"
+        }
+      ],
+      "spells": [
+        "spell_cloning"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "return preserves candidates",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 1,
+          "health": 2,
+          "id": "micro",
+          "uid": "64439211-3533220282"
+        },
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "64439231-1514186736"
+        },
+        {
+          "attack": 2,
+          "health": 4,
+          "id": "brann",
+          "uid": "64439244-4292812946"
+        },
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "64439327-1059349084"
+        },
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "hoggarr",
+          "uid": "64439261-4101411898"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mama",
+          "uid": "64439278-3208408956"
+        },
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "64439298-2798289872"
+        },
+        {
+          "attack": 7,
+          "health": 10,
+          "id": "reaper",
+          "uid": "64439313-2747437699"
+        }
+      ],
+      "coins": 17,
+      "discover": [
+        "king_varian",
+        "boommobile",
+        "tide_oracle"
+      ],
+      "hand": [
+        {
+          "id": "ring_matron",
+          "uid": "64440185-1752411282"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.52.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "royal_treasurer",
+          "uid": "64439886-2250897216"
+        },
+        {
+          "id": "red_whelp",
+          "uid": "64440495-1942924095"
+        },
+        {
+          "id": "scarlet_skull",
+          "uid": "64440709-1961394404"
+        },
+        {
+          "id": "cannoneer",
+          "uid": "64440924-645179083"
+        },
+        {
+          "id": "seafarer",
+          "uid": "64441147-3056516962"
+        },
+        {
+          "id": "tad",
+          "uid": "64441465-1421982596"
+        },
+        {
+          "id": "accord_o_tron",
+          "uid": "64441721-4065927623"
+        }
+      ],
+      "spells": [
+        "spell_cloning"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "tier seven reward tap",
+    "passed": false,
+    "state": {
+      "board": [
+        {
+          "attack": 1,
+          "health": 2,
+          "id": "micro",
+          "uid": "64439211-3533220282"
+        },
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "64439231-1514186736"
+        },
+        {
+          "attack": 2,
+          "health": 4,
+          "id": "brann",
+          "uid": "64439244-4292812946"
+        },
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "64439327-1059349084"
+        },
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "hoggarr",
+          "uid": "64439261-4101411898"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mama",
+          "uid": "64439278-3208408956"
+        },
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "64439298-2798289872"
+        },
+        {
+          "attack": 7,
+          "health": 10,
+          "id": "reaper",
+          "uid": "64439313-2747437699"
+        }
+      ],
+      "coins": 17,
+      "discover": [
+        "king_varian",
+        "boommobile",
+        "tide_oracle"
+      ],
+      "hand": [
+        {
+          "id": "ring_matron",
+          "uid": "64440185-1752411282"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.52.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "royal_treasurer",
+          "uid": "64439886-2250897216"
+        },
+        {
+          "id": "red_whelp",
+          "uid": "64440495-1942924095"
+        },
+        {
+          "id": "scarlet_skull",
+          "uid": "64440709-1961394404"
+        },
+        {
+          "id": "cannoneer",
+          "uid": "64440924-645179083"
+        },
+        {
+          "id": "seafarer",
+          "uid": "64441147-3056516962"
+        },
+        {
+          "id": "tad",
+          "uid": "64441465-1421982596"
+        },
+        {
+          "id": "accord_o_tron",
+          "uid": "64441721-4065927623"
+        }
+      ],
+      "spells": [
+        "spell_cloning"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "return via observed wide-table button and claim reward",
+    "passed": false,
+    "state": {
+      "board": [
+        {
+          "attack": 1,
+          "health": 2,
+          "id": "micro",
+          "uid": "64439211-3533220282"
+        },
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "64439231-1514186736"
+        },
+        {
+          "attack": 2,
+          "health": 4,
+          "id": "brann",
+          "uid": "64439244-4292812946"
+        },
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "64439327-1059349084"
+        },
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "hoggarr",
+          "uid": "64439261-4101411898"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mama",
+          "uid": "64439278-3208408956"
+        },
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "64439298-2798289872"
+        },
+        {
+          "attack": 7,
+          "health": 10,
+          "id": "reaper",
+          "uid": "64439313-2747437699"
+        }
+      ],
+      "coins": 17,
+      "discover": [
+        "king_varian",
+        "boommobile",
+        "tide_oracle"
+      ],
+      "hand": [
+        {
+          "id": "ring_matron",
+          "uid": "64440185-1752411282"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.52.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "royal_treasurer",
+          "uid": "64439886-2250897216"
+        },
+        {
+          "id": "red_whelp",
+          "uid": "64440495-1942924095"
+        },
+        {
+          "id": "scarlet_skull",
+          "uid": "64440709-1961394404"
+        },
+        {
+          "id": "cannoneer",
+          "uid": "64440924-645179083"
+        },
+        {
+          "id": "seafarer",
+          "uid": "64441147-3056516962"
+        },
+        {
+          "id": "tad",
+          "uid": "64441465-1421982596"
+        },
+        {
+          "id": "accord_o_tron",
+          "uid": "64441721-4065927623"
+        }
+      ],
+      "spells": [
+        "spell_cloning"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "wide-table coordinate scaled with original screenshot dimensions: return and claim",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 1,
+          "health": 2,
+          "id": "micro",
+          "uid": "64439211-3533220282"
+        },
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "64439231-1514186736"
+        },
+        {
+          "attack": 2,
+          "health": 4,
+          "id": "brann",
+          "uid": "64439244-4292812946"
+        },
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "64439327-1059349084"
+        },
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "hoggarr",
+          "uid": "64439261-4101411898"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "mama",
+          "uid": "64439278-3208408956"
+        },
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "64439298-2798289872"
+        },
+        {
+          "attack": 7,
+          "health": 10,
+          "id": "reaper",
+          "uid": "64439313-2747437699"
+        }
+      ],
+      "coins": 17,
+      "discover": [],
+      "hand": [
+        {
+          "id": "ring_matron",
+          "uid": "64440185-1752411282"
+        },
+        {
+          "id": "boommobile",
+          "uid": "175224167-3939688342"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.52.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "royal_treasurer",
+          "uid": "64439886-2250897216"
+        },
+        {
+          "id": "red_whelp",
+          "uid": "64440495-1942924095"
+        },
+        {
+          "id": "scarlet_skull",
+          "uid": "64440709-1961394404"
+        },
+        {
+          "id": "cannoneer",
+          "uid": "64440924-645179083"
+        },
+        {
+          "id": "seafarer",
+          "uid": "64441147-3056516962"
+        },
+        {
+          "id": "tad",
+          "uid": "64441465-1421982596"
+        },
+        {
+          "id": "accord_o_tron",
+          "uid": "64441721-4065927623"
+        }
+      ],
+      "spells": [
+        "spell_cloning"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  }
+]

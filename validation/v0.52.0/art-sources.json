@@ -1,0 +1,50 @@
+[
+  {
+    "card": "argent_braggart",
+    "path": "assets/original/BG_SCH_149.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG_SCH_149.webp",
+    "sha256": "59b8338064c847be272cd112262d42ad52227fe7d6fc230f72fa7764a561ff58"
+  },
+  {
+    "card": "king_varian",
+    "path": "assets/original/BG27_508.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG27_508.webp",
+    "sha256": "11e4767aceb4446dadabd111fef2ffba5c4243b161f22ae6697629c5658fcb8e"
+  },
+  {
+    "card": "moira",
+    "path": "assets/original/BG27_518.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG27_518.webp",
+    "sha256": "042dbea48c33d64f19b7906fe4a15a3e0c32a00b9095242b25cb6c63719d014d"
+  },
+  {
+    "card": "sargeras_champion",
+    "path": "assets/original/BG27_016.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG27_016.webp",
+    "sha256": "86de2ed98d3984ff27c06487b567b2fa0be896002064cdeb9f06724f9b9a2792"
+  },
+  {
+    "card": "captain_sanders",
+    "path": "assets/original/BG25_034.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG25_034.webp",
+    "sha256": "4fc75e1851651b8970bd28741a6784fe3f32a1008002bfa309563ec1a838245c"
+  },
+  {
+    "card": "boommobile",
+    "path": "assets/original/BG27_021.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG27_021.webp",
+    "sha256": "a20b8bea692dbeb089957fce048426f59a16e019c58de5841db8197e5238a26d"
+  },
+  {
+    "card": "obsidian_ravager",
+    "path": "assets/original/BG27_017.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG27_017.webp",
+    "sha256": "9739be2aaa243ffa448f1723cf727e354ccd1ddecb2c711fd3ab3529de8df83c"
+  },
+  {
+    "card": "tide_oracle",
+    "path": "assets/original/BG27_513.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG27_513.webp",
+    "sha256": "0f1ae652f44aed37b573e7727c69febd5e85344dc61d5e5949d1eabe694c7220"
+  }
+]

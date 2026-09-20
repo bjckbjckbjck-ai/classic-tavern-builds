@@ -1,0 +1,14 @@
+[
+  {
+    "role": "host",
+    "exit": 0,
+    "passed": true,
+    "assertions": 4
+  },
+  {
+    "role": "client",
+    "exit": 0,
+    "passed": true,
+    "assertions": 3
+  }
+]
