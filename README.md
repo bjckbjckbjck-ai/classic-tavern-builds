@@ -1,3 +1,13 @@
+# v0.52.1 · 龙的完整增益记忆
+
+修复嘲讽漏记、永久增益重复入账、全局攻击误记，以及复生/塔隆返回后的漏记。普通保留一次，金色属性收益共计两倍，关键词与亡语层数不翻倍。
+
+[Android APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.52.1/ClassicTavern-v0.52.1.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.52.1/ClassicTavern-v0.52.1.exe) · [发行页](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.52.1)
+
+[规则及边界](v0.52.1-龙的完整增益记忆.md) · [180项回归](validation/v0.52.1/README.md)。Android code56，沿用同签名；联机双方更新至0.52.1。未做平衡模拟。
+
+## 历史版本
+
 # v0.52.0 · 畸变与七星珍藏
 
 新增四种畸变与八张七本；默认随机畸变+饰品，单机/房主可关闭或指定。八随从战场适配AI与叠层，发现奖励支持查看战场后返回。明日系列继续退役。

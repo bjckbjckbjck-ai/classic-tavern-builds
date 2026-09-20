@@ -1,0 +1,13 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS generic stats remembered before damage false
+FAIL granted taunt remembered false
+PASS all five layers remembered even consumed shield false
+FAIL permanent sources counted once and gold twice false
+FAIL global undead count not duplicated as enchantment false
+PASS generic stats remembered before damage true
+FAIL granted taunt remembered true
+PASS all five layers remembered even consumed shield true
+FAIL permanent sources counted once and gold twice true
+FAIL global undead count not duplicated as enchantment true
+POET ALL BUFFS RESULT 4/10

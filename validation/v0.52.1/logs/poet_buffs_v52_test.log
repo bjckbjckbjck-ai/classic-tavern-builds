@@ -1,0 +1,19 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS generic stats remembered before damage false
+PASS granted taunt remembered false
+PASS all five layers remembered even consumed shield false
+PASS permanent sources counted once and gold twice false
+PASS global undead count not duplicated as enchantment false
+PASS reborn trigger permanent buffs inherit memory before firing false
+PASS Teron full return keeps memory for later buffs false
+PASS continuous aura is not a retained single-unit grant false
+PASS generic stats remembered before damage true
+PASS granted taunt remembered true
+PASS all five layers remembered even consumed shield true
+PASS permanent sources counted once and gold twice true
+PASS global undead count not duplicated as enchantment true
+PASS reborn trigger permanent buffs inherit memory before firing true
+PASS Teron full return keeps memory for later buffs true
+PASS continuous aura is not a retained single-unit grant true
+POET ALL BUFFS RESULT 16/16

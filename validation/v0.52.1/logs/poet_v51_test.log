@@ -1,0 +1,18 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS all-type neighbour keeps frog stats
+PASS all-type neighbour keeps three frog deathrattles
+PASS all-type neighbour keeps flagbearer deathrattle
+PASS ordinary pirate does not remember combat effects
+PASS second battle adds one flag enchantment without duplicating old ones
+PASS different frog strengths accumulate across battles
+PASS remembered pirate deathrattles actually summon in next combat
+PASS remembered frog effects actually transfer again in next combat
+PASS gold poet doubles remembered stats
+PASS gold poet does not double enchantment counts
+PASS real combat preserves enchantment even when target dies
+PASS reborn still resets combat enchantments on returned body
+PASS post-reborn new effects accumulate to original without copying old enchantments twice
+PASS nonadjacent all-type unit has no preservation permission
+PASS triple sums remembered frog layers from all three entities
+POET V51 RESULT 15/15

@@ -1,0 +1,21 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+UI PASS drag out and back inside description never selects
+UI PASS canceled touch does not select an offer
+UI PASS touch scrolls long description without choosing
+UI PASS description tap only selects without paying
+UI PASS selected offer name is explicit above confirmation
+UI PASS unarmed release cannot reuse an earlier tap
+UI PASS drag out and back inside description never selects
+UI PASS canceled touch does not select an offer
+UI PASS touch scrolls long description without choosing
+UI PASS description tap only selects without paying
+UI PASS selected offer name is explicit above confirmation
+UI PASS unarmed release cannot reuse an earlier tap
+UI PASS discover offers have actionable glow
+UI PASS pressing discovery does not instantly claim reward
+UI PASS long press inspects discovery without claiming
+UI PASS short discovery tap claims exactly once
+UI PASS detail names remembered effects without duplicate or misleading magnetic labels
+UI PASS poet detail explains all-type eligibility and gold scaling
+REWARD UX V51 failures: 0

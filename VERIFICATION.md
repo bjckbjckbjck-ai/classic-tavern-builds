@@ -1,3 +1,7 @@
+# v0.52.1
+
+[8套180项机制回归](validation/v0.52.1/README.md)。
+
 # v0.52.0 验证
 
 [本版检查、实际APK截图与边界](validation/v0.52.0/README.md)。286项功能/UI断言、7项专项WebSocket检查、最终EXE双进程和最终APK模拟器触控完成。不做平衡模拟；实体设备/有声/外部双设备未验。
