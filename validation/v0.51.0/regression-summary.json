@@ -1,0 +1,127 @@
+{
+  "suites": [
+    {
+      "suite": "retirement_v51_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 23,
+      "errors": []
+    },
+    {
+      "suite": "hero_draft_v51_test",
+      "mode": "native",
+      "exit": 0,
+      "passes": 114,
+      "errors": []
+    },
+    {
+      "suite": "reading_page_v51_test",
+      "mode": "native",
+      "exit": 0,
+      "passes": 31,
+      "errors": []
+    },
+    {
+      "suite": "poet_v51_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 15,
+      "errors": []
+    },
+    {
+      "suite": "tribes_combat_v50_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 20,
+      "errors": []
+    },
+    {
+      "suite": "trinkets_v22_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 41,
+      "errors": []
+    },
+    {
+      "suite": "issue_v28_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 37,
+      "errors": []
+    },
+    {
+      "suite": "experience_v25_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 24,
+      "errors": []
+    },
+    {
+      "suite": "stacking_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 25,
+      "errors": []
+    },
+    {
+      "suite": "discover_lock_v38_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 5,
+      "errors": []
+    },
+    {
+      "suite": "reward_ux_v51_test",
+      "mode": "native",
+      "exit": 0,
+      "passes": 18,
+      "errors": []
+    },
+    {
+      "suite": "trinket_ui_v51_test",
+      "mode": "native",
+      "exit": 0,
+      "passes": 70,
+      "errors": []
+    },
+    {
+      "suite": "hand_platform_v47_test",
+      "mode": "native",
+      "exit": 0,
+      "passes": 63,
+      "errors": []
+    },
+    {
+      "suite": "card_surface_v50_test",
+      "mode": "native",
+      "exit": 0,
+      "passes": 28,
+      "errors": []
+    },
+    {
+      "suite": "tomorrow_v37_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 44,
+      "errors": []
+    },
+    {
+      "suite": "tomorrow_ui_v37_test",
+      "mode": "headless",
+      "exit": 0,
+      "passes": 5,
+      "errors": [
+        "ERROR: 1 resources still in use at exit (run with --verbose for details)."
+      ]
+    }
+  ],
+  "assertions_passed": 563,
+  "additional_darkmoon_checks": 66,
+  "notes": [
+    "Initial trinket pagination expected 57; changed to 56 active and explicitly asserts retired star absent.",
+    "Archived Tomorrow effect suite explicitly enables definitions only inside its fixture; production retirement has separate 23 checks.",
+    "Tomorrow UI archived animation suite and final headless EXE host report one resource in use at process exit; assertions pass; retained as teardown limitation.",
+    "Android harness corrected blank-area dismissal coordinate and single-offer first-slot coordinate; original failure records retained.",
+    "Six Python inventory tests pass against a fresh real Godot Catalog snapshot."
+  ]
+}

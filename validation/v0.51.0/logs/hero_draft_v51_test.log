@@ -1,0 +1,118 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+UI PASS draft uses independent cards and a stable selection controller
+UI PASS four offers rendered
+UI PASS pointer selects exact offer index 2
+UI PASS selection alone does not start a game
+UI PASS selection retains cards and focus nodes
+UI PASS pointer selects exact offer index 3
+UI PASS selection alone does not start a game
+UI PASS selection retains cards and focus nodes
+UI PASS selection does not reroll offers
+UI PASS arrow focus and Space select the second hero
+UI PASS keyboard selection does not confirm
+UI PASS touch selects exact third offer
+UI PASS canceled touch does not select
+UI PASS touch released outside does not select
+UI PASS unarmed keyboard release does not select after focus change
+UI PASS mouse press cannot arm an unrelated Space release
+UI PASS unarmed Space release preserves pointer press feedback
+UI PASS mixed-input pointer release outside cancels without selecting
+UI PASS touch press cannot arm an unrelated Space release
+UI PASS mixed-input canceled touch clears feedback without selecting
+UI PASS focus loss cancels an armed keyboard selection
+UI PASS return to draft preserves the same four offers
+UI PASS special hero identity rat_king
+UI PASS card inside viewport rat_king
+UI PASS special hero identity teron
+UI PASS card inside viewport teron
+UI PASS special hero identity king_laohan
+UI PASS card inside viewport king_laohan
+UI PASS special hero identity millificent
+UI PASS card inside viewport millificent
+UI PASS real wheel dispatch scrolls long descriptions
+UI PASS full skill text reachable at bottom
+UI PASS scrolling and clicking skill text neither select nor start
+UI PASS keyboard Home returns description to top
+UI PASS touch drag scrolls skill text
+UI PASS skill touch scroll neither selects nor starts
+UI PASS keyboard can reach long description end
+UI PASS reduced motion suppresses hover lift
+UI PASS ordinary hover lifts the hero face
+UI PASS dragging across a portrait does not select it
+UI PASS catalog content intact patchwerk
+UI PASS complete hero name fits patchwerk
+UI PASS zero-cost active and passive remain distinct patchwerk
+UI PASS catalog content intact pyramad
+UI PASS complete hero name fits pyramad
+UI PASS zero-cost active and passive remain distinct pyramad
+UI PASS catalog content intact jaraxxus
+UI PASS complete hero name fits jaraxxus
+UI PASS zero-cost active and passive remain distinct jaraxxus
+UI PASS catalog content intact yogg
+UI PASS complete hero name fits yogg
+UI PASS zero-cost active and passive remain distinct yogg
+UI PASS catalog content intact george
+UI PASS complete hero name fits george
+UI PASS zero-cost active and passive remain distinct george
+UI PASS catalog content intact millificent
+UI PASS complete hero name fits millificent
+UI PASS zero-cost active and passive remain distinct millificent
+UI PASS catalog content intact kaelthas
+UI PASS complete hero name fits kaelthas
+UI PASS zero-cost active and passive remain distinct kaelthas
+UI PASS catalog content intact deryl
+UI PASS complete hero name fits deryl
+UI PASS zero-cost active and passive remain distinct deryl
+UI PASS catalog content intact snake_eyes
+UI PASS complete hero name fits snake_eyes
+UI PASS zero-cost active and passive remain distinct snake_eyes
+UI PASS catalog content intact taethelan
+UI PASS complete hero name fits taethelan
+UI PASS zero-cost active and passive remain distinct taethelan
+UI PASS catalog content intact hollidae
+UI PASS complete hero name fits hollidae
+UI PASS zero-cost active and passive remain distinct hollidae
+UI PASS catalog content intact king_laohan
+UI PASS complete hero name fits king_laohan
+UI PASS zero-cost active and passive remain distinct king_laohan
+UI PASS catalog content intact nozdormu
+UI PASS complete hero name fits nozdormu
+UI PASS zero-cost active and passive remain distinct nozdormu
+UI PASS catalog content intact alexstrasza
+UI PASS complete hero name fits alexstrasza
+UI PASS zero-cost active and passive remain distinct alexstrasza
+UI PASS catalog content intact patches
+UI PASS complete hero name fits patches
+UI PASS zero-cost active and passive remain distinct patches
+UI PASS catalog content intact lich_king
+UI PASS complete hero name fits lich_king
+UI PASS zero-cost active and passive remain distinct lich_king
+UI PASS catalog content intact teron
+UI PASS complete hero name fits teron
+UI PASS zero-cost active and passive remain distinct teron
+UI PASS catalog content intact rat_king
+UI PASS complete hero name fits rat_king
+UI PASS zero-cost active and passive remain distinct rat_king
+UI PASS catalog content intact wagtoggle
+UI PASS complete hero name fits wagtoggle
+UI PASS zero-cost active and passive remain distinct wagtoggle
+UI PASS catalog content intact kragg
+UI PASS complete hero name fits kragg
+UI PASS zero-cost active and passive remain distinct kragg
+UI PASS catalog content intact gallywix
+UI PASS complete hero name fits gallywix
+UI PASS zero-cost active and passive remain distinct gallywix
+UI PASS catalog content intact omu
+UI PASS complete hero name fits omu
+UI PASS zero-cost active and passive remain distinct omu
+UI PASS catalog content intact patchwerk
+UI PASS complete hero name fits patchwerk
+UI PASS zero-cost active and passive remain distinct patchwerk
+UI PASS catalog content intact pyramad
+UI PASS complete hero name fits pyramad
+UI PASS zero-cost active and passive remain distinct pyramad
+UI PASS confirm starts practice using the selected fourth hero
+UI PASS practice receives unchanged offered indices
+HERO DRAFT V51 RESULT failures=0

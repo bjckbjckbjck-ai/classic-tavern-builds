@@ -1,5 +1,14 @@
-> v0.51 开发进展：诗心龙记忆修复与奖励交互。[本轮说明、346项检查与截图](validation/issue26-poet-rewards/README.md) · [下一步候选包](下一阶段开发计划.md)。正式下载仍为下方v0.50.0。
+# v0.51.0 · 奖励交互与明日系列暂退
 
+暂时停用明日惩戒9张随从、3张奖品与明日之星；保留历史资料，关闭所有获取入口。当前150张在池随从、41法术、22英雄、56件可选饰品。修复诗心龙永久亡语，完善发现长按、饰品阅读、英雄选择与纸页。
+
+[Android APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.51.0/ClassicTavern-v0.51.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.51.0/ClassicTavern-v0.51.0.exe) · [Windows ZIP](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.51.0/ClassicTavern-v0.51.0-Windows.zip) · [发行页与校验](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.51.0)
+
+Android沿用既有试用签名，可覆盖安装。联机双方须同时升级v0.51。已验证最终EXE同机双进程及最终APK模拟器触控；实体手机长局性能、音频实听和外部双设备尚待验证。未做平衡模拟。
+
+[验证与截图](validation/v0.51.0/README.md) · [更新记录](更新记录.md) · [全局卡池](全局卡池.md) · [下一阶段](下一阶段开发计划.md)
+
+## 历史版本
 
 # v0.50.0 · 七族全明星与拱顶卡面
 

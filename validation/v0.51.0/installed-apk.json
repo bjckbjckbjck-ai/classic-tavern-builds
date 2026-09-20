@@ -1,0 +1,10 @@
+{
+  "device": "Android API33 x86_64 emulator, host GPU",
+  "version": [
+    "versionCode=54 minSdk=24 targetSdk=35",
+    "versionName=0.51.0"
+  ],
+  "same_signing_certificate_as_v050": true,
+  "signature_verified": true,
+  "physical_device_tested": false
+}

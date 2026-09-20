@@ -1,0 +1,39 @@
+[
+  {
+    "suite": "trinket_ui_v51_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 70,
+    "errors": []
+  },
+  {
+    "suite": "hand_platform_v47_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 63,
+    "errors": []
+  },
+  {
+    "suite": "card_surface_v50_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 28,
+    "errors": []
+  },
+  {
+    "suite": "tomorrow_v37_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 44,
+    "errors": []
+  },
+  {
+    "suite": "tomorrow_ui_v37_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 5,
+    "errors": [
+      "ERROR: 1 resources still in use at exit (run with --verbose for details)."
+    ]
+  }
+]

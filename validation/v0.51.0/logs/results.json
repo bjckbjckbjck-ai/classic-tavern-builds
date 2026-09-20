@@ -1,0 +1,88 @@
+[
+  {
+    "suite": "retirement_v51_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 23,
+    "errors": []
+  },
+  {
+    "suite": "hero_draft_v51_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 114,
+    "errors": []
+  },
+  {
+    "suite": "reading_page_v51_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 31,
+    "errors": []
+  },
+  {
+    "suite": "poet_v51_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 15,
+    "errors": []
+  },
+  {
+    "suite": "tribes_combat_v50_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 20,
+    "errors": []
+  },
+  {
+    "suite": "trinkets_v22_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 41,
+    "errors": []
+  },
+  {
+    "suite": "issue_v28_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 37,
+    "errors": []
+  },
+  {
+    "suite": "experience_v25_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 24,
+    "errors": []
+  },
+  {
+    "suite": "stacking_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 25,
+    "errors": []
+  },
+  {
+    "suite": "discover_lock_v38_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 5,
+    "errors": []
+  },
+  {
+    "suite": "reward_ux_v51_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 18,
+    "errors": []
+  },
+  {
+    "suite": "trinket_ui_v51_test",
+    "mode": "native",
+    "exit": 1,
+    "passes": 69,
+    "errors": [
+      "UI FAIL all fifty-seven trinkets reachable by pagination"
+    ]
+  }
+]
