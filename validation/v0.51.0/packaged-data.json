@@ -1,0 +1,22 @@
+[
+  {
+    "path": "data/tomorrow-expansion.json",
+    "sha256": "0081d35add7499c66d92a7319c92f2c06a75457b591ab4b59297a7642d1659bd",
+    "apk_matches_source": true
+  },
+  {
+    "path": "data/darkmoon-prizes.json",
+    "sha256": "a72a95b41da37854e26e09453f7accc45bc0f2629082a3423dbe134115f4339c",
+    "apk_matches_source": true
+  },
+  {
+    "path": "data/trinkets.json",
+    "sha256": "f10d98aa5771c6f99dfa551fb414cdb2855af80f2a57146065c6cdeaf053acac",
+    "apk_matches_source": true
+  },
+  {
+    "path": "data/releases.json",
+    "sha256": "2227ad9da6103c0d39d79424e3cf9a2e6f1bd2f649bfdd611f2901d1738e6dae",
+    "apk_matches_source": true
+  }
+]
