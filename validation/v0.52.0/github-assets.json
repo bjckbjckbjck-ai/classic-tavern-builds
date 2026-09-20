@@ -1,0 +1,33 @@
+{
+  "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.52.0",
+  "tag": "v0.52.0",
+  "published_at": "2026-09-20T02:58:23Z",
+  "source_commit": "238909072f9b72975841f33adb9e113f6814c9b9",
+  "public_commit": "3ed4f3c2cf7ddc691bc4774244385e2a302a509a",
+  "assets": [
+    {
+      "name": "ClassicTavern-v0.52.0-SHA256SUMS.txt",
+      "size": 287,
+      "digest": "sha256:ca58efc32649bb1d1857eff5811797cb1203d3cf7fb5f234a6d358b0298d8860",
+      "browser_download_url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.52.0/ClassicTavern-v0.52.0-SHA256SUMS.txt"
+    },
+    {
+      "name": "ClassicTavern-v0.52.0-Windows.zip",
+      "size": 177632143,
+      "digest": "sha256:8d049291d4e8e539949498759c8ed796888247b7c713a673d9c6bb61957723b2",
+      "browser_download_url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.52.0/ClassicTavern-v0.52.0-Windows.zip"
+    },
+    {
+      "name": "ClassicTavern-v0.52.0.apk",
+      "size": 224993140,
+      "digest": "sha256:33a9b62456e4622a61e540b98f02d2d06a1f4c2ba41bf39475667286d03b24f8",
+      "browser_download_url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.52.0/ClassicTavern-v0.52.0.apk"
+    },
+    {
+      "name": "ClassicTavern-v0.52.0.exe",
+      "size": 245747744,
+      "digest": "sha256:303f6ad2e507f366d09acb06d773ecf346dcfde8ffd6fd978ecc39d3af7cecee",
+      "browser_download_url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.52.0/ClassicTavern-v0.52.0.exe"
+    }
+  ]
+}
