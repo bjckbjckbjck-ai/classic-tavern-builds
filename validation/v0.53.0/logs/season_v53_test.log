@@ -1,0 +1,40 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS catalog valid: []
+PASS four requested cards retired
+PASS requested tier changes
+PASS ordinary rooms exclude seven star additions
+PASS wolf buffs only other living beasts
+PASS later summon inherits wolf buff
+PASS full return does not double the already applied wolf bonus
+PASS gold wolf stacks eight with ordinary four
+PASS papa fills one slot and reserves two summons
+PASS later death opens space for second mama
+PASS third summon consumes reservation
+PASS gold papa summons three golden mamas
+PASS roundhead deathrattle damages both sides excluding itself
+PASS gold small megasaur grants two independently stackable layers per murloc
+PASS adaptation excludes other tribes
+PASS electron magnetizes all mechs and beatboxer copies other hosts
+PASS generated magnetic effects count as magnets but not played cards
+PASS cast a tavern coin
+PASS evoker improves after successful tavern spell
+PASS evoker starting buff retained by Tarecgosa
+PASS evoker triple retains sum of earned improvement
+PASS certificate selects two lowest attack and dragon remembers
+PASS certificate offer weight doubled by memory core
+PASS sinstone creates unique generated copy without stealing stock
+PASS sinstone limited to first two discoveries per turn
+PASS sinstone resets next turn and copies spells
+PASS sinstone burns overflow without blocking discovery
+PASS guff 25 stars yields current-tier triple reward
+PASS guff counts purchased spell tiers and preserves excess
+PASS Might matches edges only
+PASS Fortitude matches edge health
+PASS real minion purchase triggers Guff
+PASS real spell purchase triggers Guff
+PASS combat discovery also copies and keeps trinket counter
+PASS triple reward is not a tavern spell for evoker
+PASS gold electron performs magnetic pulse twice
+PASS complete wolf papa slamma combat resolves bounded summon queues
+SEASON V53 RESULT 37/37

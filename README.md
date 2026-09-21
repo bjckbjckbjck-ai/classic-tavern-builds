@@ -1,3 +1,13 @@
+# v0.53.0 · 历史流派、珍藏与畸变
+
+完成 #29 卡池调整：狼爹/熊爸爸七本召唤流、小巨壳龙叠层、电荷金刚磁力、火铸唤魔师法术龙、五本渣滓招募官。新增古夫、参训证书/罪碑标签与两种卡兹格罗斯畸变，入场展示规则6秒。
+
+[Android APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.53.0/ClassicTavern-v0.53.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.53.0/ClassicTavern-v0.53.0.exe) · [完整发行页](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.53.0)
+
+[卡牌规则与适配](v0.53.0-历史流派与畸变.md) · [验证范围](validation/v0.53.0/README.md) · [下一步](下一阶段开发计划.md)。Android code57，沿用签名；联机双方升级0.53.0。明日系列继续退役，未做平衡模拟。
+
+## 历史版本
+
 # v0.52.1 · 龙的完整增益记忆
 
 修复嘲讽漏记、永久增益重复入账、全局攻击误记，以及复生/塔隆返回后的漏记。普通保留一次，金色属性收益共计两倍，关键词与亡语层数不翻倍。

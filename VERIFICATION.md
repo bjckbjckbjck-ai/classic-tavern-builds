@@ -1,3 +1,7 @@
+# v0.53.0
+
+[功能、双端UI、最终包与网络验证](validation/v0.53.0/README.md)。未做平衡模拟。
+
 # v0.52.1
 
 [8套180项机制回归](validation/v0.52.1/README.md)。

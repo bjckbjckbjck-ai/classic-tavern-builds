@@ -1,0 +1,76 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS spell_hamuul is in the tavern spell catalog
+PASS spell_finest is in the tavern spell catalog
+PASS spell_contracted_corpse is in the tavern spell catalog
+PASS spell_fluidity is in the tavern spell catalog
+PASS 41 spells coexist with v53 221 minions and 23 heroes
+PASS spell_hamuul matches source identity and selected historical tier/cost
+PASS spell_finest matches source identity and selected historical tier/cost
+PASS spell_contracted_corpse matches source identity and selected historical tier/cost
+PASS spell_fluidity matches source identity and selected historical tier/cost
+PASS dual-tribe friendly target casts Hamuul
+PASS Hamuul rebuilds normal six-slot capacity using only tier-bounded tribe union
+PASS spell refresh consumes no gold or refresh charge and emits once
+PASS frozen tribe shop keeps actual entities without a mixed spell slot
+PASS ordinary refresh restores normal minion/spell structure
+PASS shop target snapshots tribe before return and can redraw its sole released copy
+PASS refresh also returns attached magnetic materials
+PASS empty matching pool rejects before consuming spell
+PASS Hamuul rejects neutral target
+PASS all tribes means seven supported tribes and excludes neutral fallback
+PASS later ordinary refresh may draw neutral minions and removes temporary tribe restriction
+PASS dual matching card ID receives its pool weight once
+PASS preflight can succeed solely from matching materials returned by unrelated old shop
+PASS higher tier, retired and token stock cannot satisfy targeted refresh
+PASS Finest uses normal five-slot capacity instead of shrunken pre-cast shop
+PASS Finest offers do not exceed tavern tier
+PASS each spell in transformed shop is independently purchasable
+PASS frozen all-spell shop preserves remaining spell entities and never fills minions
+PASS unfrozen natural refresh restores normal structure
+PASS extra spell providers cannot push transformed shop past seven
+PASS seven-spell frozen shop remains exactly seven even with extra-spell providers
+PASS corpse discovers only available printed deathrattles at or below tier with distinct IDs
+PASS discover choices reserve real scarce pool copies
+PASS choosing corpse returns every unselected reservation
+PASS no printed deathrattle candidate retains corpse spell
+PASS corpse can cast at ten hand because consuming it opens the reward slot
+PASS corpse reward respects ten-card hand limit
+PASS four eligible scarce identities offer exactly three distinct actual cards
+PASS pending corpse discovery that loses its hand slot returns all reservations on overflow
+PASS granted deathrattles and out-of-pool tokens never become printed corpse candidates
+PASS Fluidity swaps actual entities on a full board
+PASS swap preserves stats, layers, enchantments and does not reapply shop buffs
+PASS swap neither changes pool nor invokes buy/play/battlecry
+PASS selling swapped-in entity returns its original physical pool copy
+PASS refresh returns swapped-out entity and its magnetic material exactly once
+PASS Fluidity rejects golden source before consumption
+PASS spell offers are not random swap candidates
+PASS Fluidity cannot target shop or spell slot
+PASS swapped-in third copy follows normal triple resolution
+PASS guarded authoritative cast accepts current source and target
+PASS duplicate request cannot cast next shifted hand card
+PASS changed target UID is rejected before consumption
+PASS changed source UID is rejected before consumption
+PASS cross-round request cannot consume a retained spell
+PASS current UID guard still obeys ready/phase authority lock
+PASS spectator intent need not borrow watched player's mutation serial
+PASS spectator can switch watched player repeatedly
+PASS AI does not buy Hamuul merely because amalgam has all tribes
+PASS AI can seek an actual established tribe union
+PASS AI swaps expendable body while protecting valuable engine
+PASS AI declines non-improving random swap
+PASS AI can seek spells for spell engine with remaining spending budget
+PASS AI recognizes available deathrattle discovery
+PASS AI keeps deathrattle engine core even against a large temporary body
+PASS AI buys a strong offered engine before replacing the shop
+PASS AI limits repeated spell refreshes within one turn
+PASS AI protects inherited deathrattle stacks as well as printed engines
+PASS Fluidity neither bought nor cast to trade Nadina out of her dragon shield formation
+PASS Fluidity preserves Bassgill carrying a 100/100 hand payload even against a larger scored shop body
+PASS protected hand-summon core still permits a beneficial Fluidity swap of an expendable ally
+PASS real finite bot turn uses beneficial Fluidity from hand and reaches ready
+PASS bot with unhelpful or unavailable spells stops without retrying indefinitely
+PASS automatic spell resolution also rejects exhausted refresh before any event
+PASS automatic resolution cannot swap against an empty shop
+FOUR SPELLS V50 RESULT 73 passed 0 failed

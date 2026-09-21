@@ -1,0 +1,2 @@
+    versionCode=57 minSdk=24 targetSdk=35
+    versionName=0.53.0

@@ -1,0 +1,456 @@
+[
+  {
+    "name": "actual touch purchase and Guff progress synchronized",
+    "passed": true,
+    "state": {
+      "anomaly": "might",
+      "board": [
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "206860770-2404889361"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "tarecgosa",
+          "uid": "206860785-4292318384"
+        },
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "electron",
+          "uid": "206860804-3119364955"
+        }
+      ],
+      "coins": 17,
+      "discover": [],
+      "guff_progress": 23,
+      "hand": [
+        {
+          "id": "fireforged_evoker",
+          "uid": "206860836-1361884795"
+        },
+        {
+          "id": "little_megasaur",
+          "uid": "206860852-1207324949"
+        },
+        {
+          "id": "rapscallion_recruiter",
+          "uid": "206860898-275943768"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.53.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "papa_bear",
+          "uid": "206860915-2574559259"
+        },
+        {
+          "id": "roundhead-elder",
+          "uid": "206860932-4038319645"
+        },
+        {
+          "id": "goldrinn",
+          "uid": "206860946-869017087"
+        },
+        {
+          "id": "relentless_murghoul",
+          "uid": "206860962-398482003"
+        }
+      ],
+      "spells": [
+        "spell_arrow"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "expanded mobile hand plays evoker by touch drag",
+    "passed": true,
+    "state": {
+      "anomaly": "might",
+      "board": [
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "206860770-2404889361"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "tarecgosa",
+          "uid": "206860785-4292318384"
+        },
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "electron",
+          "uid": "206860804-3119364955"
+        },
+        {
+          "attack": 8,
+          "health": 5,
+          "id": "fireforged_evoker",
+          "uid": "206860836-1361884795"
+        }
+      ],
+      "coins": 17,
+      "discover": [],
+      "guff_progress": 23,
+      "hand": [
+        {
+          "id": "little_megasaur",
+          "uid": "206860852-1207324949"
+        },
+        {
+          "id": "rapscallion_recruiter",
+          "uid": "206860898-275943768"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.53.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "papa_bear",
+          "uid": "206860915-2574559259"
+        },
+        {
+          "id": "roundhead-elder",
+          "uid": "206860932-4038319645"
+        },
+        {
+          "id": "goldrinn",
+          "uid": "206860946-869017087"
+        },
+        {
+          "id": "relentless_murghoul",
+          "uid": "206860962-398482003"
+        }
+      ],
+      "spells": [
+        "spell_arrow"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "certificate tap selection and explicit purchase",
+    "passed": true,
+    "state": {
+      "anomaly": "might",
+      "board": [
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "206860770-2404889361"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "tarecgosa",
+          "uid": "206860785-4292318384"
+        },
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "electron",
+          "uid": "206860804-3119364955"
+        },
+        {
+          "attack": 8,
+          "health": 5,
+          "id": "fireforged_evoker",
+          "uid": "206860836-1361884795"
+        }
+      ],
+      "coins": 13,
+      "discover": [],
+      "guff_progress": 23,
+      "hand": [
+        {
+          "id": "little_megasaur",
+          "uid": "206860852-1207324949"
+        },
+        {
+          "id": "rapscallion_recruiter",
+          "uid": "206860898-275943768"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.53.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "papa_bear",
+          "uid": "206860915-2574559259"
+        },
+        {
+          "id": "roundhead-elder",
+          "uid": "206860932-4038319645"
+        },
+        {
+          "id": "goldrinn",
+          "uid": "206860946-869017087"
+        },
+        {
+          "id": "relentless_murghoul",
+          "uid": "206860962-398482003"
+        }
+      ],
+      "spells": [
+        "spell_arrow"
+      ],
+      "spells_cast": 0,
+      "trinkets": [
+        "training_certificate"
+      ]
+    }
+  },
+  {
+    "name": "sinstone tap selection and explicit purchase",
+    "passed": true,
+    "state": {
+      "anomaly": "might",
+      "board": [
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "206860770-2404889361"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "tarecgosa",
+          "uid": "206860785-4292318384"
+        },
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "electron",
+          "uid": "206860804-3119364955"
+        },
+        {
+          "attack": 8,
+          "health": 5,
+          "id": "fireforged_evoker",
+          "uid": "206860836-1361884795"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "guff_progress": 23,
+      "hand": [
+        {
+          "id": "little_megasaur",
+          "uid": "206860852-1207324949"
+        },
+        {
+          "id": "rapscallion_recruiter",
+          "uid": "206860898-275943768"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.53.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "papa_bear",
+          "uid": "206860915-2574559259"
+        },
+        {
+          "id": "roundhead-elder",
+          "uid": "206860932-4038319645"
+        },
+        {
+          "id": "goldrinn",
+          "uid": "206860946-869017087"
+        },
+        {
+          "id": "relentless_murghoul",
+          "uid": "206860962-398482003"
+        }
+      ],
+      "spells": [
+        "spell_arrow"
+      ],
+      "spells_cast": 0,
+      "trinkets": [
+        "sinstone_sticker"
+      ]
+    }
+  },
+  {
+    "name": "discovery touch returns two unique papa bears over network",
+    "passed": true,
+    "state": {
+      "anomaly": "might",
+      "board": [
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "206860770-2404889361"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "tarecgosa",
+          "uid": "206860785-4292318384"
+        },
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "electron",
+          "uid": "206860804-3119364955"
+        },
+        {
+          "attack": 8,
+          "health": 5,
+          "id": "fireforged_evoker",
+          "uid": "206860836-1361884795"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "guff_progress": 23,
+      "hand": [
+        {
+          "id": "little_megasaur",
+          "uid": "206860852-1207324949"
+        },
+        {
+          "id": "rapscallion_recruiter",
+          "uid": "206860898-275943768"
+        },
+        {
+          "id": "papa_bear",
+          "uid": "227798226-2317832637"
+        },
+        {
+          "id": "papa_bear",
+          "uid": "230588632-sinstone-3135646822"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.53.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "papa_bear",
+          "uid": "206860915-2574559259"
+        },
+        {
+          "id": "roundhead-elder",
+          "uid": "206860932-4038319645"
+        },
+        {
+          "id": "goldrinn",
+          "uid": "206860946-869017087"
+        },
+        {
+          "id": "relentless_murghoul",
+          "uid": "206860962-398482003"
+        }
+      ],
+      "spells": [
+        "spell_arrow"
+      ],
+      "spells_cast": 0,
+      "trinkets": [
+        "sinstone_sticker"
+      ]
+    }
+  },
+  {
+    "name": "final APK no script or shader runtime errors",
+    "passed": true,
+    "state": {
+      "anomaly": "might",
+      "board": [
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "206860770-2404889361"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "tarecgosa",
+          "uid": "206860785-4292318384"
+        },
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "electron",
+          "uid": "206860804-3119364955"
+        },
+        {
+          "attack": 8,
+          "health": 5,
+          "id": "fireforged_evoker",
+          "uid": "206860836-1361884795"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "guff_progress": 23,
+      "hand": [
+        {
+          "id": "little_megasaur",
+          "uid": "206860852-1207324949"
+        },
+        {
+          "id": "rapscallion_recruiter",
+          "uid": "206860898-275943768"
+        },
+        {
+          "id": "papa_bear",
+          "uid": "227798226-2317832637"
+        },
+        {
+          "id": "papa_bear",
+          "uid": "230588632-sinstone-3135646822"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.53.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "papa_bear",
+          "uid": "206860915-2574559259"
+        },
+        {
+          "id": "roundhead-elder",
+          "uid": "206860932-4038319645"
+        },
+        {
+          "id": "goldrinn",
+          "uid": "206860946-869017087"
+        },
+        {
+          "id": "relentless_murghoul",
+          "uid": "206860962-398482003"
+        }
+      ],
+      "spells": [
+        "spell_arrow"
+      ],
+      "spells_cast": 0,
+      "trinkets": [
+        "sinstone_sticker"
+      ]
+    }
+  }
+]

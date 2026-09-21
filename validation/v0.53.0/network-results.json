@@ -1,0 +1,12 @@
+[
+  {
+    "role": "host",
+    "exit": 0,
+    "passed": true
+  },
+  {
+    "role": "client",
+    "exit": 0,
+    "passed": true
+  }
+]
