@@ -1,0 +1,3327 @@
+[
+  {
+    "name": "fish portrait selection confirmation pays correct cost and generates fish",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "39451648-2651510442"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "goldrinn",
+          "uid": "39451666-3469193625"
+        },
+        {
+          "attack": 1,
+          "health": 2,
+          "id": "micro",
+          "uid": "39451682-458331291"
+        }
+      ],
+      "coins": 29,
+      "discover": [],
+      "hand": [
+        {
+          "id": "nzoth_fish",
+          "uid": "48773333-2298395128"
+        }
+      ],
+      "hand_stats": [
+        {
+          "art": 0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "在战斗中，每当另一个友方随从死亡，获得其亡语各两次（包含跳蛙和附加亡语）。",
+          "health": 2,
+          "id": "nzoth_fish",
+          "keywords": [],
+          "name": "恩佐斯的鱼",
+          "passive": {
+            "type": "fish_memory"
+          },
+          "pool": 0.0,
+          "pool_copies": 0,
+          "source": "TB_BaconShop_HP_105t",
+          "text": "在战斗中，每当另一个友方随从死亡，获得其亡语（包含跳蛙和附加亡语）。",
+          "tier": 1.0,
+          "token": true,
+          "tribe": "野兽",
+          "uid": "48773333-2298395128"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.54.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "fiery_felblood",
+          "uid": "39452811-3177228958"
+        },
+        {
+          "id": "salty",
+          "uid": "39453315-903380427"
+        },
+        {
+          "id": "zapp",
+          "uid": "39453652-3375584831"
+        },
+        {
+          "id": "pupbot",
+          "uid": "39453966-637972037"
+        },
+        {
+          "id": "crystal-cluster-whelp",
+          "uid": "39454248-396634959"
+        },
+        {
+          "id": "pupbot",
+          "uid": "39454539-1005291919"
+        }
+      ],
+      "shop_buff": 0,
+      "shop_limit": 7,
+      "shop_stats": [
+        {
+          "art": 0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {
+            "amount": 3.0,
+            "type": "shop_attack"
+          },
+          "gold": false,
+          "gold_text": "亡语：在本局对战中，酒馆中的随从拥有+6攻击力。",
+          "health": 3,
+          "id": "fiery_felblood",
+          "keywords": [],
+          "name": "魔血岩浆",
+          "pie_bonus": 0,
+          "pool": 9.0,
+          "source": "BG29_877",
+          "text": "亡语：在本局对战中，酒馆中的随从拥有+3攻击力。",
+          "tier": 3.0,
+          "tribe": "恶魔",
+          "uid": "39452811-3177228958"
+        },
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "edition": "全明星叠层精选",
+          "gold": false,
+          "gold_text": "在你使用另一个海盗后，获得 +2/+2。",
+          "health": 3,
+          "id": "salty",
+          "keywords": [],
+          "name": "海上掠夺者",
+          "passive": {
+            "attack": 1.0,
+            "health": 1.0,
+            "tribe": "海盗",
+            "type": "play_self"
+          },
+          "pie_bonus": 0,
+          "pool": 10.0,
+          "source": "BGS_081",
+          "text": "在你使用另一个海盗后，获得 +1/+1。",
+          "tier": 3.0,
+          "tribe": "海盗",
+          "uid": "39453315-903380427"
+        },
+        {
+          "art": 0,
+          "attack": 7,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 1
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_charges": {
+            "windfury": 3.0
+          },
+          "gold_text": "风怒（3）。无视嘲讽，始终攻击攻击力最低的敌方随从。",
+          "health": 10,
+          "id": "zapp",
+          "keywords": [
+            "windfury"
+          ],
+          "name": "扎普·斯里维克",
+          "passive": {
+            "type": "lowest_attack"
+          },
+          "pie_bonus": 0,
+          "pool": 12,
+          "source": "BGS_022",
+          "text": "风怒（1）。无视嘲讽，始终攻击攻击力最低的敌方随从。",
+          "tier": 6.0,
+          "tribe": "中立",
+          "uid": "39453652-3375584831"
+        },
+        {
+          "art": 0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "health": 1,
+          "id": "pupbot",
+          "keywords": [
+            "shield"
+          ],
+          "name": "狗狗机器人",
+          "pie_bonus": 0,
+          "pool": 14.0,
+          "source": "BG21_022",
+          "text": "圣盾（1）。",
+          "tier": 1.0,
+          "tribe": "机械",
+          "uid": "39453966-637972037"
+        },
+        {
+          "adaptation": "增益按玩家本局累计，初始 +1/+1，每出售一次 +1/+1；无友方龙时仍提升。金色给予当前增益的两倍，计数只增加一次。吞食、磁力与三连不算出售。",
+          "art": 0,
+          "atlas_cell": 2.0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "custom": true,
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "出售：使最左侧友方龙获得双倍晶簇增益；随后本局晶簇增益提升 +1/+1。",
+          "health": 2,
+          "id": "crystal-cluster-whelp",
+          "keywords": [],
+          "legacy_id": "crystal-cluster-whelp",
+          "name": "晶簇幼龙",
+          "origin": "旧浏览器框架原创 · prototype-cards.js",
+          "passive": {
+            "attack": 1.0,
+            "health": 1.0,
+            "tribe": "龙",
+            "type": "sell_tribe_scaling"
+          },
+          "pie_bonus": 0,
+          "pool": 11.0,
+          "source": "DIY_CRYSTAL_CLUSTER_WHELP",
+          "text": "出售：使最左侧友方龙获得 +1/+1。本局每出售过一只晶簇幼龙，此效果额外 +1/+1。",
+          "tier": 1.0,
+          "tribe": "龙",
+          "uid": "39454248-396634959"
+        },
+        {
+          "art": 0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "health": 1,
+          "id": "pupbot",
+          "keywords": [
+            "shield"
+          ],
+          "name": "狗狗机器人",
+          "pie_bonus": 0,
+          "pool": 14.0,
+          "source": "BG21_022",
+          "text": "圣盾（1）。",
+          "tier": 1.0,
+          "tribe": "机械",
+          "uid": "39454539-1005291919"
+        }
+      ],
+      "spells": [
+        "spell_slime"
+      ],
+      "spells_cast": 0,
+      "trinket_state": [
+        {
+          "amount": 1.0,
+          "base_cost": 1,
+          "card": "nzoth_fish",
+          "cost": 1,
+          "discount": 0,
+          "discount_reason": "基础价格",
+          "effect": "fish_portrait",
+          "id": "fish_portrait",
+          "name": "鱼的肖像",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "offer_weight": 150.0,
+          "pivot": false,
+          "recommendation": "野兽阵容 · 亡语／复生",
+          "recommended": true,
+          "size": "lesser",
+          "slot": "lesser",
+          "source": "BG30_MagicItem_821",
+          "synergies": [
+            "death"
+          ],
+          "text": "获取一张恩佐斯的鱼。",
+          "tribe": "野兽"
+        }
+      ],
+      "trinkets": [
+        "fish_portrait"
+      ]
+    }
+  },
+  {
+    "name": "actual Android hand expansion and drag plays fish",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "39451648-2651510442"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "goldrinn",
+          "uid": "39451666-3469193625"
+        },
+        {
+          "attack": 1,
+          "health": 2,
+          "id": "micro",
+          "uid": "39451682-458331291"
+        },
+        {
+          "attack": 2,
+          "health": 2,
+          "id": "nzoth_fish",
+          "uid": "48773333-2298395128"
+        }
+      ],
+      "coins": 29,
+      "discover": [],
+      "hand": [],
+      "hand_stats": [],
+      "offers": [],
+      "protocol": "allstars-0.54.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "fiery_felblood",
+          "uid": "39452811-3177228958"
+        },
+        {
+          "id": "salty",
+          "uid": "39453315-903380427"
+        },
+        {
+          "id": "zapp",
+          "uid": "39453652-3375584831"
+        },
+        {
+          "id": "pupbot",
+          "uid": "39453966-637972037"
+        },
+        {
+          "id": "crystal-cluster-whelp",
+          "uid": "39454248-396634959"
+        },
+        {
+          "id": "pupbot",
+          "uid": "39454539-1005291919"
+        }
+      ],
+      "shop_buff": 0,
+      "shop_limit": 7,
+      "shop_stats": [
+        {
+          "art": 0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {
+            "amount": 3.0,
+            "type": "shop_attack"
+          },
+          "gold": false,
+          "gold_text": "亡语：在本局对战中，酒馆中的随从拥有+6攻击力。",
+          "health": 3,
+          "id": "fiery_felblood",
+          "keywords": [],
+          "name": "魔血岩浆",
+          "pie_bonus": 0,
+          "pool": 9.0,
+          "source": "BG29_877",
+          "text": "亡语：在本局对战中，酒馆中的随从拥有+3攻击力。",
+          "tier": 3.0,
+          "tribe": "恶魔",
+          "uid": "39452811-3177228958"
+        },
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "edition": "全明星叠层精选",
+          "gold": false,
+          "gold_text": "在你使用另一个海盗后，获得 +2/+2。",
+          "health": 3,
+          "id": "salty",
+          "keywords": [],
+          "name": "海上掠夺者",
+          "passive": {
+            "attack": 1.0,
+            "health": 1.0,
+            "tribe": "海盗",
+            "type": "play_self"
+          },
+          "pie_bonus": 0,
+          "pool": 10.0,
+          "source": "BGS_081",
+          "text": "在你使用另一个海盗后，获得 +1/+1。",
+          "tier": 3.0,
+          "tribe": "海盗",
+          "uid": "39453315-903380427"
+        },
+        {
+          "art": 0,
+          "attack": 7,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 1
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_charges": {
+            "windfury": 3.0
+          },
+          "gold_text": "风怒（3）。无视嘲讽，始终攻击攻击力最低的敌方随从。",
+          "health": 10,
+          "id": "zapp",
+          "keywords": [
+            "windfury"
+          ],
+          "name": "扎普·斯里维克",
+          "passive": {
+            "type": "lowest_attack"
+          },
+          "pie_bonus": 0,
+          "pool": 12,
+          "source": "BGS_022",
+          "text": "风怒（1）。无视嘲讽，始终攻击攻击力最低的敌方随从。",
+          "tier": 6.0,
+          "tribe": "中立",
+          "uid": "39453652-3375584831"
+        },
+        {
+          "art": 0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "health": 1,
+          "id": "pupbot",
+          "keywords": [
+            "shield"
+          ],
+          "name": "狗狗机器人",
+          "pie_bonus": 0,
+          "pool": 14.0,
+          "source": "BG21_022",
+          "text": "圣盾（1）。",
+          "tier": 1.0,
+          "tribe": "机械",
+          "uid": "39453966-637972037"
+        },
+        {
+          "adaptation": "增益按玩家本局累计，初始 +1/+1，每出售一次 +1/+1；无友方龙时仍提升。金色给予当前增益的两倍，计数只增加一次。吞食、磁力与三连不算出售。",
+          "art": 0,
+          "atlas_cell": 2.0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "custom": true,
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "出售：使最左侧友方龙获得双倍晶簇增益；随后本局晶簇增益提升 +1/+1。",
+          "health": 2,
+          "id": "crystal-cluster-whelp",
+          "keywords": [],
+          "legacy_id": "crystal-cluster-whelp",
+          "name": "晶簇幼龙",
+          "origin": "旧浏览器框架原创 · prototype-cards.js",
+          "passive": {
+            "attack": 1.0,
+            "health": 1.0,
+            "tribe": "龙",
+            "type": "sell_tribe_scaling"
+          },
+          "pie_bonus": 0,
+          "pool": 11.0,
+          "source": "DIY_CRYSTAL_CLUSTER_WHELP",
+          "text": "出售：使最左侧友方龙获得 +1/+1。本局每出售过一只晶簇幼龙，此效果额外 +1/+1。",
+          "tier": 1.0,
+          "tribe": "龙",
+          "uid": "39454248-396634959"
+        },
+        {
+          "art": 0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "health": 1,
+          "id": "pupbot",
+          "keywords": [
+            "shield"
+          ],
+          "name": "狗狗机器人",
+          "pie_bonus": 0,
+          "pool": 14.0,
+          "source": "BG21_022",
+          "text": "圣盾（1）。",
+          "tier": 1.0,
+          "tribe": "机械",
+          "uid": "39454539-1005291919"
+        }
+      ],
+      "spells": [
+        "spell_slime"
+      ],
+      "spells_cast": 0,
+      "trinket_state": [
+        {
+          "amount": 1.0,
+          "base_cost": 1,
+          "card": "nzoth_fish",
+          "cost": 1,
+          "discount": 0,
+          "discount_reason": "基础价格",
+          "effect": "fish_portrait",
+          "id": "fish_portrait",
+          "name": "鱼的肖像",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "offer_weight": 150.0,
+          "pivot": false,
+          "recommendation": "野兽阵容 · 亡语／复生",
+          "recommended": true,
+          "size": "lesser",
+          "slot": "lesser",
+          "source": "BG30_MagicItem_821",
+          "synergies": [
+            "death"
+          ],
+          "text": "获取一张恩佐斯的鱼。",
+          "tribe": "野兽"
+        }
+      ],
+      "trinkets": [
+        "fish_portrait"
+      ]
+    }
+  },
+  {
+    "name": "stein purchase synchronizes expanded capacity",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "39451648-2651510442"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "goldrinn",
+          "uid": "39451666-3469193625"
+        },
+        {
+          "attack": 1,
+          "health": 2,
+          "id": "micro",
+          "uid": "39451682-458331291"
+        },
+        {
+          "attack": 2,
+          "health": 2,
+          "id": "nzoth_fish",
+          "uid": "48773333-2298395128"
+        }
+      ],
+      "coins": 28,
+      "discover": [],
+      "hand": [],
+      "hand_stats": [],
+      "offers": [],
+      "protocol": "allstars-0.54.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "fiery_felblood",
+          "uid": "39452811-3177228958"
+        },
+        {
+          "id": "salty",
+          "uid": "39453315-903380427"
+        },
+        {
+          "id": "zapp",
+          "uid": "39453652-3375584831"
+        },
+        {
+          "id": "pupbot",
+          "uid": "39453966-637972037"
+        },
+        {
+          "id": "crystal-cluster-whelp",
+          "uid": "39454248-396634959"
+        },
+        {
+          "id": "pupbot",
+          "uid": "39454539-1005291919"
+        }
+      ],
+      "shop_buff": 0,
+      "shop_limit": 8,
+      "shop_stats": [
+        {
+          "art": 0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {
+            "amount": 3.0,
+            "type": "shop_attack"
+          },
+          "gold": false,
+          "gold_text": "亡语：在本局对战中，酒馆中的随从拥有+6攻击力。",
+          "health": 3,
+          "id": "fiery_felblood",
+          "keywords": [],
+          "name": "魔血岩浆",
+          "pie_bonus": 0,
+          "pool": 9.0,
+          "source": "BG29_877",
+          "text": "亡语：在本局对战中，酒馆中的随从拥有+3攻击力。",
+          "tier": 3.0,
+          "tribe": "恶魔",
+          "uid": "39452811-3177228958"
+        },
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "edition": "全明星叠层精选",
+          "gold": false,
+          "gold_text": "在你使用另一个海盗后，获得 +2/+2。",
+          "health": 3,
+          "id": "salty",
+          "keywords": [],
+          "name": "海上掠夺者",
+          "passive": {
+            "attack": 1.0,
+            "health": 1.0,
+            "tribe": "海盗",
+            "type": "play_self"
+          },
+          "pie_bonus": 0,
+          "pool": 10.0,
+          "source": "BGS_081",
+          "text": "在你使用另一个海盗后，获得 +1/+1。",
+          "tier": 3.0,
+          "tribe": "海盗",
+          "uid": "39453315-903380427"
+        },
+        {
+          "art": 0,
+          "attack": 7,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 1
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_charges": {
+            "windfury": 3.0
+          },
+          "gold_text": "风怒（3）。无视嘲讽，始终攻击攻击力最低的敌方随从。",
+          "health": 10,
+          "id": "zapp",
+          "keywords": [
+            "windfury"
+          ],
+          "name": "扎普·斯里维克",
+          "passive": {
+            "type": "lowest_attack"
+          },
+          "pie_bonus": 0,
+          "pool": 12,
+          "source": "BGS_022",
+          "text": "风怒（1）。无视嘲讽，始终攻击攻击力最低的敌方随从。",
+          "tier": 6.0,
+          "tribe": "中立",
+          "uid": "39453652-3375584831"
+        },
+        {
+          "art": 0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "health": 1,
+          "id": "pupbot",
+          "keywords": [
+            "shield"
+          ],
+          "name": "狗狗机器人",
+          "pie_bonus": 0,
+          "pool": 14.0,
+          "source": "BG21_022",
+          "text": "圣盾（1）。",
+          "tier": 1.0,
+          "tribe": "机械",
+          "uid": "39453966-637972037"
+        },
+        {
+          "adaptation": "增益按玩家本局累计，初始 +1/+1，每出售一次 +1/+1；无友方龙时仍提升。金色给予当前增益的两倍，计数只增加一次。吞食、磁力与三连不算出售。",
+          "art": 0,
+          "atlas_cell": 2.0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "custom": true,
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "出售：使最左侧友方龙获得双倍晶簇增益；随后本局晶簇增益提升 +1/+1。",
+          "health": 2,
+          "id": "crystal-cluster-whelp",
+          "keywords": [],
+          "legacy_id": "crystal-cluster-whelp",
+          "name": "晶簇幼龙",
+          "origin": "旧浏览器框架原创 · prototype-cards.js",
+          "passive": {
+            "attack": 1.0,
+            "health": 1.0,
+            "tribe": "龙",
+            "type": "sell_tribe_scaling"
+          },
+          "pie_bonus": 0,
+          "pool": 11.0,
+          "source": "DIY_CRYSTAL_CLUSTER_WHELP",
+          "text": "出售：使最左侧友方龙获得 +1/+1。本局每出售过一只晶簇幼龙，此效果额外 +1/+1。",
+          "tier": 1.0,
+          "tribe": "龙",
+          "uid": "39454248-396634959"
+        },
+        {
+          "art": 0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "health": 1,
+          "id": "pupbot",
+          "keywords": [
+            "shield"
+          ],
+          "name": "狗狗机器人",
+          "pie_bonus": 0,
+          "pool": 14.0,
+          "source": "BG21_022",
+          "text": "圣盾（1）。",
+          "tier": 1.0,
+          "tribe": "机械",
+          "uid": "39454539-1005291919"
+        }
+      ],
+      "spells": [
+        "spell_slime"
+      ],
+      "spells_cast": 0,
+      "trinket_state": [
+        {
+          "amount": 1.0,
+          "base_cost": 2,
+          "cost": 2,
+          "discount": 0,
+          "discount_reason": "基础价格",
+          "effect": "innkeeper_stein",
+          "id": "innkeeper_stein",
+          "name": "旅店老板的酒杯",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "offer_weight": 100.0,
+          "pivot": false,
+          "recommendation": "通用运营",
+          "recommended": false,
+          "size": "lesser",
+          "slot": "lesser",
+          "source": "BG30_MagicItem_423",
+          "synergies": [],
+          "text": "每当酒馆刷新时，额外提供一个高一级的随从。",
+          "tribe": "中立"
+        }
+      ],
+      "trinkets": [
+        "innkeeper_stein"
+      ]
+    }
+  },
+  {
+    "name": "Android refresh gives seven minions plus spell",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "39451648-2651510442"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "goldrinn",
+          "uid": "39451666-3469193625"
+        },
+        {
+          "attack": 1,
+          "health": 2,
+          "id": "micro",
+          "uid": "39451682-458331291"
+        },
+        {
+          "attack": 2,
+          "health": 2,
+          "id": "nzoth_fish",
+          "uid": "48773333-2298395128"
+        }
+      ],
+      "coins": 27,
+      "discover": [],
+      "hand": [],
+      "hand_stats": [],
+      "offers": [],
+      "protocol": "allstars-0.54.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "bonehead",
+          "uid": "63364839-2889440038"
+        },
+        {
+          "id": "frog",
+          "uid": "63365160-3442585354"
+        },
+        {
+          "id": "shell_collector",
+          "uid": "63365449-2747338960"
+        },
+        {
+          "id": "macaw",
+          "uid": "63365681-1101110428"
+        },
+        {
+          "id": "salty",
+          "uid": "63365899-3489374972"
+        },
+        {
+          "id": "scrap_scraper",
+          "uid": "63366112-2999852290"
+        },
+        {
+          "id": "zapp",
+          "uid": "63366276-4190292253"
+        }
+      ],
+      "shop_buff": 0,
+      "shop_limit": 8,
+      "shop_stats": [
+        {
+          "adaptation": "历史精选适配：复生层数可以叠加；每次以 1 生命返回，保留剩余复生层数。全局亡灵攻击与骑士死亡计数持续整局。",
+          "art": 0,
+          "attack": 0,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {
+            "count": 2.0,
+            "id": "undead_skeleton",
+            "type": "summon"
+          },
+          "gold": false,
+          "gold_text": "亡语：召唤两个 2/2 的骷髅。",
+          "health": 2,
+          "id": "bonehead",
+          "keywords": [],
+          "name": "无害的骨颅",
+          "pie_bonus": 0,
+          "pool": 12.0,
+          "source": "BG28_300",
+          "text": "亡语：召唤两个 1/1 的骷髅。",
+          "tier": 1.0,
+          "tribe": "亡灵",
+          "uid": "63364839-2889440038",
+          "undead_applied": 0
+        },
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {
+            "amount": 1.0,
+            "type": "leap"
+          },
+          "gold": false,
+          "gold_text": "亡语：随机使一个友方野兽获得 +2/+2 和此亡语。",
+          "health": 3,
+          "id": "frog",
+          "keywords": [],
+          "name": "跳蛙骑士",
+          "pie_bonus": 0,
+          "pool": 11.0,
+          "source": "BG21_000",
+          "text": "亡语：随机使一个友方野兽获得 +1/+1 和此亡语。",
+          "tier": 2.0,
+          "tribe": "野兽",
+          "uid": "63365160-3442585354"
+        },
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {
+            "card": "spell_coin",
+            "count": 1.0,
+            "type": "give_spell"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：获取两张酒馆币。无种族适配。",
+          "health": 1,
+          "id": "shell_collector",
+          "keywords": [],
+          "name": "贝类收藏家",
+          "pie_bonus": 0,
+          "pool": 16.0,
+          "source": "BG23_002",
+          "text": "战吼：获取一张酒馆币。无种族适配，采用历史1星身材。",
+          "tier": 1.0,
+          "tribe": "中立",
+          "uid": "63365449-2747338960"
+        },
+        {
+          "art": 0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "进击：在伤害交换前，触发其他最左侧友方随从的全部亡语两次，每次重新选择。即使随后阵亡也不影响此次触发。",
+          "health": 3,
+          "id": "macaw",
+          "keywords": [],
+          "name": "巨大的金刚鹦鹉",
+          "passive": {
+            "type": "macaw"
+          },
+          "pie_bonus": 0,
+          "pool": 9.0,
+          "source": "BGS_078",
+          "text": "进击：在伤害交换前，触发其他最左侧友方随从的全部亡语。即使随后阵亡也不影响此次触发。",
+          "tier": 3.0,
+          "tribe": "野兽",
+          "uid": "63365681-1101110428"
+        },
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "edition": "全明星叠层精选",
+          "gold": false,
+          "gold_text": "在你使用另一个海盗后，获得 +2/+2。",
+          "health": 3,
+          "id": "salty",
+          "keywords": [],
+          "name": "海上掠夺者",
+          "passive": {
+            "attack": 1.0,
+            "health": 1.0,
+            "tribe": "海盗",
+            "type": "play_self"
+          },
+          "pie_bonus": 0,
+          "pool": 10.0,
+          "source": "BGS_081",
+          "text": "在你使用另一个海盗后，获得 +1/+1。",
+          "tier": 3.0,
+          "tribe": "海盗",
+          "uid": "63365899-3489374972"
+        },
+        {
+          "art": 98592.0,
+          "attack": 3,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "复仇（4）：随机获取两张磁力机械牌。",
+          "health": 6,
+          "id": "scrap_scraper",
+          "keywords": [],
+          "name": "报废废铁回收机",
+          "passive": {
+            "avenge": 4.0,
+            "type": "avenge_magnetic"
+          },
+          "pie_bonus": 0,
+          "pool": 8.0,
+          "source": "BG26_148",
+          "text": "复仇（4）：随机获取一张磁力机械牌。",
+          "tier": 4.0,
+          "tribe": "机械",
+          "uid": "63366112-2999852290"
+        },
+        {
+          "art": 0,
+          "attack": 7,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 1
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_charges": {
+            "windfury": 3.0
+          },
+          "gold_text": "风怒（3）。无视嘲讽，始终攻击攻击力最低的敌方随从。",
+          "health": 10,
+          "id": "zapp",
+          "keywords": [
+            "windfury"
+          ],
+          "name": "扎普·斯里维克",
+          "passive": {
+            "type": "lowest_attack"
+          },
+          "pie_bonus": 0,
+          "pool": 12,
+          "source": "BGS_022",
+          "text": "风怒（1）。无视嘲讽，始终攻击攻击力最低的敌方随从。",
+          "tier": 6.0,
+          "tribe": "中立",
+          "uid": "63366276-4190292253"
+        }
+      ],
+      "spells": [
+        "spell_golden"
+      ],
+      "spells_cast": 0,
+      "trinket_state": [
+        {
+          "amount": 1.0,
+          "base_cost": 2,
+          "cost": 2,
+          "discount": 0,
+          "discount_reason": "基础价格",
+          "effect": "innkeeper_stein",
+          "id": "innkeeper_stein",
+          "name": "旅店老板的酒杯",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "offer_weight": 100.0,
+          "pivot": false,
+          "recommendation": "通用运营",
+          "recommended": false,
+          "size": "lesser",
+          "slot": "lesser",
+          "source": "BG30_MagicItem_423",
+          "synergies": [],
+          "text": "每当酒馆刷新时，额外提供一个高一级的随从。",
+          "tribe": "中立"
+        }
+      ],
+      "trinkets": [
+        "innkeeper_stein"
+      ]
+    }
+  },
+  {
+    "name": "actual Android drag buys seventh minion with correct UID and price",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "39451648-2651510442"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "goldrinn",
+          "uid": "39451666-3469193625"
+        },
+        {
+          "attack": 1,
+          "health": 2,
+          "id": "micro",
+          "uid": "39451682-458331291"
+        },
+        {
+          "attack": 2,
+          "health": 2,
+          "id": "nzoth_fish",
+          "uid": "48773333-2298395128"
+        }
+      ],
+      "coins": 24,
+      "discover": [],
+      "hand": [
+        {
+          "id": "zapp",
+          "uid": "63366276-4190292253"
+        }
+      ],
+      "hand_stats": [
+        {
+          "art": 0,
+          "attack": 7,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 1
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_charges": {
+            "windfury": 3.0
+          },
+          "gold_text": "风怒（3）。无视嘲讽，始终攻击攻击力最低的敌方随从。",
+          "health": 10,
+          "id": "zapp",
+          "keywords": [
+            "windfury"
+          ],
+          "name": "扎普·斯里维克",
+          "passive": {
+            "type": "lowest_attack"
+          },
+          "pie_bonus": 0,
+          "pool": 12,
+          "source": "BGS_022",
+          "text": "风怒（1）。无视嘲讽，始终攻击攻击力最低的敌方随从。",
+          "tier": 6.0,
+          "tribe": "中立",
+          "uid": "63366276-4190292253"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.54.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "bonehead",
+          "uid": "63364839-2889440038"
+        },
+        {
+          "id": "frog",
+          "uid": "63365160-3442585354"
+        },
+        {
+          "id": "shell_collector",
+          "uid": "63365449-2747338960"
+        },
+        {
+          "id": "macaw",
+          "uid": "63365681-1101110428"
+        },
+        {
+          "id": "salty",
+          "uid": "63365899-3489374972"
+        },
+        {
+          "id": "scrap_scraper",
+          "uid": "63366112-2999852290"
+        }
+      ],
+      "shop_buff": 0,
+      "shop_limit": 8,
+      "shop_stats": [
+        {
+          "adaptation": "历史精选适配：复生层数可以叠加；每次以 1 生命返回，保留剩余复生层数。全局亡灵攻击与骑士死亡计数持续整局。",
+          "art": 0,
+          "attack": 0,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {
+            "count": 2.0,
+            "id": "undead_skeleton",
+            "type": "summon"
+          },
+          "gold": false,
+          "gold_text": "亡语：召唤两个 2/2 的骷髅。",
+          "health": 2,
+          "id": "bonehead",
+          "keywords": [],
+          "name": "无害的骨颅",
+          "pie_bonus": 0,
+          "pool": 12.0,
+          "source": "BG28_300",
+          "text": "亡语：召唤两个 1/1 的骷髅。",
+          "tier": 1.0,
+          "tribe": "亡灵",
+          "uid": "63364839-2889440038",
+          "undead_applied": 0
+        },
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {
+            "amount": 1.0,
+            "type": "leap"
+          },
+          "gold": false,
+          "gold_text": "亡语：随机使一个友方野兽获得 +2/+2 和此亡语。",
+          "health": 3,
+          "id": "frog",
+          "keywords": [],
+          "name": "跳蛙骑士",
+          "pie_bonus": 0,
+          "pool": 11.0,
+          "source": "BG21_000",
+          "text": "亡语：随机使一个友方野兽获得 +1/+1 和此亡语。",
+          "tier": 2.0,
+          "tribe": "野兽",
+          "uid": "63365160-3442585354"
+        },
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {
+            "card": "spell_coin",
+            "count": 1.0,
+            "type": "give_spell"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：获取两张酒馆币。无种族适配。",
+          "health": 1,
+          "id": "shell_collector",
+          "keywords": [],
+          "name": "贝类收藏家",
+          "pie_bonus": 0,
+          "pool": 16.0,
+          "source": "BG23_002",
+          "text": "战吼：获取一张酒馆币。无种族适配，采用历史1星身材。",
+          "tier": 1.0,
+          "tribe": "中立",
+          "uid": "63365449-2747338960"
+        },
+        {
+          "art": 0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "进击：在伤害交换前，触发其他最左侧友方随从的全部亡语两次，每次重新选择。即使随后阵亡也不影响此次触发。",
+          "health": 3,
+          "id": "macaw",
+          "keywords": [],
+          "name": "巨大的金刚鹦鹉",
+          "passive": {
+            "type": "macaw"
+          },
+          "pie_bonus": 0,
+          "pool": 9.0,
+          "source": "BGS_078",
+          "text": "进击：在伤害交换前，触发其他最左侧友方随从的全部亡语。即使随后阵亡也不影响此次触发。",
+          "tier": 3.0,
+          "tribe": "野兽",
+          "uid": "63365681-1101110428"
+        },
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "edition": "全明星叠层精选",
+          "gold": false,
+          "gold_text": "在你使用另一个海盗后，获得 +2/+2。",
+          "health": 3,
+          "id": "salty",
+          "keywords": [],
+          "name": "海上掠夺者",
+          "passive": {
+            "attack": 1.0,
+            "health": 1.0,
+            "tribe": "海盗",
+            "type": "play_self"
+          },
+          "pie_bonus": 0,
+          "pool": 10.0,
+          "source": "BGS_081",
+          "text": "在你使用另一个海盗后，获得 +1/+1。",
+          "tier": 3.0,
+          "tribe": "海盗",
+          "uid": "63365899-3489374972"
+        },
+        {
+          "art": 98592.0,
+          "attack": 3,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "复仇（4）：随机获取两张磁力机械牌。",
+          "health": 6,
+          "id": "scrap_scraper",
+          "keywords": [],
+          "name": "报废废铁回收机",
+          "passive": {
+            "avenge": 4.0,
+            "type": "avenge_magnetic"
+          },
+          "pie_bonus": 0,
+          "pool": 8.0,
+          "source": "BG26_148",
+          "text": "复仇（4）：随机获取一张磁力机械牌。",
+          "tier": 4.0,
+          "tribe": "机械",
+          "uid": "63366112-2999852290"
+        }
+      ],
+      "spells": [
+        "spell_golden"
+      ],
+      "spells_cast": 0,
+      "trinket_state": [
+        {
+          "amount": 1.0,
+          "base_cost": 2,
+          "cost": 2,
+          "discount": 0,
+          "discount_reason": "基础价格",
+          "effect": "innkeeper_stein",
+          "id": "innkeeper_stein",
+          "name": "旅店老板的酒杯",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "offer_weight": 100.0,
+          "pivot": false,
+          "recommendation": "通用运营",
+          "recommended": false,
+          "size": "lesser",
+          "slot": "lesser",
+          "source": "BG30_MagicItem_423",
+          "synergies": [],
+          "text": "每当酒馆刷新时，额外提供一个高一级的随从。",
+          "tribe": "中立"
+        }
+      ],
+      "trinkets": [
+        "innkeeper_stein"
+      ]
+    }
+  },
+  {
+    "name": "poet portrait gives both historical cards over final APK websocket",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "39451648-2651510442"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "goldrinn",
+          "uid": "39451666-3469193625"
+        },
+        {
+          "attack": 1,
+          "health": 2,
+          "id": "micro",
+          "uid": "39451682-458331291"
+        },
+        {
+          "attack": 2,
+          "health": 2,
+          "id": "nzoth_fish",
+          "uid": "48773333-2298395128"
+        }
+      ],
+      "coins": 30,
+      "discover": [],
+      "hand": [
+        {
+          "id": "poet",
+          "uid": "97604431-1230053782"
+        },
+        {
+          "id": "promo",
+          "uid": "97604484-3321334201"
+        }
+      ],
+      "hand_stats": [
+        {
+          "art": 108463.0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 3,
+          "id": "poet",
+          "keywords": [
+            "shield"
+          ],
+          "name": "执念诗心龙",
+          "passive": {
+            "type": "poet"
+          },
+          "pool": 8.0,
+          "pool_copies": 0,
+          "source": "BG29_813",
+          "text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 4.0,
+          "tribe": "龙",
+          "uid": "97604431-1230053782"
+        },
+        {
+          "art": 0,
+          "attack": 5,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战斗开始时：每有一个友方龙，使相邻随从获得 +2/+2。",
+          "health": 5,
+          "id": "promo",
+          "keywords": [],
+          "name": "珍稀增强幼龙",
+          "passive": {
+            "attack": 1.0,
+            "health": 1.0,
+            "tribe": "龙",
+            "type": "start_adjacent"
+          },
+          "pool": 7.0,
+          "pool_copies": 0,
+          "source": "BG21_014",
+          "text": "战斗开始时：每有一个友方龙，使相邻随从获得 +1/+1。",
+          "tier": 4.0,
+          "tribe": "龙",
+          "uid": "97604484-3321334201"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.54.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "bonehead",
+          "uid": "63364839-2889440038"
+        },
+        {
+          "id": "frog",
+          "uid": "63365160-3442585354"
+        },
+        {
+          "id": "shell_collector",
+          "uid": "63365449-2747338960"
+        },
+        {
+          "id": "macaw",
+          "uid": "63365681-1101110428"
+        },
+        {
+          "id": "salty",
+          "uid": "63365899-3489374972"
+        },
+        {
+          "id": "scrap_scraper",
+          "uid": "63366112-2999852290"
+        }
+      ],
+      "shop_buff": 0,
+      "shop_limit": 8,
+      "shop_stats": [
+        {
+          "adaptation": "历史精选适配：复生层数可以叠加；每次以 1 生命返回，保留剩余复生层数。全局亡灵攻击与骑士死亡计数持续整局。",
+          "art": 0,
+          "attack": 0,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {
+            "count": 2.0,
+            "id": "undead_skeleton",
+            "type": "summon"
+          },
+          "gold": false,
+          "gold_text": "亡语：召唤两个 2/2 的骷髅。",
+          "health": 2,
+          "id": "bonehead",
+          "keywords": [],
+          "name": "无害的骨颅",
+          "pie_bonus": 0,
+          "pool": 12.0,
+          "source": "BG28_300",
+          "text": "亡语：召唤两个 1/1 的骷髅。",
+          "tier": 1.0,
+          "tribe": "亡灵",
+          "uid": "63364839-2889440038",
+          "undead_applied": 0
+        },
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {
+            "amount": 1.0,
+            "type": "leap"
+          },
+          "gold": false,
+          "gold_text": "亡语：随机使一个友方野兽获得 +2/+2 和此亡语。",
+          "health": 3,
+          "id": "frog",
+          "keywords": [],
+          "name": "跳蛙骑士",
+          "pie_bonus": 0,
+          "pool": 11.0,
+          "source": "BG21_000",
+          "text": "亡语：随机使一个友方野兽获得 +1/+1 和此亡语。",
+          "tier": 2.0,
+          "tribe": "野兽",
+          "uid": "63365160-3442585354"
+        },
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {
+            "card": "spell_coin",
+            "count": 1.0,
+            "type": "give_spell"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：获取两张酒馆币。无种族适配。",
+          "health": 1,
+          "id": "shell_collector",
+          "keywords": [],
+          "name": "贝类收藏家",
+          "pie_bonus": 0,
+          "pool": 16.0,
+          "source": "BG23_002",
+          "text": "战吼：获取一张酒馆币。无种族适配，采用历史1星身材。",
+          "tier": 1.0,
+          "tribe": "中立",
+          "uid": "63365449-2747338960"
+        },
+        {
+          "art": 0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "进击：在伤害交换前，触发其他最左侧友方随从的全部亡语两次，每次重新选择。即使随后阵亡也不影响此次触发。",
+          "health": 3,
+          "id": "macaw",
+          "keywords": [],
+          "name": "巨大的金刚鹦鹉",
+          "passive": {
+            "type": "macaw"
+          },
+          "pie_bonus": 0,
+          "pool": 9.0,
+          "source": "BGS_078",
+          "text": "进击：在伤害交换前，触发其他最左侧友方随从的全部亡语。即使随后阵亡也不影响此次触发。",
+          "tier": 3.0,
+          "tribe": "野兽",
+          "uid": "63365681-1101110428"
+        },
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "edition": "全明星叠层精选",
+          "gold": false,
+          "gold_text": "在你使用另一个海盗后，获得 +2/+2。",
+          "health": 3,
+          "id": "salty",
+          "keywords": [],
+          "name": "海上掠夺者",
+          "passive": {
+            "attack": 1.0,
+            "health": 1.0,
+            "tribe": "海盗",
+            "type": "play_self"
+          },
+          "pie_bonus": 0,
+          "pool": 10.0,
+          "source": "BGS_081",
+          "text": "在你使用另一个海盗后，获得 +1/+1。",
+          "tier": 3.0,
+          "tribe": "海盗",
+          "uid": "63365899-3489374972"
+        },
+        {
+          "art": 98592.0,
+          "attack": 3,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "复仇（4）：随机获取两张磁力机械牌。",
+          "health": 6,
+          "id": "scrap_scraper",
+          "keywords": [],
+          "name": "报废废铁回收机",
+          "passive": {
+            "avenge": 4.0,
+            "type": "avenge_magnetic"
+          },
+          "pie_bonus": 0,
+          "pool": 8.0,
+          "source": "BG26_148",
+          "text": "复仇（4）：随机获取一张磁力机械牌。",
+          "tier": 4.0,
+          "tribe": "机械",
+          "uid": "63366112-2999852290"
+        }
+      ],
+      "spells": [
+        "spell_golden"
+      ],
+      "spells_cast": 0,
+      "trinket_state": [
+        {
+          "amount": 1.0,
+          "base_cost": 0,
+          "cost": 0,
+          "discount": 0,
+          "discount_reason": "转型减费 −0（龙 0/3）",
+          "effect": "poet_portrait",
+          "id": "poet_portrait",
+          "name": "诗心龙肖像",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "offer_weight": 100.0,
+          "pivot": true,
+          "recommendation": "可选转型",
+          "recommended": false,
+          "size": "greater",
+          "slot": "greater",
+          "source": "BG32_MagicItem_364",
+          "synergies": [
+            "keep"
+          ],
+          "text": "获取一张执念诗心龙和一张珍稀增强幼龙。",
+          "tribe": "龙"
+        }
+      ],
+      "trinkets": [
+        "poet_portrait"
+      ]
+    }
+  },
+  {
+    "name": "Pagle grants seven-star minion in anomaly-off room",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "39451648-2651510442"
+        },
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "goldrinn",
+          "uid": "39451666-3469193625"
+        },
+        {
+          "attack": 1,
+          "health": 2,
+          "id": "micro",
+          "uid": "39451682-458331291"
+        },
+        {
+          "attack": 2,
+          "health": 2,
+          "id": "nzoth_fish",
+          "uid": "48773333-2298395128"
+        }
+      ],
+      "coins": 27,
+      "discover": [],
+      "hand": [
+        {
+          "id": "tide_oracle",
+          "uid": "103996310-2766281390"
+        }
+      ],
+      "hand_stats": [
+        {
+          "art": 0,
+          "attack": 1,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 1,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_charges": {
+            "venom": 2.0
+          },
+          "gold_text": "烈毒（2）。攻击并消灭随从后，使一张手牌随从获得其最大属性的两倍。",
+          "health": 10,
+          "id": "tide_oracle",
+          "keywords": [
+            "venom"
+          ],
+          "name": "潮汐先知摩戈尔",
+          "passive": {
+            "type": "oracle"
+          },
+          "pool": 5.0,
+          "pool_copies": 0,
+          "source": "BG27_513",
+          "text": "烈毒（1）。攻击并消灭随从后，使一张手牌随从获得其最大属性。",
+          "tier": 7.0,
+          "tribe": "鱼人",
+          "uid": "103996310-2766281390"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.54.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "bonehead",
+          "uid": "63364839-2889440038"
+        },
+        {
+          "id": "frog",
+          "uid": "63365160-3442585354"
+        },
+        {
+          "id": "shell_collector",
+          "uid": "63365449-2747338960"
+        },
+        {
+          "id": "macaw",
+          "uid": "63365681-1101110428"
+        },
+        {
+          "id": "salty",
+          "uid": "63365899-3489374972"
+        },
+        {
+          "id": "scrap_scraper",
+          "uid": "63366112-2999852290"
+        }
+      ],
+      "shop_buff": 0,
+      "shop_limit": 8,
+      "shop_stats": [
+        {
+          "adaptation": "历史精选适配：复生层数可以叠加；每次以 1 生命返回，保留剩余复生层数。全局亡灵攻击与骑士死亡计数持续整局。",
+          "art": 0,
+          "attack": 0,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {
+            "count": 2.0,
+            "id": "undead_skeleton",
+            "type": "summon"
+          },
+          "gold": false,
+          "gold_text": "亡语：召唤两个 2/2 的骷髅。",
+          "health": 2,
+          "id": "bonehead",
+          "keywords": [],
+          "name": "无害的骨颅",
+          "pie_bonus": 0,
+          "pool": 12.0,
+          "source": "BG28_300",
+          "text": "亡语：召唤两个 1/1 的骷髅。",
+          "tier": 1.0,
+          "tribe": "亡灵",
+          "uid": "63364839-2889440038",
+          "undead_applied": 0
+        },
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {
+            "amount": 1.0,
+            "type": "leap"
+          },
+          "gold": false,
+          "gold_text": "亡语：随机使一个友方野兽获得 +2/+2 和此亡语。",
+          "health": 3,
+          "id": "frog",
+          "keywords": [],
+          "name": "跳蛙骑士",
+          "pie_bonus": 0,
+          "pool": 11.0,
+          "source": "BG21_000",
+          "text": "亡语：随机使一个友方野兽获得 +1/+1 和此亡语。",
+          "tier": 2.0,
+          "tribe": "野兽",
+          "uid": "63365160-3442585354"
+        },
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {
+            "card": "spell_coin",
+            "count": 1.0,
+            "type": "give_spell"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：获取两张酒馆币。无种族适配。",
+          "health": 1,
+          "id": "shell_collector",
+          "keywords": [],
+          "name": "贝类收藏家",
+          "pie_bonus": 0,
+          "pool": 16.0,
+          "source": "BG23_002",
+          "text": "战吼：获取一张酒馆币。无种族适配，采用历史1星身材。",
+          "tier": 1.0,
+          "tribe": "中立",
+          "uid": "63365449-2747338960"
+        },
+        {
+          "art": 0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "进击：在伤害交换前，触发其他最左侧友方随从的全部亡语两次，每次重新选择。即使随后阵亡也不影响此次触发。",
+          "health": 3,
+          "id": "macaw",
+          "keywords": [],
+          "name": "巨大的金刚鹦鹉",
+          "passive": {
+            "type": "macaw"
+          },
+          "pie_bonus": 0,
+          "pool": 9.0,
+          "source": "BGS_078",
+          "text": "进击：在伤害交换前，触发其他最左侧友方随从的全部亡语。即使随后阵亡也不影响此次触发。",
+          "tier": 3.0,
+          "tribe": "野兽",
+          "uid": "63365681-1101110428"
+        },
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "edition": "全明星叠层精选",
+          "gold": false,
+          "gold_text": "在你使用另一个海盗后，获得 +2/+2。",
+          "health": 3,
+          "id": "salty",
+          "keywords": [],
+          "name": "海上掠夺者",
+          "passive": {
+            "attack": 1.0,
+            "health": 1.0,
+            "tribe": "海盗",
+            "type": "play_self"
+          },
+          "pie_bonus": 0,
+          "pool": 10.0,
+          "source": "BGS_081",
+          "text": "在你使用另一个海盗后，获得 +1/+1。",
+          "tier": 3.0,
+          "tribe": "海盗",
+          "uid": "63365899-3489374972"
+        },
+        {
+          "art": 98592.0,
+          "attack": 3,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "复仇（4）：随机获取两张磁力机械牌。",
+          "health": 6,
+          "id": "scrap_scraper",
+          "keywords": [],
+          "name": "报废废铁回收机",
+          "passive": {
+            "avenge": 4.0,
+            "type": "avenge_magnetic"
+          },
+          "pie_bonus": 0,
+          "pool": 8.0,
+          "source": "BG26_148",
+          "text": "复仇（4）：随机获取一张磁力机械牌。",
+          "tier": 4.0,
+          "tribe": "机械",
+          "uid": "63366112-2999852290"
+        }
+      ],
+      "spells": [
+        "spell_golden"
+      ],
+      "spells_cast": 0,
+      "trinket_state": [
+        {
+          "amount": 1.0,
+          "base_cost": 3,
+          "cost": 3,
+          "discount": 0,
+          "discount_reason": "基础价格",
+          "effect": "pagle_rod",
+          "id": "pagle_rod",
+          "name": "帕格的鱼竿",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "offer_weight": 100.0,
+          "pivot": false,
+          "recommendation": "通用运营",
+          "recommended": false,
+          "size": "greater",
+          "slot": "greater",
+          "source": "BG30_MagicItem_993",
+          "synergies": [],
+          "text": "随机获取一张七星随从牌。每回合开始时，再获取一张。",
+          "tribe": "中立"
+        }
+      ],
+      "trinkets": [
+        "pagle_rod"
+      ]
+    }
+  },
+  {
+    "name": "playing battlecry by touch consumes drum and triggers three times",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "felemental",
+          "uid": "106522490-1428378887"
+        }
+      ],
+      "coins": 30,
+      "discover": [],
+      "hand": [],
+      "hand_stats": [],
+      "offers": [],
+      "protocol": "allstars-0.54.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "hound",
+          "uid": "106521439-162658628"
+        },
+        {
+          "id": "magmaloc",
+          "uid": "106521670-392277202"
+        },
+        {
+          "id": "cobalt_scalebane",
+          "uid": "106521851-3564311780"
+        },
+        {
+          "id": "poet",
+          "uid": "106522029-1594722390"
+        },
+        {
+          "id": "drakkari",
+          "uid": "106522218-4032601371"
+        },
+        {
+          "id": "gilded_gargoyle",
+          "uid": "106522432-3553883364"
+        }
+      ],
+      "shop_buff": 3,
+      "shop_limit": 7,
+      "shop_stats": [
+        {
+          "art": 5.0,
+          "attack": 7,
+          "battlecry": {
+            "attack": 2.0,
+            "health": 2.0,
+            "keyword": "taunt",
+            "tribe": "野兽",
+            "type": "target"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：使一个友方野兽获得+4/+4和嘲讽。",
+          "health": 6,
+          "id": "hound",
+          "keywords": [],
+          "name": "驯兽师",
+          "pie_bonus": 0,
+          "pool": 13.0,
+          "source": "DS1_070",
+          "text": "战吼：使一个友方野兽获得+2/+2和嘲讽。",
+          "tier": 3.0,
+          "tribe": "中立",
+          "uid": "106521439-162658628"
+        },
+        {
+          "adaptation": "七种族适配：保留鱼人种族，不引入元素；统计使用随从，包括磁力合体，不含召唤和战吼重触发。",
+          "art": 0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "在你的回合结束时，获得+2/+2。本回合你每使用过一个随从，重复一次。",
+          "health": 4,
+          "id": "magmaloc",
+          "keywords": [],
+          "name": "熔岩鱼人",
+          "passive": {
+            "attack": 1.0,
+            "health": 1.0,
+            "type": "end_per_play"
+          },
+          "pie_bonus": 0,
+          "pool": 11.0,
+          "source": "BG25_046",
+          "text": "在你的回合结束时，获得+1/+1。本回合你每使用过一个随从，重复一次。",
+          "tier": 4.0,
+          "tribe": "鱼人",
+          "uid": "106521670-392277202"
+        },
+        {
+          "art": 0,
+          "attack": 8,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "在你的回合结束时，随机使另一个友方随从获得+6攻击力。",
+          "health": 8,
+          "id": "cobalt_scalebane",
+          "keywords": [],
+          "name": "深蓝刃鳞龙兽",
+          "passive": {
+            "attack": 3.0,
+            "health": 0.0,
+            "type": "end_random"
+          },
+          "pie_bonus": 0,
+          "pool": 7.0,
+          "source": "ICC_029",
+          "text": "在你的回合结束时，随机使另一个友方随从获得+3攻击力。",
+          "tier": 4.0,
+          "tribe": "龙",
+          "uid": "106521851-3564311780"
+        },
+        {
+          "art": 108463.0,
+          "attack": 5,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 6,
+          "id": "poet",
+          "keywords": [
+            "shield"
+          ],
+          "name": "执念诗心龙",
+          "passive": {
+            "type": "poet"
+          },
+          "pie_bonus": 0,
+          "pool": 8.0,
+          "source": "BG29_813",
+          "text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 4.0,
+          "tribe": "龙",
+          "uid": "106522029-1594722390"
+        },
+        {
+          "adaptation": "v0.18：加法叠加，普通额外1次、金色额外2次；不是倍率相乘。",
+          "art": 0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "你的回合结束效果额外触发2次。多个本效果可以叠加。",
+          "health": 8,
+          "id": "drakkari",
+          "keywords": [],
+          "name": "达卡莱附魔师",
+          "passive": {
+            "type": "end_multiplier"
+          },
+          "pie_bonus": 0,
+          "pool": 12.0,
+          "source": "BG26_ICC_901",
+          "text": "你的回合结束效果额外触发1次。多个本效果可以叠加。",
+          "tier": 5.0,
+          "tribe": "中立",
+          "uid": "106522218-4032601371"
+        },
+        {
+          "art": 0,
+          "attack": 5,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {
+            "card": "spell_coin",
+            "count": 1.0,
+            "type": "give_spell"
+          },
+          "gold": false,
+          "gold_text": "亡语：将两张0费酒馆币置入你的手牌。",
+          "health": 5,
+          "id": "gilded_gargoyle",
+          "keywords": [],
+          "name": "镀金的石像鬼",
+          "pie_bonus": 0,
+          "pool": 13.0,
+          "source": "BG26_LOOT_534",
+          "text": "亡语：将一张0费酒馆币置入你的手牌。",
+          "tier": 3.0,
+          "tribe": "亡灵",
+          "uid": "106522432-3553883364",
+          "undead_applied": 0
+        }
+      ],
+      "spells": [
+        "spell_tea"
+      ],
+      "spells_cast": 0,
+      "trinket_state": [
+        {
+          "amount": 1.0,
+          "cost": 3.0,
+          "effect": "war_drum",
+          "id": "war_drum",
+          "name": "战鼓",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "size": "lesser",
+          "source": "BG32_MagicItem_416",
+          "synergies": [
+            "battlecry"
+          ],
+          "text": "每回合中，你的第一个战吼额外触发两次。",
+          "tribe": "中立",
+          "used_round": 1
+        }
+      ],
+      "trinkets": [
+        "war_drum"
+      ]
+    }
+  },
+  {
+    "name": "final APK tavern spell buffs left board and hand minion",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 4,
+          "health": 5,
+          "id": "micro",
+          "uid": "114131399-1235908460"
+        }
+      ],
+      "coins": 31,
+      "discover": [],
+      "hand": [
+        {
+          "id": "micro",
+          "uid": "114131436-311618604"
+        }
+      ],
+      "hand_stats": [
+        {
+          "art": 0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "在你的回合开始时，获得 +2 攻击力。",
+          "health": 5,
+          "id": "micro",
+          "keywords": [],
+          "name": "微型战斗机甲",
+          "passive": {
+            "attack": 1.0,
+            "health": 0.0,
+            "type": "start_turn"
+          },
+          "pool": 0.0,
+          "retired": true,
+          "source": "BGS_027",
+          "text": "在每个回合开始时，获得 +1 攻击力。",
+          "tier": 1.0,
+          "tribe": "机械",
+          "uid": "114131436-311618604"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.54.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "secret-scale-stargazer",
+          "uid": "114130469-3990423417"
+        },
+        {
+          "id": "murky",
+          "uid": "114130660-2753158054"
+        },
+        {
+          "id": "pupbot",
+          "uid": "114130828-279902888"
+        },
+        {
+          "id": "seafarer",
+          "uid": "114131009-3434000131"
+        },
+        {
+          "id": "deathswarmer",
+          "uid": "114131186-3722555312"
+        },
+        {
+          "id": "sky_flagbearer",
+          "uid": "114131355-1353115741"
+        }
+      ],
+      "shop_buff": 3,
+      "shop_limit": 7,
+      "shop_stats": [
+        {
+          "adaptation": "旧框架原创迁移；具体数值与选型见《原创卡迁移与下一步建议》。",
+          "art": 0,
+          "atlas_cell": 1.0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "custom": true,
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "回合结束时，若你本回合施放过酒馆法术，获得两张酒馆币。",
+          "health": 7,
+          "id": "secret-scale-stargazer",
+          "keywords": [],
+          "legacy_id": "secret-scale-stargazer",
+          "name": "秘鳞观星者",
+          "origin": "旧浏览器框架原创 · prototype-cards.js",
+          "passive": {
+            "type": "end_spell_coin"
+          },
+          "pie_bonus": 0,
+          "pool": 9.0,
+          "source": "DIY_SECRET_SCALE_STARGAZER",
+          "text": "回合结束时，若你本回合施放过酒馆法术，获得一张酒馆币。",
+          "tier": 2.0,
+          "tribe": "龙",
+          "uid": "114130469-3990423417"
+        },
+        {
+          "adaptation": "采用历史战吼随从使用数版本；本次使用先计数，重复触发战吼不增加使用数。",
+          "art": 0,
+          "attack": 9,
+          "battlecry": {
+            "attack": 1.0,
+            "health": 1.0,
+            "per_battlecry_play": true,
+            "tribe": "鱼人",
+            "type": "target"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：使一个友方鱼人获得+2/+2。本局对战你每使用过一个战吼随从，提升+2/+2（包含本次使用）。",
+          "health": 8,
+          "id": "murky",
+          "keywords": [],
+          "name": "奔波尔霸",
+          "pie_bonus": 0,
+          "pool": 7.0,
+          "source": "BG24_012",
+          "text": "战吼：使一个友方鱼人获得+1/+1。本局对战你每使用过一个战吼随从，提升+1/+1（包含本次使用）。",
+          "tier": 6.0,
+          "tribe": "鱼人",
+          "uid": "114130660-2753158054"
+        },
+        {
+          "art": 0,
+          "attack": 5,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "health": 4,
+          "id": "pupbot",
+          "keywords": [
+            "shield"
+          ],
+          "name": "狗狗机器人",
+          "pie_bonus": 0,
+          "pool": 14.0,
+          "source": "BG21_022",
+          "text": "圣盾（1）。",
+          "tier": 1.0,
+          "tribe": "机械",
+          "uid": "114130828-279902888"
+        },
+        {
+          "art": 0,
+          "attack": 6,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "每购买3张牌，随机获得两张酒馆法术牌。进度跨回合保留。",
+          "health": 8,
+          "id": "seafarer",
+          "keywords": [],
+          "name": "咒缚水手",
+          "passive": {
+            "type": "buy_spell_reward"
+          },
+          "pie_bonus": 0,
+          "pool": 7.0,
+          "source": "BG28_903",
+          "text": "每购买3张牌，随机获得一张酒馆法术牌。进度跨回合保留。",
+          "tier": 5.0,
+          "tribe": "海盗",
+          "uid": "114131009-3434000131"
+        },
+        {
+          "adaptation": "历史精选适配：复生层数可以叠加；每次以 1 生命返回，保留剩余复生层数。全局亡灵攻击与骑士死亡计数持续整局。",
+          "art": 0,
+          "attack": 4,
+          "battlecry": {
+            "amount": 1.0,
+            "type": "undead_attack"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：本局你的亡灵全局攻击 +2（无论在哪）。",
+          "health": 6,
+          "id": "deathswarmer",
+          "keywords": [],
+          "name": "死亡群居蛛魔",
+          "pie_bonus": 0,
+          "pool": 11.0,
+          "source": "BG25_011",
+          "text": "战吼：本局你的亡灵全局攻击 +1（无论在哪）。",
+          "tier": 2.0,
+          "tribe": "亡灵",
+          "uid": "114131186-3722555312",
+          "undead_applied": 0
+        },
+        {
+          "art": 0,
+          "attack": 7,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战斗开始时：使你的其他海盗获得“亡语：召唤两个1/1的空中海盗并使其立即攻击”。",
+          "health": 7,
+          "id": "sky_flagbearer",
+          "keywords": [],
+          "name": "擎旗空中海盗",
+          "passive": {
+            "type": "pirate_flag"
+          },
+          "pie_bonus": 0,
+          "pool": 7.0,
+          "source": "BG30_119",
+          "text": "战斗开始时：使你的其他海盗获得“亡语：召唤一个1/1的空中海盗并使其立即攻击”。",
+          "tier": 4.0,
+          "tribe": "海盗",
+          "uid": "114131355-1353115741"
+        }
+      ],
+      "spells": [
+        "butchering"
+      ],
+      "spells_cast": 1,
+      "trinket_state": [
+        {
+          "amount": 1.0,
+          "cost": 2.0,
+          "effect": "bluegill_flippers",
+          "id": "bluegill_flippers",
+          "name": "蓝鳃脚蹼",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "size": "lesser",
+          "source": "BG32_MagicItem_893",
+          "synergies": [
+            "spells",
+            "hand"
+          ],
+          "text": "每当你施放一个酒馆法术，使你手牌和战队中最左边的随从各获得+3/+3。",
+          "tribe": "鱼人"
+        }
+      ],
+      "trinkets": [
+        "bluegill_flippers"
+      ]
+    }
+  },
+  {
+    "name": "fixed stein and targeted tribe refresh offer higher-tier beast on final APK",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "135063418-3411580564"
+        }
+      ],
+      "coins": 30,
+      "discover": [],
+      "hand": [],
+      "hand_stats": [],
+      "offers": [],
+      "protocol": "allstars-0.54.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "pack_leader",
+          "uid": "140733799-1571435360"
+        },
+        {
+          "id": "pack_leader",
+          "uid": "140734111-1437962733"
+        },
+        {
+          "id": "rampager",
+          "uid": "140734445-558900114"
+        },
+        {
+          "id": "rampager",
+          "uid": "140734765-3166154919"
+        },
+        {
+          "id": "nightmare_amalgam",
+          "uid": "140735036-664106017"
+        },
+        {
+          "id": "rattler",
+          "uid": "140736114-3383193915"
+        }
+      ],
+      "shop_buff": 3,
+      "shop_limit": 8,
+      "shop_stats": [
+        {
+          "art": 0,
+          "attack": 6,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "edition": "全明星叠层精选",
+          "gold": false,
+          "gold_text": "每当你召唤一个野兽，使其获得 +4 攻击力。",
+          "health": 7,
+          "id": "pack_leader",
+          "keywords": [],
+          "name": "族群领袖",
+          "passive": {
+            "attack": 2.0,
+            "health": 0.0,
+            "tribe": "野兽",
+            "type": "summon_buff"
+          },
+          "pie_bonus": 0,
+          "pool": 11.0,
+          "source": "BGS_017",
+          "text": "每当你召唤一个野兽，使其获得 +2 攻击力。",
+          "tier": 2.0,
+          "tribe": "野兽",
+          "uid": "140733799-1571435360"
+        },
+        {
+          "art": 0,
+          "attack": 6,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "edition": "全明星叠层精选",
+          "gold": false,
+          "gold_text": "每当你召唤一个野兽，使其获得 +4 攻击力。",
+          "health": 7,
+          "id": "pack_leader",
+          "keywords": [],
+          "name": "族群领袖",
+          "passive": {
+            "attack": 2.0,
+            "health": 0.0,
+            "tribe": "野兽",
+            "type": "summon_buff"
+          },
+          "pie_bonus": 0,
+          "pool": 11.0,
+          "source": "BGS_017",
+          "text": "每当你召唤一个野兽，使其获得 +2 攻击力。",
+          "tier": 2.0,
+          "tribe": "野兽",
+          "uid": "140734111-1437962733"
+        },
+        {
+          "art": 0,
+          "attack": 11,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "进击：对其他友方随从造成2点伤害。",
+          "health": 11,
+          "id": "rampager",
+          "keywords": [],
+          "name": "怒火飞羊",
+          "passive": {
+            "amount": 1.0,
+            "friendly_only": true,
+            "type": "attack_all_damage"
+          },
+          "pie_bonus": 0,
+          "pool": 9.0,
+          "source": "BG29_809",
+          "text": "进击：对其他友方随从造成1点伤害。",
+          "tier": 3.0,
+          "tribe": "野兽",
+          "uid": "140734445-558900114"
+        },
+        {
+          "art": 0,
+          "attack": 11,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "进击：对其他友方随从造成2点伤害。",
+          "health": 11,
+          "id": "rampager",
+          "keywords": [],
+          "name": "怒火飞羊",
+          "passive": {
+            "amount": 1.0,
+            "friendly_only": true,
+            "type": "attack_all_damage"
+          },
+          "pie_bonus": 0,
+          "pool": 9.0,
+          "source": "BG29_809",
+          "text": "进击：对其他友方随从造成1点伤害。",
+          "tier": 3.0,
+          "tribe": "野兽",
+          "uid": "140734765-3166154919"
+        },
+        {
+          "all_tribes": true,
+          "art": 0,
+          "attack": 6,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "拥有全部种族（当前七种族）。",
+          "health": 7,
+          "id": "nightmare_amalgam",
+          "keywords": [],
+          "name": "梦魇融合怪",
+          "pie_bonus": 0,
+          "pool": 13.0,
+          "source": "BG_GIL_681",
+          "text": "拥有全部种族（当前七种族）。",
+          "tier": 3.0,
+          "tribe": "野兽",
+          "uid": "140735036-664106017",
+          "undead_applied": 0
+        },
+        {
+          "adaptation": "金色原卡仍赋予一层；重复战吼可继续叠加复生。",
+          "art": 0,
+          "attack": 9,
+          "battlecry": {
+            "charges": 1.0,
+            "gold_charges": 1.0,
+            "keyword": "reborn",
+            "tribe": "野兽",
+            "type": "target"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "health": 5,
+          "id": "rattler",
+          "keywords": [],
+          "name": "复生响尾蛇",
+          "pie_bonus": 0,
+          "pool": 8.0,
+          "source": "BG21_003",
+          "text": "战吼：使一个友方野兽获得 +1 复生。",
+          "tier": 4.0,
+          "tribe": "野兽",
+          "uid": "140736114-3383193915"
+        }
+      ],
+      "spells": [],
+      "spells_cast": 2,
+      "trinket_state": [
+        {
+          "amount": 1.0,
+          "cost": 2.0,
+          "effect": "innkeeper_stein",
+          "id": "innkeeper_stein",
+          "name": "旅店老板的酒杯",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "size": "lesser",
+          "source": "BG30_MagicItem_423",
+          "synergies": [],
+          "text": "每当酒馆刷新时，额外提供一个高一级的随从。",
+          "tribe": "中立"
+        }
+      ],
+      "trinkets": [
+        "innkeeper_stein"
+      ]
+    }
+  },
+  {
+    "name": "final APK 3D presentation verified with no script or shader errors",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "135063418-3411580564"
+        }
+      ],
+      "coins": 30,
+      "discover": [],
+      "hand": [],
+      "hand_stats": [],
+      "offers": [],
+      "protocol": "allstars-0.54.0-ws",
+      "round": 1,
+      "shop": [
+        {
+          "id": "pack_leader",
+          "uid": "140733799-1571435360"
+        },
+        {
+          "id": "pack_leader",
+          "uid": "140734111-1437962733"
+        },
+        {
+          "id": "rampager",
+          "uid": "140734445-558900114"
+        },
+        {
+          "id": "rampager",
+          "uid": "140734765-3166154919"
+        },
+        {
+          "id": "nightmare_amalgam",
+          "uid": "140735036-664106017"
+        },
+        {
+          "id": "rattler",
+          "uid": "140736114-3383193915"
+        }
+      ],
+      "shop_buff": 3,
+      "shop_limit": 8,
+      "shop_stats": [
+        {
+          "art": 0,
+          "attack": 6,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "edition": "全明星叠层精选",
+          "gold": false,
+          "gold_text": "每当你召唤一个野兽，使其获得 +4 攻击力。",
+          "health": 7,
+          "id": "pack_leader",
+          "keywords": [],
+          "name": "族群领袖",
+          "passive": {
+            "attack": 2.0,
+            "health": 0.0,
+            "tribe": "野兽",
+            "type": "summon_buff"
+          },
+          "pie_bonus": 0,
+          "pool": 11.0,
+          "source": "BGS_017",
+          "text": "每当你召唤一个野兽，使其获得 +2 攻击力。",
+          "tier": 2.0,
+          "tribe": "野兽",
+          "uid": "140733799-1571435360"
+        },
+        {
+          "art": 0,
+          "attack": 6,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "edition": "全明星叠层精选",
+          "gold": false,
+          "gold_text": "每当你召唤一个野兽，使其获得 +4 攻击力。",
+          "health": 7,
+          "id": "pack_leader",
+          "keywords": [],
+          "name": "族群领袖",
+          "passive": {
+            "attack": 2.0,
+            "health": 0.0,
+            "tribe": "野兽",
+            "type": "summon_buff"
+          },
+          "pie_bonus": 0,
+          "pool": 11.0,
+          "source": "BGS_017",
+          "text": "每当你召唤一个野兽，使其获得 +2 攻击力。",
+          "tier": 2.0,
+          "tribe": "野兽",
+          "uid": "140734111-1437962733"
+        },
+        {
+          "art": 0,
+          "attack": 11,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "进击：对其他友方随从造成2点伤害。",
+          "health": 11,
+          "id": "rampager",
+          "keywords": [],
+          "name": "怒火飞羊",
+          "passive": {
+            "amount": 1.0,
+            "friendly_only": true,
+            "type": "attack_all_damage"
+          },
+          "pie_bonus": 0,
+          "pool": 9.0,
+          "source": "BG29_809",
+          "text": "进击：对其他友方随从造成1点伤害。",
+          "tier": 3.0,
+          "tribe": "野兽",
+          "uid": "140734445-558900114"
+        },
+        {
+          "art": 0,
+          "attack": 11,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "进击：对其他友方随从造成2点伤害。",
+          "health": 11,
+          "id": "rampager",
+          "keywords": [],
+          "name": "怒火飞羊",
+          "passive": {
+            "amount": 1.0,
+            "friendly_only": true,
+            "type": "attack_all_damage"
+          },
+          "pie_bonus": 0,
+          "pool": 9.0,
+          "source": "BG29_809",
+          "text": "进击：对其他友方随从造成1点伤害。",
+          "tier": 3.0,
+          "tribe": "野兽",
+          "uid": "140734765-3166154919"
+        },
+        {
+          "all_tribes": true,
+          "art": 0,
+          "attack": 6,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "拥有全部种族（当前七种族）。",
+          "health": 7,
+          "id": "nightmare_amalgam",
+          "keywords": [],
+          "name": "梦魇融合怪",
+          "pie_bonus": 0,
+          "pool": 13.0,
+          "source": "BG_GIL_681",
+          "text": "拥有全部种族（当前七种族）。",
+          "tier": 3.0,
+          "tribe": "野兽",
+          "uid": "140735036-664106017",
+          "undead_applied": 0
+        },
+        {
+          "adaptation": "金色原卡仍赋予一层；重复战吼可继续叠加复生。",
+          "art": 0,
+          "attack": 9,
+          "battlecry": {
+            "charges": 1.0,
+            "gold_charges": 1.0,
+            "keyword": "reborn",
+            "tribe": "野兽",
+            "type": "target"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "health": 5,
+          "id": "rattler",
+          "keywords": [],
+          "name": "复生响尾蛇",
+          "pie_bonus": 0,
+          "pool": 8.0,
+          "source": "BG21_003",
+          "text": "战吼：使一个友方野兽获得 +1 复生。",
+          "tier": 4.0,
+          "tribe": "野兽",
+          "uid": "140736114-3383193915"
+        }
+      ],
+      "spells": [],
+      "spells_cast": 2,
+      "trinket_state": [
+        {
+          "amount": 1.0,
+          "cost": 2.0,
+          "effect": "innkeeper_stein",
+          "id": "innkeeper_stein",
+          "name": "旅店老板的酒杯",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "size": "lesser",
+          "source": "BG30_MagicItem_423",
+          "synergies": [],
+          "text": "每当酒馆刷新时，额外提供一个高一级的随从。",
+          "tribe": "中立"
+        }
+      ],
+      "trinkets": [
+        "innkeeper_stein"
+      ]
+    }
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "fish_portrait",
+    "source": "BG30_MagicItem_821",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG30_MagicItem_821.webp",
+    "path": "assets/original/BG30_MagicItem_821.webp",
+    "sha256": "1695045de70707ad19c6c8bb00cc3d668dbf8ff9f85195146882b968e6d764db"
+  },
+  {
+    "id": "innkeeper_stein",
+    "source": "BG30_MagicItem_423",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG30_MagicItem_423.webp",
+    "path": "assets/original/BG30_MagicItem_423.webp",
+    "sha256": "da34606c95b9634eb8bd7dbf8d0d9c38230703ede29693783f78e19a6c8906df"
+  },
+  {
+    "id": "poet_portrait",
+    "source": "BG32_MagicItem_364",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG32_MagicItem_364.webp",
+    "path": "assets/original/BG32_MagicItem_364.webp",
+    "sha256": "7b6fc9962d161a6ec981ac7b075d6a47eb05b91bf52096e8305fb4f988e3935e"
+  },
+  {
+    "id": "deathly_phylactery",
+    "source": "BG30_MagicItem_700",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG30_MagicItem_700.webp",
+    "path": "assets/original/BG30_MagicItem_700.webp",
+    "sha256": "44e2f4f23b66d2ebcb35f24e06d42b292bb631388e92a3ec2673ed2c817f3114"
+  },
+  {
+    "id": "bleeding_heart",
+    "source": "BG30_MagicItem_713",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG30_MagicItem_713.webp",
+    "path": "assets/original/BG30_MagicItem_713.webp",
+    "sha256": "4993a058dfd98c3ed0a7538da3ad0030a5e6f292fb07f316bb604f560d9314ad"
+  },
+  {
+    "id": "explorer_binoculars",
+    "source": "BG32_MagicItem_858",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG32_MagicItem_858.webp",
+    "path": "assets/original/BG32_MagicItem_858.webp",
+    "sha256": "ad70c6453b193e4fcfe3ceed70a0d32a0ce87abf721de66c1a923a99fb6ad070"
+  },
+  {
+    "id": "ghastly_sticker",
+    "source": "BG32_MagicItem_367",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG32_MagicItem_367.webp",
+    "path": "assets/original/BG32_MagicItem_367.webp",
+    "sha256": "6f81a2cd414c2ea2f81dfe91eed8448d5ca0cf2d183168306ffd87707a3393e7"
+  },
+  {
+    "id": "war_drum",
+    "source": "BG32_MagicItem_416",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG32_MagicItem_416.webp",
+    "path": "assets/original/BG32_MagicItem_416.webp",
+    "sha256": "175b3a2cfe4923136c2d6049c651d5ae9b6954eb7db22b838c938009bf26738e"
+  },
+  {
+    "id": "bluegill_flippers",
+    "source": "BG32_MagicItem_893",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG32_MagicItem_893.webp",
+    "path": "assets/original/BG32_MagicItem_893.webp",
+    "sha256": "a67988f40340eca4818bcadcf018ec6d42bffc3b29121a0f62ad9f0b997dd2b4"
+  },
+  {
+    "id": "pagle_rod",
+    "source": "BG30_MagicItem_993",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG30_MagicItem_993.webp",
+    "path": "assets/original/BG30_MagicItem_993.webp",
+    "sha256": "10ff03121a3dc8c58196febd185663f89c25c203899c5aef47d6a9632f3215d6"
+  },
+  {
+    "id": "beatboxer_portrait",
+    "source": "BG35_MagicItem_741",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG35_MagicItem_741.webp",
+    "path": "assets/original/BG35_MagicItem_741.webp",
+    "sha256": "5f945849df74527b1028f2028d9af6479fe8da8d80d5a5e1a220e35dd0fae01b"
+  },
+  {
+    "id": "dragon_eye",
+    "source": "BG36_MagicItem_215",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG36_MagicItem_215.webp",
+    "path": "assets/original/BG36_MagicItem_215.webp",
+    "sha256": "c39f54881d07eff546675671dd6c53e1748b810a001ee5392e82e8765e6caf07"
+  },
+  {
+    "id": "nzoth_fish",
+    "source": "TB_BaconShop_HP_105t",
+    "url": "https://art.hearthstonejson.com/v1/512x/TB_BaconShop_HP_105t.webp",
+    "path": "assets/original/TB_BaconShop_HP_105t.webp",
+    "sha256": "07c0f26f7d4dd3a22c6ed7335524697034a5ce2ff75ea4286d3f6cf5e7f8f15d"
+  }
+]

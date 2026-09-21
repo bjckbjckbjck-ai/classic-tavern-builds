@@ -1,0 +1,77 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PRESENTATION VERIFIED Windows msaa=1 cards=6
+UI PASS four broad choice hit areas
+UI PASS no default purchase before selection
+UI PASS first tap only selects and enables confirmation
+UI PASS selection survives room snapshot
+UI PASS peek hides selection while preserving it
+UI PASS return from battlefield keeps selection
+UI PASS confirmation pays frozen price once
+UI PASS zero-coin free pirate has playable glow
+UI PASS zero-coin free pirate drag buys from actual client
+UI PASS two greater portraits occupy separate HUD slots
+UI PASS equipping a 3D empty slot removes its dark placeholder tint
+UI PASS unaffordable selection can be read but cannot confirm
+UI PASS stale serial cannot purchase an affordable later offer
+UI PASS four broad choice hit areas
+UI PASS no default purchase before selection
+UI PASS first tap only selects and enables confirmation
+UI PASS selection survives room snapshot
+UI PASS peek hides selection while preserving it
+UI PASS return from battlefield keeps selection
+UI PASS confirmation pays frozen price once
+UI PASS zero-coin free pirate has playable glow
+UI PASS zero-coin free pirate drag buys from actual client
+UI PASS two greater portraits occupy separate HUD slots
+UI PASS equipping a 3D empty slot removes its dark placeholder tint
+UI PASS unaffordable selection can be read but cannot confirm
+UI PASS stale serial cannot purchase an affordable later offer
+UI PASS four broad choice hit areas
+UI PASS no default purchase before selection
+UI PASS first tap only selects and enables confirmation
+UI PASS selection survives room snapshot
+UI PASS peek hides selection while preserving it
+UI PASS return from battlefield keeps selection
+UI PASS confirmation pays frozen price once
+UI PASS zero-coin free pirate has playable glow
+UI PASS zero-coin free pirate drag buys from actual client
+UI PASS two greater portraits occupy separate HUD slots
+UI PASS equipping a 3D empty slot removes its dark placeholder tint
+UI PASS unaffordable selection can be read but cannot confirm
+UI PASS stale serial cannot purchase an affordable later offer
+UI PASS four broad choice hit areas
+UI PASS no default purchase before selection
+UI PASS first tap only selects and enables confirmation
+UI PASS selection survives room snapshot
+UI PASS peek hides selection while preserving it
+UI PASS return from battlefield keeps selection
+UI PASS confirmation pays frozen price once
+UI PASS zero-coin free pirate has playable glow
+UI PASS zero-coin free pirate drag buys from actual client
+UI PASS two greater portraits occupy separate HUD slots
+UI PASS equipping a 3D empty slot removes its dark placeholder tint
+UI PASS unaffordable selection can be read but cannot confirm
+UI PASS stale serial cannot purchase an affordable later offer
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS only four entries instantiated per page
+UI PASS all active trinkets reachable; retired star hidden
+UI PASS name and size filtering combine
+UI PASS large source textures never expand the book icon bounds

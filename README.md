@@ -1,3 +1,13 @@
+# v0.54.0 · 十二件历史饰品与亡语传承
+
+巨狼戈德林回六本，新增12件历史饰品和恩佐斯的鱼，接入跳蛙/附加亡语继承、回合结束倍增、首次战吼、多种资源与法术手牌成长。#29仍有9件饰品待办，保持开放。
+
+[Android APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.54.0/ClassicTavern-v0.54.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.54.0/ClassicTavern-v0.54.0.exe) · [完整发行页](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.54.0)
+
+[效果与历史版本](v0.54.0-饰品与亡语传承.md) · [验证范围](validation/v0.54.0/README.md) · [issue逐项核对](issue29-交付核对.md) · [下一步](下一阶段开发计划.md)。Android code58，沿用签名；联机双方升级0.54.0。明日系列继续退役，未做平衡模拟。
+
+## 历史版本
+
 # v0.53.0 · 历史流派、珍藏与畸变
 
 完成 #29 卡池调整：狼爹/熊爸爸七本召唤流、小巨壳龙叠层、电荷金刚磁力、火铸唤魔师法术龙、五本渣滓招募官。新增古夫、参训证书/罪碑标签与两种卡兹格罗斯畸变，入场展示规则6秒。

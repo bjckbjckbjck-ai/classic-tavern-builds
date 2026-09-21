@@ -1,0 +1,18 @@
+{
+  "functional_checks": [
+    {
+      "role": "host",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "role": "client",
+      "exit": 0,
+      "passed": true
+    }
+  ],
+  "known_diagnostics": [
+    "Host exit: ObjectDB instances leaked; 1 resource still in use. See final-network-host.log."
+  ],
+  "scope": "Two processes on this Windows machine; not two external devices."
+}

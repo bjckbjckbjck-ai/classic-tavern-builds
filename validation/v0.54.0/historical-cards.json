@@ -1,0 +1,267 @@
+[
+  {
+    "artist": "Tanamaes Leejierasaes",
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 111999,
+    "id": "BG30_MagicItem_423",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "旅店老板的酒杯",
+    "referencedTags": [
+      "BACON_REFRESH_TOOLTIP"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "每当酒馆<b>刷新</b>时，会额外提供一个更高等级的随从。",
+    "type": "BATTLEGROUND_TRINKET"
+  },
+  {
+    "artist": "James Paick",
+    "battlegroundsAssociatedRaces": [
+      "BEAST",
+      "UNDEAD"
+    ],
+    "cardClass": "NEUTRAL",
+    "cost": 0,
+    "dbfId": 117794,
+    "id": "BG30_MagicItem_700",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "死亡护命匣",
+    "referencedTags": [
+      "DEATHRATTLE",
+      "DISCOVER"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "<b>发现</b>一个<b>亡语</b>随从。每场战斗中你的第一个<b>亡语</b>额外触发一次。",
+    "type": "BATTLEGROUND_TRINKET"
+  },
+  {
+    "battlegroundsAssociatedRaces": [
+      "UNDEAD"
+    ],
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 117906,
+    "id": "BG30_MagicItem_713",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "泣血之心",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "在8个友方随从\n死亡后，随机获取一张亡灵牌。<i>（还剩8个！）</i>",
+    "type": "BATTLEGROUND_TRINKET"
+  },
+  {
+    "battlegroundsAssociatedRaces": [
+      "BEAST",
+      "UNDEAD"
+    ],
+    "battlegroundsRelatedCard": 67213,
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 110966,
+    "id": "BG30_MagicItem_821",
+    "name": "鱼的肖像",
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "获取一张恩佐斯的鱼。",
+    "type": "BATTLEGROUND_TRINKET"
+  },
+  {
+    "artist": "Tanamaes Leejierasaes",
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 113103,
+    "id": "BG30_MagicItem_993",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "帕格的鱼竿",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "随机获取一张等级7的随从牌。在每个回合开始时，再获取一张。",
+    "type": "BATTLEGROUND_TRINKET"
+  },
+  {
+    "artist": "Alex Horley Orlandelli",
+    "battlegroundsAssociatedRaces": [
+      "DRAGON"
+    ],
+    "battlegroundsRelatedCard": 127441,
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 120875,
+    "id": "BG32_MagicItem_364",
+    "name": "诗心龙肖像",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "获取一张时空扭曲诗心龙。",
+    "type": "BATTLEGROUND_TRINKET"
+  },
+  {
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 120873,
+    "id": "BG32_MagicItem_367",
+    "mechanics": [
+      "AURA"
+    ],
+    "name": "鬼魅标签",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "你的回合结束效果额外触发一次。",
+    "type": "BATTLEGROUND_TRINKET"
+  },
+  {
+    "battlegroundsAssociatedRaces": [
+      "DRAGON"
+    ],
+    "cardClass": "NEUTRAL",
+    "cost": 3,
+    "dbfId": 121037,
+    "id": "BG32_MagicItem_416",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "战鼓",
+    "races": [
+      "MURLOC"
+    ],
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "每回合中，有一个<b>战吼</b>会额外触发两次。<i>（还剩1个！）</i>",
+    "type": "BATTLEGROUND_TRINKET"
+  },
+  {
+    "artist": "Kevin Sidharta",
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "dbfId": 120139,
+    "id": "BG32_MagicItem_858",
+    "name": "探险者的望远镜",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "随机获取三张等级4的随从牌。",
+    "type": "BATTLEGROUND_TRINKET"
+  },
+  {
+    "artist": "Ira Fidler",
+    "battlegroundsAssociatedRaces": [
+      "MURLOC"
+    ],
+    "cardClass": "NEUTRAL",
+    "cost": 2,
+    "dbfId": 121140,
+    "id": "BG32_MagicItem_893",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "蓝鳃脚蹼",
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "LESSER_TRINKET",
+    "text": "每当你施放一个酒馆法术，使你手牌和战队中最左边的随从获得+3/+3。",
+    "type": "BATTLEGROUND_TRINKET"
+  },
+  {
+    "artist": "Kevin Sidharta",
+    "battlegroundsAssociatedRaces": [
+      "MECHANICAL"
+    ],
+    "battlegroundsRelatedCard": 98713,
+    "cardClass": "NEUTRAL",
+    "cost": 6,
+    "dbfId": 131139,
+    "id": "BG35_MagicItem_741",
+    "name": "B-Box拳手肖像",
+    "referencedTags": [
+      "MAGNETIC"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "获取一张极性B-Box拳手。",
+    "type": "BATTLEGROUND_TRINKET"
+  },
+  {
+    "battlegroundsAssociatedRaces": [
+      "DRAGON"
+    ],
+    "cardClass": "NEUTRAL",
+    "cost": 4,
+    "dbfId": 133403,
+    "id": "BG36_MagicItem_215",
+    "mechanics": [
+      "AURA",
+      "START_OF_COMBAT"
+    ],
+    "name": "巨龙之眼",
+    "referencedTags": [
+      "BATTLECRY"
+    ],
+    "set": "BATTLEGROUNDS",
+    "spellSchool": "GREATER_TRINKET",
+    "text": "你的龙的<b>战吼</b>额外触发一次。",
+    "type": "BATTLEGROUND_TRINKET"
+  },
+  {
+    "attack": 2,
+    "battlegroundsPremiumDbfId": 67216,
+    "cardClass": "HUNTER",
+    "cost": 0,
+    "dbfId": 67213,
+    "elite": true,
+    "health": 2,
+    "id": "TB_BaconShop_HP_105t",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "恩佐斯的鱼",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "在一个不同的友方<b>亡语</b>随从在战斗中死亡后，获得其<b>亡语</b>。",
+    "type": "MINION"
+  },
+  {
+    "attack": 4,
+    "battlegroundsNormalDbfId": 67213,
+    "cardClass": "HUNTER",
+    "cost": 0,
+    "dbfId": 67216,
+    "elite": true,
+    "health": 4,
+    "id": "TB_BaconUps_307",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "name": "恩佐斯的鱼",
+    "race": "BEAST",
+    "races": [
+      "BEAST"
+    ],
+    "referencedTags": [
+      "DEATHRATTLE"
+    ],
+    "set": "BATTLEGROUNDS",
+    "techLevel": 1,
+    "text": "在一个不同的友方<b>亡语</b>随从在战斗中死亡后，获得其<b>亡语</b>，触发两次。",
+    "type": "MINION"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "suite": "trinket_history_v54_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 46,
+    "errors": []
+  },
+  {
+    "suite": "trinket_ui_v54_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 51,
+    "errors": []
+  },
+  {
+    "suite": "trinket_ui_v51_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 73,
+    "errors": []
+  },
+  {
+    "suite": "season_v53_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 37,
+    "errors": []
+  },
+  {
+    "suite": "poet_buffs_v52_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 16,
+    "errors": []
+  },
+  {
+    "suite": "poet_v51_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 15,
+    "errors": []
+  },
+  {
+    "suite": "tier7_v52_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 16,
+    "errors": []
+  },
+  {
+    "suite": "anomalies_v52_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 25,
+    "errors": []
+  },
+  {
+    "suite": "chain_v50_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 16,
+    "errors": []
+  },
+  {
+    "suite": "trinket_policy_v51_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 24,
+    "errors": []
+  },
+  {
+    "suite": "trinket_history_v51_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 30,
+    "errors": []
+  },
+  {
+    "suite": "four_spells_v50_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 73,
+    "errors": []
+  },
+  {
+    "suite": "stacking_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 25,
+    "errors": []
+  },
+  {
+    "suite": "season_ui_v53_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 28,
+    "errors": []
+  },
+  {
+    "suite": "anomaly_ui_v52_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 35,
+    "errors": []
+  },
+  {
+    "suite": "hand_platform_v47_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 63,
+    "errors": []
+  }
+]
