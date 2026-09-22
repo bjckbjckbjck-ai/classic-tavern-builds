@@ -1,0 +1,86 @@
+[
+  {
+    "source": "BG_EX1_564",
+    "path": "assets/original/BG_EX1_564.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG_EX1_564.webp",
+    "sha256": "82adb1abbceef228a849f61ac4c933de4f905f042249be57b0ffffe06a345ebb"
+  },
+  {
+    "source": "TB_BaconShop_HERO_11",
+    "path": "assets/original/TB_BaconShop_HERO_11.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/TB_BaconShop_HERO_11.webp",
+    "sha256": "4f8b552b18828f67d816a37ca556a3a21f070854041270f6adbd720cef961d34"
+  },
+  {
+    "source": "TB_BaconShop_HERO_76",
+    "path": "assets/original/TB_BaconShop_HERO_76.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/TB_BaconShop_HERO_76.webp",
+    "sha256": "ce06a097df78a7b3284b90b0ebba11a1173d191d6551abdffb797c4489378f16"
+  },
+  {
+    "source": "TB_BaconShop_HERO_93",
+    "path": "assets/original/TB_BaconShop_HERO_93.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/TB_BaconShop_HERO_93.webp",
+    "sha256": "b9a6345ea961c7f513c4f5b459178bc6bc393071362240691df1e030994f80f7"
+  },
+  {
+    "source": "BG30_MagicItem_876",
+    "path": "assets/trinkets/BG30_MagicItem_876.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG30_MagicItem_876.webp",
+    "sha256": "6523e0b2a71fcfc98da2ae9670e4a83bf83f85a667ee2e2afcb4292fbaa15e92"
+  },
+  {
+    "source": "BG30_MagicItem_999",
+    "path": "assets/trinkets/BG30_MagicItem_999.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG30_MagicItem_999.webp",
+    "sha256": "285ce6ce5fd3b107367099614f928e5e5e8728b1c8c0e931da721a99921a7403"
+  },
+  {
+    "source": "BG30_MagicItem_701",
+    "path": "assets/trinkets/BG30_MagicItem_701.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG30_MagicItem_701.webp",
+    "sha256": "a92a90af9bb020b0b1751467b3f1c0715ae6d94f88e96455b2d15ccdda57cebe"
+  },
+  {
+    "source": "BG30_MagicItem_706",
+    "path": "assets/trinkets/BG30_MagicItem_706.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG30_MagicItem_706.webp",
+    "sha256": "6d9a9bd66b5c0b7cc784fc44f7dc30b5d6b11141d61a2e1aae5bbbc5681a6bfb"
+  },
+  {
+    "source": "BG35_MagicItem_931",
+    "path": "assets/trinkets/BG35_MagicItem_931.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG35_MagicItem_931.webp",
+    "sha256": "6dfdb4ca66ccfe3b019e16603c388dba45f0b00594ecda3b8cf497f0be211566"
+  },
+  {
+    "source": "BG35_MagicItem_931t",
+    "path": "assets/trinkets/BG35_MagicItem_931t.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG35_MagicItem_931t.webp",
+    "sha256": "26e22e9bd772c16c8da488719bb4cf386363a358d76fc4a7d160ff014570fe76"
+  },
+  {
+    "source": "BG35_MagicItem_732",
+    "path": "assets/trinkets/BG35_MagicItem_732.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG35_MagicItem_732.webp",
+    "sha256": "fe94d085692b525fc16fc2d1d11c0505982e4ec022d56c12583b1815dc218225"
+  },
+  {
+    "source": "BG35_MagicItem_752",
+    "path": "assets/trinkets/BG35_MagicItem_752.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG35_MagicItem_752.webp",
+    "sha256": "3b995661d9dfe9be74acad6b3196834a32cfab16125fe5ed66b759eee3df27a8"
+  },
+  {
+    "source": "BG36_MagicItem_211",
+    "path": "assets/trinkets/BG36_MagicItem_211.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG36_MagicItem_211.webp",
+    "sha256": "3bed11affefd087605a2e9172c72a30fe62764605bc93f5a38f67838a4552168"
+  },
+  {
+    "source": "BG36_MagicItem_372",
+    "path": "assets/trinkets/BG36_MagicItem_372.webp",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG36_MagicItem_372.webp",
+    "sha256": "cf565cc34dbccf7a2e1cf2b6523b64836b280ab760e86eb405fcdb7e982ed35a"
+  }
+]

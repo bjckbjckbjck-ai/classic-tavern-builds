@@ -1,3 +1,40 @@
+# Issue #29 交付核对 · v0.56.0
+
+2026-09-22重新读取issue正文与全部评论：最新需求仍为2026-09-21，巨狼戈德林回六本已在v0.54完成且本版回归。正文24项饰品现在24/24均有实际效果、图鉴与界面；其中青铜龙时钟保留此前明确说明的本作适配版。转录打字机大小各一版算同一条建议。
+
+本版新增最后9项建议，共10个饰品定义。历史版本取舍、费用、重入及叠层规则见[设计说明](v0.56.0-历史珍藏与英雄畸变.md)，测试与最终包范围见[验证](validation/v0.56.0/README.md)。#18未完成内容继续单独跟进。
+
+| 建议饰品 | 当前实现ID | 当前状态 |
+|---|---|---|
+| 罪碑标签 | `sinstone_sticker` | 已实现 |
+| 鱼的肖像 | `fish_portrait` | 已实现 |
+| 操纵者肖像 | `manipulator_portrait` | 已实现 |
+| 参训证书 | `training_certificate` | 已实现 |
+| 旅店老板的酒杯 | `innkeeper_stein` | 已实现 |
+| 青铜龙时钟 | `bronze_clock` | 已有适配版：开战获自身攻击一半生命 |
+| 帕格的鱼竿 | `pagle_rod` | 已实现 |
+| 玄奥的法术书 | `fancy_spellbook` | 已实现 |
+| 死亡护命匣 | `deathly_phylactery` | 已实现 |
+| 萨格拉斯之眼 | `sargeras_eye` | 已实现 |
+| 映像吊坠 | `reflective_pendant` | 已实现 |
+| 泣血之心 | `bleeding_heart` | 已实现 |
+| 探险者的望远镜 | `explorer_binoculars` | 已实现 |
+| 鬼魅标签 | `ghastly_sticker` | 已实现 |
+| 诗心龙肖像 | `poet_portrait` | 已实现 |
+| 战鼓 | `war_drum` | 已实现 |
+| 蓝鳃脚蹼 | `bluegill_flippers` | 已实现 |
+| 转录打字机 | `typewriter_lesser` / `typewriter_greater` | 已实现（大小两版） |
+| 灵魂酵罐 | `soul_fermenter` | 已实现 |
+| B-Box拳手肖像 | `beatboxer_portrait` | 已实现 |
+| 小瞎眼标签 | `murky_sticker` | 已实现 |
+| 爱心吊坠 | `lovely_locket` | 已实现 |
+| 巨龙之眼 | `dragon_eye` | 已实现 |
+| 记忆之球 | `memory_sphere` | 已实现 |
+
+卡池变更：狼爹六本、熊爸爸七本、小巨壳龙六本、食尸鱼人五本、火铸唤魔师/电荷金刚六本、渣滓招募官五本，指定四张旧牌继续退役。无面操纵者作为衍生牌加入图谱，不额外占用普通商店池。
+
+## 历史审计（以下为当时状态）
+
 # Issue #29 交付核对与未完成清单
 
 ## v0.54.0 本批交付

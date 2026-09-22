@@ -1,0 +1,1650 @@
+[
+  {
+    "name": "final APK connects with v0.56.0 protocol and synchronized four trinkets",
+    "passed": true,
+    "state": {
+      "armor": 10,
+      "board": [
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "tarecgosa",
+          "uid": "16563591-307763518"
+        },
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "16563607-3240866836"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "full_board": [
+        {
+          "art": 72062.0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "永久保留战斗中获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 4,
+          "id": "tarecgosa",
+          "keywords": [],
+          "name": "泰蕾苟萨",
+          "passive": {
+            "type": "keep_combat"
+          },
+          "pool": 9.0,
+          "source": "BG21_015",
+          "text": "永久保留战斗中获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 3.0,
+          "tribe": "龙",
+          "uid": "16563591-307763518"
+        },
+        {
+          "art": 108463.0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 3,
+          "id": "poet",
+          "keywords": [
+            "shield"
+          ],
+          "name": "执念诗心龙",
+          "passive": {
+            "type": "poet"
+          },
+          "pool": 8.0,
+          "source": "BG29_813",
+          "text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 4.0,
+          "tribe": "龙",
+          "uid": "16563607-3240866836"
+        }
+      ],
+      "full_hand": [],
+      "full_trinkets": [],
+      "hand": [],
+      "header_used": false,
+      "hp": 40,
+      "last_tavern_spell": {},
+      "mode": "offers",
+      "offers": [
+        "soul_fermenter",
+        "fancy_spellbook",
+        "murky_sticker",
+        "memory_sphere"
+      ],
+      "pending": [],
+      "protocol": "allstars-0.56.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "shield",
+          "uid": "16563533-300798094"
+        },
+        {
+          "id": "cat",
+          "uid": "16563550-1944273982"
+        },
+        {
+          "id": "rattler",
+          "uid": "16563567-4067671528"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "scrolling long text does not buy trinket",
+    "passed": true,
+    "state": {
+      "armor": 10,
+      "board": [
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "tarecgosa",
+          "uid": "16563591-307763518"
+        },
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "16563607-3240866836"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "full_board": [
+        {
+          "art": 72062.0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "永久保留战斗中获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 4,
+          "id": "tarecgosa",
+          "keywords": [],
+          "name": "泰蕾苟萨",
+          "passive": {
+            "type": "keep_combat"
+          },
+          "pool": 9.0,
+          "source": "BG21_015",
+          "text": "永久保留战斗中获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 3.0,
+          "tribe": "龙",
+          "uid": "16563591-307763518"
+        },
+        {
+          "art": 108463.0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 3,
+          "id": "poet",
+          "keywords": [
+            "shield"
+          ],
+          "name": "执念诗心龙",
+          "passive": {
+            "type": "poet"
+          },
+          "pool": 8.0,
+          "source": "BG29_813",
+          "text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 4.0,
+          "tribe": "龙",
+          "uid": "16563607-3240866836"
+        }
+      ],
+      "full_hand": [],
+      "full_trinkets": [],
+      "hand": [],
+      "header_used": false,
+      "hp": 40,
+      "last_tavern_spell": {},
+      "mode": "offers",
+      "offers": [
+        "soul_fermenter",
+        "fancy_spellbook",
+        "murky_sticker",
+        "memory_sphere"
+      ],
+      "pending": [],
+      "protocol": "allstars-0.56.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "shield",
+          "uid": "16563533-300798094"
+        },
+        {
+          "id": "cat",
+          "uid": "16563550-1944273982"
+        },
+        {
+          "id": "rattler",
+          "uid": "16563567-4067671528"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "first tap only selects trinket",
+    "passed": true,
+    "state": {
+      "armor": 10,
+      "board": [
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "tarecgosa",
+          "uid": "16563591-307763518"
+        },
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "16563607-3240866836"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "full_board": [
+        {
+          "art": 72062.0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "永久保留战斗中获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 4,
+          "id": "tarecgosa",
+          "keywords": [],
+          "name": "泰蕾苟萨",
+          "passive": {
+            "type": "keep_combat"
+          },
+          "pool": 9.0,
+          "source": "BG21_015",
+          "text": "永久保留战斗中获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 3.0,
+          "tribe": "龙",
+          "uid": "16563591-307763518"
+        },
+        {
+          "art": 108463.0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 3,
+          "id": "poet",
+          "keywords": [
+            "shield"
+          ],
+          "name": "执念诗心龙",
+          "passive": {
+            "type": "poet"
+          },
+          "pool": 8.0,
+          "source": "BG29_813",
+          "text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 4.0,
+          "tribe": "龙",
+          "uid": "16563607-3240866836"
+        }
+      ],
+      "full_hand": [],
+      "full_trinkets": [],
+      "hand": [],
+      "header_used": false,
+      "hp": 40,
+      "last_tavern_spell": {},
+      "mode": "offers",
+      "offers": [
+        "soul_fermenter",
+        "fancy_spellbook",
+        "murky_sticker",
+        "memory_sphere"
+      ],
+      "pending": [],
+      "protocol": "allstars-0.56.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "shield",
+          "uid": "16563533-300798094"
+        },
+        {
+          "id": "cat",
+          "uid": "16563550-1944273982"
+        },
+        {
+          "id": "rattler",
+          "uid": "16563567-4067671528"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "explicit confirm acquires sphere for two coins",
+    "passed": true,
+    "state": {
+      "armor": 10,
+      "board": [
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "tarecgosa",
+          "uid": "16563591-307763518"
+        },
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "16563607-3240866836"
+        }
+      ],
+      "coins": 18,
+      "discover": [],
+      "full_board": [
+        {
+          "art": 72062.0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "永久保留战斗中获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 4,
+          "id": "tarecgosa",
+          "keywords": [],
+          "name": "泰蕾苟萨",
+          "passive": {
+            "type": "keep_combat"
+          },
+          "pool": 9.0,
+          "source": "BG21_015",
+          "text": "永久保留战斗中获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 3.0,
+          "tribe": "龙",
+          "uid": "16563591-307763518"
+        },
+        {
+          "art": 108463.0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 3,
+          "id": "poet",
+          "keywords": [
+            "shield"
+          ],
+          "name": "执念诗心龙",
+          "passive": {
+            "type": "poet"
+          },
+          "pool": 8.0,
+          "source": "BG29_813",
+          "text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 4.0,
+          "tribe": "龙",
+          "uid": "16563607-3240866836"
+        }
+      ],
+      "full_hand": [],
+      "full_trinkets": [
+        {
+          "amount": 3.0,
+          "base_cost": 2,
+          "cost": 2,
+          "discount": 0,
+          "discount_reason": "基础价格",
+          "effect": "memory_sphere",
+          "id": "memory_sphere",
+          "name": "记忆之球",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "offer_weight": 100.0,
+          "pivot": false,
+          "recommendation": "通用运营",
+          "recommended": false,
+          "size": "greater",
+          "slot": "greater",
+          "source": "BG36_MagicItem_372",
+          "synergies": [
+            "spells",
+            "end"
+          ],
+          "text": "在你的回合结束时，获得最后施放的酒馆法术的3张复制。包含酒馆币，不记录三连奖励或暗月奖品；跨回合记忆。",
+          "tribe": "中立"
+        }
+      ],
+      "hand": [],
+      "header_used": false,
+      "hp": 40,
+      "last_tavern_spell": {},
+      "mode": "offers",
+      "offers": [],
+      "pending": [],
+      "protocol": "allstars-0.56.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "shield",
+          "uid": "16563533-300798094"
+        },
+        {
+          "id": "cat",
+          "uid": "16563550-1944273982"
+        },
+        {
+          "id": "rattler",
+          "uid": "16563567-4067671528"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": [
+        "memory_sphere"
+      ]
+    }
+  },
+  {
+    "name": "touch drag purchases at zero gold with health and leaves armor intact",
+    "passed": true,
+    "state": {
+      "armor": 10,
+      "board": [
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "tarecgosa",
+          "uid": "24330617-2662192258"
+        },
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "24330641-2672055751"
+        }
+      ],
+      "coins": 0,
+      "discover": [],
+      "full_board": [
+        {
+          "art": 72062.0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "永久保留战斗中获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 4,
+          "id": "tarecgosa",
+          "keywords": [],
+          "name": "泰蕾苟萨",
+          "passive": {
+            "type": "keep_combat"
+          },
+          "pool": 9.0,
+          "source": "BG21_015",
+          "text": "永久保留战斗中获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 3.0,
+          "tribe": "龙",
+          "uid": "24330617-2662192258"
+        },
+        {
+          "art": 108463.0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 3,
+          "id": "poet",
+          "keywords": [
+            "shield"
+          ],
+          "name": "执念诗心龙",
+          "passive": {
+            "type": "poet"
+          },
+          "pool": 8.0,
+          "source": "BG29_813",
+          "text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 4.0,
+          "tribe": "龙",
+          "uid": "24330641-2672055751"
+        }
+      ],
+      "full_hand": [
+        {
+          "art": 5.0,
+          "attack": 1,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "health": 1,
+          "id": "shield",
+          "keywords": [
+            "taunt",
+            "shield"
+          ],
+          "name": "正义保护者",
+          "pool": 18.0,
+          "source": "ICC_038",
+          "text": "嘲讽圣盾（1）",
+          "tier": 1.0,
+          "tribe": "中立",
+          "uid": "24330557-757938066"
+        }
+      ],
+      "full_trinkets": [
+        {
+          "amount": 4.0,
+          "cost": 6.0,
+          "effect": "sargeras_eye",
+          "id": "sargeras_eye",
+          "name": "萨格拉斯之眼",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "progress": 0,
+          "size": "greater",
+          "source": "BG30_MagicItem_701",
+          "synergies": [
+            "consume"
+          ],
+          "text": "你购买的每第四张牌改用等量生命支付。包含随从和酒馆法术，护甲不抵扣；无回溯者时拒绝致命支付。",
+          "tribe": "恶魔"
+        }
+      ],
+      "hand": [
+        {
+          "id": "shield",
+          "uid": "24330557-757938066"
+        }
+      ],
+      "header_used": true,
+      "hp": 37,
+      "last_tavern_spell": {},
+      "mode": "health",
+      "offers": [],
+      "pending": [],
+      "protocol": "allstars-0.56.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "24330580-356462291"
+        },
+        {
+          "id": "rattler",
+          "uid": "24330597-2527286394"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": [
+        "sargeras_eye"
+      ]
+    }
+  },
+  {
+    "name": "typewriter plus double header synchronizes immediate golden triple",
+    "passed": true,
+    "state": {
+      "armor": 10,
+      "board": [
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "tarecgosa",
+          "uid": "29071362-3131209283"
+        },
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "29071375-2265834273"
+        }
+      ],
+      "coins": 17,
+      "discover": [],
+      "full_board": [
+        {
+          "art": 72062.0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "永久保留战斗中获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 4,
+          "id": "tarecgosa",
+          "keywords": [],
+          "name": "泰蕾苟萨",
+          "passive": {
+            "type": "keep_combat"
+          },
+          "pool": 9.0,
+          "source": "BG21_015",
+          "text": "永久保留战斗中获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 3.0,
+          "tribe": "龙",
+          "uid": "29071362-3131209283"
+        },
+        {
+          "art": 108463.0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 3,
+          "id": "poet",
+          "keywords": [
+            "shield"
+          ],
+          "name": "执念诗心龙",
+          "passive": {
+            "type": "poet"
+          },
+          "pool": 8.0,
+          "source": "BG29_813",
+          "text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 4.0,
+          "tribe": "龙",
+          "uid": "29071375-2265834273"
+        }
+      ],
+      "full_hand": [
+        {
+          "art": 5.0,
+          "attack": 2.0,
+          "battlecry": {},
+          "buy_progress": 0,
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "evoker_attack": 0,
+          "evoker_health": 0,
+          "extra_sell_value": 0,
+          "gold": true,
+          "health": 2.0,
+          "health_refresh_used": 0,
+          "id": "shield",
+          "keywords": [
+            "taunt",
+            "shield"
+          ],
+          "lich_mark": false,
+          "magnet_count": 0,
+          "magnet_gold": 0,
+          "magnet_growth": 0,
+          "magnet_materials": [],
+          "name": "正义保护者",
+          "pirate_gain_progress": 0,
+          "pool": 18.0,
+          "pool_copies": 1,
+          "reward": true,
+          "roars": 0,
+          "scout_tier": 1,
+          "source": "ICC_038",
+          "spent": 0,
+          "teron_mark": false,
+          "text": "嘲讽圣盾（1）",
+          "tier": 1.0,
+          "tribe": "中立",
+          "uid": "31363180-3235156791"
+        }
+      ],
+      "full_trinkets": [
+        {
+          "amount": 2.0,
+          "cost": 2.0,
+          "effect": "typewriter",
+          "id": "typewriter_lesser",
+          "name": "转录打字机",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "remaining": 1,
+          "size": "lesser",
+          "source": "BG35_MagicItem_931",
+          "synergies": [
+            "hand",
+            "battlecry"
+          ],
+          "text": "你接下来购买的2个随从各获得一张额外完整复制。跨回合累计，耗尽后不再触发。",
+          "tribe": "中立"
+        }
+      ],
+      "hand": [
+        {
+          "id": "shield",
+          "uid": "31363180-3235156791"
+        }
+      ],
+      "header_used": true,
+      "hp": 40,
+      "last_tavern_spell": {},
+      "mode": "copy",
+      "offers": [],
+      "pending": [],
+      "protocol": "allstars-0.56.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "29071315-4157247859"
+        },
+        {
+          "id": "rattler",
+          "uid": "29071339-3074472692"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": [
+        "typewriter_lesser"
+      ]
+    }
+  },
+  {
+    "name": "touch targeted spell buffs two different friendlies through locket",
+    "passed": true,
+    "state": {
+      "armor": 10,
+      "board": [
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "tarecgosa",
+          "uid": "32955393-320424091"
+        },
+        {
+          "attack": 4,
+          "health": 5,
+          "id": "poet",
+          "uid": "32955425-1569325982"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "full_board": [
+        {
+          "art": 72062.0,
+          "attack": 6,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "永久保留战斗中获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 6,
+          "id": "tarecgosa",
+          "keywords": [],
+          "name": "泰蕾苟萨",
+          "passive": {
+            "type": "keep_combat"
+          },
+          "pool": 9.0,
+          "source": "BG21_015",
+          "text": "永久保留战斗中获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 3.0,
+          "tribe": "龙",
+          "uid": "32955393-320424091"
+        },
+        {
+          "art": 108463.0,
+          "attack": 4,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 5,
+          "id": "poet",
+          "keywords": [
+            "shield"
+          ],
+          "name": "执念诗心龙",
+          "passive": {
+            "type": "poet"
+          },
+          "pool": 8.0,
+          "source": "BG29_813",
+          "text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 4.0,
+          "tribe": "龙",
+          "uid": "32955425-1569325982"
+        }
+      ],
+      "full_hand": [],
+      "full_trinkets": [
+        {
+          "amount": 1.0,
+          "cost": 0.0,
+          "effect": "lovely_locket",
+          "id": "lovely_locket",
+          "name": "爱心吊坠",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "size": "lesser",
+          "source": "BG36_MagicItem_211",
+          "synergies": [
+            "spells"
+          ],
+          "text": "对友方随从施放法术后，对另一个随机合法友方目标再施放一次。复制施放不继续触发吊坠；没有其他合法目标时跳过。",
+          "tribe": "中立"
+        }
+      ],
+      "hand": [],
+      "header_used": false,
+      "hp": 40,
+      "last_tavern_spell": {
+        "attack": 0,
+        "attack_buff": 2.0,
+        "base_cost": 1.0,
+        "battlecry": {},
+        "cost": 1.0,
+        "deathrattle": {},
+        "effect": "target",
+        "gold": false,
+        "health": 0,
+        "health_buff": 2.0,
+        "id": "spell_banana",
+        "keywords": [],
+        "kind": "spell",
+        "name": "香蕉果盘",
+        "source": "BG28_897",
+        "target": "any",
+        "text": "使一个随从获得 +2/+2。",
+        "tier": 1.0,
+        "token": true,
+        "tribe": "法术",
+        "uid": "329556083955095322"
+      },
+      "mode": "locket",
+      "offers": [],
+      "pending": [],
+      "protocol": "allstars-0.56.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "shield",
+          "uid": "32955323-2601677989"
+        },
+        {
+          "id": "cat",
+          "uid": "32955343-834087108"
+        },
+        {
+          "id": "rattler",
+          "uid": "32955360-2661726598"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 2,
+      "trinkets": [
+        "lovely_locket"
+      ]
+    }
+  },
+  {
+    "name": "sphere records actual touch-cast spell",
+    "passed": true,
+    "state": {
+      "armor": 10,
+      "board": [
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "tarecgosa",
+          "uid": "39263420-1740852440"
+        },
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "39263433-3361143053"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "full_board": [
+        {
+          "art": 72062.0,
+          "attack": 6,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "永久保留战斗中获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 6,
+          "id": "tarecgosa",
+          "keywords": [],
+          "name": "泰蕾苟萨",
+          "passive": {
+            "type": "keep_combat"
+          },
+          "pool": 9.0,
+          "source": "BG21_015",
+          "text": "永久保留战斗中获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 3.0,
+          "tribe": "龙",
+          "uid": "39263420-1740852440"
+        },
+        {
+          "art": 108463.0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 3,
+          "id": "poet",
+          "keywords": [
+            "shield"
+          ],
+          "name": "执念诗心龙",
+          "passive": {
+            "type": "poet"
+          },
+          "pool": 8.0,
+          "source": "BG29_813",
+          "text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 4.0,
+          "tribe": "龙",
+          "uid": "39263433-3361143053"
+        }
+      ],
+      "full_hand": [],
+      "full_trinkets": [
+        {
+          "amount": 3.0,
+          "cost": 2.0,
+          "effect": "memory_sphere",
+          "id": "memory_sphere",
+          "name": "记忆之球",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "size": "greater",
+          "source": "BG36_MagicItem_372",
+          "synergies": [
+            "spells",
+            "end"
+          ],
+          "text": "在你的回合结束时，获得最后施放的酒馆法术的3张复制。包含酒馆币，不记录三连奖励或暗月奖品；跨回合记忆。",
+          "tribe": "中立"
+        }
+      ],
+      "hand": [],
+      "header_used": false,
+      "hp": 40,
+      "last_tavern_spell": {
+        "attack": 0,
+        "attack_buff": 2.0,
+        "base_cost": 1.0,
+        "battlecry": {},
+        "cost": 1.0,
+        "deathrattle": {},
+        "effect": "target",
+        "gold": false,
+        "health": 0,
+        "health_buff": 2.0,
+        "id": "spell_banana",
+        "keywords": [],
+        "kind": "spell",
+        "name": "香蕉果盘",
+        "source": "BG28_897",
+        "target": "any",
+        "text": "使一个随从获得 +2/+2。",
+        "tier": 1.0,
+        "token": true,
+        "tribe": "法术",
+        "uid": "392635574010873886"
+      },
+      "mode": "sphere",
+      "offers": [],
+      "pending": [],
+      "protocol": "allstars-0.56.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "shield",
+          "uid": "39263352-3014587122"
+        },
+        {
+          "id": "cat",
+          "uid": "39263376-2343109151"
+        },
+        {
+          "id": "rattler",
+          "uid": "39263397-3988137795"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 3,
+      "trinkets": [
+        "memory_sphere"
+      ]
+    }
+  },
+  {
+    "name": "authority end turn sends three distinct spell copies to final APK",
+    "passed": true,
+    "state": {
+      "armor": 10,
+      "board": [
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "tarecgosa",
+          "uid": "39263420-1740852440"
+        },
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "39263433-3361143053"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "full_board": [
+        {
+          "art": 72062.0,
+          "attack": 6,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "永久保留战斗中获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 6,
+          "id": "tarecgosa",
+          "keywords": [],
+          "name": "泰蕾苟萨",
+          "passive": {
+            "type": "keep_combat"
+          },
+          "pool": 9.0,
+          "source": "BG21_015",
+          "text": "永久保留战斗中获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 3.0,
+          "tribe": "龙",
+          "uid": "39263420-1740852440"
+        },
+        {
+          "art": 108463.0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 3,
+          "id": "poet",
+          "keywords": [
+            "shield"
+          ],
+          "name": "执念诗心龙",
+          "passive": {
+            "type": "poet"
+          },
+          "pool": 8.0,
+          "source": "BG29_813",
+          "text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 4.0,
+          "tribe": "龙",
+          "uid": "39263433-3361143053"
+        }
+      ],
+      "full_hand": [
+        {
+          "attack": 0,
+          "attack_buff": 2.0,
+          "base_cost": 1.0,
+          "battlecry": {},
+          "cost": 1.0,
+          "deathrattle": {},
+          "effect": "target",
+          "gold": false,
+          "health": 0,
+          "health_buff": 2.0,
+          "id": "spell_banana",
+          "keywords": [],
+          "kind": "spell",
+          "magnet_materials": [],
+          "name": "香蕉果盘",
+          "pool_copies": 0,
+          "source": "BG28_897",
+          "target": "any",
+          "text": "使一个随从获得 +2/+2。",
+          "tier": 1.0,
+          "token": true,
+          "tribe": "法术",
+          "uid": "44587329-copy-2317359902"
+        },
+        {
+          "attack": 0,
+          "attack_buff": 2.0,
+          "base_cost": 1.0,
+          "battlecry": {},
+          "cost": 1.0,
+          "deathrattle": {},
+          "effect": "target",
+          "gold": false,
+          "health": 0,
+          "health_buff": 2.0,
+          "id": "spell_banana",
+          "keywords": [],
+          "kind": "spell",
+          "magnet_materials": [],
+          "name": "香蕉果盘",
+          "pool_copies": 0,
+          "source": "BG28_897",
+          "target": "any",
+          "text": "使一个随从获得 +2/+2。",
+          "tier": 1.0,
+          "token": true,
+          "tribe": "法术",
+          "uid": "44587391-copy-1337127723"
+        },
+        {
+          "attack": 0,
+          "attack_buff": 2.0,
+          "base_cost": 1.0,
+          "battlecry": {},
+          "cost": 1.0,
+          "deathrattle": {},
+          "effect": "target",
+          "gold": false,
+          "health": 0,
+          "health_buff": 2.0,
+          "id": "spell_banana",
+          "keywords": [],
+          "kind": "spell",
+          "magnet_materials": [],
+          "name": "香蕉果盘",
+          "pool_copies": 0,
+          "source": "BG28_897",
+          "target": "any",
+          "text": "使一个随从获得 +2/+2。",
+          "tier": 1.0,
+          "token": true,
+          "tribe": "法术",
+          "uid": "44587414-copy-2273362815"
+        }
+      ],
+      "full_trinkets": [
+        {
+          "amount": 3.0,
+          "cost": 2.0,
+          "effect": "memory_sphere",
+          "id": "memory_sphere",
+          "name": "记忆之球",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "size": "greater",
+          "source": "BG36_MagicItem_372",
+          "synergies": [
+            "spells",
+            "end"
+          ],
+          "text": "在你的回合结束时，获得最后施放的酒馆法术的3张复制。包含酒馆币，不记录三连奖励或暗月奖品；跨回合记忆。",
+          "tribe": "中立"
+        }
+      ],
+      "hand": [
+        {
+          "id": "spell_banana",
+          "uid": "44587329-copy-2317359902"
+        },
+        {
+          "id": "spell_banana",
+          "uid": "44587391-copy-1337127723"
+        },
+        {
+          "id": "spell_banana",
+          "uid": "44587414-copy-2273362815"
+        }
+      ],
+      "header_used": false,
+      "hp": 40,
+      "last_tavern_spell": {
+        "attack": 0,
+        "attack_buff": 2.0,
+        "base_cost": 1.0,
+        "battlecry": {},
+        "cost": 1.0,
+        "deathrattle": {},
+        "effect": "target",
+        "gold": false,
+        "health": 0,
+        "health_buff": 2.0,
+        "id": "spell_banana",
+        "keywords": [],
+        "kind": "spell",
+        "name": "香蕉果盘",
+        "source": "BG28_897",
+        "target": "any",
+        "text": "使一个随从获得 +2/+2。",
+        "tier": 1.0,
+        "token": true,
+        "tribe": "法术",
+        "uid": "392635574010873886"
+      },
+      "mode": "end",
+      "offers": [],
+      "pending": [],
+      "protocol": "allstars-0.56.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "shield",
+          "uid": "39263352-3014587122"
+        },
+        {
+          "id": "cat",
+          "uid": "39263376-2343109151"
+        },
+        {
+          "id": "rattler",
+          "uid": "39263397-3988137795"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 3,
+      "trinkets": [
+        "memory_sphere"
+      ]
+    }
+  },
+  {
+    "name": "Android 3D renders without script or shader errors",
+    "passed": true,
+    "state": {
+      "armor": 10,
+      "board": [
+        {
+          "attack": 6,
+          "health": 6,
+          "id": "tarecgosa",
+          "uid": "39263420-1740852440"
+        },
+        {
+          "attack": 2,
+          "health": 3,
+          "id": "poet",
+          "uid": "39263433-3361143053"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "full_board": [
+        {
+          "art": 72062.0,
+          "attack": 6,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "永久保留战斗中获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 6,
+          "id": "tarecgosa",
+          "keywords": [],
+          "name": "泰蕾苟萨",
+          "passive": {
+            "type": "keep_combat"
+          },
+          "pool": 9.0,
+          "source": "BG21_015",
+          "text": "永久保留战斗中获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 3.0,
+          "tribe": "龙",
+          "uid": "39263420-1740852440"
+        },
+        {
+          "art": 108463.0,
+          "attack": 2,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 1,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的双倍属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "health": 3,
+          "id": "poet",
+          "keywords": [
+            "shield"
+          ],
+          "name": "执念诗心龙",
+          "passive": {
+            "type": "poet"
+          },
+          "pool": 8.0,
+          "source": "BG29_813",
+          "text": "圣盾（1）。战斗开始时，使相邻的龙本场可永久保留获得的属性、关键词（含嘲讽及叠层）与获得的亡语（含跳蛙）。",
+          "tier": 4.0,
+          "tribe": "龙",
+          "uid": "39263433-3361143053"
+        }
+      ],
+      "full_hand": [
+        {
+          "attack": 0,
+          "attack_buff": 2.0,
+          "base_cost": 1.0,
+          "battlecry": {},
+          "cost": 1.0,
+          "deathrattle": {},
+          "effect": "target",
+          "gold": false,
+          "health": 0,
+          "health_buff": 2.0,
+          "id": "spell_banana",
+          "keywords": [],
+          "kind": "spell",
+          "magnet_materials": [],
+          "name": "香蕉果盘",
+          "pool_copies": 0,
+          "source": "BG28_897",
+          "target": "any",
+          "text": "使一个随从获得 +2/+2。",
+          "tier": 1.0,
+          "token": true,
+          "tribe": "法术",
+          "uid": "44587329-copy-2317359902"
+        },
+        {
+          "attack": 0,
+          "attack_buff": 2.0,
+          "base_cost": 1.0,
+          "battlecry": {},
+          "cost": 1.0,
+          "deathrattle": {},
+          "effect": "target",
+          "gold": false,
+          "health": 0,
+          "health_buff": 2.0,
+          "id": "spell_banana",
+          "keywords": [],
+          "kind": "spell",
+          "magnet_materials": [],
+          "name": "香蕉果盘",
+          "pool_copies": 0,
+          "source": "BG28_897",
+          "target": "any",
+          "text": "使一个随从获得 +2/+2。",
+          "tier": 1.0,
+          "token": true,
+          "tribe": "法术",
+          "uid": "44587391-copy-1337127723"
+        },
+        {
+          "attack": 0,
+          "attack_buff": 2.0,
+          "base_cost": 1.0,
+          "battlecry": {},
+          "cost": 1.0,
+          "deathrattle": {},
+          "effect": "target",
+          "gold": false,
+          "health": 0,
+          "health_buff": 2.0,
+          "id": "spell_banana",
+          "keywords": [],
+          "kind": "spell",
+          "magnet_materials": [],
+          "name": "香蕉果盘",
+          "pool_copies": 0,
+          "source": "BG28_897",
+          "target": "any",
+          "text": "使一个随从获得 +2/+2。",
+          "tier": 1.0,
+          "token": true,
+          "tribe": "法术",
+          "uid": "44587414-copy-2273362815"
+        }
+      ],
+      "full_trinkets": [
+        {
+          "amount": 3.0,
+          "cost": 2.0,
+          "effect": "memory_sphere",
+          "id": "memory_sphere",
+          "name": "记忆之球",
+          "offer": {
+            "mode": "pivot",
+            "weight": 100.0
+          },
+          "size": "greater",
+          "source": "BG36_MagicItem_372",
+          "synergies": [
+            "spells",
+            "end"
+          ],
+          "text": "在你的回合结束时，获得最后施放的酒馆法术的3张复制。包含酒馆币，不记录三连奖励或暗月奖品；跨回合记忆。",
+          "tribe": "中立"
+        }
+      ],
+      "hand": [
+        {
+          "id": "spell_banana",
+          "uid": "44587329-copy-2317359902"
+        },
+        {
+          "id": "spell_banana",
+          "uid": "44587391-copy-1337127723"
+        },
+        {
+          "id": "spell_banana",
+          "uid": "44587414-copy-2273362815"
+        }
+      ],
+      "header_used": false,
+      "hp": 40,
+      "last_tavern_spell": {
+        "attack": 0,
+        "attack_buff": 2.0,
+        "base_cost": 1.0,
+        "battlecry": {},
+        "cost": 1.0,
+        "deathrattle": {},
+        "effect": "target",
+        "gold": false,
+        "health": 0,
+        "health_buff": 2.0,
+        "id": "spell_banana",
+        "keywords": [],
+        "kind": "spell",
+        "name": "香蕉果盘",
+        "source": "BG28_897",
+        "target": "any",
+        "text": "使一个随从获得 +2/+2。",
+        "tier": 1.0,
+        "token": true,
+        "tribe": "法术",
+        "uid": "392635574010873886"
+      },
+      "mode": "end",
+      "offers": [],
+      "pending": [],
+      "protocol": "allstars-0.56.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "shield",
+          "uid": "39263352-3014587122"
+        },
+        {
+          "id": "cat",
+          "uid": "39263376-2343109151"
+        },
+        {
+          "id": "rattler",
+          "uid": "39263397-3988137795"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 3,
+      "trinkets": [
+        "memory_sphere"
+      ]
+    }
+  }
+]

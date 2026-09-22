@@ -1,0 +1,149 @@
+[
+  {
+    "suite": "season_ui_v56_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 37,
+    "errors": []
+  },
+  {
+    "suite": "anomalies_v52_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 25,
+    "errors": []
+  },
+  {
+    "suite": "hero_draft_v51_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 126,
+    "errors": []
+  },
+  {
+    "suite": "issue30_ui_v55_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 9,
+    "errors": []
+  },
+  {
+    "suite": "trinket_history_v54_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 46,
+    "errors": []
+  },
+  {
+    "suite": "four_spells_v50_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 73,
+    "errors": []
+  },
+  {
+    "suite": "stacking_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 25,
+    "errors": []
+  },
+  {
+    "suite": "poet_buffs_v52_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 16,
+    "errors": []
+  },
+  {
+    "suite": "poet_v51_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 15,
+    "errors": []
+  },
+  {
+    "suite": "chain_v50_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 16,
+    "errors": []
+  },
+  {
+    "suite": "trinket_history_v51_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 30,
+    "errors": []
+  },
+  {
+    "suite": "issue30_v55_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 41,
+    "errors": []
+  },
+  {
+    "suite": "season_v53_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 37,
+    "errors": []
+  },
+  {
+    "suite": "spells_v10_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 64,
+    "errors": []
+  },
+  {
+    "suite": "economy_v18_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 53,
+    "errors": []
+  },
+  {
+    "suite": "darkmoon_v23_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 66,
+    "errors": []
+  },
+  {
+    "suite": "cadence_v26_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 32,
+    "errors": []
+  },
+  {
+    "suite": "reward_ux_v51_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 18,
+    "errors": []
+  },
+  {
+    "suite": "hand_platform_v47_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 63,
+    "errors": []
+  },
+  {
+    "suite": "season_v56_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 76,
+    "errors": []
+  },
+  {
+    "suite": "reading_page_v51_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 31,
+    "errors": []
+  }
+]

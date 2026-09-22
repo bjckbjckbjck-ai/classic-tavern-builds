@@ -1,3 +1,13 @@
+# v0.56.0 · 历史珍藏与英雄畸变
+
+补齐 #29 最后9项饰品（打字机大小各一版，共10个新定义），新增拉格纳罗斯、奥拉基尔、恩佐斯，以及首购免费、首购复制和余币结转三种畸变。扩大饰品正文、加入畸变独立徽章与分页、显示饰品计数和红色生命价格。
+
+[安卓 APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.56.0/ClassicTavern-v0.56.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.56.0/ClassicTavern-v0.56.0.exe) · [发行页](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.56.0)
+
+[逐项规则与历史版本](v0.56.0-历史珍藏与英雄畸变.md) · [验证](validation/v0.56.0/README.md) · [issue核对](issue29-交付核对.md) · [下一步](下一阶段开发计划.md)。Android code60、沿用签名，联机双方须升级0.56.0；明日惩戒仍停用，没有进行胜率模拟。
+
+## 历史版本
+
 # v0.55.0 · 自动结算与奖励暂存
 
 修复 #30：自动触发的发现当场结算，满手奖励按顺序暂存并在腾位后补入；蛮鱼斥候、塔德、观星者和响尾蛇完善防循环条件。联机双方须同版，Android code59沿用签名。

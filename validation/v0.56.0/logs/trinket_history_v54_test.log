@@ -1,0 +1,49 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS expanded catalog valid
+PASS v54 trinkets and fish remain in expanded catalog
+PASS wolf returns to six leaving nine sevens
+PASS wolf purchasable without seven anomaly
+PASS wolf returns one physical copy
+PASS fish portrait gives generated token
+PASS fish inherits printed plus attached deathrattle and frog stacks
+PASS actual frog transfer and inherited printed deathrattle stay distinct
+PASS macaw-style trigger executes fish inherited attached buff
+PASS triggering inherited deathrattles does not make fish copy itself
+PASS gold fish retains source gold and doubles each inherited effect
+PASS simultaneously dead fish cannot inherit
+PASS reborn fish resets inherited deathrattles and returns at one health
+PASS historical poet portrait gives both dragon engines
+PASS beatboxer portrait gives real magnetic core
+PASS binoculars gives three active generated four stars
+PASS portrait fills hand before queuing remaining reward
+PASS pagle generates seven on purchase and next start without unlocking tavern
+PASS rod never leaks seven into ordinary shop pool
+PASS stein eight-slot shop preserves spell and caps bonus at six
+PASS stein adds exact next tier with shop growth
+PASS freezing keeps existing bonus minion
+PASS all-spell refresh remains all spells within expanded slots
+PASS phylactery offers real discover with printed deathrattles
+PASS empty death does not consume first-deathrattle bonus
+PASS first real trigger consumes once including macaw
+PASS new combat resets phylactery
+PASS recruit deaths never consume combat-only phylactery
+PASS eighth death produces generated undead in combat hand
+PASS undead reward and progress persist to recruitment
+PASS incomplete death progress carries across combats
+PASS full hand queues reward and consumes eight-death progress
+PASS ghastly repeats electron magnetization
+PASS ghastly and drakkari add extra triggers
+PASS repeated timed reward generates twice but duration advances once
+PASS first played battlecry triggers three times
+PASS second battlecry has no drum repeat
+PASS drum resets next round and applies to triggered battlecries
+PASS dragon eye drum and Brann stack additively
+PASS all-type battlecry qualifies for dragon eye
+PASS flippers skips hand spells and buffs left board and hand minions
+PASS triple reward is not a tavern spell for flippers
+PASS three generated fish triple without creating shared stock
+PASS stein never reduces crowded anomaly capacity
+PASS stein bonus respects tribe refresh while adding a higher tier
+PASS eligible fish remembers inherited deathrattle through shared poet ledger
+V54 TRINKET RESULT 46/46
