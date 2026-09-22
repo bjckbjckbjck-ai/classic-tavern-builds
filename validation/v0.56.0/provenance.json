@@ -1,0 +1,11 @@
+{
+  "source_commit": "ab22ebb60a4363c3093208d3eb01247c1cec438d",
+  "public_release_commit": "bfe3f12a18f4c057aac91e2d201a4525dd3ef73c",
+  "removed_stale_reference_images": [
+    "v51-reading-before-journal.png",
+    "v51-reading-before-rules.png",
+    "v51-reading-before-wide.png"
+  ],
+  "note": "The three v51 before images were historical September 17 baselines accidentally matched by screenshot glob; they are not v56 validation and were removed. Current v51-named regression screenshots were produced September 22.",
+  "test_process_cleanup": "Owned emulator stopped via adb emu kill; no remaining listeners on fixture port 14340 or final EXE test port 14356."
+}
