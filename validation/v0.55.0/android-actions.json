@@ -1,0 +1,1190 @@
+[
+  {
+    "name": "final APK connects using v0.55.0 protocol",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "rodeo",
+          "uid": "42878542-1253528725"
+        },
+        {
+          "attack": 9,
+          "health": 6,
+          "id": "young_murkeye",
+          "uid": "42878560-1579159642"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "full_board": [
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {
+            "type": "discover_spell"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：发现两张酒馆法术牌。",
+          "health": 4,
+          "id": "rodeo",
+          "keywords": [],
+          "name": "竞技表演者",
+          "pool": 7.0,
+          "source": "BG28_550",
+          "text": "战吼：发现一张酒馆法术牌。",
+          "tier": 5.0,
+          "tribe": "中立",
+          "uid": "42878542-1253528725"
+        },
+        {
+          "art": 0,
+          "attack": 9,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "回合结束时，触发两侧相邻随从的战吼。指向战吼随机选择合法友方目标。",
+          "health": 6,
+          "id": "young_murkeye",
+          "keywords": [],
+          "name": "小瞎眼",
+          "passive": {
+            "type": "end_battlecry"
+          },
+          "pool": 5.0,
+          "source": "BG22_403",
+          "text": "回合结束时，触发一个随机相邻随从的战吼。指向战吼随机选择合法友方目标。",
+          "tier": 6.0,
+          "tribe": "鱼人",
+          "uid": "42878560-1579159642"
+        }
+      ],
+      "hand": [
+        {
+          "id": "spell_coin",
+          "uid": "428781092494959088"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428781291840111780"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428781443215450690"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428781581743535006"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428781724253901876"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "42878186111652383"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428782012436650202"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428782143405045351"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428782282960864803"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "4287824325614875"
+        }
+      ],
+      "mode": "auto",
+      "offers": [],
+      "pending": [],
+      "protocol": "allstars-0.55.0-ws",
+      "ready": false,
+      "round": 1,
+      "settled": false,
+      "shop": [
+        {
+          "id": "goldrinn",
+          "uid": "42878016-880381955"
+        },
+        {
+          "id": "cat",
+          "uid": "42878036-2311251617"
+        },
+        {
+          "id": "rattler",
+          "uid": "42878057-853428079"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "ready triggers automatic end-turn discover into full-hand queue",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "rodeo",
+          "uid": "42878542-1253528725"
+        },
+        {
+          "attack": 9,
+          "health": 6,
+          "id": "young_murkeye",
+          "uid": "42878560-1579159642"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "full_board": [
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {
+            "type": "discover_spell"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：发现两张酒馆法术牌。",
+          "health": 4,
+          "id": "rodeo",
+          "keywords": [],
+          "name": "竞技表演者",
+          "pool": 7.0,
+          "source": "BG28_550",
+          "text": "战吼：发现一张酒馆法术牌。",
+          "tier": 5.0,
+          "tribe": "中立",
+          "uid": "42878542-1253528725"
+        },
+        {
+          "art": 0,
+          "attack": 9,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "回合结束时，触发两侧相邻随从的战吼。指向战吼随机选择合法友方目标。",
+          "health": 6,
+          "id": "young_murkeye",
+          "keywords": [],
+          "name": "小瞎眼",
+          "passive": {
+            "type": "end_battlecry"
+          },
+          "pool": 5.0,
+          "source": "BG22_403",
+          "text": "回合结束时，触发一个随机相邻随从的战吼。指向战吼随机选择合法友方目标。",
+          "tier": 6.0,
+          "tribe": "鱼人",
+          "uid": "42878560-1579159642"
+        }
+      ],
+      "hand": [
+        {
+          "id": "spell_coin",
+          "uid": "428781092494959088"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428781291840111780"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428781443215450690"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428781581743535006"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428781724253901876"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "42878186111652383"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428782012436650202"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428782143405045351"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428782282960864803"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "4287824325614875"
+        }
+      ],
+      "mode": "auto",
+      "offers": [],
+      "pending": [
+        {
+          "attack": 0,
+          "attack_buff": 4.0,
+          "base_cost": 4.0,
+          "battlecry": {},
+          "cost": 4.0,
+          "deathrattle": {},
+          "effect": "board",
+          "gold": false,
+          "health": 0,
+          "health_buff": 4.0,
+          "id": "spell_azerite",
+          "keywords": [],
+          "kind": "spell",
+          "name": "艾泽里特强化",
+          "source": "BG28_169",
+          "text": "使你的随从获得+4/+4。",
+          "tier": 6.0,
+          "token": true,
+          "tribe": "法术",
+          "uid": "491376993041231554"
+        }
+      ],
+      "protocol": "allstars-0.55.0-ws",
+      "ready": true,
+      "round": 1,
+      "settled": true,
+      "shop": [
+        {
+          "id": "goldrinn",
+          "uid": "42878016-880381955"
+        },
+        {
+          "id": "cat",
+          "uid": "42878036-2311251617"
+        },
+        {
+          "id": "rattler",
+          "uid": "42878057-853428079"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "dragging coin admits the exact queued UID",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "rodeo",
+          "uid": "42878542-1253528725"
+        },
+        {
+          "attack": 9,
+          "health": 6,
+          "id": "young_murkeye",
+          "uid": "42878560-1579159642"
+        }
+      ],
+      "coins": 21,
+      "discover": [],
+      "full_board": [
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {
+            "type": "discover_spell"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：发现两张酒馆法术牌。",
+          "health": 4,
+          "id": "rodeo",
+          "keywords": [],
+          "name": "竞技表演者",
+          "pool": 7.0,
+          "source": "BG28_550",
+          "text": "战吼：发现一张酒馆法术牌。",
+          "tier": 5.0,
+          "tribe": "中立",
+          "uid": "42878542-1253528725"
+        },
+        {
+          "art": 0,
+          "attack": 9,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "回合结束时，触发两侧相邻随从的战吼。指向战吼随机选择合法友方目标。",
+          "health": 6,
+          "id": "young_murkeye",
+          "keywords": [],
+          "name": "小瞎眼",
+          "passive": {
+            "type": "end_battlecry"
+          },
+          "pool": 5.0,
+          "source": "BG22_403",
+          "text": "回合结束时，触发一个随机相邻随从的战吼。指向战吼随机选择合法友方目标。",
+          "tier": 6.0,
+          "tribe": "鱼人",
+          "uid": "42878560-1579159642"
+        }
+      ],
+      "hand": [
+        {
+          "id": "spell_coin",
+          "uid": "428781291840111780"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428781443215450690"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428781581743535006"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428781724253901876"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "42878186111652383"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428782012436650202"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428782143405045351"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "428782282960864803"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "4287824325614875"
+        },
+        {
+          "id": "spell_azerite",
+          "uid": "491376993041231554"
+        }
+      ],
+      "mode": "resume",
+      "offers": [],
+      "pending": [],
+      "protocol": "allstars-0.55.0-ws",
+      "ready": false,
+      "round": 1,
+      "settled": true,
+      "shop": [
+        {
+          "id": "goldrinn",
+          "uid": "42878016-880381955"
+        },
+        {
+          "id": "cat",
+          "uid": "42878036-2311251617"
+        },
+        {
+          "id": "rattler",
+          "uid": "42878057-853428079"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 1,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "full-hand manual discover retains choice and unlocks play",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "rodeo",
+          "uid": "58200004-2348225723"
+        },
+        {
+          "attack": 9,
+          "health": 6,
+          "id": "young_murkeye",
+          "uid": "58200016-1656588556"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "full_board": [
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {
+            "type": "discover_spell"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：发现两张酒馆法术牌。",
+          "health": 4,
+          "id": "rodeo",
+          "keywords": [],
+          "name": "竞技表演者",
+          "pool": 7.0,
+          "source": "BG28_550",
+          "text": "战吼：发现一张酒馆法术牌。",
+          "tier": 5.0,
+          "tribe": "中立",
+          "uid": "58200004-2348225723"
+        },
+        {
+          "art": 0,
+          "attack": 9,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "回合结束时，触发两侧相邻随从的战吼。指向战吼随机选择合法友方目标。",
+          "health": 6,
+          "id": "young_murkeye",
+          "keywords": [],
+          "name": "小瞎眼",
+          "passive": {
+            "type": "end_battlecry"
+          },
+          "pool": 5.0,
+          "source": "BG22_403",
+          "text": "回合结束时，触发一个随机相邻随从的战吼。指向战吼随机选择合法友方目标。",
+          "tier": 6.0,
+          "tribe": "鱼人",
+          "uid": "58200016-1656588556"
+        }
+      ],
+      "hand": [
+        {
+          "id": "spell_coin",
+          "uid": "58199710748197693"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "581997241295529035"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "581997351621942499"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "581997454072791725"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "581997551170444033"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "581997653430419103"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "581997753645822737"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "581997843594935647"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "58199794592025148"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "58199803313083022"
+        }
+      ],
+      "mode": "manual",
+      "offers": [],
+      "pending": [
+        {
+          "art": 0.0,
+          "attack": 1,
+          "battlecry": {
+            "count": 1.0,
+            "id": "kitten",
+            "type": "summon"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：召唤一头2/2的雌斑虎。",
+          "health": 1,
+          "id": "cat",
+          "keywords": [],
+          "name": "雄斑虎",
+          "pool": 13.0,
+          "source": "CFM_315",
+          "text": "战吼：召唤一个1/1的雌斑虎。",
+          "tier": 1.0,
+          "tribe": "野兽",
+          "uid": "58200024-3066100921"
+        }
+      ],
+      "protocol": "allstars-0.55.0-ws",
+      "ready": false,
+      "round": 1,
+      "settled": false,
+      "shop": [
+        {
+          "id": "goldrinn",
+          "uid": "58199636-2135452307"
+        },
+        {
+          "id": "cat",
+          "uid": "58199651-1366772983"
+        },
+        {
+          "id": "rattler",
+          "uid": "58199666-1167521057"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 1,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "manual choice enters hand after touch cast preserving UID",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 3,
+          "health": 4,
+          "id": "rodeo",
+          "uid": "58200004-2348225723"
+        },
+        {
+          "attack": 9,
+          "health": 6,
+          "id": "young_murkeye",
+          "uid": "58200016-1656588556"
+        }
+      ],
+      "coins": 21,
+      "discover": [],
+      "full_board": [
+        {
+          "art": 0,
+          "attack": 3,
+          "battlecry": {
+            "type": "discover_spell"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：发现两张酒馆法术牌。",
+          "health": 4,
+          "id": "rodeo",
+          "keywords": [],
+          "name": "竞技表演者",
+          "pool": 7.0,
+          "source": "BG28_550",
+          "text": "战吼：发现一张酒馆法术牌。",
+          "tier": 5.0,
+          "tribe": "中立",
+          "uid": "58200004-2348225723"
+        },
+        {
+          "art": 0,
+          "attack": 9,
+          "battlecry": {},
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "回合结束时，触发两侧相邻随从的战吼。指向战吼随机选择合法友方目标。",
+          "health": 6,
+          "id": "young_murkeye",
+          "keywords": [],
+          "name": "小瞎眼",
+          "passive": {
+            "type": "end_battlecry"
+          },
+          "pool": 5.0,
+          "source": "BG22_403",
+          "text": "回合结束时，触发一个随机相邻随从的战吼。指向战吼随机选择合法友方目标。",
+          "tier": 6.0,
+          "tribe": "鱼人",
+          "uid": "58200016-1656588556"
+        }
+      ],
+      "hand": [
+        {
+          "id": "spell_coin",
+          "uid": "581997241295529035"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "581997351621942499"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "581997454072791725"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "581997551170444033"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "581997653430419103"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "581997753645822737"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "581997843594935647"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "58199794592025148"
+        },
+        {
+          "id": "spell_coin",
+          "uid": "58199803313083022"
+        },
+        {
+          "id": "cat",
+          "uid": "58200024-3066100921"
+        }
+      ],
+      "mode": "manual",
+      "offers": [],
+      "pending": [],
+      "protocol": "allstars-0.55.0-ws",
+      "ready": false,
+      "round": 1,
+      "settled": false,
+      "shop": [
+        {
+          "id": "goldrinn",
+          "uid": "58199636-2135452307"
+        },
+        {
+          "id": "cat",
+          "uid": "58199651-1366772983"
+        },
+        {
+          "id": "rattler",
+          "uid": "58199666-1167521057"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 2,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "touch targeted rattler grants only the unreborn beast one layer",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 6,
+          "health": 2,
+          "id": "rattler",
+          "uid": "67409731-4252616401"
+        },
+        {
+          "attack": 1,
+          "health": 1,
+          "id": "cat",
+          "uid": "67409738-1268134381"
+        },
+        {
+          "attack": 6,
+          "health": 2,
+          "id": "rattler",
+          "uid": "67409719-147582481"
+        },
+        {
+          "attack": 1,
+          "health": 1,
+          "id": "cat",
+          "uid": "67409745-3238889831"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "full_board": [
+        {
+          "adaptation": "每次战吼重新核验目标：排除所有复生响尾蛇以及已有复生的野兽；金色仍赋予一层。 防循环：同一场战斗内，同一随从及其复生返回体只能从响尾蛇获得一次复生；不限制其他来源叠层。",
+          "art": 0,
+          "attack": 6,
+          "battlecry": {
+            "charges": 1.0,
+            "exclude": [
+              "rattler"
+            ],
+            "gold_charges": 1.0,
+            "keyword": "reborn",
+            "tribe": "野兽",
+            "type": "target",
+            "without_reborn": true
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：使一个复生响尾蛇以外的无复生友方野兽获得 +1 复生。",
+          "health": 2,
+          "id": "rattler",
+          "keywords": [],
+          "name": "复生响尾蛇",
+          "pool": 8.0,
+          "source": "BG21_003",
+          "text": "战吼：使一个复生响尾蛇以外的无复生友方野兽获得 +1 复生。",
+          "tier": 4.0,
+          "tribe": "野兽",
+          "uid": "67409731-4252616401"
+        },
+        {
+          "art": 0.0,
+          "attack": 1,
+          "battlecry": {
+            "count": 1.0,
+            "id": "kitten",
+            "type": "summon"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 1,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：召唤一头2/2的雌斑虎。",
+          "health": 1,
+          "id": "cat",
+          "keywords": [
+            "reborn"
+          ],
+          "name": "雄斑虎",
+          "pool": 13.0,
+          "source": "CFM_315",
+          "text": "战吼：召唤一个1/1的雌斑虎。",
+          "tier": 1.0,
+          "tribe": "野兽",
+          "uid": "67409738-1268134381"
+        },
+        {
+          "adaptation": "每次战吼重新核验目标：排除所有复生响尾蛇以及已有复生的野兽；金色仍赋予一层。 防循环：同一场战斗内，同一随从及其复生返回体只能从响尾蛇获得一次复生；不限制其他来源叠层。",
+          "art": 0,
+          "attack": 6,
+          "battlecry": {
+            "charges": 1.0,
+            "exclude": [
+              "rattler"
+            ],
+            "gold_charges": 1.0,
+            "keyword": "reborn",
+            "tribe": "野兽",
+            "type": "target",
+            "without_reborn": true
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：使一个复生响尾蛇以外的无复生友方野兽获得 +1 复生。",
+          "health": 2,
+          "id": "rattler",
+          "keywords": [],
+          "name": "复生响尾蛇",
+          "pool": 8.0,
+          "source": "BG21_003",
+          "text": "战吼：使一个复生响尾蛇以外的无复生友方野兽获得 +1 复生。",
+          "tier": 4.0,
+          "tribe": "野兽",
+          "uid": "67409719-147582481"
+        },
+        {
+          "art": 0.0,
+          "attack": 1,
+          "battlecry": {
+            "count": 1.0,
+            "id": "kitten",
+            "type": "summon"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 1,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "enchantments": [
+            "复生响尾蛇：赋予 reborn 层数"
+          ],
+          "gold": false,
+          "gold_text": "战吼：召唤一头2/2的雌斑虎。",
+          "health": 1,
+          "id": "cat",
+          "keywords": [
+            "reborn"
+          ],
+          "name": "雄斑虎",
+          "pool": 13.0,
+          "source": "CFM_315",
+          "text": "战吼：召唤一个1/1的雌斑虎。",
+          "tier": 1.0,
+          "tribe": "野兽",
+          "uid": "67409745-3238889831"
+        }
+      ],
+      "hand": [],
+      "mode": "rattler",
+      "offers": [],
+      "pending": [],
+      "protocol": "allstars-0.55.0-ws",
+      "ready": false,
+      "round": 1,
+      "settled": false,
+      "shop": [
+        {
+          "id": "goldrinn",
+          "uid": "67409214-2295616664"
+        },
+        {
+          "id": "cat",
+          "uid": "67409242-199244507"
+        },
+        {
+          "id": "rattler",
+          "uid": "67409268-3231020893"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 2,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "final Android 3D presentation without script or shader errors",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 6,
+          "health": 2,
+          "id": "rattler",
+          "uid": "67409731-4252616401"
+        },
+        {
+          "attack": 1,
+          "health": 1,
+          "id": "cat",
+          "uid": "67409738-1268134381"
+        },
+        {
+          "attack": 6,
+          "health": 2,
+          "id": "rattler",
+          "uid": "67409719-147582481"
+        },
+        {
+          "attack": 1,
+          "health": 1,
+          "id": "cat",
+          "uid": "67409745-3238889831"
+        }
+      ],
+      "coins": 20,
+      "discover": [],
+      "full_board": [
+        {
+          "adaptation": "每次战吼重新核验目标：排除所有复生响尾蛇以及已有复生的野兽；金色仍赋予一层。 防循环：同一场战斗内，同一随从及其复生返回体只能从响尾蛇获得一次复生；不限制其他来源叠层。",
+          "art": 0,
+          "attack": 6,
+          "battlecry": {
+            "charges": 1.0,
+            "exclude": [
+              "rattler"
+            ],
+            "gold_charges": 1.0,
+            "keyword": "reborn",
+            "tribe": "野兽",
+            "type": "target",
+            "without_reborn": true
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：使一个复生响尾蛇以外的无复生友方野兽获得 +1 复生。",
+          "health": 2,
+          "id": "rattler",
+          "keywords": [],
+          "name": "复生响尾蛇",
+          "pool": 8.0,
+          "source": "BG21_003",
+          "text": "战吼：使一个复生响尾蛇以外的无复生友方野兽获得 +1 复生。",
+          "tier": 4.0,
+          "tribe": "野兽",
+          "uid": "67409731-4252616401"
+        },
+        {
+          "art": 0.0,
+          "attack": 1,
+          "battlecry": {
+            "count": 1.0,
+            "id": "kitten",
+            "type": "summon"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 1,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：召唤一头2/2的雌斑虎。",
+          "health": 1,
+          "id": "cat",
+          "keywords": [
+            "reborn"
+          ],
+          "name": "雄斑虎",
+          "pool": 13.0,
+          "source": "CFM_315",
+          "text": "战吼：召唤一个1/1的雌斑虎。",
+          "tier": 1.0,
+          "tribe": "野兽",
+          "uid": "67409738-1268134381"
+        },
+        {
+          "adaptation": "每次战吼重新核验目标：排除所有复生响尾蛇以及已有复生的野兽；金色仍赋予一层。 防循环：同一场战斗内，同一随从及其复生返回体只能从响尾蛇获得一次复生；不限制其他来源叠层。",
+          "art": 0,
+          "attack": 6,
+          "battlecry": {
+            "charges": 1.0,
+            "exclude": [
+              "rattler"
+            ],
+            "gold_charges": 1.0,
+            "keyword": "reborn",
+            "tribe": "野兽",
+            "type": "target",
+            "without_reborn": true
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 0,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "gold": false,
+          "gold_text": "战吼：使一个复生响尾蛇以外的无复生友方野兽获得 +1 复生。",
+          "health": 2,
+          "id": "rattler",
+          "keywords": [],
+          "name": "复生响尾蛇",
+          "pool": 8.0,
+          "source": "BG21_003",
+          "text": "战吼：使一个复生响尾蛇以外的无复生友方野兽获得 +1 复生。",
+          "tier": 4.0,
+          "tribe": "野兽",
+          "uid": "67409719-147582481"
+        },
+        {
+          "art": 0.0,
+          "attack": 1,
+          "battlecry": {
+            "count": 1.0,
+            "id": "kitten",
+            "type": "summon"
+          },
+          "charges": {
+            "cleave": 0,
+            "reborn": 1,
+            "shield": 0,
+            "venom": 0,
+            "windfury": 0
+          },
+          "deathrattle": {},
+          "enchantments": [
+            "复生响尾蛇：赋予 reborn 层数"
+          ],
+          "gold": false,
+          "gold_text": "战吼：召唤一头2/2的雌斑虎。",
+          "health": 1,
+          "id": "cat",
+          "keywords": [
+            "reborn"
+          ],
+          "name": "雄斑虎",
+          "pool": 13.0,
+          "source": "CFM_315",
+          "text": "战吼：召唤一个1/1的雌斑虎。",
+          "tier": 1.0,
+          "tribe": "野兽",
+          "uid": "67409745-3238889831"
+        }
+      ],
+      "hand": [],
+      "mode": "rattler",
+      "offers": [],
+      "pending": [],
+      "protocol": "allstars-0.55.0-ws",
+      "ready": false,
+      "round": 1,
+      "settled": false,
+      "shop": [
+        {
+          "id": "goldrinn",
+          "uid": "67409214-2295616664"
+        },
+        {
+          "id": "cat",
+          "uid": "67409242-199244507"
+        },
+        {
+          "id": "rattler",
+          "uid": "67409268-3231020893"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 2,
+      "trinkets": []
+    }
+  }
+]

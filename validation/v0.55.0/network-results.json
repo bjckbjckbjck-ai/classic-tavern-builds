@@ -1,0 +1,16 @@
+{
+  "functional_checks": [
+    {
+      "role": "host",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "role": "client",
+      "exit": 0,
+      "passed": true
+    }
+  ],
+  "scope": "Two processes on this Windows machine; not two external devices.",
+  "diagnostics": "No script/shader errors or exit-resource warnings in this run. Previous resource warning has not been established as fixed."
+}

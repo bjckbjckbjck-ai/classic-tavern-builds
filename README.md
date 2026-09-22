@@ -1,3 +1,13 @@
+# v0.55.0 · 自动结算与奖励暂存
+
+修复 #30：自动触发的发现当场结算，满手奖励按顺序暂存并在腾位后补入；蛮鱼斥候、塔德、观星者和响尾蛇完善防循环条件。联机双方须同版，Android code59沿用签名。
+
+[安卓 APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.55.0/ClassicTavern-v0.55.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.55.0/ClassicTavern-v0.55.0.exe) · [发行页](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.55.0)
+
+[机制与适配边界](v0.55.0-自动结算与奖励暂存.md) · [验证](validation/v0.55.0/README.md) · [下一步](下一阶段开发计划.md)。#29剩余9件饰品、#18长期UI审查保持开放，明日惩戒系列继续停用。未做平衡模拟。
+
+## 历史版本
+
 # v0.54.0 · 十二件历史饰品与亡语传承
 
 巨狼戈德林回六本，新增12件历史饰品和恩佐斯的鱼，接入跳蛙/附加亡语继承、回合结束倍增、首次战吼、多种资源与法术手牌成长。#29仍有9件饰品待办，保持开放。
