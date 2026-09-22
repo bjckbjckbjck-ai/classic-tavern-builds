@@ -1,0 +1,100 @@
+{
+  "status": "passed",
+  "scope": "Offline reference material and deterministic compositor; no game or device integration tested.",
+  "command": "npm ci && npm run build && npm run verify",
+  "runtime": {
+    "node": "v24.18.0",
+    "platform": "win32",
+    "arch": "x64",
+    "sharp": "0.35.4",
+    "vips": "8.18.6"
+  },
+  "sourceArtworkSha256": "3aa60c748e6945ae320f62f4e95124322802861359f0c05eadeb12065f6c2c3f",
+  "promptSha256": "ec90e78f2e01e48aa942aefdc51393e4ad37b27a55ad9703beb858c802a9c452",
+  "matchedReferenceFrames": 16,
+  "manifestTimelineMatches": true,
+  "decodedGifFrames": 16,
+  "gifFinalFrameMeanAbsoluteEncodingError": 3.0155008104112415,
+  "frames": [
+    {
+      "name": "frame_01.png",
+      "rgbPixelSha256": "96a12deebdc8a3421e923d2fc00a649326f0b5167b48ffd231941a415777308c",
+      "matchesReference": true
+    },
+    {
+      "name": "frame_02.png",
+      "rgbPixelSha256": "99dad6c359644ba15f0ad3ef08630ebfcd5acbd3f6c31080e0d23b93b123d83f",
+      "matchesReference": true
+    },
+    {
+      "name": "frame_03.png",
+      "rgbPixelSha256": "b81a564398280276f16ee3bf3b10d4537489bd608e155bd2ae09459e332502b0",
+      "matchesReference": true
+    },
+    {
+      "name": "frame_04.png",
+      "rgbPixelSha256": "8747affd89a50a939718f1c0414b65d6150b584023cdb7cad29f26c4146b1f08",
+      "matchesReference": true
+    },
+    {
+      "name": "frame_05.png",
+      "rgbPixelSha256": "01760f23961ea65a9999a6fb5c021c4fee353bcd4c8f4f1a4712dd4d437767fc",
+      "matchesReference": true
+    },
+    {
+      "name": "frame_06.png",
+      "rgbPixelSha256": "524b2be8c1289ff63ece5af9a4656a11306a28ab77545126ff541d185a7d92cc",
+      "matchesReference": true
+    },
+    {
+      "name": "frame_07.png",
+      "rgbPixelSha256": "31cc797f16ad8703bb2e0b0ba12f8e6baa675ba71aa40095d46f695ee77d1cd4",
+      "matchesReference": true
+    },
+    {
+      "name": "frame_08.png",
+      "rgbPixelSha256": "8182975858850381acaafc6798ce7892a57ca08c758cecf5796988df2c10f22d",
+      "matchesReference": true
+    },
+    {
+      "name": "frame_09.png",
+      "rgbPixelSha256": "41841e67dc481e52c406d10bdd860460e450e6a3022296cfc72b132aef264256",
+      "matchesReference": true
+    },
+    {
+      "name": "frame_10.png",
+      "rgbPixelSha256": "e787b6c74fda14817d37645512e03b10e65fa9d44592427c8964aa3770b58380",
+      "matchesReference": true
+    },
+    {
+      "name": "frame_11.png",
+      "rgbPixelSha256": "5267d0413cfce214ed2fb83c4346392bc92c20e2f955d2cdf379bc9218bd386c",
+      "matchesReference": true
+    },
+    {
+      "name": "frame_12.png",
+      "rgbPixelSha256": "3e21acfed97f1ba341e2b17faf5e48a55b5bbcad16c143e6cff177a00fbd33d9",
+      "matchesReference": true
+    },
+    {
+      "name": "frame_13.png",
+      "rgbPixelSha256": "88559e1dc5450786041f1b98249eb50f7a0c638c3e39f26f6e2b330f5437ac41",
+      "matchesReference": true
+    },
+    {
+      "name": "frame_14.png",
+      "rgbPixelSha256": "908ceef2c549a7f4b378ae5f1eeacc9dab725ad004bfadd2739f8644e0c029a4",
+      "matchesReference": true
+    },
+    {
+      "name": "frame_15.png",
+      "rgbPixelSha256": "dd7337b28f3b6f8943168dac20291f76372fa2f32f016ac5f0bf6f04b17de43e",
+      "matchesReference": true
+    },
+    {
+      "name": "frame_16.png",
+      "rgbPixelSha256": "14e69a0b9784bb929784b3d701a8dfe0562cf1aca289489f7146f70d483ad9ef",
+      "matchesReference": true
+    }
+  ]
+}

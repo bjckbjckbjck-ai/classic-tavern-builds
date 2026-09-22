@@ -1,0 +1,225 @@
+{
+  "generatedArtworkTool": "Built-in ImageGen",
+  "frameCompositor": "Node.js + sharp",
+  "width": 768,
+  "height": 1024,
+  "frameCount": 16,
+  "totalDurationMs": 2550,
+  "finalFrameExactlyMatchesArtwork": true,
+  "uniqueFrames": 16,
+  "monotonicallyIncreasingSceneLuminance": true,
+  "eyes": [
+    {
+      "x": 404.50828729281767,
+      "y": 360.6629834254144
+    },
+    {
+      "x": 481.5911602209945,
+      "y": 362.0773480662983
+    }
+  ],
+  "timeline": [
+    {
+      "frame": 1,
+      "file": "frames/frame_01.png",
+      "durationMs": 120,
+      "eyePower": 0,
+      "subjectPower": 0,
+      "ambientPower": 0,
+      "offsetY": 6,
+      "meanLuminance": 0,
+      "deltaFromPrevious": 0
+    },
+    {
+      "frame": 2,
+      "file": "frames/frame_02.png",
+      "durationMs": 100,
+      "eyePower": 0.0902,
+      "subjectPower": 0,
+      "ambientPower": 0,
+      "offsetY": 5.924,
+      "meanLuminance": 0.0044,
+      "deltaFromPrevious": 0.0066
+    },
+    {
+      "frame": 3,
+      "file": "frames/frame_03.png",
+      "durationMs": 100,
+      "eyePower": 0.3099,
+      "subjectPower": 0,
+      "ambientPower": 0,
+      "offsetY": 5.708,
+      "meanLuminance": 0.0167,
+      "deltaFromPrevious": 0.0179
+    },
+    {
+      "frame": 4,
+      "file": "frames/frame_04.png",
+      "durationMs": 100,
+      "eyePower": 0.583,
+      "subjectPower": 0,
+      "ambientPower": 0,
+      "offsetY": 5.376,
+      "meanLuminance": 0.0323,
+      "deltaFromPrevious": 0.0222
+    },
+    {
+      "frame": 5,
+      "file": "frames/frame_05.png",
+      "durationMs": 100,
+      "eyePower": 0.8332,
+      "subjectPower": 0.0038,
+      "ambientPower": 0,
+      "offsetY": 4.948,
+      "meanLuminance": 0.1475,
+      "deltaFromPrevious": 0.1303
+    },
+    {
+      "frame": 6,
+      "file": "frames/frame_06.png",
+      "durationMs": 100,
+      "eyePower": 0.9844,
+      "subjectPower": 0.0305,
+      "ambientPower": 0.0004,
+      "offsetY": 4.444,
+      "meanLuminance": 1.716,
+      "deltaFromPrevious": 1.5919
+    },
+    {
+      "frame": 7,
+      "file": "frames/frame_07.png",
+      "durationMs": 100,
+      "eyePower": 1,
+      "subjectPower": 0.087,
+      "ambientPower": 0.0235,
+      "offsetY": 3.888,
+      "meanLuminance": 5.9531,
+      "deltaFromPrevious": 4.3241
+    },
+    {
+      "frame": 8,
+      "file": "frames/frame_08.png",
+      "durationMs": 100,
+      "eyePower": 1,
+      "subjectPower": 0.1725,
+      "ambientPower": 0.0869,
+      "offsetY": 3.3,
+      "meanLuminance": 13.666,
+      "deltaFromPrevious": 7.859
+    },
+    {
+      "frame": 9,
+      "file": "frames/frame_09.png",
+      "durationMs": 100,
+      "eyePower": 1,
+      "subjectPower": 0.2821,
+      "ambientPower": 0.1877,
+      "offsetY": 2.7,
+      "meanLuminance": 24.5011,
+      "deltaFromPrevious": 11.0385
+    },
+    {
+      "frame": 10,
+      "file": "frames/frame_10.png",
+      "durationMs": 100,
+      "eyePower": 1,
+      "subjectPower": 0.4092,
+      "ambientPower": 0.3178,
+      "offsetY": 2.112,
+      "meanLuminance": 37.6802,
+      "deltaFromPrevious": 13.4355
+    },
+    {
+      "frame": 11,
+      "file": "frames/frame_11.png",
+      "durationMs": 100,
+      "eyePower": 1,
+      "subjectPower": 0.5452,
+      "ambientPower": 0.4659,
+      "offsetY": 1.556,
+      "meanLuminance": 52.2028,
+      "deltaFromPrevious": 14.8006
+    },
+    {
+      "frame": 12,
+      "file": "frames/frame_12.png",
+      "durationMs": 100,
+      "eyePower": 1,
+      "subjectPower": 0.6803,
+      "ambientPower": 0.6193,
+      "offsetY": 1.052,
+      "meanLuminance": 66.9287,
+      "deltaFromPrevious": 15.0574
+    },
+    {
+      "frame": 13,
+      "file": "frames/frame_13.png",
+      "durationMs": 100,
+      "eyePower": 1,
+      "subjectPower": 0.8043,
+      "ambientPower": 0.7641,
+      "offsetY": 0.624,
+      "meanLuminance": 80.6229,
+      "deltaFromPrevious": 13.9767
+    },
+    {
+      "frame": 14,
+      "file": "frames/frame_14.png",
+      "durationMs": 100,
+      "eyePower": 1,
+      "subjectPower": 0.9061,
+      "ambientPower": 0.8856,
+      "offsetY": 0.292,
+      "meanLuminance": 91.9937,
+      "deltaFromPrevious": 11.6537
+    },
+    {
+      "frame": 15,
+      "file": "frames/frame_15.png",
+      "durationMs": 130,
+      "eyePower": 1,
+      "subjectPower": 0.9748,
+      "ambientPower": 0.9691,
+      "offsetY": 0.076,
+      "meanLuminance": 99.7324,
+      "deltaFromPrevious": 7.9641
+    },
+    {
+      "frame": 16,
+      "file": "frames/frame_16.png",
+      "durationMs": 1000,
+      "eyePower": 1,
+      "subjectPower": 1,
+      "ambientPower": 1,
+      "offsetY": 0,
+      "meanLuminance": 102.592,
+      "deltaFromPrevious": 2.9436
+    }
+  ],
+  "validation": {
+    "goldrinn_entrance.gif": {
+      "frames": 16,
+      "width": 768,
+      "height": 1024,
+      "loop": 1,
+      "durationMs": 2550,
+      "bytes": 4882262
+    },
+    "goldrinn_entrance_loop.gif": {
+      "frames": 16,
+      "width": 768,
+      "height": 1024,
+      "loop": 0,
+      "durationMs": 2550,
+      "bytes": 4882281
+    },
+    "goldrinn_entrance.webp": {
+      "frames": 16,
+      "width": 768,
+      "height": 1024,
+      "loop": 1,
+      "durationMs": 2550,
+      "bytes": 7905414
+    }
+  }
+}

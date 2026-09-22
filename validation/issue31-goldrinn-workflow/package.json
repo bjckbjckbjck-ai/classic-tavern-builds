@@ -1,0 +1,16 @@
+{
+  "name": "goldrinn-entrance-workflow-reference",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproducible 16-frame Goldrinn entrance reference for issue #31",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node build_goldrinn_animation.cjs",
+    "verify": "node verify_reference.cjs"
+  },
+  "dependencies": {
+    "sharp": "0.35.4"
+  }
+}
