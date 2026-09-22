@@ -1,0 +1,86 @@
+[
+  {
+    "suite": "core_cinematics_ui_v57_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 47,
+    "errors": []
+  },
+  {
+    "suite": "season_v56_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 76,
+    "errors": []
+  },
+  {
+    "suite": "season_v53_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 37,
+    "errors": []
+  },
+  {
+    "suite": "poet_buffs_v52_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 16,
+    "errors": []
+  },
+  {
+    "suite": "poet_v51_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 15,
+    "errors": []
+  },
+  {
+    "suite": "chain_v50_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 16,
+    "errors": []
+  },
+  {
+    "suite": "cadence_v26_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 32,
+    "errors": []
+  },
+  {
+    "suite": "stacking_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 25,
+    "errors": []
+  },
+  {
+    "suite": "hand_platform_v47_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 63,
+    "errors": []
+  },
+  {
+    "suite": "reward_ux_v51_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 18,
+    "errors": []
+  },
+  {
+    "suite": "core_cinematics_v57_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 48,
+    "errors": []
+  },
+  {
+    "suite": "core_workflow_v57_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 20,
+    "errors": []
+  }
+]

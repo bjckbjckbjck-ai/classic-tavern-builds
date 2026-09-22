@@ -1,0 +1,51 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PRESENTATION VERIFIED Windows msaa=0 cards=3
+UI PASS successful real drag plays complete first entry after drop
+UI PASS duplicate room snapshot does not replay entry
+UI PASS entry never captures drag purchase input
+UI PASS new UID cannot repeat full normal entry
+UI PASS golden first entry gets one additional full version
+UI PASS selecting a hand target cancels active cut-in
+UI PASS off/simple/full mode 0
+UI PASS off/simple/full mode 1
+UI PASS off/simple/full mode 2
+UI PASS guard/fallback reduced
+UI PASS guard/fallback low
+UI PASS guard/fallback 2d
+UI PASS guard/fallback deadline
+UI PASS guard/fallback choice
+UI PASS guard/fallback detail
+UI PASS long chain bounded to three active short effects
+UI PASS all twelve preview buttons reachable 1280
+UI PASS real preview button goldrinn 1280
+UI PASS real preview button macaw 1280
+UI PASS real preview button kalecgos 1280
+UI PASS real preview button felbat 1280
+UI PASS real preview button eliza 1280
+UI PASS real preview button eternal_summoner 1280
+UI PASS real preview button beatboxer 1280
+UI PASS real preview button bassgill 1280
+UI PASS real preview button titus 1280
+UI PASS real preview button brann 1280
+UI PASS real preview button slamma 1280
+UI PASS real preview button frog 1280
+UI PASS room updates preserve preview page
+UI PASS all twelve preview buttons reachable 1600
+UI PASS real preview button goldrinn 1600
+UI PASS real preview button macaw 1600
+UI PASS real preview button kalecgos 1600
+UI PASS real preview button felbat 1600
+UI PASS real preview button eliza 1600
+UI PASS real preview button eternal_summoner 1600
+UI PASS real preview button beatboxer 1600
+UI PASS real preview button bassgill 1600
+UI PASS real preview button titus 1600
+UI PASS real preview button brann 1600
+UI PASS real preview button slamma 1600
+UI PASS real preview button frog 1600
+UI PASS room updates preserve preview page
+UI PASS leaving preview disposes its animated portrait
+UI PASS settings exposes saved cinematic mode
+UI PASS leave room releases effects and texture cache

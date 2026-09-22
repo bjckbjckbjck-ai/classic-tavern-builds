@@ -1,0 +1,16 @@
+{
+  "checks": [
+    {
+      "role": "host",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "role": "client",
+      "exit": 0,
+      "passed": true
+    }
+  ],
+  "scope": "Two processes on this Windows host. Android uses a separate controlled fixture on this host; external two-device play not tested.",
+  "diagnostics": "First candidate host exit emitted ObjectDB + one resource leak. Final EXE recheck did not reproduce; not claimed fixed."
+}

@@ -1,3 +1,13 @@
+# v0.57.0 · 核心卡登场与连锁演出
+
+狼爹按 #31 新工作流完成红眼渐亮、环境显现与微幅悬浮；首批12张核心卡接入登场和实际效果短演出。图鉴新增“核心卡演出”，可直接预览普通/金色。
+
+[安卓 APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.57.0/ClassicTavern-v0.57.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.57.0/ClassicTavern-v0.57.0.exe) · [发行页](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.57.0)
+
+[演出说明](v0.57.0-核心卡登场与连锁演出.md) · [验证](validation/v0.57.0/README.md) · [下一步](下一阶段开发计划.md)。Android code61、沿用签名，联机双方使用0.57.0。低画质自动短版；未做平衡模拟。
+
+## 历史版本
+
 # v0.56.0 · 历史珍藏与英雄畸变
 
 补齐 #29 最后9项饰品（打字机大小各一版，共10个新定义），新增拉格纳罗斯、奥拉基尔、恩佐斯，以及首购免费、首购复制和余币结转三种畸变。扩大饰品正文、加入畸变独立徽章与分页、显示饰品计数和红色生命价格。
