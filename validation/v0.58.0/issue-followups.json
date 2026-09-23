@@ -1,0 +1,14 @@
+[
+  {
+    "number": 31,
+    "state": "OPEN",
+    "reply": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/31#issuecomment-5791231086",
+    "remaining": "Articulated character layers, device/audio acceptance"
+  },
+  {
+    "number": 18,
+    "state": "OPEN",
+    "reply": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/18#issuecomment-5791231474",
+    "remaining": "First emulator launch, page lifecycle warning, long journal layout, physical device acceptance"
+  }
+]
