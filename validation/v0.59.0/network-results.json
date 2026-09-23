@@ -1,0 +1,16 @@
+{
+  "checks": [
+    {
+      "role": "host",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "role": "client",
+      "exit": 0,
+      "passed": true
+    }
+  ],
+  "scope": "Final EXE, same Windows machine, actual port14271. Not external two-device acceptance.",
+  "known_exit_warning": "Host functional flow passes but ObjectDB and 1 resource still in use reported at exit; remains open in issue18."
+}

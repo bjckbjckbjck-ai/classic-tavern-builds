@@ -1,0 +1,10 @@
+{
+  "changed_after_formal_start": [
+    "scripts/library_ui.gd",
+    "scripts/main.gd",
+    "scripts/update_checker.gd",
+    "data/releases.json"
+  ],
+  "explanation": "Only release version, paginated journal UI and changelog changed after simulations began. Combat/content/AI used in exported build match formal samples.",
+  "gameplay_hashes_match": true
+}

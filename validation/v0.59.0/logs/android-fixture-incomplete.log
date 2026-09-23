@@ -1,0 +1,19 @@
+--------- beginning of main
+09-23 10:08:44.109  1979  2011 I godot   : Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+09-23 10:08:44.234  1979  2011 E godot   : WARNING: Failed to load cached shader, recompiling.
+09-23 10:08:44.234  1979  2011 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:612)
+09-23 10:08:44.559  1979  2011 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 595.97) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2)
+09-23 10:08:44.599  1979  2011 I godot   : 
+09-23 10:09:22.884  2200  2228 I godot   : Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+09-23 10:09:22.943  2200  2228 E godot   : WARNING: Failed to load cached shader, recompiling.
+09-23 10:09:22.943  2200  2228 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:612)
+09-23 10:09:23.236  2200  2228 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 595.97) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2)
+09-23 10:09:23.259  2200  2228 I godot   : 
+09-23 10:10:22.558  2200  2228 I godot   : PRESENTATION VERIFIED Android msaa=0 cards=4
+09-23 10:11:59.847  2200  2228 E godot   : SCRIPT ERROR: Invalid access to property or key 'trinket_choice_size' on a base object of type 'Dictionary'.
+09-23 10:11:59.847  2200  2228 E godot   :    at: selection (res://scripts/trinket_ui.gd:84)
+09-23 10:11:59.847  2200  2228 E godot   :    GDScript backtrace (most recent call first):
+09-23 10:11:59.847  2200  2228 E godot   :        [0] selection (res://scripts/trinket_ui.gd:84)
+09-23 10:11:59.847  2200  2228 E godot   :        [1] table (res://scripts/main.gd:930)
+09-23 10:11:59.847  2200  2228 E godot   :        [2] render (res://scripts/main.gd:729)
+09-23 10:11:59.847  2200  2228 E godot   :        [3] receive_state (res://scripts/main.gd:668)

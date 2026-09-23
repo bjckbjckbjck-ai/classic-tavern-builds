@@ -1,0 +1,613 @@
+[
+  {
+    "id": "frog",
+    "tribe": "野兽",
+    "name": "鹦鹉跳蛙",
+    "board": [
+      "frog",
+      "macaw",
+      "rat",
+      "rat",
+      "rattler",
+      "slamma",
+      "titus"
+    ],
+    "gold": "titus",
+    "weights": [
+      0,
+      2,
+      3,
+      3,
+      1,
+      1,
+      2
+    ],
+    "hand": [],
+    "reborn": [
+      0,
+      1
+    ],
+    "shield": [
+      1,
+      6
+    ],
+    "note": "跳蛙先送，鹦鹉在其后进击，瑞文后置；招募期用响尾蛇累积复生。",
+    "trinkets": [
+      "scourge_staff",
+      "rivendare_portrait"
+    ]
+  },
+  {
+    "id": "wolf",
+    "tribe": "野兽",
+    "name": "狼爹召唤",
+    "board": [
+      "goldrinn",
+      "macaw",
+      "highmane",
+      "mechanized_gift_horse",
+      "slamma",
+      "mama",
+      "titus"
+    ],
+    "gold": "titus",
+    "weights": [
+      0,
+      2,
+      3,
+      3,
+      1,
+      1,
+      2
+    ],
+    "hand": [],
+    "reborn": [
+      0,
+      1
+    ],
+    "shield": [
+      1,
+      6
+    ],
+    "note": "狼爹在鹦鹉左侧，猛猿和熊妈妈后置；亡语填场需要空位。",
+    "trinkets": [
+      "slamma_sticker",
+      "deathly_phylactery"
+    ]
+  },
+  {
+    "id": "hurt",
+    "tribe": "野兽",
+    "name": "受伤成长野兽",
+    "board": [
+      "roundhead-elder",
+      "rampager",
+      "noble-pigeon",
+      "highmane",
+      "huffing-elder",
+      "skyblazer",
+      "titus"
+    ],
+    "gold": "huffing-elder",
+    "weights": [
+      3,
+      2,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "hand": [],
+    "reborn": [
+      0,
+      2
+    ],
+    "shield": [
+      4,
+      5
+    ],
+    "note": "圆头进击带动受伤链；哈气和炫彩在招募与战斗间持续成长。",
+    "trinkets": [
+      "tiger_greater",
+      "thorned_rose"
+    ]
+  },
+  {
+    "id": "murloc_hand",
+    "tribe": "鱼人",
+    "name": "手牌合唱鱼",
+    "board": [
+      "scourfin",
+      "bassgill",
+      "choral",
+      "choral",
+      "belcher",
+      "vengeful_toxfin",
+      "titus"
+    ],
+    "gold": "choral",
+    "weights": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      8
+    ],
+    "hand": [
+      "bream"
+    ],
+    "reborn": [
+      0,
+      1
+    ],
+    "shield": [
+      2,
+      3
+    ],
+    "note": "裁脍留手而非打出；低音先死拉手牌，保护合唱与复仇核心。",
+    "trinkets": [
+      "murloc_pajamas",
+      "phrasebook_greater"
+    ]
+  },
+  {
+    "id": "murloc_battlecry",
+    "tribe": "鱼人",
+    "name": "战吼烈毒鱼",
+    "board": [
+      "belcher",
+      "bagurgle",
+      "young_murkeye",
+      "murky",
+      "vengeful_toxfin",
+      "brann",
+      "drakkari"
+    ],
+    "gold": "brann",
+    "weights": [
+      1,
+      1,
+      2,
+      3,
+      3,
+      1,
+      1
+    ],
+    "hand": [],
+    "reborn": [
+      0,
+      4
+    ],
+    "shield": [
+      3,
+      4
+    ],
+    "note": "小瞎眼夹在国王与奔波尔霸之间，铜须和达卡莱后置；招募期用毒鳍补烈毒。",
+    "trinkets": [
+      "murky_sticker",
+      "prayer_beads"
+    ]
+  },
+  {
+    "id": "dragon_memory",
+    "tribe": "龙",
+    "name": "诗心叠盾龙",
+    "board": [
+      "nadina",
+      "tarecgosa",
+      "poet",
+      "enforcer",
+      "amber",
+      "promo",
+      "bronze"
+    ],
+    "gold": "poet",
+    "weights": [
+      0,
+      4,
+      1,
+      4,
+      1,
+      1,
+      1
+    ],
+    "hand": [],
+    "reborn": [
+      0,
+      6
+    ],
+    "shield": [
+      1,
+      3
+    ],
+    "note": "泰蕾与执行者夹诗心，增强幼龙相邻高收益龙；盾层与战斗新增增益可保留。",
+    "trinkets": [
+      "poet_portrait",
+      "training_certificate"
+    ]
+  },
+  {
+    "id": "dragon_battlecry",
+    "tribe": "龙",
+    "name": "卡雷战吼龙",
+    "board": [
+      "nadina",
+      "bronze",
+      "kalecgos",
+      "kalecgos",
+      "fireforged_evoker",
+      "brann",
+      "drakkari"
+    ],
+    "gold": "kalecgos",
+    "weights": [
+      0,
+      4,
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "hand": [],
+    "reborn": [
+      0,
+      1
+    ],
+    "shield": [
+      1,
+      4
+    ],
+    "note": "卡雷铜须经营，法术唤魔师补成长；战吼循环结束后换掉临时资源位。",
+    "trinkets": [
+      "music_box",
+      "prayer_beads"
+    ]
+  },
+  {
+    "id": "mech_magnet",
+    "tribe": "机械",
+    "name": "磁力复制机械",
+    "board": [
+      "reaper",
+      "deflect",
+      "beatboxer",
+      "beatboxer",
+      "utility_drone",
+      "scrap_scraper",
+      "electron"
+    ],
+    "gold": "beatboxer",
+    "weights": [
+      4,
+      3,
+      2,
+      2,
+      0,
+      0,
+      1
+    ],
+    "hand": [],
+    "reborn": [
+      0,
+      1
+    ],
+    "shield": [
+      0,
+      1
+    ],
+    "note": "磁力优先死神或偏折，拳手接复制；无人机与产磁力组件供长期经营。",
+    "trinkets": [
+      "beatboxer_portrait",
+      "electromagnet_greater"
+    ]
+  },
+  {
+    "id": "mech_shield",
+    "tribe": "机械",
+    "name": "补盾亡语机械",
+    "board": [
+      "lighter",
+      "deflect",
+      "deflect",
+      "menace",
+      "reaper",
+      "scrap_scraper",
+      "titus"
+    ],
+    "gold": "titus",
+    "weights": [
+      1,
+      3,
+      3,
+      1,
+      3,
+      0,
+      1
+    ],
+    "hand": [],
+    "reborn": [
+      0,
+      3
+    ],
+    "shield": [
+      1,
+      2
+    ],
+    "note": "亡语机械补盾，激光先破敌方盾；偏折不要全部放在最先攻击位。",
+    "trinkets": [
+      "sunglasses",
+      "fridge_magnet"
+    ]
+  },
+  {
+    "id": "demon_consume",
+    "tribe": "恶魔",
+    "name": "吞食商店恶魔",
+    "board": [
+      "mannoroth",
+      "urzul",
+      "urzul",
+      "felbat",
+      "felemental",
+      "brann",
+      "drakkari"
+    ],
+    "gold": "felbat",
+    "weights": [
+      3,
+      3,
+      3,
+      1,
+      0,
+      1,
+      1
+    ],
+    "hand": [],
+    "reborn": [
+      0,
+      3
+    ],
+    "shield": [
+      1,
+      2
+    ],
+    "note": "邪能元素/商店饰品养店，再吞食；后期评估卖掉战吼组件换输出。",
+    "trinkets": [
+      "cheese_greater",
+      "nomi_demon_greater"
+    ]
+  },
+  {
+    "id": "demon_soul",
+    "tribe": "恶魔",
+    "name": "灵魂弹亡语恶魔",
+    "board": [
+      "greater_soul_juggler",
+      "ring_matron",
+      "void",
+      "imp_mama",
+      "juggler",
+      "juggler",
+      "titus"
+    ],
+    "gold": "titus",
+    "weights": [
+      0,
+      3,
+      3,
+      3,
+      1,
+      1,
+      1
+    ],
+    "hand": [],
+    "reborn": [
+      0,
+      2
+    ],
+    "shield": [
+      4,
+      5
+    ],
+    "note": "先积累恶魔点数，再让嘲讽亡语恶魔吸火、喷子后排输出。",
+    "trinkets": [
+      "soul_ascender",
+      "soul_stripper"
+    ]
+  },
+  {
+    "id": "pirate_attack",
+    "tribe": "海盗",
+    "name": "空中海盗跳操",
+    "board": [
+      "scallywag",
+      "scallywag",
+      "cruise_controller",
+      "sky_flagbearer",
+      "eliza",
+      "eliza",
+      "titus"
+    ],
+    "gold": "eliza",
+    "weights": [
+      0,
+      0,
+      1,
+      1,
+      4,
+      4,
+      2
+    ],
+    "hand": [],
+    "reborn": [
+      0,
+      1
+    ],
+    "shield": [
+      4,
+      5
+    ],
+    "note": "无赖先手启动，擎旗给衍生亡语，伊丽扎和瑞文保护在后。",
+    "trinkets": [
+      "flagbearer_portrait",
+      "windrunner_greater"
+    ]
+  },
+  {
+    "id": "pirate_trade",
+    "tribe": "海盗",
+    "name": "特塞斯买卖海盗",
+    "board": [
+      "blade_collector",
+      "salty",
+      "balladist",
+      "peggy",
+      "hoggarr",
+      "tethys",
+      "eliza"
+    ],
+    "gold": "peggy",
+    "weights": [
+      4,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "hand": [],
+    "reborn": [
+      0,
+      1
+    ],
+    "shield": [
+      0,
+      1
+    ],
+    "note": "特塞斯霍格供资源，佩姬养狂战；决赛可把经济位换成战斗组件。",
+    "trinkets": [
+      "kodo_greater",
+      "brew_greater"
+    ]
+  },
+  {
+    "id": "undead_reborn",
+    "tribe": "亡灵",
+    "name": "宰割复生亡灵",
+    "board": [
+      "anubarak",
+      "handless",
+      "sun_colossus",
+      "eternal_summoner",
+      "deathwhisper",
+      "primus_champion",
+      "drust_butcher"
+    ],
+    "gold": "deathwhisper",
+    "weights": [
+      0,
+      2,
+      3,
+      3,
+      1,
+      1,
+      2
+    ],
+    "hand": [],
+    "reborn": [
+      0,
+      3
+    ],
+    "shield": [
+      4,
+      5
+    ],
+    "note": "宰割与阿努巴拉克养全局攻击，复生随从承载攻击次数，姐妹后排。",
+    "trinkets": [
+      "scourge_staff",
+      "coffin_greater"
+    ]
+  },
+  {
+    "id": "undead_knights",
+    "tribe": "亡灵",
+    "name": "永恒骑士亡灵",
+    "board": [
+      "eternal_knight",
+      "eternal_knight",
+      "eternal_summoner",
+      "eternal_summoner",
+      "deathwhisper",
+      "mummifier",
+      "titus"
+    ],
+    "gold": "eternal_summoner",
+    "weights": [
+      2,
+      2,
+      3,
+      3,
+      1,
+      0,
+      1
+    ],
+    "hand": [],
+    "reborn": [
+      2,
+      3
+    ],
+    "shield": [
+      4,
+      6
+    ],
+    "note": "骑士先交换、召唤者补骑士，工匠与姐妹支持复生；逐局计数决定真实上限。",
+    "trinkets": [
+      "eternal_portrait",
+      "bleeding_heart"
+    ]
+  },
+  {
+    "id": "menagerie",
+    "tribe": "混合",
+    "name": "娜拉法术混合",
+    "board": [
+      "hydra",
+      "reaper",
+      "bronze",
+      "choral",
+      "mannoroth",
+      "nalaa",
+      "ignition"
+    ],
+    "gold": "nalaa",
+    "weights": [
+      3,
+      3,
+      2,
+      2,
+      2,
+      0,
+      0
+    ],
+    "hand": [],
+    "reborn": [
+      0,
+      4
+    ],
+    "shield": [
+      0,
+      1
+    ],
+    "note": "法术供给养多族，优先狂战/盾载体；打决赛可用已养大的组件替换产法术位。",
+    "trinkets": [
+      "fancy_spellbook",
+      "lovely_locket"
+    ]
+  }
+]

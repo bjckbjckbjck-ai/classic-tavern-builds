@@ -1,0 +1,100 @@
+[
+  {
+    "suite": "season_v59_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 42,
+    "errors": []
+  },
+  {
+    "suite": "strategy_v59_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 23,
+    "errors": []
+  },
+  {
+    "suite": "season_v56_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 76,
+    "errors": []
+  },
+  {
+    "suite": "season_v53_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 37,
+    "errors": []
+  },
+  {
+    "suite": "poet_buffs_v52_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 16,
+    "errors": []
+  },
+  {
+    "suite": "poet_v51_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 15,
+    "errors": []
+  },
+  {
+    "suite": "chain_v50_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 16,
+    "errors": []
+  },
+  {
+    "suite": "cadence_v26_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 32,
+    "errors": []
+  },
+  {
+    "suite": "stacking_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 25,
+    "errors": []
+  },
+  {
+    "suite": "four_spells_v50_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 73,
+    "errors": []
+  },
+  {
+    "suite": "ai_plan_v16_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 15,
+    "errors": []
+  },
+  {
+    "suite": "core_cinematics_v57_test",
+    "mode": "headless",
+    "exit": 0,
+    "passes": 48,
+    "errors": []
+  },
+  {
+    "suite": "season_ui_v59_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 12,
+    "errors": []
+  },
+  {
+    "suite": "hand_platform_v59_test",
+    "mode": "native",
+    "exit": 0,
+    "passes": 63,
+    "errors": []
+  }
+]

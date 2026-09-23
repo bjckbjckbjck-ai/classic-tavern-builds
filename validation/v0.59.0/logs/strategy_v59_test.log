@@ -1,0 +1,28 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS catalog valid []
+FROG DECISION { "index": 6, "delta": 259.4, "growth": 0.0, "horizon": 3.8 } old=tide
+PASS Titus can replace a grown transition body when frog engines exist
+PASS keeps frog and macaw as a whole engine
+PASS AI actually buys and fields Titus from full board
+PASS pivot from larger body is recorded
+DRAGON DECISION { "index": 6, "delta": 142.5, "growth": 46.5, "horizon": 3.8 }
+PASS Kalecgos future scaling is valued with a dragon board
+PASS does not buy an unsupported engine just because it is a core
+PASS lethal risk shortens the investment horizon
+PASS does not sell a huge carry for speculative future battlecries
+PASS Poet has two dragon neighbors after bounded positioning
+PASS Murkeye seats between two battlecry engines
+PASS replay-free authority parity seed 0
+PASS replay-free authority parity seed 1
+PASS replay-free authority parity seed 2
+PASS replay-free authority parity seed 3
+PASS replay-free authority parity seed 4
+PASS replay-free authority parity seed 5
+PASS replay-free authority parity seed 6
+PASS replay-free authority parity seed 7
+PASS replay-free authority parity seed 8
+PASS replay-free authority parity seed 9
+PASS replay-free authority parity seed 10
+PASS replay-free authority parity seed 11
+STRATEGY V59 RESULT 23/23

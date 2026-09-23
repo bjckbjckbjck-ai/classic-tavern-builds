@@ -1,0 +1,17 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+UI PASS all new hero portraits rendered
+UI PASS Edwin active targeted skill shown
+UI PASS Cthun draft marked passive
+UI PASS Deathwing draft marked passive
+UI PASS third anomaly page reachable
+PRESENTATION VERIFIED Windows msaa=0 cards=5
+UI PASS real drag purchases and increments Edwin counter
+UI PASS real targeted hero drag resolves on friendly minion
+UI PASS trinket offers block purchase until selection resolves
+UI PASS journal lays out one release only
+UI PASS newest journal has no newer page
+UI PASS real next-page click opens older notes
+UI PASS real previous-page click returns to latest
+SEASON UI V59 failures=0

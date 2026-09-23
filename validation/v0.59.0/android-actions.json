@@ -1,0 +1,419 @@
+[
+  {
+    "name": "final APK uses v59 protocol and Edwin",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "8463220-1525662813"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "8463241-259948196"
+        }
+      ],
+      "hero": "edwin",
+      "minions_bought_turn": 2,
+      "offers": [],
+      "power_used": false,
+      "protocol": "allstars-0.59.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "8463279-2725781075"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "targeted Edwin power applies two purchases once",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 4,
+          "health": 3,
+          "id": "bronze",
+          "uid": "8463220-1525662813"
+        }
+      ],
+      "coins": 9,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "8463241-259948196"
+        }
+      ],
+      "hero": "edwin",
+      "minions_bought_turn": 2,
+      "offers": [],
+      "power_used": true,
+      "protocol": "allstars-0.59.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "8463279-2725781075"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "shop touch purchase increments minions counter",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 4,
+          "health": 3,
+          "id": "bronze",
+          "uid": "8463220-1525662813"
+        }
+      ],
+      "coins": 6,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "8463241-259948196"
+        },
+        {
+          "id": "cat",
+          "uid": "8463279-2725781075"
+        }
+      ],
+      "hero": "edwin",
+      "minions_bought_turn": 3,
+      "offers": [],
+      "power_used": true,
+      "protocol": "allstars-0.59.0-ws",
+      "round": 6,
+      "shop": [],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "first mobile hand tap only expands",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 4,
+          "health": 3,
+          "id": "bronze",
+          "uid": "8463220-1525662813"
+        }
+      ],
+      "coins": 6,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "8463241-259948196"
+        },
+        {
+          "id": "cat",
+          "uid": "8463279-2725781075"
+        }
+      ],
+      "hero": "edwin",
+      "minions_bought_turn": 3,
+      "offers": [],
+      "power_used": true,
+      "protocol": "allstars-0.59.0-ws",
+      "round": 6,
+      "shop": [],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "four new trinkets delivered to APK",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "20936001-3697545309"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "20936036-3521358822"
+        }
+      ],
+      "hero": "edwin",
+      "minions_bought_turn": 2,
+      "offers": [
+        "music_box",
+        "cheese_lesser",
+        "kodo_lesser",
+        "prayer_beads"
+      ],
+      "power_used": false,
+      "protocol": "allstars-0.59.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "20936107-1645604470"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "new cheese offer selected and charged",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "20936001-3697545309"
+        }
+      ],
+      "coins": 6,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "20936036-3521358822"
+        }
+      ],
+      "hero": "edwin",
+      "minions_bought_turn": 2,
+      "offers": [],
+      "power_used": false,
+      "protocol": "allstars-0.59.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "20936107-1645604470"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": [
+        "cheese_lesser"
+      ]
+    }
+  },
+  {
+    "name": "three explicit refreshes cost three coins",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "20936001-3697545309"
+        }
+      ],
+      "coins": 3,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "20936036-3521358822"
+        }
+      ],
+      "hero": "edwin",
+      "minions_bought_turn": 2,
+      "offers": [],
+      "power_used": false,
+      "protocol": "allstars-0.59.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "murozond",
+          "uid": "31585489-3489664186"
+        },
+        {
+          "id": "young-scale-apprentice",
+          "uid": "31585808-2279482303"
+        },
+        {
+          "id": "bream",
+          "uid": "31586077-2122384292"
+        },
+        {
+          "id": "mummifier",
+          "uid": "31586338-4269463343"
+        },
+        {
+          "id": "highmane",
+          "uid": "31586601-380413387"
+        },
+        {
+          "id": "nathrezim",
+          "uid": "31586863-395383148"
+        }
+      ],
+      "spells": [
+        "spell_telescope"
+      ],
+      "spells_cast": 0,
+      "trinkets": [
+        "cheese_lesser"
+      ]
+    }
+  },
+  {
+    "name": "Cthun hero snapshot rendered",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "33031038-4193436280"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "33031066-4284107273"
+        }
+      ],
+      "hero": "cthun",
+      "minions_bought_turn": 2,
+      "offers": [],
+      "power_used": false,
+      "protocol": "allstars-0.59.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "33031120-1707470819"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "Deathwing hero snapshot rendered",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "36631586-1251427648"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "36631615-1192773767"
+        }
+      ],
+      "hero": "deathwing",
+      "minions_bought_turn": 2,
+      "offers": [],
+      "power_used": false,
+      "protocol": "allstars-0.59.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "36631668-1644368449"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "Android 3D new content has no script or shader error",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "36631586-1251427648"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "36631615-1192773767"
+        }
+      ],
+      "hero": "deathwing",
+      "minions_bought_turn": 2,
+      "offers": [],
+      "power_used": false,
+      "protocol": "allstars-0.59.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "36631668-1644368449"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  }
+]

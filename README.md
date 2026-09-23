@@ -1,3 +1,13 @@
+# v0.59.0 · 长期经营与流派实验
+
+新增3英雄、3畸变、6饰品；AI 按整队即战力和长期成长换牌，改善核心取舍及诗心/小瞎眼站位。公告改为单版本分页。
+
+[安卓 APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.59.0/ClassicTavern-v0.59.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.59.0/ClassicTavern-v0.59.0.exe) · [发行页](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.59.0)
+
+[16套玩法表与AI报告](reports/v0.59.0/玩法强度与AI报告.md) · [可检索HTML表](reports/v0.59.0/玩法表.html) · [本版说明](v0.59.0-长期经营与流派实验.md) · [验证](validation/v0.59.0/README.md) · [下一步](下一阶段开发计划.md)。Android code63，沿用签名，联机双方使用0.59.0。模拟样本不是线上真人数据，基准T0不等同吃鸡天梯。
+
+## 历史版本
+
 # v0.58.0 · 核心卡立体舞台
 
 12张核心卡登场接入3D桌面：前后光环、接触投影、桌面法阵与轻微空间倾斜。狼爹继续采用指定的红眼显现流程。预览新增重播，切换金色保留选择，尾帧停止刷新。

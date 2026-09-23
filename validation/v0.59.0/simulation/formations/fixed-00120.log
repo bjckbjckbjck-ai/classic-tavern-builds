@@ -1,0 +1,13 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+FIXED trial=120 rows=720
+FIXED trial=121 rows=1440
+FIXED trial=122 rows=2160
+FIXED trial=123 rows=2880
+FIXED trial=124 rows=3600
+FIXED trial=125 rows=4320
+FIXED trial=126 rows=5040
+FIXED trial=127 rows=5760
+FIXED trial=128 rows=6480
+FIXED trial=129 rows=7200
+SIM COMPLETE fixed rows=7200 seconds=153.502

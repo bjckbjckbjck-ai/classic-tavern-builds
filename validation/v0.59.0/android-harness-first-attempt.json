@@ -1,0 +1,244 @@
+[
+  {
+    "name": "final APK uses v59 protocol and Edwin",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "124280691-490031999"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "124280727-3207469646"
+        }
+      ],
+      "hero": "edwin",
+      "minions_bought_turn": 2,
+      "offers": [],
+      "power_used": false,
+      "protocol": "allstars-0.59.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "124280772-4257644418"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "targeted Edwin power applies two purchases once",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 4,
+          "health": 3,
+          "id": "bronze",
+          "uid": "124280691-490031999"
+        }
+      ],
+      "coins": 9,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "124280727-3207469646"
+        }
+      ],
+      "hero": "edwin",
+      "minions_bought_turn": 2,
+      "offers": [],
+      "power_used": true,
+      "protocol": "allstars-0.59.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "124280772-4257644418"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "shop touch purchase increments minions counter",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 4,
+          "health": 3,
+          "id": "bronze",
+          "uid": "124280691-490031999"
+        }
+      ],
+      "coins": 6,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "124280727-3207469646"
+        },
+        {
+          "id": "cat",
+          "uid": "124280772-4257644418"
+        }
+      ],
+      "hero": "edwin",
+      "minions_bought_turn": 3,
+      "offers": [],
+      "power_used": true,
+      "protocol": "allstars-0.59.0-ws",
+      "round": 6,
+      "shop": [],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "first mobile hand tap only expands",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 4,
+          "health": 3,
+          "id": "bronze",
+          "uid": "124280691-490031999"
+        }
+      ],
+      "coins": 6,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "124280727-3207469646"
+        },
+        {
+          "id": "cat",
+          "uid": "124280772-4257644418"
+        }
+      ],
+      "hero": "edwin",
+      "minions_bought_turn": 3,
+      "offers": [],
+      "power_used": true,
+      "protocol": "allstars-0.59.0-ws",
+      "round": 6,
+      "shop": [],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "four new trinkets delivered to APK",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "224558070-1305951441"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "224558102-1968708891"
+        }
+      ],
+      "hero": "edwin",
+      "minions_bought_turn": 2,
+      "offers": [
+        "music_box",
+        "cheese_lesser",
+        "kodo_lesser",
+        "prayer_beads"
+      ],
+      "power_used": false,
+      "protocol": "allstars-0.59.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "224558171-3162521699"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "new cheese offer selected and charged",
+    "passed": false,
+    "state": {
+      "board": [
+        {
+          "attack": 2,
+          "health": 1,
+          "id": "bronze",
+          "uid": "224558070-1305951441"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "224558102-1968708891"
+        }
+      ],
+      "hero": "edwin",
+      "minions_bought_turn": 2,
+      "offers": [
+        "music_box",
+        "cheese_lesser",
+        "kodo_lesser",
+        "prayer_beads"
+      ],
+      "power_used": false,
+      "protocol": "allstars-0.59.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "224558171-3162521699"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  }
+]

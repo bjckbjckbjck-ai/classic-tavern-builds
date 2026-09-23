@@ -1,0 +1,56 @@
+[
+  {
+    "id": "edwin",
+    "url": "https://art.hearthstonejson.com/v1/512x/TB_BaconShop_HERO_01.webp",
+    "path": "assets/original/TB_BaconShop_HERO_01.webp",
+    "sha256": "a58935cdd38eda845deec94b19f7bdbd1f1f3ecb28a9edf563664d401f553c82"
+  },
+  {
+    "id": "cthun",
+    "url": "https://art.hearthstonejson.com/v1/512x/TB_BaconShop_HERO_29.webp",
+    "path": "assets/original/TB_BaconShop_HERO_29.webp",
+    "sha256": "eed285f815d63cca113be1044710bf7619245168905fcf5f2333db40a1f2bb48"
+  },
+  {
+    "id": "deathwing",
+    "url": "https://art.hearthstonejson.com/v1/512x/TB_BaconShop_HERO_52.webp",
+    "path": "assets/original/TB_BaconShop_HERO_52.webp",
+    "sha256": "8fb5a16fb4f093ba7a9724400769ac5169e4d695e1b60116369bcda569690d26"
+  },
+  {
+    "id": "music_box",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG30_MagicItem_430.webp",
+    "path": "assets/trinkets/BG30_MagicItem_430.webp",
+    "sha256": "699165bcaaeb161926b4df453b9c24ce24e5287350e737c6abfb7ba2b7731be2"
+  },
+  {
+    "id": "cheese_lesser",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG30_MagicItem_879.webp",
+    "path": "assets/trinkets/BG30_MagicItem_879.webp",
+    "sha256": "a979b2505805d163a4c6c95dcf0943d9ce49bf73bcc00f9e4d9edd1ca430d1bc"
+  },
+  {
+    "id": "cheese_greater",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG30_MagicItem_879t.webp",
+    "path": "assets/trinkets/BG30_MagicItem_879t.webp",
+    "sha256": "d7400af2d61592cece654a365d41f1356eba10e925601325cedbd9a949c8ab6e"
+  },
+  {
+    "id": "kodo_lesser",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG30_MagicItem_414.webp",
+    "path": "assets/trinkets/BG30_MagicItem_414.webp",
+    "sha256": "62c67a4db876a8a498f6e512c97c615123ba3888d3a1f23068e75091aefbf3f9"
+  },
+  {
+    "id": "kodo_greater",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG30_MagicItem_414t.webp",
+    "path": "assets/trinkets/BG30_MagicItem_414t.webp",
+    "sha256": "f290459b0cfc57408c12aa705d5402d612b37eebdf78c6254b606bd956c38087"
+  },
+  {
+    "id": "prayer_beads",
+    "url": "https://art.hearthstonejson.com/v1/512x/BG30_MagicItem_982.webp",
+    "path": "assets/trinkets/BG30_MagicItem_982.webp",
+    "sha256": "24612a4d4895d2cf24e759936644f05069ed6add524d57cb5d0e107d7cc4e4f2"
+  }
+]

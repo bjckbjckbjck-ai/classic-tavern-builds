@@ -1,0 +1,25 @@
+--------- beginning of main
+09-23 10:13:21.930  2463  2490 I godot   : Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+09-23 10:13:21.986  2463  2490 E godot   : WARNING: Failed to load cached shader, recompiling.
+09-23 10:13:21.986  2463  2490 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:612)
+09-23 10:13:22.324  2463  2490 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 595.97) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2)
+09-23 10:13:22.343  2463  2490 I godot   : 
+09-23 10:13:32.516  2463  2490 I godot   : PRESENTATION VERIFIED Android msaa=0 cards=4
+09-23 10:14:29.381  2659  2685 I godot   : Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+09-23 10:14:29.435  2659  2685 E godot   : WARNING: Failed to load cached shader, recompiling.
+09-23 10:14:29.440  2659  2685 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:612)
+09-23 10:14:29.713  2659  2685 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 595.97) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2)
+09-23 10:14:29.722  2659  2685 I godot   : 
+09-23 10:14:36.596  2720  2746 I godot   : Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+09-23 10:14:36.645  2720  2746 E godot   : WARNING: Failed to load cached shader, recompiling.
+09-23 10:14:36.645  2720  2746 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:612)
+09-23 10:14:36.918  2720  2746 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 595.97) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2)
+09-23 10:14:36.929  2720  2746 I godot   : 
+09-23 10:14:43.792  2779  2805 I godot   : Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+09-23 10:14:43.859  2779  2805 E godot   : WARNING: Failed to load cached shader, recompiling.
+09-23 10:14:43.859  2779  2805 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:612)
+09-23 10:14:44.142  2779  2805 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 595.97) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2)
+09-23 10:14:44.155  2779  2805 I godot   : 
+09-23 10:15:00.635  2779  2805 E godot   : ERROR: Condition "!is_inside_tree()" is true. Returning: false
+09-23 10:15:00.635  2779  2805 E godot   :    at: can_process (scene/main/node.cpp:902)
+09-23 10:15:08.226  2779  2805 I godot   : PRESENTATION VERIFIED Android msaa=0 cards=4
