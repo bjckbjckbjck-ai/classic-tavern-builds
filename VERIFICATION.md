@@ -1,3 +1,7 @@
+# v0.60.0
+
+[379项断言、24局完整功能回归、最终APK与EXE检查和已知边界](validation/v0.60.0/README.md)。
+
 # v0.59.0
 
 [493项断言、最终APK与EXE、312局经营/28,800固定交战及已知边界](validation/v0.59.0/README.md)。

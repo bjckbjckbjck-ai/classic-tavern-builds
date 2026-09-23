@@ -1,0 +1,187 @@
+{
+  "failures": [
+    [
+      19,
+      13,
+      3,
+      "resource or readiness",
+      {
+        "board": 7,
+        "cards": [
+          "scarlet_skull",
+          "bassgill",
+          "lullabot",
+          "peckish_feldrake",
+          "battlemaster",
+          "wrath",
+          "deathwhisper"
+        ],
+        "coins": 5,
+        "discover": 0,
+        "hand": 0,
+        "hero": "taethelan",
+        "hp": 0,
+        "last": "施放酒馆法术：意外之果",
+        "pending": 0,
+        "queue": 0,
+        "ready": false
+      }
+    ]
+  ],
+  "purpose": "functional regression, not strength comparison",
+  "rows": [
+    {
+      "acquired": 16,
+      "anomaly": "fortitude",
+      "battles": 59,
+      "cycles": 29,
+      "difficulty": 3,
+      "guarantees": 16,
+      "limited": 0,
+      "max_bot_ms": 265.912,
+      "players": [
+        {
+          "cycles": 1,
+          "hero": "deryl",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 15.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "wolf",
+          "rank": 8,
+          "trinkets": [
+            "deathly_phylactery",
+            "slamma_sticker"
+          ]
+        },
+        {
+          "cycles": 2,
+          "hero": "snake_eyes",
+          "last_operation": {
+            "card": "hound",
+            "expected_gain": 14.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "frog",
+          "rank": 3,
+          "trinkets": [
+            "scourge_staff",
+            "rivendare_portrait"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "taethelan",
+          "last_operation": {
+            "card": "toxfin",
+            "expected_gain": 10.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "murloc_hand",
+          "rank": 6,
+          "trinkets": [
+            "phrasebook_lesser",
+            "murloc_pajamas"
+          ]
+        },
+        {
+          "cycles": 4,
+          "hero": "hollidae",
+          "last_operation": {
+            "card": "felemental",
+            "expected_gain": 18.4,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "murloc_battlecry",
+          "rank": 5,
+          "trinkets": [
+            "music_box",
+            "murky_sticker"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "king_laohan",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "dragon_memory",
+          "rank": 2,
+          "trinkets": [
+            "training_certificate",
+            "poet_portrait"
+          ]
+        },
+        {
+          "cycles": 15,
+          "hero": "nozdormu",
+          "last_operation": {
+            "card": "clunker",
+            "expected_gain": 36.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "dragon_battlecry",
+          "rank": 1,
+          "trinkets": [
+            "music_box",
+            "dragon_eye"
+          ]
+        },
+        {
+          "cycles": 2,
+          "hero": "alexstrasza",
+          "last_operation": {
+            "card": "twilight",
+            "expected_gain": 4.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "mech_magnet",
+          "rank": 7,
+          "trinkets": [
+            "electromagnet_lesser",
+            "beatboxer_portrait"
+          ]
+        },
+        {
+          "cycles": 3,
+          "hero": "patches",
+          "last_operation": {
+            "card": "toxfin",
+            "expected_gain": 10.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "undead_knights",
+          "rank": 4,
+          "trinkets": [
+            "eternal_portrait",
+            "coffin_greater"
+          ]
+        }
+      ],
+      "rounds": 17,
+      "sample": 19,
+      "seed": 606019,
+      "trinkets": true
+    }
+  ],
+  "version": "0.60.0"
+}

@@ -1,0 +1,187 @@
+{
+  "failures": [
+    [
+      14,
+      11,
+      2,
+      "resource or readiness",
+      {
+        "board": 7,
+        "cards": [
+          "hydra",
+          "battlemaster",
+          "cobalt_scalebane",
+          "enforcer",
+          "nightmare_amalgam",
+          "brann",
+          "wrath"
+        ],
+        "coins": 9,
+        "discover": 0,
+        "hand": 0,
+        "hero": "edwin",
+        "hp": 0,
+        "last": "胜利 · 6 伤害",
+        "pending": 0,
+        "queue": 0,
+        "ready": false
+      }
+    ]
+  ],
+  "purpose": "functional regression, not strength comparison",
+  "rows": [
+    {
+      "acquired": 0,
+      "anomaly": "refresh",
+      "battles": 53,
+      "cycles": 14,
+      "difficulty": 2,
+      "guarantees": 0,
+      "limited": 0,
+      "max_bot_ms": 340.482,
+      "players": [
+        {
+          "cycles": 3,
+          "hero": "nzoth",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "pirate_attack",
+          "rank": 3,
+          "trinkets": [
+            "kodo_lesser",
+            "rivendare_portrait"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "edwin",
+          "last_operation": {
+            "card": "rattler",
+            "expected_gain": 20.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "murloc_battlecry",
+          "rank": 7,
+          "trinkets": [
+            "typewriter_lesser",
+            "murky_sticker"
+          ]
+        },
+        {
+          "cycles": 2,
+          "hero": "cthun",
+          "last_operation": {
+            "card": "balladist",
+            "expected_gain": 24.0,
+            "kept_last_body": true,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "dragon_memory",
+          "rank": 1,
+          "trinkets": [
+            "fish_portrait",
+            "poet_portrait"
+          ]
+        },
+        {
+          "cycles": 2,
+          "hero": "deathwing",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 4,
+          "trinkets": [
+            "ceremonial_sword",
+            "rivendare_portrait"
+          ]
+        },
+        {
+          "cycles": 3,
+          "hero": "patchwerk",
+          "last_operation": {
+            "card": "cannoneer",
+            "expected_gain": 12.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "undead_knights",
+          "rank": 8,
+          "trinkets": [
+            "music_box",
+            "typewriter_greater"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "pyramad",
+          "last_operation": {
+            "card": "cannoneer",
+            "expected_gain": 18.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "pirate_trade",
+          "rank": 6,
+          "trinkets": [
+            "war_drum",
+            "brew_greater"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "jaraxxus",
+          "last_operation": {
+            "card": "twilight",
+            "expected_gain": 4.0,
+            "kept_last_body": true,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "dragon_memory",
+          "rank": 5,
+          "trinkets": [
+            "glider_lesser",
+            "bronze_clock"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "yogg",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 2,
+          "trinkets": [
+            "ceremonial_sword",
+            "thorned_rose"
+          ]
+        }
+      ],
+      "rounds": 15,
+      "sample": 14,
+      "seed": 606014,
+      "trinkets": true
+    }
+  ],
+  "version": "0.60.0"
+}

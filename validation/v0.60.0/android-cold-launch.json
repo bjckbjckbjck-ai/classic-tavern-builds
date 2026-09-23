@@ -1,0 +1,26 @@
+[
+  {
+    "attempt": 1,
+    "passed": true,
+    "foreground": [
+      "mCurrentFocus=Window{19bcdfe u0 org.classictavern.game/com.godot.game.GodotAppLauncher}"
+    ],
+    "launch": "Starting: Intent { cmp=org.classictavern.game/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.classictavern.game/com.godot.game.GodotApp\r\nTotalTime: 986\r\nWaitTime: 991\r\nComplete\r\n"
+  },
+  {
+    "attempt": 2,
+    "passed": true,
+    "foreground": [
+      "mCurrentFocus=Window{7134b93 u0 org.classictavern.game/com.godot.game.GodotAppLauncher}"
+    ],
+    "launch": "Starting: Intent { cmp=org.classictavern.game/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.classictavern.game/com.godot.game.GodotApp\r\nTotalTime: 1107\r\nWaitTime: 1111\r\nComplete\r\n"
+  },
+  {
+    "attempt": 3,
+    "passed": true,
+    "foreground": [
+      "mCurrentFocus=Window{794fcb4 u0 org.classictavern.game/com.godot.game.GodotAppLauncher}"
+    ],
+    "launch": "Starting: Intent { cmp=org.classictavern.game/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.classictavern.game/com.godot.game.GodotApp\r\nTotalTime: 1028\r\nWaitTime: 1030\r\nComplete\r\n"
+  }
+]

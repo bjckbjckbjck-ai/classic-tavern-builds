@@ -1,0 +1,1732 @@
+{
+  "failures": [],
+  "purpose": "functional regression, not strength comparison",
+  "rows": [
+    {
+      "acquired": 0,
+      "anomaly": "off",
+      "battles": 53,
+      "cycles": 20,
+      "difficulty": 2,
+      "guarantees": 0,
+      "limited": 0,
+      "max_bot_ms": 140.205,
+      "players": [
+        {
+          "cycles": 1,
+          "hero": "patchwerk",
+          "last_operation": {
+            "card": "balladist",
+            "expected_gain": 6.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "undead_reborn",
+          "rank": 5,
+          "trinkets": []
+        },
+        {
+          "cycles": 1,
+          "hero": "pyramad",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "undead_reborn",
+          "rank": 1,
+          "trinkets": []
+        },
+        {
+          "cycles": 3,
+          "hero": "jaraxxus",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "undead_reborn",
+          "rank": 7,
+          "trinkets": []
+        },
+        {
+          "cycles": 3,
+          "hero": "yogg",
+          "last_operation": {
+            "card": "balladist",
+            "expected_gain": 10.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 6,
+          "trinkets": []
+        },
+        {
+          "cycles": 5,
+          "hero": "george",
+          "last_operation": {
+            "card": "murky",
+            "expected_gain": 32.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "hurt",
+          "rank": 2,
+          "trinkets": []
+        },
+        {
+          "cycles": 0,
+          "hero": "millificent",
+          "last_operation": {
+
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 4,
+          "trinkets": []
+        },
+        {
+          "cycles": 6,
+          "hero": "kaelthas",
+          "last_operation": {
+            "card": "murky",
+            "expected_gain": 16.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "murloc_hand",
+          "rank": 3,
+          "trinkets": []
+        },
+        {
+          "cycles": 1,
+          "hero": "deryl",
+          "last_operation": {
+            "card": "hound",
+            "expected_gain": 14.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 8,
+          "trinkets": []
+        }
+      ],
+      "rounds": 17,
+      "sample": 0,
+      "seed": 606000,
+      "trinkets": false
+    },
+    {
+      "acquired": 16,
+      "anomaly": "refresh",
+      "battles": 56,
+      "cycles": 30,
+      "difficulty": 3,
+      "guarantees": 16,
+      "limited": 0,
+      "max_bot_ms": 374.297,
+      "players": [
+        {
+          "cycles": 3,
+          "hero": "snake_eyes",
+          "last_operation": {
+            "card": "hound",
+            "expected_gain": 14.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 2,
+          "trinkets": [
+            "scourge_staff",
+            "rivendare_portrait"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "taethelan",
+          "last_operation": {
+            "card": "balladist",
+            "expected_gain": 15.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "undead_knights",
+          "rank": 3,
+          "trinkets": [
+            "eternal_portrait",
+            "coffin_greater"
+          ]
+        },
+        {
+          "cycles": 6,
+          "hero": "hollidae",
+          "last_operation": {
+            "card": "hound",
+            "expected_gain": 14.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "murloc_hand",
+          "rank": 4,
+          "trinkets": [
+            "phrasebook_lesser",
+            "murloc_pajamas"
+          ]
+        },
+        {
+          "cycles": 6,
+          "hero": "king_laohan",
+          "last_operation": {
+            "card": "balladist",
+            "expected_gain": 14.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "murloc_battlecry",
+          "rank": 6,
+          "trinkets": [
+            "music_box",
+            "murky_sticker"
+          ]
+        },
+        {
+          "cycles": 3,
+          "hero": "nozdormu",
+          "last_operation": {
+            "card": "cannoneer",
+            "expected_gain": 14.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "dragon_memory",
+          "rank": 5,
+          "trinkets": [
+            "training_certificate",
+            "poet_portrait"
+          ]
+        },
+        {
+          "cycles": 2,
+          "hero": "alexstrasza",
+          "last_operation": {
+            "card": "toxfin",
+            "expected_gain": 10.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "dragon_battlecry",
+          "rank": 8,
+          "trinkets": [
+            "music_box",
+            "dragon_eye"
+          ]
+        },
+        {
+          "cycles": 3,
+          "hero": "patches",
+          "last_operation": {
+            "card": "cannoneer",
+            "expected_gain": 18.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "mech_magnet",
+          "rank": 7,
+          "trinkets": [
+            "electromagnet_lesser",
+            "beatboxer_portrait"
+          ]
+        },
+        {
+          "cycles": 6,
+          "hero": "lich_king",
+          "last_operation": {
+            "card": "mannoroth",
+            "expected_gain": 14.3,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "mech_shield",
+          "rank": 1,
+          "trinkets": [
+            "sunglasses",
+            "fridge_magnet"
+          ]
+        }
+      ],
+      "rounds": 17,
+      "sample": 1,
+      "seed": 606001,
+      "trinkets": true
+    },
+    {
+      "acquired": 0,
+      "anomaly": "crowded",
+      "battles": 57,
+      "cycles": 17,
+      "difficulty": 2,
+      "guarantees": 0,
+      "limited": 0,
+      "max_bot_ms": 311.66,
+      "players": [
+        {
+          "cycles": 5,
+          "hero": "teron",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 27.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "undead_knights",
+          "rank": 1,
+          "trinkets": [
+            "bleeding_heart",
+            "coffin_greater"
+          ]
+        },
+        {
+          "cycles": 0,
+          "hero": "rat_king",
+          "last_operation": {
+
+          },
+          "phase": "转型",
+          "plan": "pirate_trade",
+          "rank": 6,
+          "trinkets": [
+            "explorer_binoculars",
+            "brew_greater"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "wagtoggle",
+          "last_operation": {
+            "card": "rattler",
+            "expected_gain": 10.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 3,
+          "trinkets": [
+            "ceremonial_sword",
+            "tiger_greater"
+          ]
+        },
+        {
+          "cycles": 4,
+          "hero": "kragg",
+          "last_operation": {
+            "card": "toxfin",
+            "expected_gain": 10.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 5,
+          "trinkets": [
+            "ceremonial_sword",
+            "slamma_sticker"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "gallywix",
+          "last_operation": {
+            "card": "nathrezim",
+            "expected_gain": 4.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "dragon_memory",
+          "rank": 8,
+          "trinkets": [
+            "wallet",
+            "lorewalker_greater"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "omu",
+          "last_operation": {
+            "card": "cannoneer",
+            "expected_gain": 6.0,
+            "kept_last_body": true,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "demon_soul",
+          "rank": 7,
+          "trinkets": [
+            "soul_stripper",
+            "manipulator_portrait"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "guff",
+          "last_operation": {
+            "card": "hound",
+            "expected_gain": 14.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 4,
+          "trinkets": [
+            "kodo_lesser",
+            "rivendare_portrait"
+          ]
+        },
+        {
+          "cycles": 4,
+          "hero": "ragnaros",
+          "last_operation": {
+            "card": "rattler",
+            "expected_gain": 10.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "frog",
+          "rank": 2,
+          "trinkets": [
+            "reflective_pendant",
+            "bronze_clock"
+          ]
+        }
+      ],
+      "rounds": 18,
+      "sample": 2,
+      "seed": 606002,
+      "trinkets": true
+    },
+    {
+      "acquired": 14,
+      "anomaly": "seventh_reward",
+      "battles": 45,
+      "cycles": 14,
+      "difficulty": 3,
+      "guarantees": 14,
+      "limited": 0,
+      "max_bot_ms": 241.84,
+      "players": [
+        {
+          "cycles": 1,
+          "hero": "alakir",
+          "last_operation": {
+            "card": "clunker",
+            "expected_gain": 4.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "wolf",
+          "rank": 3,
+          "trinkets": [
+            "deathly_phylactery",
+            "slamma_sticker"
+          ]
+        },
+        {
+          "cycles": 4,
+          "hero": "nzoth",
+          "last_operation": {
+            "card": "hound",
+            "expected_gain": 14.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "frog",
+          "rank": 1,
+          "trinkets": [
+            "scourge_staff",
+            "rivendare_portrait"
+          ]
+        },
+        {
+          "cycles": 2,
+          "hero": "edwin",
+          "last_operation": {
+            "card": "bream",
+            "expected_gain": 5.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "frog",
+          "rank": 5,
+          "trinkets": [
+            "scourge_staff",
+            "rivendare_portrait"
+          ]
+        },
+        {
+          "cycles": 2,
+          "hero": "cthun",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "murloc_battlecry",
+          "rank": 6,
+          "trinkets": [
+            "music_box",
+            "murky_sticker"
+          ]
+        },
+        {
+          "cycles": 3,
+          "hero": "deathwing",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "dragon_memory",
+          "rank": 2,
+          "trinkets": [
+            "training_certificate",
+            "poet_portrait"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "patchwerk",
+          "last_operation": {
+            "card": "clunker",
+            "expected_gain": 4.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "dragon_battlecry",
+          "rank": 7,
+          "trinkets": [
+            "music_box"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "pyramad",
+          "last_operation": {
+            "card": "balladist",
+            "expected_gain": 8.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 4,
+          "trinkets": [
+            "scourge_staff",
+            "rivendare_portrait"
+          ]
+        },
+        {
+          "cycles": 0,
+          "hero": "jaraxxus",
+          "last_operation": {
+
+          },
+          "phase": "转型",
+          "plan": "mech_shield",
+          "rank": 8,
+          "trinkets": [
+            "sunglasses"
+          ]
+        }
+      ],
+      "rounds": 14,
+      "sample": 3,
+      "seed": 606003,
+      "trinkets": true
+    },
+    {
+      "acquired": 0,
+      "anomaly": "norgannon",
+      "battles": 55,
+      "cycles": 14,
+      "difficulty": 2,
+      "guarantees": 0,
+      "limited": 0,
+      "max_bot_ms": 291.536,
+      "players": [
+        {
+          "cycles": 2,
+          "hero": "yogg",
+          "last_operation": {
+            "card": "bagurgle",
+            "expected_gain": 8.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 3,
+          "trinkets": [
+            "fish_portrait",
+            "electromagnet_greater"
+          ]
+        },
+        {
+          "cycles": 4,
+          "hero": "george",
+          "last_operation": {
+            "card": "rattler",
+            "expected_gain": 10.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "hurt",
+          "rank": 1,
+          "trinkets": [
+            "lucky_tabby",
+            "tiger_greater"
+          ]
+        },
+        {
+          "cycles": 3,
+          "hero": "millificent",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": true,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "hurt",
+          "rank": 4,
+          "trinkets": [
+            "gauntlet_lesser",
+            "thorned_rose"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "kaelthas",
+          "last_operation": {
+            "card": "nathrezim",
+            "expected_gain": 4.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "pirate_trade",
+          "rank": 6,
+          "trinkets": [
+            "lovely_locket",
+            "brew_greater"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "deryl",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": true,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "pirate_attack",
+          "rank": 2,
+          "trinkets": [
+            "staff_lesser",
+            "flagbearer_portrait"
+          ]
+        },
+        {
+          "cycles": 2,
+          "hero": "snake_eyes",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 7,
+          "trinkets": [
+            "deathly_phylactery",
+            "thorned_rose"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "taethelan",
+          "last_operation": {
+            "card": "toxfin",
+            "expected_gain": 10.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "mech_magnet",
+          "rank": 5,
+          "trinkets": [
+            "electromagnet_lesser",
+            "beatboxer_portrait"
+          ]
+        },
+        {
+          "cycles": 0,
+          "hero": "hollidae",
+          "last_operation": {
+
+          },
+          "phase": "过渡",
+          "plan": "murloc_battlecry",
+          "rank": 8,
+          "trinkets": [
+            "war_drum",
+            "manipulator_portrait"
+          ]
+        }
+      ],
+      "rounds": 17,
+      "sample": 4,
+      "seed": 606004,
+      "trinkets": true
+    },
+    {
+      "acquired": 15,
+      "anomaly": "might",
+      "battles": 60,
+      "cycles": 7,
+      "difficulty": 3,
+      "guarantees": 15,
+      "limited": 0,
+      "max_bot_ms": 527.383,
+      "players": [
+        {
+          "cycles": 3,
+          "hero": "king_laohan",
+          "last_operation": {
+            "card": "toxfin",
+            "expected_gain": 10.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "wolf",
+          "rank": 5,
+          "trinkets": [
+            "deathly_phylactery",
+            "slamma_sticker"
+          ]
+        },
+        {
+          "cycles": 0,
+          "hero": "nozdormu",
+          "last_operation": {
+
+          },
+          "phase": "过渡",
+          "plan": "hurt",
+          "rank": 3,
+          "trinkets": [
+            "tiger_lesser",
+            "thorned_rose"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "alexstrasza",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "murloc_hand",
+          "rank": 4,
+          "trinkets": [
+            "phrasebook_lesser",
+            "murloc_pajamas"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "patches",
+          "last_operation": {
+            "card": "bagurgle",
+            "expected_gain": 4.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "murloc_battlecry",
+          "rank": 8,
+          "trinkets": [
+            "music_box"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "lich_king",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "dragon_memory",
+          "rank": 2,
+          "trinkets": [
+            "training_certificate",
+            "poet_portrait"
+          ]
+        },
+        {
+          "cycles": 0,
+          "hero": "teron",
+          "last_operation": {
+
+          },
+          "phase": "转型",
+          "plan": "dragon_battlecry",
+          "rank": 7,
+          "trinkets": [
+            "music_box",
+            "dragon_eye"
+          ]
+        },
+        {
+          "cycles": 0,
+          "hero": "rat_king",
+          "last_operation": {
+
+          },
+          "phase": "成型",
+          "plan": "mech_magnet",
+          "rank": 1,
+          "trinkets": [
+            "electromagnet_lesser",
+            "beatboxer_portrait"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "wagtoggle",
+          "last_operation": {
+            "card": "cannoneer",
+            "expected_gain": 12.0,
+            "kept_last_body": true,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "mech_shield",
+          "rank": 6,
+          "trinkets": [
+            "sunglasses",
+            "fridge_magnet"
+          ]
+        }
+      ],
+      "rounds": 18,
+      "sample": 5,
+      "seed": 606005,
+      "trinkets": true
+    },
+    {
+      "acquired": 0,
+      "anomaly": "fortitude",
+      "battles": 52,
+      "cycles": 14,
+      "difficulty": 2,
+      "guarantees": 0,
+      "limited": 0,
+      "max_bot_ms": 249.081,
+      "players": [
+        {
+          "cycles": 0,
+          "hero": "kragg",
+          "last_operation": {
+
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 7,
+          "trinkets": []
+        },
+        {
+          "cycles": 0,
+          "hero": "gallywix",
+          "last_operation": {
+
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 8,
+          "trinkets": []
+        },
+        {
+          "cycles": 6,
+          "hero": "omu",
+          "last_operation": {
+            "card": "salty",
+            "expected_gain": 4.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "pirate_attack",
+          "rank": 2,
+          "trinkets": []
+        },
+        {
+          "cycles": 2,
+          "hero": "guff",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "demon_soul",
+          "rank": 4,
+          "trinkets": []
+        },
+        {
+          "cycles": 1,
+          "hero": "ragnaros",
+          "last_operation": {
+            "card": "hound",
+            "expected_gain": 14.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "dragon_memory",
+          "rank": 1,
+          "trinkets": []
+        },
+        {
+          "cycles": 3,
+          "hero": "alakir",
+          "last_operation": {
+            "card": "hound",
+            "expected_gain": 14.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "frog",
+          "rank": 5,
+          "trinkets": []
+        },
+        {
+          "cycles": 1,
+          "hero": "nzoth",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 15.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "murloc_hand",
+          "rank": 6,
+          "trinkets": []
+        },
+        {
+          "cycles": 1,
+          "hero": "edwin",
+          "last_operation": {
+            "card": "cannoneer",
+            "expected_gain": 6.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 3,
+          "trinkets": []
+        }
+      ],
+      "rounds": 16,
+      "sample": 6,
+      "seed": 606006,
+      "trinkets": false
+    },
+    {
+      "acquired": 16,
+      "anomaly": "grapnel",
+      "battles": 60,
+      "cycles": 32,
+      "difficulty": 3,
+      "guarantees": 16,
+      "limited": 0,
+      "max_bot_ms": 383.78,
+      "players": [
+        {
+          "cycles": 0,
+          "hero": "cthun",
+          "last_operation": {
+
+          },
+          "phase": "转型",
+          "plan": "wolf",
+          "rank": 2,
+          "trinkets": [
+            "deathly_phylactery",
+            "slamma_sticker"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "deathwing",
+          "last_operation": {
+            "card": "hound",
+            "expected_gain": 14.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "hurt",
+          "rank": 6,
+          "trinkets": [
+            "tiger_lesser",
+            "thorned_rose"
+          ]
+        },
+        {
+          "cycles": 6,
+          "hero": "patchwerk",
+          "last_operation": {
+            "card": "hound",
+            "expected_gain": 14.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "murloc_hand",
+          "rank": 3,
+          "trinkets": [
+            "phrasebook_lesser",
+            "murloc_pajamas"
+          ]
+        },
+        {
+          "cycles": 5,
+          "hero": "pyramad",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "murloc_battlecry",
+          "rank": 7,
+          "trinkets": [
+            "music_box",
+            "murky_sticker"
+          ]
+        },
+        {
+          "cycles": 4,
+          "hero": "jaraxxus",
+          "last_operation": {
+            "card": "balladist",
+            "expected_gain": 13.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "frog",
+          "rank": 8,
+          "trinkets": [
+            "scourge_staff",
+            "rivendare_portrait"
+          ]
+        },
+        {
+          "cycles": 5,
+          "hero": "yogg",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "undead_knights",
+          "rank": 4,
+          "trinkets": [
+            "eternal_portrait",
+            "coffin_greater"
+          ]
+        },
+        {
+          "cycles": 7,
+          "hero": "george",
+          "last_operation": {
+            "card": "cannoneer",
+            "expected_gain": 9.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "mech_magnet",
+          "rank": 5,
+          "trinkets": [
+            "electromagnet_lesser",
+            "beatboxer_portrait"
+          ]
+        },
+        {
+          "cycles": 4,
+          "hero": "millificent",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "mech_shield",
+          "rank": 1,
+          "trinkets": [
+            "sunglasses",
+            "fridge_magnet"
+          ]
+        }
+      ],
+      "rounds": 17,
+      "sample": 7,
+      "seed": 606007,
+      "trinkets": true
+    },
+    {
+      "acquired": 0,
+      "anomaly": "double_header",
+      "battles": 58,
+      "cycles": 25,
+      "difficulty": 2,
+      "guarantees": 0,
+      "limited": 0,
+      "max_bot_ms": 359.411,
+      "players": [
+        {
+          "cycles": 5,
+          "hero": "kaelthas",
+          "last_operation": {
+            "card": "toxfin",
+            "expected_gain": 10.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "undead_reborn",
+          "rank": 1,
+          "trinkets": [
+            "typewriter_lesser",
+            "coffin_greater"
+          ]
+        },
+        {
+          "cycles": 3,
+          "hero": "deryl",
+          "last_operation": {
+            "card": "balladist",
+            "expected_gain": 4.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "pirate_trade",
+          "rank": 8,
+          "trinkets": [
+            "kodo_lesser",
+            "balladist_portrait"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "snake_eyes",
+          "last_operation": {
+            "card": "twilight",
+            "expected_gain": 4.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "wolf",
+          "rank": 2,
+          "trinkets": [
+            "rivendare_portrait",
+            "tiger_greater"
+          ]
+        },
+        {
+          "cycles": 0,
+          "hero": "taethelan",
+          "last_operation": {
+
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 4,
+          "trinkets": [
+            "fish_portrait",
+            "rivendare_portrait"
+          ]
+        },
+        {
+          "cycles": 2,
+          "hero": "hollidae",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "undead_knights",
+          "rank": 7,
+          "trinkets": [
+            "bleeding_heart",
+            "brew_greater"
+          ]
+        },
+        {
+          "cycles": 4,
+          "hero": "king_laohan",
+          "last_operation": {
+            "card": "clunker",
+            "expected_gain": 4.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "hurt",
+          "rank": 3,
+          "trinkets": [
+            "tiger_lesser",
+            "thorned_rose"
+          ]
+        },
+        {
+          "cycles": 7,
+          "hero": "nozdormu",
+          "last_operation": {
+            "card": "balladist",
+            "expected_gain": 8.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "pirate_trade",
+          "rank": 6,
+          "trinkets": [
+            "kodo_lesser",
+            "flagbearer_portrait"
+          ]
+        },
+        {
+          "cycles": 3,
+          "hero": "alexstrasza",
+          "last_operation": {
+            "card": "balladist",
+            "expected_gain": 4.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "pirate_trade",
+          "rank": 5,
+          "trinkets": [
+            "kodo_lesser",
+            "balladist_portrait"
+          ]
+        }
+      ],
+      "rounds": 20,
+      "sample": 8,
+      "seed": 606008,
+      "trinkets": true
+    },
+    {
+      "acquired": 16,
+      "anomaly": "prudence",
+      "battles": 65,
+      "cycles": 22,
+      "difficulty": 3,
+      "guarantees": 16,
+      "limited": 0,
+      "max_bot_ms": 488.585,
+      "players": [
+        {
+          "cycles": 0,
+          "hero": "patches",
+          "last_operation": {
+
+          },
+          "phase": "过渡",
+          "plan": "wolf",
+          "rank": 8,
+          "trinkets": [
+            "deathly_phylactery",
+            "slamma_sticker"
+          ]
+        },
+        {
+          "cycles": 2,
+          "hero": "lich_king",
+          "last_operation": {
+            "card": "hound",
+            "expected_gain": 14.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "frog",
+          "rank": 2,
+          "trinkets": [
+            "scourge_staff",
+            "rivendare_portrait"
+          ]
+        },
+        {
+          "cycles": 2,
+          "hero": "teron",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "murloc_hand",
+          "rank": 7,
+          "trinkets": [
+            "phrasebook_lesser",
+            "murloc_pajamas"
+          ]
+        },
+        {
+          "cycles": 3,
+          "hero": "rat_king",
+          "last_operation": {
+            "card": "rattler",
+            "expected_gain": 10.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "murloc_battlecry",
+          "rank": 6,
+          "trinkets": [
+            "music_box",
+            "murky_sticker"
+          ]
+        },
+        {
+          "cycles": 2,
+          "hero": "wagtoggle",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "dragon_memory",
+          "rank": 3,
+          "trinkets": [
+            "training_certificate",
+            "poet_portrait"
+          ]
+        },
+        {
+          "cycles": 12,
+          "hero": "kragg",
+          "last_operation": {
+            "card": "toxfin",
+            "expected_gain": 30.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "dragon_battlecry",
+          "rank": 4,
+          "trinkets": [
+            "music_box",
+            "dragon_eye"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "gallywix",
+          "last_operation": {
+            "card": "rattler",
+            "expected_gain": 10.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "frog",
+          "rank": 1,
+          "trinkets": [
+            "scourge_staff",
+            "rivendare_portrait"
+          ]
+        },
+        {
+          "cycles": 0,
+          "hero": "omu",
+          "last_operation": {
+
+          },
+          "phase": "过渡",
+          "plan": "mech_shield",
+          "rank": 5,
+          "trinkets": [
+            "sunglasses",
+            "fridge_magnet"
+          ]
+        }
+      ],
+      "rounds": 21,
+      "sample": 9,
+      "seed": 606009,
+      "trinkets": true
+    },
+    {
+      "acquired": 0,
+      "anomaly": "factory_line",
+      "battles": 54,
+      "cycles": 14,
+      "difficulty": 2,
+      "guarantees": 0,
+      "limited": 0,
+      "max_bot_ms": 278.25,
+      "players": [
+        {
+          "cycles": 1,
+          "hero": "guff",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 4,
+          "trinkets": [
+            "fish_portrait",
+            "slamma_sticker"
+          ]
+        },
+        {
+          "cycles": 3,
+          "hero": "ragnaros",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 3,
+          "trinkets": [
+            "darnassus_lesser",
+            "rivendare_portrait"
+          ]
+        },
+        {
+          "cycles": 3,
+          "hero": "alakir",
+          "last_operation": {
+            "card": "rattler",
+            "expected_gain": 10.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "hurt",
+          "rank": 5,
+          "trinkets": [
+            "medallion_lesser",
+            "glider_greater"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "nzoth",
+          "last_operation": {
+            "card": "balladist",
+            "expected_gain": 9.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "pirate_attack",
+          "rank": 8,
+          "trinkets": [
+            "innkeeper_stein",
+            "flagbearer_portrait"
+          ]
+        },
+        {
+          "cycles": 2,
+          "hero": "edwin",
+          "last_operation": {
+            "card": "nathrezim",
+            "expected_gain": 4.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "dragon_memory",
+          "rank": 6,
+          "trinkets": [
+            "bluegill_flippers",
+            "poet_portrait"
+          ]
+        },
+        {
+          "cycles": 0,
+          "hero": "cthun",
+          "last_operation": {
+
+          },
+          "phase": "过渡",
+          "plan": "demon_soul",
+          "rank": 1,
+          "trinkets": [
+            "soul_stripper",
+            "thorned_rose"
+          ]
+        },
+        {
+          "cycles": 3,
+          "hero": "deathwing",
+          "last_operation": {
+            "card": "rattler",
+            "expected_gain": 10.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "frog",
+          "rank": 2,
+          "trinkets": [
+            "fish_portrait",
+            "slamma_sticker"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "patchwerk",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "undead_knights",
+          "rank": 7,
+          "trinkets": [
+            "bleeding_heart",
+            "coffin_greater"
+          ]
+        }
+      ],
+      "rounds": 16,
+      "sample": 10,
+      "seed": 606010,
+      "trinkets": true
+    },
+    {
+      "acquired": 16,
+      "anomaly": "no_face_no_case",
+      "battles": 62,
+      "cycles": 26,
+      "difficulty": 3,
+      "guarantees": 16,
+      "limited": 0,
+      "max_bot_ms": 442.289,
+      "players": [
+        {
+          "cycles": 0,
+          "hero": "pyramad",
+          "last_operation": {
+
+          },
+          "phase": "转型",
+          "plan": "wolf",
+          "rank": 6,
+          "trinkets": [
+            "deathly_phylactery",
+            "slamma_sticker"
+          ]
+        },
+        {
+          "cycles": 0,
+          "hero": "jaraxxus",
+          "last_operation": {
+
+          },
+          "phase": "转型",
+          "plan": "hurt",
+          "rank": 3,
+          "trinkets": [
+            "tiger_lesser",
+            "thorned_rose"
+          ]
+        },
+        {
+          "cycles": 4,
+          "hero": "yogg",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "过渡",
+          "plan": "murloc_hand",
+          "rank": 5,
+          "trinkets": [
+            "phrasebook_lesser",
+            "murloc_pajamas"
+          ]
+        },
+        {
+          "cycles": 11,
+          "hero": "george",
+          "last_operation": {
+            "card": "nathrezim",
+            "expected_gain": 8.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "murloc_battlecry",
+          "rank": 4,
+          "trinkets": [
+            "music_box",
+            "murky_sticker"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "millificent",
+          "last_operation": {
+            "card": "twilight",
+            "expected_gain": 4.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "dragon_memory",
+          "rank": 7,
+          "trinkets": [
+            "training_certificate",
+            "poet_portrait"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "kaelthas",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "dragon_battlecry",
+          "rank": 8,
+          "trinkets": [
+            "music_box",
+            "dragon_eye"
+          ]
+        },
+        {
+          "cycles": 1,
+          "hero": "deryl",
+          "last_operation": {
+            "card": "deathswarmer",
+            "expected_gain": 24.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "成型",
+          "plan": "mech_magnet",
+          "rank": 1,
+          "trinkets": [
+            "electromagnet_lesser",
+            "beatboxer_portrait"
+          ]
+        },
+        {
+          "cycles": 8,
+          "hero": "snake_eyes",
+          "last_operation": {
+            "card": "clunker",
+            "expected_gain": 8.0,
+            "kept_last_body": false,
+            "reason": "临时资源触发成长后腾格"
+          },
+          "phase": "转型",
+          "plan": "mech_shield",
+          "rank": 2,
+          "trinkets": [
+            "sunglasses",
+            "fridge_magnet"
+          ]
+        }
+      ],
+      "rounds": 19,
+      "sample": 11,
+      "seed": 606011,
+      "trinkets": true
+    }
+  ],
+  "version": "0.60.0"
+}

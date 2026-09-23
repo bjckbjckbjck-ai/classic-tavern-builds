@@ -1,0 +1,67 @@
+[
+  {
+    "suite": "playbook_v60_test",
+    "passes": 56,
+    "errors": []
+  },
+  {
+    "suite": "issue_v28_test",
+    "passes": 44,
+    "errors": []
+  },
+  {
+    "suite": "trinket_policy_v51_test",
+    "passes": 24,
+    "errors": []
+  },
+  {
+    "suite": "strategy_v59_test",
+    "passes": 23,
+    "errors": []
+  },
+  {
+    "suite": "season_v59_test",
+    "passes": 42,
+    "errors": []
+  },
+  {
+    "suite": "ai_plan_v16_test",
+    "passes": 15,
+    "errors": []
+  },
+  {
+    "suite": "ai_trade_v17_test",
+    "passes": 10,
+    "errors": []
+  },
+  {
+    "suite": "pool_integrity_test",
+    "passes": 12,
+    "errors": []
+  },
+  {
+    "suite": "season_v56_test",
+    "passes": 76,
+    "errors": []
+  },
+  {
+    "suite": "poet_buffs_v52_test",
+    "passes": 16,
+    "errors": []
+  },
+  {
+    "suite": "stacking_test",
+    "passes": 25,
+    "errors": []
+  },
+  {
+    "suite": "cadence_v26_test",
+    "passes": 32,
+    "errors": []
+  },
+  {
+    "suite": "playbook_ui_v60_test",
+    "passes": 4,
+    "errors": []
+  }
+]

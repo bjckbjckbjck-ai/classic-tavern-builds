@@ -1,3 +1,13 @@
+# v0.60.0 · 流派经营与霸主饰品保底
+
+困难/霸主加入16套流派手册、临时买卖位与致死自伤规避；霸主定向保底大小饰品。难度页新增“AI玩法说明”。本地规则AI，不依赖大模型或强化学习。
+
+[安卓 APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.60.0/ClassicTavern-v0.60.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.60.0/ClassicTavern-v0.60.0.exe) · [发行页](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.60.0)
+
+[AI具体实现与DeepSeek/RL取舍](v0.60.0-AI玩法与饰品保底.md) · [验证范围](validation/v0.60.0/README.md) · [下一步](下一阶段开发计划.md)。Android code64，沿用签名；联机双方使用0.60.0。卡牌数值保持，功能模拟不等于胜率提升证明。
+
+## 历史版本
+
 # v0.59.0 · 长期经营与流派实验
 
 新增3英雄、3畸变、6饰品；AI 按整队即战力和长期成长换牌，改善核心取舍及诗心/小瞎眼站位。公告改为单版本分页。

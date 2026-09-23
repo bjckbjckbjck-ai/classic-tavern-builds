@@ -1,0 +1,2 @@
+    versionCode=64 minSdk=24 targetSdk=35
+    versionName=0.60.0

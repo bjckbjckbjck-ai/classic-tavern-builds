@@ -1,0 +1,14 @@
+{
+  "purpose": "functional regression, not balance benchmark",
+  "lobbies": 24,
+  "seats": 192,
+  "assertions": 379,
+  "battles": 1348,
+  "limited": 0,
+  "guarantees": 188,
+  "acquired": 188,
+  "cycles": 495,
+  "max_bot_ms": 703.625,
+  "targeted_trinket_trials": 768,
+  "hero_coverage": 29
+}

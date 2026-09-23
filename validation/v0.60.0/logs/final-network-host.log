@@ -1,0 +1,7 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+NETWORK PASS combat replay synced
+NETWORK PASS host round=1 players=2 replay=5
+NETWORK PRESENTATION host 3D=true
+NETWORK PASS private snapshots
+NETWORK PASS disconnect bot takeover=true
