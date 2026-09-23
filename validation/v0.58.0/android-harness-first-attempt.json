@@ -1,0 +1,8 @@
+[
+  {
+    "attempt": 1,
+    "passed": false,
+    "foreground": [],
+    "launch": "Starting: Intent { cmp=org.classictavern.game/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.classictavern.game/com.godot.game.GodotApp\r\nTotalTime: 894\r\nWaitTime: 905\r\nComplete\r\n"
+  }
+]

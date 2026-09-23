@@ -1,0 +1,22 @@
+[
+  {
+    "max_ms": 17.065,
+    "mean_ms": 16.597625,
+    "mode": 0,
+    "p95_ms": 16.702,
+    "p99_ms": 16.969,
+    "peak_active": 0,
+    "samples": 240,
+    "total_renderer_texture_bytes": 107087506
+  },
+  {
+    "max_ms": 16.804,
+    "mean_ms": 16.6659791666667,
+    "mode": 2,
+    "p95_ms": 16.704,
+    "p99_ms": 16.792,
+    "peak_active": 1,
+    "samples": 240,
+    "total_renderer_texture_bytes": 108578386
+  }
+]

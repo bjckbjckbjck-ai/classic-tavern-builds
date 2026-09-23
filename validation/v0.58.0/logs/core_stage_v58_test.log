@@ -1,0 +1,48 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PRESENTATION VERIFIED Windows msaa=0 cards=3
+UI PASS real card drop creates spatial entrance
+UI PASS single effect isolated from table and drag cameras
+UI PASS spatial overlay passes through drag purchase input
+UI PASS clear cancels stage immediately
+UI PASS 3D gallery goldrinn 1280
+UI PASS wolf keeps exact pose while red eyes and exposure reveal
+UI PASS 3D gallery macaw 1280
+UI PASS 3D gallery kalecgos 1280
+UI PASS 3D gallery felbat 1280
+UI PASS 3D gallery eliza 1280
+UI PASS 3D gallery eternal_summoner 1280
+UI PASS 3D gallery beatboxer 1280
+UI PASS 3D gallery bassgill 1280
+UI PASS 3D gallery titus 1280
+UI PASS 3D gallery brann 1280
+UI PASS 3D gallery slamma 1280
+UI PASS 3D gallery frog 1280
+UI PASS finished gallery view stops rendering
+UI PASS replay uses chosen card without accumulating meshes
+UI PASS gold toggle keeps chosen card and adds outer rim
+UI PASS 3D gallery goldrinn 1600
+UI PASS wolf keeps exact pose while red eyes and exposure reveal
+UI PASS 3D gallery macaw 1600
+UI PASS 3D gallery kalecgos 1600
+UI PASS 3D gallery felbat 1600
+UI PASS 3D gallery eliza 1600
+UI PASS 3D gallery eternal_summoner 1600
+UI PASS 3D gallery beatboxer 1600
+UI PASS 3D gallery bassgill 1600
+UI PASS 3D gallery titus 1600
+UI PASS 3D gallery brann 1600
+UI PASS 3D gallery slamma 1600
+UI PASS 3D gallery frog 1600
+UI PASS finished gallery view stops rendering
+UI PASS replay uses chosen card without accumulating meshes
+UI PASS gold toggle keeps chosen card and adds outer rim
+UI PASS window resize rebuilds selected portrait at current projection extent
+UI PASS lightweight gallery fallback 2d
+UI PASS lightweight gallery fallback low
+UI PASS lightweight gallery fallback reduced
+UI PASS lightweight gallery fallback effects
+UI PASS leaving gallery releases viewport and meshes
+UI PASS dense combat still uses three bounded short effects
+UI PASS leaving room frees cinematic resources

@@ -1,0 +1,24 @@
+[
+  {
+    "frames": 360,
+    "max_ms": 16.876,
+    "mean_ms": 16.6633361111111,
+    "mode": 0,
+    "p95_ms": 16.702,
+    "p99_ms": 16.817,
+    "peak_active": 0,
+    "scenario": "three consecutive full Goldrinn entries including texture cold-load",
+    "total_renderer_texture_bytes": 102778597
+  },
+  {
+    "frames": 360,
+    "max_ms": 29.129,
+    "mean_ms": 16.6658944444445,
+    "mode": 2,
+    "p95_ms": 16.692,
+    "p99_ms": 16.812,
+    "peak_active": 1,
+    "scenario": "three consecutive full Goldrinn entries including texture cold-load",
+    "total_renderer_texture_bytes": 112460753
+  }
+]

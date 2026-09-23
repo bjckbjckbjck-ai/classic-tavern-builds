@@ -1,0 +1,325 @@
+[
+  {
+    "name": "final APK connects using 0.58 protocol",
+    "passed": true,
+    "state": {
+      "board": [],
+      "coins": 10,
+      "discover": [],
+      "hand": [
+        {
+          "id": "goldrinn",
+          "uid": "340141890-2222021526"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.58.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "340141870-4282200186"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "first pocket tap does not play card",
+    "passed": true,
+    "state": {
+      "board": [],
+      "coins": 10,
+      "discover": [],
+      "hand": [
+        {
+          "id": "goldrinn",
+          "uid": "340141890-2222021526"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.58.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "340141870-4282200186"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "real touch plays wolf exactly once",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "goldrinn",
+          "uid": "340141890-2222021526"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "hand": [],
+      "offers": [],
+      "protocol": "allstars-0.58.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "340141870-4282200186"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "shop drag after entry still buys once",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "goldrinn",
+          "uid": "340141890-2222021526"
+        }
+      ],
+      "coins": 7,
+      "discover": [],
+      "hand": [
+        {
+          "id": "cat",
+          "uid": "340141870-4282200186"
+        }
+      ],
+      "offers": [],
+      "protocol": "allstars-0.58.0-ws",
+      "round": 6,
+      "shop": [],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "touch entry macaw",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 4,
+          "health": 3,
+          "id": "macaw",
+          "uid": "350392531-1839916198"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "hand": [],
+      "offers": [],
+      "protocol": "allstars-0.58.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "350392499-332967479"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "touch entry eternal_summoner",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 6,
+          "health": 1,
+          "id": "eternal_summoner",
+          "uid": "355700305-333207895"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "hand": [],
+      "offers": [],
+      "protocol": "allstars-0.58.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "355700262-4256019004"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "touch entry beatboxer",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 3,
+          "health": 7,
+          "id": "beatboxer",
+          "uid": "361067495-1432039266"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "hand": [],
+      "offers": [],
+      "protocol": "allstars-0.58.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "361067448-643122967"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "golden wolf entry uses a valid play",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 8,
+          "health": 8,
+          "id": "goldrinn",
+          "uid": "366420020-3701590660"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "hand": [],
+      "offers": [],
+      "protocol": "allstars-0.58.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "366419987-145526994"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "Android 3D and new shaders run without script/shader errors",
+    "passed": true,
+    "state": {
+      "board": [
+        {
+          "attack": 4,
+          "health": 4,
+          "id": "goldrinn",
+          "uid": "371683528-2405958798"
+        },
+        {
+          "attack": 4,
+          "health": 3,
+          "id": "macaw",
+          "uid": "371683537-2561021530"
+        },
+        {
+          "attack": 3,
+          "health": 3,
+          "id": "frog",
+          "uid": "371683548-4016546075"
+        },
+        {
+          "attack": 2,
+          "health": 5,
+          "id": "slamma",
+          "uid": "371683559-2215400732"
+        },
+        {
+          "attack": 1,
+          "health": 7,
+          "id": "titus",
+          "uid": "371683568-2714281943"
+        }
+      ],
+      "coins": 10,
+      "discover": [],
+      "hand": [],
+      "offers": [],
+      "protocol": "allstars-0.58.0-ws",
+      "round": 6,
+      "shop": [
+        {
+          "id": "cat",
+          "uid": "366419987-145526994"
+        }
+      ],
+      "spells": [
+        "spell_banana"
+      ],
+      "spells_cast": 0,
+      "trinkets": []
+    }
+  },
+  {
+    "name": "touch setting saves core cinematics off",
+    "passed": true
+  },
+  {
+    "name": "off mode still synchronizes minion play",
+    "passed": true
+  },
+  {
+    "name": "full mode restored by touch",
+    "passed": true
+  },
+  {
+    "name": "2D fallback saved by touch",
+    "passed": true
+  },
+  {
+    "name": "2D touch play still works",
+    "passed": true
+  },
+  {
+    "name": "settings survive app restart",
+    "passed": true
+  }
+]

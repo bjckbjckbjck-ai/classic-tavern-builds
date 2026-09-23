@@ -1,0 +1,184 @@
+WorkerThreadPool: 32 threads, 9 max low-priority.
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+Unrecognized output string "misc2" in mapping:
+030000000d0f00000202000000000000,Horipad O Nintendo Switch 2 Controller,a:b1,b:b0,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,misc1:b13,misc2:b14,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b2,platform:Windows,
+Unrecognized output string "misc2" in mapping:
+030000000d0f00009601000000000000,Horipad Steam,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,misc2:b2,paddle1:b5,paddle2:b15,paddle3:b18,paddle4:b19,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b3,y:b4,platform:Windows,
+Unrecognized output string "misc2" in mapping:
+030000007e0500006920000000000000,Nintendo Switch 2 Pro Controller,a:b0,b:b1,back:b14,dpdown:b8,dpleft:b10,dpright:b9,dpup:b11,guide:b16,leftshoulder:b12,leftstick:b15,lefttrigger:b13,leftx:a0,lefty:a1~,misc1:b17,misc2:b20,paddle1:b18,paddle2:b19,rightshoulder:b4,rightstick:b7,righttrigger:b5,rightx:a2,righty:a3~,start:b6,x:b2,y:b3,platform:Windows,
+Using "default" pen tablet driver...
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 75400357
+EDITOR API HASH: 3012763406
+SceneTreeFTI: traversal method DEFAULT
+Loaded system CA certificates
+Loading resource: res://scenes/main.tscn
+Loading resource: res://scripts/main.gd
+Loading resource: res://assets/NotoSansCJKsc-Regular.otf
+Loading resource: res://.godot/imported/NotoSansCJKsc-Regular.otf-449a87ea629521c40f000a7a4ddca23b.fontdata
+Loading resource: res://assets/generated/v32/tavern-background.png
+Loading resource: res://.godot/imported/tavern-background.png-3fb5b789e861866dd663d4b6d41a6efe.ctex
+Loading resource: res://scripts/tavern_backdrop.gdshader
+Loading resource: res://scripts/tavern_surface.gdshaderinc
+Loading resource: res://assets/generated/v51-ui/table-center.webp
+Loading resource: res://.godot/imported/table-center.webp-22752a036091bc0ba3ac9fe50b86f6aa.ctex
+Loading resource: res://assets/generated/v51-ui/table-edge.webp
+Loading resource: res://.godot/imported/table-edge.webp-12517acde2c1b214ba9d6e57506db0f5.ctex
+Loading resource: res://assets/generated/v32/ornate-panel.png
+Loading resource: res://.godot/imported/ornate-panel.png-21a39bbe9d3e7ecebc38f37259d6c3fe.ctex
+Loading resource: res://scripts/defeated.gdshader
+Loading resource: res://assets/portraits.png
+Loading resource: res://.godot/imported/portraits.png-5188d414279356a90863e007c4a161dc.ctex
+Loading resource: res://assets/ui/slider-gem.svg
+Loading resource: res://.godot/imported/slider-gem.svg-a3e3eaeb1c526604447a1a1b942364f2.ctex
+Loading resource: res://assets/chance/wheel-enamel-v36.png
+Loading resource: res://.godot/imported/wheel-enamel-v36.png-892ec042c1d18f65d7d3fc1dbdb6a390.ctex
+Loading resource: res://assets/chance/dice-ivory-v36.png
+Loading resource: res://.godot/imported/dice-ivory-v36.png-dbdae27db84e38d0f1fd6caa24eb63c4.ctex
+Loading resource: res://assets/generated/v47/wood_button.webp
+Loading resource: res://.godot/imported/wood_button.webp-c4475a81a9a34f7d49a3bfdafac99568.ctex
+Loading resource: res://assets/generated/v47/seat_frame.webp
+Loading resource: res://.godot/imported/seat_frame.webp-f3ab68a2fbaffcd6b409740a8c1f77d3.ctex
+Loading resource: res://assets/generated/v51-ui/reading-paper.webp
+Loading resource: res://.godot/imported/reading-paper.webp-5a3b46572c4170ae3156ce2dcfcc3568.ctex
+Loading resource: res://assets/generated/v51-ui/reading-leather.webp
+Loading resource: res://.godot/imported/reading-leather.webp-d61681dcabeabe623d925400d205e429.ctex
+Loading resource: res://scripts/core_portrait.gdshader
+Loading resource: res://scripts/goldrinn_entrance.gdshader
+Loading resource: res://scripts/presentation3d/core_portrait.gdshader
+Loading resource: res://scripts/presentation3d/core_seal.gdshader
+Loading resource: res://assets/audio/buy.wav
+Loading resource: res://.godot/imported/buy.wav-6e21632cccac1281425865fe59d9d2c6.sample
+Loading resource: res://assets/audio/play.wav
+Loading resource: res://.godot/imported/play.wav-b97a721d9be4d5d9f37215c915bb6cbb.sample
+Loading resource: res://assets/audio/magnet.wav
+Loading resource: res://.godot/imported/magnet.wav-4c1e3e980f82a1c1cbcb6d1892e363d3.sample
+Loading resource: res://assets/audio/refresh.wav
+Loading resource: res://.godot/imported/refresh.wav-12f23114b62fb31b300344017606942d.sample
+Loading resource: res://assets/audio/freeze.wav
+Loading resource: res://.godot/imported/freeze.wav-545151e54d8ffe1e0bf8c4ce792e09e6.sample
+Loading resource: res://assets/audio/sell.wav
+Loading resource: res://.godot/imported/sell.wav-380b45342505ed9a2216dcb66f2b686f.sample
+Loading resource: res://assets/audio/hit.wav
+Loading resource: res://.godot/imported/hit.wav-96dc477cdf4a42f381370dba6e3f75ce.sample
+Loading resource: res://assets/audio/ready.wav
+Loading resource: res://.godot/imported/ready.wav-b90efe24faa05372f3b25ab2e0f1b3d9.sample
+Loading resource: res://assets/audio/error.wav
+Loading resource: res://.godot/imported/error.wav-99844ed22afbc0c517ece11da3662cae.sample
+Loading resource: res://assets/audio/reborn.wav
+Loading resource: res://.godot/imported/reborn.wav-30396bb26cc9a42ffce21d251266feb2.sample
+Loading resource: res://assets/audio/shield_gain.wav
+Loading resource: res://.godot/imported/shield_gain.wav-667bb5765d2f822572e624896b31470e.sample
+Loading resource: res://assets/audio/shield_break.wav
+Loading resource: res://.godot/imported/shield_break.wav-3a97b9ed8fde0cb744eb61b18c14d24d.sample
+Loading resource: res://assets/audio/venom.wav
+Loading resource: res://.godot/imported/venom.wav-436e7623fd2bf58ff2686c5f3adc9317.sample
+Loading resource: res://assets/audio/leap.wav
+Loading resource: res://.godot/imported/leap.wav-4a8edf6399c1ed933ec1d4aec9aec746.sample
+Loading resource: res://assets/audio/buff.wav
+Loading resource: res://.godot/imported/buff.wav-d7098a68d2769b4d4ec58e35088d83df.sample
+Loading resource: res://assets/audio/projectile.wav
+Loading resource: res://.godot/imported/projectile.wav-d3419862318bda643ff98f9e6cf5c5cf.sample
+Loading resource: res://assets/audio/summon.wav
+Loading resource: res://.godot/imported/summon.wav-57c104d68728cd05088e18662999fe5c.sample
+Loading resource: res://assets/audio/death.wav
+Loading resource: res://.godot/imported/death.wav-021a45cab225299ddf24ec88f548f45a.sample
+Loading resource: res://assets/audio/hero_hit.wav
+Loading resource: res://.godot/imported/hero_hit.wav-3d684be1b1c2f9e960302210025391ba.sample
+Loading resource: res://assets/audio/triple.wav
+Loading resource: res://.godot/imported/triple.wav-00a23d8085cbf08fbf8ce3c2597e262f.sample
+Loading resource: res://assets/audio/power.wav
+Loading resource: res://.godot/imported/power.wav-607ccda4148e8dc75cefb22a111ce8ed.sample
+Loading resource: res://assets/audio/cast.wav
+Loading resource: res://.godot/imported/cast.wav-890e81f3fb16de54418f60cfbccbedfa.sample
+Loading resource: res://assets/audio/counter.wav
+Loading resource: res://.godot/imported/counter.wav-a2b3d159f529a63e48d91d70a6a0cd4d.sample
+Loading resource: res://assets/audio/upgrade.wav
+Loading resource: res://.godot/imported/upgrade.wav-6853b7f856a19267cd7715d3e916de87.sample
+Loading resource: res://assets/audio/armor_gain.wav
+Loading resource: res://.godot/imported/armor_gain.wav-6cefd767e4a29691fb1fbd84bab65e36.sample
+Loading resource: res://assets/audio/armor_hit.wav
+Loading resource: res://.godot/imported/armor_hit.wav-1b4ef04bcfb951d0a0a8deae7975ef8f.sample
+Loading resource: res://assets/audio/armor_break.wav
+Loading resource: res://.godot/imported/armor_break.wav-e97661338fb1b8a1629d4da19b096a38.sample
+Loading resource: res://assets/audio/dice_roll.wav
+Loading resource: res://.godot/imported/dice_roll.wav-f720a7ee68764fdca3e2cb8e7d4b9016.sample
+Loading resource: res://assets/audio/dragon_roar.wav
+Loading resource: res://.godot/imported/dragon_roar.wav-a53c6b1d0c90cad2b77d74dc2af160e9.sample
+Loading resource: res://assets/audio/demon_consume.wav
+Loading resource: res://.godot/imported/demon_consume.wav-945eb9bb58a0f27b41fa36165e97e8b2.sample
+Loading resource: res://assets/audio/pirate_bell.wav
+Loading resource: res://.godot/imported/pirate_bell.wav-0fab63cc9ecccb19ae1c51adb0c92a82.sample
+Loading resource: res://assets/audio/discover.wav
+Loading resource: res://.godot/imported/discover.wav-335f907237a927d568f4e32221c775d3.sample
+Loading resource: res://assets/audio/macaw.wav
+Loading resource: res://.godot/imported/macaw.wav-a9e18165e585e792d051446e4fb1a881.sample
+Loading resource: res://assets/audio/cap_gain.wav
+Loading resource: res://.godot/imported/cap_gain.wav-606372dbcd4160a3a570ec874d32f0aa.sample
+Loading resource: res://assets/audio/reward_scroll.wav
+Loading resource: res://.godot/imported/reward_scroll.wav-3dec36ce599dd5ebcf738ed71260d8b6.sample
+Loading resource: res://assets/audio/gold_arrival.wav
+Loading resource: res://.godot/imported/gold_arrival.wav-7e20e7d4753b0a2eacf972de5ef07b6f.sample
+Loading resource: res://assets/audio/scout_ready.wav
+Loading resource: res://.godot/imported/scout_ready.wav-b2e9ff26ccb190ef00aebeb9acec412c.sample
+Loading resource: res://assets/audio/vault.wav
+Loading resource: res://.godot/imported/vault.wav-37c3705e01b72146d7623654a5e9405f.sample
+Loading resource: res://assets/audio/hero_select.wav
+Loading resource: res://.godot/imported/hero_select.wav-f8beecbf376b3982b865ad93b9acebfa.sample
+Loading resource: res://assets/audio/opponent.wav
+Loading resource: res://.godot/imported/opponent.wav-2b6acfbed9a7515b1879e898c0eddda6.sample
+Loading resource: res://assets/audio/spectate.wav
+Loading resource: res://.godot/imported/spectate.wav-ef62f6324745dc97e8cb53d47b6b5ed4.sample
+Loading resource: res://scenes/tavern_3d.tscn
+Loading resource: res://scripts/presentation3d/tavern_stage.gd
+Loading resource: res://scripts/presentation3d/table.gdshader
+Loading resource: res://scripts/presentation3d/table_backdrop.gdshader
+Loading resource: res://scripts/presentation3d/gold_glint.gdshader
+Loading resource: res://scripts/presentation3d/contact_shadow.gdshader
+Loading resource: res://scripts/presentation3d/shield.gdshader
+Loading resource: res://scripts/presentation3d/portrait.gdshader
+Loading resource: res://scripts/presentation3d/sweep.gdshader
+Loading resource: res://assets/generated/v47/foyer_board.webp
+Loading resource: res://.godot/imported/foyer_board.webp-9af2368cc15777e6bd4af333919df873.ctex
+Loading resource: res://assets/original/BG25_HERO_103.webp
+Loading resource: res://.godot/imported/BG25_HERO_103.webp-6e3f36763ab4309070b248f00754c9ab.ctex
+Loading resource: res://assets/original/TB_BaconShop_HERO_15.webp
+Loading resource: res://.godot/imported/TB_BaconShop_HERO_15.webp-13982cb487936f760082f6ec929f41ae.ctex
+Loading resource: res://assets/original/TB_BaconShopBob.webp
+Loading resource: res://.godot/imported/TB_BaconShopBob.webp-ef7da8c7877c788a62724f2335f98f7e.ctex
+Loading resource: res://assets/original/BG26_135.webp
+Loading resource: res://.godot/imported/BG26_135.webp-9a9ba7ce36ea992c585079174ea7aa14.ctex
+Loading resource: res://assets/original/BGS_004.webp
+Loading resource: res://.godot/imported/BGS_004.webp-6818a67d43b64347d089ca902c83b531.ctex
+Loading resource: res://assets/original/BG28_810.webp
+Loading resource: res://.godot/imported/BG28_810.webp-0fab557db6afdb8fa782d4aa846af764.ctex
+Loading resource: res://assets/original/BGS_055.webp
+Loading resource: res://.godot/imported/BGS_055.webp-0764d96973b0213aa31f0b78a4c216f5.ctex
+Loading resource: res://assets/original/BG25_HERO_103p.webp
+Loading resource: res://.godot/imported/BG25_HERO_103p.webp-97cf7d191afbe3467d566cded7394ef6.ctex
+Loading resource: res://assets/anomalies/fortitude.svg
+Loading resource: res://.godot/imported/fortitude.svg-712b6a13c34e1ced6137a4b67cee6df3.ctex
+Loading resource: res://scripts/anomaly_arrival.gd
+Loading resource: res://assets/generated/v50-ui/muted-metal.webp
+Loading resource: res://.godot/imported/muted-metal.webp-c3d88997d2189a6a515e70f476e48995.ctex
+Loading resource: res://assets/generated/v50-ui/parchment.webp
+Loading resource: res://.godot/imported/parchment.webp-985c0e3e343933df183ae0b6c716c50d.ctex
+Loading resource: res://assets/generated/v50-ui/leather.webp
+Loading resource: res://.godot/imported/leather.webp-50c517497a44d57e89fe8fc473976774.ctex
+Loading resource: res://assets/original/TB_BaconShop_HP_010.webp
+Loading resource: res://.godot/imported/TB_BaconShop_HP_010.webp-898d7580950ef303d00f538bb2a6b988.ctex
+Loading resource: res://assets/original/BGS_027.webp
+Loading resource: res://.godot/imported/BGS_027.webp-21edd8b71131d7db22ccfbba05548d87.ctex
+NETWORK PASS combat replay synced
+NETWORK PASS host round=1 players=2 replay=9
+NETWORK PRESENTATION host 3D=true
+NETWORK PASS private snapshots
+Websocket get data error: 18, read (should be 0!): 0
+Websocket (wslay) poll error: -400
+NETWORK PASS disconnect bot takeover=true
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"

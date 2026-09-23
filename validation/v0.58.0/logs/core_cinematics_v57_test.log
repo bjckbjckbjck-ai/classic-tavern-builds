@@ -1,0 +1,51 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS goldrinn successful play produces entry cue
+PASS macaw successful play produces entry cue
+PASS kalecgos successful play produces entry cue
+PASS felbat successful play produces entry cue
+PASS eliza successful play produces entry cue
+PASS eternal_summoner successful play produces entry cue
+PASS beatboxer successful play produces entry cue
+PASS bassgill successful play produces entry cue
+PASS titus successful play produces entry cue
+PASS brann successful play produces entry cue
+PASS slamma successful play produces entry cue
+PASS frog successful play produces entry cue
+PASS invalid play creates no entry
+PASS empty shop never produces fake consume
+PASS consume records real felbat origin
+PASS felbat trail comes from consumed shop slot to actual beneficiary
+PASS battlecry engine and actual multiplier have separate origins
+PASS magnetic copy records B-box rather than material as origin
+PASS magnetic trail ends on receiving boxer rather than original host
+PASS presentation records are bounded and leave rules and RNG untouched
+PASS cue contains only public minimal metadata
+PASS cue contains only public minimal metadata
+PASS cue contains only public minimal metadata
+PASS cue contains only public minimal metadata
+PASS cue contains only public minimal metadata
+PASS cue contains only public minimal metadata
+PASS cue contains only public minimal metadata
+PASS cue contains only public minimal metadata
+PASS cue contains only public minimal metadata
+PASS cue contains only public minimal metadata
+PASS cue contains only public minimal metadata
+PASS cue contains only public minimal metadata
+PASS cue contains only public minimal metadata
+PASS cue contains only public minimal metadata
+PASS cue contains only public minimal metadata
+PASS cue contains only public minimal metadata
+PASS cue contains only public minimal metadata
+PASS macaw actual battle emits signature cue
+PASS goldrinn actual battle emits signature cue
+PASS frog actual battle emits signature cue
+PASS titus actual battle emits signature cue
+PASS eternal_summoner actual battle emits signature cue
+PASS bassgill actual battle emits signature cue
+PASS presentation enabled or disabled preserves battle outcome and RNG
+PASS living slamma records actual summon multiplication
+PASS Eliza cue identifies watcher during another pirate attack
+PASS inherited frog animation retains actual non-frog source identity
+PASS opponent private recruitment cue history stays private
+V57 CORE RESULT 48/48

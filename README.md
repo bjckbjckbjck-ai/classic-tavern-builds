@@ -1,3 +1,13 @@
+# v0.58.0 · 核心卡立体舞台
+
+12张核心卡登场接入3D桌面：前后光环、接触投影、桌面法阵与轻微空间倾斜。狼爹继续采用指定的红眼显现流程。预览新增重播，切换金色保留选择，尾帧停止刷新。
+
+[安卓 APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.58.0/ClassicTavern-v0.58.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.58.0/ClassicTavern-v0.58.0.exe) · [发行页](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.58.0)
+
+[演出说明](v0.58.0-核心卡立体舞台.md) · [验证](validation/v0.58.0/README.md) · [下一步](下一阶段开发计划.md)。Android code62，联机双方使用0.58.0。手机看完整效果需画质中以上；角色仍为手绘贴片，独立部位动作待后续。
+
+## 历史版本
+
 # v0.57.0 · 核心卡登场与连锁演出
 
 狼爹按 #31 新工作流完成红眼渐亮、环境显现与微幅悬浮；首批12张核心卡接入登场和实际效果短演出。图鉴新增“核心卡演出”，可直接预览普通/金色。

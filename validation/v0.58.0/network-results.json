@@ -1,0 +1,16 @@
+{
+  "checks": [
+    {
+      "role": "host",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "role": "client",
+      "exit": 0,
+      "passed": true
+    }
+  ],
+  "scope": "Final EXE, same Windows host, two processes. Not external two-device acceptance.",
+  "resource_warning": "Not reproduced in this source verbose run or final EXE; no root-cause fix claimed."
+}
