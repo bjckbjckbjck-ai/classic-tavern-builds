@@ -3,16 +3,17 @@
   "service_version": "0.1.0-preview",
   "protocol": "allstars-0.61.0-service-1",
   "game_base_commit": "75fc987a66d365744aaf8ad14d4c909cb7104be5",
-  "integration_commit": "e9fb1a9ef0db28bf349494ff2099d000c4a05d3f",
+  "integration_commit": "e511e26ccdc2860919c8e40a36e960e227173fef",
+  "client_build_commit": "fe85fb7face1252e0f9eb323fea0fe96ee751391",
   "godot": "4.6.1",
   "clients": {
     "ClassicTavern-Service.exe": {
-      "bytes": 264196344,
-      "sha256": "12cde136cbdcb2f39e64976f2dd23c6b94079b4c9a74f6d7ffa574fcba756f64"
+      "bytes": 264196760,
+      "sha256": "6a56b08dc52acb809151bc12c019e2055dade01da4e3f702a7e93b10160b6d91"
     },
     "ClassicTavern-Service.apk": {
       "bytes": 243369611,
-      "sha256": "c5fc7653ea516be545dcc9a9a0699e8d4d3e43140b1cbb5cbe4bb5d810d6dd3c"
+      "sha256": "aedc2c9a5b99b4fdf1efbcaa58c4d4316552a7e91331b533b8118cb3fecd06af"
     }
   }
 }

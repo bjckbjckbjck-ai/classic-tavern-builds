@@ -80,7 +80,6 @@ func authenticate(peer:Dictionary,packet:Dictionary):
 	for previous in peers:
 		if int(previous.id)==id:previous.id=0;previous.ws.close(1000,"replaced")
 	peer.id=id;peer.last=now()
-	game.player(id).bot=false
 	send(peer,{"type":"content","cards":catalog.cards,"heroes":catalog.heroes,"spells":catalog.spells,"trinkets":catalog.trinkets,"prizes":catalog.prizes,"wheel":catalog.wheel})
 	broadcast()
 
@@ -93,12 +92,12 @@ func add_bot():
 
 func begin():
 	if game.phase!="lobby" or game.players.size()<2:return
-	for p in game.players:
-		if int(p.id)>0:p.bot=false
 	game.start()
-	for p in game.players:
-		if int(p.id)>0 and not connected(int(p.id)):p.bot=true
 	deadline=now()+game.round_duration();write_status();broadcast()
+
+func automated(p:Dictionary)->bool:
+	# Keep human identity intact: takeover must not grant boss-only economy perks.
+	return p.bot or not connected(int(p.id))
 
 func connected(id:int)->bool:
 	for p in peers:
@@ -135,6 +134,8 @@ func broadcast():
 	for peer in peers:
 		if int(peer.id)<=0 or game.player(int(peer.id)).is_empty():continue
 		var v=game.view(int(peer.id))
+		for player in v.players:
+			player["bot"]=automated(game.player(int(player.id)))
 		v["remaining"]=maxf(0,deadline-now()-(game.TOMORROW.penalty(game,game.player(int(peer.id))) if game.phase=="recruit" else 0))
 		v["manager_id"]=manager
 		send(peer,{"type":"state","state":v})
@@ -160,8 +161,6 @@ func _process(_delta):
 		if peer.ws.get_ready_state()==WebSocketPeer.STATE_CLOSED:
 			var id=int(peer.id);peers.erase(peer)
 			if id>0 and not connected(id):
-				var p=game.player(id)
-				if not p.is_empty():p.bot=true
 				if manager==id:
 					for other in peers:
 						if int(other.id)>0:manager=int(other.id);break
@@ -188,12 +187,12 @@ func _process(_delta):
 		var ready=true
 		for p in game.players:
 			if game.TOMORROW.expire(game,p,deadline-now()):dirty=true
-			if p.hp>0 and not p.ready and not p.bot:ready=false
+			if p.hp>0 and not p.ready and not automated(p):ready=false
 		if now()>=deadline or ready:
 			for p in game.players:
 				if p.hp<=0:continue
 				game.TRINKETS.auto_choose(game,p);game.auto_discover(p)
-				if p.bot:game.bot_turn(p)
+				if automated(p):game.bot_turn(p)
 			game.begin_settling();deadline=now()+game.settling_seconds;dirty=true
 	elif game.phase=="settling" and now()>=deadline:
 		game.battle();var longest=5.0

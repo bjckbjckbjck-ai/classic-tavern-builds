@@ -25,11 +25,12 @@ async def run():
             await ws.send(json.dumps({'ticket':t['ticket']}))
             return ws
         async def state(ws,predicate=lambda s:True):
-            async with asyncio.timeout(35):
+            async def receive():
                 while True:
                     msg=json.loads(await ws.recv())
                     if msg.get('type') in ['error','notice']:raise AssertionError(msg['message'])
                     if msg.get('type')=='state' and predicate(msg['state']):return msg['state']
+            return await asyncio.wait_for(receive(),35)
         async def act(ws,serial,action,index=-1,target=-1,guard=None):
             await ws.send(json.dumps(dict(type='action',serial=serial,action=action,index=index,target=target,guard=guard or {})))
         def ready_guard(s):return dict(serial=s['me'].get('action_serial',0),action='ready',index=-1,aim=-1,source='',target='')
@@ -44,12 +45,13 @@ async def run():
             s1=await state(sockets[1],lambda s:s['phase']=='recruit')
             await sockets[1].close();await asyncio.sleep(1)
             s0=await state(sockets[0],lambda s:any(p['id']==uid and p['bot'] for p in s['players']))
+            await act(sockets[0],2,'ready',guard=ready_guard(s0))
+            await state(sockets[0],lambda s:s['phase'] in ['combat','finished'])
             sockets[1]=await connect(1)
-            s1=await state(sockets[1],lambda s:s['phase']=='recruit')
+            s1=await state(sockets[1],lambda s:s['phase'] in ['combat','finished'])
             assert s1['me']['id']==uid and not s1['me']['bot']
-            await act(sockets[0],2,'ready',guard=ready_guard(s0));await act(sockets[1],1,'ready',guard=ready_guard(s1))
-            combat=await state(sockets[1],lambda s:s['phase'] in ['combat','finished'])
-            print(json.dumps({'https_login':True,'friend_join':True,'private_snapshots':True,'reconnect_same_seat':True,'combat_phase':combat['phase'],'room_id':room['id']},ensure_ascii=False))
+            assert s1['me']['coin_cap']==10 and s1['me']['board']
+            print(json.dumps({'https_login':True,'friend_join':True,'private_snapshots':True,'reconnect_same_seat':True,'takeover_without_boss_perks':True,'combat_phase':s1['phase'],'room_id':room['id']},ensure_ascii=False))
         finally:
             for ws in sockets:await ws.close()
 asyncio.run(run())
