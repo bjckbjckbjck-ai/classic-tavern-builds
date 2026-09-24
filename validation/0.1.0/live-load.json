@@ -1,0 +1,13 @@
+{
+  "clients": 32,
+  "tables": 4,
+  "extra_player_waited": true,
+  "duration_seconds": 120,
+  "messages": 1652,
+  "application_bytes": 26485137,
+  "phases": [
+    "combat",
+    "recruit",
+    "settling"
+  ]
+}

@@ -1,0 +1,104 @@
+diff --git a/export_presets.cfg b/export_presets.cfg
+index a19d1a2..e0472ac 100644
+--- a/export_presets.cfg
++++ b/export_presets.cfg
+@@ -43,10 +43,10 @@ architectures/armeabi-v7a=true
+ architectures/arm64-v8a=true
+ architectures/x86=false
+ architectures/x86_64=true
+-version/code=65
+-version/name="0.61.0"
+-package/unique_name="org.classictavern.game"
+-package/name="经典酒馆"
++version/code=1
++version/name="0.61.0-service1"
++package/unique_name="org.classictavern.service"
++package/name="云端酒馆"
+ package/signed=true
+ launcher_icons/main_192x192="res://assets/icon.svg"
+ screen/immersive_mode=true
+diff --git a/scripts/foyer_ui.gd b/scripts/foyer_ui.gd
+index 499a72d..ad2fc0e 100644
+--- a/scripts/foyer_ui.gd
++++ b/scripts/foyer_ui.gd
+@@ -7,7 +7,9 @@ static func menu(app):
+ 	app.label("七个种族 · 全明星叠层",Rect2(234,540,340,38),22,"e9c98e",true)
+ 	app.label("招募随从，成为最后的赢家",Rect2(234,580,340,32),17,"d8bf96",true)
+ 	ART.button(app,"进入酒馆",Rect2(704,270,435,90),app.hero_draft,false,true)
+-	ART.button(app,"好友联机",Rect2(724,378,395,78),app.network_menu)
++	ART.button(app,"好友房间",Rect2(704,378,215,78),func():app.cloud.open("friend"))
++	ART.button(app,"在线匹配",Rect2(935,378,215,78),func():app.cloud.open("ranked"))
++	app.button("本地局域网",Rect2(244,605,375,40),app.network_menu)
+ 	ART.button(app,"卡池与英雄图鉴",Rect2(724,475,395,70),func():app.COLLECTION.open_kind(app,"cards"))
+ 	ART.button(app,"畸变："+app.RULES.ANOMALY.label(app.anomaly_mode),Rect2(724,558,395,62),func():preload("res://scripts/anomaly_ui.gd").settings(app))
+ 	ART.button(app,"BOT："+app.RULES.AI.NAMES[app.ai_difficulty],Rect2(244,661,375,58),app.difficulty_menu)
+@@ -15,7 +17,7 @@ static func menu(app):
+ 	ART.button(app,"设置",Rect2(196,787,190,50),func():app.SETTINGS.show(app))
+ 	ART.button(app,"流派与规则",Rect2(405,787,235,50),func():app.LIBRARY.strategies(app))
+ 	ART.button(app,"版本公告",Rect2(660,787,235,50),func():app.LIBRARY.journal(app))
+-	ART.button(app,"自动更新",Rect2(916,787,300,50),func():app.LIBRARY.updates(app))
++	ART.button(app,"云服下载页",Rect2(916,787,300,50),func():OS.shell_open("https://bjckwrn.xyz"))
+ 	app.label(app.lobby_error,Rect2(245,725,940,32),16,"ffb18f",true);app.footer();ART.enter(app)
+ static func network(app):
+ 	app.clear();ART.shade(app);ART.art(app,"collection_book",Rect2(160,74,1120,728))
+@@ -43,6 +45,7 @@ static func lobby(app):
+ 	for ip in IP.get_local_addresses():
+ 		if "." in ip and not ip.begins_with("127.") and not ip.begins_with("169.254."):ips.append(ip)
+ 	var address="房主地址："+" / ".join(ips)+"  · 端口 %d"%app.port if app.multiplayer.is_server() else ("连接成功 · 你是管理员" if app.is_manager() else "连接成功 · 等待管理员开始")
++	if app.cloud and app.cloud.active:address="云服房间码："+app.cloud.room_code+" · 断线期间AI托管"
+ 	app.label(address,Rect2(150,134,1150,37),17,"dbc496")
+ 	for i in range(8):
+ 		var pos=Vector2(160+(i%4)*195,205+int(i/4)*230);var p=app.state.players[i] if i<app.state.players.size() else {}
+diff --git a/scripts/main.gd b/scripts/main.gd
+index 85ab489..59208f6 100644
+--- a/scripts/main.gd
++++ b/scripts/main.gd
+@@ -114,10 +114,12 @@ const FOYER=preload("res://scripts/foyer_ui.gd")
+ var hero_page=0
+ var draft_offers:Array=[]
+ var music
++var cloud
+ var hand_controls
+ const NETWORK_VERSION = "allstars-0.61.0-ws"
+ 
+ func _ready():
++	cloud=preload("res://scripts/service_client.gd").new();cloud.app=self;add_child(cloud)
+ 	layout.setup(self)
+ 	hand_controls=preload("res://scripts/hand_controls.gd").new();hand_controls.app=self;add_child(hand_controls)
+ 	var video_config=ConfigFile.new();video_config.load("user://preferences.cfg")
+@@ -503,6 +505,7 @@ func content(cards: Dictionary,heroes: Array,spells:Array,trinkets:Array,prizes:
+ func rejected(reason: String): leave_room(reason)
+ 
+ func leave_room(reason: String = ""):
++	if cloud and cloud.active:cloud.stop()
+ 	action_history.clear()
+ 	online=false
+ 	for child in get_children():
+@@ -574,7 +577,8 @@ func request(action: String,index: int = -1,target: int = -1):
+ 	for card in cards_ui:
+ 		if card.zone==origin_zone and card.index==index:pending_origin=card.position+card.size/2
+ 	var guard=RULES.action_guard(state.get("me",{}),action,index,target)
+-	if multiplayer.is_server(): handle(1,action,index,target,guard)
++	if cloud and cloud.active:cloud.intent(action,index,target,guard)
++	elif multiplayer.is_server(): handle(1,action,index,target,guard)
+ 	else: intent.rpc_id(1,action,index,target,guard)
+ 
+ @rpc("any_peer","call_remote","reliable")
+@@ -642,7 +646,7 @@ func receive_state(value: Dictionary):
+ 	# Other seats changing their shops must not destroy an in-progress local drag.
+ 	if value.get("phase","")=="recruit" and state.get("phase","")=="recruit" and value.get("round",0)==state.get("round",0) and value.get("me",{})==state.get("me",{}) and value.get("watch_id",0)==state.get("watch_id",0):
+ 		state=value
+-		if not multiplayer.is_server():deadline=now()+float(value.get("remaining",60))
++		if (cloud and cloud.active) or not multiplayer.is_server():deadline=now()+float(value.get("remaining",60))
+ 		return
+ 	if is_instance_valid(battlecry_preview):battlecry_preview.close()
+ 	var old=state.duplicate(true)
+@@ -657,7 +661,7 @@ func receive_state(value: Dictionary):
+ 	if old.get("watch_id",0)!=state.get("watch_id",0) and state.get("spectating",false):feedback.cue("spectate")
+ 	elif int(old.get("round",0))!=int(state.get("round",0)) and state.get("phase","")=="recruit":feedback.cue("opponent")
+ 	if old.is_empty() or state.phase=="lobby":recruit_seen=0
+-	if not multiplayer.is_server():deadline=now()+float(value.get("remaining",60))
++	if (cloud and cloud.active) or not multiplayer.is_server():deadline=now()+float(value.get("remaining",60))
+ 	if state.phase=="combat" and (replay_round!=int(state.round) or old.get("watch_id",0)!=state.get("watch_id",0)):
+ 		replay_round=int(state.round)
+ 		replay_index=0

@@ -1,0 +1,18 @@
+{
+  "game_version": "0.61.0",
+  "service_version": "0.1.0-preview",
+  "protocol": "allstars-0.61.0-service-1",
+  "game_base_commit": "75fc987a66d365744aaf8ad14d4c909cb7104be5",
+  "integration_commit": "e9fb1a9ef0db28bf349494ff2099d000c4a05d3f",
+  "godot": "4.6.1",
+  "clients": {
+    "ClassicTavern-Service.exe": {
+      "bytes": 264196344,
+      "sha256": "12cde136cbdcb2f39e64976f2dd23c6b94079b4c9a74f6d7ffa574fcba756f64"
+    },
+    "ClassicTavern-Service.apk": {
+      "bytes": 243369611,
+      "sha256": "c5fc7653ea516be545dcc9a9a0699e8d4d3e43140b1cbb5cbe4bb5d810d6dd3c"
+    }
+  }
+}

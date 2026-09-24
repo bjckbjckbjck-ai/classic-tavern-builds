@@ -7,4 +7,4 @@
 
 每次游戏更新：核对新版源码提交和内容哈希 → 合入service-integration → 检查ID/状态/RPC/最高难度AI变化 → 构建Linux专服和Windows/Android客户端 → 更新兼容清单（game_version/source_commit/service_version/protocol_version/content_hash/schema_version/rating_policy_version/产物SHA-256） → 好友/积分/重连/备份回归与4桌验收 → 维护排空 → 发布。
 
-随游戏更新指以上可追溯适配流程，不自动未经测试拉latest替换线上。当前尚未实现CI、定时同步或自动构建。
+随游戏更新指以上可追溯适配流程，不自动未经测试拉latest替换线上。当前尚未实现CI、定时同步或自动构建。2026-09-25已建立本地service-integration实现，Godot适配脚本/补丁及实际源提交见game_adapter和config/release-manifest.json。
