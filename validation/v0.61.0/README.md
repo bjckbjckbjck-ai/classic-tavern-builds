@@ -29,3 +29,9 @@
 - 安卓选将界面仍出现一次历史 `can_process / !is_inside_tree()` 引擎告警；之后正常购买、上场及进入下一回合。没有GDScript错误或宿主GPU着色器编译错误。#18继续开放，首次横屏生命周期和真机长局仍需处理。
 - 没有实体Android手机发热/长局、有声实听、外部双设备网络验收。#31独立部位动画及新反制牌专属演出仍列在下一阶段，不以此次通用目标特效冒充完成。
 - 未开公网游戏服务器，未修改系统网络、代理、电源或执行关机操作。
+
+## 发布回查
+
+[v0.61.0发行页](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.61.0)已公开，latest指向本版。4个附件的GitHub存储SHA-256与本地完整文件一致；匿名HTTPS下载检查均返回206，两个大包各核对前64KiB，小文档完整核对。这是公开可下载性检查加服务端完整摘要校验，没有声称重新下载完整的两个大包。详情见 [public-download-check.json](public-download-check.json)。
+
+[#18已回复](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/issues/18#issuecomment-5809655120)，保留已知安卓告警和真机验收待办。#31仍开放。测试房主和本轮无窗口模拟器已关闭；游戏源码保留在本地3d分支，公开仓库仅发布说明、验证证据及安装包。

@@ -1,0 +1,41 @@
+{
+  "method": "GitHub stored SHA256 and size match full local files; anonymous HTTPS verifies first 64KiB (entire small files). Not a full binary redownload.",
+  "assets": [
+    {
+      "name": "CHANGELOG-v0.61.0.md",
+      "bytes": 6277,
+      "sha256": "0047fbc161d03ac632c6be06f74a3dcadc58b92524460e3e12d995b57a248c07",
+      "github_digest_matches": true,
+      "public_http_status": 206,
+      "public_prefix_bytes_verified": 6277,
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.61.0/CHANGELOG-v0.61.0.md"
+    },
+    {
+      "name": "ClassicTavern-v0.61.0.apk",
+      "bytes": 243427154,
+      "sha256": "02845c2feb3c35e34220cfb5435f1e3cefa6a2cbe85e9d0c5025ba751c89f3fd",
+      "github_digest_matches": true,
+      "public_http_status": 206,
+      "public_prefix_bytes_verified": 65536,
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.61.0/ClassicTavern-v0.61.0.apk"
+    },
+    {
+      "name": "ClassicTavern-v0.61.0.exe",
+      "bytes": 264313856,
+      "sha256": "c5d6ada09266b50c78231e7945038b74e7528640051ec2aeb32caef5c01b405b",
+      "github_digest_matches": true,
+      "public_http_status": 206,
+      "public_prefix_bytes_verified": 65536,
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.61.0/ClassicTavern-v0.61.0.exe"
+    },
+    {
+      "name": "SHA256SUMS-v0.61.0.txt",
+      "bytes": 186,
+      "sha256": "99251706d437be93ff5adf72630c8b7c1d8df9fafadeaecc2ebb01c468332ebc",
+      "github_digest_matches": true,
+      "public_http_status": 206,
+      "public_prefix_bytes_verified": 186,
+      "url": "https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.61.0/SHA256SUMS-v0.61.0.txt"
+    }
+  ]
+}
