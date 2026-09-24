@@ -1,0 +1,30 @@
+{
+  "status": "design_only_not_runtime",
+  "schema_version": 1,
+  "table_count": 4,
+  "seats_per_table": 8,
+  "shared_capacity_modes": ["friend_room", "ranked_match"],
+  "friend_room_ranked": false,
+  "ranked_match": {
+    "ai_offer_after_seconds": 60,
+    "ai_requires_each_human_consent": true,
+    "no_response": "keep_waiting_for_humans",
+    "ai_difficulty": "highest_supported",
+    "consent_scope": "current_queue_entry",
+    "ai_rating_policy": "awaiting_user_preference"
+  },
+  "disconnect": {
+    "controller": "ai_takeover",
+    "reconnect_until": "match_finished",
+    "all_disconnected": "continue_to_finish"
+  },
+  "backup": {
+    "frequency": "daily",
+    "timezone": "Asia/Shanghai",
+    "proposed_time": "04:00",
+    "destination": "user_designated_local_computer_pending",
+    "encrypted": true,
+    "offline_destination": "retain_and_retry",
+    "success_requires_verified_receipt": true
+  }
+}
