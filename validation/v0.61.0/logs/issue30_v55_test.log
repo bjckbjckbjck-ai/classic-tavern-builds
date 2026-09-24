@@ -1,0 +1,52 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS catalog valid with explicit new card wording
+PASS triggered battlecry discovers immediately without next-turn interaction
+PASS directly played discovery stays interactive
+PASS automatic discovery cannot steal a pending manual choice
+PASS authority timeout can finish manual choices
+PASS full-hand automatic discover retains exact chosen card in queue
+PASS free hand slot admits FIFO reward after successful action
+PASS next action admits next reward without new random draw
+PASS opponent public seat does not expose queued card identities
+PASS full-hand manual choice queues instead of blocking or burning
+PASS primalfin random discoveries exclude itself and higher tiers
+PASS primalfin still requires another friendly murloc
+PASS empty eligible pool does not fall back to self-discovery
+PASS Tad rewards exclude self and above-tier with overflow retained
+PASS coin-only turn cannot produce stargazer coin
+PASS non-coin tavern spell qualifies for stargazer
+PASS non-coin eligibility resets each round
+PASS shared target predicate excludes other rattlers and non-beasts
+PASS repeated and golden rattler cannot top up existing reborn or grant to rattler
+PASS rattler may be played without effect when no legal target exists
+PASS server rejects illegal rattler target when a legal beast exists
+PASS spell coin triple and portrait producers all retain overflow
+PASS combat automatic discover and deathrattle spell queue at full hand
+PASS combat transfer receipts prevent duplicate queued rewards
+PASS combat reward later enters recruit hand preserving UID
+PASS queue admission triggers triple without losing resulting golden
+PASS golden is delivered exactly once
+PASS actual end-turn Murloc trigger resolves discover before combat
+PASS randomly cast discover spell resolves immediately even at full hand
+PASS queued discover reserves its physical copy
+PASS queue admission does not draw or release a second physical copy
+PASS board-only triple at full hand queues golden without destroying it
+PASS board-only triple reward later enters a free hand slot
+CHAIN 0 events=47 limited=false
+PASS reported macaw rylak rattler Brann Titus lineup terminates seed 0
+CHAIN 1 events=47 limited=false
+PASS reported macaw rylak rattler Brann Titus lineup terminates seed 1
+CHAIN 2 events=48 limited=false
+PASS reported macaw rylak rattler Brann Titus lineup terminates seed 2
+CHAIN 3 events=47 limited=false
+PASS reported macaw rylak rattler Brann Titus lineup terminates seed 3
+CHAIN 4 events=47 limited=false
+PASS reported macaw rylak rattler Brann Titus lineup terminates seed 4
+CHAIN 5 events=47 limited=false
+PASS reported macaw rylak rattler Brann Titus lineup terminates seed 5
+CHAIN 6 events=47 limited=false
+PASS reported macaw rylak rattler Brann Titus lineup terminates seed 6
+CHAIN 7 events=47 limited=false
+PASS reported macaw rylak rattler Brann Titus lineup terminates seed 7
+V55 ISSUE30 RESULT 41/41

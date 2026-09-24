@@ -1,0 +1,66 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS v61 catalog valid
+PASS twelve playable cards plus token and seven-type amalgam
+PASS counter whitelist excludes recursive strategist
+PASS original portrait echo_contractor
+PASS original portrait echo_dancer
+PASS original portrait witchwing_collector
+PASS original portrait monkey_pathfinder
+PASS original portrait treasure_monkey
+PASS original portrait soul_exchanger
+PASS original portrait manyfold_amalgam
+PASS original portrait soul_marksman
+PASS original portrait formation_inquisitor
+PASS original portrait last_avenger
+PASS original portrait stat_sculptor
+PASS original portrait tunnel_blaster
+PASS contract records chosen card ID
+PASS end multiplier does not accelerate countdown
+PASS due contracts produce plain copies and Drakkari doubles payout
+PASS triple merges contracts and nearest countdown
+PASS gold contract full hand retains six generated rewards
+PASS Brann cannot consume shifted neighbour or duplicate coins
+PASS consume removes body without death summons
+PASS gold sell transfers stats to distinct targets without layers
+PASS automatic restock does not count toward monkey
+PASS fifth explicit refresh inserts golden six six monkey
+PASS monkey requires purchase then grants playable triple reward
+PASS full shop queues monkeys
+PASS purchase space admits queued monkey
+PASS played dancer opens true choice menu
+PASS discovery branch filters battlecries and tavern tier
+PASS choice menus never become cards in hand
+PASS repeat branch exposes friendly targets
+PASS gold dancer retriggers chosen battlecry twice
+PASS automatic dancer avoids recursive choice engines
+PASS rally steals exactly one reborn through shields
+PASS no donor layers means no invented reborn
+PASS sculpt sets effective attack current and maximum health without stripping keywords
+PASS reborn inherits exhausted sculpt use count
+PASS independent copy receives fresh sculpt use while reborn does not
+PASS inquisitor gives non-stacking double damage
+PASS avenger removes one layer then kill spends one more on reborn
+PASS pretrigger avenger with no killer is inert
+PASS projectile credit works and later overkill does not replace killer
+PASS gold blaster single six damage removes one shield and hurts friend
+PASS avenge generates eligible battlecry without pool minting
+PASS adaptive death summons three valid counters with giant-stat answer first
+PASS gold strategist summons three GOLDEN counters
+PASS empty enemy board produces no useless summons
+PASS adaptive summon respects seven slots and death position
+PASS Titus retriggers adaptive summons within board capacity
+PASS dragon does not remember enemy taunt or compression
+PASS AI consumes disposable demon before passive core
+PASS AI refuses to eat its only core
+PASS contract AI values printed future copy rather than acquired stats
+PASS AI counter value uses previous visible opponent only
+PASS full adaptive counter combat terminates and leaves originals intact seed 0
+PASS full adaptive counter combat terminates and leaves originals intact seed 1
+PASS full adaptive counter combat terminates and leaves originals intact seed 2
+PASS full adaptive counter combat terminates and leaves originals intact seed 3
+PASS full adaptive counter combat terminates and leaves originals intact seed 4
+PASS full adaptive counter combat terminates and leaves originals intact seed 5
+PASS full adaptive counter combat terminates and leaves originals intact seed 6
+PASS full adaptive counter combat terminates and leaves originals intact seed 7
+SEASON V61 RESULT 63/63

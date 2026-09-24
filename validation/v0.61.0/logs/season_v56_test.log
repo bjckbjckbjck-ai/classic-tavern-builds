@@ -1,0 +1,79 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS new heroes and all definitions validate: []
+PASS v56 trinkets heroes and derived minion retained
+PASS portrait grants derived manipulator
+PASS manipulator plays with friendly target
+PASS complete copy retains stats keywords and added deathrattle
+PASS Brann does not trigger copied battlecry or mint pool copies
+PASS copy state is independent of source
+PASS selling generated copy cannot refill shared pool
+PASS gold target stays golden after transform
+PASS automatically triggered transformation also resolves triple with physical stock preserved
+PASS combat-only transformation changes combat body without pool or recruit mutation
+PASS gold manipulator keeps its own unclaimed triple reward through transformation
+PASS empty board reflective pendant grants nothing
+PASS plain reflection keeps gold but discards earned stats and layers
+PASS reflection triggers at next turn start
+PASS actual gold spending accumulates toward seven
+PASS seventh coin grants a tavern spell
+PASS multiple thresholds preserve excess spending
+PASS spellbook progress crosses turns
+PASS fourth purchase switches to health
+PASS health purchase succeeds at zero gold without spending armor
+PASS health spending does not feed gold book and resets fourth purchase
+PASS unsafe lethal purchase rejected without losing card or counter
+PASS rewinder restores health even when price reaches zero health
+PASS eye offered with rewinder
+PASS eye excluded without rewinder
+PASS snapshot exposes red health price
+PASS fourth purchase also handles tavern spell
+PASS typewriter does not count spell purchases
+PASS typewriter copies purchased buffs and stacked layers
+PASS typewriter uses independent generated copy and one charge
+PASS lesser typewriter stops after two minions
+PASS greater typewriter starts with four charges
+PASS typewriter overflow is retained in FIFO queue
+PASS double header and typewriter can create immediate triple
+PASS triple preserves one physical copy and two generated copies
+PASS selling generated triple returns only original purchased stock
+PASS locket recasts exactly once on another friendly minion
+PASS recast counts as spell without recursive locket
+PASS untargeted coin cannot recast through stray friendly index
+PASS casting on shop minion does not trigger friendly locket
+PASS locket with no other legal target does not duplicate onto same minion
+PASS sphere before first tavern spell gives nothing
+PASS sphere gives three copies of last tavern spell
+PASS sphere copies have unique identities
+PASS triple reward never overwrites last tavern spell
+PASS sphere full-hand reward queued
+PASS sticker triggers both original edge battlecries even when first summon changes edge
+PASS single edge target is triggered once
+PASS sticker automatically resolves discovery without blocking end turn
+PASS Ragnaros buffs two edges on actual end turn
+PASS solo Ragnaros target receives both edge buffs
+PASS passive hero cannot be activated for free
+PASS Nzoth starts with one fish on board
+PASS start and later turns cannot duplicate Nzoth fish
+PASS Alakir stacks windfury and shield instead of replacing layers
+PASS Tarecgosa remembers hero starting buff
+PASS hero blessing only targets leftmost
+PASS fermenter kills left three and waits for remaining board
+PASS fermenter restores once after final death chain resolves
+PASS fermenter restores full stats and keywords
+PASS restored minions do not release a second fermenter charge
+PASS deathrattle token keeps fermenter sealed
+PASS fermenter releases after token also dies
+PASS reborn settles before checking empty battlefield
+PASS full resurrect restores the originally sealed reborn charges
+PASS complete fermenter reborn combat terminates with replay events
+PASS fermenter return retains dragon memory without doubling saved starting stats
+PASS first minion is free even after spell purchase
+PASS second minion requires gold
+PASS free minion resets next turn
+PASS double header copies first purchased spell
+PASS second purchase does not copy
+PASS double header resets next turn
+PASS prudence carries all unused coins and adds normal income
+PASS new room rule and owner snapshot agree
+V56 SEASON RESULT 76/76

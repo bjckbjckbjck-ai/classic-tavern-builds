@@ -1,3 +1,13 @@
+# v0.61.0 · 异化名牌与绝境援军
+
+新增契约复制、抉择战吼、刷新金猴和五类针对牌；七星原创“绝境参谋”按当前敌阵召唤3张针对牌，金色召唤3张金色针对牌。魔改卡用独立名称，旧名仍可搜索。
+
+[安卓 APK](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.61.0/ClassicTavern-v0.61.0.apk) · [Windows EXE](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.61.0/ClassicTavern-v0.61.0.exe) · [发行页](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/tag/v0.61.0)
+
+[新卡与机制](v0.61.0-异化名牌与绝境援军.md) · [完整身份适配表](v0.61.0-卡牌身份与适配表.md) · [验证范围](validation/v0.61.0/README.md) · [下一步](下一阶段开发计划.md)。Android code65，沿用签名；联机双方使用0.61.0。保持离线可玩；功能验证不等于平衡结论。
+
+## 历史版本
+
 # v0.60.0 · 流派经营与霸主饰品保底
 
 困难/霸主加入16套流派手册、临时买卖位与致死自伤规避；霸主定向保底大小饰品。难度页新增“AI玩法说明”。本地规则AI，不依赖大模型或强化学习。

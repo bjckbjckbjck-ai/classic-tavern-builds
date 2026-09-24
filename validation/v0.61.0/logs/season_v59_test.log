@@ -1,0 +1,45 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS catalog valid
+PASS three heroes three anomalies six trinkets added
+PASS Edwin cannot spend before buying a minion
+PASS Edwin ignores spell purchases
+PASS invalid target does not consume skill
+PASS Edwin applies paid targeted purchase scaling
+PASS Edwin once per turn
+PASS Edwin counter and usage reset
+PASS Cthun five independently targeted pulses in turn five
+PASS Cthun empty board safe
+PASS Cthun is passive in authority
+PASS Deathwing permanently affects both players including defeated minion
+PASS golden dragon does not count global hero buff twice
+PASS cheese starts at one without a refresh count
+PASS turn-start shop replacement is not explicit refresh
+PASS free button refresh counts
+PASS third explicit refresh upgrades cheese
+PASS third offer gets increased shop buff exactly once
+PASS cheese strength carries across rounds
+PASS refresh spell counts once
+PASS greater cheese upgrades by two
+PASS lesser pouch triggers on minion purchase
+PASS pouch also triggers on spell purchase
+PASS generated card is not a purchase
+PASS greater pouch applies four four
+PASS beads count only bought battlecries
+PASS second battlecry grants random battlecry across turns
+PASS beads full hand queues generated reward without shared-pool copy
+PASS music box responds to end-turn multiplier with active battlecries
+PASS music box overflow retained
+PASS factory creates plain golden copy once even with repeated end effects
+PASS factory copy does not mint physical pool stock
+PASS factory full-hand queue
+PASS faceless anomaly waits four turns
+PASS faceless anomaly grants once per fourth turn
+PASS instant warband grants three distinct active tier-two minions
+PASS instant warband keeps ordinary opening economy
+PASS instant warband draws real copies from shared pool
+PASS network snapshot carries anomaly
+PASS hero portrait exists edwin
+PASS hero portrait exists cthun
+PASS hero portrait exists deathwing
+SEASON V59 RESULT 42/42

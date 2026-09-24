@@ -1,0 +1,19 @@
+{
+  "version": "0.61.0",
+  "versionCode": 65,
+  "cold_starts": [
+    {
+      "cold_start": 1,
+      "pid": "2518"
+    },
+    {
+      "cold_start": 2,
+      "pid": "2583"
+    },
+    {
+      "cold_start": 3,
+      "pid": "2647"
+    }
+  ],
+  "device": "Android API 33 x86_64 emulator, host NVIDIA GPU"
+}

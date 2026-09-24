@@ -1,0 +1,59 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS catalog clean
+PASS sixteen executable playbooks
+PASS active components frog
+PASS 24 seeds, zero/low coins guarantee BOTH trinkets: frog
+PASS active components wolf
+PASS 24 seeds, zero/low coins guarantee BOTH trinkets: wolf
+PASS active components hurt
+PASS 24 seeds, zero/low coins guarantee BOTH trinkets: hurt
+PASS active components murloc_hand
+PASS 24 seeds, zero/low coins guarantee BOTH trinkets: murloc_hand
+PASS active components murloc_battlecry
+PASS 24 seeds, zero/low coins guarantee BOTH trinkets: murloc_battlecry
+PASS active components dragon_memory
+PASS 24 seeds, zero/low coins guarantee BOTH trinkets: dragon_memory
+PASS active components dragon_battlecry
+PASS 24 seeds, zero/low coins guarantee BOTH trinkets: dragon_battlecry
+PASS active components mech_magnet
+PASS 24 seeds, zero/low coins guarantee BOTH trinkets: mech_magnet
+PASS active components mech_shield
+PASS 24 seeds, zero/low coins guarantee BOTH trinkets: mech_shield
+PASS active components demon_consume
+PASS 24 seeds, zero/low coins guarantee BOTH trinkets: demon_consume
+PASS active components demon_soul
+PASS 24 seeds, zero/low coins guarantee BOTH trinkets: demon_soul
+PASS active components pirate_attack
+PASS 24 seeds, zero/low coins guarantee BOTH trinkets: pirate_attack
+PASS active components pirate_trade
+PASS 24 seeds, zero/low coins guarantee BOTH trinkets: pirate_trade
+PASS active components undead_reborn
+PASS 24 seeds, zero/low coins guarantee BOTH trinkets: undead_reborn
+PASS active components undead_knights
+PASS 24 seeds, zero/low coins guarantee BOTH trinkets: undead_knights
+PASS active components menagerie
+PASS 24 seeds, zero/low coins guarantee BOTH trinkets: menagerie
+PASS human gets no boss assistance
+PASS hard AI keeps random offers
+PASS catalog prices and eligibility never mutated
+PASS strong new evidence pivots into available tribe
+PASS retired desired item falls back within its playbook
+PASS pirate engine opens a weak temporary slot
+PASS real authority executes buy play sell plan
+PASS cycle preserves engines and records reasoning
+PASS purchase triggers real retained growth
+PASS lethal risk rejects optional cycles
+PASS magnet on cleave carrier also activates B-Box copy
+PASS hand payload cannot become a disposable resource
+PASS plan reports its real missing core set
+PASS frog seed propagation and multiplier are protected
+PASS complete AI turn uses temporary battlecry slot
+PASS Kalecgos and Brann survive with actual permanent growth
+PASS multi-step operations respect resource limits
+PASS one-life Wrath self damage blocks demon play
+PASS playing Rewinder safely restores self damage
+PASS armor is included in self damage budget
+PASS repeated self damage battlecry cannot kill hero
+PASS planning cannot consume first battlecry trinket charge
+PLAYBOOK V60 56/56

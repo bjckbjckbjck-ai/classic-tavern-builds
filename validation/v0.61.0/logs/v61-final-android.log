@@ -1,0 +1,19 @@
+--------- beginning of main
+09-24 06:59:19.650  2518  2546 I godot   : Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+09-24 06:59:19.737  2518  2546 E godot   : WARNING: Failed to load cached shader, recompiling.
+09-24 06:59:19.738  2518  2546 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:612)
+09-24 06:59:19.968  2518  2546 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 595.97) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2)
+09-24 06:59:19.989  2518  2546 I godot   : 
+09-24 06:59:22.838  2583  2611 I godot   : Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+09-24 06:59:22.876  2583  2611 E godot   : WARNING: Failed to load cached shader, recompiling.
+09-24 06:59:22.876  2583  2611 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:612)
+09-24 06:59:23.094  2583  2611 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 595.97) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2)
+09-24 06:59:23.104  2583  2611 I godot   : 
+09-24 06:59:26.239  2647  2674 I godot   : Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+09-24 06:59:26.277  2647  2674 E godot   : WARNING: Failed to load cached shader, recompiling.
+09-24 06:59:26.278  2647  2674 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:612)
+09-24 06:59:26.494  2647  2674 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 595.97) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2)
+09-24 06:59:26.504  2647  2674 I godot   : 
+09-24 07:00:27.279  2647  2674 E godot   : ERROR: Condition "!is_inside_tree()" is true. Returning: false
+09-24 07:00:27.280  2647  2674 E godot   :    at: can_process (scene/main/node.cpp:902)
+09-24 07:00:59.195  2647  2674 I godot   : PRESENTATION VERIFIED Android msaa=0 cards=4

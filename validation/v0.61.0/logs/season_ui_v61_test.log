@@ -1,0 +1,13 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+PRESENTATION VERIFIED Windows msaa=0 cards=21
+UI PASS desktop ten-card shallow fan remains present
+UI PASS all new original and historic art loads on actual cards
+UI PASS strategist details expose actual summon count
+UI PASS actual drag opens branch choice
+UI PASS six target choices fit inside board
+UI PASS target click resolves and closes menu
+UI PASS old official name locates renamed neutral card
+UI PASS new release notes available in game
+SEASON UI V61 failures=0

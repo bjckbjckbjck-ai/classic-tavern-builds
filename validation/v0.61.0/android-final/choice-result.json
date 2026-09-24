@@ -1,0 +1,81 @@
+{
+  "board": [
+    {
+      "attack": 2,
+      "health": 3,
+      "id": "seer",
+      "uid": "313395378-1491799339"
+    },
+    {
+      "attack": 2,
+      "health": 5,
+      "id": "rockpool",
+      "uid": "313395394-1821911071"
+    },
+    {
+      "attack": 4,
+      "health": 2,
+      "id": "echo_contractor",
+      "uid": "313395407-2018422331"
+    },
+    {
+      "attack": 4,
+      "health": 3,
+      "id": "echo_dancer",
+      "uid": "313395456-4016445016"
+    },
+    {
+      "attack": 5,
+      "health": 4,
+      "id": "crystal",
+      "uid": "313395419-221922696"
+    },
+    {
+      "attack": 2,
+      "health": 4,
+      "id": "nathrezim",
+      "uid": "313395435-2651353037"
+    },
+    {
+      "attack": 4,
+      "health": 3,
+      "id": "hound",
+      "uid": "313395448-970048888"
+    }
+  ],
+  "coins": 20,
+  "discover": [],
+  "hand": [],
+  "hero": "patchwerk",
+  "minions_bought_turn": 0,
+  "mode": "choice",
+  "offers": [],
+  "pending": 0,
+  "phase": "recruit",
+  "power_used": false,
+  "protocol": "allstars-0.61.0-ws",
+  "round": 8,
+  "shop": [
+    {
+      "id": "formation_inquisitor",
+      "uid": "313395047-3334743534"
+    },
+    {
+      "id": "last_avenger",
+      "uid": "313395086-1379993006"
+    },
+    {
+      "id": "tunnel_blaster",
+      "uid": "313395114-1981457634"
+    },
+    {
+      "id": "echo_dancer",
+      "uid": "313395144-5627080"
+    }
+  ],
+  "spells": [
+    "spell_banana"
+  ],
+  "spells_cast": 0,
+  "trinkets": []
+}
