@@ -4,6 +4,7 @@ cat > /etc/systemd/system/classic-tavern-backup.service <<'EOF'
 [Unit]
 Description=Encrypted consistent Classic Tavern database backup
 [Service]
+Type=oneshot
 User=tavern
 Group=tavern
 Environment=TAVERN_DATA=/var/lib/classic-tavern

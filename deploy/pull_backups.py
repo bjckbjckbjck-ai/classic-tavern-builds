@@ -9,7 +9,10 @@ names=json.loads(r.stdout)
 for name in names:
     if not name.startswith('tavern-') or '/' in name or '\\' in name:raise RuntimeError('Invalid remote backup name')
     existing=dest/name;checksum=dest/(name+'.sha256')
-    if existing.exists() and checksum.exists() and hashlib.sha256(existing.read_bytes()).hexdigest()==checksum.read_text().split()[0]:continue
+    if existing.exists() and checksum.exists() and hashlib.sha256(existing.read_bytes()).hexdigest()==checksum.read_text().split()[0]:
+        if not all(ch.isalnum() or ch in '-.' for ch in name):raise RuntimeError('Unsafe filename')
+        subprocess.run(ssh+['sudo touch /var/lib/classic-tavern/backups/'+name+'.received'],check=True)
+        continue
     for suffix in ['', '.sha256']:
         temporary=dest/(name+suffix+'.partial')
         subprocess.run(['scp','-q','-o','BatchMode=yes','-o','ConnectTimeout=15','-P',args.port,'-i',args.key,args.host+':/home/ubuntu/tavern-backup-export/'+name+suffix,str(temporary)],check=True)
