@@ -1,5 +1,5 @@
 extends Node
-const PROTOCOL="allstars-0.61.0-service-1"
+const PROTOCOL="allstars-0.61.0-service-2"
 var app
 var base="https://bjckwrn.xyz:21111"
 var token=""
@@ -19,6 +19,7 @@ var next_retry=0.0
 var last_poll=0.0
 var busy=false
 var model:Dictionary={}
+var replay_exit_round=-1
 
 func normalize(value):
 	if value is float and value==floor(value):return int(value)
@@ -133,10 +134,10 @@ func queue_page():
 	if model.get("room")!=null:await connect_room();return
 	if model.get("queue")==null:home();return
 	page="queue";frame("正在匹配 · %d秒"%int(model.queue.seconds))
-	app.label("4桌共享，满桌时等待上一局结束",Rect2(270,245,900,60),23,"ffe4a6",true)
+	app.label("正在寻找匹配：%d 人 · 已同意AI：%d 人"%[int(model.queue.get("players",1)),int(model.queue.get("consenting",0))],Rect2(270,245,900,60),23,"ffe4a6",true)
 	if int(model.queue.seconds)>=60:
-		app.label("是否接受最高难度霸主AI补位？",Rect2(270,335,900,60),27,"ffe4a6",true)
-		app.button("接受AI" if not model.queue.ai_consent else "已同意AI，等待桌位",Rect2(315,425,380,65),func():await api("/api/queue",{"protocol":PROTOCOL,"consent":true});await refresh();queue_page())
+		app.label("所有排队玩家同意后，一起加入最高难度AI",Rect2(270,335,900,60),24,"ffe4a6",true)
+		app.button("接受AI" if not model.queue.ai_consent else "已同意，等待其他玩家/桌位",Rect2(315,425,380,65),func():await api("/api/queue",{"protocol":PROTOCOL,"consent":true});await refresh();queue_page())
 		app.button("继续等真人",Rect2(745,425,380,65),func():await api("/api/queue",{"protocol":PROTOCOL,"consent":false});await refresh();queue_page())
 	app.button("取消匹配",Rect2(465,545,510,65),func():await api("/api/queue",{"protocol":PROTOCOL,"cancel":true});await refresh();home())
 
@@ -150,6 +151,7 @@ func connect_room():
 	ticket=data.ticket;room_code=data.code;authed=false;serial=0;active=true;page="play"
 	app.multiplayer.multiplayer_peer=OfflineMultiplayerPeer.new()
 	app.online=true;app.state={};app.replay_round=-1
+	replay_exit_round=-1
 	ws.connect_to_url(base.replace("https://","wss://").replace("http://","ws://")+"/play/"+str(int(data.slot)))
 	message="正在连接，断线期间由AI托管";frame("房间 "+room_code)
 	next_retry=Time.get_ticks_msec()/1000.0+8
@@ -162,6 +164,20 @@ func intent(action:String,index:int,target:int,guard:Dictionary):
 	if not ws or ws.get_ready_state()!=WebSocketPeer.STATE_OPEN:return
 	serial+=1
 	ws.send_text(JSON.stringify({"type":"action","serial":serial,"action":action,"index":index,"target":target,"guard":guard}))
+
+func finish_replay():
+	if app.state.get("phase","")!="combat" or replay_exit_round==int(app.state.round):return
+	if not ws or ws.get_ready_state()!=WebSocketPeer.STATE_OPEN:return
+	replay_exit_round=int(app.state.round)
+	intent("replay_done",replay_exit_round,-1,{})
+
+func hero_draft():
+	app.draft_offers=app.state.me.hero_offers.duplicate()
+	if not app.selected_hero in app.draft_offers:app.selected_hero=int(app.state.me.hero)
+	preload("res://scripts/hero_draft_ui.gd").show_draft(app)
+
+func confirm_hero():
+	if app.state.get("phase","")=="hero_select" and not app.state.get("hero_confirmed",false):app.request("hero",app.selected_hero)
 
 func _process(_delta):
 	var now=Time.get_ticks_msec()/1000.0

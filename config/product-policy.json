@@ -1,9 +1,12 @@
 {
-  "status": "preview_0.1.0_implemented_policy_manifest",
+  "status": "preview_0.2.0_implemented_policy_manifest",
   "schema_version": 1,
   "table_count": 4,
   "seats_per_table": 8,
-  "shared_capacity_modes": ["friend_room", "ranked_match"],
+  "shared_capacity_modes": [
+    "friend_room",
+    "ranked_match"
+  ],
   "friend_room_ranked": false,
   "ranked_match": {
     "ai_offer_after_seconds": 60,
@@ -11,7 +14,9 @@
     "no_response": "keep_waiting_for_humans",
     "ai_difficulty": "highest_supported",
     "consent_scope": "current_queue_entry",
-    "ai_rating_policy": "half_for_multiple_humans_zero_for_single_human"
+    "ai_rating_policy": "half_for_multiple_humans_zero_for_single_human",
+    "partial_queue_start": "all_current_queued_humans_waited_60s_and_consented",
+    "show_queue_counts": true
   },
   "disconnect": {
     "controller": "ai_takeover",
@@ -26,5 +31,14 @@
     "encrypted": true,
     "offline_destination": "retain_and_retry",
     "success_requires_verified_receipt": true
+  },
+  "hero_selection": {
+    "friend_start": "after_host_start",
+    "timeout_seconds": 30,
+    "all_humans_confirm": "start_immediately"
+  },
+  "combat_playback": {
+    "exit": "per_player_finish_or_skip",
+    "recruit_actions_while_others_watch": true
   }
 }

@@ -38,6 +38,37 @@ def test_consent_is_explicit_after_60_seconds(service):
     m.tick()
     assert c.get('/api/me',headers=h).json()['room']['mode']=='ranked'
 
+def test_partial_queue_waits_for_everyone_and_starts_together(service):
+    m,c=service;people=[account(m,'cohort'+str(i)) for i in range(3)]
+    for uid,h in people:c.post('/api/queue',headers=h,json={'protocol':m.VERSION})
+    with m.db() as db:db.execute('UPDATE queue SET joined=?',(time.time()-61,))
+    for uid,h in people[:2]:c.post('/api/queue',headers=h,json={'protocol':m.VERSION,'consent':True})
+    m.tick()
+    for uid,h in people:
+        me=c.get('/api/me',headers=h).json()
+        assert me['room'] is None and me['queue']['players']==3 and me['queue']['consenting']==2
+    c.post('/api/queue',headers=people[2][1],json={'protocol':m.VERSION,'consent':True})
+    m.tick()
+    rooms=[c.get('/api/me',headers=h).json()['room']['id'] for uid,h in people]
+    assert len(set(rooms))==1
+
+def test_cancel_and_late_join_update_cohort(service):
+    m,c=service;uid,h=account(m,'early');other,oh=account(m,'late')
+    c.post('/api/queue',headers=h,json={'protocol':m.VERSION})
+    with m.db() as db:db.execute('UPDATE queue SET joined=?',(time.time()-61,))
+    c.post('/api/queue',headers=h,json={'protocol':m.VERSION,'consent':True})
+    c.post('/api/queue',headers=oh,json={'protocol':m.VERSION})
+    m.tick();assert c.get('/api/me',headers=h).json()['room'] is None
+    c.post('/api/queue',headers=oh,json={'protocol':m.VERSION,'cancel':True})
+    assert c.get('/api/me',headers=h).json()['queue']['players']==1
+    m.tick();assert c.get('/api/me',headers=h).json()['room'] is not None
+
+def test_full_human_queue_needs_no_ai_consent(service):
+    m,c=service;people=[account(m,'full'+str(i)) for i in range(8)]
+    for uid,h in people:c.post('/api/queue',headers=h,json={'protocol':m.VERSION})
+    m.tick()
+    assert len({c.get('/api/me',headers=h).json()['room']['id'] for uid,h in people})==1
+
 def test_ranked_result_idempotent(service):
     m,c=service;ids=[account(m,f'rank{i}')[0] for i in range(8)]
     with m.LOCK,m.db() as db:
@@ -76,3 +107,19 @@ def test_ticket_membership_and_cancel(service):
     assert c.post('/api/queue',headers=h,json={'protocol':m.VERSION}).status_code==409
     assert c.post('/api/leave',headers=h).status_code==200
     assert c.get('/api/me',headers=h).json()['room'] is None
+
+def test_ticket_waits_for_bound_game_listener(service,monkeypatch):
+    m,c=service;uid,h=account(m,'booting')
+    room=c.post('/api/friends',headers=h,json={}).json()
+    monkeypatch.setenv('GODOT_BIN','configured-after-test-allocation')
+    assert c.post('/api/ticket',headers=h,json={'protocol':m.VERSION}).status_code==503
+    class Child:
+        def poll(self):return None
+    m.PROCESSES[room['id']]=Child()
+    delays=[]
+    def ready_after_delay(seconds):
+        delays.append(seconds)
+        m.atomic_json(m.ROOT/room['id']/'status.json',{'phase':'lobby'})
+    monkeypatch.setattr(m.time,'sleep',ready_after_delay)
+    assert c.post('/api/ticket',headers=h,json={'protocol':m.VERSION}).status_code==200
+    assert delays==[.1]

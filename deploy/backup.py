@@ -14,7 +14,7 @@ with tempfile.TemporaryDirectory(dir=root) as folder:
     if dest.execute('PRAGMA integrity_check').fetchone()[0]!='ok':raise RuntimeError('Database integrity check failed')
     dest.close();plain=snapshot.read_bytes()
 key=AESGCM.generate_key(bit_length=256);nonce=os.urandom(12)
-meta=json.dumps({'format':1,'created':time.time(),'database_sha256':hashlib.sha256(plain).hexdigest(),'game':'0.61.0','service':'0.1.0-preview','restore':'Stop service; restore DB; revoke sessions; abort active rooms; restart.'},sort_keys=True).encode()
+meta=json.dumps({'format':1,'created':time.time(),'database_sha256':hashlib.sha256(plain).hexdigest(),'game':'0.61.0','service':'0.2.0-preview','restore':'Stop service; restore DB; revoke sessions; abort active rooms; restart.'},sort_keys=True).encode()
 b64=lambda b:base64.b64encode(b).decode()
 package={'meta':b64(meta),'nonce':b64(nonce),'key':b64(public.encrypt(key,padding.OAEP(mgf=padding.MGF1(hashes.SHA256()),algorithm=hashes.SHA256(),label=None))),'ciphertext':b64(AESGCM(key).encrypt(nonce,plain,meta))}
 name=time.strftime('tavern-%Y%m%d-%H%M%S',time.gmtime())+'.enc.json'

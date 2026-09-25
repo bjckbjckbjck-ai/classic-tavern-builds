@@ -10,7 +10,7 @@ from argon2.exceptions import VerificationError
 ROOT = Path(os.environ.get('TAVERN_DATA', 'runtime')).resolve()
 ROOT.mkdir(parents=True, exist_ok=True)
 DB = ROOT / 'accounts.sqlite3'
-VERSION = 'allstars-0.61.0-service-1'
+VERSION = 'allstars-0.61.0-service-2'
 KEY = os.environ.get('TAVERN_TICKET_KEY', '')
 LOCK = threading.RLock()
 PH = PasswordHasher(time_cost=2, memory_cost=19456, parallelism=1)
@@ -81,6 +81,17 @@ def launch(c, r):
     with (directory/'server.log').open('ab') as log:
         PROCESSES[r['id']]=subprocess.Popen([executable,'--headless','--path',os.environ['GAME_PATH'],'--script','scripts/service_server.gd','--','--room='+str(directory),'--port='+str(15000+r['slot'])],stdout=log,stderr=subprocess.STDOUT,env=os.environ.copy())
 
+def wait_ready(r):
+    if not os.environ.get('GODOT_BIN'): return # Isolated API tests have no child server.
+    until=time.monotonic()+5
+    while time.monotonic()<until:
+        p=PROCESSES.get(r['id'])
+        if p is None or p.poll() is not None: fail('对局进程不可用，请重新连接',503)
+        # Godot writes this atomically only after binding its WebSocket listener.
+        if (ROOT/r['id']/'status.json').exists(): return
+        time.sleep(.1)
+    fail('对局正在启动，请稍后重连',503)
+
 def allocate(c,mode,accounts):
     if (ROOT/'maintenance').exists(): fail('正在维护，暂不创建新房间',503)
     used={r[0] for r in c.execute("SELECT slot FROM rooms WHERE phase NOT IN ('finished','aborted')")}
@@ -125,7 +136,7 @@ def tick():
                 try:
                     status=json.loads(statusfile.read_text(encoding='utf-8'))
                     if status.get('phase')=='finished': finalize(c,r,status); continue
-                    if status.get('phase') in ['lobby','recruit','settling','combat']:
+                    if status.get('phase') in ['lobby','hero_select','recruit','settling','combat']:
                         c.execute('UPDATE rooms SET phase=? WHERE id=?',(status['phase'],r['id']))
                 except (ValueError,OSError): pass
             if (p and p.poll() is not None) or (r['phase']=='lobby' and now-r['created']>600):
@@ -141,7 +152,8 @@ def tick():
         for _ in range(0 if (ROOT/'maintenance').exists() else 4):
             rows=c.execute('SELECT * FROM queue ORDER BY joined').fetchall()
             eligible=[x for x in rows if x['consent'] and now-x['joined']>=60]
-            selected=rows[:8] if len(rows)>=8 else eligible[:8]
+            # A partial lobby is one cohort: do not split early consenters into solo AI games.
+            selected=rows[:8] if len(rows)>=8 else (rows if rows and len(eligible)==len(rows) else [])
             if not selected: break
             if c.execute("SELECT count(*) FROM rooms WHERE phase NOT IN ('finished','aborted')").fetchone()[0]>=4: break
             allocate(c,'ranked',[x['account'] for x in selected])
@@ -176,7 +188,7 @@ async def limits(request,call_next):
     return response
 
 @app.get('/api/health')
-def health(): return {'status':'ok','protocol':VERSION,'tables':4,'game':'0.61.0','service':'0.1.0-preview'}
+def health(): return {'status':'ok','protocol':VERSION,'tables':4,'game':'0.61.0','service':'0.2.0-preview'}
 
 @app.post('/api/register')
 def register(request:Request, body:dict):
@@ -229,7 +241,8 @@ def me(request:Request):
     with LOCK,db() as c:
         r=active(c,a['id']); q=c.execute('SELECT * FROM queue WHERE account=?',(a['id'],)).fetchone()
         results=[dict(x) for x in c.execute('SELECT * FROM results WHERE account=? ORDER BY rowid DESC LIMIT 10',(a['id'],))]
-    return {'name':a['name'],'rating':a['rating'],'room':public_room(r) if r else None,'queue':{'seconds':int(time.time()-q['joined']),'ai_consent':bool(q['consent'])} if q else None,'results':results}
+        waiting=c.execute('SELECT count(*),coalesce(sum(consent),0) FROM queue').fetchone()
+    return {'name':a['name'],'rating':a['rating'],'room':public_room(r) if r else None,'queue':{'seconds':int(time.time()-q['joined']),'ai_consent':bool(q['consent']),'players':waiting[0],'consenting':waiting[1]} if q else None,'results':results}
 
 @app.post('/api/friends')
 def friends(request:Request,body:dict):
@@ -272,6 +285,7 @@ def ticket(request:Request,body:dict):
     if body.get('protocol')!=VERSION: fail('客户端版本不一致',409)
     with LOCK,db() as c: r=active(c,a['id'])
     if not r: fail('没有进行中的房间',404)
+    wait_ready(r)
     payload=json.dumps({'room':r['id'],'account':a['id'],'exp':int(time.time()+45),'nonce':secrets.token_hex(16),'protocol':VERSION},separators=(',',':'))
     signature=hmac.new(KEY.encode(),payload.encode(),hashlib.sha256).hexdigest()
     return {'ticket':payload+'|'+signature,'slot':r['slot'],'room':r['id'],'code':r['code']}

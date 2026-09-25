@@ -2,7 +2,7 @@ import asyncio,json,time
 from pathlib import Path
 import httpx,websockets
 root=Path(__file__).resolve().parents[1]
-PROTO='allstars-0.61.0-service-1';BASE='https://bjckwrn.xyz:21111'
+PROTO='allstars-0.61.0-service-2';BASE='https://bjckwrn.xyz:21111'
 users=json.loads((root/'secrets/load-users.json').read_text())
 async def run():
     roomids=set();slots=set();messages=0;wire_bytes=0;phases=set();clients=0

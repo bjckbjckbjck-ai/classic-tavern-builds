@@ -1,5 +1,5 @@
 diff --git a/export_presets.cfg b/export_presets.cfg
-index a19d1a2..fbeb9f6 100644
+index a19d1a2..6eec5b1 100644
 --- a/export_presets.cfg
 +++ b/export_presets.cfg
 @@ -43,10 +43,10 @@ architectures/armeabi-v7a=true
@@ -10,15 +10,15 @@ index a19d1a2..fbeb9f6 100644
 -version/name="0.61.0"
 -package/unique_name="org.classictavern.game"
 -package/name="经典酒馆"
-+version/code=2
-+version/name="0.61.0-service2"
++version/code=3
++version/name="0.61.0-service3"
 +package/unique_name="org.classictavern.service"
 +package/name="云端酒馆"
  package/signed=true
  launcher_icons/main_192x192="res://assets/icon.svg"
  screen/immersive_mode=true
 diff --git a/scripts/foyer_ui.gd b/scripts/foyer_ui.gd
-index 499a72d..d4a6617 100644
+index 499a72d..c3469ad 100644
 --- a/scripts/foyer_ui.gd
 +++ b/scripts/foyer_ui.gd
 @@ -7,7 +7,9 @@ static func menu(app):
@@ -49,8 +49,70 @@ index 499a72d..d4a6617 100644
  	app.label(address,Rect2(150,134,1150,37),17,"dbc496")
  	for i in range(8):
  		var pos=Vector2(160+(i%4)*195,205+int(i/4)*230);var p=app.state.players[i] if i<app.state.players.size() else {}
+@@ -56,13 +59,18 @@ static func lobby(app):
+ 		else:role=""
+ 		app.label(role,Rect2(pos+Vector2(-10,196),Vector2(178,24)),13,"c3b59e",true)
+ 		if p.get("bot",false) and app.is_manager():ART.button(app,"×",Rect2(pos+Vector2(130,14),Vector2(40,40)),func():app.room_command("remove",int(p.id)))
+-	app.label("选择英雄",Rect2(997,192,284,42),25,"ffe7b1",true)
+-	for i in range(app.state.me.hero_offers.size()):
+-		var index=int(app.state.me.hero_offers[i]);var h=app.catalog.heroes[index]
+-		var b=ART.button(app,("✓ " if int(app.state.me.hero)==index else "")+h.name,Rect2(986,246+i*70,298,56),func():app.selected_hero=index;app.request("hero",index),false,int(app.state.me.hero)==index);b.set_meta("lobby_hero",index)
+-	var hero=app.catalog.heroes[int(app.state.me.hero)]
+-	app.label("生命 %d · 护甲 %d"%[int(hero.get("hp",40)),int(hero.get("armor",0))],Rect2(994,537,280,32),18,"e7c787",true)
+-	var description=RichTextLabel.new();description.text=hero.text;description.position=Vector2(995,580);description.size=Vector2(290,122);description.add_theme_font_size_override("normal_font_size",18);description.scroll_active=true;app.ui.add_child(description)
++	if app.cloud and app.cloud.active:
++		app.label("等待房主开始",Rect2(997,230,284,60),26,"ffe7b1",true)
++		app.label("开始后进入四选一英雄界面",Rect2(972,310,335,90),20,"dbc496",true)
++	else:
++		app.label("选择英雄",Rect2(997,192,284,42),25,"ffe7b1",true)
++		for i in range(app.state.me.hero_offers.size()):
++			var index=int(app.state.me.hero_offers[i]);var h=app.catalog.heroes[index]
++			var b=ART.button(app,("✓ " if int(app.state.me.hero)==index else "")+h.name,Rect2(986,246+i*70,298,56),func():app.selected_hero=index;app.request("hero",index),false,int(app.state.me.hero)==index);b.set_meta("lobby_hero",index)
++		var hero=app.catalog.heroes[int(app.state.me.hero)]
++		app.label("生命 %d · 护甲 %d"%[int(hero.get("hp",40)),int(hero.get("armor",0))],Rect2(994,537,280,32),18,"e7c787",true)
++		var description=RichTextLabel.new();description.text=hero.text;description.position=Vector2(995,580);description.size=Vector2(290,122);description.add_theme_font_size_override("normal_font_size",18);description.scroll_active=true;app.ui.add_child(description)
++
+ 	app.label("%d / 8 位客人"%app.state.players.size(),Rect2(164,685,220,34),21,"ffe7ad")
+ 	ART.button(app,"饰品："+("开启" if app.state.get("trinkets_enabled",false) else "关闭"),Rect2(423,683,225,48),func():app.room_command("trinkets"),not app.is_manager())
+ 	ART.button(app,"BOT："+app.RULES.AI.NAMES[int(app.state.ai_difficulty)],Rect2(674,683,253,48),func():app.room_command("difficulty"),not app.is_manager())
+diff --git a/scripts/hero_draft_ui.gd b/scripts/hero_draft_ui.gd
+index ab21da6..cbe0612 100644
+--- a/scripts/hero_draft_ui.gd
++++ b/scripts/hero_draft_ui.gd
+@@ -40,11 +40,23 @@ func _ready():
+ 	# Buttons use the common visual language, but stay children of this centered composition.
+ 	back_button=make_button("返回",Rect2(166,758,170,58),app.menu,false);back_button.name="Back"
+ 	confirm_button=make_button("准备好了 · 进入酒馆",Rect2(470,750,500,68),app.practice_room,true);confirm_button.name="Confirm"
++	if app.cloud and app.cloud.active and app.state.get("phase","")=="hero_select":
++		for callback in confirm_button.pressed.get_connections():confirm_button.pressed.disconnect(callback.callable)
++		confirm_button.pressed.connect(app.cloud.confirm_hero,CONNECT_DEFERRED)
++		for callback in back_button.pressed.get_connections():back_button.pressed.disconnect(callback.callable)
++		back_button.pressed.connect(app.leave_room,CONNECT_DEFERRED)
++		back_button.text="断开 / 托管"
++		if app.state.get("hero_confirmed",false):
++			confirm_button.text="已确认 · 等待其他玩家";confirm_button.disabled=true
++		var timer=caption("",Rect2(1020,100,240,38),20,"ffe4a6")
++		app.timer_label=timer
++		caption("30秒内确认 · 超时自动选择",Rect2(280,180,880,28),17,"d5bf9a")
+ 	caption("点击肖像选择 · 下方查看技能",Rect2(1010,765,292,40),16,"cdbb9b")
+ 	_update_skill()
+ 
+ func caption(text:String,rect:Rect2,font_size:int,color:String):
+ 	var label=Label.new();label.text=text;label.position=rect.position;label.size=rect.size;label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER;label.vertical_alignment=VERTICAL_ALIGNMENT_CENTER;label.mouse_filter=Control.MOUSE_FILTER_IGNORE;label.add_theme_font_size_override("font_size",font_size);label.add_theme_color_override("font_color",Color(color));label.add_theme_color_override("font_shadow_color",Color("160e0d"));label.add_theme_constant_override("shadow_offset_y",2);add_child(label)
++	return label
+ 
+ func make_button(text:String,rect:Rect2,callback:Callable,primary:bool)->Button:
+ 	var button=Button.new();button.text=text;button.position=rect.position;button.size=rect.size
+@@ -54,6 +66,7 @@ func make_button(text:String,rect:Rect2,callback:Callable,primary:bool)->Button:
+ 	return button
+ 
+ func _select(index:int):
++	if app.cloud and app.cloud.active and app.state.get("hero_confirmed",false):return
+ 	if index not in app.draft_offers or index==app.selected_hero:return
+ 	app.selected_hero=index;app.feedback.cue("hero_select")
+ 	for card in cards:card.set_selected(card.hero_index==index)
 diff --git a/scripts/main.gd b/scripts/main.gd
-index 85ab489..b87f016 100644
+index 85ab489..2b3f73d 100644
 --- a/scripts/main.gd
 +++ b/scripts/main.gd
 @@ -114,10 +114,12 @@ const FOYER=preload("res://scripts/foyer_ui.gd")
@@ -102,7 +164,15 @@ index 85ab489..b87f016 100644
  	if state.phase=="combat" and (replay_round!=int(state.round) or old.get("watch_id",0)!=state.get("watch_id",0)):
  		replay_round=int(state.round)
  		replay_index=0
-@@ -875,7 +879,13 @@ func table():
+@@ -726,6 +730,7 @@ func render():
+ 		if not ui.has_node("CollectionContent"):show_gallery()
+ 		return
+ 	if state.is_empty():menu();return
++	if cloud and cloud.active and state.phase=="hero_select":cloud.hero_draft();return
+ 	if state.phase=="lobby":anomaly_intro_seen="";lobby();return
+ 	table()
+ 
+@@ -875,7 +880,13 @@ func table():
  			hero_image(catalog.heroes[int(results[i].hero)],Rect2(463,y,40,43),results[i].hp<=0)
  			label(results[i].name,Rect2(521,y,260,43),21,"eed8b1")
  			label(catalog.heroes[int(results[i].hero)].name,Rect2(786,y,370,43),20,"eed8b1")
@@ -117,3 +187,56 @@ index 85ab489..b87f016 100644
  	UX.decorate(self,p)
  	var h:Dictionary=catalog.heroes[int(p.hero)]
  	var hero_rect=layout.hero_rect();var hero_y=hero_rect.position.y
+@@ -944,6 +955,7 @@ func combat_public(player:Dictionary)->Dictionary:
+ 
+ func skip_battle():
+ 	if state.get("phase","")!="combat" or state.me.hp<=0:return
++	if cloud and cloud.active:cloud.finish_replay();return
+ 	if multiplayer.multiplayer_peer is OfflineMultiplayerPeer:
+ 		if game.phase!="combat" or game.player(1).hp<=0:return
+ 		game.finish_combat();deadline=now()+recruit_seconds();broadcast()
+@@ -1230,7 +1242,7 @@ func _process(delta):
+ 
+ 	frame_samples.append(delta*1000.0)
+ 	if frame_samples.size()>600:frame_samples.pop_front()
+-	var own_penalty=game.TOMORROW.penalty(game,game.player(1)) if multiplayer.is_server() and game!=null and game.phase=="recruit" else 0.0
++	var own_penalty=game.TOMORROW.penalty(game,game.player(1)) if (multiplayer.is_server() and not (cloud and cloud.active)) and game!=null and game.phase=="recruit" else 0.0
+ 	if is_instance_valid(timer_label):
+ 		var time_text="%02d 秒"%maxi(0,int(deadline-now()-own_penalty))
+ 		if timer_label.text!=time_text:timer_label.text=time_text
+@@ -1238,7 +1250,7 @@ func _process(delta):
+ 		var left=maxf(0,deadline-now()-own_penalty)
+ 		if trim.recruiting and left<20 and absf(left-trim.remaining)>=.05:trim.remaining=left;trim.queue_redraw()
+ 	if not online:return
+-	if multiplayer.is_server() and game.phase=="recruit":
++	if (multiplayer.is_server() and not (cloud and cloud.active)) and game.phase=="recruit":
+ 		var expired=false
+ 		for p in game.players:expired=game.TOMORROW.expire(game,p,deadline-now()) or expired
+ 		if expired:broadcast()
+@@ -1254,7 +1266,7 @@ func _process(delta):
+ 			game.begin_settling()
+ 			deadline=now()+game.settling_seconds
+ 			broadcast()
+-	elif multiplayer.is_server() and game.phase=="settling" and now()>=deadline:
++	elif (multiplayer.is_server() and not (cloud and cloud.active)) and game.phase=="settling" and now()>=deadline:
+ 		game.battle()
+ 		var longest=0.0
+ 		for r in game.replays.values():
+@@ -1263,7 +1275,7 @@ func _process(delta):
+ 			longest=maxf(longest,duration)
+ 		deadline=now()+maxf(longest+2,5)
+ 		broadcast()
+-	elif multiplayer.is_server() and game.phase=="combat" and now()>=deadline:
++	elif (multiplayer.is_server() and not (cloud and cloud.active)) and game.phase=="combat" and now()>=deadline:
+ 		game.finish_combat()
+ 		deadline=now()+recruit_seconds()
+ 		broadcast()
+@@ -1277,6 +1289,8 @@ func _process(delta):
+ 	if state.get("phase","")=="combat" and settlement_deadline>0 and now()>=settlement_deadline:
+ 		settlement_deadline=0;settlement_complete=true
+ 		if not gallery:render()
++	if cloud and cloud.active and state.get("phase","")=="combat":
++		if settlement_complete or state.get("replay",{}).get("events",[]).is_empty():cloud.finish_replay()
+ 	if not test_mode.is_empty():test_tick(delta)
+ 
+ func test_check(ok:bool,message:String)->bool:
