@@ -38,3 +38,7 @@
 服务器：`sudo python3 /opt/classic-tavern/deploy/ops.py status` 查看桌位；`drain`暂停新分配，`resume`恢复，`backup`执行一次加密备份。更新前先drain并等现有对局结束；install.sh在仍有活动对局时拒绝覆盖。
 
 云端每天04:00 Asia/Shanghai生成加密备份；当前Windows接收任务ClassicTavern-BackupReceiver每小时及登录时拉取，电脑离线后补传。私钥只在本地secrets目录，必须由用户额外离线保存。备份恢复的是账号/积分/战绩，不恢复崩溃前的半场比赛。
+
+## 云服客户端 service5
+
+已接入六首分阶段音乐、七个原创回合提示音和云服更新入口。Windows 一键下载校验/替换重启，Android 浏览器下载后系统确认安装。首次需手动安装本版，后续应用内更新。实现、验证及发布步骤见 [客户端音乐与更新说明](docs/CLIENT5-AUDIO-UPDATES.md)。

@@ -2,20 +2,22 @@
   "game_version": "0.61.0",
   "service_version": "0.2.0-preview",
   "protocol": "allstars-0.61.0-service-2",
-  "game_base_commit": "75fc987a66d365744aaf8ad14d4c909cb7104be5",
-  "integration_commit": "7495978ef35806aa30329670693e673c87305e95",
-  "client_build_commit": "7495978ef35806aa30329670693e673c87305e95",
+  "game_base_commit": "5fc5db4971d74a9db006c10afe2eef0e3268a590",
+  "integration_commit": "2148b4c2f04720c1ab72c50102aa772148e565c3",
+  "client_build_commit": "2148b4c2f04720c1ab72c50102aa772148e565c3",
   "godot": "4.6.1",
   "clients": {
     "ClassicTavern-Service.exe": {
-      "bytes": 264199656,
-      "sha256": "5281d3322355386d62ccd0c15b0db0ef8bdbd12f9ddc7c136e9b8d119f0cf1c8"
+      "bytes": 278865264,
+      "sha256": "bf32d501c6e251d693dc226c31e25d76fdf8f4a1a6b13f31b8f7f4f31ff1a62d"
     },
     "ClassicTavern-Service.apk": {
-      "bytes": 243373707,
-      "sha256": "b8cb32f6be1890ca60c1b8edbd220b77f034fb86dfb27ff8c2adb405d2420ce8"
+      "bytes": 257794681,
+      "sha256": "b7a4a1acbf71e90891a38f800bf5d5e4570b2eeeecca5e26406a5b669aad617c"
     }
   },
   "public_base_url": "https://bjckwrn.xyz:21111",
-  "android_build": 3
+  "android_build": 5,
+  "server_build_commit": "7495978ef35806aa30329670693e673c87305e95",
+  "client_version": "0.61.0-service5"
 }

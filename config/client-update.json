@@ -1,0 +1,17 @@
+{
+  "channel": "service",
+  "build": 5,
+  "version": "0.61.0-service5",
+  "platforms": {
+    "windows": {
+      "file": "ClassicTavern-Service-5.exe",
+      "bytes": 278865264,
+      "sha256": "bf32d501c6e251d693dc226c31e25d76fdf8f4a1a6b13f31b8f7f4f31ff1a62d"
+    },
+    "android": {
+      "file": "ClassicTavern-Service-5.apk",
+      "bytes": 257794681,
+      "sha256": "b7a4a1acbf71e90891a38f800bf5d5e4570b2eeeecca5e26406a5b669aad617c"
+    }
+  }
+}
