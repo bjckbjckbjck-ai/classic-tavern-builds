@@ -1,5 +1,5 @@
 diff --git a/export_presets.cfg b/export_presets.cfg
-index a19d1a2..e0472ac 100644
+index a19d1a2..fbeb9f6 100644
 --- a/export_presets.cfg
 +++ b/export_presets.cfg
 @@ -43,10 +43,10 @@ architectures/armeabi-v7a=true
@@ -10,15 +10,15 @@ index a19d1a2..e0472ac 100644
 -version/name="0.61.0"
 -package/unique_name="org.classictavern.game"
 -package/name="经典酒馆"
-+version/code=1
-+version/name="0.61.0-service1"
++version/code=2
++version/name="0.61.0-service2"
 +package/unique_name="org.classictavern.service"
 +package/name="云端酒馆"
  package/signed=true
  launcher_icons/main_192x192="res://assets/icon.svg"
  screen/immersive_mode=true
 diff --git a/scripts/foyer_ui.gd b/scripts/foyer_ui.gd
-index 499a72d..ad2fc0e 100644
+index 499a72d..d4a6617 100644
 --- a/scripts/foyer_ui.gd
 +++ b/scripts/foyer_ui.gd
 @@ -7,7 +7,9 @@ static func menu(app):
@@ -37,7 +37,7 @@ index 499a72d..ad2fc0e 100644
  	ART.button(app,"流派与规则",Rect2(405,787,235,50),func():app.LIBRARY.strategies(app))
  	ART.button(app,"版本公告",Rect2(660,787,235,50),func():app.LIBRARY.journal(app))
 -	ART.button(app,"自动更新",Rect2(916,787,300,50),func():app.LIBRARY.updates(app))
-+	ART.button(app,"云服下载页",Rect2(916,787,300,50),func():OS.shell_open("https://bjckwrn.xyz"))
++	ART.button(app,"云服下载页",Rect2(916,787,300,50),func():OS.shell_open("https://bjckwrn.xyz:21111"))
  	app.label(app.lobby_error,Rect2(245,725,940,32),16,"ffb18f",true);app.footer();ART.enter(app)
  static func network(app):
  	app.clear();ART.shade(app);ART.art(app,"collection_book",Rect2(160,74,1120,728))

@@ -2,7 +2,7 @@
 import asyncio,json,secrets,time
 from pathlib import Path
 import httpx,websockets
-BASE='https://bjckwrn.xyz'
+BASE='https://bjckwrn.xyz:21111'
 PROTO='allstars-0.61.0-service-1'
 root=Path(__file__).resolve().parents[1]
 async def run():

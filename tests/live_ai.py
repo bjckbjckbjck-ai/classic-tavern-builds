@@ -1,10 +1,13 @@
-import asyncio,json,time
+import asyncio,json,time,secrets
 from pathlib import Path
 import httpx,websockets
-root=Path(__file__).resolve().parents[1];u=json.loads((root/'secrets/load-users.json').read_text())[-1]
-BASE='https://bjckwrn.xyz';PROTO='allstars-0.61.0-service-1';h={'Authorization':'Bearer '+u['token']}
+BASE='https://bjckwrn.xyz:21111';PROTO='allstars-0.61.0-service-1'
 async def run():
-    async with httpx.AsyncClient(base_url=BASE,headers=h,timeout=20,trust_env=False) as c:
+    async with httpx.AsyncClient(base_url=BASE,timeout=20,trust_env=False) as c:
+        credentials={'name':'qa_'+secrets.token_hex(4),'password':secrets.token_urlsafe(20)}
+        r=await c.post('/api/register',json=credentials);r.raise_for_status()
+        r=await c.post('/api/login',json=credentials);r.raise_for_status()
+        c.headers['Authorization']='Bearer '+r.json()['token']
         r=await c.post('/api/queue',json={'protocol':PROTO});r.raise_for_status()
         r=await c.post('/api/queue',json={'protocol':PROTO,'consent':True});assert r.status_code==400
         await asyncio.sleep(61)

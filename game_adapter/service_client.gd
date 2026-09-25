@@ -1,7 +1,7 @@
 extends Node
 const PROTOCOL="allstars-0.61.0-service-1"
 var app
-var base="https://bjckwrn.xyz"
+var base="https://bjckwrn.xyz:21111"
 var token=""
 var account=""
 var password=""
