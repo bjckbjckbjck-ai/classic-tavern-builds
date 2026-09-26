@@ -16,6 +16,8 @@ def main():
     p.add_argument('--build', type=int, required=True)
     p.add_argument('--version', required=True)
     p.add_argument('--key', type=Path, required=True)
+    p.add_argument('--artifacts-dir', type=Path, help='Version-specific output directory; avoids overwriting a running EXE')
+    p.add_argument('--stage-only', action='store_true', help='Upload immutable files without advertising the new client yet')
     p.add_argument('--host', default='ubuntu@bjckwrn.xyz')
     args = p.parse_args()
     source = (args.game_dir / 'scripts/service_updater.gd').read_text(encoding='utf-8')
@@ -28,7 +30,7 @@ def main():
     manifest = {'channel': 'service', 'build': args.build, 'version': args.version, 'platforms': {}}
     publish = []
     for platform, extension in [('windows', 'exe'), ('android', 'apk')]:
-        artifact = args.game_dir / 'build' / f'ClassicTavern-Service.{extension}'
+        artifact = (args.artifacts_dir or args.game_dir / 'build') / f'ClassicTavern-Service.{extension}'
         digest = hashlib.file_digest(artifact.open('rb'), 'sha256').hexdigest()
         filename = f'ClassicTavern-Service-{args.build}.{extension}'
         destination = f'/var/www/classic-tavern/downloads/{filename}'
@@ -47,6 +49,9 @@ def main():
     repo = Path(__file__).resolve().parents[1]
     output = repo / 'config/client-update.json'
     output.write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
+    if args.stage_only:
+        print('Immutable clients staged; live aliases and manifest unchanged.')
+        return
     subprocess.run(['scp', '-q', '-i', str(args.key), str(output), args.host + ':/home/ubuntu/client-update.json.upload'], check=True)
     remote(' && '.join(publish + [
         'sudo install -m 644 /home/ubuntu/client-update.json.upload /var/www/classic-tavern/downloads/latest.json.new',

@@ -20,6 +20,10 @@ var last_poll=0.0
 var busy=false
 var model:Dictionary={}
 var replay_exit_round=-1
+var spectator=false
+var spectate_room=""
+var connect_serial=0
+var room_list:Array=[]
 
 func normalize(value):
 	if value is float and value==floor(value):return int(value)
@@ -105,11 +109,9 @@ func home():
 	page="home";frame("好友房间" if desired=="friend" else "在线积分匹配")
 	app.label("%s  ·  积分 %d"%[account,int(model.get("rating",1000))],Rect2(295,225,850,48),25,"ffe4a6",true)
 	if model.get("room")!=null:
-		app.label("已有房间："+str(model.room.code),Rect2(320,320,800,60),27,"ffe4a6",true)
+		app.label(("积分赛：" if model.room.mode=="ranked" else "好友房：")+str(model.room.code),Rect2(320,320,800,60),27,"ffe4a6",true)
 		app.button("进入 / 断线重连",Rect2(465,425,510,75),connect_room,false,true)
-		app.button("离开尚未开局的房间",Rect2(465,535,510,50),func():
-			var data=await api("/api/leave")
-			message=data.get("error","");await refresh();home())
+		app.button("彻底退出当前房间",Rect2(465,535,510,50),leave_options)
 	elif model.get("queue")!=null:queue_page()
 	elif desired=="friend":
 		app.button("创建好友房间",Rect2(465,310,510,70),func():await friend_room(""),false,true)
@@ -122,6 +124,58 @@ func home():
 			var data=await api("/api/queue",{"protocol":PROTOCOL})
 			message=data.get("error","");await refresh();queue_page(),false,true)
 	app.button("退出账号",Rect2(965,160,190,45),func():await api("/api/logout");token="";model={};login_page())
+	if page=="home":app.button("服务器房间列表 · 加入 / 观战",Rect2(410,602,620,42),rooms_page)
+
+func rooms_page():
+	page="rooms";app.menu_page="";message=""
+	await refresh()
+	var data=await api("/api/rooms",{},HTTPClient.METHOD_GET)
+	if page!="rooms":return
+	if data.has("error"):message=data.error
+	room_list=data.get("rooms",[]);draw_rooms()
+
+func draw_rooms():
+	frame("服务器房间列表 · 固定4桌")
+	var phases={"lobby":"等待开局","hero_select":"选择英雄","recruit":"招募中","settling":"回合结算","combat":"战斗中"}
+	if room_list.is_empty():app.label("暂无房间，可返回大厅创建好友房或进行积分匹配。",Rect2(290,330,850,90),23,"ffe4a6",true)
+	for i in range(room_list.size()):
+		var r=room_list[i];var y=260+i*88
+		app.label("%s · 桌%d · %s\n%s · 真人 %d/8%s"%[r.mode_label,int(r.slot),r.code,phases.get(r.phase,r.phase),int(r.human_count)," · 当前房间" if r.mine else ""],Rect2(275,y,590,80),20,"ffe4a6")
+		app.button("重连" if r.mine else "加入",Rect2(865,y+12,120,54),func():await connect_room() if r.mine else await friend_room(r.code),not r.mine and not r.joinable)
+		app.button("观战",Rect2(1010,y+12,120,54),func():await connect_room(str(r.id)),not r.spectatable)
+	app.button("刷新列表",Rect2(320,615,330,46),rooms_page)
+	app.button("返回云端大厅",Rect2(760,615,330,46),func():message="";home())
+
+func leave_options():
+	if spectator:
+		app.leave_room("",true);await rooms_page();return
+	await refresh()
+	var r=model.get("room")
+	if r==null:app.leave_room("",true);home();return
+	draw_leave(r)
+
+func draw_leave(r:Dictionary):
+	page="leave";app.menu_page="cloud_leave";app.clear();app.panel(Rect2(270,170,900,590))
+	app.label("离开"+("积分赛" if r.mode=="ranked" else "好友房")+" · "+str(r.code),Rect2(310,205,820,65),30,"ffe4a6",true)
+	var text="暂时离开：保留席位，断线期间由AI托管，可以重连。\n彻底退出：解除房间绑定，可以新开房；不能再返回本局参赛。"
+	text+="\n积分赛未淘汰退局按第8名结算；已淘汰则保留实际名次。" if r.mode=="ranked" else "\n好友房不扣积分；开局后的席位由AI继续，全部退出后释放桌位。"
+	var label=app.label(text,Rect2(325,300,790,185),22,"e2cba3",true);label.autowrap_mode=TextServer.AUTOWRAP_ARBITRARY
+	app.button("暂时离开，可重连",Rect2(325,510,360,65),func():app.leave_room("",true);await refresh();home())
+	app.button("确认彻底退出",Rect2(755,510,360,65),func():await permanent_leave(str(r.id)))
+	app.button("返回对局" if active else "取消",Rect2(480,640,480,60),func():app.menu_page="";page="play" if active else "home";app.render() if active else home())
+
+func permanent_leave(rid:String):
+	if busy:return
+	busy=true;var data=await api("/api/leave",{"room":rid,"permanent":true});busy=false
+	if data.has("error"):
+		message=data.error;app.notify(message);return
+	app.leave_room("",true);message="已彻底退出，现在可以创建或加入新房间。";await refresh();home()
+
+func spectator_lobby(value:Dictionary):
+	frame("观战 · "+("选择英雄" if value.phase=="hero_select" else "等待开局"))
+	app.label("观战不占席位，仅展示公开场面。",Rect2(300,235,840,55),22,"ffe4a6",true)
+	for i in range(value.players.size()):
+		app.label(str(value.players[i].name),Rect2(340+(i%2)*420,310+int(i/2)*62,390,50),23,"ffe4a6",true)
 
 func friend_room(code:String):
 	if busy:return
@@ -141,11 +195,14 @@ func queue_page():
 		app.button("继续等真人",Rect2(745,425,380,65),func():await api("/api/queue",{"protocol":PROTOCOL,"consent":false});await refresh();queue_page())
 	app.button("取消匹配",Rect2(465,545,510,65),func():await api("/api/queue",{"protocol":PROTOCOL,"cancel":true});await refresh();home())
 
-func connect_room():
+func connect_room(watch_room:String=""):
 	if busy:return
+	if not watch_room.is_empty():spectator=true;spectate_room=watch_room
 	busy=true
-	var data=await api("/api/ticket",{"protocol":PROTOCOL});busy=false
-	if data.has("error"):message=data.error;active=false;await refresh();home();return
+	connect_serial+=1;var attempt=connect_serial
+	var data=await api("/api/spectate" if spectator else "/api/ticket",{"protocol":PROTOCOL,"room":spectate_room});busy=false
+	if attempt!=connect_serial:return
+	if data.has("error"):message=data.error;stop();app.leave_room("",true);await refresh();home();return
 	if ws:ws.close()
 	ws=WebSocketPeer.new();ws.inbound_buffer_size=16777216;ws.outbound_buffer_size=262144
 	ticket=data.ticket;room_code=data.code;authed=false;serial=0;active=true;page="play"
@@ -158,6 +215,7 @@ func connect_room():
 
 func stop():
 	active=false;page="";ticket=""
+	spectator=false;spectate_room="";connect_serial+=1;app.menu_page=""
 	if ws:ws.close();ws=null
 
 func intent(action:String,index:int,target:int,guard:Dictionary):
@@ -181,6 +239,10 @@ func confirm_hero():
 
 func _process(_delta):
 	var now=Time.get_ticks_msec()/1000.0
+	if page=="rooms" and not busy and now-last_poll>3:
+		last_poll=now;busy=true
+		var data=await api("/api/rooms",{},HTTPClient.METHOD_GET);busy=false
+		if page=="rooms" and not data.has("error"):room_list=data.rooms;draw_rooms()
 	if page=="queue" and not busy and now-last_poll>2:
 		last_poll=now;busy=true;await refresh();busy=false
 		if page=="queue":queue_page()
@@ -204,5 +266,7 @@ func _process(_delta):
 	elif ws.get_ready_state()==WebSocketPeer.STATE_CLOSED and now>=next_retry and not busy:
 		if ws.get_close_reason()=="replaced":
 			stop();message="账号已由另一个连接接管";token="";app.online=false;login_page();return
+		if ws.get_close_reason() in ["departed","rejected"]:
+			app.leave_room("",true);await refresh();home();return
 		if app.state.get("phase","")=="finished":stop();return
 		next_retry=now+5;message="连接中断，正在恢复原席位（AI托管中）";await connect_room()

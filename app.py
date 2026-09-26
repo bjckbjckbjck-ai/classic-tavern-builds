@@ -1,6 +1,6 @@
 """Single-host, four-table service. Run exactly one uvicorn worker."""
 import asyncio, base64, hashlib, hmac, json, os, re, secrets, sqlite3, subprocess, threading, time
-from contextlib import asynccontextmanager
+from contextlib import asynccontextmanager, contextmanager
 from pathlib import Path
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import HTMLResponse
@@ -34,6 +34,7 @@ def init():
         CREATE TABLE IF NOT EXISTS members(room TEXT NOT NULL REFERENCES rooms(id), account INTEGER NOT NULL REFERENCES accounts(id), PRIMARY KEY(room, account));
         CREATE TABLE IF NOT EXISTS queue(account INTEGER PRIMARY KEY REFERENCES accounts(id), joined REAL NOT NULL, consent INTEGER NOT NULL DEFAULT 0);
         CREATE TABLE IF NOT EXISTS results(room TEXT NOT NULL, account INTEGER NOT NULL, rank INTEGER NOT NULL, delta INTEGER NOT NULL, rating INTEGER NOT NULL, PRIMARY KEY(room,account));
+        CREATE TABLE IF NOT EXISTS departures(room TEXT NOT NULL REFERENCES rooms(id), account INTEGER NOT NULL REFERENCES accounts(id), PRIMARY KEY(room,account));
         ''')
 
 def sha(value): return hashlib.sha256(value.encode()).hexdigest()
@@ -58,7 +59,7 @@ def auth(request):
     return dict(row)
 
 def active(c, account):
-    return c.execute("SELECT r.* FROM rooms r JOIN members m ON m.room=r.id WHERE m.account=? AND r.phase NOT IN ('finished','aborted')",(account,)).fetchone()
+    return c.execute("SELECT r.* FROM rooms r JOIN members m ON m.room=r.id WHERE m.account=? AND r.phase NOT IN ('finished','aborted') AND NOT EXISTS (SELECT 1 FROM departures d WHERE d.room=m.room AND d.account=m.account)",(account,)).fetchone()
 
 def public_room(r):
     return {k:r[k] for k in ['id','slot','code','mode','phase']}
@@ -71,7 +72,38 @@ def atomic_json(path, value):
 def roster(c,r):
     directory=ROOT/r['id']; directory.mkdir(exist_ok=True)
     members=[dict(x) for x in c.execute('SELECT a.id,a.name FROM accounts a JOIN members m ON m.account=a.id WHERE m.room=? ORDER BY a.id',(r['id'],))]
-    atomic_json(directory/'room.json',dict(id=r['id'],slot=r['slot'],mode=r['mode'],owner=r['owner'],members=members,created=r['created'],**json.loads(r['config'])))
+    departed=[x[0] for x in c.execute('SELECT account FROM departures WHERE room=?',(r['id'],))]
+    atomic_json(directory/'room.json',dict(id=r['id'],slot=r['slot'],mode=r['mode'],owner=r['owner'],members=members,departed=departed,created=r['created'],**json.loads(r['config'])))
+
+def remaining_members(c,rid):
+    return c.execute('SELECT account FROM members m WHERE room=? AND NOT EXISTS (SELECT 1 FROM departures d WHERE d.room=m.room AND d.account=m.account) ORDER BY account',(rid,)).fetchall()
+
+@contextmanager
+def admission_lock(r):
+    # Shared with the Godot host-start action: join and draft start are one boundary.
+    path=ROOT/r['id']/'admission.lock';until=time.monotonic()+3
+    while True:
+        try: path.mkdir();break
+        except FileExistsError:
+            if time.monotonic()>=until:fail('房间正在同步，请稍后重试',409)
+            time.sleep(.05)
+    try: yield
+    finally: path.rmdir()
+
+def room_status(r):
+    try: return json.loads((ROOT/r['id']/'status.json').read_text(encoding='utf-8'))
+    except (OSError,ValueError): return {}
+
+def result_factor(c,r):
+    n=c.execute('SELECT count(*) FROM members WHERE room=?',(r['id'],)).fetchone()[0]
+    return 0 if r['mode']=='friend' or n==1 else (1 if n==8 else .5)
+
+def settle_member(c,r,account,rank):
+    if c.execute('SELECT 1 FROM results WHERE room=? AND account=?',(r['id'],account)).fetchone(): return
+    old=c.execute('SELECT rating FROM accounts WHERE id=?',(account,)).fetchone()[0]
+    delta=int([70,45,25,10,-10,-25,-45,-70][rank-1]*result_factor(c,r)); new=max(0,old+delta)
+    c.execute('INSERT INTO results VALUES(?,?,?,?,?)',(r['id'],account,rank,new-old,new))
+    c.execute('UPDATE accounts SET rating=? WHERE id=?',(new,account))
 
 def launch(c, r):
     roster(c,r)
@@ -111,17 +143,13 @@ def allocate(c,mode,accounts):
 
 def finalize(c,r,result):
     if c.execute('SELECT phase FROM rooms WHERE id=?',(r['id'],)).fetchone()[0] in ('finished','aborted'): return
-    people=[row[0] for row in c.execute('SELECT account FROM members WHERE room=?',(r['id'],))]
+    departed={row[0] for row in c.execute('SELECT account FROM departures WHERE room=?',(r['id'],))}
+    present={int(p.get('id',0)) for p in result.get('players',[])}
+    people=[row[0] for row in c.execute('SELECT account FROM members WHERE room=?',(r['id'],)) if row[0] not in departed or row[0] in present]
     ranks={int(p['id']):int(p['rank']) for p in result.get('players',[]) if int(p.get('id',0)) in people}
     if set(ranks)!=set(people) or any(x<1 or x>8 for x in ranks.values()): raise ValueError('Incomplete final standings')
-    base=[70,45,25,10,-10,-25,-45,-70]
-    factor=1 if len(people)==8 else (0.5 if len(people)>1 else 0)
-    if r['mode']=='friend': factor=0
     for a,rank in ranks.items():
-        old=c.execute('SELECT rating FROM accounts WHERE id=?',(a,)).fetchone()[0]
-        delta=int(base[rank-1]*factor); new=max(0,old+delta)
-        c.execute('INSERT INTO results VALUES(?,?,?,?,?)',(r['id'],a,rank,new-old,new))
-        c.execute('UPDATE accounts SET rating=? WHERE id=?',(new,a))
+        settle_member(c,r,a,8 if a in departed and r['mode']=='ranked' else rank)
     c.execute("UPDATE rooms SET phase='finished',updated=?,result=? WHERE id=?",(time.time(),json.dumps(result),r['id']))
 
 def tick():
@@ -188,7 +216,7 @@ async def limits(request,call_next):
     return response
 
 @app.get('/api/health')
-def health(): return {'status':'ok','protocol':VERSION,'tables':4,'game':'0.61.0','service':'0.2.0-preview'}
+def health(): return {'status':'ok','protocol':VERSION,'tables':4,'game':'0.61.0','service':'0.3.0-preview'}
 
 @app.post('/api/register')
 def register(request:Request, body:dict):
@@ -255,13 +283,31 @@ def friends(request:Request,body:dict):
         else:
             r=c.execute("SELECT * FROM rooms WHERE code=? AND mode='friend' AND phase='lobby'",(code,)).fetchone()
             if not r: fail('房间不存在或已经开局',404)
-            if c.execute('SELECT count(*) FROM members WHERE room=?',(r['id'],)).fetchone()[0]>=8: fail('房间已满',409)
-            # Refuse late joins after the game process has already started.
-            statuspath=ROOT/r['id']/'status.json'
-            if statuspath.exists() and json.loads(statuspath.read_text())['phase']!='lobby': fail('房间已经开局',409)
-            c.execute('INSERT INTO members VALUES(?,?)',(r['id'],a['id']))
-            roster(c,r)
+            if c.execute('SELECT 1 FROM departures WHERE room=? AND account=?',(r['id'],a['id'])).fetchone(): fail('你已彻底退出该房间，可以观战或加入其他房间',409)
+            if len(remaining_members(c,r['id']))>=8: fail('房间已满',409)
+            with admission_lock(r):
+                # The table holds the same lock until its hero-select status is visible.
+                if room_status(r).get('phase','lobby')!='lobby':fail('房间已经开局',409)
+                c.execute('INSERT INTO members VALUES(?,?)',(r['id'],a['id']))
+                roster(c,r)
     return public_room(r)
+
+@app.get('/api/rooms')
+def rooms(request:Request):
+    a=auth(request)
+    with LOCK,db() as c:
+        current=active(c,a['id']); queued=c.execute('SELECT 1 FROM queue WHERE account=?',(a['id'],)).fetchone()
+        listing=[]
+        for r in c.execute("SELECT * FROM rooms WHERE phase NOT IN ('finished','aborted') ORDER BY slot"):
+            status=room_status(r); phase=status.get('phase',r['phase'])
+            if phase in ('finished','aborted'): continue
+            item=public_room(r); item['phase']=phase
+            item.update(mode_label='积分赛' if r['mode']=='ranked' else '好友房',human_count=len(remaining_members(c,r['id'])),capacity=8,round=int(status.get('round',0)),mine=bool(current and current['id']==r['id']))
+            departed=c.execute('SELECT 1 FROM departures WHERE room=? AND account=?',(r['id'],a['id'])).fetchone()
+            item['joinable']=r['mode']=='friend' and phase=='lobby' and item['human_count']<8 and not current and not queued and not departed
+            item['spectatable']=not current and not queued
+            listing.append(item)
+    return {'rooms':listing,'tables':4}
 
 @app.post('/api/queue')
 def queue(request:Request,body:dict):
@@ -290,23 +336,45 @@ def ticket(request:Request,body:dict):
     signature=hmac.new(KEY.encode(),payload.encode(),hashlib.sha256).hexdigest()
     return {'ticket':payload+'|'+signature,'slot':r['slot'],'room':r['id'],'code':r['code']}
 
+@app.post('/api/spectate')
+def spectate(request:Request,body:dict):
+    rate(request,'ticket',60); a=auth(request)
+    if body.get('protocol')!=VERSION: fail('客户端版本不一致',409)
+    with LOCK,db() as c:
+        if active(c,a['id']) or c.execute('SELECT 1 FROM queue WHERE account=?',(a['id'],)).fetchone(): fail('请先退出当前房间或取消匹配，再观战其他房间',409)
+        r=c.execute("SELECT * FROM rooms WHERE id=? AND phase NOT IN ('finished','aborted')",(str(body.get('room','')),)).fetchone()
+        if not r: fail('房间已经结束',404)
+    wait_ready(r)
+    payload=json.dumps({'room':r['id'],'account':a['id'],'role':'spectator','exp':int(time.time()+45),'nonce':secrets.token_hex(16),'protocol':VERSION},separators=(',',':'))
+    signature=hmac.new(KEY.encode(),payload.encode(),hashlib.sha256).hexdigest()
+    return {'ticket':payload+'|'+signature,'slot':r['slot'],'room':r['id'],'code':r['code']}
+
 @app.post('/api/leave')
-def leave(request:Request):
+def leave(request:Request,body:dict|None=None):
+    body=body or {}
     a=auth(request)
     with LOCK,db() as c:
         r=active(c,a['id'])
         if not r: return {'ok':True}
-        if r['phase']!='lobby' or r['mode']!='friend': fail('已开局不能释放席位，离线期间托管至终局',409)
-        statuspath=ROOT/r['id']/'status.json'
-        if statuspath.exists() and json.loads(statuspath.read_text())['phase']!='lobby': fail('已经开局',409)
-        c.execute('DELETE FROM members WHERE room=? AND account=?',(r['id'],a['id']))
-        other=c.execute('SELECT account FROM members WHERE room=? ORDER BY account',(r['id'],)).fetchone()
+        if body.get('room') and body['room']!=r['id']: fail('房间状态已改变，请刷新后重试',409)
+        status=room_status(r); phase=status.get('phase',r['phase'])
+        if phase=='finished': finalize(c,r,status);return {'ok':True}
+        if (phase!='lobby' or r['mode']!='friend') and body.get('permanent') is not True: fail('彻底退出后不能重连；积分赛按第8名结算，请明确确认',409)
+        c.execute('INSERT OR IGNORE INTO departures VALUES(?,?)',(r['id'],a['id']))
+        if r['mode']=='ranked':
+            rank=next((int(p.get('rank',0)) for p in status.get('players',[]) if int(p.get('id',0))==a['id']),0)
+            settle_member(c,r,a['id'],rank if 1<=rank<=8 else 8)
+        other=remaining_members(c,r['id'])
         if not other:
             c.execute("UPDATE rooms SET phase='aborted',updated=? WHERE id=?",(time.time(),r['id']))
             p=PROCESSES.get(r['id'])
-            if p and p.poll() is None: p.terminate()
+            if p and p.poll() is None:
+                p.terminate()
+                try: p.wait(timeout=2)
+                except subprocess.TimeoutExpired: p.kill();p.wait(timeout=2)
+            PROCESSES.pop(r['id'],None)
         else:
-            if r['owner']==a['id']: c.execute('UPDATE rooms SET owner=? WHERE id=?',(other[0],r['id']))
+            if r['owner']==a['id']: c.execute('UPDATE rooms SET owner=? WHERE id=?',(other[0][0],r['id']))
             roster(c,c.execute('SELECT * FROM rooms WHERE id=?',(r['id'],)).fetchone())
     return {'ok':True}
 

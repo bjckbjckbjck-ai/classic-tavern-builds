@@ -1,0 +1,2 @@
+Real wait: 61 seconds; both humans explicitly consented.
+PASS ranked 2-human/6-AI public spectator, no seat, each forfeit settles once at -35.

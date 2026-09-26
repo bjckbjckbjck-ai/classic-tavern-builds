@@ -1,0 +1,10 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+UI PASS four rooms have spectator buttons
+UI PASS only waiting friend room joinable
+UI PASS leave dialog guards render
+PRESENTATION VERIFIED Windows msaa=1 cards=1
+UI PASS public recruit renders without private zones
+UI PASS public combat renders without private zones
+ROOM_UI failures=0

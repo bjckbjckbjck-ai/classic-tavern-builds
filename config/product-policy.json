@@ -40,5 +40,23 @@
   "combat_playback": {
     "exit": "per_player_finish_or_skip",
     "recruit_actions_while_others_watch": true
+  },
+  "rooms_directory": {
+    "authenticated": true,
+    "labels": [
+      "好友房",
+      "积分赛"
+    ],
+    "join_friend_before_start": true,
+    "spectators_per_table": 8,
+    "spectators_read_only_public_information": true
+  },
+  "permanent_departure": {
+    "unbind_account": true,
+    "rejoin_as_player": false,
+    "friend_rating_delta": 0,
+    "ranked_uneliminated_rank": 8,
+    "ranked_eliminated_actual_rank": true,
+    "release_table_when_all_departed": true
   }
 }

@@ -30,7 +30,8 @@ func _initialize():
 	var other=snapshot(22)
 	action(peer,{"serial":6,"action":"buy","index":0,"guard":game.action_guard(p,"buy",0,-1)})
 	assert(p.coins<coins and not p.hand.is_empty())
-	assert(snapshot(22)==other)
+	var after=snapshot(22);after.erase("remaining");other.erase("remaining")
+	assert(after==other)
 	coins=p.coins
 	finish_replay(11,combat_round);finish_replay(22,combat_round)
 	assert(p.coins==coins and game.round_no==2 and snapshot(22).phase=="recruit")

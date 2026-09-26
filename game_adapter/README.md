@@ -10,4 +10,6 @@
 更新游戏时在游戏侧合并新规则，再更新此适配目录和补丁；不要直接把服务仓的独立历史合并进游戏。重新做协议、重连、32客户端和备份回归，构建对应客户端后再维护排空发布。
 
 - service_updater.gd：云服独立版本通道；HTTPS清单、Windows校验替换及备份，Android浏览器下载/系统确认安装。
-- 音乐与原创音效由更新后的 game_base_commit 提供，服务仓不重复复制音乐资源。client_build_commit 是客户端构建来源；server_build_commit 记录仍在运行的桌进程构建，本次没有重启服务。
+- 音乐与原创音效由更新后的 game_base_commit 提供，服务仓不重复复制音乐资源。client_build_commit 与 server_build_commit 分别记录客户端及桌进程来源；服务端变更在排空后重启。
+
+- service6 新增公开观战票据和快照过滤、显式退出名单同步、加入/开局共用 admission.lock，相关集成验证在 tests/room_* 与 tests/live_rooms.py。

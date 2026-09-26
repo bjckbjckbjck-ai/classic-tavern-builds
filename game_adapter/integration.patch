@@ -1,5 +1,5 @@
 diff --git a/export_presets.cfg b/export_presets.cfg
-index a19d1a2..3dcf16c 100644
+index a19d1a2..cfe2c10 100644
 --- a/export_presets.cfg
 +++ b/export_presets.cfg
 @@ -43,10 +43,10 @@ architectures/armeabi-v7a=true
@@ -10,8 +10,8 @@ index a19d1a2..3dcf16c 100644
 -version/name="0.61.0"
 -package/unique_name="org.classictavern.game"
 -package/name="经典酒馆"
-+version/code=5
-+version/name="0.61.0-service5"
++version/code=6
++version/name="0.61.0-service6"
 +package/unique_name="org.classictavern.service"
 +package/name="云端酒馆"
  package/signed=true
@@ -134,7 +134,7 @@ index 2ef4e40..276f6a2 100644
  static func heroes(app):
  	app.gallery_kind="heroes";app.COLLECTION.show(app)
 diff --git a/scripts/main.gd b/scripts/main.gd
-index a9dfb68..9abca57 100644
+index a9dfb68..e270197 100644
 --- a/scripts/main.gd
 +++ b/scripts/main.gd
 @@ -114,10 +114,12 @@ const FOYER=preload("res://scripts/foyer_ui.gd")
@@ -163,15 +163,18 @@ index a9dfb68..9abca57 100644
  	var arrow=preload("res://scripts/target_arrow.gd").new();arrow.app=self;add_child(arrow)
  	var purchase_catcher=preload("res://scripts/purchase_catcher.gd").new();purchase_catcher.app=self;add_child(purchase_catcher)
  	menu()
-@@ -503,6 +506,7 @@ func content(cards: Dictionary,heroes: Array,spells:Array,trinkets:Array,prizes:
+@@ -502,7 +505,9 @@ func content(cards: Dictionary,heroes: Array,spells:Array,trinkets:Array,prizes:
+ @rpc("authority","call_remote","reliable")
  func rejected(reason: String): leave_room(reason)
  
- func leave_room(reason: String = ""):
+-func leave_room(reason: String = ""):
++func leave_room(reason: String = "",local_only:bool=false):
++	if cloud and cloud.active and reason.is_empty() and not local_only:cloud.leave_options();return
 +	if cloud and cloud.active:cloud.stop()
  	action_history.clear()
  	online=false
  	for child in get_children():
-@@ -574,7 +578,8 @@ func request(action: String,index: int = -1,target: int = -1):
+@@ -574,7 +579,8 @@ func request(action: String,index: int = -1,target: int = -1):
  	for card in cards_ui:
  		if card.zone==origin_zone and card.index==index:pending_origin=card.position+card.size/2
  	var guard=RULES.action_guard(state.get("me",{}),action,index,target)
@@ -181,7 +184,7 @@ index a9dfb68..9abca57 100644
  	else: intent.rpc_id(1,action,index,target,guard)
  
  @rpc("any_peer","call_remote","reliable")
-@@ -642,7 +647,7 @@ func receive_state(value: Dictionary):
+@@ -642,7 +648,7 @@ func receive_state(value: Dictionary):
  	# Other seats changing their shops must not destroy an in-progress local drag.
  	if value.get("phase","")=="recruit" and state.get("phase","")=="recruit" and value.get("round",0)==state.get("round",0) and value.get("me",{})==state.get("me",{}) and value.get("watch_id",0)==state.get("watch_id",0):
  		state=value
@@ -190,7 +193,7 @@ index a9dfb68..9abca57 100644
  		return
  	if is_instance_valid(battlecry_preview):battlecry_preview.close()
  	var old=state.duplicate(true)
-@@ -657,7 +662,7 @@ func receive_state(value: Dictionary):
+@@ -657,7 +663,7 @@ func receive_state(value: Dictionary):
  	if old.get("watch_id",0)!=state.get("watch_id",0) and state.get("spectating",false):feedback.cue("spectate")
  	elif int(old.get("round",0))!=int(state.get("round",0)) and state.get("phase","")=="recruit":feedback.cue("opponent")
  	if old.is_empty() or state.phase=="lobby":recruit_seen=0
@@ -199,15 +202,24 @@ index a9dfb68..9abca57 100644
  	if state.phase=="combat" and (replay_round!=int(state.round) or old.get("watch_id",0)!=state.get("watch_id",0)):
  		replay_round=int(state.round)
  		replay_index=0
-@@ -727,6 +732,7 @@ func render():
+@@ -710,6 +716,7 @@ func receive_state(value: Dictionary):
+ var counter_state:Dictionary={}
+ var counter_scope=""
+ func render():
++	if menu_page=="cloud_leave":return
+ 	if menu_page=="anomalies":
+ 		if state.is_empty() or state.get("phase","")=="lobby":
+ 			load("res://scripts/anomaly_ui.gd").settings(self,not state.is_empty());return
+@@ -727,6 +734,8 @@ func render():
  		if not ui.has_node("CollectionContent"):show_gallery()
  		return
  	if state.is_empty():menu();return
++	if cloud and cloud.active and cloud.spectator and state.phase in ["lobby","hero_select"]:cloud.spectator_lobby(state);return
 +	if cloud and cloud.active and state.phase=="hero_select":cloud.hero_draft();return
  	if state.phase=="lobby":anomaly_intro_seen="";lobby();return
  	table()
  
-@@ -876,7 +882,13 @@ func table():
+@@ -876,7 +885,13 @@ func table():
  			hero_image(catalog.heroes[int(results[i].hero)],Rect2(463,y,40,43),results[i].hp<=0)
  			label(results[i].name,Rect2(521,y,260,43),21,"eed8b1")
  			label(catalog.heroes[int(results[i].hero)].name,Rect2(786,y,370,43),20,"eed8b1")
@@ -215,14 +227,22 @@ index a9dfb68..9abca57 100644
 +		if cloud and cloud.active:
 +			button("返回云端大厅",Rect2(568,723,310,64),func():
 +				var mode=cloud.desired
-+				leave_room()
++				leave_room("",true)
 +				cloud.open(mode),false,true)
 +		else:
 +			button("再来一局" if is_manager() else "等待管理员重新开局",Rect2(568,723,310,64),func():room_command("rematch"),not is_manager(),true)
  	UX.decorate(self,p)
  	var h:Dictionary=catalog.heroes[int(p.hero)]
  	var hero_rect=layout.hero_rect();var hero_y=hero_rect.position.y
-@@ -945,6 +957,7 @@ func combat_public(player:Dictionary)->Dictionary:
+@@ -909,6 +924,7 @@ func table():
+ 	if recruiting and not recruit_lock_reason().is_empty():toast_label.text=recruit_lock_reason();toast_label.add_theme_color_override("font_color",Color("ffd075"))
+ 	if settling:toast_label.text="回合已结束 · 正在展示回合末效果，随后自动进入战斗"
+ 	if state.get("viewer_dead",false):toast_label.text=("观战："+p.name+" · 点击左侧存活玩家切换" if state.get("spectating",false) else "已淘汰 · 点击左侧存活玩家观战");toast_label.modulate=Color("98f7ea")
++	if cloud and cloud.active and cloud.spectator:toast_label.text="公开观战："+p.name+" · 手牌与商店隐藏"
+ 	inspector=label("",Rect2(270,344 if layout.desktop_hud() else 622,650,28),14,"e4d1b0",true)
+ 	TRINKET_UI.owned(self)
+ 	if state.phase=="finished":timer_label.hide()
+@@ -945,6 +961,7 @@ func combat_public(player:Dictionary)->Dictionary:
  
  func skip_battle():
  	if state.get("phase","")!="combat" or state.me.hp<=0:return
@@ -230,7 +250,7 @@ index a9dfb68..9abca57 100644
  	if multiplayer.multiplayer_peer is OfflineMultiplayerPeer:
  		if game.phase!="combat" or game.player(1).hp<=0:return
  		game.finish_combat();deadline=now()+recruit_seconds();broadcast()
-@@ -1231,7 +1244,7 @@ func _process(delta):
+@@ -1231,7 +1248,7 @@ func _process(delta):
  
  	frame_samples.append(delta*1000.0)
  	if frame_samples.size()>600:frame_samples.pop_front()
@@ -239,7 +259,7 @@ index a9dfb68..9abca57 100644
  	feedback.update_timer(state.get("phase",""),int(state.get("round",0)),deadline-now()-own_penalty,not state.get("viewer_dead",false) and state.get("me",{}).get("hp",0)>0 and not state.get("me",{}).get("ready",false))
  	if is_instance_valid(timer_label):
  		var time_text="%02d 秒"%maxi(0,int(deadline-now()-own_penalty))
-@@ -1240,7 +1253,7 @@ func _process(delta):
+@@ -1240,7 +1257,7 @@ func _process(delta):
  		var left=maxf(0,deadline-now()-own_penalty)
  		if trim.recruiting and left<20 and absf(left-trim.remaining)>=.05:trim.remaining=left;trim.queue_redraw()
  	if not online:return
@@ -248,7 +268,7 @@ index a9dfb68..9abca57 100644
  		var expired=false
  		for p in game.players:expired=game.TOMORROW.expire(game,p,deadline-now()) or expired
  		if expired:broadcast()
-@@ -1256,7 +1269,7 @@ func _process(delta):
+@@ -1256,7 +1273,7 @@ func _process(delta):
  			game.begin_settling()
  			deadline=now()+game.settling_seconds
  			broadcast()
@@ -257,7 +277,7 @@ index a9dfb68..9abca57 100644
  		game.battle()
  		var longest=0.0
  		for r in game.replays.values():
-@@ -1265,7 +1278,7 @@ func _process(delta):
+@@ -1265,7 +1282,7 @@ func _process(delta):
  			longest=maxf(longest,duration)
  		deadline=now()+maxf(longest+2,5)
  		broadcast()
@@ -266,7 +286,7 @@ index a9dfb68..9abca57 100644
  		game.finish_combat()
  		deadline=now()+recruit_seconds()
  		broadcast()
-@@ -1279,6 +1292,8 @@ func _process(delta):
+@@ -1279,6 +1296,8 @@ func _process(delta):
  	if state.get("phase","")=="combat" and settlement_deadline>0 and now()>=settlement_deadline:
  		settlement_deadline=0;settlement_complete=true
  		if not gallery:render()
