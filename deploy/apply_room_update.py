@@ -12,7 +12,7 @@ if active or queued:raise SystemExit('Players still active or queued; update def
 subprocess.run(['systemctl','start','classic-tavern-backup.service'],check=True)
 backup=base/('rollback-rooms-'+str(int(time.time())))
 backup.mkdir(mode=0o700)
-files={'app.py':base/'app.py','service_server.gd':base/'game/scripts/service_server.gd'}
+files={'app.py':base/'app.py','service_server.gd':base/'game/scripts/service_server.gd','rules.gd':base/'game/scripts/rules.gd'}
 for name,target in files.items():
     if not (stage/name).is_file():raise SystemExit('Missing staged file: '+name)
     shutil.copy2(target,backup/name)

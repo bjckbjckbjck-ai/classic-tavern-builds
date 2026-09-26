@@ -1,5 +1,5 @@
 diff --git a/export_presets.cfg b/export_presets.cfg
-index a19d1a2..cfe2c10 100644
+index a19d1a2..d8f3c13 100644
 --- a/export_presets.cfg
 +++ b/export_presets.cfg
 @@ -43,10 +43,10 @@ architectures/armeabi-v7a=true
@@ -10,8 +10,8 @@ index a19d1a2..cfe2c10 100644
 -version/name="0.61.0"
 -package/unique_name="org.classictavern.game"
 -package/name="经典酒馆"
-+version/code=6
-+version/name="0.61.0-service6"
++version/code=7
++version/name="0.61.0-service7"
 +package/unique_name="org.classictavern.service"
 +package/name="云端酒馆"
  package/signed=true
@@ -134,7 +134,7 @@ index 2ef4e40..276f6a2 100644
  static func heroes(app):
  	app.gallery_kind="heroes";app.COLLECTION.show(app)
 diff --git a/scripts/main.gd b/scripts/main.gd
-index a9dfb68..e270197 100644
+index c5a7778..69bc641 100644
 --- a/scripts/main.gd
 +++ b/scripts/main.gd
 @@ -114,10 +114,12 @@ const FOYER=preload("res://scripts/foyer_ui.gd")

@@ -1,0 +1,1 @@
+PASS real 61-second consent, 2 humans / 6 AI, public spectator without seat or private zones, two idempotent -35 forfeits.
