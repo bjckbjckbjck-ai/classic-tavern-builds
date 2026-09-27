@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>閰掗鎴樻 路 鍘嗗彶鍥鹃壌</title>
+  <style>
+    :root{
+      --bg:#0e0b0a;--panel:#181210;--panel2:#211814;--line:#3b2b22;--gold:#e4b65d;--gold2:#f6d48a;
+      --text:#f5eee6;--muted:#bbaa9b;--good:#71d39d;--bad:#ef7f7f;--blue:#78b8ff;--purple:#b99aff;
+      --shadow:0 18px 60px rgba(0,0,0,.38);--r:18px
+    }
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(1100px 600px at 12% -10%,#402d1d 0,transparent 60%),linear-gradient(180deg,#0b0908,#100c0a 40%,#0b0908);color:var(--text);font:14px/1.5 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;min-height:100vh}
+    button,input,select{font:inherit}button{cursor:pointer}.app{max-width:1540px;margin:auto;padding:20px 22px 54px}
+    .top{display:flex;gap:18px;align-items:center;justify-content:space-between;margin-bottom:16px}.brand h1{font-size:28px;margin:0;letter-spacing:.5px}.brand p{margin:4px 0 0;color:var(--muted)}
+    .status{display:flex;align-items:center;gap:9px;padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:#140f0d;color:var(--muted);white-space:nowrap}.dot{width:9px;height:9px;border-radius:50%;background:#666}.dot.ok{background:var(--good);box-shadow:0 0 14px rgba(113,211,157,.5)}.dot.busy{background:var(--gold);animation:pulse 1s infinite alternate}.dot.err{background:var(--bad)}@keyframes pulse{to{opacity:.35}}
+    .toolbar{background:linear-gradient(180deg,rgba(36,26,21,.96),rgba(23,17,14,.96));border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:14px;position:sticky;top:8px;z-index:20;backdrop-filter:blur(12px)}
+    .searchrow{display:grid;grid-template-columns:minmax(280px,1fr) minmax(280px,360px) 160px auto;gap:10px}.field{height:42px;background:#100c0a;border:1px solid #49352a;border-radius:12px;color:var(--text);padding:0 12px;outline:none}.field:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(228,182,93,.1)}.search{font-size:15px}
+    .btn{height:42px;padding:0 14px;border-radius:12px;border:1px solid #5b4434;background:#291e18;color:var(--text)}.btn:hover{border-color:var(--gold);background:#33251d}.btn.gold{background:linear-gradient(180deg,#b88937,#896324);color:#160f07;border-color:#e8bd65;font-weight:700}.btn.ghost{background:transparent}.btn.small{height:34px;padding:0 10px;border-radius:10px}
+    .filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;align-items:center}.chip{border:1px solid #48342a;background:#17110f;color:var(--muted);padding:6px 10px;border-radius:999px;cursor:pointer}.chip:hover,.chip.on{border-color:#c99845;color:#fff;background:#382719}.sep{width:1px;height:26px;background:var(--line);margin:0 2px}
+    .eraPanel{margin-top:10px;padding:11px 12px;border:1px solid #4b3729;border-radius:13px;background:linear-gradient(90deg,#1d140f,#17110f);display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center}.eraPanel .eraNav{display:flex;gap:6px}.eraPanel h3{margin:0 0 3px;font-size:15px;color:var(--gold2)}.eraPanel p{margin:0;color:var(--muted);font-size:12px}.eraPanel .eraMeta{text-align:right;font-size:11px;color:#a9947f;white-space:nowrap}.advanced{margin-top:10px;padding-top:10px;border-top:1px dashed #443227;display:none;grid-template-columns:200px auto auto 1fr;gap:8px;align-items:center}.advanced.open{display:grid}.hint{color:var(--muted);font-size:12px}.check{display:flex;gap:7px;align-items:center;color:var(--muted)}
+    .summary{display:grid;grid-template-columns:repeat(4,minmax(150px,1fr));gap:10px;margin:14px 0}.stat{border:1px solid var(--line);border-radius:14px;background:#15100e;padding:11px 13px}.stat b{display:block;font-size:21px;color:var(--gold2)}.stat span{color:var(--muted);font-size:12px}
+    .notice{display:none;border:1px solid #5d472d;background:#21190f;color:#e9d4ad;border-radius:12px;padding:10px 12px;margin:12px 0}.notice.show{display:block}.notice.error{border-color:#613434;background:#211010;color:#f0b5b5}.notice.good{border-color:#315746;background:#102019;color:#b7e7cd}
+    .contenthead{display:flex;justify-content:space-between;align-items:end;gap:12px;margin:17px 2px 10px}.contenthead h2{margin:0;font-size:18px}.contenthead .sub{color:var(--muted);font-size:12px}.righttools{display:flex;gap:8px;align-items:center}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}.card{background:linear-gradient(180deg,#1c1512,#130f0d);border:1px solid #38291f;border-radius:16px;overflow:hidden;min-height:330px;transition:.16s transform,.16s border-color,.16s box-shadow;position:relative}.card:hover{transform:translateY(-2px);border-color:#8a673b;box-shadow:0 12px 34px rgba(0,0,0,.28)}.card.absent{opacity:.42;filter:saturate(.45)}
+    .art{height:150px;background:radial-gradient(circle at 50% 30%,#3d2c20,#17110e 70%);position:relative;overflow:hidden}.art img{width:100%;height:100%;object-fit:cover;object-position:center 26%;display:block}.art::after{content:"";position:absolute;inset:auto 0 0;height:50%;background:linear-gradient(transparent,#18120f)}.badgebar{position:absolute;left:9px;right:9px;bottom:7px;display:flex;gap:6px;flex-wrap:wrap;z-index:2}.badge{font-size:11px;border:1px solid rgba(255,255,255,.15);background:rgba(15,11,9,.82);backdrop-filter:blur(4px);padding:3px 7px;border-radius:999px;color:#ddd}.badge.gold{color:#f4d183;border-color:#8f6b31}.badge.green{color:#9ce7bb}.badge.red{color:#f3aaaa}.badge.blue{color:#9cc9ff}.body{padding:11px 12px 12px}.name{font-size:16px;font-weight:800;display:flex;justify-content:space-between;gap:8px;align-items:start}.name .tier{color:var(--gold2);font-size:12px;white-space:nowrap}.ename{font-size:11px;color:#8f8176;margin-top:2px;min-height:17px}.statsline{display:flex;gap:8px;align-items:center;margin:8px 0;color:#d7c8ba}.statpill{background:#251a15;border:1px solid #453126;border-radius:8px;padding:3px 7px;font-variant-numeric:tabular-nums}.tribes{color:#bc9f7f;font-size:12px}.text{margin-top:8px;color:#dfd5cc;min-height:61px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.foot{display:flex;justify-content:space-between;gap:8px;color:#8f8176;font-size:11px;margin-top:10px}.foot span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.click{position:absolute;inset:0;border:0;background:transparent}
+    .loading{grid-column:1/-1;padding:60px 20px;text-align:center;color:var(--muted)}.spinner{width:34px;height:34px;border:3px solid #3d2c23;border-top-color:var(--gold);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 10px}@keyframes spin{to{transform:rotate(360deg)}}
+    .empty{grid-column:1/-1;padding:70px 20px;text-align:center;color:var(--muted);border:1px dashed #3f2e25;border-radius:16px}.more{display:block;margin:18px auto 0;min-width:160px}.more[hidden]{display:none}
+    dialog{width:min(980px,calc(100vw - 26px));max-height:88vh;border:1px solid #5a4132;border-radius:20px;background:#120e0c;color:var(--text);padding:0;box-shadow:0 25px 100px rgba(0,0,0,.65)}dialog::backdrop{background:rgba(0,0,0,.72);backdrop-filter:blur(3px)}.modalhead{position:sticky;top:0;z-index:3;display:flex;justify-content:space-between;align-items:center;padding:12px 14px;background:#17110f;border-bottom:1px solid var(--line)}.modalhead h3{margin:0;font-size:16px}.close{width:36px;height:36px;border-radius:10px;border:1px solid #49352b;background:#211814;color:#fff}.modalbody{padding:16px}.detail{display:grid;grid-template-columns:290px 1fr;gap:20px}.fullart{border-radius:16px;overflow:hidden;border:1px solid #49362b;background:#1b1411;min-height:380px}.fullart img{width:100%;display:block}.dname{font-size:26px;font-weight:850}.dename{color:var(--muted);margin-top:2px}.dmeta{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}.dtext{font-size:16px;line-height:1.72;padding:14px;border:1px solid #3c2b22;border-radius:14px;background:#18110f;white-space:pre-line}.kv{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:12px}.kv>div{padding:9px 10px;border-radius:10px;background:#17110f;border:1px solid #33251e}.kv small{color:var(--muted);display:block}.section{margin-top:18px}.section h4{margin:0 0 8px}.timeline{display:grid;gap:8px}.event{border-left:3px solid #72532e;background:#17110f;padding:9px 11px;border-radius:0 10px 10px 0}.event b{color:var(--gold2)}.event small{color:var(--muted)}.raw{font:12px/1.55 ui-monospace,SFMono-Regular,Consolas,monospace;white-space:pre-wrap;background:#0c0908;border:1px solid #2e211b;border-radius:12px;padding:10px;color:#bdaea1;max-height:250px;overflow:auto}
+    .tablewrap{overflow:auto;border:1px solid var(--line);border-radius:14px;background:#130f0d}.table{width:100%;border-collapse:collapse;min-width:980px}.table th,.table td{padding:9px 10px;border-bottom:1px solid #2d211b;text-align:left;vertical-align:top}.table th{position:sticky;top:0;background:#211713;color:#cfbda9}.table tr:hover td{background:#1a1310}.muted{color:var(--muted)}.hide{display:none!important}
+    @media(max-width:850px){.app{padding:12px}.eraPanel{grid-template-columns:auto 1fr}.eraPanel .eraMeta{grid-column:2;text-align:left;white-space:normal}.top{align-items:flex-start;flex-direction:column}.searchrow{grid-template-columns:1fr 1fr}.searchrow .search{grid-column:1/-1}.summary{grid-template-columns:1fr 1fr}.detail{grid-template-columns:1fr}.fullart{max-width:300px;margin:auto}.advanced.open{grid-template-columns:1fr 1fr}.toolbar{top:4px}.grid{grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}.art{height:126px}}
+    @media(max-width:520px){.searchrow{grid-template-columns:1fr}.searchrow .search{grid-column:auto}.summary{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr 1fr;gap:8px}.card{min-height:305px}.body{padding:9px}.name{font-size:14px}.text{font-size:12px}.art{height:112px}.filters{max-height:82px;overflow:auto}.status{font-size:12px}}
+  </style>
+</head>
+<body>
+<div class="app">
+  <div class="top">
+    <div class="brand">
+      <h1>馃嵑 閰掗鎴樻 路 鍘嗗彶鍥鹃壌</h1>
+      <p>鎸夐厭棣嗘垬妫嬧€滃ぇ鐗堟湰 / 澶ф椂浠ｂ€濇煡璇細浠庤繙鍙ゅ法澹抽緳銆侀緳鏃忔捣鐩楋紝鍒颁紮浼淬€佷换鍔°€佺暩鍙樸€侀厭棣嗘硶鏈€侀グ鍝侊紝鍐嶅埌鏈€鏂板彉寮傛€€�</p>
+    </div>
+    <div class="status" title="鏁版嵁婧愮姸鎬�"><span id="statusDot" class="dot busy"></span><span id="statusText">姝ｅ湪杩炴帴鏁版嵁婧愨€�</span></div>
+  </div>
+
+  <section class="toolbar">
+    <div class="searchrow">
+      <input id="search" class="field search" placeholder="鎼滅储涓枃鍚� / 鑻辨枃鍚� / 鍗＄墝鏂囨湰 / ID锛屼緥濡傦細娴风洍銆丅attlecry銆丅G鈥�" autocomplete="off" />
+      <select id="era" class="field" title="閫夋嫨閰掗鎴樻澶х増鏈�"><option>姝ｅ湪杞藉叆澶х増鏈椂浠ｈ酱鈥�</option></select>
+      <select id="pool" class="field" title="鍗℃睜鐘舵€�">
+        <option value="current">璇ュぇ鐗堟湰鍙敤</option><option value="all">璇� Build 鍏ㄩ儴閰掗鍗�</option><option value="legacy">璇ョ増鏈湭鍏ユ睜 / 宸查€€</option><option value="upcoming">鍗冲皢涓婄嚎</option>
+      </select>
+      <button id="advancedBtn" class="btn ghost">楂樼骇 / 绮剧‘ Build</button>
+    </div>
+
+    <div id="eraPanel" class="eraPanel">
+      <div class="eraNav"><button id="prevEra" class="btn small ghost" title="涓婁竴涓ぇ鐗堟湰">鈫�</button><button id="nextEra" class="btn small ghost" title="涓嬩竴涓ぇ鐗堟湰">鈫�</button></div>
+      <div><h3 id="eraTitle">澶х増鏈椂浠ｈ酱</h3><p id="eraDesc">閫夋嫨涓€涓椂浠ｅ悗锛岄〉闈㈢洿鎺ヨ鍙栭偅涓鎴风鐗堟湰鐨勪腑鏂囧崱鐗屾暟鎹€�</p></div>
+      <div id="eraMeta" class="eraMeta">鈥�</div>
+    </div>
+
+    <div id="typeChips" class="filters"><button class="chip on" data-type="all">鍏ㄩ儴绫诲瀷</button></div>
+
+    <div id="advanced" class="advanced">
+      <input id="build" class="field" inputmode="numeric" placeholder="Build锛屼緥濡� 239550" />
+      <button id="loadBuild" class="btn gold">杞藉叆绮剧‘ Build</button>
+      <label class="check"><input id="includeAux" type="checkbox" /> 鍖呭惈琛嶇敓鐗�/閲戣壊/闅愯棌鍗�</label>
+      <div class="hint">澶х増鏈笅鎷夊凡缁忛缃叧閿巻鍙茶妭鐐癸紱杩欓噷淇濈暀缁欒€冨彜鐢ㄣ€傝緭鍏ヤ换鎰� Hearthstone 瀹㈡埛绔� Build锛屽彲鐩存帴璇诲彇璇� Build 鐨� zhCN 鍗＄墝鏂囦欢銆�</div>
+    </div>
+
+    <div class="filters">
+      <select id="tier" class="field" style="height:34px;width:130px"><option value="all">鍏ㄩ儴绛夌骇</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select>
+      <select id="tribe" class="field" style="height:34px;width:160px"><option value="all">鍏ㄩ儴绉嶆棌</option></select>
+      <select id="sort" class="field" style="height:34px;width:150px"><option value="tier">绛夌骇鎺掑簭</option><option value="name">鍚嶇О鎺掑簭</option><option value="type">绫诲瀷鎺掑簭</option><option value="id">ID 鎺掑簭</option></select>
+      <span class="sep"></span>
+      <button id="refresh" class="btn small ghost">鍒锋柊鏁版嵁</button>
+      <button id="importBtn" class="btn small ghost">瀵煎叆 JSON</button>
+      <input id="importFile" type="file" accept=".json,application/json" hidden />
+    </div>
+  </section>
+
+  <div id="notice" class="notice"></div>
+
+  <section class="summary">
+    <div class="stat"><b id="countAll">鈥�</b><span>鏁版嵁搴撳崱鐗�</span></div>
+    <div class="stat"><b id="countFiltered">鈥�</b><span>褰撳墠绛涢€夌粨鏋�</span></div>
+    <div class="stat"><b id="countTypes">鈥�</b><span>宸茶瘑鍒被鍨�</span></div>
+    <div class="stat"><b id="modeLabel">澶х増鏈�</b><span>褰撳墠鏃朵唬</span></div>
+  </section>
+
+  <div class="contenthead">
+    <div><h2 id="resultTitle">鍥鹃壌</h2><div id="resultSub" class="sub">鍔犺浇涓€�</div></div>
+    <div class="righttools">
+      <button id="viewToggle" class="btn small">鍒囨崲琛ㄦ牸</button>
+    </div>
+  </div>
+
+  <main id="grid" class="grid"><div class="loading"><div class="spinner"></div>姝ｅ湪鍔犺浇閰掗鎴樻鏁版嵁搴撯€�</div></main>
+  <div id="tableWrap" class="tablewrap hide"></div>
+  <button id="more" class="btn more" hidden>鍔犺浇鏇村</button>
+
+  <footer style="margin-top:26px;color:#7f7167;font-size:12px;line-height:1.8">
+    澶х増鏈椂浠ｈ酱浣跨敤 HearthstoneJSON 鐨勫巻鍙插鎴风 Build 澶嶅師锛涘崱鐗屽巻鍙层€佸浘鐗囦笌鍏ㄩ噺绱㈠紩杈呭姪鏉ヨ嚜 HS BG Cards銆傝繖閲屽埢鎰忎笉鍒� 35.2.1銆�35.2.2 杩欑被灏忓钩琛¤ˉ涓侊紝鍙繚鐣欎細鏄庢樉鏀瑰彉閰掗鐢熸€佺殑鐗堟湰鑺傜偣銆�
+  </footer>
+</div>
+
+<dialog id="detailDialog">
+  <div class="modalhead"><h3>鍗＄墝璇︽儏</h3><button class="close" onclick="detailDialog.close()">鉁�</button></div>
+  <div id="detailBody" class="modalbody"></div>
+</dialog>
+
+<script>
+'use strict';
+const API='https://hsbg.cards/api/v1';
+const HSJ='https://api.hearthstonejson.com/v1';
+const CACHE_KEY='bgs_archive_cards_v4', CACHE_ZH='bgs_archive_zh_v4';
+const TYPE_LABELS={minion:'闅忎粠',spell:'閰掗娉曟湳',trinket:'楗板搧',anomaly:'鐣稿彉',hero:'鑻遍泟',hero_power:'鑻遍泟鎶€鑳�',buddy:'浼欎即',quest:'浠诲姟',reward:'浠诲姟濂栧姳',dark_gift:'榛戞殫璧犵ぜ',timewarp:'鏃剁┖閰掗',prize:'鏆楁湀濂栧搧',aberration:'鍙樺紓鎬�',token:'琛嶇敓鐗�',enchantment:'闄勯瓟',unknown:'鍏朵粬'};
+const TRIBE_LABELS={BEAST:'閲庡吔',DEMON:'鎭堕瓟',DRAGON:'榫�',ELEMENTAL:'鍏冪礌',MECH:'鏈烘',MURLOC:'楸间汉',NAGA:'绾宠喀',PIRATE:'娴风洍',QUILBOAR:'閲庣尓浜�',UNDEAD:'浜＄伒',ABERRATION:'鍙樺紓鎬�',ALL:'鍏ㄩ儴',DRAENEI:'寰疯幈灏�'};
+const state={cards:[],baseCards:[],filtered:[],zh:new Map(),type:'all',visible:60,view:'grid',mode:'era',build:null,era:'aberrations',patch:'live',hist:new Map(),source:'',loadedAt:0};
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const els={search:$('#search'),era:$('#era'),pool:$('#pool'),tier:$('#tier'),tribe:$('#tribe'),sort:$('#sort'),grid:$('#grid'),table:$('#tableWrap'),more:$('#more'),notice:$('#notice'),statusDot:$('#statusDot'),statusText:$('#statusText'),types:$('#typeChips')};
+const ERAS=[
+  {id:'launch',year:2019,patch:'15.6',build:35747,date:'2019-11-05',title:'寮€鏈嶅厓骞� 路 杩滃彜閰掗',tag:'娓╅『鐨勫法澹抽緳 / 鍏夌墮 / 鐔婂濡�',desc:'閰掗鎴樻鏈€鍒濆舰鎬併€傞€傚悎鏌ヨ杩滃彜楸间汉鍦ｇ浘鍓ф瘨銆佸厜鐗欐贩鍚堟祦銆佺唺濡堝閲庡吔绛夋棭鏈熷崱姹犮€�'},
+  {id:'dragons',year:2020,patch:'16.4',build:42174,date:'2020-02-26',title:'榫欐棌闄嶄复',tag:'鍗￠浄鑻熸柉 / 绾㈣。绾宠开濞�',desc:'榫欐棌姝ｅ紡鍔犲叆閰掗锛屽崱闆疯嫙鏂€佺撼杩绛夌粡鍏搁緳浣撶郴鍑虹幇锛涘法澹抽緳浠嶅湪杩欎釜鏃朵唬銆�'},
+  {id:'pirates',year:2020,patch:'17.4',build:49534,date:'2020-06-09',title:'娴风洍鏃朵唬',tag:'娴风洍鍔犲叆 / 杞崲绉嶆棌姹�',desc:'娴风洍棣栨鍔犲叆锛屽悓鏃剁‘绔嬫瘡灞€闅忔満鍚敤閮ㄥ垎绉嶆棌鐨勮疆鎹㈢粨鏋勩€�'},
+  {id:'elementals',year:2020,patch:'18.4',build:60352,date:'2020-09-29',title:'鍏冪礌鏃朵唬',tag:'璇虹背 / 灏忔媺鏍� / 鍏冪礌',desc:'鍏冪礌鍔犲叆锛岃绫炽€佸皬鎷夋牸銆佺伅绁炵瓑鏋勬垚鏃╂湡鍏冪礌浣撶郴銆傛敞鎰忥細娓╅『鐨勫法澹抽緳宸插湪 18.0.2 琚Щ鍑恒€�'},
+  {id:'darkmoon',year:2020,patch:'19.2',build:68600,date:'2020-12-15',title:'鏆楁湀濂栧搧鏃朵唬',tag:'鏆楁湀濂栧搧 / 鍙ょ鑻遍泟',desc:'姣忓洓鍥炲悎鍙戠幇涓€娆℃殫鏈堝鍝侊紝鎴愪负閰掗鏈€鏃╃殑澶у瀷鍏ㄥ眬璧涘鏈哄埗涔嬩竴銆�'},
+  {id:'quilboar',year:2021,patch:'20.2',build:81706,date:'2021-05-04',title:'閲庣尓浜� 路 椴滆瀹濈煶',tag:'閲庣尓浜� / 椴滆瀹濈煶',desc:'閲庣尓浜哄姞鍏ワ紝椴滆瀹濈煶鎴愪负鐙珛鎴愰暱璧勬簮銆�'},
+  {id:'revamp',year:2021,patch:'21.2',build:91456,date:'2021-08-31',title:'閰掗澶ч噸鍋�',tag:'澶嶄粐 / 37 寮犻殢浠庢浛鎹� / 浼ゅ涓婇檺',desc:'鍔犲叆鈥滃浠団€濓紝澶ц妯℃浛鎹㈤殢浠庯紝骞跺紩鍏ユ棭鏈熶激瀹充笂闄愶紝鏄粡鍏搁厭棣嗗悜鐜颁唬閰掗鐨勪竴娆″垎姘村箔銆�'},
+  {id:'buddies1',year:2022,patch:'22.2',build:130051,date:'2022-01-25',title:'绗竴浠ｄ紮浼�',tag:'浼欎即绯荤粺',desc:'姣忎綅鑻遍泟鑾峰緱涓撳睘浼欎即锛屾渶鍒濋€氳繃浼欎即杩涘害鏉¤幏鍙栥€�'},
+  {id:'naga',year:2022,patch:'23.2',build:137922,date:'2022-05-10',title:'绾宠喀 路 濉戦€犳硶鏈�',tag:'绾宠喀 / 濉戦€犳硶鏈�',desc:'绾宠喀鍔犲叆锛屽洿缁曟瘡鍥炲悎涓存椂娉曟湳鐨勨€滃閫犳硶鏈€濅綋绯诲睍寮€銆�'},
+  {id:'quests',year:2022,patch:'24.2',build:148211,date:'2022-08-30',title:'浠诲姟鏃朵唬',tag:'浠诲姟 / 浠诲姟濂栧姳',desc:'绗� 4 鍥炲悎浠庝换鍔′笌濂栧姳缁勫悎涓€夋嫨锛屽畬鎴愬悗鑾峰緱鎸佺画寮哄寲銆�'},
+  {id:'undead',year:2023,patch:'25.2',build:162867,date:'2023-01-17',title:'浜＄伒 路 鍙岀鏃�',tag:'浜＄伒 / 鍙岀鏃忛殢浠�',desc:'浜＄伒鍔犲叆锛屽弻绉嶆棌闅忎粠鎴愪负甯歌璁捐锛涙櫘宕斿寰锋暀鎺堝彲鎷艰浜＄伒銆�'},
+  {id:'season4',year:2023,patch:'26.2',build:174258,date:'2023-05-09',title:'绗洓璧涘澶ф礂鐗�',tag:'鍓ф瘨鈫掔儓姣� / 纾佸姏閲嶅仛 / 闅忎粠澶ф崲琛€',desc:'澶у瀷闅忎粠閲嶅仛锛屽姞鍏ョ儓姣掞紙Venomous锛夛紝骞惰皟鏁寸鍔涖€侀鎬掔瓑鍩虹瑙勫垯銆�'},
+  {id:'anomalies',year:2023,patch:'27.2',build:183876,date:'2023-08-22',title:'鐣稿彉鏃朵唬',tag:'鐣稿彉 / 7 鏈厭棣嗙瓑鍏ㄥ眬瑙勫垯',desc:'姣忓眬鐢扁€滅暩鍙樷€濇敼鍙樺叏鍦鸿鍒欙紝鍖呭惈璇虹敇鍐滅殑绉樺瘑绛夋瀬鍏疯鲸璇嗗害鐨勭幆澧冦€�'},
+  {id:'tavernspells',year:2023,patch:'28.2',build:190416,date:'2023-12-05',title:'閰掗娉曟湳鏃朵唬',tag:'閰掗娉曟湳',desc:'閰掗涓紑濮嬬洿鎺ュ嚭鍞甫绛夌骇涓庨噾甯佽垂鐢ㄧ殑娉曟湳锛岀粡娴庝笌杩愯惀缁撴瀯鍙戠敓姘镐箙鍙樺寲銆�'},
+  {id:'duos',year:2024,patch:'29.2',build:198037,date:'2024-04-16',title:'鍙屾墦 路 绗竷璧涘',tag:'鍙屾墦 / 澶у瀷鍗℃睜鍒锋柊',desc:'鍙屾墦妯″紡姝ｅ紡涓婄嚎锛涘崟浜哄拰鍙屾墦鍏变韩澶ч儴鍒嗗崱鐗屼笌璧涘鏀瑰姩銆�'},
+  {id:'trinkets1',year:2024,patch:'30.2',build:205267,date:'2024-08-20',title:'绗竴浠ｉグ鍝�',tag:'灏忛グ鍝� / 澶чグ鍝�',desc:'绗� 6銆�9 鍥炲悎璐拱姘镐箙琚姩楗板搧锛屽舰鎴愨€滃皬楗板搧 + 澶чグ鍝佲€濈殑璧涘鏍稿績銆�'},
+  {id:'season9',year:2024,patch:'31.2',build:212197,date:'2024-12-03',title:'绉戞妧閰掗 路 绗節璧涘',tag:'楗板搧閫€鍦� / 鑻遍泟閲嶉€� / 鍗℃睜閲嶆瀯',desc:'绗竴浠ｉグ鍝侀€€鍦猴紝杩涘叆绉戞妧涓婚鐨勫ぇ鍨嬪崱姹犳洿鏂帮紝骞跺姞鍏ヨ嫳闆勯噸閫夌郴缁熴€�'},
+  {id:'trinkets2',year:2025,patch:'32.2',build:219846,date:'2025-04-29',title:'楗板搧鍥炲綊 路 绗崄璧涘',tag:'鏂扮増楗板搧绯荤粺',desc:'楗板搧浠ュぇ瑙勬ā鏂版棫姹犲洖褰掞紝骞舵敼杩涙寜绉嶆棌涓庨樀瀹规彁渚涢グ鍝佺殑閫昏緫銆�'},
+  {id:'quests2',year:2025,patch:'33.2',build:225406,date:'2025-08-05',title:'瀹夋垐娲� 路 浠诲姟鍥炲綊',tag:'浠诲姟鍥炲綊 / 娴风洍璧忛噾 / 澶у瀷闅忎粠鍒锋柊',desc:'浠诲姟閲嶆柊鎴愪负璧涘鏍稿績锛屽悓鏃跺姞鍏ユ捣鐩楄祻閲戠瓑鏂拌璁★紝骞跺埛鏂颁笂鐧惧紶闅忎粠涓庢硶鏈€�'},
+  {id:'timewarped',year:2025,patch:'34.2',build:231720,date:'2025-12-02',title:'鏃剁┖閰掗 路 绗崄浜岃禌瀛�',tag:'Timewarped Tavern',desc:'鍔犲叆鏃剁┖閰掗绯荤粺涓庡彟涓€鏃堕棿绾垮崱鐗岋紝褰㈡垚鐙珛鐨勮禌瀛ｇ粡娴庝笌鏋勭瓚鍏ュ彛銆�'},
+  {id:'cataclysm',year:2026,patch:'35.2',build:239550,date:'2026-04-14',title:'澶х伨鍙� 路 楗板搧鍐嶄复',tag:'楗板搧 / 鎭堕瓟椋熺伯 / 褰╄壊榫�',desc:'楗板搧鍐嶆鍥炲綊锛涙伓榄旇幏寰楅绮紙Fodder锛夛紝榫欒幏寰楀僵鑹查緳锛圕hromadrake锛変綋绯汇€�'},
+  {id:'darkgifts',year:2026,patch:'36.2',build:248348,date:'2026-08-04',title:'杈炬媺鐒堕粦鏆楄禒绀�',tag:'榛戞殫璧犵ぜ / 婵€娲� / 閿佺 / 楸奸サ',desc:'绗崄鍥涜禌瀛ｅ姞鍏ラ粦鏆楄禒绀间笌鈥滄縺娲烩€濆叧閿瘝锛屾捣鐩楅攣绠便€侀噹鍏介奔楗靛悓鏃剁櫥鍦猴紝楗板搧缁х画瀛樺湪銆�'},
+  {id:'aberrations',year:2026,patch:'36.6',build:251952,date:'2026-09-22',title:'鍙樺紓鎬椂浠� 路 鏈€鏂�',tag:'鍙樺紓鎬� / 寮冪墝 / 鍙ょ鈥滅绁団€�',desc:'鏈€鏂板ぇ鑺傜偣锛氬叏鏂伴殢浠庣被鍨� Aberrations锛堝彉寮傛€級鍔犲叆锛屽洿缁曞純鐗屻€佹浜＄尞绁笌鍞ら啋鍏嬭嫃鎭�/浜氱厼鏋佸紡绁炵灞曞紑銆傛暟鎹殢 36.6 瀹㈡埛绔� Build 251952 涓嬪彂锛�9 鏈� 22 鏃ユ寮忚繘鍏ラ厭棣嗐€�'}
+];
+const ERA_ACTIVE_SPECIAL={darkmoon:['prize'],buddies1:['buddy'],quests:['quest','reward'],anomalies:['anomaly'],trinkets1:['trinket'],trinkets2:['trinket'],quests2:['quest','reward'],timewarped:['timewarp'],cataclysm:['trinket'],darkgifts:['trinket','dark_gift'],aberrations:['trinket','dark_gift']};
+const eraById=id=>ERAS.find(x=>x.id===id)||ERAS[ERAS.length-1];
+
+function txt(v){return v==null?'':String(v)}
+function esc(s){return txt(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function plain(s){return txt(s).replace(/<br\s*\/?>/gi,'\n').replace(/<[^>]*>/g,'').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>')}
+function arr(v){return Array.isArray(v)?v:(v==null?[]:[v])}
+function setStatus(kind,text){els.statusDot.className='dot '+kind;els.statusText.textContent=text}
+function notice(msg,kind=''){els.notice.className='notice show '+kind;els.notice.innerHTML=msg}function clearNotice(){els.notice.className='notice';els.notice.textContent=''}
+function safeLocalGet(k){try{return JSON.parse(localStorage.getItem(k)||'null')}catch{return null}}function safeLocalSet(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch{}}
+async function fetchJSON(url,opts={}){const r=await fetch(url,{cache:'no-store',...opts});if(!r.ok){const e=new Error(`${r.status} ${r.statusText}`);e.status=r.status;throw e}return r.json()}
+function firstArray(o,keys=[]){if(Array.isArray(o))return o;for(const k of keys){if(Array.isArray(o?.[k]))return o[k]}if(Array.isArray(o?.data))return o.data;if(Array.isArray(o?.data?.results))return o.data.results;if(Array.isArray(o?.data?.cards))return o.data.cards;return []}
+function typeNorm(v,c={}){
+  let s=txt(v).toLowerCase().replace(/[\s-]+/g,'_');
+  const id=txt(c.cardId||c.hearthstoneId||c.id||c.slug).toLowerCase();
+  if(/magicitem|trinket/.test(id)||/trinket/.test(s)) return 'trinket';
+  if(/bgs_treasures/i.test(id)) return 'prize';
+  if(/aberr/i.test(id)||/aberr/i.test(s)) return 'aberration';
+  if(/anomal/.test(id)||/anomal/.test(s)) return 'anomaly';
+  if(/dark.?gift/.test(id)||/dark.?gift/.test(s)) return 'dark_gift';
+  if(/timewarp/.test(id)||/timewarp/.test(s)) return 'timewarp';
+  if(/buddy/.test(id)||/buddy/.test(s)) return 'buddy'; if(/hero.?power/.test(s))return 'hero_power'; if(/hero/.test(s))return 'hero';
+  if(/minion/.test(s))return 'minion'; if(/spell/.test(s))return 'spell'; if(/quest/.test(s)&&/reward/.test(s))return 'reward'; if(/quest/.test(s))return 'quest';
+  if(/enchant/.test(s))return 'enchantment';
+  return s||'unknown';
+}
+function normalizeCard(c,source='hsbg'){
+  const rawId=c.cardId||c.hearthstoneId||c.hsId||c.id;
+  const dbf=Number(c.dbfId ?? (typeof c.id==='number'?c.id:NaN));
+  const apiId=c.slug||(!Number.isNaN(dbf)?dbf:rawId);
+  let tribes=c.minionTypes??c.races??c.tribes??c.tribe??[]; tribes=arr(tribes).flatMap(x=>typeof x==='object'?(x.name||x.id||[]):x).filter(Boolean);
+  let pool=txt(c.pool||c.poolStatus||c.status||'').toLowerCase();if(!['current','legacy','upcoming'].includes(pool))pool=c.isInPool===true?'current':c.isInPool===false?'legacy':'all';
+  const card={
+    _raw:c,_source:source,apiId,id:rawId,cardId:typeof rawId==='string'?rawId:(c.cardId||''),dbfId:Number.isNaN(dbf)?null:dbf,
+    name:txt(c.name||c.displayName||'鏈懡鍚�'),text:plain(c.text||c.description||c.cardText||''),attack:c.attack??c.atk??null,health:c.health??c.hp??null,
+    tier:c.tier??c.techLevel??c.tavernTier??null,type:typeNorm(c.cardType||c.kind||c.type,c),tribes,pool,
+    keywords:arr(c.keywords||c.mechanics).map(x=>typeof x==='object'?(x.name||x.id):x).filter(Boolean),
+    image:c.image||c.imageUrl||c.imageURL||'',goldenId:c.goldenCardId||c.battlegroundsPremiumDbfId||null,
+    currentPool:!!(c.isBattlegroundsPoolMinion||c.isBattlegroundsPoolSpell||pool==='current')
+  };
+  return card;
+}
+function localize(card){
+  if((state.mode==='era'||state.mode==='build')&&(card.zhName||card.zhText))return card;
+  const z=(card.dbfId&&state.zh.get('d:'+card.dbfId)) || (card.cardId&&state.zh.get('i:'+card.cardId));
+  if(!z)return card;
+  return {...card,zhName:z.name||card.zhName||'',zhText:plain(z.text||''),zhType:z.type,zhRaw:z};
+}
+function historical(card){const key=`${card.apiId}|${state.patch}`;const h=state.hist.get(key);return h?{...card,...h}:card}
+function displayCard(c){return historical(localize(c))}
+function cardName(c){return c.zhName||c.name||'鏈懡鍚�'}
+function cardText(c){if(c._histTextZh)return c._histTextZh;return c.zhText||c.text||''}
+function imageUrl(c){if(c.image)return c.image;if((state.mode==='era'||state.mode==='build')&&state.build&&c.cardId)return `https://art.hearthstonejson.com/v1/render/${encodeURIComponent(state.build)}/zhCN/512x/${encodeURIComponent(c.cardId)}.png`;if(c.apiId!=null)return `${API}/cards/${encodeURIComponent(c.apiId)}/image`;if(c.cardId)return `https://art.hearthstonejson.com/v1/render/latest/zhCN/512x/${encodeURIComponent(c.cardId)}.png`;return ''}
+function poolLabel(p){return p==='current'?'璇ョ増鏈彲鐢�':p==='legacy'?'鏈叆姹�/宸查€€':p==='upcoming'?'鍗冲皢涓婄嚎':'褰掓。'}
+function typeLabel(t){return TYPE_LABELS[t]||t||'鍏朵粬'}
+function tribeLabel(t){return TRIBE_LABELS[txt(t).toUpperCase()]||t}
+function isAuxHS(c){const id=txt(c.id);const type=txt(c.type).toUpperCase();return type==='ENCHANTMENT'||/_G$/.test(id)||/_GOLDEN/i.test(id)||c.battlegroundsNormalDbfId||(!c.techLevel&&!c.isBattlegroundsPoolSpell&&!c.battlegroundsHero&&(/t\d+$/.test(id)||/token/i.test(id)))}
+function likelyBG(c){const id=txt(c.id);return c.set==='BATTLEGROUNDS'||/^BG/.test(id)||c.isBattlegroundsPoolMinion||c.isBattlegroundsPoolSpell||c.battlegroundsHero||c.battlegroundsPremiumDbfId}
+function classifyHS(c,base){const id=txt(c.id);if(/MagicItem/i.test(id))return'trinket';if(/Anomal/i.test(id))return'anomaly';if(/BGS_Treasures/i.test(id))return'prize';if(/Aberr/i.test(id))return'aberration';if(base)return base.type;if(c.battlegroundsHero)return'hero';if(c.isBattlegroundsPoolSpell)return'spell';if(c.type==='MINION')return'minion';if(c.type==='SPELL')return'spell';if(c.type==='HERO_POWER')return'hero_power';return typeNorm(c.type,c)}
+function fromHSJson(list,includeAux=false,eraSpecial=false){
+  const baseByDbf=new Map(state.baseCards.map(c=>[c.dbfId,c]));const baseById=new Map(state.baseCards.map(c=>[c.cardId,c]));
+  return list.filter(likelyBG).filter(c=>includeAux||!isAuxHS(c)).map(c=>{
+    const b=baseByDbf.get(c.dbfId)||baseById.get(c.id);const x=normalizeCard({...c,cardType:classifyHS(c,b),pool:(c.isBattlegroundsPoolMinion||c.isBattlegroundsPoolSpell)?'current':(b?.pool||'legacy')},'hearthstonejson');
+    x.cardId=c.id;x.apiId=b?.apiId||c.dbfId||c.id;x.dbfId=c.dbfId||b?.dbfId||null;x.zhName=c.name;x.zhText=plain(c.text||'');x.name=b?.name||c.name;x.text=b?.text||plain(c.text||'');x.type=classifyHS(c,b);x.tribes=c.races||b?.tribes||[];x.tier=c.techLevel??b?.tier??null;if(eraSpecial&&(ERA_ACTIVE_SPECIAL[state.era]||[]).includes(x.type))x.pool='current';return x
+  });
+}
+async function loadHSCards(force=false){
+  const cached=!force&&safeLocalGet(CACHE_KEY);if(cached?.cards?.length&&Date.now()-cached.ts<6*3600e3){state.cards=cached.cards.map(c=>normalizeCard(c._raw||c,'cache'));state.baseCards=state.cards;state.source='鍏ㄩ噺鍘嗗彶绱㈠紩锛堢紦瀛橈級';state.loadedAt=cached.ts;renderAll();setStatus('ok',`鍘嗗彶绱㈠紩缂撳瓨 路 ${state.cards.length} 寮燻);loadZh(false);initEras();loadEra(state.era);return}
+  setStatus('busy','姝ｅ湪涓嬭浇閰掗鏁版嵁搴撯€�');let out=[],offset=0,total=Infinity;
+  try{
+    for(let page=0;page<20&&offset<total;page++){
+      const j=await fetchJSON(`${API}/cards?pool=all&limit=200&offset=${offset}`);const a=firstArray(j,['cards','results','items']);if(!a.length)break;out.push(...a);offset+=a.length;total=Number(j.total??j.data?.total??(j.hasMore||j.data?.hasMore?Infinity:offset));if(j.hasMore===false||j.data?.hasMore===false)break;if(a.length<200&&total===Infinity)break;
+    }
+    if(!out.length)throw new Error('鎺ュ彛杩斿洖绌烘暟鎹�');
+    state.cards=out.map(c=>normalizeCard(c));state.baseCards=state.cards;state.source='HS BG Cards 鍘嗗彶绱㈠紩';state.loadedAt=Date.now();safeLocalSet(CACHE_KEY,{ts:state.loadedAt,cards:out});setStatus('ok',`鍘嗗彶绱㈠紩 路 ${state.cards.length} 寮燻);clearNotice();renderAll();loadZh(force);initEras();loadEra(state.era);
+  }catch(e){
+    setStatus('err','鍦ㄧ嚎鏁版嵁鍔犺浇澶辫触');notice(`鍦ㄧ嚎鏁版嵁搴撴殏鏃舵棤娉曡浇鍏ワ細${esc(e.message)}銆備綘鍙互鐐瑰嚮鈥滃埛鏂版暟鎹€濋噸璇曪紝鎴栫敤鈥滃鍏� JSON鈥濇墦寮€鏈湴鏁版嵁銆俙,'error');state.cards=[];state.baseCards=[];renderAll();
+  }
+}
+async function loadZh(force=false){
+  const cached=!force&&safeLocalGet(CACHE_ZH);if(cached?.rows?.length&&Date.now()-cached.ts<14*86400e3){state.zh=makeZhMap(cached.rows);renderAll();return}
+  try{
+    setStatus('busy','姝ｅ湪杞藉叆瀹樻柟涓枃鏂囨湰鈥�');const list=await fetchJSON(`${HSJ}/latest/zhCN/cards.json`);const wantedDbf=new Set(state.baseCards.map(c=>c.dbfId).filter(Boolean)),wantedId=new Set(state.baseCards.map(c=>c.cardId).filter(Boolean));
+    const rows=list.filter(c=>wantedDbf.has(c.dbfId)||wantedId.has(c.id)).map(c=>({dbfId:c.dbfId,id:c.id,name:c.name,text:c.text,type:c.type}));state.zh=makeZhMap(rows);safeLocalSet(CACHE_ZH,{ts:Date.now(),rows});setStatus('ok',`鍦ㄧ嚎 路 涓枃宸插尮閰� ${rows.length} 寮燻);renderAll();
+  }catch(e){setStatus('ok',`鍦ㄧ嚎 路 涓枃鏈湴鍖栨湭杞藉叆`)}
+}
+function makeZhMap(rows){const m=new Map;for(const z of rows){if(z.dbfId)m.set('d:'+z.dbfId,z);if(z.id)m.set('i:'+z.id,z)}return m}
+function initEras(){
+  const current=state.era||'aberrations';let html='',y=null;
+  for(const e of ERAS){if(e.year!==y){if(y!==null)html+='</optgroup>';html+=`<optgroup label="${e.year}">`;y=e.year}html+=`<option value="${e.id}">${e.patch} 路 ${e.title}</option>`}if(y!==null)html+='</optgroup>';
+  els.era.innerHTML=html;els.era.value=current;renderEraPanel();
+}
+function renderEraPanel(){const e=eraById(state.era),i=ERAS.findIndex(x=>x.id===e.id);$('#eraTitle').textContent=`${e.patch} 路 ${e.title}`;$('#eraDesc').textContent=`${e.tag}锝�${e.desc}`;$('#eraMeta').innerHTML=`${e.date}<br>Build ${e.build}`;$('#prevEra').disabled=i<=0;$('#nextEra').disabled=i>=ERAS.length-1;if(els.era.value!==e.id)els.era.value=e.id}
+async function loadEra(id){const e=eraById(id);state.era=e.id;state.build=e.build;state.mode='era';state.patch='live';state.hist.clear();state.visible=60;renderEraPanel();setStatus('busy',`姝ｅ湪杞藉叆 ${e.patch} 路 ${e.title}鈥);notice(`姝ｅ湪澶嶅師 <b>${esc(e.patch)} 路 ${esc(e.title)}</b>锛�${esc(e.date)}锛孊uild ${e.build}锛夈€俙);
+  try{const list=await fetchJSON(`${HSJ}/${e.build}/zhCN/cards.json`);const cards=fromHSJson(list,$('#includeAux').checked,true);if(!cards.length)throw new Error('璇� Build 涓湭璇嗗埆鍒伴厭棣嗘垬妫嬪崱鐗�');state.cards=cards;state.zh=makeZhMap(list.filter(likelyBG).map(c=>({dbfId:c.dbfId,id:c.id,name:c.name,text:c.text,type:c.type})));state.source=`HearthstoneJSON 路 ${e.patch}`;setStatus('ok',`${e.patch} 路 ${e.title} 路 ${cards.length} 寮燻);notice(`<b>${esc(e.patch)} 路 ${esc(e.title)}</b> 宸茶浇鍏ャ€�${esc(e.desc)}<br><span class="hint">杩欐槸鈥滃ぇ鐗堟湰蹇収鈥濓紝涓嶄細鎶婂悓璧涘鍚庣画 0.0.1/0.0.2 骞宠　鐑慨閫愪釜鎷嗗紑銆�</span>`,'good');renderAll()}catch(err){setStatus('err',`${e.patch} 杞藉叆澶辫触`);notice(`澶х増鏈� ${esc(e.patch)}锛圔uild ${e.build}锛夎浇鍏ュけ璐ワ細${esc(err.message)}銆備綘浠嶅彲鍦ㄢ€滈珮绾� / 绮剧‘ Build鈥濋噷鎵嬪姩杈撳叆鍏朵粬 Build銆俙,'error')}
+}
+function stepEra(delta){let i=ERAS.findIndex(x=>x.id===state.era);i=Math.max(0,Math.min(ERAS.length-1,i+delta));if(ERAS[i].id!==state.era){els.era.value=ERAS[i].id;loadEra(ERAS[i].id)}}
+async function loadExactBuild(){const n=Number($('#build').value.trim());if(!n||n<10000){notice('璇疯緭鍏ユ湁鏁堢殑 Hearthstone 瀹㈡埛绔� Build 鏁板瓧锛屼緥濡� 239550銆�','error');return}setStatus('busy',`姝ｅ湪杞藉叆 Build ${n}鈥);notice(`姝ｅ湪璇诲彇 Build <b>${n}</b> 鐨� zhCN 鍗＄墝鏂囦欢銆俙);try{const list=await fetchJSON(`${HSJ}/${n}/zhCN/cards.json`);const cards=fromHSJson(list,$('#includeAux').checked);if(!cards.length)throw new Error('璇� Build 涓湭璇嗗埆鍒伴厭棣嗘垬妫嬪崱鐗�');state.cards=cards;state.build=n;state.mode='build';state.patch='live';state.visible=60;state.zh=makeZhMap(list.filter(likelyBG).map(c=>({dbfId:c.dbfId,id:c.id,name:c.name,text:c.text,type:c.type})));setStatus('ok',`绮剧‘ Build ${n} 路 ${cards.length} 寮燻);notice(`宸茶繘鍏� <b>绮剧‘ Build ${n}</b> 妯″紡锛氬綋鍓嶅浘閴寸洿鎺ユ潵鑷瀹㈡埛绔増鏈殑涓枃娓告垙鏁版嵁銆傞噸鏂伴€夋嫨涓婃柟鈥滃ぇ鐗堟湰鈥濆嵆鍙洖鍒版椂浠ｈ酱銆俙,'good');renderAll()}catch(e){setStatus('err',`Build ${n} 杞藉叆澶辫触`);notice(`鏃犳硶杞藉叆 Build ${n}锛�${esc(e.message)}銆傝纭杩欎釜 Build 鍦� HearthstoneJSON 涓瓨鍦ㄣ€俙,'error')}}
+function rebuildTypeChips(){const types=[...new Set(state.cards.map(c=>c.type).filter(Boolean))].sort((a,b)=>typeLabel(a).localeCompare(typeLabel(b),'zh-CN'));const current=state.type;els.types.innerHTML='<button class="chip '+(current==='all'?'on':'')+'" data-type="all">鍏ㄩ儴绫诲瀷</button>'+types.map(t=>`<button class="chip ${current===t?'on':''}" data-type="${esc(t)}">${esc(typeLabel(t))}</button>`).join('');els.types.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{state.type=b.dataset.type;state.visible=60;rebuildTypeChips();applyFilters()})}
+function rebuildTribes(){const cur=els.tribe.value;const tribes=[...new Set(state.cards.flatMap(c=>c.tribes||[]).map(x=>txt(x).toUpperCase()).filter(Boolean))].sort();els.tribe.innerHTML='<option value="all">鍏ㄩ儴绉嶆棌</option>'+tribes.map(t=>`<option value="${esc(t)}">${esc(tribeLabel(t))}</option>`).join('');if([...els.tribe.options].some(o=>o.value===cur))els.tribe.value=cur}
+function applyFilters(){const q=els.search.value.trim().toLowerCase(),pool=els.pool.value,tier=els.tier.value,tribe=els.tribe.value;let a=state.cards.filter(c=>{const d=localize(c);if(state.type!=='all'&&c.type!==state.type)return false;if(pool!=='all'&&c.pool!==pool)return false;if(tier!=='all'&&String(c.tier)!==tier)return false;if(tribe!=='all'&&!c.tribes.map(x=>txt(x).toUpperCase()).includes(tribe))return false;if(q){const hay=[d.zhName,c.name,d.zhText,c.text,c.cardId,c.dbfId,c.type,...c.tribes].join(' ').toLowerCase();if(!hay.includes(q))return false}return true});
+  const s=els.sort.value;a.sort((x,y)=>{if(s==='tier')return (Number(x.tier)||99)-(Number(y.tier)||99)||cardName(localize(x)).localeCompare(cardName(localize(y)),'zh-CN');if(s==='name')return cardName(localize(x)).localeCompare(cardName(localize(y)),'zh-CN');if(s==='type')return typeLabel(x.type).localeCompare(typeLabel(y.type),'zh-CN')||((x.tier||99)-(y.tier||99));return txt(x.cardId||x.dbfId).localeCompare(txt(y.cardId||y.dbfId))});state.filtered=a;renderResults()}
+function cardHTML(base){const c=displayCard(base),name=cardName(c),en=c.zhName&&c.name!==c.zhName?c.name:'',img=imageUrl(c),stats=(c.attack!=null||c.health!=null)?`<span class="statpill">鈿� ${c.attack??'鈥�'}</span><span class="statpill">鈾� ${c.health??'鈥�'}</span>`:'',hist='';return `<article class="card ${c._absent?'absent':''}">
+  <div class="art">${img?`<img loading="lazy" src="${esc(img)}" alt="${esc(name)}" onerror="this.style.display='none'">`:''}<div class="badgebar"><span class="badge gold">${esc(typeLabel(c.type))}</span>${c.tier!=null?`<span class="badge">T${esc(c.tier)}</span>`:''}<span class="badge ${c.pool==='current'?'green':''}">${esc(poolLabel(c.pool))}</span>${hist}</div></div>
+  <div class="body"><div class="name"><span>${esc(name)}</span><span class="tier">${c.tier!=null?'閰掗'+esc(c.tier)+'绾�':''}</span></div><div class="ename">${esc(en)}</div><div class="statsline">${stats}<span class="tribes">${esc((c.tribes||[]).map(tribeLabel).join(' 路 '))}</span></div><div class="text">${esc(cardText(c)).replace(/\n/g,'<br>')}</div><div class="foot"><span>${esc(c.cardId||'DBF '+(c.dbfId??''))}</span><span>${c._historyChange?esc(c._historyChange):''}</span></div></div><button class="click" aria-label="鏌ョ湅 ${esc(name)}" data-open="${esc(String(base.apiId))}"></button></article>`}
+function renderResults(){
+  $('#countAll').textContent=state.cards.length.toLocaleString();$('#countFiltered').textContent=state.filtered.length.toLocaleString();$('#countTypes').textContent=new Set(state.cards.map(c=>c.type)).size;const era=eraById(state.era);$('#modeLabel').textContent=state.mode==='build'?`Build ${state.build}`:`${era.patch} 路 ${era.title.replace(/ 路 .*/,'')}`;
+  $('#resultSub').textContent=`鏄剧ず ${Math.min(state.visible,state.filtered.length).toLocaleString()} / ${state.filtered.length.toLocaleString()} 路 ${state.source||'鏁版嵁婧�'}${state.mode==='era'?` 路 Build ${state.build}`:''}`;
+  const shown=state.filtered.slice(0,state.visible);if(state.view==='grid'){els.grid.classList.remove('hide');els.table.classList.add('hide');els.grid.innerHTML=shown.length?shown.map(cardHTML).join(''):`<div class="empty">娌℃湁绗﹀悎褰撳墠鏉′欢鐨勫崱鐗屻€傝瘯璇曟竻绌哄叧閿瘝锛屾垨鎶娾€滃崱姹犵姸鎬� / 绛夌骇 / 绫诲瀷鈥濇敼涓哄叏閮ㄣ€�</div>`;els.grid.querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>openCard(b.dataset.open))}else{els.grid.classList.add('hide');els.table.classList.remove('hide');renderTable(shown)}els.more.hidden=state.visible>=state.filtered.length;
+}
+function renderTable(rows){els.table.innerHTML=`<table class="table"><thead><tr><th>鍚嶇О</th><th>绫诲瀷</th><th>绛夌骇</th><th>绉嶆棌</th><th>鏀诲嚮/鐢熷懡</th><th>鏁堟灉</th><th>鍗℃睜</th><th>ID</th></tr></thead><tbody>${rows.map(b=>{const c=displayCard(b);return `<tr data-row="${esc(String(b.apiId))}"><td><b>${esc(cardName(c))}</b><br><small class="muted">${esc(c.name)}</small></td><td>${esc(typeLabel(c.type))}</td><td>${c.tier??''}</td><td>${esc((c.tribes||[]).map(tribeLabel).join(' / '))}</td><td>${c.attack??''}${c.attack!=null||c.health!=null?' / ':''}${c.health??''}</td><td>${esc(cardText(c))}</td><td>${esc(poolLabel(c.pool))}</td><td>${esc(c.cardId||c.dbfId||'')}</td></tr>`}).join('')}</tbody></table>`;els.table.querySelectorAll('[data-row]').forEach(r=>{r.style.cursor='pointer';r.onclick=()=>openCard(r.dataset.row)})}
+function renderAll(){rebuildTypeChips();rebuildTribes();applyFilters()}
+function findByApiId(id){return state.cards.find(c=>String(c.apiId)===String(id))}
+async function openCard(id){const base=findByApiId(id);if(!base)return;const c=displayCard(base),img=imageUrl(c);const historyId=c.apiId;$('#detailBody').innerHTML=`<div class="detail"><div><div class="fullart">${img?`<img src="${esc(img)}" alt="${esc(cardName(c))}" onerror="this.style.display='none'">`:''}</div></div><div><div class="dname">${esc(cardName(c))}</div><div class="dename">${esc(c.zhName?c.name:'')}</div><div class="dmeta"><span class="badge gold">${esc(typeLabel(c.type))}</span>${c.tier!=null?`<span class="badge">閰掗绛夌骇 ${esc(c.tier)}</span>`:''}<span class="badge">${esc(poolLabel(c.pool))}</span>${(c.tribes||[]).map(t=>`<span class="badge">${esc(tribeLabel(t))}</span>`).join('')}</div><div class="dtext">${esc(cardText(c))}</div><div class="kv"><div><small>鏀诲嚮 / 鐢熷懡</small><b>${c.attack??'鈥�'} / ${c.health??'鈥�'}</b></div><div><small>鍗＄墝 ID</small><b>${esc(c.cardId||'鈥�')}</b></div><div><small>DBF ID</small><b>${esc(c.dbfId??'鈥�')}</b></div><div><small>鍘嗗彶鏉ユ簮</small><b>${esc(c._historySource||'褰撳墠鏁版嵁')}</b></div></div>${c._historyWarning?`<div class="notice show error" style="margin-top:12px">${esc(c._historyWarning)}</div>`:''}<div class="section"><h4>鍘嗗彶璁板綍</h4><div id="historyBox" class="timeline"><div class="muted">姝ｅ湪璇诲彇杩欏紶鍗＄殑鍙樻洿鍘嗗彶鈥�</div></div></div></div></div>`;$('#detailDialog').showModal();try{const j=await fetchJSON(`${API}/cards/${encodeURIComponent(historyId)}/history`);renderHistory(j)}catch(e){$('#historyBox').innerHTML=`<div class="muted">鍘嗗彶璁板綍鏆備笉鍙敤锛�${esc(e.message)}</div>`}}
+function renderHistory(j){const box=$('#historyBox');let rows=firstArray(j,['history','changes','events','entries']);if(!rows.length&&Array.isArray(j?.data?.history))rows=j.data.history;if(!rows.length){box.innerHTML='<div class="muted">鏆傛棤鍗曞崱鍙樻洿璁板綍銆�</div>';return}box.innerHTML=rows.slice(0,40).map(x=>{const p=x.patch||x.version||x.patchVersion||x.date||'鍘嗗彶璁板綍',kind=x.changeType||x.type||x.kind||'',desc=x.summary||x.description||x.text||x.note||'';return `<div class="event"><b>${esc(p)}</b> ${kind?`<span class="badge">${esc(kind)}</span>`:''}<div>${esc(plain(desc))}</div>${!desc?`<small>${esc(JSON.stringify(x).slice(0,280))}</small>`:''}</div>`}).join('')}
+async function importJSON(file){try{const j=JSON.parse(await file.text());let cards=[];if(Array.isArray(j)&&j.some(likelyBG)){cards=fromHSJson(j,$('#includeAux').checked);state.zh=makeZhMap(j.filter(likelyBG).map(c=>({dbfId:c.dbfId,id:c.id,name:c.name,text:c.text,type:c.type})));state.mode='build';state.build='瀵煎叆'}else{const a=firstArray(j,['cards','results','items','minions']);if(a.length)cards=a.map(c=>normalizeCard(c,'import'));else if(j&&typeof j==='object'){const collections=['minions','spells','trinkets','heroes','anomalies'];for(const k of collections)for(const c of arr(j[k]))cards.push(normalizeCard({...c,cardType:c.cardType||k.replace(/s$/,'')},'import'))}}
+    if(!cards.length)throw new Error('娌℃湁璇嗗埆鍒板崱鐗屾暟缁�');state.cards=cards;state.baseCards=cards;state.source='鏈湴 JSON';state.visible=60;notice(`宸插鍏� <b>${cards.length}</b> 寮犲崱鐗屻€俙,'good');setStatus('ok','鏈湴鏁版嵁宸茶浇鍏�');renderAll()}catch(e){notice(`瀵煎叆澶辫触锛�${esc(e.message)}`,'error')}}
+// events
+els.search.addEventListener('input',()=>{state.visible=60;applyFilters()});for(const el of [els.pool,els.tier,els.tribe,els.sort])el.addEventListener('change',()=>{state.visible=60;applyFilters()});
+els.era.addEventListener('change',e=>loadEra(e.target.value));$('#prevEra').onclick=()=>stepEra(-1);$('#nextEra').onclick=()=>stepEra(1);$('#advancedBtn').onclick=()=>$('#advanced').classList.toggle('open');$('#loadBuild').onclick=loadExactBuild;$('#includeAux').onchange=()=>{if(state.mode==='era')loadEra(state.era);else if(state.mode==='build'&&state.build&&state.build!=='瀵煎叆')loadExactBuild()};
+$('#refresh').onclick=()=>{state.hist.clear();localStorage.removeItem(CACHE_KEY);loadHSCards(true)};$('#importBtn').onclick=()=>$('#importFile').click();$('#importFile').onchange=e=>e.target.files[0]&&importJSON(e.target.files[0]);
+$('#viewToggle').onclick=()=>{state.view=state.view==='grid'?'table':'grid';$('#viewToggle').textContent=state.view==='grid'?'鍒囨崲琛ㄦ牸':'鍒囨崲鍗＄墖';renderResults()};els.more.onclick=()=>{state.visible+=60;renderResults()};
+window.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){e.preventDefault();els.search.focus()}if(e.key==='Escape'&&$('#detailDialog').open)$('#detailDialog').close()});
+initEras();loadHSCards(false);
+</script>
+</body>
+</html>
