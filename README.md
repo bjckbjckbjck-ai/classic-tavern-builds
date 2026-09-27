@@ -1,3 +1,18 @@
+# 此仓库已停用，仅保留历史资料
+
+自2026-09-28起，开发统一为两个独立仓库：
+
+1. [classic-tavern-game](https://github.com/bjckbjckbjck-ai/classic-tavern-game)：main，游戏、卡牌、规则、AI、客户端、音效及Godot云端适配。
+2. [classic-tavern-service](https://github.com/bjckbjckbjck-ai/classic-tavern-service)：main，Python后端、账号、匹配、积分、备份、固定游戏提交同步与部署。
+
+两个仓库均为私有，需要仓库访问权限。本仓只读归档，不再接收新开发或发行更新。旧main/3d/service-platform仅是历史分支。原未完成issue #31/#18已迁移至game #1/#2。
+
+历史Release和下载地址继续保留，供已安装独立版兼容使用；新的服务版使用服务器更新通道。开发提交不会自动部署服务器。
+
+---
+
+以下为归档前的说明：
+
 # v0.29.0 铸币经济与攻击手感
 
 [Android APK 完整下载](https://github.com/bjckbjckbjck-ai/classic-tavern-builds/releases/download/v0.29.0/ClassicTavern-v0.29.0.apk)
