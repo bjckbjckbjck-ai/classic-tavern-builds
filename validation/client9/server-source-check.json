@@ -1,0 +1,13 @@
+{
+  "source_commit": "3a1bfd078e6d5610b9dd8c5c94c6cfbeea10afb4",
+  "server_files_byte_verified": 95,
+  "content_sha256": "c3bb247e961c357d5bf680781039fbb936a7837df6187e491762508b5caf5886",
+  "client_build": 9,
+  "immutable_and_alias_hashes_match": true,
+  "sqlite_integrity": "ok",
+  "counts": {
+    "accounts": 4,
+    "queue": 0,
+    "results": 7
+  }
+}

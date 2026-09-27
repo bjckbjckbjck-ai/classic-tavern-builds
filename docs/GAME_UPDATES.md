@@ -42,3 +42,5 @@ D:/ai/codex/classic-tavern-service-game 现在只是固定提交的构建 worktr
 - 本次没有新客户端发行、线上重启或实体 Android 验收；线上仍为 service7 / 0.3.0-preview。
 
 后续 issue #34–36 已按上述双仓流程发布 v0.61.1 / service8，源码锁和实际上线锁均为 1d36dad；见 [更新验证](ISSUES34-36.md)。
+
+最新：用户批准后已部署 v0.62.0 / service9，游戏提交3a1bfd0、后端0.3.2-preview。部署采用暂存验证、排空备份、健康检查与回滚保留，公网双模式重连和备份恢复通过，详见 [service9发布记录](SERVICE9-v062.md)。

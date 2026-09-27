@@ -1,0 +1,11 @@
+{
+  "pre_deploy_archive": "tavern-20260927-142111.enc.json",
+  "post_deploy_archive": "tavern-20260927-142414.enc.json",
+  "integrity": "ok",
+  "accounts": 4,
+  "results": 7,
+  "account_rows_unchanged": true,
+  "result_rows_unchanged": true,
+  "local_delivery_verified": true,
+  "restored_to_live_database": false
+}

@@ -1,0 +1,13 @@
+{
+  "deployed": "3a1bfd078e6d5610b9dd8c5c94c6cfbeea10afb4",
+  "health": {
+    "status": "ok",
+    "protocol": "allstars-0.62.0-service-3",
+    "tables": 4,
+    "game": "0.62.0",
+    "service": "0.3.2-preview"
+  },
+  "server_files": 95,
+  "rollback": "/opt/classic-tavern/rollback-game-1790518871720808129",
+  "maintenance": true
+}

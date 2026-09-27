@@ -1,17 +1,17 @@
 {
   "channel": "service",
-  "build": 8,
-  "version": "0.61.1-service8",
+  "build": 9,
+  "version": "0.62.0-service9",
   "platforms": {
     "windows": {
-      "file": "ClassicTavern-Service-8.exe",
-      "bytes": 278881456,
-      "sha256": "b0242eafc2b52a3f503801ff364e508e11653d5cddb38b88bbd3e9f8cfd3f407"
+      "file": "ClassicTavern-Service-9.exe",
+      "bytes": 314684632,
+      "sha256": "244b6b829b9dcef8ba906a382d62abb8583b411b57d81c50c544ecf3e162f4aa"
     },
     "android": {
-      "file": "ClassicTavern-Service-8.apk",
-      "bytes": 257811383,
-      "sha256": "31b049dd9cd5509b384f3238cfb2a5989ac8d5020b34f9c63e92da6e298d707b"
+      "file": "ClassicTavern-Service-9.apk",
+      "bytes": 293541303,
+      "sha256": "d1e2bee3fb5e724ad0745275ed4de7bb0ee2c7221f0e3da3e2e35ed9baa01330"
     }
   }
 }

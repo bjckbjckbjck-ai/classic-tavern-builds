@@ -1,0 +1,16 @@
+{
+  "health": {
+    "status": "ok",
+    "protocol": "allstars-0.62.0-service-3",
+    "tables": 4,
+    "game": "0.62.0",
+    "service": "0.3.2-preview"
+  },
+  "manifest_matches": true,
+  "https_download_ranges_verified": [
+    "ClassicTavern-Service-9.exe",
+    "ClassicTavern-Service.exe",
+    "ClassicTavern-Service-9.apk",
+    "ClassicTavern-Service.apk"
+  ]
+}

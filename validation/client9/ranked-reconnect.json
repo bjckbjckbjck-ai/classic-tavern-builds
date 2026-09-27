@@ -1,0 +1,11 @@
+{
+  "waited_60_seconds": true,
+  "queue_count": 2,
+  "one_consent_does_not_split": true,
+  "same_room": true,
+  "highest_ai": true,
+  "humans": 2,
+  "bots": 6,
+  "old_protocol_rejected": true,
+  "ranked_reconnect_same_seat_and_buddy": true
+}
