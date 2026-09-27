@@ -216,7 +216,7 @@ async def limits(request,call_next):
     return response
 
 @app.get('/api/health')
-def health(): return {'status':'ok','protocol':VERSION,'tables':4,'game':'0.61.0','service':'0.3.0-preview'}
+def health(): return {'status':'ok','protocol':VERSION,'tables':4,'game':'0.61.1','service':'0.3.1-preview'}
 
 @app.post('/api/register')
 def register(request:Request, body:dict):

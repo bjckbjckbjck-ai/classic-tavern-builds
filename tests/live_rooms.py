@@ -25,7 +25,7 @@ async def run():
         serial={}
         async def act(ws,action,index=-1,s=None):
             serial[ws]=serial.get(ws,0)+1
-            guard={} if not s else dict(serial=s['me'].get('action_serial',0),action=action,index=index,aim=-1,source=s['me']['shop'][index]['uid'] if action=='buy' else '',target='')
+            guard={} if not s else dict(serial=s['me'].get('action_serial',0),action=action,index=index,aim=-1,source=s['me']['shop'][index]['uid'] if action=='buy' else (s['me']['hand'][index]['uid'] if action=='sell_hand' else ''),target='')
             await ws.send(json.dumps(dict(type='action',serial=serial[ws],action=action,index=index,target=-1,guard=guard)))
         saved=Path(__file__).resolve().parents[1]/'secrets/rooms-qa-users.json'
         reuse=json.loads(saved.read_text()) if os.environ.get('TAVERN_QA_REUSE')=='1' else []
@@ -49,8 +49,15 @@ async def run():
                 s=await state(ws,lambda s:s['phase']=='hero_select');await act(ws,'hero',int(s['me']['hero_offers'][0]),s)
             s0=await state(players[0],lambda s:s['phase']=='recruit')
             s1=await state(players[1],lambda s:s['phase']=='recruit')
+            # Some heroes start with spells in hand; sell the purchased minion by UID.
+            sold_uid=s0['me']['shop'][0]['uid']
             await act(players[0],'buy',0,s0)
-            s0=await state(players[0],lambda s:bool(s['me']['hand']))
+            s0=await state(players[0],lambda s:any(u['uid']==sold_uid for u in s['me']['hand']))
+            index=next(i for i,u in enumerate(s0['me']['hand']) if u['uid']==sold_uid)
+            coins=s0['me']['coins'];board=[u['uid'] for u in s0['me']['board']]
+            await act(players[0],'sell_hand',index,s0)
+            s0=await state(players[0],lambda s:not any(u['uid']==sold_uid for u in s['me']['hand']))
+            assert s0['me']['coins']>=coins+1 and [u['uid'] for u in s0['me']['board']]==board
             view=await state(observer,lambda s:s['phase']=='recruit')
             assert view['me']['hand']==[] and view['me']['shop']==[] and view['me']['discover']==[]
             await act(observer,'ready');view=await state(observer,lambda s:s['phase']=='recruit')
@@ -68,7 +75,7 @@ async def run():
             await call(1,'/api/leave',{'room':room['id'],'permanent':True})
             assert room['id'] not in [r['id'] for r in (await call(2,'/api/rooms'))['rooms']]
             await call(0,'/api/leave',{'room':new['id'],'permanent':True})
-            print(json.dumps(dict(room_listing=True,public_spectator=True,private_zones_hidden=True,read_only=True,switch_view=True,permanent_exit=True,recreate=True,revoked_unused_ticket=True,last_player_releases_table=True)))
+            print(json.dumps(dict(direct_hand_sale=True,room_listing=True,public_spectator=True,private_zones_hidden=True,read_only=True,switch_view=True,permanent_exit=True,recreate=True,revoked_unused_ticket=True,last_player_releases_table=True)))
         finally:
             for ws in sockets:await ws.close()
             for i in range(len(users)):

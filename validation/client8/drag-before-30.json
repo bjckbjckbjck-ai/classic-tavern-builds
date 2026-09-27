@@ -1,0 +1,13 @@
+{
+  "board": 7,
+  "canvas": "1440x900",
+  "hand": 10,
+  "mean_error_px": 13.7581512451172,
+  "mean_frame_ms": 33.321825,
+  "p95_error_px": 14.7781372070313,
+  "p95_frame_ms": 34.43,
+  "samples": 120,
+  "seats": 8,
+  "speed_px_s": 600,
+  "target_fps": 30
+}

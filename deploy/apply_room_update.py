@@ -12,7 +12,7 @@ if active or queued:raise SystemExit('Players still active or queued; update def
 subprocess.run(['systemctl','start','classic-tavern-backup.service'],check=True)
 backup=base/('rollback-rooms-'+str(int(time.time())))
 backup.mkdir(mode=0o700)
-files={'app.py':base/'app.py','service_server.gd':base/'game/scripts/service_server.gd','rules.gd':base/'game/scripts/rules.gd'}
+files={'app.py':base/'app.py','service_server.gd':base/'game/scripts/service_server.gd','rules.gd':base/'game/scripts/rules.gd','recruit_effects.gd':base/'game/scripts/recruit_effects.gd','releases.json':base/'game/data/releases.json'}
 for name,target in files.items():
     if not (stage/name).is_file():raise SystemExit('Missing staged file: '+name)
     shutil.copy2(target,backup/name)
@@ -25,7 +25,7 @@ try:
     for _ in range(20):
         try:
             with urllib.request.urlopen('http://127.0.0.1:18080/api/health',timeout=2) as r:
-                ready=json.load(r).get('service')=='0.3.0-preview'
+                ready=json.load(r).get('service')=='0.3.1-preview'
             if ready:break
         except OSError:pass
         time.sleep(.5)
@@ -37,4 +37,4 @@ except Exception:
     (root/'maintenance').unlink(missing_ok=True)
     raise
 (root/'maintenance').unlink(missing_ok=True)
-print('API 0.3.0-preview and room adapter deployed; previous files: '+str(backup))
+print('API 0.3.1-preview and room adapter deployed; previous files: '+str(backup))

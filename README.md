@@ -1,12 +1,12 @@
 # Classic Tavern 服务化仓库
 
-状态：服务化预览版0.3.0已实现并部署到 https://bjckwrn.xyz:21111 。游戏规则基于v0.61.0。上线验证范围与限制见[部署报告](docs/DEPLOYED.md)，不把短时测试当作长期稳定性保证。
+状态：服务化预览版0.3.1已实现并部署到 https://bjckwrn.xyz:21111 。游戏规则基于v0.61.1。上线验证范围与限制见[部署报告](docs/DEPLOYED.md)，不把短时测试当作长期稳定性保证。
 
-**当前发布记录（2026-09-26）：** 21111 TLS入口为`https://bjckwrn.xyz:21111`，客户端service7、Android版本code=7。该端口已通过外部HTTPS/WSS登录、好友开局及断线托管重连测试。原80/443域名入口曾遭腾讯云webblock拦截，保留历史记录；非80端口不免除ICP备案义务，也不能保证不会被后续拦截，见[腾讯云说明](https://cloud.tencent.com/document/api/243/19630)。
+**当前发布记录（2026-09-27）：** 21111 TLS入口为`https://bjckwrn.xyz:21111`，客户端service8、Android版本code=8。新增对局简要说明、可选右键买卖、直接出售手牌随从和拖拽位置跟随修复，见 [#34–36 验证报告](docs/ISSUES34-36.md)。该端口已通过外部HTTPS/WSS登录、好友开局及断线托管重连测试；本次新增公网手牌出售回归。原80/443域名入口曾遭腾讯云webblock拦截，保留历史记录；非80端口不免除ICP备案义务，也不能保证不会被后续拦截，见[腾讯云说明](https://cloud.tencent.com/document/api/243/19630)。
 
 目标：固定4张云服桌，好友房间和在线积分匹配共享，每桌8席、合计32席。两模式均支持托管重连，账号数据存云服，每日加密备份到指定本地电脑。大厅/队列上限另设，32席不代表已压测容量。
 
-游戏基线：v0.61.0。完整源码已统一到私有 [classic-tavern-game/main](https://github.com/bjckbjckbjck-ai/classic-tavern-game)，本地 `D:/ai/codex/新联机炉石战棋`。本仓独立维护后端框架；候选游戏提交见 config/game-source.json，实际上线提交见 config/release-manifest.json。
+游戏基线：v0.61.1。完整源码已统一到私有 [classic-tavern-game/main](https://github.com/bjckbjckbjck-ai/classic-tavern-game)，本地 `D:/ai/codex/新联机炉石战棋`。本仓独立维护后端框架；候选游戏提交见 config/game-source.json，实际上线提交见 config/release-manifest.json。
 
 - [实施计划与验收](docs/IMPLEMENTATION_PLAN.md)
 - [服务器交接与部署约定](docs/DEPLOYMENT.md)
