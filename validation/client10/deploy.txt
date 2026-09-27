@@ -1,0 +1,2 @@
+New room allocation paused. Existing games continue.
+{"deployed": "756a202faff843dc9ef47492b7e356abc1097e49", "health": {"status": "ok", "protocol": "allstars-0.63.1-service-4", "tables": 4, "game": "0.63.1", "service": "0.3.2-preview"}, "server_files": 98, "rollback": "/opt/classic-tavern/rollback-game-1790527294258190228", "maintenance": true}

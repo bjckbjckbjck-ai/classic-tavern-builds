@@ -1,3 +1,5 @@
+当前发布：2026-09-28，游戏 v0.63.1 / 云端客户端 service10，入口 https://bjckwrn.xyz:21111 。伙伴、任务默认关闭，可由好友房房主独立开启；饰品和畸变仍可设置。详见 [service10 发布记录](docs/SERVICE10-v0631.md)。以下 service9 信息为历史记录。
+
 # Classic Tavern 服务化仓库
 
 状态：服务化预览版0.3.2已部署到 https://bjckwrn.xyz:21111 。游戏规则v0.62.0，云端客户端service9；十种族全开、133项选定内容及原创伙伴任务已上线。当前验证与限制见[service9部署记录](docs/SERVICE9-v062.md)，不把短时测试当作长期稳定性保证。

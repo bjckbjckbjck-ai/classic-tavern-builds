@@ -1,7 +1,7 @@
 extends Node
 signal completed
-const VERSION="0.62.0-service9"
-const BUILD=9
+const VERSION="0.63.1-service10"
+const BUILD=10
 const BASE="https://bjckwrn.xyz:21111/downloads/"
 const REPO="https://bjckwrn.xyz:21111"
 var busy=false

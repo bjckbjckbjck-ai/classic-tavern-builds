@@ -10,7 +10,7 @@ from argon2.exceptions import VerificationError
 ROOT = Path(os.environ.get('TAVERN_DATA', 'runtime')).resolve()
 ROOT.mkdir(parents=True, exist_ok=True)
 DB = ROOT / 'accounts.sqlite3'
-VERSION = 'allstars-0.62.0-service-3'
+VERSION = 'allstars-0.63.1-service-4'
 KEY = os.environ.get('TAVERN_TICKET_KEY', '')
 LOCK = threading.RLock()
 PH = PasswordHasher(time_cost=2, memory_cost=19456, parallelism=1)
@@ -216,7 +216,7 @@ async def limits(request,call_next):
     return response
 
 @app.get('/api/health')
-def health(): return {'status':'ok','protocol':VERSION,'tables':4,'game':'0.62.0','service':'0.3.2-preview'}
+def health(): return {'status':'ok','protocol':VERSION,'tables':4,'game':'0.63.1','service':'0.3.2-preview'}
 
 @app.post('/api/register')
 def register(request:Request, body:dict):

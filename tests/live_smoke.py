@@ -3,7 +3,7 @@ import asyncio,json,secrets,time,os
 from pathlib import Path
 import httpx,websockets
 BASE=os.environ.get('TAVERN_TEST_BASE','https://bjckwrn.xyz:21111')
-PROTO='allstars-0.62.0-service-3'
+PROTO='allstars-0.63.1-service-4'
 root=Path(__file__).resolve().parents[1]
 async def run():
     users=[]
@@ -55,6 +55,9 @@ async def run():
             assert all('hand' not in p and 'shop' not in p for p in s0['players'])
             assert s0['phase']=='lobby'
             await act(sockets[0],'room_anomaly',0)
+            await act(sockets[0],'room_buddies')
+            await act(sockets[0],'room_quests')
+            s0=await state(sockets[0],lambda s:s.get('buddies_enabled') and s.get('quests_enabled'))
             await act(sockets[0],'room_start')
             s0=await state(sockets[0],lambda s:s['phase']=='hero_select')
             s1=await state(sockets[1],lambda s:s['phase']=='hero_select')

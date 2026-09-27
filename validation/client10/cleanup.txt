@@ -1,0 +1,2 @@
+Removed exactly 5 QA accounts; retained accounts: 4
+{"maintenance": false, "accounts": 4, "rooms": [], "queued": 0}

@@ -4,7 +4,7 @@ from pathlib import Path
 import httpx,websockets
 
 BASE=os.environ.get('TAVERN_TEST_BASE','https://bjckwrn.xyz:21111')
-PROTO='allstars-0.62.0-service-3'
+PROTO='allstars-0.63.1-service-4'
 async def run():
     sockets=[];users=[]
     async with httpx.AsyncClient(base_url=BASE,timeout=20,trust_env=False) as api:

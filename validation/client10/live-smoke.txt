@@ -1,0 +1,1 @@
+{"https_login": true, "start_then_hero_draft": true, "v62_buddy_choice": true, "private_snapshots": true, "independent_recruit_purchase": true, "reconnect_same_seat": true, "takeover_without_boss_perks": true, "room_id": "91861f893fa5934581858ae9"}

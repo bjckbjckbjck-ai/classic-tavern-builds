@@ -2,7 +2,7 @@ extends SceneTree
 
 const DB=preload("res://scripts/catalog.gd")
 const RULES=preload("res://scripts/rules.gd")
-const PROTOCOL="allstars-0.62.0-service-3"
+const PROTOCOL="allstars-0.63.1-service-4"
 var catalog=DB.new()
 var game=RULES.new(catalog)
 var listener=TCPServer.new()
@@ -236,6 +236,8 @@ func action(peer:Dictionary,packet:Dictionary):
 				if index<0 and not p.is_empty():game.players.erase(p)
 			"room_start":start_draft()
 			"room_trinkets":game.trinkets_enabled=not game.trinkets_enabled
+			"room_buddies":game.buddies_enabled=not game.buddies_enabled
+			"room_quests":game.quests_enabled=not game.quests_enabled
 			"room_difficulty":game.ai_difficulty=1+game.ai_difficulty%3
 			"room_anomaly":
 				if index>=0 and index<RULES.ANOMALY.OPTIONS.size():game.anomaly_mode=RULES.ANOMALY.OPTIONS[index]

@@ -2,7 +2,7 @@
 import asyncio,json,secrets,os
 from pathlib import Path
 import httpx,websockets
-BASE=os.environ.get('TAVERN_TEST_BASE','https://bjckwrn.xyz:21111');PROTO='allstars-0.62.0-service-3'
+BASE=os.environ.get('TAVERN_TEST_BASE','https://bjckwrn.xyz:21111');PROTO='allstars-0.63.1-service-4'
 async def run():
     async with httpx.AsyncClient(base_url=BASE,timeout=20,trust_env=False) as c:
         headers=[];users=[]
@@ -62,10 +62,10 @@ async def run():
                             continue
                         assert s['ai_difficulty']==3 and len(s['players'])==8
                         assert sum(p['bot'] for p in s['players'])==6
-                        assert s['me'].get('buddy_id')
+                        assert not s['buddies_enabled'] and not s['quests_enabled'] and not s['me'].get('buddy_id')
                         return s
             states=await asyncio.wait_for(asyncio.gather(*(recruiting(ws) for ws in sockets)),40)
-            identity=states[1]['me']['id'];buddy=states[1]['me']['buddy_id']
+            identity=states[1]['me']['id'];buddy=states[1]['me'].get('buddy_id')
             await sockets[1].close();await asyncio.sleep(1)
             async def takeover():
                 while True:
@@ -76,8 +76,8 @@ async def run():
             sockets[1]=await websockets.connect(os.environ.get('TAVERN_TEST_WS',BASE.replace('https','wss')+'/play/{slot}').format(slot=t['slot']),max_size=16*1024*1024,close_timeout=2,proxy=None)
             await sockets[1].send(json.dumps({'ticket':t['ticket']}))
             recovered=await asyncio.wait_for(recruiting(sockets[1]),20)
-            assert recovered['me']['id']==identity and recovered['me']['buddy_id']==buddy and not recovered['me']['bot']
-            print(json.dumps({'waited_60_seconds':True,'queue_count':2,'one_consent_does_not_split':True,'same_room':True,'highest_ai':True,'humans':2,'bots':6,'old_protocol_rejected':True,'ranked_reconnect_same_seat_and_buddy':True}))
+            assert recovered['me']['id']==identity and recovered['me'].get('buddy_id')==buddy and not recovered['me']['bot']
+            print(json.dumps({'waited_60_seconds':True,'queue_count':2,'one_consent_does_not_split':True,'same_room':True,'highest_ai':True,'humans':2,'bots':6,'old_protocol_rejected':True,'ranked_reconnect_same_seat_optional_modes_off':True}))
         finally:
             for ws in sockets:await ws.close()
             for h in headers:

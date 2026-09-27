@@ -1,11 +1,11 @@
 {
   "repository": "https://github.com/bjckbjckbjck-ai/classic-tavern-game.git",
   "branch": "main",
-  "commit": "3a1bfd078e6d5610b9dd8c5c94c6cfbeea10afb4",
-  "server_content_sha256": "c3bb247e961c357d5bf680781039fbb936a7837df6187e491762508b5caf5886",
+  "commit": "756a202faff843dc9ef47492b7e356abc1097e49",
+  "server_content_sha256": "7798b8cea3a843241a8be943161e08c5a9a56ba0e8549e67811f6022ca26d18f",
   "adapter_sha256": {
-    "service_client.gd": "7ce95e4de6b0cb3d6a31e7c9bd9c6fe443be371e781869c33eb04f5e4c077482",
-    "service_server.gd": "06be6c37a538cc657af1f6daaf177666341c30f1383f78c3eddb02e20e12400f",
-    "service_updater.gd": "541b98d4765426323295affecfd245696c6a82207dcd4220e1a1c0c795c4a465"
+    "service_client.gd": "5fb934503fa0fa6c422a61025309aa1e3843dabf95e110d73403ad33a77f8f8a",
+    "service_server.gd": "301d1e3bacd08344e4c6b11a757209f757c8929a5d75206648df0a10d6f8d051",
+    "service_updater.gd": "40c6a1211a7efc060856d2c67c9e4d858ffbbd91a4b24667171f4118aa659566"
   }
 }
