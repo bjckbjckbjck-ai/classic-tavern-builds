@@ -2,7 +2,7 @@ extends SceneTree
 
 const DB=preload("res://scripts/catalog.gd")
 const RULES=preload("res://scripts/rules.gd")
-const PROTOCOL="allstars-0.61.0-service-2"
+const PROTOCOL="allstars-0.62.0-service-3"
 var catalog=DB.new()
 var game=RULES.new(catalog)
 var listener=TCPServer.new()

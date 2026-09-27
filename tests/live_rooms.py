@@ -4,7 +4,7 @@ from pathlib import Path
 import httpx,websockets
 
 BASE=os.environ.get('TAVERN_TEST_BASE','https://bjckwrn.xyz:21111')
-PROTO='allstars-0.61.0-service-2'
+PROTO='allstars-0.62.0-service-3'
 async def run():
     sockets=[];users=[]
     async with httpx.AsyncClient(base_url=BASE,timeout=20,trust_env=False) as api:
@@ -25,8 +25,16 @@ async def run():
         serial={}
         async def act(ws,action,index=-1,s=None):
             serial[ws]=serial.get(ws,0)+1
-            guard={} if not s else dict(serial=s['me'].get('action_serial',0),action=action,index=index,aim=-1,source=s['me']['shop'][index]['uid'] if action=='buy' else (s['me']['hand'][index]['uid'] if action=='sell_hand' else ''),target='')
+            zone={'buy':'shop','sell_hand':'hand','discover':'discover'}.get(action)
+            guard={} if not s else dict(serial=s['me'].get('action_serial',0),action=action,index=index,aim=-1,source=s['me'][zone][index]['uid'] if zone else '',target='')
             await ws.send(json.dumps(dict(type='action',serial=serial[ws],action=action,index=index,target=-1,guard=guard)))
+        async def choices(ws,s):
+            for _ in range(16):
+                if not s['me'].get('discover'):return s
+                before=s['me'].get('action_serial',0)
+                await act(ws,'discover',0,s)
+                s=await state(ws,lambda v:v['me'].get('action_serial',0)>before)
+            raise AssertionError('Opening choices did not settle')
         saved=Path(__file__).resolve().parents[1]/'secrets/rooms-qa-users.json'
         reuse=json.loads(saved.read_text()) if os.environ.get('TAVERN_QA_REUSE')=='1' else []
         for i in range(3):
@@ -44,11 +52,13 @@ async def run():
             s0=await state(players[0],lambda s:len(s['players'])==2);s1=await state(players[1])
             observer=await open_ticket(await call(2,'/api/spectate',{'protocol':PROTO,'room':room['id']}))
             view=await state(observer);assert view['spectating'] and view['me']['hero_offers']==[]
+            await act(players[0],'room_anomaly',0)
             await act(players[0],'room_start')
             for ws in players:
                 s=await state(ws,lambda s:s['phase']=='hero_select');await act(ws,'hero',int(s['me']['hero_offers'][0]),s)
             s0=await state(players[0],lambda s:s['phase']=='recruit')
             s1=await state(players[1],lambda s:s['phase']=='recruit')
+            s0=await choices(players[0],s0);s1=await choices(players[1],s1)
             # Some heroes start with spells in hand; sell the purchased minion by UID.
             sold_uid=s0['me']['shop'][0]['uid']
             await act(players[0],'buy',0,s0)

@@ -3,7 +3,7 @@ import asyncio,json,secrets,time,os
 from pathlib import Path
 import httpx,websockets
 BASE=os.environ.get('TAVERN_TEST_BASE','https://bjckwrn.xyz:21111')
-PROTO='allstars-0.61.0-service-2'
+PROTO='allstars-0.62.0-service-3'
 root=Path(__file__).resolve().parents[1]
 async def run():
     users=[]
@@ -36,9 +36,17 @@ async def run():
             serials[ws]=serials.get(ws,0)+1
             guard={}
             if s:
-                source=s['me']['shop'][index]['uid'] if action=='buy' else ''
+                zone={'buy':'shop','discover':'discover'}.get(action)
+                source=s['me'][zone][index]['uid'] if zone else ''
                 guard=dict(serial=s['me'].get('action_serial',0),action=action,index=index,aim=target,source=source,target='')
             await ws.send(json.dumps(dict(type='action',serial=serials[ws],action=action,index=index,target=target,guard=guard)))
+        async def choices(ws,s):
+            for _ in range(16):
+                if not s['me'].get('discover'):return s
+                before=s['me'].get('action_serial',0)
+                await act(ws,'discover',0,s=s)
+                s=await state(ws,lambda v:v['me'].get('action_serial',0)>before)
+            raise AssertionError('Opening choices did not settle')
         try:
             for i in range(2):sockets.append(await connect(i))
             s0=await state(sockets[0],lambda s:len(s['players'])==2)
@@ -46,12 +54,15 @@ async def run():
             assert s0['me']['id']!=uid
             assert all('hand' not in p and 'shop' not in p for p in s0['players'])
             assert s0['phase']=='lobby'
+            await act(sockets[0],'room_anomaly',0)
             await act(sockets[0],'room_start')
             s0=await state(sockets[0],lambda s:s['phase']=='hero_select')
             s1=await state(sockets[1],lambda s:s['phase']=='hero_select')
             for i,s in enumerate([s0,s1]):await act(sockets[i],'hero',int(s['me']['hero_offers'][0]),s=s)
             s0=await state(sockets[0],lambda s:s['phase']=='recruit')
             s1=await state(sockets[1],lambda s:s['phase']=='recruit')
+            s0=await choices(sockets[0],s0);s1=await choices(sockets[1],s1)
+            assert s0['me'].get('buddy_id') and s1['me'].get('buddy_id')
             await act(sockets[0],'ready',s=s0);await act(sockets[1],'ready',s=s1)
             s0=await state(sockets[0],lambda s:s['phase']=='combat')
             s1=await state(sockets[1],lambda s:s['phase']=='combat')
@@ -73,7 +84,9 @@ async def run():
             s1=await state(sockets[1],lambda s:s['phase'] in ['recruit','combat','finished'])
             assert s1['me']['id']==uid and not s1['me']['bot']
             assert s1['me']['coin_cap']==10
-            print(json.dumps({'https_login':True,'start_then_hero_draft':True,'private_snapshots':True,'independent_recruit_purchase':True,'reconnect_same_seat':True,'takeover_without_boss_perks':True,'room_id':room['id']},ensure_ascii=False))
+            print(json.dumps({'https_login':True,'start_then_hero_draft':True,'v62_buddy_choice':True,'private_snapshots':True,'independent_recruit_purchase':True,'reconnect_same_seat':True,'takeover_without_boss_perks':True,'room_id':room['id']},ensure_ascii=False))
         finally:
             for ws in sockets:await ws.close()
+            for i in range(len(users)):
+                await api.post('/api/leave',headers=headers(i),json={'room':room['id'],'permanent':True})
 asyncio.run(run())
