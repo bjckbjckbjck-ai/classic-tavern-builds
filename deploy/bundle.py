@@ -1,21 +1,17 @@
 """Create a whitelisted bundle; never archive secrets or the whole workspace."""
-import json,re,tarfile,sys,hashlib
+import json,tarfile,sys,hashlib,io
+from game_source import GameSource
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 game=Path(sys.argv[1]).resolve()
 binary=Path(sys.argv[2]).resolve()
 out=root/'artifacts';out.mkdir(exist_ok=True)
-files=set();todo=['scripts/service_server.gd']
-while todo:
-    rel=todo.pop()
-    if rel in files:continue
-    p=game/rel
-    if not p.is_file():raise RuntimeError(rel)
-    files.add(rel)
-    if p.suffix=='.gd':
-        todo += [x for x in re.findall(r'res://([^"\n]+)',p.read_text(encoding='utf-8')) if '%' not in x and (game/x).is_file()]
-# Catalog loads JSON files through constructed paths as well.
-files.update(str(p.relative_to(game)).replace('\\','/') for p in (game/'data').glob('*.json') if p.name!='remote.json')
+pin=json.loads((root/'config/game-source.json').read_text())
+source=GameSource(game,pin['commit'])
+files=source.server_files()
+digest=hashlib.sha256()
+for rel in files:digest.update(rel.encode()+b'\0'+source.read(rel)+b'\0')
+if digest.hexdigest()!=pin['server_content_sha256']:raise RuntimeError('Pinned game source hash mismatch')
 project=out/'project.godot'
 project.write_text('config_version=5\n[application]\nconfig/name="Classic Tavern Server"\n[rendering]\nrenderer/rendering_method="gl_compatibility"\n',encoding='utf-8')
 with tarfile.open(out/'service.tar.gz','w:gz') as tar:
@@ -23,7 +19,10 @@ with tarfile.open(out/'service.tar.gz','w:gz') as tar:
         tar.add(root/name,arcname=name)
     for p in (root/'deploy').glob('*'):
         if p.is_file():tar.add(p,arcname='deploy/'+p.name)
-    for rel in sorted(files):tar.add(game/rel,arcname='game/'+rel)
+    for rel in files:
+        body=source.read(rel);entry=tarfile.TarInfo('game/'+rel);entry.size=len(body);entry.mode=0o644
+        tar.addfile(entry,io.BytesIO(body))
+    tar.add(root/'config/game-source.json',arcname='game-source.json')
     tar.add(project,arcname='game/project.godot')
     tar.add(binary,arcname='godot')
 print(json.dumps({'files':len(files),'bytes':(out/'service.tar.gz').stat().st_size,'sha256':hashlib.sha256((out/'service.tar.gz').read_bytes()).hexdigest()}))

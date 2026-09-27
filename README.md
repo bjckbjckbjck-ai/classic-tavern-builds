@@ -1,12 +1,12 @@
 # Classic Tavern 服务化仓库
 
-状态：服务化预览版0.2.0已实现并部署到 https://bjckwrn.xyz:21111 。游戏规则基于v0.61.0。上线验证范围与限制见[部署报告](docs/DEPLOYED.md)，不把短时测试当作长期稳定性保证。
+状态：服务化预览版0.3.0已实现并部署到 https://bjckwrn.xyz:21111 。游戏规则基于v0.61.0。上线验证范围与限制见[部署报告](docs/DEPLOYED.md)，不把短时测试当作长期稳定性保证。
 
-**当前入口（2026-09-25）：** 按用户要求增加21111 TLS监听，客户端更新为`https://bjckwrn.xyz:21111`，Android版本code=3。该端口已通过外部HTTPS/WSS登录、好友开局及断线托管重连测试。原80/443域名入口曾遭腾讯云webblock拦截，保留历史记录；非80端口不免除ICP备案义务，也不能保证不会被后续拦截，见[腾讯云说明](https://cloud.tencent.com/document/api/243/19630)。
+**当前发布记录（2026-09-26）：** 21111 TLS入口为`https://bjckwrn.xyz:21111`，客户端service7、Android版本code=7。该端口已通过外部HTTPS/WSS登录、好友开局及断线托管重连测试。原80/443域名入口曾遭腾讯云webblock拦截，保留历史记录；非80端口不免除ICP备案义务，也不能保证不会被后续拦截，见[腾讯云说明](https://cloud.tencent.com/document/api/243/19630)。
 
 目标：固定4张云服桌，好友房间和在线积分匹配共享，每桌8席、合计32席。两模式均支持托管重连，账号数据存云服，每日加密备份到指定本地电脑。大厅/队列上限另设，32席不代表已压测容量。
 
-游戏基线：v0.61.0，源码提交 `75fc987`，Godot 4.6.1。2026-09-24 通过 GitHub API 确认公开 latest 为 v0.61.0。本地游戏源码位于 `D:/ai/codex/新联机炉石战棋`；原仓库无 remote，公开 `bjckbjckbjck-ai/classic-tavern-builds` 是发行仓，不能当作完整游戏源码拉取。
+游戏基线：v0.61.0。完整源码已统一到私有 [classic-tavern-game/main](https://github.com/bjckbjckbjck-ai/classic-tavern-game)，本地 `D:/ai/codex/新联机炉石战棋`。本仓独立维护后端框架；候选游戏提交见 config/game-source.json，实际上线提交见 config/release-manifest.json。
 
 - [实施计划与验收](docs/IMPLEMENTATION_PLAN.md)
 - [服务器交接与部署约定](docs/DEPLOYMENT.md)
@@ -16,7 +16,7 @@
 
 本仓库包含Python/FastAPI账号与调度服务、SQLite WAL数据库、部署/灾备工具、服务测试及Godot适配代码。固定单机4桌阶段采用SQLite事务和一致性备份，替代初始Node/PostgreSQL方案；线上HTTPS/WSS入口使用Nginx+Certbot。Godot仍是唯一权威规则实现，没有在后端重写卡牌逻辑。
 
-独立本地工作区对应GitHub的service-platform独立历史分支；不更改3d/main。服务化游戏适配在本地service-integration分支开发；本仓game_adapter保留适配文件/补丁与基线说明。不上传用户数据、密钥、数据库或备份。
+本地服务工作区对应 GitHub 的 service-platform 分支。游戏内容、客户端公共框架（含音效）和 Godot 云端适配在统一游戏 main 按模块维护；game_adapter 是生成快照，禁止手改。参阅 [游戏与服务更新](docs/GAME_UPDATES.md)。
 
 ## Issue #33 更新（2026-09-26）
 
